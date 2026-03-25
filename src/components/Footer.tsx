@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-bg-secondary mt-20 pb-24 md:pb-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div>
             <h3 className="text-gold font-bold text-lg tracking-wide mb-4">
               LONDON BOTTLE SERVICE
@@ -15,9 +15,9 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="md:col-span-2">
+          <div>
             <h4 className="text-text-primary font-semibold mb-4">Clubs</h4>
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-2">
+            <ul className="space-y-2">
               {clubs.map((club) => (
                 <li key={club.slug}>
                   <Link
@@ -32,16 +32,30 @@ export function Footer() {
           </div>
 
           <div>
+            <h4 className="text-text-primary font-semibold mb-4">Table Booking</h4>
+            <ul className="space-y-2">
+              <li><Link href="/book-a-table" className="text-text-muted hover:text-gold transition-colors text-sm font-medium">Book a Table</Link></li>
+              <li><Link href="/tape-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-sm">Tape London</Link></li>
+              <li><Link href="/cirque-le-soir-table-booking" className="text-text-muted hover:text-gold transition-colors text-sm">Cirque Le Soir</Link></li>
+              <li><Link href="/cuckoo-club-table-booking" className="text-text-muted hover:text-gold transition-colors text-sm">Cuckoo Club</Link></li>
+              <li><Link href="/maddox-club-table-booking" className="text-text-muted hover:text-gold transition-colors text-sm">Maddox</Link></li>
+              <li><Link href="/the-box-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-sm">The Box</Link></li>
+              <li><Link href="/tabu-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-sm">Tabu London</Link></li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="text-text-primary font-semibold mb-4">Guides</h4>
             <ul className="space-y-2">
               <li><Link href="/bottle-service-guide" className="text-text-muted hover:text-gold transition-colors text-sm">What is Bottle Service?</Link></li>
-              <li><Link href="/clubs-by-night" className="text-text-muted hover:text-gold transition-colors text-sm">Clubs by Night of the Week</Link></li>
+              <li><Link href="/clubs-by-night" className="text-text-muted hover:text-gold transition-colors text-sm">Clubs by Night</Link></li>
               <li><Link href="/best-clubs-bottle-service-london" className="text-text-muted hover:text-gold transition-colors text-sm">Best Clubs for Bottle Service</Link></li>
               <li><Link href="/blog" className="text-text-muted hover:text-gold transition-colors text-sm">Blog</Link></li>
-              <li><Link href="/contact" className="text-text-muted hover:text-gold transition-colors text-sm">Book a Table</Link></li>
             </ul>
+          </div>
 
-            <h4 className="text-text-primary font-semibold mb-4 mt-6">Contact</h4>
+          <div>
+            <h4 className="text-text-primary font-semibold mb-4">Contact</h4>
             <p className="text-text-muted text-sm mb-2">
               The fastest way to book is via WhatsApp. We typically respond within minutes.
             </p>

@@ -4,13 +4,15 @@ import { getWhatsAppLink } from "@/data/clubs";
 
 interface WhatsAppCTAProps {
   clubName?: string;
-  variant?: "primary" | "sticky";
+  variant?: "primary" | "sticky" | "banner";
+  urgencyMessage?: string;
   className?: string;
 }
 
 export function WhatsAppCTA({
   clubName,
   variant = "primary",
+  urgencyMessage,
   className = "",
 }: WhatsAppCTAProps) {
   const link = getWhatsAppLink(clubName);
@@ -18,6 +20,9 @@ export function WhatsAppCTA({
   if (variant === "sticky") {
     return (
       <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-bg-primary/90 backdrop-blur-md border-t border-border md:hidden">
+        {urgencyMessage && (
+          <p className="text-center text-xs text-gold mb-2 font-medium">{urgencyMessage}</p>
+        )}
         <a
           href={link}
           target="_blank"
@@ -31,16 +36,42 @@ export function WhatsAppCTA({
     );
   }
 
+  if (variant === "banner") {
+    return (
+      <div className="w-full py-8 px-4 border-y border-gold/20 bg-gold/5">
+        <div className="max-w-3xl mx-auto text-center">
+          {urgencyMessage && (
+            <p className="text-gold text-sm font-medium mb-3">{urgencyMessage}</p>
+          )}
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`inline-flex items-center gap-2 py-4 px-10 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold rounded-lg transition-colors text-lg ${className}`}
+          >
+            <WhatsAppIcon />
+            {clubName ? `Book Your Table at ${clubName} Now` : "Book Your Table Now on WhatsApp"}
+          </a>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <a
-      href={link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`inline-flex items-center gap-2 py-3.5 px-8 bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold rounded-lg transition-colors text-base ${className}`}
-    >
-      <WhatsAppIcon />
-      {clubName ? `Book at ${clubName}` : "Book a Table on WhatsApp"}
-    </a>
+    <span>
+      {urgencyMessage && (
+        <span className="block text-gold text-xs font-medium mb-2">{urgencyMessage}</span>
+      )}
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`inline-flex items-center gap-2 py-3.5 px-8 bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold rounded-lg transition-colors text-base ${className}`}
+      >
+        <WhatsAppIcon />
+        {clubName ? `Book at ${clubName}` : "Book a Table on WhatsApp"}
+      </a>
+    </span>
   );
 }
 

@@ -6,6 +6,7 @@ import { blogContent } from "@/data/blogContent";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -80,6 +81,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   return (
     <>
       <FAQSchema faqs={post.faqs} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://londonbottleservice.com" },
+          { name: "Blog", url: "https://londonbottleservice.com/blog" },
+          { name: post.title },
+        ]}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}

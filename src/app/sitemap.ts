@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { allClubs, isClosedClub } from "@/data/clubs";
 import { blogPosts } from "@/data/blog";
+import { bookingPages } from "@/data/bookingPages";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://londonbottleservice.com";
@@ -10,6 +11,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(),
     changeFrequency: isClosedClub(club.slug) ? ("monthly" as const) : ("weekly" as const),
     priority: isClosedClub(club.slug) ? 0.4 : 0.9,
+  }));
+
+  const bookingPageUrls = bookingPages.map((page) => ({
+    url: `${baseUrl}/${page.bookingSlug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.95,
   }));
 
   const blogPages = blogPosts.map((post) => ({
@@ -26,6 +34,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1,
     },
+    {
+      url: `${baseUrl}/book-a-table`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    ...bookingPageUrls,
     ...clubPages,
     {
       url: `${baseUrl}/clubs/luxx-club-london`,
@@ -58,11 +73,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...blogPages,
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
   ];
 }

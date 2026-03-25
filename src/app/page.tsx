@@ -2,6 +2,8 @@ import { clubs } from "@/data/clubs";
 import { ClubCard } from "@/components/ClubCard";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import { TrustBadges } from "@/components/TrustBadges";
 
 const homeFAQs = [
   {
@@ -35,6 +37,7 @@ export default function HomePage() {
   return (
     <>
       <FAQSchema faqs={homeFAQs} />
+      <BreadcrumbSchema items={[{ name: "Home" }]} />
 
       {/* Hero */}
       <section className="relative py-20 md:py-32 px-4">
@@ -99,6 +102,13 @@ export default function HomePage() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Trust Badges */}
+      <section className="py-10 px-4 border-t border-border bg-bg-secondary">
+        <div className="max-w-4xl mx-auto">
+          <TrustBadges />
         </div>
       </section>
 

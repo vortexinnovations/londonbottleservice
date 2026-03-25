@@ -52,6 +52,9 @@ export function Header() {
             <Link href="/blog" className="text-text-secondary hover:text-gold transition-colors">
               Blog
             </Link>
+            <Link href="/book-a-table" className="text-text-secondary hover:text-gold transition-colors">
+              Book a Table
+            </Link>
             <a
               href={getWhatsAppLink()}
               target="_blank"
@@ -97,7 +100,7 @@ export function Header() {
             <Link href="/clubs-by-night" onClick={() => setIsMenuOpen(false)} className="block text-text-secondary hover:text-gold transition-colors py-1">Clubs by Night</Link>
             <Link href="/best-clubs-bottle-service-london" onClick={() => setIsMenuOpen(false)} className="block text-text-secondary hover:text-gold transition-colors py-1">Best Clubs</Link>
             <Link href="/blog" onClick={() => setIsMenuOpen(false)} className="block text-text-secondary hover:text-gold transition-colors py-1">Blog</Link>
-            <Link href="/contact" onClick={() => setIsMenuOpen(false)} className="block text-text-secondary hover:text-gold transition-colors py-1">Contact</Link>
+            <Link href="/book-a-table" onClick={() => setIsMenuOpen(false)} className="block text-text-secondary hover:text-gold transition-colors py-1">Book a Table</Link>
             <a
               href={getWhatsAppLink()}
               target="_blank"

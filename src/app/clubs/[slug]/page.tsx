@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { clubs, allClubs, getClubBySlug, isClosedClub } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 
 interface ClubPageProps {
   params: Promise<{ slug: string }>;
@@ -74,6 +75,13 @@ export default async function ClubPage({ params }: ClubPageProps) {
   return (
     <>
       <FAQSchema faqs={club.faqs} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://londonbottleservice.com" },
+          { name: "Clubs", url: "https://londonbottleservice.com/clubs" },
+          { name: club.name },
+        ]}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(nightclubSchema) }}
@@ -251,11 +259,21 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               Book Your Table at {club.name}
             </h2>
-            <p className="text-text-muted mb-8">
+            <p className="text-text-muted mb-6">
               Message us on WhatsApp with your date and group size. We&apos;ll confirm
               your table directly with {club.name}, usually within minutes.
             </p>
-            <WhatsAppCTA clubName={club.name} />
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <WhatsAppCTA clubName={club.name} />
+              {club.bookingSlug && (
+                <Link
+                  href={`/${club.bookingSlug}`}
+                  className="inline-flex items-center gap-2 py-3.5 px-8 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors text-base"
+                >
+                  View Booking Details &rarr;
+                </Link>
+              )}
+            </div>
           </div>
         </section>
       )}

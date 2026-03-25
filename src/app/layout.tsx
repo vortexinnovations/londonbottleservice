@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { LocalBusinessSchema } from "@/components/LocalBusinessSchema";
+import { OrganizationSchema } from "@/components/OrganizationSchema";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -55,6 +56,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <LocalBusinessSchema />
+        <OrganizationSchema />
         <Header />
         <main>{children}</main>
         <Footer />

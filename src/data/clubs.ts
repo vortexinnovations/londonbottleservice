@@ -5,6 +5,7 @@ export interface ClubPricing {
 
 export interface Club {
   slug: string;
+  bookingSlug?: string;
   name: string;
   shortName: string;
   tagline: string;
@@ -40,6 +41,7 @@ export function getWhatsAppLink(clubName?: string): string {
 export const clubs: Club[] = [
   {
     slug: "cirque-le-soir",
+    bookingSlug: "cirque-le-soir-table-booking",
     name: "Cirque Le Soir",
     shortName: "Cirque",
     tagline: "London's most theatrical nightclub experience",
@@ -107,6 +109,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "tape-london",
+    bookingSlug: "tape-london-table-booking",
     name: "Tape London",
     shortName: "Tape",
     tagline: "Mayfair's most exclusive members' club nightlife experience",
@@ -174,6 +177,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "cuckoo-club",
+    bookingSlug: "cuckoo-club-table-booking",
     name: "Cuckoo Club",
     shortName: "Cuckoo",
     tagline: "Two floors of Mayfair nightlife done right",
@@ -242,6 +246,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "maddox",
+    bookingSlug: "maddox-club-table-booking",
     name: "Maddox",
     shortName: "Maddox",
     tagline: "Where Mayfair dining meets late-night clubbing",
@@ -310,6 +315,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "tabu-london",
+    bookingSlug: "tabu-london-table-booking",
     name: "Tabu London",
     shortName: "Tabu",
     tagline: "Japanese-inspired underground clubbing in Mayfair",
@@ -377,6 +383,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "london-reign",
+    bookingSlug: "reign-london-table-booking",
     name: "London Reign",
     shortName: "Reign",
     tagline: "Mayfair's most extravagant showclub",
@@ -445,6 +452,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "selene-london",
+    bookingSlug: "selene-london-table-booking",
     name: "Selene London",
     shortName: "Selene",
     tagline: "Mayfair's newest multi-room club with bowling",
@@ -512,6 +520,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "funky-buddha",
+    bookingSlug: "funky-buddha-table-booking",
     name: "Funky Buddha",
     shortName: "Funky Buddha",
     tagline: "The iconic Mayfair name returns with a fresh identity",
@@ -580,6 +589,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "scotch-of-st-james",
+    bookingSlug: "scotch-of-st-james-table-booking",
     name: "Scotch of St James",
     shortName: "Scotch",
     tagline: "London's most iconic underground music venue reborn",
@@ -647,6 +657,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "dear-darling",
+    bookingSlug: "dear-darling-table-booking",
     name: "Dear Darling",
     shortName: "Dear Darling",
     tagline: "Mayfair's stylish newcomer with serious late-night energy",
@@ -714,6 +725,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "beat-london",
+    bookingSlug: "beat-london-table-booking",
     name: "BEAT London",
     shortName: "BEAT",
     tagline: "Underground-inspired electronic music in the heart of London",
@@ -781,6 +793,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "the-box",
+    bookingSlug: "the-box-london-table-booking",
     name: "The Box",
     shortName: "The Box",
     tagline: "London's most provocative and boundary-pushing nightclub",
@@ -849,6 +862,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "luna-club-london",
+    bookingSlug: "luna-club-london-table-booking",
     name: "Luna Club London",
     shortName: "Luna",
     tagline: "Mayfair's sleek late-night destination for the well-connected",
