@@ -584,6 +584,480 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "best-hip-hop-clubs-mayfair-bottle-service",
+    title: "Best Hip-Hop Clubs in Mayfair for Bottle Service",
+    metaTitle: "Best Hip-Hop Clubs in Mayfair | VIP Tables & Bottle Service",
+    metaDescription:
+      "The definitive ranking of Mayfair's best hip-hop clubs for bottle service. Compare Tabu, Luna, Cuckoo, Funky Buddha, and Cirque — music policies, crowds, pricing, and which club suits your sub-genre.",
+    excerpt:
+      "Not all hip-hop clubs in Mayfair are the same. From underground Japanese-inspired venues to circus-themed clubs, here's how every hip-hop option actually compares.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "best hip hop clubs Mayfair",
+      "hip hop bottle service London",
+      "RnB clubs Mayfair",
+      "Afrobeats clubs London",
+    ],
+    relatedClubs: ["tabu-london", "luna-club-london", "cuckoo-club", "funky-buddha"],
+    faqs: [
+      {
+        question: "Which Mayfair club is best for hip-hop?",
+        answer:
+          "Tabu London is the best dedicated hip-hop club in Mayfair, with a Japanese-inspired underground aesthetic and a music policy that balances mainstream hits with deeper cuts. Luna Club London is the strongest alternative — sleek, reliable, and consistently delivers a quality hip-hop night.",
+      },
+      {
+        question: "Do any Mayfair clubs play Afrobeats?",
+        answer:
+          "Yes — Tabu London, Luna Club London, and Funky Buddha all incorporate Afrobeats into their sets. Tabu and Luna weave it into their hip-hop and RnB rotation, while Funky Buddha's open-format policy means Afrobeats features regularly alongside other genres.",
+      },
+      {
+        question: "How much is bottle service at a hip-hop club in Mayfair?",
+        answer:
+          "Most hip-hop clubs in Mayfair start from £1,000 minimum spend for a floor table and £2,000 for VIP. This is consistent across Tabu, Luna, Cuckoo Club, and Funky Buddha. Cirque Le Soir is also £1,000 for floor tables.",
+      },
+      {
+        question: "Which Mayfair club plays UK rap?",
+        answer:
+          "Tabu London has the strongest UK rap presence in its rotation, followed by Luna Club London. Both DJs incorporate UK drill, grime, and UK rap alongside US hip-hop and RnB. Cuckoo Club's basement also features UK rap regularly.",
+      },
+      {
+        question: "Can I hear house music at a hip-hop club in Mayfair?",
+        answer:
+          "Cuckoo Club is the best option — the basement plays hip-hop while the upstairs floor plays house and tech house. This makes it ideal for mixed groups. If you want pure house music, try Maddox or BEAT London instead.",
+      },
+    ],
+  },
+  {
+    slug: "saturday-night-mayfair-table-booking-guide",
+    title: "Saturday Night in Mayfair: The Complete Table Booking Guide",
+    metaTitle: "Saturday Night Mayfair | Table Booking Guide & Best Clubs",
+    metaDescription:
+      "Everything you need to know about booking a table on Saturday night in Mayfair. Peak pricing, best clubs, how far ahead to book, and how to avoid common mistakes that ruin your night.",
+    excerpt:
+      "Saturday is the most expensive, most competitive, and most rewarding night in Mayfair. Here's how to navigate it properly — from pricing to timing to which clubs are worth the premium.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Guides",
+    readingTime: "8 min read",
+    keywords: [
+      "Saturday night Mayfair",
+      "best clubs Saturday London",
+      "Saturday table booking",
+      "Mayfair Saturday night out",
+    ],
+    relatedClubs: ["cirque-le-soir", "tape-london", "london-reign", "tabu-london"],
+    faqs: [
+      {
+        question: "How much more expensive is Saturday night in Mayfair?",
+        answer:
+          "Saturday minimums can be 20-50% higher than weeknight prices at some venues, particularly for premium table positions. A VIP table that costs £2,000 on Thursday might be £2,500-£3,000 on Saturday. Floor tables generally hold closer to their standard minimums.",
+      },
+      {
+        question: "How far in advance should I book a Saturday table?",
+        answer:
+          "Book at least 2-3 weeks in advance for most venues. Cirque Le Soir and Tape London can sell out 4-6 weeks ahead on Saturdays. Last-minute Saturday bookings are possible but you'll have limited choice of venue and table position.",
+      },
+      {
+        question: "Which Mayfair club is best on Saturday night?",
+        answer:
+          "Cirque Le Soir offers the most theatrical Saturday experience. London Reign has the biggest production with Las Vegas-style shows. Tape London is the most exclusive. Tabu London offers a strong hip-hop Saturday without the highest price tag. The best choice depends on your group's preferences.",
+      },
+      {
+        question: "What time should I arrive on Saturday?",
+        answer:
+          "Arrive between 10:30 PM and 11:30 PM. The venue opens at 10 PM but the atmosphere doesn't build until closer to 11. Arriving after midnight means you've missed the early-night energy and may find the venue at capacity. Your table is held for you regardless, but earlier arrival gets more value.",
+      },
+      {
+        question: "Can I get a last-minute Saturday table in Mayfair?",
+        answer:
+          "Sometimes. Cancellations happen and some venues hold back tables for late bookings. Message us on WhatsApp and we'll check availability across all venues. Being flexible on venue choice massively increases your chances of securing a same-week Saturday table.",
+      },
+    ],
+  },
+  {
+    slug: "stag-do-london-best-clubs-bachelor-party",
+    title: "Stag Do in London: Best Clubs for a Bachelor Party",
+    metaTitle: "Stag Do London Clubs | Best Venues for a Bachelor Party",
+    metaDescription:
+      "Planning a stag do in London? Our insider guide covers the best clubs, door policy for all-male groups, budget planning, and how to avoid the common mistakes that ruin stag nights.",
+    excerpt:
+      "A stag do at a Mayfair club can be legendary — or it can end at the door. Here's how to plan one that actually works, from venue choice to door policy to budget.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Events",
+    readingTime: "8 min read",
+    keywords: [
+      "stag do London clubs",
+      "bachelor party London",
+      "stag night Mayfair",
+      "best stag do venues London",
+    ],
+    relatedClubs: ["cirque-le-soir", "london-reign", "funky-buddha", "selene-london"],
+    faqs: [
+      {
+        question: "Can you do a stag do at a Mayfair club?",
+        answer:
+          "Yes, but you need to plan it properly. All-male groups face stricter door scrutiny at Mayfair clubs. Booking a table is essential — it guarantees entry and removes the biggest risk. Some venues are more stag-friendly than others, and we'll guide you to the right one.",
+      },
+      {
+        question: "How much does a stag do at a London club cost?",
+        answer:
+          "Budget £100-£200 per person. A table with £1,000-£2,000 minimum spend, split across 8-12 guests, covers drinks for the night. For a group of 10 at £1,500 minimum, that's £150 per person including all drinks, table, and entry. Add dinner beforehand and taxis for a complete budget.",
+      },
+      {
+        question: "Which London clubs are best for stag parties?",
+        answer:
+          "London Reign is the top choice — the Las Vegas-style shows give the night a focal point and the venue handles groups well. Cirque Le Soir adds theatrical flair. Funky Buddha is relaxed and welcoming to groups. Selene London works well for larger parties with its multi-room layout.",
+      },
+      {
+        question: "Will all-male groups get turned away at Mayfair clubs?",
+        answer:
+          "Without a table booking, yes — most Mayfair clubs will turn away large all-male groups, even well-dressed ones. With a table booking through us, your entry is guaranteed. We brief the venue on your group so the door team expects you. This is the single most important thing for a stag do.",
+      },
+      {
+        question: "Can we bring stag do props to a Mayfair club?",
+        answer:
+          "Keep props minimal and classy. A sash for the groom is fine at most venues. Inflatable items, L-plates, matching novelty t-shirts, and fancy dress will get you turned away. Mayfair clubs expect smart dress regardless of the occasion. Dress well, behave well, and the night will be memorable for the right reasons.",
+      },
+    ],
+  },
+  {
+    slug: "what-to-order-london-club-bottle-menu-guide",
+    title: "What to Order at a London Club: The Complete Bottle Menu Guide",
+    metaTitle: "What to Order at London Clubs | Bottle Menu & Spirits Guide",
+    metaDescription:
+      "Not sure what to order at a London club? Our complete guide to bottle menus — spirits, champagne, price ranges, best value options, and how to hit your minimum spend efficiently.",
+    excerpt:
+      "The bottle menu arrives and you're staring at 40 options ranging from £300 to £2,000. Here's exactly what to order, what to avoid, and how to get the best value from your minimum spend.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "what to order bottle service",
+      "London club bottle menu",
+      "best spirits for bottle service",
+      "vodka vs champagne club",
+    ],
+    relatedClubs: ["tape-london", "maddox", "cirque-le-soir", "the-box"],
+    faqs: [
+      {
+        question: "What is the best thing to order at a London club?",
+        answer:
+          "For most groups, a premium vodka (Grey Goose, Belvedere, or Ciroc) at £300-£500 is the best starting point — it's versatile, mixes with everything, and gives you roughly 20 drinks per bottle. Add a bottle of champagne (Moet at £350-£450) for a toast moment. Your waitress will help you balance the order.",
+      },
+      {
+        question: "How many bottles do I need for my group?",
+        answer:
+          "A standard 70cl bottle of spirits yields roughly 20 drinks. For a group of 6-8 moderate drinkers, two bottles of spirits plus a bottle of champagne typically hits a £1,000 minimum. Heavy drinkers or larger groups may need more. Your waitress will advise based on your minimum spend.",
+      },
+      {
+        question: "Is champagne worth ordering at a London club?",
+        answer:
+          "Champagne is less efficient per drink than spirits (6-7 glasses vs 20 drinks per bottle) but creates a visual and celebratory moment at the table. Most groups order one bottle of champagne alongside their spirits. For birthdays and celebrations, champagne is practically essential.",
+      },
+      {
+        question: "What should I NOT order at a London club?",
+        answer:
+          "Avoid ordering individual cocktails if you have a table — they're overpriced compared to bottle service. Don't over-order champagne if you're trying to stay near your minimum. And don't order bottom-shelf spirits to save money — the markup is similar but the quality difference is noticeable.",
+      },
+      {
+        question: "Can I order food at London clubs?",
+        answer:
+          "Most Mayfair clubs don't serve food beyond small snacks. Maddox is the notable exception — it has a full Italian restaurant that transitions into the club. If you want dinner and club combined, Maddox or London Reign (which offers a show-dinner format) are your best options.",
+      },
+    ],
+  },
+  {
+    slug: "best-house-music-clubs-london-bottle-service",
+    title: "Best Clubs in London for House Music & Bottle Service",
+    metaTitle: "Best House Music Clubs London | VIP Tables & Bottle Service",
+    metaDescription:
+      "The best London clubs for house music with VIP bottle service. Compare Maddox, Cuckoo Club, BEAT London, and Dear Darling — sound systems, DJ policies, sub-genres, and table prices.",
+    excerpt:
+      "If you want proper house music with the comfort of bottle service, your options in London are more limited than you'd think. Here are the clubs that actually deliver both.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "best house music clubs London",
+      "house music bottle service",
+      "tech house clubs London",
+      "deep house Mayfair",
+    ],
+    relatedClubs: ["maddox", "cuckoo-club", "beat-london", "dear-darling"],
+    faqs: [
+      {
+        question: "Which Mayfair club is best for house music?",
+        answer:
+          "Maddox is the best Mayfair club for house music. The music policy is sophisticated deep house and tech house, the dinner-to-club format gives the evening structure, and the sound system does the music justice. Cuckoo Club's upstairs floor is the strongest alternative within Mayfair.",
+      },
+      {
+        question: "Does BEAT London play house music?",
+        answer:
+          "Yes — BEAT London is the most electronic-focused club on the Mayfair circuit. It plays house, tech house, and electronic music with a proper sound system that rivals dedicated music venues. It also runs later than most clubs, often until 5-6 AM, which suits the house music crowd.",
+      },
+      {
+        question: "How much is bottle service at a house music club in London?",
+        answer:
+          "Tables at Maddox, Cuckoo Club, and Dear Darling start from £1,000 minimum spend. BEAT London starts from £1,000 as well. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
+      },
+      {
+        question: "What is the difference between deep house and tech house?",
+        answer:
+          "Deep house is smoother and more melodic — warm basslines, soulful vocals, a relaxed groove. Tech house is more driving and percussive — heavier beats, more energy, designed for peak-time dancing. Maddox leans towards deep house, BEAT London is more tech house, and Cuckoo's upstairs floor mixes both.",
+      },
+      {
+        question: "Are there any late-night house music clubs in London with bottle service?",
+        answer:
+          "BEAT London is the standout option, regularly running until 5-6 AM. Most Mayfair clubs close by 3-3:30 AM. If you want house music past 3 AM with a table, BEAT is your only premium option in the area.",
+      },
+    ],
+  },
+  {
+    slug: "where-to-sit-table-positioning-london-clubs",
+    title: "Where to Sit: Table Positioning Guide for London Clubs",
+    metaTitle: "Where to Sit at London Clubs | Table Positioning Guide",
+    metaDescription:
+      "A detailed guide to table positioning at London's top clubs. Learn which positions cost more, how to request specific spots, and club-by-club breakdowns for Cirque, Tape, Reign, and Cuckoo.",
+    excerpt:
+      "Not all tables are created equal. Your position inside the club shapes your entire night — from the energy around you to the price you pay. Here's how to choose wisely.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Tips",
+    readingTime: "6 min read",
+    keywords: [
+      "table positioning London clubs",
+      "best table position",
+      "where to sit nightclub",
+      "floor vs VIP table",
+      "table location",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "london-reign", "cuckoo-club"],
+    faqs: [
+      {
+        question: "Does table position affect the price at London clubs?",
+        answer:
+          "Yes. Elevated VIP tables and stage-adjacent positions carry higher minimum spends — typically £1,500–£3,000+ compared to £1,000 for standard floor tables. The best-positioned tables command a premium because they offer superior views, more privacy, or closer proximity to the action.",
+      },
+      {
+        question: "Can I request a specific table position when booking?",
+        answer:
+          "Absolutely. When you book through us, let us know your preference — dance floor adjacent, private booth, elevated VIP, or stage-view. We'll request your preferred position with the venue. Early bookings have the best chance of securing prime spots, especially on Saturdays.",
+      },
+      {
+        question: "What is the best table position at a London club?",
+        answer:
+          "It depends on what you want from the night. Dance floor tables put you in the centre of the energy. Elevated VIP gives you a commanding view and more exclusivity. Booths offer privacy for conversation. Stage-view tables at show clubs like Reign and Cirque give you the best entertainment experience.",
+      },
+      {
+        question: "What is the difference between floor tables and VIP tables?",
+        answer:
+          "Floor tables are on the main level among the crowd — great energy but less privacy. VIP tables are elevated or in a dedicated section with better views, more space, and a higher minimum spend. VIP typically starts at £1,500–£2,000 versus £1,000 for floor tables.",
+      },
+      {
+        question: "Which London clubs have the best VIP sections?",
+        answer:
+          "Tape London's intimate booths offer genuine privacy. Cirque Le Soir's stage-side VIP puts you next to the performers. London Reign's elevated VIP gives a panoramic view of the show. Cuckoo Club's upstairs VIP feels like a separate venue entirely. Each offers a distinct experience.",
+      },
+    ],
+  },
+  {
+    slug: "mayfair-night-out-dinner-drinks-club-itinerary",
+    title: "Planning a Night Out in Mayfair: Dinner, Drinks & Club Itinerary",
+    metaTitle: "Mayfair Night Out Itinerary | Dinner, Drinks & Club Guide",
+    metaDescription:
+      "Plan the perfect Mayfair evening from 7pm to 3am. Sample itineraries with dinner, pre-drinks, and club recommendations — including budget breakdowns and optimal timing.",
+    excerpt:
+      "A great Mayfair night doesn't start at the club door. The best evenings are planned from dinner onwards. Here are three complete itineraries — timed, priced, and tested.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Guides",
+    readingTime: "8 min read",
+    keywords: [
+      "Mayfair night out",
+      "dinner and club London",
+      "pre-drinks Mayfair",
+      "London evening itinerary",
+      "night out plan Mayfair",
+    ],
+    relatedClubs: ["maddox", "tape-london", "cuckoo-club", "dear-darling"],
+    faqs: [
+      {
+        question: "What time should I arrive at a Mayfair club?",
+        answer:
+          "Aim for 10:30 PM to 11:30 PM. Most clubs open at 10 PM but the atmosphere doesn't build until around 10:30. Arriving after midnight means the venue is already busy and you'll miss the early energy. If you have a table booking, 11 PM is the sweet spot.",
+      },
+      {
+        question: "Where should I eat before going to a Mayfair club?",
+        answer:
+          "Maddox offers a seamless dinner-to-club transition with its Italian restaurant upstairs. For standalone dining, Mayfair has dozens of excellent options within walking distance of the clubs. Budget £50–£100 per person for a proper pre-club dinner in the area.",
+      },
+      {
+        question: "How much does a full night out in Mayfair cost?",
+        answer:
+          "A complete Mayfair evening — dinner, pre-drinks, and bottle service — typically costs £200–£400 per person depending on your choices. The Sophisticate itinerary (dinner + club at Maddox) runs around £200–£250pp. The Explorer (Soho dinner + cocktails + Cirque) is £250–£350pp.",
+      },
+      {
+        question: "What are the best pre-drinks bars near Mayfair clubs?",
+        answer:
+          "For cocktails, try the bars along Heddon Street or around Shepherd Market. Soho is a short walk and offers everything from speakeasies to rooftop bars. Keep pre-drinks to 2–3 cocktails — you don't want to arrive at the club already too far gone.",
+      },
+      {
+        question: "Can I have dinner and then go to a club in the same venue?",
+        answer:
+          "Yes — Maddox is the standout option for this. Their Italian restaurant transitions directly into the club downstairs. It's the most seamless dinner-to-club experience in Mayfair. Some other venues offer pre-club dining arrangements on request.",
+      },
+    ],
+  },
+  {
+    slug: "london-club-age-policy-id-guide",
+    title: "London Club Age Policy & ID Guide: What You Need to Know",
+    metaTitle: "London Club Age Policy & ID Guide | Entry Requirements",
+    metaDescription:
+      "Everything you need to know about age policies and ID requirements at London clubs. Accepted ID types, international visitor guidance, and what the door teams actually look for.",
+    excerpt:
+      "Age policies at London clubs are straightforward on paper but nuanced in practice. Here's what ID you need, what happens if it's rejected, and why some 18+ clubs feel more like 25+.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Tips",
+    readingTime: "5 min read",
+    keywords: [
+      "London club age policy",
+      "ID for London clubs",
+      "age limit Mayfair clubs",
+      "club entry requirements London",
+      "what ID do I need",
+    ],
+    relatedClubs: ["cirque-le-soir", "tape-london", "cuckoo-club", "tabu-london"],
+    faqs: [
+      {
+        question: "What is the age limit for London clubs?",
+        answer:
+          "Most Mayfair clubs are legally 18+. However, the typical crowd skews 25–35, and door teams are more selective with younger-looking guests. Being 18 gets you through the legal requirement, but venues curate a mature crowd — so dress and conduct matter more the younger you look.",
+      },
+      {
+        question: "What ID do I need for London clubs?",
+        answer:
+          "Accepted ID: a valid passport, a UK or EU driving licence, or a PASS-accredited proof of age card. Student IDs, work IDs, and photocopies are NOT accepted at any Mayfair venue. Always bring a government-issued photo ID — no exceptions.",
+      },
+      {
+        question: "Can international visitors use foreign ID at London clubs?",
+        answer:
+          "A passport is the safest option for international visitors and is universally accepted. Some clubs accept foreign driving licences, but acceptance varies. If you're visiting from abroad, bring your passport — it removes any ambiguity at the door.",
+      },
+      {
+        question: "Do London clubs accept digital ID?",
+        answer:
+          "Most Mayfair clubs do not accept digital IDs or ID apps as of 2026. Physical government-issued photo ID is required. This may change over time, but for now, always bring a physical document. Don't rely on your phone.",
+      },
+      {
+        question: "Will I get ID'd at a London club if I look over 25?",
+        answer:
+          "Possibly. Door staff have a legal obligation and most venues operate a Challenge 25 policy — meaning if you could plausibly be under 25, they'll ask. Always carry your ID regardless of your age. Being caught without it means you won't get in, no matter how old you look.",
+      },
+    ],
+  },
+  {
+    slug: "best-london-clubs-large-groups",
+    title: "Best London Clubs for Large Groups (10-30+ People)",
+    metaTitle: "Best London Clubs for Large Groups | 10-30+ People Guide",
+    metaDescription:
+      "Planning a night out for 10, 20, or 30+ people? Our guide to the best London clubs for large groups — which venues handle big parties, how to configure tables, and budget per head.",
+    excerpt:
+      "Organising a large group night in London is a logistical challenge. The wrong venue turns it into a disaster. Here are the clubs that genuinely handle big groups well — and how to book them.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Events",
+    readingTime: "7 min read",
+    keywords: [
+      "large group clubs London",
+      "big group nightclub",
+      "20 people table booking",
+      "group night out London",
+      "party of 30 London club",
+    ],
+    relatedClubs: ["selene-london", "london-reign", "cirque-le-soir", "funky-buddha"],
+    faqs: [
+      {
+        question: "Which London club is best for large groups?",
+        answer:
+          "Selene London is the standout for large groups (20+) thanks to its multi-room layout including bowling lanes and multiple bar areas. London Reign handles big parties well with its large capacity and show format. For groups of 10–15, most Mayfair clubs work — it's groups of 20+ where venue choice becomes critical.",
+      },
+      {
+        question: "How much does a large group table booking cost in London?",
+        answer:
+          "For a group of 20 across two tables, budget £2,000–£3,000 total (£100–£150 per person). For 30+ across three or four tables, expect £3,000–£5,000+ depending on the venue and night. Larger groups actually get better per-person value because the minimum spend splits further.",
+      },
+      {
+        question: "Can London clubs accommodate 30+ people at tables?",
+        answer:
+          "Yes — Selene London, London Reign, and several other venues regularly host groups of 30+. You'll need multiple adjacent tables, which we coordinate with the venue. Book early (3–4 weeks ahead for Saturdays) to secure grouped table positions.",
+      },
+      {
+        question: "How do you split the bill for a large group at a club?",
+        answer:
+          "Most clubs can split the bill across 2–3 cards but not 20. The simplest approach: one person or a few people pay the venue, then split via bank transfer afterwards. Agree on the per-person contribution before the night. We can advise on the expected total when you book.",
+      },
+      {
+        question: "How far in advance should I book for a large group?",
+        answer:
+          "For groups of 15+, book at least 3–4 weeks ahead for Fridays and Saturdays. Groups of 20+ requiring multiple adjacent tables should book 4–6 weeks in advance. Weeknight bookings can be arranged with shorter notice. The earlier you book, the better the table configuration.",
+      },
+    ],
+  },
+  {
+    slug: "friday-night-vs-saturday-night-london-clubs",
+    title: "Friday Night vs Saturday Night at London Clubs: Which Is Better?",
+    metaTitle: "Friday vs Saturday Night London Clubs | Which Night to Book",
+    metaDescription:
+      "Friday or Saturday — which is the better night to go out in London? We compare pricing, atmosphere, door strictness, music, and crowd across Mayfair's top clubs.",
+    excerpt:
+      "It's the eternal debate: Friday or Saturday? The answer isn't as simple as you think. Each night has distinct advantages — and the right choice depends on what kind of night you want.",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "Friday vs Saturday London clubs",
+      "best night to go out London",
+      "Friday night Mayfair",
+      "Saturday or Friday clubbing",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club", "maddox"],
+    faqs: [
+      {
+        question: "Is Friday or Saturday better for London clubs?",
+        answer:
+          "Neither is universally better — they're different experiences. Friday offers better value (10–30% lower minimums), a more local and industry crowd, and a slightly easier door. Saturday delivers peak energy, the biggest DJs, more international visitors, and the best atmosphere. Choose based on your priorities.",
+      },
+      {
+        question: "Is Saturday more expensive than Friday at London clubs?",
+        answer:
+          "Yes. Saturday minimum spends are typically 10–30% higher than Friday at most Mayfair venues. Some clubs maintain the same base minimum but premium table positions (VIP, stage-view) cost more on Saturdays. Bottle prices remain the same — it's the table minimums that increase.",
+      },
+      {
+        question: "Is it harder to get into London clubs on Saturday?",
+        answer:
+          "Yes. Saturday door policies are noticeably stricter. Venues are at peak capacity, and door teams are more selective with walk-ins and guest list. A table booking removes this issue entirely — guaranteed entry regardless of the night. But if you're relying on guest list or walk-in, Friday is significantly easier.",
+      },
+      {
+        question: "What is the crowd like on Friday vs Saturday in Mayfair?",
+        answer:
+          "Friday crowds tend to be more local — London-based professionals, industry people, and Mayfair regulars. Saturday brings a more international and diverse crowd, including tourists and visitors from across the UK. Friday feels like an insider night; Saturday feels like the main event.",
+      },
+      {
+        question: "Which clubs are better on Friday than Saturday?",
+        answer:
+          "Maddox and Cuckoo Club are excellent on Fridays — strong local crowds and great atmosphere without Saturday's intensity. Tape London's Friday is popular with music industry insiders. Cirque Le Soir is arguably best on Saturday when the energy peaks. It depends on the venue's character and your preferences.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
