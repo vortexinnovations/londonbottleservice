@@ -1,0 +1,220 @@
+import { Metadata } from "next";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { blogPosts, getBlogPostBySlug } from "@/data/blog";
+import { blogContent } from "@/data/blogContent";
+import { clubs } from "@/data/clubs";
+import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { FAQSchema } from "@/components/FAQSchema";
+
+interface BlogPostPageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({ slug: post.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: BlogPostPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getBlogPostBySlug(slug);
+  if (!post) return {};
+
+  return {
+    title: post.metaTitle,
+    description: post.metaDescription,
+    keywords: post.keywords,
+    alternates: {
+      canonical: `https://londonbottleservice.com/blog/${slug}`,
+    },
+    openGraph: {
+      title: post.metaTitle,
+      description: post.metaDescription,
+      url: `https://londonbottleservice.com/blog/${slug}`,
+      type: "article",
+      publishedTime: post.publishedAt,
+      modifiedTime: post.updatedAt,
+    },
+  };
+}
+
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params;
+  const post = getBlogPostBySlug(slug);
+  if (!post) notFound();
+
+  const content = blogContent[slug];
+  if (!content) notFound();
+
+  const relatedClubData = post.relatedClubs
+    .map((s) => clubs.find((c) => c.slug === s))
+    .filter(Boolean);
+
+  const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 4);
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: post.title,
+    description: post.metaDescription,
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt,
+    author: {
+      "@type": "Organization",
+      name: "London Bottle Service",
+      url: "https://londonbottleservice.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "London Bottle Service",
+      url: "https://londonbottleservice.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://londonbottleservice.com/blog/${slug}`,
+    },
+  };
+
+  return (
+    <>
+      <FAQSchema faqs={post.faqs} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+
+      {/* Breadcrumb */}
+      <div className="max-w-3xl mx-auto px-4 pt-6">
+        <nav className="text-sm text-text-muted">
+          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
+          <span className="mx-2">/</span>
+          <Link href="/blog" className="hover:text-gold transition-colors">Blog</Link>
+          <span className="mx-2">/</span>
+          <span className="text-text-secondary line-clamp-1">{post.title}</span>
+        </nav>
+      </div>
+
+      {/* Article Header */}
+      <article className="py-8 md:py-12 px-4">
+        <div className="max-w-3xl mx-auto">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="text-xs px-2.5 py-1 bg-gold/10 border border-gold/30 rounded-full text-gold">
+              {post.category}
+            </span>
+            <span className="text-xs text-text-muted">{post.readingTime}</span>
+            <span className="text-xs text-text-muted">
+              Updated {new Date(post.updatedAt).toLocaleDateString("en-GB", {
+                month: "long",
+                year: "numeric",
+              })}
+            </span>
+          </div>
+
+          <h1 className="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+            {post.title}
+          </h1>
+          <p className="text-text-secondary text-lg leading-relaxed mb-8 border-l-2 border-gold pl-4">
+            {post.excerpt}
+          </p>
+
+          {/* Article Body */}
+          <div className="prose-custom">
+            {content}
+          </div>
+
+          {/* CTA within article */}
+          <div className="my-12 p-6 bg-bg-card border border-gold/20 rounded-xl text-center">
+            <h3 className="text-xl font-bold mb-3">Ready to Book?</h3>
+            <p className="text-text-muted text-sm mb-6">
+              Message us on WhatsApp with your preferred club, date, and group
+              size. We&apos;ll confirm your table within minutes.
+            </p>
+            <WhatsAppCTA />
+          </div>
+        </div>
+      </article>
+
+      {/* Related Clubs */}
+      {relatedClubData.length > 0 && (
+        <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-xl font-bold mb-6">Clubs Mentioned in This Article</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {relatedClubData.map((club) =>
+                club ? (
+                  <Link
+                    key={club.slug}
+                    href={`/clubs/${club.slug}`}
+                    className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group"
+                  >
+                    <h3 className="font-semibold group-hover:text-gold transition-colors">
+                      {club.name}
+                    </h3>
+                    <p className="text-gold text-sm mt-1">
+                      From £{club.pricing.floorTable.toLocaleString()}
+                    </p>
+                    <p className="text-text-muted text-xs mt-1">
+                      {club.openingNights.join(", ")} &bull; {club.area}
+                    </p>
+                  </Link>
+                ) : null
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* FAQs */}
+      {post.faqs.length > 0 && (
+        <section className="py-8 px-4 border-t border-border">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="text-xl font-bold mb-6">Frequently Asked Questions</h2>
+            <div className="space-y-4">
+              {post.faqs.map((faq, i) => (
+                <div key={i} className="border border-border rounded-lg p-5">
+                  <h3 className="font-semibold mb-2">{faq.question}</h3>
+                  <p className="text-text-muted text-sm leading-relaxed">
+                    {faq.answer}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* More Articles */}
+      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-xl font-bold mb-6">More Articles</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {otherPosts.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/blog/${p.slug}`}
+                className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group"
+              >
+                <span className="text-xs text-text-muted">{p.category}</span>
+                <h3 className="font-semibold mt-1 group-hover:text-gold transition-colors line-clamp-2 text-sm">
+                  {p.title}
+                </h3>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-6">
+            <Link
+              href="/blog"
+              className="text-gold text-sm font-medium hover:underline"
+            >
+              View all articles &rarr;
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <WhatsAppCTA variant="sticky" />
+    </>
+  );
+}
