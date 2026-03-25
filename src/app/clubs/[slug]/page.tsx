@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { clubs, getClubBySlug } from "@/data/clubs";
+import { clubs, allClubs, getClubBySlug, isClosedClub } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 
@@ -10,7 +10,7 @@ interface ClubPageProps {
 }
 
 export async function generateStaticParams() {
-  return clubs.map((club) => ({ slug: club.slug }));
+  return allClubs.map((club) => ({ slug: club.slug }));
 }
 
 export async function generateMetadata({
@@ -20,9 +20,17 @@ export async function generateMetadata({
   const club = getClubBySlug(slug);
   if (!club) return {};
 
+  const closed = isClosedClub(slug);
+  const title = closed
+    ? `${club.name} — Permanently Closed | London Bottle Service`
+    : `${club.name} Table Prices & VIP Bottle Service | From £${club.pricing.floorTable.toLocaleString()}`;
+  const description = closed
+    ? `${club.name} has permanently closed. Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
+    : `Book a VIP table at ${club.name} in ${club.area}. Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}. ${club.musicPolicy}. Open ${club.openingNights.join(", ")}. Instant WhatsApp booking.`;
+
   return {
-    title: `${club.name} Table Prices & VIP Bottle Service | From £${club.pricing.floorTable.toLocaleString()}`,
-    description: `Book a VIP table at ${club.name} in ${club.area}. Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}. ${club.musicPolicy}. Open ${club.openingNights.join(", ")}. Instant WhatsApp booking.`,
+    title,
+    description,
     alternates: {
       canonical: `https://londonbottleservice.com/clubs/${slug}`,
     },
@@ -39,6 +47,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
   const club = getClubBySlug(slug);
   if (!club) notFound();
 
+  const closed = isClosedClub(slug);
   const otherClubs = clubs.filter((c) => c.slug !== slug);
 
   const nightclubSchema = {
@@ -81,11 +90,36 @@ export default async function ClubPage({ params }: ClubPageProps) {
         </nav>
       </div>
 
+      {/* Closed Banner */}
+      {closed && (
+        <div className="max-w-4xl mx-auto px-4 mt-6">
+          <div className="bg-red-900/30 border border-red-500/40 rounded-xl p-6">
+            <h2 className="text-red-400 font-bold text-lg mb-2">
+              {club.name} Has Permanently Closed
+            </h2>
+            <p className="text-text-secondary text-sm leading-relaxed mb-4">
+              {club.name} is no longer open. This page is maintained for informational purposes.
+              Looking for a similar experience? Check out our open venues below or message us on
+              WhatsApp and we&apos;ll recommend the perfect alternative.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3">
+              <Link
+                href="/"
+                className="inline-flex items-center justify-center gap-2 py-2.5 px-6 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors text-sm"
+              >
+                Browse Open Clubs &rarr;
+              </Link>
+              <WhatsAppCTA />
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Hero */}
       <section className="py-12 md:py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
-            {club.area} &bull; {club.openingNights.join(", ")}
+            {club.area} {club.openingNights.length > 0 && <>&bull; {club.openingNights.join(", ")}</>}
           </p>
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             {club.name} Table Prices &amp; VIP Bottle Service
@@ -94,7 +128,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
           <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
             {club.description}
           </p>
-          <WhatsAppCTA clubName={club.name} />
+          {!closed && <WhatsAppCTA clubName={club.name} />}
         </div>
       </section>
 
@@ -211,18 +245,20 @@ export default async function ClubPage({ params }: ClubPageProps) {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Book Your Table at {club.name}
-          </h2>
-          <p className="text-text-muted mb-8">
-            Message us on WhatsApp with your date and group size. We&apos;ll confirm
-            your table directly with {club.name}, usually within minutes.
-          </p>
-          <WhatsAppCTA clubName={club.name} />
-        </div>
-      </section>
+      {!closed && (
+        <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+              Book Your Table at {club.name}
+            </h2>
+            <p className="text-text-muted mb-8">
+              Message us on WhatsApp with your date and group size. We&apos;ll confirm
+              your table directly with {club.name}, usually within minutes.
+            </p>
+            <WhatsAppCTA clubName={club.name} />
+          </div>
+        </section>
+      )}
 
       {/* FAQs */}
       <section className="py-12 px-4 border-t border-border">
@@ -272,7 +308,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       </section>
 
       {/* Sticky Mobile CTA */}
-      <WhatsAppCTA variant="sticky" clubName={club.name} />
+      {!closed && <WhatsAppCTA variant="sticky" clubName={club.name} />}
     </>
   );
 }

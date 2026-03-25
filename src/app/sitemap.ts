@@ -1,15 +1,15 @@
 import { MetadataRoute } from "next";
-import { clubs } from "@/data/clubs";
+import { allClubs, isClosedClub } from "@/data/clubs";
 import { blogPosts } from "@/data/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://londonbottleservice.com";
 
-  const clubPages = clubs.map((club) => ({
+  const clubPages = allClubs.map((club) => ({
     url: `${baseUrl}/clubs/${club.slug}`,
     lastModified: new Date(),
-    changeFrequency: "weekly" as const,
-    priority: 0.9,
+    changeFrequency: isClosedClub(club.slug) ? ("monthly" as const) : ("weekly" as const),
+    priority: isClosedClub(club.slug) ? 0.4 : 0.9,
   }));
 
   const blogPages = blogPosts.map((post) => ({

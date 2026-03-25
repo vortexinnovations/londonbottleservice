@@ -580,70 +580,6 @@ export const clubs: Club[] = [
   },
   {
     slug: "scotch-of-st-james",
-    description:
-      "Libertine is one of Mayfair's most high-energy nightclubs — a venue that attracts a young, international crowd who come to party hard. Located on Winsley Street just off Oxford Circus, it's known for its anything-goes atmosphere, celebrity appearances, and music that spans hip-hop, RnB, and commercial anthems.",
-    longDescription:
-      "Libertine has carved out a reputation as the club where Mayfair's rules get bent. The atmosphere is deliberately more hedonistic than the polished, restrained vibe you find at some of the area's more established venues. The interior is dark and club-focused — this isn't a lounge that becomes a club, it's a nightclub from the moment you walk in. The music policy centres on hip-hop and RnB with commercial crossover, and the DJs know how to build energy through the night. The crowd skews young and international — models, influencers, visiting celebrities, and groups who are specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables are positioned around the dance floor, putting you right in the middle of the action. Libertine doesn't pretend to be understated — it's loud, it's fun, and it's unapologetically a party. If you want refinement, look elsewhere. If you want one of the best parties in Mayfair, this is it.",
-    address: "4 Winsley Street, London W1W 8HF",
-    area: "Fitzrovia (edge of Mayfair)",
-    musicPolicy: "Hip-Hop, RnB, Commercial, Afrobeats",
-    dressCode:
-      "Smart and stylish. No sportswear, trainers, or casual wear. The door is selective — dress like you're going somewhere that matters.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:30 PM – 3:00 AM",
-    pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
-    },
-    whatsIncluded: [
-      "Priority entry for your group",
-      "Reserved table and seating area",
-      "Personal table service all night",
-      "Premium spirits or champagne",
-      "Mixers, ice, and garnishes",
-      "Access to one of Mayfair's highest-energy atmospheres",
-    ],
-    knownFor: [
-      "High-energy, anything-goes party atmosphere",
-      "Young, international crowd",
-      "Regular celebrity appearances",
-      "One of the most fun clubs in the Mayfair area",
-    ],
-    bestFor:
-      "Groups who want a proper party rather than a civilised night out. Big birthdays, wild celebrations, and anyone who thinks most Mayfair clubs are too restrained.",
-    atmosphere:
-      "High-energy, hedonistic, loud. The opposite of Mayfair's usual restraint — Libertine is where the rules relax.",
-    capacity: "Approximately 300",
-    faqs: [
-      {
-        question: "How much is a table at Libertine?",
-        answer:
-          "Tables at Libertine start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Prices vary by night, with Saturdays commanding the highest minimums.",
-      },
-      {
-        question: "What nights is Libertine open?",
-        answer:
-          "Libertine is open Thursday, Friday, and Saturday nights. All three nights draw strong crowds, with Saturday being the biggest.",
-      },
-      {
-        question: "What's the vibe at Libertine?",
-        answer:
-          "Libertine is Mayfair's wildest club. The atmosphere is high-energy, the crowd is young and international, and the music is built to make people dance. If you want refined and sophisticated, try Maddox. If you want a party, Libertine delivers.",
-      },
-      {
-        question: "What's the dress code at Libertine?",
-        answer:
-          "Smart and stylish. The door is selective so make an effort. No sportswear, no casual trainers, no shorts. Smart shoes and a collared shirt for men, dressed-up for women.",
-      },
-      {
-        question: "Is Libertine good for birthdays?",
-        answer:
-          "Libertine is excellent for birthday parties, especially if your group wants a high-energy celebration. The party atmosphere makes birthdays feel like genuine events. We can arrange cakes and sparklers.",
-      },
-    ],
-  },
-  {
-    slug: "scotch-of-st-james",
     name: "Scotch of St James",
     shortName: "Scotch",
     tagline: "London's most iconic underground music venue reborn",
@@ -844,70 +780,177 @@ export const clubs: Club[] = [
     ],
   },
   {
-    slug: "ministry-of-sound",
-    name: "Ministry of Sound",
-    shortName: "Ministry",
-    tagline: "The world's most famous nightclub, right here in London",
+    slug: "the-box",
+    name: "The Box",
+    shortName: "The Box",
+    tagline: "London's most provocative and boundary-pushing nightclub",
     description:
-      "Ministry of Sound needs no introduction. One of the most famous nightclubs on the planet, located in Elephant & Castle, South London. A multi-room superclub with one of the best sound systems ever built, hosting the world's top DJs across house, techno, drum & bass, and beyond. This is clubbing at its most iconic.",
+      "The Box Soho is London's most daring nightclub — a theatrical, provocative venue where avant-garde performances, burlesque, and nightlife collide. Located in the heart of Soho, it's inspired by the famous New York original and attracts a creative, fashion-forward crowd who come for experiences they won't find anywhere else in London.",
     longDescription:
-      "Ministry of Sound is a different proposition to the Mayfair clubs on this site — and that's exactly the point. While Mayfair offers intimate, exclusive bottle service in small venues, Ministry is a full-scale superclub that has been at the centre of global dance music culture since 1991. The main room (The Box) houses a custom-built sound system that's been refined over three decades — many consider it the best club sound system in the world. The venue spans multiple rooms, each with its own music policy and atmosphere: The Box for the headline acts, 103 for a different vibe, The Loft for a more intimate feel, and The Bar for a breather between rooms. VIP and table service at Ministry is a different experience from Mayfair. You get elevated areas with bottle service while being part of an event that can hold over a thousand people. The line-ups feature the biggest names in electronic music — this is where world-class DJs want to play. If you want Mayfair-style intimacy, this isn't it. If you want to experience one of the most legendary nightclubs ever built with world-class music and a crowd of genuine music lovers, Ministry of Sound is in a league of its own.",
-    address: "103 Gaunt Street, Elephant & Castle, London SE1 6DP",
-    area: "Elephant & Castle, South London",
-    musicPolicy: "House, Techno, Drum & Bass, Electronic — depending on the event. World-class DJ bookings.",
+      "The Box is not for the faint-hearted. Inspired by its infamous New York counterpart, The Box London takes the concept of a nightclub and pushes it into genuinely theatrical territory. The performances are provocative, boundary-pushing, and designed to shock as much as entertain — think burlesque, cabaret, performance art, and acts that blur the line between nightclub and avant-garde theatre. The venue is intimate and deliberately decadent, with plush interiors, low lighting, and an atmosphere that feels like stepping into a private members' party from another era. The crowd is a mix of creatives, fashion industry insiders, celebrities, and people who actively seek out experiences that break the mould. Table service is available and the minimum spend reflects the exclusivity and production quality of the venue. The music policy varies but typically spans hip-hop, house, and eclectic DJ sets that complement the theatrical programme. If you want safe and predictable, The Box is the wrong choice. If you want a night that genuinely surprises you and gives you stories to tell, there's nowhere in London quite like it.",
+    address: "11-12 Walker's Court, Soho, London W1F 0ED",
+    area: "Soho",
+    musicPolicy: "Eclectic — Hip-Hop, House, Disco, and sets that complement the live performances",
     dressCode:
-      "More relaxed than Mayfair. Smart casual is fine. Trainers are generally accepted. No excessively casual or offensive clothing. The focus is on the music, not the dress code.",
-    openingNights: ["Friday", "Saturday"],
-    openingHours: "11:00 PM – 6:00 AM",
+      "Creative and fashionable. The Box rewards effort and individuality. Smart is the baseline but fashion-forward is encouraged. No sportswear or casual wear. The door is famously selective.",
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
+    openingHours: "10:30 PM – 3:00 AM",
     pricing: {
-      floorTable: 1000,
+      floorTable: 1500,
       vipTable: 3000,
     },
     whatsIncluded: [
-      "VIP entry and access to elevated table areas",
-      "Reserved table and seating in VIP section",
-      "Personal table service",
+      "Priority entry past The Box's famously selective door",
+      "Reserved table and seating area",
+      "Personal table service throughout the night",
       "Premium spirits or champagne",
       "Mixers, ice, and garnishes",
-      "Access to all rooms and one of the world's best sound systems",
+      "Front-row access to London's most provocative live performances",
     ],
     knownFor: [
-      "One of the most famous nightclubs in the world",
-      "Custom-built, world-class sound system",
-      "Multi-room layout with different music in each",
-      "Heritage dating back to 1991",
-      "The biggest names in electronic music perform here",
+      "Avant-garde, boundary-pushing live performances",
+      "One of London's most selective doors",
+      "Celebrity and fashion industry crowd",
+      "Inspired by the famous New York original",
+      "Intimate, decadent atmosphere",
     ],
     bestFor:
-      "Electronic music fans who want a legendary clubbing experience. Groups who want bottle service but also want to be part of a real music event. Anyone visiting London who wants to tick off a bucket-list club.",
+      "Creatives, fashion-forward groups, and anyone who wants a nightclub experience that's genuinely unlike anything else. Not for the easily shocked — The Box is deliberately provocative.",
     atmosphere:
-      "Epic, music-driven, communal. The energy of a thousand people united by world-class music on a world-class sound system. Nothing in Mayfair comes close to this scale.",
-    capacity: "Over 1,500 across multiple rooms",
+      "Decadent, provocative, theatrical. The intimate size means the performances feel intensely personal. The energy builds throughout the night from sophisticated to wild.",
+    capacity: "Approximately 200",
     faqs: [
       {
-        question: "How much is a table at Ministry of Sound?",
+        question: "How much is a table at The Box?",
         answer:
-          "VIP tables at Ministry of Sound start from £1,000 minimum spend, with premium positions from £3,000+. Pricing varies significantly depending on the event and the DJ line-up. Major headliner nights command higher minimums.",
+          "Tables at The Box start from £1,500 minimum spend. VIP and premium positions start from £3,000. The pricing reflects the exclusivity of the venue and the quality of the live entertainment.",
       },
       {
-        question: "Is Ministry of Sound different from Mayfair clubs?",
+        question: "What kind of shows does The Box have?",
         answer:
-          "Completely different. Ministry is a superclub focused on electronic music with 1,500+ capacity and the world's best sound system. Mayfair clubs are intimate, 200-400 capacity venues focused on exclusivity. Ministry is about the music and the communal experience; Mayfair is about privacy and personal service.",
+          "The Box features provocative, avant-garde performances including burlesque, cabaret, performance art, and theatrical acts that push boundaries. The shows are designed to surprise, shock, and entertain in equal measure. They're not for everyone — and that's the point.",
       },
       {
-        question: "What music does Ministry of Sound play?",
+        question: "What nights is The Box open?",
         answer:
-          "Ministry hosts different events with different music policies — house, techno, drum & bass, trance, and more. The line-ups feature world-class DJs. Check the specific event for the night you're attending. The venue's heritage is rooted in house and electronic music.",
+          "The Box is open Wednesday through Saturday. Friday and Saturday are the biggest nights. Wednesday and Thursday offer a slightly more intimate experience with the same quality performances.",
       },
       {
-        question: "What nights is Ministry of Sound open?",
+        question: "How hard is it to get into The Box?",
         answer:
-          "Ministry of Sound operates primarily on Fridays and Saturdays, with some events running until 6:00 AM. Occasional special events happen on other nights. It's event-driven rather than operating a fixed weekly schedule.",
+          "The Box has one of the most selective doors in London. Booking a table through us guarantees entry for your group. Walk-ins are extremely difficult, especially on weekends. The door team looks for creative, well-dressed guests who fit the venue's vibe.",
       },
       {
-        question: "Where is Ministry of Sound?",
+        question: "Is The Box London the same as The Box New York?",
         answer:
-          "Ministry of Sound is in Elephant & Castle, South London — a short taxi ride from central London and Mayfair. The nearest tube station is Elephant & Castle on the Northern and Bakerloo lines. It's not in Mayfair, but it's absolutely worth the journey.",
+          "The Box London is inspired by the famous New York original and follows the same concept of combining provocative theatrical performances with a nightclub setting. The London venue has its own identity while honouring the spirit of the original.",
+      },
+    ],
+  },
+  {
+    slug: "luna-club-london",
+    name: "Luna Club London",
+    shortName: "Luna",
+    tagline: "Mayfair's sleek late-night destination for the well-connected",
+    description:
+      "Luna Club London is a sleek, intimate Mayfair nightclub that draws a well-connected, international crowd. With a refined interior, strong hip-hop and RnB music policy, and the kind of atmosphere that rewards people who know the scene, Luna has established itself as a favourite among Mayfair regulars and visiting VIPs.",
+    longDescription:
+      "Luna Club London is built for people who take their nightlife seriously. The venue is deliberately intimate — small enough to create genuine energy but spacious enough for proper bottle service with room to move. The interior is sleek and modern with a dark colour palette, metallic accents, and lighting designed to create atmosphere rather than spectacle. The music policy centres on hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with tracks that show genuine musical knowledge. The crowd at Luna is one of its strongest assets — a mix of well-connected Mayfair regulars, international visitors, and people who've been around the London club circuit and settled on Luna as their go-to. The door is selective but not impossible — if you're well-dressed and have a table booking, you're in. The atmosphere is confident without being aggressive, exclusive without being pretentious. Tables start from £1,000 and the intimate size of the venue means even standard floor tables feel well-positioned. If you want a reliable, well-run Mayfair hip-hop club without the theatrics or gimmicks, Luna delivers consistently.",
+    address: "Mayfair, London W1",
+    area: "Mayfair",
+    musicPolicy: "Hip-Hop, RnB, Afrobeats, UK Rap",
+    dressCode:
+      "Smart. Standard Mayfair dress code applies — collared shirts and smart shoes for men, dressed-up for women. No sportswear, casual trainers, or shorts.",
+    openingNights: ["Thursday", "Friday", "Saturday"],
+    openingHours: "10:30 PM – 3:00 AM",
+    pricing: {
+      floorTable: 1000,
+      vipTable: 2000,
+    },
+    whatsIncluded: [
+      "Priority entry for your group",
+      "Reserved table and seating area",
+      "Personal table service all night",
+      "Premium spirits or champagne",
+      "Mixers, ice, and garnishes",
+      "Access to one of Mayfair's most well-connected crowds",
+    ],
+    knownFor: [
+      "Sleek, intimate Mayfair setting",
+      "Strong hip-hop and RnB music policy",
+      "Well-connected, international crowd",
+      "Consistently good atmosphere",
+    ],
+    bestFor:
+      "Groups who want a solid, reliable Mayfair hip-hop club with a strong crowd and intimate atmosphere. No gimmicks, just good music, good people, and proper table service.",
+    atmosphere:
+      "Sleek, confident, energetic. The intimate size keeps the energy concentrated and the well-connected crowd creates an atmosphere that feels exclusive without being stuffy.",
+    capacity: "Approximately 250",
+    faqs: [
+      {
+        question: "How much is a table at Luna Club London?",
+        answer:
+          "Tables at Luna Club London start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Pricing is competitive with other Mayfair clubs of similar quality.",
+      },
+      {
+        question: "What type of music does Luna play?",
+        answer:
+          "Luna focuses on hip-hop, RnB, Afrobeats, and UK rap. The DJs know the scene well and balance mainstream tracks with deeper cuts. If you're looking for house or electronic music, try Maddox or BEAT instead.",
+      },
+      {
+        question: "What nights is Luna Club London open?",
+        answer:
+          "Luna is open Thursday, Friday, and Saturday nights. All three nights have strong energy thanks to the intimate venue size. Saturday is the biggest night.",
+      },
+      {
+        question: "What's the dress code at Luna?",
+        answer:
+          "Standard Mayfair smart dress code. Collared shirts and smart shoes for men, dressed-up for women. No sportswear, casual trainers, or shorts. The door is selective so dress well.",
+      },
+      {
+        question: "How does Luna compare to other Mayfair clubs?",
+        answer:
+          "Luna is a strong all-rounder for hip-hop fans. It's less theatrical than Cirque Le Soir, less exclusive than Tape, and less activity-focused than Selene — but it delivers consistently good music, a strong crowd, and reliable bottle service. Think of it as the no-nonsense option.",
+      },
+    ],
+  },
+];
+
+// Permanently closed clubs — kept for SEO purposes only (people still search for these)
+export const closedClubs: Club[] = [
+  {
+    slug: "libertine",
+    name: "Libertine",
+    shortName: "Libertine",
+    tagline: "Mayfair's high-energy party headquarters (permanently closed)",
+    description:
+      "Libertine was one of Mayfair's most high-energy nightclubs — a venue that attracted a young, international crowd who came to party hard. Located on Winsley Street just off Oxford Circus, it was known for its anything-goes atmosphere, celebrity appearances, and music that spanned hip-hop, RnB, and commercial anthems. Libertine is now permanently closed.",
+    longDescription:
+      "Libertine carved out a reputation as the club where Mayfair's rules got bent. The atmosphere was deliberately more hedonistic than the polished, restrained vibe found at some of the area's more established venues. The interior was dark and club-focused — this wasn't a lounge that became a club, it was a nightclub from the moment you walked in. The music policy centred on hip-hop and RnB with commercial crossover, and the DJs knew how to build energy through the night. The crowd skewed young and international — models, influencers, visiting celebrities, and groups who were specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables were positioned around the dance floor, putting you right in the middle of the action. Libertine didn't pretend to be understated — it was loud, fun, and unapologetically a party. While Libertine has now permanently closed, the spirit of high-energy Mayfair partying lives on at venues like Tabu London, Funky Buddha, and Cirque Le Soir.",
+    address: "4 Winsley Street, London W1W 8HF",
+    area: "Fitzrovia (edge of Mayfair)",
+    musicPolicy: "Hip-Hop, RnB, Commercial, Afrobeats",
+    dressCode: "Smart and stylish. No sportswear, trainers, or casual wear.",
+    openingNights: [],
+    openingHours: "Permanently Closed",
+    pricing: { floorTable: 1000, vipTable: 2000 },
+    whatsIncluded: [],
+    knownFor: [
+      "High-energy, anything-goes party atmosphere",
+      "Young, international crowd",
+      "Regular celebrity appearances",
+    ],
+    bestFor: "Libertine is permanently closed. For a similar high-energy Mayfair experience, try Tabu London or Funky Buddha.",
+    atmosphere: "High-energy, hedonistic, loud. Libertine was the opposite of Mayfair's usual restraint.",
+    capacity: "Approximately 300",
+    faqs: [
+      {
+        question: "Is Libertine London still open?",
+        answer: "No, Libertine London has permanently closed. For a similar high-energy party atmosphere, we recommend Tabu London, Funky Buddha, or Cirque Le Soir. Message us on WhatsApp and we'll help you find the perfect alternative.",
+      },
+      {
+        question: "What happened to Libertine London?",
+        answer: "Libertine London permanently closed its doors. The venue was known for its wild, high-energy atmosphere and celebrity crowd. Several excellent Mayfair clubs now carry that same spirit — get in touch and we'll recommend the best alternative for your group.",
       },
     ],
   },
@@ -915,73 +958,51 @@ export const clubs: Club[] = [
     slug: "lio-london",
     name: "Lio Club London",
     shortName: "Lio",
-    tagline: "Mediterranean cabaret meets Mayfair nightlife",
+    tagline: "Mediterranean cabaret meets Mayfair nightlife (permanently closed)",
     description:
-      "Lio Club London brings the spirit of its famous Ibiza original to the heart of London. A cabaret-style showclub combining Mediterranean glamour, live performances, world-class dining, and late-night clubbing. Think Cirque du Soleil meets Ibiza beach club meets Mayfair supper club — it's an experience that spans the entire evening.",
+      "Lio Club London brought the spirit of its famous Ibiza original to the heart of London. A cabaret-style showclub combining Mediterranean glamour, live performances, world-class dining, and late-night clubbing. Lio London is now permanently closed.",
     longDescription:
-      "Lio is the London outpost of the famous Ibiza venue, and it brings that Mediterranean energy to Mayfair with serious ambition. The concept is dinner-and-show-and-club rolled into one spectacular evening. You start with a Mediterranean fine dining experience — the food is genuinely restaurant-quality, not club food. As dinner progresses, live cabaret performances begin: dancers, acrobats, vocalists, and theatrical acts perform throughout the venue. Then, as the night deepens, the space transforms into a full nightclub with DJs taking over. The production quality is exceptional — costumes, choreography, lighting, and staging are all at a level you'd expect from a professional theatre production. The venue itself is lavishly designed with Mediterranean influences, lush fabrics, and an interior that feels like you've stepped into a glamorous Mediterranean villa. Tables are positioned to give everyone a view of the performances, and the transition from dinner to show to club happens seamlessly. The crowd is international, well-heeled, and here for the full experience. Lio is not cheap — this is one of the premium experiences in London nightlife — but for a truly memorable evening that combines multiple experiences, it's hard to match.",
+      "Lio was the London outpost of the famous Ibiza venue, and it brought Mediterranean energy to Mayfair with serious ambition. The concept was dinner-and-show-and-club rolled into one spectacular evening. You started with a Mediterranean fine dining experience, then live cabaret performances began — dancers, acrobats, vocalists, and theatrical acts performed throughout the venue. As the night deepened, the space transformed into a full nightclub. The production quality was exceptional and the venue was lavishly designed with Mediterranean influences. While Lio London has now permanently closed, similar theatrical dining-and-nightlife experiences can be found at Cirque Le Soir and London Reign.",
     address: "Mayfair, London W1",
     area: "Mayfair",
-    musicPolicy: "Mixed — Mediterranean, House, Commercial during dinner and show. Transitioning to House, Hip-Hop during the late-night club phase.",
-    dressCode:
-      "Smart and glamorous. This is a high-end dinner-show-club concept — dress for the best restaurant you've ever been to. Men: jacket or blazer encouraged, smart shoes essential. Women: cocktail or evening dress. No casual wear.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "Dinner from 7:30 PM, Show from 9:30 PM, Club until 3:00 AM",
-    pricing: {
-      floorTable: 1500,
-      vipTable: 3000,
-    },
-    whatsIncluded: [
-      "Priority entry for your group",
-      "Reserved table with performance views",
-      "Personal table service throughout dinner, show, and club",
-      "Premium spirits or champagne (club phase)",
-      "Mixers, ice, and garnishes",
-      "World-class cabaret performances",
-      "Option to combine dinner and bottle service packages",
-    ],
+    musicPolicy: "Mixed — Mediterranean, House, Commercial, Hip-Hop",
+    dressCode: "Smart and glamorous. Jacket or blazer encouraged for men.",
+    openingNights: [],
+    openingHours: "Permanently Closed",
+    pricing: { floorTable: 1500, vipTable: 3000 },
+    whatsIncluded: [],
     knownFor: [
-      "Mediterranean cabaret performances of exceptional quality",
-      "Dinner-show-club concept spanning the full evening",
+      "Mediterranean cabaret performances",
+      "Dinner-show-club concept",
       "Offshoot of the iconic Lio Ibiza",
-      "Lavish, Mediterranean-inspired interior",
-      "One of London's most complete nightlife experiences",
     ],
-    bestFor:
-      "Groups who want an entire evening in one venue — dinner, show, and clubbing. Special occasions that deserve something extraordinary. Couples who love Ibiza's glamour. Anyone who wants their night out to feel like an event.",
-    atmosphere:
-      "Glamorous, theatrical, Mediterranean. The combination of fine dining, cabaret, and nightclub creates an evening that builds in energy and spectacle.",
+    bestFor: "Lio London is permanently closed. For theatrical nightlife with performances, try Cirque Le Soir or London Reign.",
+    atmosphere: "Glamorous, theatrical, Mediterranean.",
     capacity: "Approximately 350",
     faqs: [
       {
-        question: "How much is a table at Lio London?",
-        answer:
-          "Club tables at Lio London start from £1,500 minimum spend. VIP tables start from £3,000. Dinner-and-show packages are priced separately. Lio is a premium experience and the pricing reflects the quality of the food, performances, and venue.",
+        question: "Is Lio London still open?",
+        answer: "No, Lio London has permanently closed. For a similar dinner-show-club experience with live performances, we recommend Cirque Le Soir for theatrical entertainment or London Reign for spectacular shows. Message us on WhatsApp for help finding the right venue.",
       },
       {
-        question: "Is Lio London the same as Lio Ibiza?",
-        answer:
-          "Lio London is the London version of the famous Lio in Ibiza. The concept is the same — Mediterranean dining, cabaret performances, and late-night clubbing — adapted for a Mayfair setting. If you've been to the Ibiza original, the London venue delivers the same spirit.",
-      },
-      {
-        question: "What kind of shows does Lio London have?",
-        answer:
-          "Lio features professional cabaret performances including dancers, acrobats, live vocalists, and theatrical acts. The production quality is closer to a West End show than a standard club. Performances happen throughout dinner and continue into the club phase.",
-      },
-      {
-        question: "Can I just do bottle service without dinner at Lio?",
-        answer:
-          "Yes — you can book just the late-night club portion with bottle service, starting after the show. However, the full dinner-show-club experience is the best way to experience Lio. We can arrange either option depending on your preference.",
-      },
-      {
-        question: "What nights is Lio London open?",
-        answer:
-          "Lio London is open Wednesday through Saturday. The full dinner-show-club programme runs every night they're open. Fridays and Saturdays are the biggest nights.",
+        question: "What happened to Lio London?",
+        answer: "Lio Club London has permanently closed. The venue was the London version of the famous Lio Ibiza, known for combining Mediterranean dining, cabaret performances, and late-night clubbing. For similar experiences in London, contact us and we'll recommend alternatives.",
       },
     ],
   },
 ];
 
+// All clubs combined (for SEO pages that need closed clubs too)
+export const allClubs: Club[] = [...clubs, ...closedClubs];
+
 export function getClubBySlug(slug: string): Club | undefined {
+  return allClubs.find((c) => c.slug === slug);
+}
+
+export function getOpenClubBySlug(slug: string): Club | undefined {
   return clubs.find((c) => c.slug === slug);
+}
+
+export function isClosedClub(slug: string): boolean {
+  return closedClubs.some((c) => c.slug === slug);
 }

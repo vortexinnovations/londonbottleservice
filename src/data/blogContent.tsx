@@ -18,8 +18,8 @@ export const blogContent: Record<string, ReactNode> = {
         <strong> £1,500 to £3,000+</strong>. Two outliers:{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
         starts at £1,500 because of its members&apos; club exclusivity, and{" "}
-        <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link>{" "}
-        starts at £1,500 for its dinner-show-club experience.
+        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>{" "}
+        starts at £1,500 for its theatrical show-club experience.
       </p>
 
       <h2>What Does Minimum Spend Actually Mean?</h2>
@@ -90,7 +90,7 @@ export const blogContent: Record<string, ReactNode> = {
       <ul>
         <li>
           <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link> and{" "}
-          <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link>:
+          <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>:
           From <strong>£1,500</strong> (floor) / <strong>£3,000</strong> (VIP)
         </li>
         <li>
@@ -156,15 +156,15 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong> Large birthday groups (15+), hen parties, milestone birthdays.</p>
 
-      <h2>3. Lio Club London — The Full Evening</h2>
+      <h2>3. The Box — The Theatrical Birthday</h2>
       <p>
-        If you want dinner, a show, AND clubbing for your birthday — all in one
-        venue —{" "}
-        <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link>{" "}
-        is the answer. Start with Mediterranean fine dining, watch cabaret
-        performances, then dance until close. The entire evening is handled.
+        If you want an unforgettable, boundary-pushing birthday experience,{" "}
+        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>{" "}
+        is the answer. This avant-garde Soho venue delivers provocative
+        theatrical performances throughout the night that your guests
+        will be talking about for years.
       </p>
-      <p><strong>Best for:</strong> Milestone birthdays (30th, 40th) where you want an all-in-one evening.</p>
+      <p><strong>Best for:</strong> Milestone birthdays (30th, 40th) where you want a daring, theatrical experience.</p>
 
       <h2>4. Selene London — Birthday + Bowling</h2>
       <p>
@@ -199,7 +199,7 @@ export const blogContent: Record<string, ReactNode> = {
       <ul>
         <li><strong>Book 2–4 weeks ahead</strong> for weekends. Cirque Le Soir Saturdays can sell out 4–6 weeks in advance.</li>
         <li><strong>Thursday birthdays</strong> offer the same atmosphere at lower minimum spends.</li>
-        <li><strong>Combine dinner and club</strong> at Maddox or Lio for a fuller evening.</li>
+        <li><strong>Combine dinner and club</strong> at Maddox for a fuller evening.</li>
         <li><strong>Ask about birthday packages</strong> — many venues include free extras for celebrations.</li>
         <li><strong>Tell your guests the dress code</strong> — getting people turned away at the door kills the birthday vibe.</li>
       </ul>
@@ -265,8 +265,8 @@ export const blogContent: Record<string, ReactNode> = {
         and fine-dining standards. Jackets encouraged. The door is genuinely selective.
       </p>
       <p>
-        <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link> — dinner-show concept
-        means dress-code expectations are closer to a high-end restaurant.
+        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link> — theatrical show concept
+        means dress-code expectations are high and the door is very selective.
       </p>
 
       <h3>Standard Mayfair</h3>
@@ -282,13 +282,12 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Slightly More Relaxed</h3>
       <p>
         <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link> and{" "}
-        <Link href="/clubs/libertine" className="text-gold hover:underline">Libertine</Link> — still smart,
+        <Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link> — still smart,
         but fashion-forward styling can bend the rules. Designer trainers <em>might</em> work
         if the overall outfit is sharp. Don&apos;t bank on it.
       </p>
       <p>
-        <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link> and{" "}
-        <Link href="/clubs/ministry-of-sound" className="text-gold hover:underline">Ministry of Sound</Link> —
+        <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link> —
         smart casual is the baseline. Clean trainers are generally fine. The focus is
         on music, not fashion policing.
       </p>
@@ -377,7 +376,7 @@ export const blogContent: Record<string, ReactNode> = {
           <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link></strong> — Small venue, high demand. Sells out most Saturdays. Walk-in entry is unlikely on weekends.
         </li>
         <li>
-          <strong><Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link></strong> — Dinner-show-club format means most of the venue is pre-booked.
+          <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link></strong> — Exclusive theatrical venue with a notoriously selective door policy.
         </li>
       </ol>
 
@@ -439,12 +438,12 @@ export const blogContent: Record<string, ReactNode> = {
         fan mobs. Just a great night with a like-minded crowd.
       </p>
 
-      <h3>Libertine — The Party Crowd</h3>
+      <h3>Luna Club London — The Party Crowd</h3>
       <p>
-        <Link href="/clubs/libertine" className="text-gold hover:underline">Libertine</Link>{" "}
+        <Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link>{" "}
         attracts younger celebrities, influencers, and visiting international stars
         who want a high-energy party rather than a private, understated evening.
-        The atmosphere is wilder than Tape or Scotch, which appeals to a different
+        The well-connected Mayfair crowd and hip-hop focus appeal to a different
         type of famous person.
       </p>
 
@@ -507,19 +506,19 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Timeline of a London Night Out</h2>
       <ul>
-        <li><strong>7:00–9:00 PM:</strong> Dinner. Mayfair has excellent restaurants. If you&apos;re going to <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link> or <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio</Link>, you can dine and club in one venue.</li>
+        <li><strong>7:00–9:00 PM:</strong> Dinner. Mayfair has excellent restaurants. If you&apos;re going to <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, you can dine and club in one venue.</li>
         <li><strong>9:00–10:30 PM:</strong> Pre-drinks at a Soho or Mayfair bar while you wait for clubs to open.</li>
         <li><strong>10:30–11:30 PM:</strong> Clubs open. Arrive in this window for the best experience. Skip the late rush.</li>
         <li><strong>11:30 PM–1:00 AM:</strong> Peak atmosphere. The clubs are full, the energy is high, and the night is in full swing.</li>
-        <li><strong>1:00–3:00 AM:</strong> Late night. Energy starts to wind down at some venues. Clubs close between 3:00 and 3:30 AM (Ministry of Sound runs until 6:00 AM).</li>
+        <li><strong>1:00–3:00 AM:</strong> Late night. Energy starts to wind down at some venues. Clubs close between 3:00 and 3:30 AM (BEAT London runs later than most Mayfair clubs).</li>
       </ul>
 
       <h2>How to Choose Your First Club</h2>
       <p>Ask yourself these questions:</p>
       <ul>
         <li><strong>What music do you like?</strong> Hip-hop → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu</Link>, <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque</Link>. House → <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT</Link>. Mixed → <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo</Link>, <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>.</li>
-        <li><strong>Do you want entertainment?</strong> Performers → <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>. Shows → <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>. Cabaret → <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio</Link>.</li>
-        <li><strong>How exclusive do you want?</strong> Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/libertine" className="text-gold hover:underline">Libertine</Link>.</li>
+        <li><strong>Do you want entertainment?</strong> Performers → <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>. Shows → <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>. Theatrical → <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>.</li>
+        <li><strong>How exclusive do you want?</strong> Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>.</li>
         <li><strong>What&apos;s your budget?</strong> Most venues start at £1,000 minimum. For premium experiences, budget £1,500–£3,000.</li>
       </ul>
 
@@ -625,14 +624,15 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong> Smaller hen groups, brides who want unforgettable entertainment.</p>
 
-      <h3>Lio Club London — Best for the Full Evening</h3>
+      <h3>The Box — Best for a Daring Hen Night</h3>
       <p>
-        <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link>{" "}
-        solves the &quot;what do we do before the club?&quot; problem. Start with
-        Mediterranean dinner, watch cabaret performances, then dance until close.
-        The entire evening is sorted in one beautiful venue.
+        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>{" "}
+        delivers a hen night the bride will never forget. The avant-garde
+        theatrical performances are provocative, surprising, and perfectly
+        suited to a group that wants something beyond the ordinary. The
+        intimate Soho venue keeps the energy high all night.
       </p>
-      <p><strong>Best for:</strong> Hen groups who want dinner + show + clubbing without venue-hopping.</p>
+      <p><strong>Best for:</strong> Hen groups who want a bold, theatrical experience that stands out.</p>
 
       <h3>Cuckoo Club — Best for Mixed Music Tastes</h3>
       <p>
@@ -835,18 +835,19 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong> Creative clients, media professionals, music industry.</p>
 
-      <h3>Lio Club London — The Showstopper</h3>
+      <h3>London Reign — The Showstopper</h3>
       <p>
-        <Link href="/clubs/lio-london" className="text-gold hover:underline">Lio Club London</Link>{" "}
-        is the option when you want to genuinely impress. Dinner, cabaret
-        performances, then clubbing — all at a level that shows you&apos;ve put serious
-        thought into the evening. Premium pricing, but the impact matches.
+        <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}
+        is the option when you want to genuinely impress. Vegas-style
+        production with aerial performers, live vocalists, and professional
+        dancers — all at a level that shows you&apos;ve put serious
+        thought into the evening. The grand venue accommodates corporate groups comfortably.
       </p>
       <p><strong>Best for:</strong> High-value client entertainment, deal celebrations, key relationship-building.</p>
 
       <h2>Venues to Avoid for Corporate Entertainment</h2>
       <p>
-        <strong><Link href="/clubs/libertine" className="text-gold hover:underline">Libertine</Link></strong> —
+        <strong><Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link></strong> —
         too high-energy and party-focused. The atmosphere is more &quot;wild night out&quot; than
         &quot;impressive client evening.&quot;
       </p>
@@ -858,7 +859,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>How to Make It Work</h2>
       <ol>
-        <li><strong>Book dinner first.</strong> At Maddox or Lio, the dinner element gives the evening structure and gives your clients a &quot;normal&quot; setting before the club transition.</li>
+        <li><strong>Book dinner first.</strong> At Maddox, the dinner element gives the evening structure and gives your clients a &quot;normal&quot; setting before the club transition.</li>
         <li><strong>Brief the venue.</strong> Tell us it&apos;s corporate when you book. The venue will adjust — more attentive service, less intrusive bottle presentations, a good table position for conversation.</li>
         <li><strong>Choose the right table position.</strong> Ask for a table that offers conversation space but still has a view of the venue. Corner tables or booth-style seating work best for corporate groups.</li>
         <li><strong>Control the drinking pace.</strong> Order champagne for the table rather than heavy spirits. The evening should feel celebratory, not like a drinking session.</li>
@@ -869,14 +870,320 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         A corporate night at Maddox with dinner and bottle service typically runs
         £2,000–£4,000 for a group of 6–8 (dinner plus £1,000–£2,000 club minimum).
-        At Lio, budget £3,000–£5,000 for the full dinner-show-club experience.
+        At London Reign, budget £2,000–£4,000 for the full show-club experience.
         Tape London&apos;s club-only minimum starts at £1,500.
       </p>
       <p>
         These numbers are in line with high-end restaurant entertaining but deliver
         a far more memorable experience. A client will forget dinner at a Michelin
-        restaurant. They won&apos;t forget the time you took them to Lio and they watched
+        restaurant. They won&apos;t forget the time you took them to London Reign and they watched
         aerial acrobats while drinking champagne.
+      </p>
+    </>
+  ),
+
+  "dear-darling-mayfair-guide": (
+    <>
+      <p>
+        Dear Darling is one of those venues that arrived in Mayfair without a massive PR campaign
+        and quietly started stealing regulars from the established clubs. If you haven&apos;t been
+        yet, here&apos;s what you need to know — and why it deserves a spot on your shortlist.
+      </p>
+
+      <h2>What Makes Dear Darling Different</h2>
+      <p>
+        Most Mayfair clubs fall into one of two categories: cocktail bars that try to be clubs, or
+        clubs that treat drinks as an afterthought. Dear Darling actually bridges the gap. Early in
+        the evening, it operates as a genuinely good cocktail bar — the kind of place where the
+        bartenders know what they&apos;re doing and the menu goes beyond vodka-cranberry. As the night
+        progresses, the lighting shifts, the DJ takes over, and it becomes a proper late-night club
+        with real energy.
+      </p>
+      <p>
+        This dual personality is Dear Darling&apos;s strongest asset. You can arrive at 9pm for
+        cocktails with a date and still be there at 2am dancing to hip-hop. Try doing that at most
+        Mayfair venues and you&apos;ll either be bored by 11pm or wishing you&apos;d started
+        somewhere else.
+      </p>
+
+      <h2>Dear Darling Table Prices</h2>
+      <p>
+        Tables at Dear Darling start from <strong>£1,000 minimum spend</strong> for floor tables.
+        VIP tables start from <strong>£2,000</strong>. For a newer venue with this level of fit-out
+        and attention to detail, the pricing is competitive with — and arguably better value than —
+        some established Mayfair clubs that are coasting on reputation.
+      </p>
+      <p>
+        As with all Mayfair clubs, prices vary by night. Saturdays command the highest minimums.
+        Thursday is the sweet spot if you want a strong atmosphere without peak pricing.
+      </p>
+
+      <h2>The Crowd</h2>
+      <p>
+        Dear Darling attracts a fashion-conscious, generally late-twenties-to-thirties crowd.
+        These are people who&apos;ve been to the bigger Mayfair clubs and decided they want something
+        more considered. You won&apos;t find the stag-party energy of some venues here — the vibe is
+        stylish and fun without being chaotic.
+      </p>
+      <p>
+        The venue&apos;s newness works in its favour. There&apos;s a buzz around being somewhere that
+        hasn&apos;t been done to death. The regulars are savvy and well-dressed, which creates an
+        atmosphere that feels exclusive without being exclusionary.
+      </p>
+
+      <h2>Music Policy</h2>
+      <p>
+        The music at Dear Darling leans towards hip-hop, RnB, and Afrobeats — standard Mayfair
+        fare, but executed well. The DJs read the room rather than sticking to a rigid playlist,
+        and the sound system is properly installed rather than an afterthought. If you&apos;re
+        comparing it to other hip-hop-focused venues,{" "}
+        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>{" "}
+        is more underground and{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        offers a two-floor split with house upstairs. Dear Darling sits in the middle — polished
+        and quality-focused.
+      </p>
+
+      <h2>The Interior</h2>
+      <p>
+        The design is a step above most clubs. Warm tones, textured surfaces, and lighting that
+        actually creates atmosphere rather than just being dark. It&apos;s clear that someone spent
+        real money on the fit-out — and more importantly, spent it well. The space feels premium
+        without trying too hard, which is harder to pull off than most people realise.
+      </p>
+
+      <h2>Who Should Book Dear Darling</h2>
+      <p>
+        Dear Darling is ideal for groups who want a stylish, well-designed night out with good music
+        and genuine cocktail quality. It&apos;s particularly strong for:
+      </p>
+      <ul>
+        <li>Date nights that you want to extend into a late night</li>
+        <li>Groups who&apos;ve outgrown the bigger, louder clubs but still want energy</li>
+        <li>Birthdays where the crowd cares about aesthetics and vibe</li>
+        <li>Anyone who appreciates a good cocktail <em>and</em> a good party</li>
+      </ul>
+      <p>
+        If you want theatrical performances, go to{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>.
+        If you want maximum exclusivity, go to{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>.
+        If you want a beautifully designed venue where the drinks are as good as the music, Dear
+        Darling is the one.
+      </p>
+
+      <h2>How to Book</h2>
+      <p>
+        Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll confirm
+        your table at Dear Darling directly, usually within minutes. Thursday through Saturday are
+        the operating nights — book early for Saturdays.
+      </p>
+    </>
+  ),
+
+  "the-box-soho-bottle-service-guide": (
+    <>
+      <p>
+        The Box is the most polarising club in London. People either love it or they&apos;re not
+        ready for it. If you&apos;re considering booking a table, here&apos;s everything you need
+        to know — including whether it&apos;s actually right for you.
+      </p>
+
+      <h2>What is The Box?</h2>
+      <p>
+        The Box Soho is a theatrical nightclub inspired by the famous New York original. The concept
+        combines avant-garde live performances — think burlesque, cabaret, and performance art that
+        deliberately pushes boundaries — with a proper late-night club. The venue is intimate,
+        decadent, and designed to feel like you&apos;ve walked into a private members&apos; party
+        from another era.
+      </p>
+      <p>
+        This is not a club where you sit at your table, drink vodka, and watch people dance. The
+        shows happen around you, above you, and sometimes uncomfortably close to you. They are
+        provocative by design. If that sounds exciting, you&apos;ll love it. If it sounds like a
+        warning, it probably is.
+      </p>
+
+      <h2>The Box Table Prices</h2>
+      <p>
+        Tables at The Box start from <strong>£1,500 minimum spend</strong>. VIP and premium
+        positions start from <strong>£3,000</strong>. This puts it at the higher end of London
+        nightlife, on par with{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
+        in terms of pricing.
+      </p>
+      <p>
+        The premium is justified by two things: the quality of the live entertainment (which is
+        genuinely world-class) and the exclusivity of the venue. The Box holds around 200 people
+        and the door is one of the most selective in London. You&apos;re paying for an experience
+        that most people in London will never have.
+      </p>
+
+      <h2>Getting Past the Door</h2>
+      <p>
+        The Box&apos;s door policy is legendary — and not in the way that benefits most people. The
+        venue is fiercely selective. They&apos;re looking for a specific crowd: creative,
+        fashion-forward, interesting. A group of guys in matching Ben Sherman shirts will not get in,
+        regardless of how much they&apos;re willing to spend.
+      </p>
+      <p>
+        Booking a table through us guarantees entry for your group. Without a booking, your chances
+        on a Friday or Saturday are slim. The door team isn&apos;t being difficult for the sake of
+        it — they&apos;re curating an atmosphere, and the result is a crowd that genuinely adds to
+        the experience.
+      </p>
+
+      <h2>The Shows</h2>
+      <p>
+        The performances at The Box are unlike anything else in London nightlife. They span
+        burlesque, cabaret, acrobatics, and performance art. The production quality is high — these
+        are professional performers, not amateurs. The content is deliberately provocative and
+        sometimes shocking.
+      </p>
+      <p>
+        If you&apos;re comparing it to{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,
+        the difference is tone. Cirque is theatrical and fun — circus performers, fire breathers,
+        stilt walkers. The Box is theatrical and edgy — performances that make you feel something,
+        even if that something is discomfort. Both are excellent, but they&apos;re serving very
+        different experiences.
+      </p>
+      <p>
+        <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}
+        is the other show-format venue worth comparing — bigger, more polished, more Vegas. The Box
+        is smaller, darker, and more provocative.
+      </p>
+
+      <h2>The Crowd</h2>
+      <p>
+        The Box attracts creatives, fashion industry people, celebrities, and anyone who actively
+        seeks out experiences that break the mould. The crowd is diverse in the best sense — united
+        by a willingness to be surprised and an appreciation for the unconventional.
+      </p>
+      <p>
+        If your group is looking for a standard Mayfair night of bottle service and chart music,
+        The Box will be wasted on you. Save the £1,500 and go to{" "}
+        <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>{" "}
+        instead. The Box rewards people who are genuinely interested in something different.
+      </p>
+
+      <h2>Who Should Book The Box</h2>
+      <ul>
+        <li>Groups who want a night they&apos;ll talk about for years</li>
+        <li>Creative and fashion-forward crowds who dress for the occasion</li>
+        <li>Couples looking for an unforgettable date night</li>
+        <li>Anyone who thinks most London clubs are boring and predictable</li>
+      </ul>
+      <p>
+        Not for: Groups who want a relaxed, comfortable night. People who are easily offended.
+        Large groups of one gender (the door will be difficult).
+      </p>
+
+      <h2>How to Book</h2>
+      <p>
+        Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll secure
+        your table at The Box and — crucially — ensure your group gets past the door without issues.
+        Open Wednesday through Saturday.
+      </p>
+    </>
+  ),
+
+  "luna-club-london-guide": (
+    <>
+      <p>
+        Luna Club London doesn&apos;t shout about itself. There are no circus performers, no
+        bowling lanes, no provocative art installations. What there is: a sleek venue, good hip-hop,
+        a well-connected crowd, and the kind of consistent quality that turns first-time visitors
+        into regulars. Sometimes that&apos;s exactly what you want.
+      </p>
+
+      <h2>What Luna Does Well</h2>
+      <p>
+        Luna is a hip-hop and RnB focused club in the heart of Mayfair that executes the basics
+        brilliantly. The interior is sleek and modern — dark tones, metallic accents, proper lighting
+        design. The sound system handles hip-hop the way it should be handled. The DJs know the
+        difference between reading a room and just hitting shuffle on a Spotify playlist.
+      </p>
+      <p>
+        The result is a club where you don&apos;t have to think too hard about whether you&apos;re
+        going to have a good time. If you like hip-hop, RnB, and Afrobeats in an intimate Mayfair
+        setting with a well-dressed crowd, Luna delivers. Every time.
+      </p>
+
+      <h2>Luna Table Prices</h2>
+      <p>
+        Tables at Luna start from <strong>£1,000 minimum spend</strong> for floor tables. VIP tables
+        start from <strong>£2,000</strong>. Standard Mayfair pricing for a club of this quality —
+        the same as{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>,{" "}
+        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>,
+        and most other Mayfair hip-hop venues.
+      </p>
+      <p>
+        Saturdays have the highest minimums. Thursday is a good bet for the same atmosphere at a
+        slightly lower entry point.
+      </p>
+
+      <h2>Luna vs Other Hip-Hop Clubs in Mayfair</h2>
+      <p>
+        Mayfair has several strong hip-hop options, so how does Luna compare?
+      </p>
+      <ul>
+        <li>
+          <strong><Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link></strong>{" "}
+          — More distinctive with its Japanese-inspired design. The music policy is slightly more
+          underground. Tabu is for people who want hip-hop with an aesthetic statement.
+        </li>
+        <li>
+          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link></strong>{" "}
+          — Two floors with hip-hop downstairs and house upstairs. Better for mixed groups with
+          different music tastes. Luna is more focused.
+        </li>
+        <li>
+          <strong><Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link></strong>{" "}
+          — Open-format music that crosses genres. If your group doesn&apos;t all agree on hip-hop,
+          Funky Buddha is more flexible. Luna is the better choice if hip-hop is what you want.
+        </li>
+      </ul>
+      <p>
+        Luna sits in the sweet spot: more focused than Funky Buddha, less niche than Tabu, more
+        intimate than Cuckoo&apos;s basement. It&apos;s the no-nonsense hip-hop option.
+      </p>
+
+      <h2>The Crowd</h2>
+      <p>
+        Luna attracts well-connected Mayfair regulars and international visitors who know what
+        they&apos;re looking for. The crowd is one of Luna&apos;s strongest assets — it feels like
+        everyone in the room chose to be there specifically, rather than ending up there because
+        they couldn&apos;t get in somewhere else.
+      </p>
+      <p>
+        The door is selective (this is Mayfair) but not as fortress-like as{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
+        or{" "}
+        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>.
+        If you&apos;re well-dressed and have a table booking, you&apos;re in.
+      </p>
+
+      <h2>Who Should Book Luna</h2>
+      <ul>
+        <li>Hip-hop fans who want a reliable Mayfair club without gimmicks</li>
+        <li>Groups who value a strong crowd and intimate atmosphere</li>
+        <li>Regular Mayfair goers looking for a fresh option</li>
+        <li>Anyone who wants solid bottle service, good music, and zero surprises</li>
+      </ul>
+      <p>
+        If you want theatrics, go to{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>.
+        If you want maximum exclusivity, go to{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>.
+        If you want a solid hip-hop night in Mayfair that just works, Luna is the one.
+      </p>
+
+      <h2>How to Book</h2>
+      <p>
+        Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll confirm
+        your table at Luna, usually within minutes. Open Thursday, Friday, and Saturday.
       </p>
     </>
   ),

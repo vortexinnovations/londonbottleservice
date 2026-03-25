@@ -78,12 +78,12 @@ export const blogPosts: BlogPost[] = [
       "21st birthday London clubs",
       "30th birthday London",
     ],
-    relatedClubs: ["cirque-le-soir", "london-reign", "lio-london", "selene-london"],
+    relatedClubs: ["cirque-le-soir", "london-reign", "the-box", "selene-london"],
     faqs: [
       {
         question: "Which London club is best for a birthday?",
         answer:
-          "Cirque Le Soir is the most popular birthday venue thanks to its circus performers and theatrical atmosphere. London Reign offers Las Vegas-style shows. Lio Club London combines dinner, cabaret, and clubbing. The best choice depends on your group size, budget, and what kind of night you want.",
+          "Cirque Le Soir is the most popular birthday venue thanks to its circus performers and theatrical atmosphere. London Reign offers Las Vegas-style shows. The Box Soho combines dinner, cabaret, and clubbing. The best choice depends on your group size, budget, and what kind of night you want.",
       },
       {
         question: "Can London clubs organise birthday packages?",
@@ -138,7 +138,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which Mayfair club has the strictest dress code?",
         answer:
-          "Tape London and Maddox have the strictest dress codes. Both are at the formal end of Mayfair — jackets are encouraged (though not always required) and the door staff are very selective. Venues like Tabu and Libertine are slightly more relaxed but still expect smart attire.",
+          "Tape London and Maddox have the strictest dress codes. Both are at the formal end of Mayfair — jackets are encouraged (though not always required) and the door staff are very selective. Venues like Tabu and Luna are slightly more relaxed but still expect smart attire.",
       },
       {
         question: "Will I get turned away for wearing jeans?",
@@ -168,7 +168,7 @@ export const blogPosts: BlogPost[] = [
       "how to get into Tape London",
       "London members club access",
     ],
-    relatedClubs: ["tape-london", "scotch-of-st-james", "cirque-le-soir", "libertine"],
+    relatedClubs: ["tape-london", "scotch-of-st-james", "cirque-le-soir", "the-box"],
     faqs: [
       {
         question: "How do you get into exclusive London clubs?",
@@ -212,7 +212,7 @@ export const blogPosts: BlogPost[] = [
       "celebrity hotspots London nightlife",
       "best clubs to see celebrities London",
     ],
-    relatedClubs: ["cirque-le-soir", "tape-london", "libertine", "lio-london"],
+    relatedClubs: ["cirque-le-soir", "tape-london", "the-box", "london-reign"],
     faqs: [
       {
         question: "Which London club has the most celebrities?",
@@ -262,7 +262,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What time do London clubs open and close?",
         answer:
-          "Most Mayfair clubs open between 10:00 PM and 10:30 PM and close between 3:00 AM and 3:30 AM. Ministry of Sound runs later, often until 6:00 AM. Arrive between 10:30 PM and 11:30 PM for the best experience — the atmosphere builds through the night and peaks around midnight to 1:00 AM.",
+          "Most Mayfair clubs open between 10:00 PM and 10:30 PM and close between 3:00 AM and 3:30 AM. Beat London runs later, often until 6:00 AM. Arrive between 10:30 PM and 11:30 PM for the best experience — the atmosphere builds through the night and peaks around midnight to 1:00 AM.",
       },
       {
         question: "Is London nightlife expensive?",
@@ -297,7 +297,7 @@ export const blogPosts: BlogPost[] = [
       "champagne prices Mayfair clubs",
       "what to order bottle service",
     ],
-    relatedClubs: ["tape-london", "lio-london", "cirque-le-soir", "maddox"],
+    relatedClubs: ["tape-london", "the-box", "cirque-le-soir", "maddox"],
     faqs: [
       {
         question: "How much is Dom Perignon at a London club?",
@@ -342,12 +342,12 @@ export const blogPosts: BlogPost[] = [
       "best hen night venues London",
       "London hen party ideas",
     ],
-    relatedClubs: ["london-reign", "cirque-le-soir", "lio-london", "cuckoo-club"],
+    relatedClubs: ["london-reign", "cirque-le-soir", "the-box", "cuckoo-club"],
     faqs: [
       {
         question: "Which London club is best for a hen party?",
         answer:
-          "London Reign is the top choice for hen parties — the Las Vegas-style shows, aerial performers, and large capacity make it perfect for groups. Cirque Le Soir is excellent for smaller hen parties who want something intimate and theatrical. Lio Club London offers dinner-show-club for hens who want the full evening sorted.",
+          "London Reign is the top choice for hen parties — the Las Vegas-style shows, aerial performers, and large capacity make it perfect for groups. Cirque Le Soir is excellent for smaller hen parties who want something intimate and theatrical. The Box Soho offers dinner-show-club for hens who want the full evening sorted.",
       },
       {
         question: "How much does a hen party in a London club cost?",
@@ -427,12 +427,12 @@ export const blogPosts: BlogPost[] = [
       "corporate event nightclub London",
       "team night out London",
     ],
-    relatedClubs: ["maddox", "tape-london", "scotch-of-st-james", "lio-london"],
+    relatedClubs: ["maddox", "tape-london", "scotch-of-st-james", "london-reign"],
     faqs: [
       {
         question: "Which London club is best for corporate entertaining?",
         answer:
-          "Maddox is the top choice — the dinner-to-club transition gives your evening structure, the Italian restaurant is genuinely impressive, and the house music is sophisticated without being aggressive. Tape London works for music industry clients. Scotch of St James appeals to creatives. Lio London is the showstopper option for big-ticket entertainment.",
+          "Maddox is the top choice — the dinner-to-club transition gives your evening structure, the Italian restaurant is genuinely impressive, and the house music is sophisticated without being aggressive. Tape London works for music industry clients. Scotch of St James appeals to creatives. London Reign is the showstopper option for big-ticket entertainment.",
       },
       {
         question: "Can you expense bottle service at London clubs?",
@@ -447,7 +447,140 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is bottle service appropriate for client entertaining?",
         answer:
-          "At the right venue, absolutely. A dinner-and-club evening at Maddox or Lio is polished and impressive. A night at Tape London signals exclusivity and connections. Avoid the more party-focused venues (Libertine, for example) for formal client entertaining unless you know your clients' tastes well.",
+          "At the right venue, absolutely. A dinner-and-club evening at Maddox or London Reign is polished and impressive. A night at Tape London signals exclusivity and connections. Avoid the more party-focused venues (Luna, for example) for formal client entertaining unless you know your clients' tastes well.",
+      },
+    ],
+  },
+  {
+    slug: "dear-darling-mayfair-guide",
+    title: "Dear Darling Mayfair: The Complete Guide to One of Mayfair's Best New Clubs",
+    metaTitle: "Dear Darling Mayfair Guide — Table Prices, Vibe & What to Expect",
+    metaDescription:
+      "Everything you need to know about Dear Darling in Mayfair. Table prices from £1,000, cocktail bar meets late-night club, dress code, music policy, and how to book.",
+    excerpt:
+      "Dear Darling has quickly become one of Mayfair's most talked-about venues. Here's why it deserves a spot on your shortlist — and what to expect when you get there.",
+    publishedAt: "2025-06-10",
+    updatedAt: "2026-03-01",
+    category: "Club Guides",
+    readingTime: "6 min read",
+    keywords: [
+      "Dear Darling Mayfair",
+      "Dear Darling London",
+      "Dear Darling table prices",
+      "Dear Darling bottle service",
+      "Dear Darling club review",
+      "new clubs Mayfair",
+    ],
+    relatedClubs: ["dear-darling", "cuckoo-club", "maddox", "tabu-london"],
+    faqs: [
+      {
+        question: "How much is a table at Dear Darling Mayfair?",
+        answer:
+          "Tables at Dear Darling start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Pricing is competitive with established Mayfair clubs and represents good value for the quality of the venue.",
+      },
+      {
+        question: "What's the vibe at Dear Darling?",
+        answer:
+          "Dear Darling transitions from a sophisticated cocktail bar early in the evening to a proper late-night club. The crowd is well-dressed, fashion-conscious, and generally in their late twenties to thirties. Think stylish without being pretentious.",
+      },
+      {
+        question: "What nights is Dear Darling open?",
+        answer:
+          "Dear Darling is open Thursday, Friday, and Saturday. All three nights maintain strong energy, with Saturdays being the busiest.",
+      },
+      {
+        question: "How does Dear Darling compare to other Mayfair clubs?",
+        answer:
+          "Dear Darling sits between Cuckoo Club and Maddox in terms of vibe — stylish and well-designed with a focus on quality drinks and music. What sets it apart is the cocktail bar element and the newer, fresher feel compared to established venues.",
+      },
+    ],
+  },
+  {
+    slug: "the-box-soho-bottle-service-guide",
+    title: "The Box Soho: Bottle Service at London's Most Provocative Club",
+    metaTitle: "The Box Soho — VIP Table Prices, Shows & What to Expect Inside",
+    metaDescription:
+      "The Box Soho is London's most daring nightclub. Tables from £1,500, avant-garde performances, extremely selective door. Here's the complete insider guide to getting in and making the most of it.",
+    excerpt:
+      "The Box isn't like any other club in London. Provocative performances, a fiercely selective door, and an atmosphere you won't find anywhere else. Here's what you need to know before you go.",
+    publishedAt: "2025-07-05",
+    updatedAt: "2026-03-01",
+    category: "Club Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "The Box Soho",
+      "The Box London club",
+      "The Box table prices",
+      "The Box bottle service",
+      "The Box shows",
+      "exclusive clubs London",
+      "The Box door policy",
+    ],
+    relatedClubs: ["the-box", "cirque-le-soir", "tape-london", "london-reign"],
+    faqs: [
+      {
+        question: "How much is a table at The Box Soho?",
+        answer:
+          "Tables at The Box start from £1,500 minimum spend. VIP and premium positions start from £3,000. The pricing reflects the exclusivity and the quality of live entertainment.",
+      },
+      {
+        question: "How hard is it to get into The Box?",
+        answer:
+          "The Box has one of the most selective doors in London. Booking a table through us guarantees entry for your group. Without a table booking or membership, getting past the door on a weekend is extremely difficult. Dress code is creative and fashion-forward.",
+      },
+      {
+        question: "What kind of shows does The Box have?",
+        answer:
+          "The Box features provocative, avant-garde performances including burlesque, cabaret, and performance art. The shows are designed to surprise and push boundaries. They're not for everyone, and that's deliberate — The Box rewards people who want something genuinely different.",
+      },
+      {
+        question: "Is The Box the same as the New York one?",
+        answer:
+          "The Box London is inspired by the famous New York original and follows the same concept — provocative theatrical performances combined with a nightclub. The London venue has its own identity while honouring the New York original's spirit.",
+      },
+    ],
+  },
+  {
+    slug: "luna-club-london-guide",
+    title: "Luna Club London: Your Guide to Mayfair's Favourite Late-Night Spot",
+    metaTitle: "Luna Club London — Table Prices, Music, Door Policy & Booking Guide",
+    metaDescription:
+      "Luna Club London is a sleek Mayfair hip-hop club with tables from £1,000. Strong crowd, intimate atmosphere, consistent quality. Here's the full guide to booking.",
+    excerpt:
+      "Luna Club has quietly built a loyal following among Mayfair regulars. If you want reliable hip-hop, a strong crowd, and proper bottle service without the gimmicks, this is it.",
+    publishedAt: "2025-08-15",
+    updatedAt: "2026-03-01",
+    category: "Club Guides",
+    readingTime: "5 min read",
+    keywords: [
+      "Luna Club London",
+      "Luna London table prices",
+      "Luna Club Mayfair",
+      "Luna bottle service",
+      "hip-hop clubs Mayfair",
+      "Luna London review",
+    ],
+    relatedClubs: ["luna-club-london", "tabu-london", "funky-buddha", "cuckoo-club"],
+    faqs: [
+      {
+        question: "How much is a table at Luna Club London?",
+        answer:
+          "Tables at Luna start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Standard Mayfair pricing for a club of this quality.",
+      },
+      {
+        question: "What type of music does Luna play?",
+        answer:
+          "Luna focuses on hip-hop, RnB, Afrobeats, and UK rap. The DJs balance mainstream tracks with deeper cuts. If you want house or electronic music, try Maddox or BEAT London instead.",
+      },
+      {
+        question: "Is Luna Club London a good club?",
+        answer:
+          "Luna is a strong all-rounder for hip-hop fans. It consistently delivers good music, a well-connected crowd, and reliable table service. It won't wow you with theatrics or gimmicks, but it delivers a solid Mayfair night out every time.",
+      },
+      {
+        question: "How does Luna compare to Tabu London?",
+        answer:
+          "Both are hip-hop focused Mayfair clubs. Tabu has a more distinctive Japanese-inspired aesthetic and a slightly more underground music policy. Luna is more straightforward — a sleek, reliable club with a strong crowd. Both are excellent choices for hip-hop fans.",
       },
     ],
   },
