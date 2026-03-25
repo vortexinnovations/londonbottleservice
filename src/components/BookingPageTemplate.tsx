@@ -96,6 +96,9 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       {/* Hero */}
       <section className="py-12 md:py-20 px-4">
         <div className="max-w-4xl mx-auto">
+          <p className="text-text-muted text-xs tracking-wider uppercase mb-4">
+            London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
+          </p>
           <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
             {club.area} &bull; Tables from &pound;{club.pricing.floorTable.toLocaleString()}
           </p>
@@ -240,6 +243,34 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
           </p>
         </div>
       </section>
+
+      {/* Guestlist vs Table Booking */}
+      {data.guestlistComparison && (
+        <section className="py-12 px-4 border-b border-border bg-bg-secondary">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              Guestlist vs Table Booking at {club.name}
+            </h2>
+            <p className="text-text-secondary leading-relaxed whitespace-pre-line">
+              {data.guestlistComparison}
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* Entry Guide */}
+      {data.entryGuide && (
+        <section className="py-12 px-4 border-b border-border">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+              How to Get Into {club.name}
+            </h2>
+            <p className="text-text-secondary leading-relaxed whitespace-pre-line">
+              {data.entryGuide}
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Long-Form Content Sections */}
       {data.sections.map((section, i) => (

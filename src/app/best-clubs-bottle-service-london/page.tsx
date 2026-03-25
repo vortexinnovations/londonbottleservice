@@ -3,6 +3,9 @@ import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import { TrustBadges } from "@/components/TrustBadges";
+import { ItemListSchema } from "@/components/ItemListSchema";
 
 export const metadata: Metadata = {
   title:
@@ -308,6 +311,20 @@ export default function BestClubsPage() {
   return (
     <>
       <FAQSchema faqs={faqs} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://londonbottleservice.com" },
+          { name: "Best Clubs for Bottle Service" },
+        ]}
+      />
+      <ItemListSchema
+        name="Best Clubs for Bottle Service in London"
+        items={reviews.map((r) => ({
+          name: clubs.find((c) => c.slug === r.slug)?.name || r.slug,
+          url: `https://londonbottleservice.com/clubs/${r.slug}`,
+          position: r.rank,
+        }))}
+      />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="text-sm text-text-muted">
@@ -319,6 +336,9 @@ export default function BestClubsPage() {
 
       <section className="py-12 md:py-20 px-4">
         <div className="max-w-4xl mx-auto">
+          <p className="text-gold text-xs font-medium tracking-wider uppercase mb-4">
+            London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
+          </p>
           <h1 className="text-3xl md:text-5xl font-bold mb-6">
             Best Clubs for Bottle Service in London
           </h1>
@@ -332,6 +352,13 @@ export default function BestClubsPage() {
             we couldn&apos;t stand behind. The rankings reflect which venues deliver the most
             consistent, memorable experiences for the money.
           </p>
+        </div>
+      </section>
+
+      {/* Trust Badges */}
+      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+        <div className="max-w-4xl mx-auto">
+          <TrustBadges />
         </div>
       </section>
 

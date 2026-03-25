@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import { TrustBadges } from "@/components/TrustBadges";
 
 export const metadata: Metadata = {
   title: "What is Bottle Service? Complete London Guide | Prices, Rules & Tips",
@@ -75,6 +77,12 @@ export default function BottleServiceGuidePage() {
   return (
     <>
       <FAQSchema faqs={faqs} />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://londonbottleservice.com" },
+          { name: "Bottle Service Guide" },
+        ]}
+      />
 
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-4 pt-6">
@@ -101,6 +109,13 @@ export default function BottleServiceGuidePage() {
             Written by someone who books tables at these clubs every week — not a
             generic explainer copied from the internet.
           </p>
+        </div>
+      </section>
+
+      {/* Trust Badges */}
+      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+        <div className="max-w-4xl mx-auto">
+          <TrustBadges />
         </div>
       </section>
 

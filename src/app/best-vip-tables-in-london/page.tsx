@@ -5,6 +5,7 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { ItemListSchema } from "@/components/ItemListSchema";
 
 export const metadata: Metadata = {
   title: "Best VIP Tables in London 2026 | Top Clubs Ranked",
@@ -129,11 +130,16 @@ export default function BestVipTablesPage() {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },
-          {
-            name: "Best VIP Tables in London",
-            url: "https://londonbottleservice.com/best-vip-tables-in-london",
-          },
+          { name: "Best VIP Tables in London" },
         ]}
+      />
+      <ItemListSchema
+        name="Best VIP Tables in London"
+        items={clubs.map((c, i) => ({
+          name: c.name,
+          url: `https://londonbottleservice.com/${c.bookingSlug || `clubs/${c.slug}`}`,
+          position: i + 1,
+        }))}
       />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">

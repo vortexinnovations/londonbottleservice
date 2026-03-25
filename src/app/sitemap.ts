@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 import { allClubs, isClosedClub } from "@/data/clubs";
 import { blogPosts } from "@/data/blog";
 import { bookingPages } from "@/data/bookingPages";
-import { supportPages } from "@/data/supportPages";
+
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://londonbottleservice.com";
@@ -21,13 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.95,
   }));
 
-  const supportPageUrls = supportPages.map((page) => ({
-    url: `${baseUrl}/${page.slug}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: 0.85,
-  }));
-
   const blogPageUrls = blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.updatedAt),
@@ -38,7 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const hubPages = [
     "best-vip-tables-in-london",
     "mayfair-table-booking-guide",
-    "best-nightclubs-for-bottle-service-london",
     "club-table-prices-london",
     "guestlist-vs-table-booking-london",
   ].map((slug) => ({
@@ -63,7 +55,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...bookingPageUrls,
     ...hubPages,
-    ...supportPageUrls,
     ...clubPageUrls,
     {
       url: `${baseUrl}/clubs/luxx-club-london`,

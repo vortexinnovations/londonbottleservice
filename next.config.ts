@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
         destination: "/book-a-table",
         permanent: true,
       },
+      {
+        source: "/best-nightclubs-for-bottle-service-london",
+        destination: "/best-clubs-bottle-service-london",
+        permanent: true,
+      },
     ];
   },
 };

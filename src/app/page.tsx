@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { ClubCard } from "@/components/ClubCard";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
@@ -176,6 +177,47 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-12">
             <WhatsAppCTA />
+          </div>
+        </div>
+      </section>
+
+      {/* Guides & Resources */}
+      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-xl font-bold text-center mb-8">Guides &amp; Resources</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <Link href="/best-clubs-bottle-service-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Best Clubs Ranked</p>
+              <p className="text-text-muted text-xs mt-1">Our honest reviews</p>
+            </Link>
+            <Link href="/club-table-prices-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Table Prices</p>
+              <p className="text-text-muted text-xs mt-1">Full price comparison</p>
+            </Link>
+            <Link href="/best-vip-tables-in-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Best VIP Tables</p>
+              <p className="text-text-muted text-xs mt-1">Premium positions ranked</p>
+            </Link>
+            <Link href="/guestlist-vs-table-booking-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Guestlist vs Table</p>
+              <p className="text-text-muted text-xs mt-1">Which should you choose?</p>
+            </Link>
+            <Link href="/mayfair-table-booking-guide" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Mayfair Guide</p>
+              <p className="text-text-muted text-xs mt-1">Area booking guide</p>
+            </Link>
+            <Link href="/bottle-service-guide" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">What is Bottle Service?</p>
+              <p className="text-text-muted text-xs mt-1">Complete explainer</p>
+            </Link>
+            <Link href="/clubs-by-night" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
+              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Clubs by Night</p>
+              <p className="text-text-muted text-xs mt-1">What&apos;s open when</p>
+            </Link>
+            <Link href="/book-a-table" className="bg-bg-card border border-gold/30 rounded-lg p-4 hover:border-gold/50 transition-colors group text-center">
+              <p className="font-semibold text-sm text-gold group-hover:text-gold-light transition-colors">Book a Table</p>
+              <p className="text-text-muted text-xs mt-1">All clubs, instant booking</p>
+            </Link>
           </div>
         </div>
       </section>
