@@ -3,6 +3,7 @@ import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 
@@ -583,6 +584,7 @@ export default function ClubTablePricesPage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/club-table-prices-london" />
       <WhatsAppCTA variant="sticky" />
     </>
   );

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { RelatedGuides } from "@/components/RelatedGuides";
 
 export const metadata: Metadata = {
   title:
@@ -316,6 +317,7 @@ export default function ClubsByNightPage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/clubs-by-night" />
       <WhatsAppCTA variant="sticky" />
     </>
   );

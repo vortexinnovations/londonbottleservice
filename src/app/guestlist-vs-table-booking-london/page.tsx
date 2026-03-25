@@ -3,6 +3,7 @@ import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   title:
     "Guestlist vs Table Booking London — Which Should You Choose?",
   description:
-    "Comprehensive comparison of guestlist vs table booking at London nightclubs. Cost differences, experience comparison, when each option makes sense, and how to decide for your group.",
+    "Guestlist vs table booking at London clubs: real cost comparison, what each gets you, and which is right for your group.",
   alternates: {
     canonical:
       "https://londonbottleservice.com/guestlist-vs-table-booking-london",
@@ -623,6 +624,7 @@ export default function GuestlistVsTableBookingPage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/guestlist-vs-table-booking-london" />
       <WhatsAppCTA variant="sticky" />
     </>
   );

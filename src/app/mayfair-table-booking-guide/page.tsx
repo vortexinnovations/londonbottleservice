@@ -3,13 +3,14 @@ import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 
 export const metadata: Metadata = {
   title: "Mayfair Table Booking Guide 2026 | Prices, Tips & How to Book",
   description:
-    "The complete guide to booking tables at Mayfair nightclubs in 2026. Pricing for every club, dress code tips, best nights to go, and step-by-step booking process.",
+    "Complete Mayfair table booking guide. Every club's pricing, dress code, best nights, and how to book. Instant WhatsApp confirmation.",
   alternates: {
     canonical:
       "https://londonbottleservice.com/mayfair-table-booking-guide",
@@ -513,6 +514,7 @@ export default function MayfairTableBookingGuidePage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/mayfair-table-booking-guide" />
       <WhatsAppCTA variant="sticky" />
     </>
   );

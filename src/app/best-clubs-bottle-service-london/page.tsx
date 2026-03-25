@@ -6,12 +6,13 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ItemListSchema } from "@/components/ItemListSchema";
+import { RelatedGuides } from "@/components/RelatedGuides";
 
 export const metadata: Metadata = {
   title:
     "Best Clubs for Bottle Service in London 2026 | Mayfair VIP Guide",
   description:
-    "Our honest guide to the best clubs for bottle service in London. We rank and review every Mayfair club we work with — from the most theatrical to the most exclusive.",
+    "Honest rankings of London's best bottle service clubs. Every Mayfair venue reviewed with real prices and insider recommendations.",
   alternates: {
     canonical:
       "https://londonbottleservice.com/best-clubs-bottle-service-london",
@@ -517,6 +518,7 @@ export default function BestClubsPage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/best-clubs-bottle-service-london" />
       <WhatsAppCTA variant="sticky" />
     </>
   );

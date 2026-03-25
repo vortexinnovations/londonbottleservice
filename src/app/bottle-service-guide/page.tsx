@@ -4,11 +4,12 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { RelatedGuides } from "@/components/RelatedGuides";
 
 export const metadata: Metadata = {
   title: "What is Bottle Service? Complete London Guide | Prices, Rules & Tips",
   description:
-    "Everything you need to know about bottle service in London. How minimum spend works, what's included, what to wear, how to book, and what to expect at Mayfair nightclubs.",
+    "How bottle service works in London. Minimum spend explained, what's included, dress code, and how to book at Mayfair clubs. Real insider guide.",
   alternates: {
     canonical: "https://londonbottleservice.com/bottle-service-guide",
   },
@@ -327,6 +328,7 @@ export default function BottleServiceGuidePage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/bottle-service-guide" />
       <WhatsAppCTA variant="sticky" />
     </>
   );

@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://londonbottleservice.com"),
   title: {
     default:
-      "Bottle Service London | VIP Table Booking at Mayfair's Best Clubs",
+      "Bottle Service London | VIP Table Booking Mayfair",
     template: "%s | London Bottle Service",
   },
   description:
-    "Book VIP tables and bottle service at London's most exclusive Mayfair nightclubs. Real prices, no hidden fees. Cirque Le Soir, Tape London, Cuckoo Club and more. Instant WhatsApp booking.",
+    "Book VIP tables at London's best Mayfair nightclubs. Real prices, no hidden fees. Cirque Le Soir, Tape London, Cuckoo Club & more. WhatsApp booking.",
   keywords: [
     "bottle service London",
     "London bottle service",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: "https://londonbottleservice.com",
     siteName: "London Bottle Service",
-    title: "Bottle Service London | VIP Table Booking at Mayfair's Best Clubs",
+    title: "Bottle Service London | VIP Table Booking Mayfair",
     description:
       "Book VIP tables and bottle service at London's most exclusive Mayfair nightclubs. Real prices, instant WhatsApp booking.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Bottle Service London | VIP Table Booking at Mayfair's Best Clubs",
+    title: "Bottle Service London | VIP Table Booking Mayfair",
     description:
       "Book VIP tables and bottle service at London's most exclusive Mayfair nightclubs. Real prices, instant WhatsApp booking.",
   },

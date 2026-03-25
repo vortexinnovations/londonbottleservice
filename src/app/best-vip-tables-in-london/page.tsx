@@ -6,11 +6,12 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ItemListSchema } from "@/components/ItemListSchema";
+import { RelatedGuides } from "@/components/RelatedGuides";
 
 export const metadata: Metadata = {
   title: "Best VIP Tables in London 2026 | Top Clubs Ranked",
   description:
-    "Discover the best VIP tables in London for 2026. We rank every top club for VIP bookings — from Cirque Le Soir to Tape London — with prices, what makes each special, and how to book.",
+    "Best VIP tables in London ranked. Pricing, positioning, and what makes each club's VIP experience different. Book via WhatsApp.",
   alternates: {
     canonical: "https://londonbottleservice.com/best-vip-tables-in-london",
   },
@@ -547,6 +548,7 @@ export default function BestVipTablesPage() {
         </div>
       </section>
 
+      <RelatedGuides currentPath="/best-vip-tables-in-london" />
       <WhatsAppCTA variant="sticky" />
     </>
   );
