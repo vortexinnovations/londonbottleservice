@@ -4,6 +4,8 @@ import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title:
@@ -174,19 +176,14 @@ export default function ClubsByNightPage() {
         </nav>
       </div>
 
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            London Clubs by Night of the Week
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            Not every club opens every night, and the vibe changes dramatically depending on when you go. This guide breaks down each night of the week so you know exactly which Mayfair clubs are open, what the atmosphere is like, and where your money goes furthest.
-          </p>
-          <p className="text-text-muted">
-            Updated regularly. Clubs occasionally add special event nights — message us on WhatsApp for the latest.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.clubsByNight.hero} alt={pageImages.clubsByNight.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          London Clubs by Night of the Week
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+          Not every club opens every night, and the vibe changes dramatically depending on when you go. This guide breaks down each night of the week so you know exactly which Mayfair clubs are open, what the atmosphere is like, and where your money goes furthest.
+        </p>
+      </HeroImage>
 
       {/* Quick Overview */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

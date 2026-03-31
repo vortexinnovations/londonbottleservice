@@ -7,6 +7,8 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ItemListSchema } from "@/components/ItemListSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title:
@@ -335,26 +337,16 @@ export default function BestClubsPage() {
         </nav>
       </div>
 
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-gold text-xs font-medium tracking-wider uppercase mb-4">
-            London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
-          </p>
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            Best Clubs for Bottle Service in London
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            An honest, opinionated guide to every club we work with. We book tables at
-            all of these venues every week, so this isn&apos;t based on one visit or a press
-            release — it&apos;s based on consistent, real experience.
-          </p>
-          <p className="text-text-muted">
-            Every venue below is a genuine recommendation. We wouldn&apos;t work with a club
-            we couldn&apos;t stand behind. The rankings reflect which venues deliver the most
-            consistent, memorable experiences for the money.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.bestClubs.hero} alt={pageImages.bestClubs.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          Best Clubs for Bottle Service in London
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+          An honest, opinionated guide to every club we work with. We book tables at
+          all of these venues every week, so this isn&apos;t based on one visit or a press
+          release — it&apos;s based on consistent, real experience.
+        </p>
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

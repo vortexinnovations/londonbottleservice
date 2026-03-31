@@ -6,6 +6,8 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title:
@@ -91,34 +93,32 @@ export default function GuestlistVsTableBookingPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            Guestlist vs Table Booking in London — The Complete Comparison
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            If you are planning a night out in London, you have two main
-            options for getting into the best clubs: guestlist or table
-            booking. Both get you through the door, but the experiences are
-            fundamentally different. Guestlist is the entry-level option —
-            you get your name at the door and hopefully skip some of the
-            queue. Table booking is the premium option — you get a reserved
-            space, bottle service, a personal waitress, and guaranteed entry.
-          </p>
-          <p className="text-text-secondary leading-relaxed mb-4">
-            The right choice depends on your group size, budget, what you
-            want from the night, and which club you are going to. This guide
-            breaks down both options in detail so you can make an informed
-            decision. We are a table booking service, so we are naturally
-            biased — but we will be honest about when guestlist is the better
-            call for certain groups.
-          </p>
-          <p className="text-text-muted">
-            We work with every club mentioned on this page and can advise on
-            both guestlist availability and table booking options.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.guestlistVsTable.hero} alt={pageImages.guestlistVsTable.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          Guestlist vs Table Booking in London — The Complete Comparison
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed mb-4">
+          If you are planning a night out in London, you have two main
+          options for getting into the best clubs: guestlist or table
+          booking. Both get you through the door, but the experiences are
+          fundamentally different. Guestlist is the entry-level option —
+          you get your name at the door and hopefully skip some of the
+          queue. Table booking is the premium option — you get a reserved
+          space, bottle service, a personal waitress, and guaranteed entry.
+        </p>
+        <p className="text-text-secondary leading-relaxed mb-4">
+          The right choice depends on your group size, budget, what you
+          want from the night, and which club you are going to. This guide
+          breaks down both options in detail so you can make an informed
+          decision. We are a table booking service, so we are naturally
+          biased — but we will be honest about when guestlist is the better
+          call for certain groups.
+        </p>
+        <p className="text-text-muted">
+          We work with every club mentioned on this page and can advise on
+          both guestlist availability and table booking options.
+        </p>
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

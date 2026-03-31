@@ -7,6 +7,8 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ItemListSchema } from "@/components/ItemListSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title: "Best VIP Tables in London 2026 | Top Clubs Ranked",
@@ -156,35 +158,19 @@ export default function BestVipTablesPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            Best VIP Tables in London — Where to Book in 2026
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            VIP tables are where the real London nightlife experience happens.
-            You get the best positions in the venue, premium service, and a
-            night that feels genuinely special rather than standing three-deep
-            at a bar. But not all VIP tables are created equal — the
-            experience at Cirque Le Soir is completely different from Tape
-            London, which is completely different from London Reign.
-          </p>
-          <p className="text-text-secondary leading-relaxed mb-4">
-            We book VIP tables at every club on this list every week. This
-            ranking is based on hundreds of bookings and genuine feedback from
-            groups who have experienced these venues first-hand. We know
-            which VIP positions are worth the premium, which clubs deliver
-            the best experience for the money, and which venues suit
-            different types of groups.
-          </p>
-          <p className="text-text-muted">
-            Every venue below is a club we work with directly. We have
-            allocated VIP tables at each, and we can often secure positions
-            that are not available through other booking channels. Message us
-            on WhatsApp and we will handle everything.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.bestVipTables.hero} alt={pageImages.bestVipTables.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          Best VIP Tables in London — Where to Book in 2026
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+          VIP tables are where the real London nightlife experience happens.
+          You get the best positions in the venue, premium service, and a
+          night that feels genuinely special rather than standing three-deep
+          at a bar. But not all VIP tables are created equal — the
+          experience at Cirque Le Soir is completely different from Tape
+          London, which is completely different from London Reign.
+        </p>
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

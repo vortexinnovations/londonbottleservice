@@ -1,11 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getBookingPageBySlug } from "@/data/bookingPages";
 import { getOpenClubBySlug, clubs, WHATSAPP_NUMBER } from "@/data/clubs";
 import { getBlogPostBySlug } from "@/data/blog";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { HeroImage } from "@/components/HeroImage";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { getClubImages, getBlogImages } from "@/data/images";
 
 export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
   const data = getBookingPageBySlug(bookingSlug);
@@ -66,6 +69,8 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
     .map((slug) => getBlogPostBySlug(slug))
     .filter(Boolean);
 
+  const images = getClubImages(data.clubSlug);
+
   return (
     <>
       {/* Schema Markup */}
@@ -94,24 +99,27 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-text-muted text-xs tracking-wider uppercase mb-4">
-            London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
-          </p>
-          <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
-            {club.area} &bull; Tables from &pound;{club.pricing.floorTable.toLocaleString()}
-          </p>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">{data.h1}</h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl">
-            {data.heroSubheading}
-          </p>
-          <WhatsAppCTA
-            clubName={club.name}
-            urgencyMessage="Tables fill fast on weekends — book now to secure your spot"
-          />
-        </div>
-      </section>
+      <HeroImage
+        src={images.hero}
+        alt={images.alt}
+        height="h-[50vh] min-h-[400px]"
+        overlay="strong"
+      >
+        <p className="text-text-muted text-xs tracking-wider uppercase mb-4">
+          London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
+        </p>
+        <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
+          {club.area} &bull; Tables from &pound;{club.pricing.floorTable.toLocaleString()}
+        </p>
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">{data.h1}</h1>
+        <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl">
+          {data.heroSubheading}
+        </p>
+        <WhatsAppCTA
+          clubName={club.name}
+          urgencyMessage="Tables fill fast on weekends — book now to secure your spot"
+        />
+      </HeroImage>
 
       {/* Pricing */}
       <section className="py-12 px-4 border-t border-border bg-bg-secondary">
@@ -326,24 +334,38 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
               Book Tables at Other Top London Clubs
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-              {relatedClubs.map(({ booking, club: c }) => (
-                <Link
-                  key={booking.bookingSlug}
-                  href={`/${booking.bookingSlug}`}
-                  className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group"
-                >
-                  <h3 className="font-semibold group-hover:text-gold transition-colors">
-                    {c.name}
-                  </h3>
-                  <p className="text-gold text-sm mt-1">
-                    Tables from &pound;{c.pricing.floorTable.toLocaleString()}
-                  </p>
-                  <p className="text-text-muted text-xs mt-1">{c.area}</p>
-                  <p className="text-gold text-xs mt-2 font-medium group-hover:underline">
-                    Book a Table &rarr;
-                  </p>
-                </Link>
-              ))}
+              {relatedClubs.map(({ booking, club: c }) => {
+                const cImages = getClubImages(c.slug);
+                return (
+                  <Link
+                    key={booking.bookingSlug}
+                    href={`/${booking.bookingSlug}`}
+                    className="bg-bg-card border border-border rounded-lg overflow-hidden hover:border-gold/30 transition-colors group"
+                  >
+                    <div className="relative aspect-[3/2] overflow-hidden">
+                      <Image
+                        src={cImages.card}
+                        alt={cImages.alt}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                      />
+                    </div>
+                    <div className="p-4">
+                      <h3 className="font-semibold group-hover:text-gold transition-colors">
+                        {c.name}
+                      </h3>
+                      <p className="text-gold text-sm mt-1">
+                        Tables from &pound;{c.pricing.floorTable.toLocaleString()}
+                      </p>
+                      <p className="text-text-muted text-xs mt-1">{c.area}</p>
+                      <p className="text-gold text-xs mt-2 font-medium group-hover:underline">
+                        Book a Table &rarr;
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
             </div>
           </div>
         </section>

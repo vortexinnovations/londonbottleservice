@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { blogPosts, getBlogPostBySlug } from "@/data/blog";
 import { blogContent } from "@/data/blogContent";
@@ -7,6 +8,8 @@ import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import { HeroImage } from "@/components/HeroImage";
+import { getBlogImages } from "@/data/images";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -54,6 +57,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     .filter(Boolean);
 
   const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 4);
+  const images = getBlogImages(slug);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -102,6 +106,20 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <span className="mx-2">/</span>
           <span className="text-text-secondary line-clamp-1">{post.title}</span>
         </nav>
+      </div>
+
+      {/* Featured Image */}
+      <div className="max-w-3xl mx-auto px-4 pt-6">
+        <div className="relative aspect-video rounded-xl overflow-hidden">
+          <Image
+            src={images.featured}
+            alt={images.alt}
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 800px"
+            priority
+          />
+        </div>
       </div>
 
       {/* Article Header */}
@@ -198,18 +216,32 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <div className="max-w-3xl mx-auto">
           <h2 className="text-xl font-bold mb-6">More Articles</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {otherPosts.map((p) => (
-              <Link
-                key={p.slug}
-                href={`/blog/${p.slug}`}
-                className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group"
-              >
-                <span className="text-xs text-text-muted">{p.category}</span>
-                <h3 className="font-semibold mt-1 group-hover:text-gold transition-colors line-clamp-2 text-sm">
-                  {p.title}
-                </h3>
-              </Link>
-            ))}
+            {otherPosts.map((p) => {
+              const pImages = getBlogImages(p.slug);
+              return (
+                <Link
+                  key={p.slug}
+                  href={`/blog/${p.slug}`}
+                  className="bg-bg-card border border-border rounded-lg overflow-hidden hover:border-gold/30 transition-colors group"
+                >
+                  <div className="relative aspect-video overflow-hidden">
+                    <Image
+                      src={pImages.featured}
+                      alt={pImages.alt}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <span className="text-xs text-text-muted">{p.category}</span>
+                    <h3 className="font-semibold mt-1 group-hover:text-gold transition-colors line-clamp-2 text-sm">
+                      {p.title}
+                    </h3>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
           <div className="text-center mt-6">
             <Link

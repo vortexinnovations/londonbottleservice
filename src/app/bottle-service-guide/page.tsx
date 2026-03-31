@@ -5,6 +5,8 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { RelatedGuides } from "@/components/RelatedGuides";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title: "What is Bottle Service? Complete London Guide | Prices, Rules & Tips",
@@ -95,23 +97,17 @@ export default function BottleServiceGuidePage() {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            What is Bottle Service? The Complete London Guide
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            If you&apos;ve never booked bottle service before, the whole concept can seem
-            confusing. What&apos;s a minimum spend? What do you actually get? Is it worth
-            the money? This guide answers every question so you know exactly what to
-            expect before you book.
-          </p>
-          <p className="text-text-muted">
-            Written by someone who books tables at these clubs every week — not a
-            generic explainer copied from the internet.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.bottleServiceGuide.hero} alt={pageImages.bottleServiceGuide.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          What is Bottle Service? The Complete London Guide
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+          If you&apos;ve never booked bottle service before, the whole concept can seem
+          confusing. What&apos;s a minimum spend? What do you actually get? Is it worth
+          the money? This guide answers every question so you know exactly what to
+          expect before you book.
+        </p>
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

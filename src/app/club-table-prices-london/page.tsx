@@ -6,6 +6,8 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title: "London Club Table Prices 2026 | Complete Price Guide",
@@ -95,36 +97,20 @@ export default function ClubTablePricesPage() {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            London Club Table Prices — The Complete 2026 Guide
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            How much does a table actually cost at London&apos;s top
-            nightclubs? This is the question we answer more than any other.
-            The short answer is that most clubs start at £1,000 minimum spend
-            for a floor table, with VIP tables ranging from £2,000 to
-            £3,000. But the full picture is more nuanced — prices vary by
-            venue, by night, by table position, and by how many people are in
-            your group.
-          </p>
-          <p className="text-text-secondary leading-relaxed mb-4">
-            This guide lays out every price at every club we work with. We
-            update these figures regularly based on our bookings, and we will
-            always confirm the exact minimum spend for your specific date
-            before you commit. There are no hidden fees and no booking
-            charges from us — the price listed is the price you pay at the
-            venue.
-          </p>
-          <p className="text-text-muted">
-            All prices shown are standard starting minimums. Prices may be
-            higher on special event nights, New Year&apos;s Eve, bank
-            holidays, and during peak periods. Contact us for exact pricing
-            on your chosen date.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.tablePrices.hero} alt={pageImages.tablePrices.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          London Club Table Prices — The Complete 2026 Guide
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+          How much does a table actually cost at London&apos;s top
+          nightclubs? This is the question we answer more than any other.
+          The short answer is that most clubs start at £1,000 minimum spend
+          for a floor table, with VIP tables ranging from £2,000 to
+          £3,000. But the full picture is more nuanced — prices vary by
+          venue, by night, by table position, and by how many people are in
+          your group.
+        </p>
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

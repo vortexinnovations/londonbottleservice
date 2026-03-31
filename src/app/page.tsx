@@ -5,6 +5,8 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 const homeFAQs = [
   {
@@ -41,8 +43,13 @@ export default function HomePage() {
       <BreadcrumbSchema items={[{ name: "Home" }]} />
 
       {/* Hero */}
-      <section className="relative py-20 md:py-32 px-4">
-        <div className="max-w-4xl mx-auto text-center">
+      <HeroImage
+        src={pageImages.home.hero}
+        alt={pageImages.home.alt}
+        height="h-[60vh] min-h-[500px]"
+        overlay="strong"
+      >
+        <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Bottle Service at London&apos;s
             <span className="text-gold"> Most Exclusive Clubs</span>
@@ -57,7 +64,7 @@ export default function HomePage() {
           </p>
           <WhatsAppCTA />
         </div>
-      </section>
+      </HeroImage>
 
       {/* Why Book With Us */}
       <section className="py-16 px-4 border-t border-border">

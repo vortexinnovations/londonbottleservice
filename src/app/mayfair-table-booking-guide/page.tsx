@@ -6,6 +6,8 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title: "Mayfair Table Booking Guide 2026 | Prices, Tips & How to Book",
@@ -95,34 +97,32 @@ export default function MayfairTableBookingGuidePage() {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            Mayfair Table Booking Guide — Everything You Need to Know
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-4">
-            Mayfair is the centre of London&apos;s nightlife scene. Within a
-            few streets you will find some of the most exclusive clubs in the
-            world — members&apos; clubs, show venues, hip-hop institutions, and
-            house music haunts. But booking a table in Mayfair for the first
-            time can feel opaque. How much should you spend? What do you
-            wear? Which club suits your group? Which night should you go?
-          </p>
-          <p className="text-text-secondary leading-relaxed mb-4">
-            This guide answers all of that. We book tables at every Mayfair
-            club on this page every single week. We know the prices, we know
-            the door policies, we know which nights are strongest, and we
-            know which clubs suit which type of group. Whether you are
-            planning a birthday, a corporate event, a stag or hen night, or
-            just a proper Saturday night out, this guide gives you everything
-            you need to make the right decision.
-          </p>
-          <p className="text-text-muted">
-            No fluff, no guesswork — just practical information from people
-            who do this professionally.
-          </p>
-        </div>
-      </section>
+      <HeroImage src={pageImages.mayfairGuide.hero} alt={pageImages.mayfairGuide.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+          Mayfair Table Booking Guide — Everything You Need to Know
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed mb-4">
+          Mayfair is the centre of London&apos;s nightlife scene. Within a
+          few streets you will find some of the most exclusive clubs in the
+          world — members&apos; clubs, show venues, hip-hop institutions, and
+          house music haunts. But booking a table in Mayfair for the first
+          time can feel opaque. How much should you spend? What do you
+          wear? Which club suits your group? Which night should you go?
+        </p>
+        <p className="text-text-secondary leading-relaxed mb-4">
+          This guide answers all of that. We book tables at every Mayfair
+          club on this page every single week. We know the prices, we know
+          the door policies, we know which nights are strongest, and we
+          know which clubs suit which type of group. Whether you are
+          planning a birthday, a corporate event, a stag or hen night, or
+          just a proper Saturday night out, this guide gives you everything
+          you need to make the right decision.
+        </p>
+        <p className="text-text-muted">
+          No fluff, no guesswork — just practical information from people
+          who do this professionally.
+        </p>
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-t border-border bg-bg-secondary">

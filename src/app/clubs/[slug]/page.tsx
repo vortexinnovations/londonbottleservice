@@ -1,10 +1,13 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { clubs, allClubs, getClubBySlug, isClosedClub } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { HeroImage } from "@/components/HeroImage";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import { getClubImages } from "@/data/images";
 
 interface ClubPageProps {
   params: Promise<{ slug: string }>;
@@ -50,6 +53,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
 
   const closed = isClosedClub(slug);
   const otherClubs = clubs.filter((c) => c.slug !== slug);
+  const images = getClubImages(slug);
 
   const nightclubSchema = {
     "@context": "https://schema.org",
@@ -124,21 +128,24 @@ export default async function ClubPage({ params }: ClubPageProps) {
       )}
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
-            {club.area} {club.openingNights.length > 0 && <>&bull; {club.openingNights.join(", ")}</>}
-          </p>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            {club.name} Table Prices &amp; VIP Bottle Service
-          </h1>
-          <p className="text-text-muted text-lg italic mb-6">{club.tagline}</p>
-          <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
-            {club.description}
-          </p>
-          {!closed && <WhatsAppCTA clubName={club.name} />}
-        </div>
-      </section>
+      <HeroImage
+        src={images.hero}
+        alt={images.alt}
+        height="h-[50vh] min-h-[400px]"
+        overlay="strong"
+      >
+        <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
+          {club.area} {club.openingNights.length > 0 && <>&bull; {club.openingNights.join(", ")}</>}
+        </p>
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">
+          {club.name} Table Prices &amp; VIP Bottle Service
+        </h1>
+        <p className="text-text-muted text-lg italic mb-6">{club.tagline}</p>
+        <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
+          {club.description}
+        </p>
+        {!closed && <WhatsAppCTA clubName={club.name} />}
+      </HeroImage>
 
       {/* Pricing Section */}
       <section className="py-12 px-4 border-t border-border bg-bg-secondary">
@@ -234,6 +241,28 @@ export default async function ClubPage({ params }: ClubPageProps) {
         </div>
       </section>
 
+      {/* Gallery */}
+      {images.extra.length > 0 && (
+        <section className="py-12 px-4 border-t border-border">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-2xl md:text-3xl font-bold mb-8">Inside {club.name}</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {images.extra.map((src, i) => (
+                <div key={i} className="relative aspect-[3/2] rounded-lg overflow-hidden">
+                  <Image
+                    src={src}
+                    alt={`${club.name} interior and VIP area ${i + 1}`}
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                    sizes="(max-width: 768px) 50vw, 33vw"
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Details Grid */}
       <section className="py-12 px-4 border-t border-border">
         <div className="max-w-4xl mx-auto">
@@ -304,23 +333,37 @@ export default async function ClubPage({ params }: ClubPageProps) {
             Other Clubs You Might Like
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-            {otherClubs.slice(0, 6).map((c) => (
-              <Link
-                key={c.slug}
-                href={`/clubs/${c.slug}`}
-                className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group"
-              >
-                <h3 className="font-semibold group-hover:text-gold transition-colors">
-                  {c.name}
-                </h3>
-                <p className="text-gold text-sm mt-1">
-                  From £{c.pricing.floorTable.toLocaleString()}
-                </p>
-                <p className="text-text-muted text-xs mt-1">
-                  {c.openingNights.join(", ")}
-                </p>
-              </Link>
-            ))}
+            {otherClubs.slice(0, 6).map((c) => {
+              const cImages = getClubImages(c.slug);
+              return (
+                <Link
+                  key={c.slug}
+                  href={`/clubs/${c.slug}`}
+                  className="bg-bg-card border border-border rounded-lg overflow-hidden hover:border-gold/30 transition-colors group"
+                >
+                  <div className="relative aspect-[3/2] overflow-hidden">
+                    <Image
+                      src={cImages.card}
+                      alt={cImages.alt}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-semibold group-hover:text-gold transition-colors">
+                      {c.name}
+                    </h3>
+                    <p className="text-gold text-sm mt-1">
+                      From £{c.pricing.floorTable.toLocaleString()}
+                    </p>
+                    <p className="text-text-muted text-xs mt-1">
+                      {c.openingNights.join(", ")}
+                    </p>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

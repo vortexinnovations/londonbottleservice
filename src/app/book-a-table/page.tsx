@@ -5,6 +5,8 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
+import { HeroImage } from "@/components/HeroImage";
+import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title: "Book a VIP Table in London | Instant WhatsApp Booking",
@@ -75,18 +77,16 @@ export default function BookATablePage() {
       </div>
 
       {/* Hero */}
-      <section className="py-12 md:py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">
-            Book a VIP Table at London&apos;s Best Clubs
-          </h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
-            Choose your club, message us on WhatsApp, and we&apos;ll confirm your table
-            directly with the venue. Real prices, instant confirmation, no booking fees.
-          </p>
-          <WhatsAppCTA urgencyMessage="Weekend tables fill fast — book now to secure your spot" />
-        </div>
-      </section>
+      <HeroImage src={pageImages.bookATable.hero} alt={pageImages.bookATable.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
+        <h1 className="text-3xl md:text-5xl font-bold mb-4">
+          Book a VIP Table at London&apos;s Best Clubs
+        </h1>
+        <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+          Choose your club, message us on WhatsApp, and we&apos;ll confirm your table
+          directly with the venue. Real prices, instant confirmation, no booking fees.
+        </p>
+        <WhatsAppCTA urgencyMessage="Weekend tables fill fast — book now to secure your spot" />
+      </HeroImage>
 
       {/* Trust Badges */}
       <section className="py-8 px-4 border-y border-border bg-bg-secondary">
