@@ -23,6 +23,9 @@ export const metadata: Metadata = {
 };
 
 const categories = [...new Set(blogPosts.map((p) => p.category))];
+const sortedPosts = [...blogPosts].sort(
+  (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+);
 
 export default function BlogIndexPage() {
   return (
@@ -69,13 +72,13 @@ export default function BlogIndexPage() {
       <section className="px-4 pb-8">
         <div className="max-w-5xl mx-auto">
           <Link
-            href={`/blog/${blogPosts[0].slug}`}
+            href={`/blog/${sortedPosts[0].slug}`}
             className="block bg-bg-card border border-border rounded-xl overflow-hidden hover:border-gold/30 transition-colors group"
           >
             <div className="relative aspect-video overflow-hidden">
               <Image
-                src={getBlogImages(blogPosts[0].slug).featured}
-                alt={getBlogImages(blogPosts[0].slug).alt}
+                src={getBlogImages(sortedPosts[0].slug).featured}
+                alt={getBlogImages(sortedPosts[0].slug).alt}
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
                 sizes="(max-width: 768px) 100vw, 800px"
@@ -88,17 +91,17 @@ export default function BlogIndexPage() {
                   Featured
                 </span>
                 <span className="text-xs text-text-muted">
-                  {blogPosts[0].category}
+                  {sortedPosts[0].category}
                 </span>
                 <span className="text-xs text-text-muted">
-                  {blogPosts[0].readingTime}
+                  {sortedPosts[0].readingTime}
                 </span>
               </div>
               <h2 className="text-2xl md:text-3xl font-bold mb-3 group-hover:text-gold transition-colors">
-                {blogPosts[0].title}
+                {sortedPosts[0].title}
               </h2>
               <p className="text-text-muted leading-relaxed mb-4 max-w-2xl">
-                {blogPosts[0].excerpt}
+                {sortedPosts[0].excerpt}
               </p>
               <span className="text-gold text-sm font-medium group-hover:underline">
                 Read the full guide &rarr;
@@ -113,7 +116,7 @@ export default function BlogIndexPage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-xl font-bold mb-8">All Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {blogPosts.slice(1).map((post) => (
+            {sortedPosts.slice(1).map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}`}
