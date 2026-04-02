@@ -104,7 +104,7 @@ Select ONE topic that is:
 
 ### Fetch all available images dynamically:
 
-The Supabase anon key is stored in `.env` (gitignored) as `SUPABASE_ANON_KEY`. This is the **public/anon** key (not the secret service_role key). While Supabase says anon keys are safe for browsers, we keep it in `.env` out of caution.
+The Supabase secret key is stored in `.env` (gitignored) as `SUPABASE_SECRET_KEY`. This key is NEVER committed to the repo.
 
 ```bash
 node -e "
@@ -115,8 +115,8 @@ const url = 'https://hgsgysaxiraaezeneshr.supabase.co/storage/v1/object/list/gal
 const options = {
   method: 'POST',
   headers: {
-    'apikey': env.SUPABASE_ANON_KEY,
-    'Authorization': 'Bearer ' + env.SUPABASE_ANON_KEY,
+    'apikey': env.SUPABASE_SECRET_KEY,
+    'Authorization': 'Bearer ' + env.SUPABASE_SECRET_KEY,
     'Content-Type': 'application/json',
   },
 };
@@ -133,9 +133,9 @@ req.end();
 "
 ```
 
-**Setup:** Create a `.env` file (already gitignored) with your Supabase anon key from Settings > API Keys > Publishable key:
+**Setup:** Create a `.env` file (already gitignored) with your Supabase secret key from Settings > API Keys > Secret keys:
 ```
-SUPABASE_ANON_KEY=your_anon_key_here
+SUPABASE_SECRET_KEY=sb_secret_your_key_here
 ```
 
 ### Read the used-images tracker:
