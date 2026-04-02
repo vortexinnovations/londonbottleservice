@@ -104,8 +104,6 @@ Select ONE topic that is:
 
 ### Fetch all available images dynamically:
 
-The Supabase secret key is stored in `.env` (gitignored) as `SUPABASE_SECRET_KEY`. This key is NEVER committed to the repo.
-
 ```bash
 ```
 Fetch the list of available images from the tracker repo (all sites share the same image pool):
@@ -117,12 +115,6 @@ If you cannot read it, try:
 gh api repos/vortexinnovations/blog-scheduler-tracker/contents/images.json --jq '.content' | base64 -d
 ```
 
-This returns all image filenames. No Supabase API key or .env file is needed.
-
-**Setup:** Create a `.env` file (already gitignored) with your Supabase secret key from Settings > API Keys > Secret keys:
-```
-SUPABASE_SECRET_KEY=sb_secret_your_key_here
-```
 
 ### Read the used-images tracker:
 ```bash
