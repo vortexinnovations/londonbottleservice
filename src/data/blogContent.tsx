@@ -2783,4 +2783,140 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "best-london-clubs-for-couples": (
+    <>
+      <p>
+        London&apos;s club scene is built for groups — birthdays, stag nights, corporate
+        blowouts. But what if it&apos;s just the two of you? Finding the best London clubs
+        for couples means knowing which venues offer intimacy without sacrificing energy, and
+        which bottle service setups actually work when you&apos;re not rolling in with fifteen
+        mates. We book tables at these venues every week, and the difference between the right
+        and wrong club for a couple is the difference between a memorable night and an
+        expensive disappointment.
+      </p>
+
+      <h2>Why Bottle Service Works Better for Couples</h2>
+      <p>
+        Walking into a packed Mayfair club without a booking is stressful enough in a group.
+        As a couple, it can feel outright hostile — nowhere to sit, nowhere to put your things,
+        and no guarantee you&apos;ll get past the door. A{" "}
+        <Link href="/bottle-service-guide" className="text-gold hover:underline">VIP table booking</Link>{" "}
+        solves every one of these problems. You get guaranteed entry, a reserved booth or table,
+        a dedicated waitress, and a space that&apos;s genuinely yours for the night. Minimum
+        spends start from around &pound;1,000, which sounds steep for two — but you&apos;re
+        paying for the experience, not just the drinks. Think of it as the best date night in
+        London, not just a bar tab.
+      </p>
+
+      <h2>The Best Clubs for Couples in Mayfair</h2>
+      <p>
+        Not every club suits a date night. Some are too loud for conversation, some too
+        sprawling to feel intimate. Here are the venues we consistently recommend for couples.
+      </p>
+      <ul>
+        <li>
+          <strong><Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>:</strong>{" "}
+          The top pick for couples. Tape&apos;s intimate layout, low lighting, and deep
+          leather booths create a genuinely romantic atmosphere. The sound system is
+          world-class, the crowd is refined, and the booth setup means you can have a
+          conversation without shouting. Tables start from &pound;1,500, and the smaller
+          capacity means it never feels overwhelmingly busy.
+        </li>
+        <li>
+          <strong><Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>:</strong>{" "}
+          The dinner-to-club transition makes Maddox ideal for a date. Start with Italian
+          dining upstairs, then move to the club below — no queuing, no coat check drama,
+          no stepping outside. The club itself is compact and stylish, with strong music
+          programming and a well-dressed crowd. Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>:</strong>{" "}
+          Two distinct floors give you options. The upstairs lounge is perfect for early
+          evening cocktails and conversation, while the basement club delivers a proper
+          dance floor later on. It&apos;s a versatile choice when one of you wants to talk
+          and the other wants to dance. Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>:</strong>{" "}
+          Exclusive, discreet, and genuinely intimate. Scotch has one of the smallest
+          capacities in Mayfair, which means it feels like a private party rather than a
+          commercial nightclub. The music leans towards hip-hop and R&amp;B, and the
+          crowd is a mix of industry regulars and well-connected Londoners. From &pound;1,000.
+        </li>
+        <li>
+          <strong><Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling Mayfair</Link>:</strong>{" "}
+          One of Mayfair&apos;s newer openings, Dear Darling brings a fresh energy to the
+          scene. The interiors are striking, the lighting is flattering, and the table
+          layout offers plenty of semi-private spaces that suit couples perfectly. From &pound;1,000.
+        </li>
+      </ul>
+
+      <h2>What to Expect: Cost and Setup for Two</h2>
+      <p>
+        The honest truth is that bottle service for two costs more per person than splitting
+        a table among eight. Most Mayfair clubs have minimum spends starting at &pound;1,000,
+        which buys you a premium spirit (Grey Goose, Don Julio, Casamigos) and a selection
+        of mixers. That&apos;s more than enough for two people — you certainly won&apos;t go
+        thirsty. If you&apos;d rather toast with bubbles, a bottle of Mo&euml;t or Veuve
+        Clicquot typically falls within the same minimum. Check our{" "}
+        <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">bottle service pricing guide</Link>{" "}
+        for a full breakdown.
+      </p>
+      <p>
+        Your table will typically be a booth or banquette rather than a large VIP platform —
+        which is exactly what you want. Smaller tables in more intimate positions are far
+        better suited to couples than the prominent centre-stage setups designed for big
+        groups. When you{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book through us</Link>,
+        we&apos;ll request a couples-friendly position specifically.
+      </p>
+
+      <h2>Best Nights for a Couples Night Out</h2>
+      <p>
+        Friday tends to work better for couples than Saturday. The atmosphere is buzzing
+        but not overwhelming, minimum spends are often 10&ndash;30% lower, and the door
+        policy is marginally more relaxed. Saturdays are peak energy — fantastic for a
+        group celebration, but sometimes too intense for a romantic evening. Read our{" "}
+        <Link href="/blog/friday-night-vs-saturday-night-london-clubs" className="text-gold hover:underline">Friday vs Saturday comparison</Link>{" "}
+        for the full breakdown.
+      </p>
+      <p>
+        Thursday nights are an underrated option. Several Mayfair venues run excellent
+        Thursday programming with lower minimums and a more local crowd. It&apos;s the
+        insider&apos;s choice for a midweek date night that still feels like an event.
+      </p>
+
+      <h2>What to Wear on a Club Date Night</h2>
+      <p>
+        Mayfair dress codes are strict, and arriving as a couple doesn&apos;t earn you any
+        leniency. Men should wear tailored trousers, a smart shirt, and proper shoes —
+        absolutely no trainers, no jeans in most venues, and no sportswear. Women should
+        opt for a cocktail dress or polished separates with heels. Looking the part isn&apos;t
+        just about getting past the door — it sets the tone for the entire evening. For the
+        full guide, read{" "}
+        <Link href="/blog/mayfair-dress-code-what-to-wear" className="text-gold hover:underline">what to wear to Mayfair clubs</Link>.
+      </p>
+
+      <h2>Planning the Full Evening</h2>
+      <p>
+        The best couples nights don&apos;t start at the club door. Consider dinner in
+        Mayfair or Soho beforehand — Maddox makes this effortless with their in-house
+        restaurant, but there are dozens of excellent options within walking distance of
+        every club on this list. Pre-dinner cocktails at a quiet bar, dinner at 8:30,
+        arrive at the club around 11 PM. That&apos;s the formula. Our{" "}
+        <Link href="/blog/mayfair-night-out-dinner-drinks-club-itinerary" className="text-gold hover:underline">Mayfair night out itinerary</Link>{" "}
+        has three complete evening plans with timings and budgets.
+      </p>
+
+      <h2>Book Your Couples Table</h2>
+      <p>
+        A great date night in London&apos;s best clubs comes down to choosing the right
+        venue and the right table. We handle both. Message us on{" "}
+        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        with your preferred date, and we&apos;ll recommend the best venue, secure an intimate
+        table position, and make sure everything is arranged before you arrive. No queues,
+        no stress — just a brilliant night for two.
+      </p>
+    </>
+  ),
 };

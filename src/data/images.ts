@@ -221,6 +221,11 @@ export const blogImages: Record<
     alt: "Busy London nightclub comparing Friday and Saturday",
     inline: [`${G}/DSC_8163.jpg`, `${G}/DSC_8169.jpg`],
   },
+  "best-london-clubs-for-couples": {
+    featured: `${G}/fe4414_86bcb7e5839b4041967c5ec08ce3ccf6.jpg`,
+    alt: "Couple enjoying VIP bottle service at a Mayfair nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

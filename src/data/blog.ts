@@ -1058,6 +1058,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "best-london-clubs-for-couples",
+    title: "Best London Clubs for Couples: A Date Night Guide to Mayfair",
+    metaTitle: "Best London Clubs for Couples | Date Night Guide",
+    metaDescription:
+      "Discover the best London clubs for couples. From intimate Mayfair booths to buzzing dance floors, find the perfect date night venue with bottle service.",
+    excerpt:
+      "Not every London club suits a couple. Some are too loud, too crowded, or too group-oriented. Here are the venues that actually work for two — and how to book them.",
+    publishedAt: "2026-04-02",
+    updatedAt: "2026-04-02",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "best London clubs for couples",
+      "date night clubs London",
+      "couples night out Mayfair",
+      "romantic nightclub London",
+      "VIP table for two London",
+    ],
+    relatedClubs: ["tape-london", "maddox", "cuckoo-club", "dear-darling", "scotch-of-st-james"],
+    faqs: [
+      {
+        question: "Can you book a VIP table for just two people in London?",
+        answer:
+          "Yes. Most Mayfair clubs accept table bookings for two. Minimum spends typically start from &pound;1,000 regardless of group size, so you&apos;ll be spending more per person than a larger group — but you get a private space, dedicated service, and guaranteed entry. It&apos;s the best way to experience a club as a couple.",
+      },
+      {
+        question: "Which London club is most romantic for a date night?",
+        answer:
+          "Tape London is the standout for romance — intimate lighting, deep booths, exceptional sound, and a refined crowd. Maddox also works brilliantly because you can start with dinner upstairs and move to the club seamlessly. Both feel more like a private experience than a heaving nightclub.",
+      },
+      {
+        question: "What should couples wear to a Mayfair club?",
+        answer:
+          "Smart and polished. For men: tailored trousers, a quality shirt, and smart shoes — no trainers, no sportswear. For women: cocktail dress or stylish separates with heels. Mayfair clubs enforce strict dress codes, and as a couple you&apos;ll want to match the venue&apos;s premium atmosphere.",
+      },
+      {
+        question: "Is bottle service worth it for just two people?",
+        answer:
+          "Absolutely — and for couples it&apos;s arguably the best way to experience a London club. You get a reserved space, skip the queue entirely, and enjoy dedicated waitress service all night. Two people won&apos;t finish a full bottle of spirits, so consider ordering champagne or a premium spirit you&apos;ll both enjoy.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
