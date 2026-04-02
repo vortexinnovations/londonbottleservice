@@ -103,14 +103,45 @@ Select ONE topic that is:
 ## STEP 3 — SELECT AN IMAGE FROM SUPABASE
 
 ### Fetch all available images:
+
+The Supabase service key is stored in `.env` (gitignored) as `SUPABASE_SERVICE_KEY`. The bucket URL is `SUPABASE_BUCKET_URL`. Read these before running the fetch command.
+
 ```bash
 node -e "
+require('dotenv').config();
 const https = require('https');
-const url = 'https://hgsgysaxiraaezeneshr.supabase.co/storage/v1/object/list/gallery';
+const url = process.env.SUPABASE_BUCKET_URL;
 const options = {
   method: 'POST',
   headers: {
-    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhnc2d5c2F4aXJhYWV6ZW5lc2hyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3NDU3MTA0MCwiZXhwIjoyMDkwMTQ3MDQwfQ.i_-3uggRCa52chsppLL8f8MVC-FaCjKDeUJKiWf7i28',
+    'Authorization': 'Bearer ' + process.env.SUPABASE_SERVICE_KEY,
+    'Content-Type': 'application/json',
+  },
+};
+const req = https.request(url, options, (res) => {
+  let body = '';
+  res.on('data', (c) => body += c);
+  res.on('end', () => {
+    const files = JSON.parse(body);
+    console.log(JSON.stringify(files.map(f => f.name)));
+  });
+});
+req.write(JSON.stringify({ prefix: '', limit: 1000, offset: 0 }));
+req.end();
+"
+```
+
+**If `dotenv` is not installed**, read the `.env` file manually:
+```bash
+node -e "
+const fs = require('fs');
+const env = Object.fromEntries(fs.readFileSync('.env','utf8').trim().split('\n').map(l=>l.split('=')).map(([k,...v])=>[k,v.join('=')]));
+const https = require('https');
+const url = env.SUPABASE_BUCKET_URL;
+const options = {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer ' + env.SUPABASE_SERVICE_KEY,
     'Content-Type': 'application/json',
   },
 };

@@ -33,3 +33,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# utility scripts with secrets
+list-bucket.js
+preview-images.js
