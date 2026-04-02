@@ -102,19 +102,21 @@ Select ONE topic that is:
 
 ## STEP 3 — SELECT AN IMAGE FROM SUPABASE
 
-### Fetch all available images:
+### Fetch all available images dynamically:
 
-The Supabase service key is stored in `.env` (gitignored) as `SUPABASE_SERVICE_KEY`. The bucket URL is `SUPABASE_BUCKET_URL`. Read these before running the fetch command.
+The Supabase anon key is stored in `.env` (gitignored) as `SUPABASE_ANON_KEY`. This is the **public/anon** key (not the secret service_role key). While Supabase says anon keys are safe for browsers, we keep it in `.env` out of caution.
 
 ```bash
 node -e "
-require('dotenv').config();
+const fs = require('fs');
+const env = Object.fromEntries(fs.readFileSync('.env','utf8').trim().split('\n').map(l=>l.split('=')).map(([k,...v])=>[k,v.join('=')]));
 const https = require('https');
-const url = process.env.SUPABASE_BUCKET_URL;
+const url = 'https://hgsgysaxiraaezeneshr.supabase.co/storage/v1/object/list/gallery';
 const options = {
   method: 'POST',
   headers: {
-    'Authorization': 'Bearer ' + process.env.SUPABASE_SERVICE_KEY,
+    'apikey': env.SUPABASE_ANON_KEY,
+    'Authorization': 'Bearer ' + env.SUPABASE_ANON_KEY,
     'Content-Type': 'application/json',
   },
 };
@@ -131,31 +133,9 @@ req.end();
 "
 ```
 
-**If `dotenv` is not installed**, read the `.env` file manually:
-```bash
-node -e "
-const fs = require('fs');
-const env = Object.fromEntries(fs.readFileSync('.env','utf8').trim().split('\n').map(l=>l.split('=')).map(([k,...v])=>[k,v.join('=')]));
-const https = require('https');
-const url = env.SUPABASE_BUCKET_URL;
-const options = {
-  method: 'POST',
-  headers: {
-    'Authorization': 'Bearer ' + env.SUPABASE_SERVICE_KEY,
-    'Content-Type': 'application/json',
-  },
-};
-const req = https.request(url, options, (res) => {
-  let body = '';
-  res.on('data', (c) => body += c);
-  res.on('end', () => {
-    const files = JSON.parse(body);
-    console.log(JSON.stringify(files.map(f => f.name)));
-  });
-});
-req.write(JSON.stringify({ prefix: '', limit: 1000, offset: 0 }));
-req.end();
-"
+**Setup:** Create a `.env` file (already gitignored) with your Supabase anon key from Settings > API Keys > Publishable key:
+```
+SUPABASE_ANON_KEY=your_anon_key_here
 ```
 
 ### Read the used-images tracker:
