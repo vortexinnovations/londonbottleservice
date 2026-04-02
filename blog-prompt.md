@@ -8,7 +8,6 @@ You may ONLY modify these files:
 2. `src/data/blogContent.tsx` — add one new entry to the `blogContent` record
 3. `src/data/images.ts` — add one new entry to the `blogImages` record
 4. `src/data/used-images.json` — update with the newly used image filename
-5. `src/data/all-images.json` — read only (never modify)
 
 You must NOT modify any other file. The sitemap, blog listing page, and blog post page are all auto-generated from these data files. No other files need changing.
 
@@ -103,12 +102,60 @@ Select ONE topic that is:
 
 ## STEP 3 — SELECT AN IMAGE FROM SUPABASE
 
-### Get all available images:
+### Fetch all available images:
 
-The full list of 917 images is stored locally — no API call needed:
+The Supabase service key is stored in `.env` (gitignored) as `SUPABASE_SERVICE_KEY`. The bucket URL is `SUPABASE_BUCKET_URL`. Read these before running the fetch command.
 
 ```bash
-cat src/data/all-images.json
+node -e "
+require('dotenv').config();
+const https = require('https');
+const url = process.env.SUPABASE_BUCKET_URL;
+const options = {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer ' + process.env.SUPABASE_SERVICE_KEY,
+    'Content-Type': 'application/json',
+  },
+};
+const req = https.request(url, options, (res) => {
+  let body = '';
+  res.on('data', (c) => body += c);
+  res.on('end', () => {
+    const files = JSON.parse(body);
+    console.log(JSON.stringify(files.map(f => f.name)));
+  });
+});
+req.write(JSON.stringify({ prefix: '', limit: 1000, offset: 0 }));
+req.end();
+"
+```
+
+**If `dotenv` is not installed**, read the `.env` file manually:
+```bash
+node -e "
+const fs = require('fs');
+const env = Object.fromEntries(fs.readFileSync('.env','utf8').trim().split('\n').map(l=>l.split('=')).map(([k,...v])=>[k,v.join('=')]));
+const https = require('https');
+const url = env.SUPABASE_BUCKET_URL;
+const options = {
+  method: 'POST',
+  headers: {
+    'Authorization': 'Bearer ' + env.SUPABASE_SERVICE_KEY,
+    'Content-Type': 'application/json',
+  },
+};
+const req = https.request(url, options, (res) => {
+  let body = '';
+  res.on('data', (c) => body += c);
+  res.on('end', () => {
+    const files = JSON.parse(body);
+    console.log(JSON.stringify(files.map(f => f.name)));
+  });
+});
+req.write(JSON.stringify({ prefix: '', limit: 1000, offset: 0 }));
+req.end();
+"
 ```
 
 ### Read the used-images tracker:
