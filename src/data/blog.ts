@@ -1101,6 +1101,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "best-weeknight-clubs-london-midweek",
+    title: "Best Weeknight Clubs in London: Why Midweek Mayfair Is Worth It",
+    metaTitle: "Best Weeknight Clubs London | Midweek Guide",
+    metaDescription:
+      "Discover the best weeknight clubs in London. Lower minimums, insider crowds, and easier entry — why Tuesday to Thursday in Mayfair is the smart move.",
+    excerpt:
+      "Mayfair doesn&apos;t shut down on weeknights. From Tuesday at Cuckoo Club to Thursday at Tape London, midweek clubbing offers better value, a more local crowd, and none of the Saturday chaos.",
+    publishedAt: "2026-04-03",
+    updatedAt: "2026-04-03",
+    category: "Guides",
+    readingTime: "8 min read",
+    keywords: [
+      "best weeknight clubs London",
+      "midweek clubs Mayfair",
+      "Thursday night clubs London",
+      "Wednesday night out London",
+      "weeknight bottle service London",
+    ],
+    relatedClubs: ["cuckoo-club", "tape-london", "scotch-of-st-james", "the-box", "maddox"],
+    faqs: [
+      {
+        question: "Which London clubs are open on weeknights?",
+        answer:
+          "Several top Mayfair venues operate midweek. Cuckoo Club opens Tuesday, Thursday, Friday, and Saturday. Tape London, Scotch of St James, and The Box run Wednesday through Saturday. Maddox, Tabu London, Selene London, Dear Darling, and Luna Club open Thursday to Saturday. Wednesday and Thursday offer the widest choice.",
+      },
+      {
+        question: "Are weeknight minimum spends lower than weekends?",
+        answer:
+          "Yes. Midweek minimum spends are typically 20&ndash;40% lower than Saturday rates. A table that starts at &pound;1,500 on Saturday might be &pound;1,000 on a Thursday. Wednesday minimums can be even lower. The bottle prices stay the same &mdash; it&apos;s only the table minimum that drops.",
+      },
+      {
+        question: "Is the atmosphere good at London clubs on a weeknight?",
+        answer:
+          "Absolutely. Thursday nights at venues like Tape London and Cuckoo Club are genuinely buzzing &mdash; you&apos;ll find a more local, industry-heavy crowd rather than tourists. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
+      },
+      {
+        question: "Is the dress code more relaxed on weeknights?",
+        answer:
+          "No. Mayfair dress codes apply every night, regardless of the day. Smart shoes, collared shirts for men, and cocktail-appropriate outfits for women are still mandatory. Door staff are slightly less selective on quieter nights, but the dress standard does not change.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

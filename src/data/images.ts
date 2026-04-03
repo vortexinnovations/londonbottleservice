@@ -226,6 +226,11 @@ export const blogImages: Record<
     alt: "Couple enjoying VIP bottle service at a Mayfair nightclub",
     inline: [],
   },
+  "best-weeknight-clubs-london-midweek": {
+    featured: `${G}/fe4414_c9dd665262784006ac4c486b67700611.jpg`,
+    alt: "Midweek VIP bottle service at a Mayfair nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

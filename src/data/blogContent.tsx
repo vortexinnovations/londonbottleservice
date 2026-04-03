@@ -2919,4 +2919,168 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "best-weeknight-clubs-london-midweek": (
+    <>
+      <p>
+        Most people assume London clubbing is a Friday-and-Saturday affair. That&apos;s
+        understandable &mdash; but it&apos;s also wrong. Some of the best nights in Mayfair
+        happen midweek, when the crowds are smaller, the minimums are lower, and the
+        people who turn up actually want to be there. If you&apos;ve only ever experienced
+        London&apos;s best weeknight clubs on a packed Saturday, you&apos;re missing the other
+        side of the city&apos;s nightlife &mdash; and arguably the smarter side.
+      </p>
+
+      <h2>Why Weeknight Clubbing in London Is the Insider Move</h2>
+      <p>
+        There are three reasons seasoned Mayfair regulars prefer midweek nights. First,{" "}
+        <strong>minimum spends drop significantly</strong> &mdash; typically 20&ndash;40% lower
+        than Saturday rates. A table that costs &pound;1,500 on a Saturday might start at
+        &pound;1,000 on a Thursday. Second, the crowd is different. Weeknight regulars tend
+        to be London locals, music industry insiders, and people who know the scene. You
+        won&apos;t be surrounded by stag groups or first-time tourists. Third, the door is
+        noticeably easier. While dress codes remain strict (this is still Mayfair), the
+        overall energy at the entrance is more relaxed. For a full breakdown of how
+        different nights compare, read our{" "}
+        <Link href="/blog/friday-night-vs-saturday-night-london-clubs" className="text-gold hover:underline">Friday vs Saturday guide</Link>.
+      </p>
+
+      <h2>Tuesday: Cuckoo Club</h2>
+      <p>
+        Tuesday in Mayfair has one standout option:{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        on Swallow Street. It&apos;s one of the few venues brave enough to open on a Tuesday,
+        and it works because the club has a loyal midweek following. The ground floor bar
+        fills with an after-work crowd from around 6 PM, and the basement club kicks off
+        properly by 11 PM. Expect an open-format playlist, a relaxed but well-dressed
+        crowd, and minimum spends that are among the lowest of the week. If you want to
+        test Mayfair without the weekend price tag, this is where to start. Tables start
+        from &pound;1,000, and you can{" "}
+        <Link href="/cuckoo-club-table-booking" className="text-gold hover:underline">book a Cuckoo Club table here</Link>.
+      </p>
+
+      <h2>Wednesday: The Hidden Gem Night</h2>
+      <p>
+        Wednesday is when Mayfair starts to warm up properly. Four excellent venues
+        operate on Wednesdays, each with a distinct character:
+      </p>
+      <ul>
+        <li>
+          <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>:</strong>{" "}
+          The circus-themed club on Ganton Street delivers the same outrageous performers
+          and production on Wednesday as it does on Saturday &mdash; but with a more
+          intimate crowd. Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong><Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>:</strong>{" "}
+          This Hanover Square members&apos; club opens its doors to non-members on Wednesday.
+          The sound system is world-class, the booths are deep and private, and the crowd
+          is music-industry heavy. Tables from &pound;1,500.
+        </li>
+        <li>
+          <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>:</strong>{" "}
+          One of Mayfair&apos;s most exclusive small venues. Wednesday nights here feel like
+          a private party &mdash; intimate, curated, and effortlessly cool. Tables from
+          &pound;1,000.
+        </li>
+        <li>
+          <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>:</strong>{" "}
+          Soho&apos;s most provocative performance venue runs its full show programme on
+          Wednesdays. If you want The Box experience without the Saturday queue, midweek
+          is the way. Tables from &pound;1,500. Read our{" "}
+          <Link href="/blog/the-box-soho-bottle-service-guide" className="text-gold hover:underline">Box Soho guide</Link>{" "}
+          for more.
+        </li>
+      </ul>
+
+      <h2>Thursday: The Best Night You&apos;re Not Booking</h2>
+      <p>
+        Thursday is the strongest weeknight across Mayfair, with <strong>nine venues</strong>{" "}
+        open and a genuine buzz that rivals Friday in several spots. Every club listed
+        above for Wednesday also operates on Thursday, plus you gain:
+      </p>
+      <ul>
+        <li>
+          <strong><Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>:</strong>{" "}
+          The restaurant-to-club transition is seamless. Dinner upstairs, then descend
+          to the club without stepping outside. Thursday&apos;s crowd is polished and local.
+          Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong>Tabu London:</strong> The Japanese-inspired underground venue on
+          Albemarle Street has a loyal Thursday following. Intimate, dark, and bass-heavy.
+          Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong>Selene London:</strong> Three rooms including bowling lanes give your
+          group options beyond the dance floor. A strong Thursday choice for mixed groups.
+          Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong><Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling</Link>:</strong>{" "}
+          One of Mayfair&apos;s newest openings has quickly built a strong Thursday night.
+          Read our{" "}
+          <Link href="/blog/dear-darling-mayfair-guide" className="text-gold hover:underline">Dear Darling guide</Link>{" "}
+          for the full picture. Tables from &pound;1,000.
+        </li>
+        <li>
+          <strong>Luna Club London:</strong> A compact late-night spot that keeps going
+          after other venues wind down. Thursday is one of its strongest nights. Tables
+          from &pound;1,000.
+        </li>
+      </ul>
+      <p>
+        For most people, Thursday in Mayfair offers the ideal balance: a proper night
+        out with real energy, but without the inflated prices and heaving crowds of
+        Saturday.
+      </p>
+
+      <h2>What to Expect: Prices, Dress Code &amp; Entry</h2>
+      <p>
+        <strong>Minimum spends</strong> on weeknights typically start at &pound;1,000 per
+        table &mdash; the same base as some weekend rates, but premium positions (stage-side,
+        elevated booths) are significantly cheaper midweek. A table that commands &pound;3,000
+        on a Saturday might be &pound;1,500&ndash;&pound;2,000 on a Thursday. Bottle prices
+        remain the same regardless of the night. Check our{" "}
+        <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">bottle service pricing guide</Link>{" "}
+        for detailed numbers.
+      </p>
+      <p>
+        <strong>Dress code</strong> does not relax on weeknights. Every Mayfair venue
+        enforces the same standard: smart shoes, tailored trousers, collared shirts for
+        men; cocktail-appropriate outfits for women. Trainers, sportswear, and casual
+        denim are refused every night. Our{" "}
+        <Link href="/blog/mayfair-dress-code-what-to-wear" className="text-gold hover:underline">Mayfair dress code guide</Link>{" "}
+        covers exactly what works.
+      </p>
+      <p>
+        <strong>Entry</strong> with a table booking is guaranteed on any night. The real
+        difference is for walk-ins and guest list &mdash; midweek queues are shorter,
+        ratios are less scrutinised, and the overall door experience is smoother.
+      </p>
+
+      <h2>Who Should Book a Weeknight Table?</h2>
+      <p>
+        Weeknight tables are ideal for <strong>couples</strong> looking for an intimate
+        date night (see our{" "}
+        <Link href="/blog/best-london-clubs-for-couples" className="text-gold hover:underline">couples guide</Link>),{" "}
+        <strong>corporate groups</strong> entertaining clients without the Saturday chaos (see{" "}
+        <Link href="/blog/corporate-event-london-clubs-entertaining-clients" className="text-gold hover:underline">our corporate guide</Link>),
+        and <strong>locals</strong> who want a quality night out without planning weeks in
+        advance. Thursday is also excellent for birthday celebrations that fall midweek &mdash;
+        the venues still pull out sparklers, cake service, and the full VIP treatment.
+      </p>
+
+      <h2>Book a Weeknight Table</h2>
+      <p>
+        Midweek is where the value is, and we book tables every night of the week. Tell us
+        your preferred date and group size, and we&apos;ll recommend the best venue and secure
+        a strong table position at the lowest available minimum. Message us on{" "}
+        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
+        &mdash; weeknight tables are easier to arrange and often available at shorter notice
+        than weekends.
+      </p>
+    </>
+  ),
 };
