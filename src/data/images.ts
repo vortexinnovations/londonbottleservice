@@ -237,6 +237,11 @@ export const blogImages: Record<
     alt: "Midweek VIP bottle service at a Mayfair nightclub",
     inline: [],
   },
+  "bottle-service-etiquette-london-clubs": {
+    featured: `${G}/maison-close-657.jpg`,
+    alt: "Bottle service table setup at a London nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

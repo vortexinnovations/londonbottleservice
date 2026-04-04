@@ -1144,6 +1144,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "bottle-service-etiquette-london-clubs",
+    title: "Bottle Service Etiquette at London Clubs: The Unwritten Rules",
+    metaTitle: "Bottle Service Etiquette London Clubs | London Bottle Service",
+    metaDescription:
+      "Learn the unwritten rules of bottle service etiquette at London clubs. From tipping to table behaviour, everything you need to know before your first booking.",
+    excerpt:
+      "Nobody tells you the unwritten rules of bottle service until you break one. Here&apos;s what the regulars know about table etiquette at London&apos;s top clubs &mdash; and what to avoid.",
+    publishedAt: "2026-04-04",
+    updatedAt: "2026-04-04",
+    category: "Tips",
+    readingTime: "7 min read",
+    keywords: [
+      "bottle service etiquette london clubs",
+      "london club table etiquette",
+      "bottle service tips london",
+      "VIP table behaviour london nightclub",
+      "how to behave bottle service",
+    ],
+    relatedClubs: ["tape-london", "maddox", "cirque-le-soir", "scotch-of-st-james", "cuckoo-club"],
+    faqs: [
+      {
+        question: "How much should you tip for bottle service in London?",
+        answer:
+          "A 15&ndash;20% tip on your total spend is standard at London clubs. Your waitress works hard to keep your table stocked, your ice fresh, and your night running smoothly. Some venues add a discretionary service charge &mdash; check your bill. If it&apos;s not included, tip in cash directly to your waitress at the end of the night.",
+      },
+      {
+        question: "Can you bring friends to your bottle service table?",
+        answer:
+          "Yes, but within reason. Your table booking covers a set number of guests (usually 5&ndash;10 per table depending on the venue). Adding extra people beyond the agreed number may require a higher minimum spend or a second table. Always confirm your final guest count with your booker before the night.",
+      },
+      {
+        question: "What happens if you don&apos;t reach the minimum spend?",
+        answer:
+          "You still pay it. The minimum spend is a guaranteed commitment &mdash; if you order &pound;800 of drinks on a &pound;1,000 minimum, you&apos;ll be charged the full &pound;1,000. Plan your orders so you reach the minimum without wasting bottles. Your waitress can help you pace your spend through the night.",
+      },
+      {
+        question: "Can you stand on the furniture at a London club?",
+        answer:
+          "No. Standing on tables, sofas, or booth seating will get you warned immediately and potentially removed. It damages furniture, creates a safety hazard, and marks you as someone who doesn&apos;t belong. Keep your feet on the floor &mdash; the table is for drinks, not dancing.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

@@ -3083,4 +3083,164 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "bottle-service-etiquette-london-clubs": (
+    <>
+      <p>
+        You&apos;ve booked the table, chosen the venue, and rallied the group. But bottle
+        service etiquette at London clubs isn&apos;t something anyone teaches you &mdash; you
+        either pick it up by watching the regulars or you learn the hard way. Most first-time
+        table bookers make at least one avoidable mistake that changes the tone of their night.
+        This guide covers every unwritten rule so you walk in looking like you&apos;ve done
+        this a hundred times.
+      </p>
+
+      <h2>Arrive on Time &mdash; Or Close to It</h2>
+      <p>
+        Your table reservation holds for a window, not indefinitely. At most London clubs, if
+        you haven&apos;t arrived within <strong>60&ndash;90 minutes</strong> of your booking
+        time, the venue may release your table to walk-ins. This is especially true on
+        Saturdays at high-demand venues like{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
+        and{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>.
+        If you&apos;re running late, message your booker or the venue directly &mdash; a quick
+        heads-up goes a long way. Aim to arrive between <strong>11pm and midnight</strong> on
+        a Friday or Saturday. Turning up at 1:30am means you&apos;ve already missed the best
+        part of the night and you&apos;ll still pay the full minimum spend.
+      </p>
+
+      <h2>How to Handle Your Waitress</h2>
+      <p>
+        Your table waitress is your single most important ally for the entire evening. She
+        controls your drink flow, manages your ice and mixers, coordinates sparkler
+        presentations, and &mdash; crucially &mdash; has the ear of the venue&apos;s
+        management. Treat her well and the night runs smoothly. Treat her poorly and service
+        slows to a crawl.
+      </p>
+      <ul>
+        <li>
+          <strong>Introduce yourself early:</strong> When she comes to your table at the start
+          of the night, be polite, confirm your group size, and let her know if you have any
+          preferences (e.g. a particular champagne or a birthday celebration).
+        </li>
+        <li>
+          <strong>Order through her:</strong> Do not flag down random bar staff or try to order
+          at the bar. Everything goes through your waitress. She tracks your spend against your
+          minimum and ensures you hit it without over-ordering.
+        </li>
+        <li>
+          <strong>Tip properly:</strong> A <strong>15&ndash;20% tip</strong> is the norm at
+          London clubs. Some venues add a discretionary service charge to the bill &mdash;
+          check before tipping twice. If there&apos;s no charge, tip in cash at the end of
+          the night directly to your waitress. She will remember you next time.
+        </li>
+      </ul>
+
+      <h2>Table Behaviour: The Dos and Don&apos;ts</h2>
+      <p>
+        There&apos;s a line between having a great time and becoming the table that security
+        keeps an eye on. Here&apos;s where most people get it wrong:
+      </p>
+      <ul>
+        <li>
+          <strong>Do not stand on furniture.</strong> Tables, sofas, booths &mdash; none of it.
+          Standing on furniture gets you a warning the first time and removed the second.
+          It damages the venue, creates safety risks, and immediately marks your group as
+          inexperienced.
+        </li>
+        <li>
+          <strong>Do not pour your own drinks.</strong> Your waitress handles all pouring. If
+          you need a top-up, catch her eye or wait &mdash; she&apos;ll be round regularly. At
+          venues like{" "}
+          <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>{" "}
+          and{" "}
+          <Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>,
+          the waitress pours every drink personally.
+        </li>
+        <li>
+          <strong>Do not invite strangers to your table.</strong> Bringing random people from
+          the dancefloor back to your table creates headaches &mdash; security may question
+          them, your minimum spend doesn&apos;t stretch further, and bottles disappear faster.
+          If you want to expand your group, clear it with your waitress first.
+        </li>
+        <li>
+          <strong>Do keep your table area tidy.</strong> Broken glass, spilt drinks, and
+          rubbish on the table reflect poorly on your group. If something spills, flag your
+          waitress &mdash; she&apos;ll have it sorted in seconds.
+        </li>
+        <li>
+          <strong>Do be mindful of noise.</strong> Every table has music blasting, but
+          screaming across the room or being aggressively loud draws the wrong attention.
+          Keep the energy high but controlled.
+        </li>
+      </ul>
+
+      <h2>Understanding the Minimum Spend</h2>
+      <p>
+        The minimum spend is a commitment, not a target. If your minimum is{" "}
+        <strong>&pound;1,000</strong> and you only order &pound;700 of drinks, you still pay
+        &pound;1,000. The difference doesn&apos;t roll over or get refunded. This is standard
+        at every London club with table service &mdash; from{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        to{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>.
+      </p>
+      <p>
+        The smart approach is to plan your orders. Check our{" "}
+        <Link href="/blog/what-to-order-london-club-bottle-menu-guide" className="text-gold hover:underline">bottle menu guide</Link>{" "}
+        before the night. A standard bottle of Grey Goose or Belvedere typically runs{" "}
+        <strong>&pound;350&ndash;&pound;450</strong>. A bottle of Mo&euml;t starts around{" "}
+        <strong>&pound;250&ndash;&pound;300</strong>. Work backwards from your minimum to know
+        exactly what to order. Your waitress will also help you pace it &mdash; she knows the
+        prices by heart and can suggest combinations that hit your number without waste.
+      </p>
+
+      <h2>Phone and Photography Etiquette</h2>
+      <p>
+        Taking photos and videos at your table is fine &mdash; it&apos;s part of the
+        experience. But there are boundaries. Do not film other guests without their consent,
+        especially at more exclusive venues like{" "}
+        <Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>{" "}
+        where privacy is part of the appeal. Some clubs have strict no-photography policies
+        in certain areas. If a member of staff asks you to stop filming, stop immediately
+        &mdash; pushing back will not end well.
+      </p>
+      <p>
+        Flash photography on the dancefloor is generally frowned upon. And filming sparkler
+        presentations is expected &mdash; that&apos;s half the point. Just don&apos;t block
+        the walkway while doing it.
+      </p>
+
+      <h2>Leaving and Re-entry</h2>
+      <p>
+        Need to step outside? Most London clubs allow re-entry for table guests, but
+        policies vary. At some venues, your table wristband or stamp guarantees re-entry. At
+        others, you&apos;ll need to check with the door team before leaving. The safest
+        approach: ask your waitress about the re-entry policy when you arrive. Never assume
+        you can walk back in &mdash; especially on a busy Saturday when the queue has built
+        up outside.
+      </p>
+      <p>
+        When it&apos;s time to leave for good, settle your bill with your waitress before
+        heading to the door. Do not leave without paying &mdash; it sounds obvious, but in a
+        group setting with shared bills, confusion happens. Designate one person to handle
+        the final bill and tip.
+      </p>
+
+      <h2>Book with Confidence</h2>
+      <p>
+        Knowing the etiquette means you can relax and enjoy the night instead of second-guessing
+        every move. Whether it&apos;s your first table or your fiftieth, getting the basics right
+        sets the tone for everything that follows. For more on what to expect, read our{" "}
+        <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">pricing guide</Link>{" "}
+        and{" "}
+        <Link href="/blog/where-to-sit-table-positioning-london-clubs" className="text-gold hover:underline">table positioning guide</Link>.
+        Ready to book? Message us on{" "}
+        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
+        &mdash; we&apos;ll handle the logistics so you can focus on the night.
+      </p>
+    </>
+  ),
 };
