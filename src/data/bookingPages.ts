@@ -1164,6 +1164,84 @@ export const bookingPages: BookingPageData[] = [
       "london-nightlife-first-timers",
     ],
   },
+  // Maison Close
+  {
+    bookingSlug: "maison-close-table-booking",
+    clubSlug: "maison-close",
+    metaTitle: "Maison Close Table Booking | House Music & VIP from £1,000",
+    metaDescription:
+      "Book a VIP table at Maison Close Mayfair from £1,000 minimum spend. Intimate French-inspired house music club on Swallow Street. Message us on WhatsApp.",
+    h1: "Book a Table at Maison Close Mayfair",
+    heroSubheading:
+      "Mayfair's intimate French-inspired house music club on Swallow Street. Vintage chandeliers, plush velvet, and a soundtrack that puts quality house front and centre — with your own table and bottle service.",
+    pricingIntro:
+      "Floor tables at Maison Close start from £1,000 minimum spend. This covers your drinks for the night — premium spirits, champagne, or a combination from the bottle menu. Your personal waitress will walk you through the options when you arrive. The intimate venue size means table positions vary less than at larger clubs, but the best spots closest to the dancefloor carry a premium on Fridays and Saturdays.",
+    vipUpsellPitch:
+      "VIP tables start from £2,000 and give you the prime positions in the venue — closest to the dancefloor action with the best sightlines and enhanced service. In a venue this intimate, VIP isn't just about prestige — it's about being at the centre of the energy. If you're booking for a celebration or simply want the best possible night, VIP at Maison Close is worth the upgrade.",
+    weekdayDeal:
+      "Wednesday and Thursday are excellent value at Maison Close. The music programming is just as strong, the atmosphere is sophisticated and buzzing, and the minimum spend tends to be more flexible than on weekends. Thursday in particular has developed a loyal following among Mayfair regulars who prefer it to the busier Friday and Saturday crowds. If your group is flexible on dates, midweek at Maison Close delivers the full experience at better value.",
+    arrivalGuide:
+      "Maison Close is at 9 Swallow Street in Mayfair, right next door to Cuckoo Club and a short walk from Piccadilly Circus station. Doors open at 11 PM. With a table booking through us, you skip any queue — give your name at the door and you'll be escorted directly to your table. Most tables arrive between 11:30 PM and midnight. Your waitress will introduce herself and take your first order. Piccadilly Circus is the nearest tube, about a 2-minute walk.",
+    guestlistComparison:
+      "Maison Close operates primarily on a guestlist and table booking basis — walk-ins are not the norm here. The door policy is selective and presentation-focused. Getting on the guestlist doesn't guarantee entry; the door team makes the final call based on your group's appearance and the venue's capacity.\n\nFor groups of four or more, a table booking is strongly recommended. Split a £1,000 minimum across six people and you're paying roughly £167 each for guaranteed entry, a reserved table, personal service, and premium drinks in one of Mayfair's most intimate settings. Compare that to the uncertainty of guestlist — where you might wait, might pay a cover charge, and will definitely be standing all night without table service.\n\nThe venue is small (around 160 capacity) which means it fills up fast on popular nights. A table is the only way to guarantee your spot and the quality of your experience.",
+    entryGuide:
+      "Maison Close has one of the more selective door policies in Mayfair. The dress code is elegant and sophisticated — this is a Parisian-inspired venue and the expectation is that guests dress accordingly. Men should wear suits or sharp tailored separates with smart shoes. Women should opt for elegant dresses or stylish cocktail wear. Trainers, casual jeans, sportswear, and anything that reads as 'casual night out' will get you turned away.\n\nThe door team also considers group composition and presentation. Well-presented mixed groups have the smoothest experience. All-male groups without a booking will find it very difficult to gain entry, particularly on Fridays and Saturdays.\n\nWith a table booking through us, you bypass the door assessment entirely. Your name is on the list, your table is reserved, and you're walked straight in. This is particularly valuable at Maison Close where the intimate capacity means the door can be strict even with well-dressed guests simply because the venue is full.",
+    sections: [
+      {
+        heading: "Best Nights to Book at Maison Close",
+        content:
+          "Saturday is the main event — the strongest DJ bookings, the fullest house, and the peak energy. If this is your first visit, Saturday gives you Maison Close at its most impressive. Friday is excellent too, with a slightly more relaxed feel and often a creative industry crowd. Thursday has quietly become one of the best nights in Mayfair — a loyal, music-focused crowd who come specifically because they appreciate house music played properly. Wednesday is the quieter option, ideal for smaller groups who want the intimate atmosphere without the weekend intensity.",
+      },
+      {
+        heading: "Why Maison Close Stands Out in Mayfair",
+        content:
+          "Most Mayfair clubs run on hip-hop and RnB. Maison Close is one of the very few venues in the area with a dedicated house music policy, which makes it a genuine alternative for anyone who finds the mainstream Mayfair soundtrack repetitive. The Parisian-inspired design — vintage chandeliers, crimson accents, plush velvet — creates an atmosphere that feels more like a private members' salon than a conventional nightclub. The crowd reflects the music: slightly older, more discerning, and here because they genuinely love the sound rather than just looking for a big night out. It's a refreshing change of pace.",
+      },
+      {
+        heading: "Group Booking Guide for Maison Close",
+        content:
+          "The ideal group size for one table at Maison Close is 4-8 people. The venue's intimate scale means even a standard table feels close to the action. For groups of 10+, we can arrange adjacent tables so your party stays together. Maison Close works particularly well for groups where at least some members genuinely appreciate house music — the venue's entire atmosphere is built around the soundtrack, so it resonates most with people who are there for the music as much as the social experience. For mixed-taste groups, consider pairing Maison Close with a stop at one of the nearby Mayfair venues for variety.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What music does Maison Close play?",
+        answer:
+          "House music exclusively. This is one of the few dedicated house music venues in Mayfair. If your group prefers hip-hop or RnB, consider Tabu London, Cirque Le Soir, or Tape London instead.",
+      },
+      {
+        question: "How much is a table at Maison Close?",
+        answer:
+          "Floor tables start from £1,000 minimum spend. VIP positions start from £2,000. Exact pricing depends on the night and group size — message us on WhatsApp for a quote for your specific date.",
+      },
+      {
+        question: "What nights is Maison Close open?",
+        answer:
+          "Wednesday, Thursday, Friday, and Saturday from 11 PM. Thursday and Saturday are the standout nights. Wednesday is the best value option with a more intimate crowd.",
+      },
+      {
+        question: "What should I wear to Maison Close?",
+        answer:
+          "Elegant and sophisticated. Suits or tailored separates for men, elegant dresses or cocktail wear for women. The dress code is strictly enforced — no trainers, no casual jeans, no sportswear.",
+      },
+      {
+        question: "Is Maison Close near other clubs?",
+        answer:
+          "Yes — it's at 9 Swallow Street, right next door to Cuckoo Club and a short walk from Maddox, Tape London, and most other Mayfair venues. It's an excellent option as part of a two-venue evening.",
+      },
+    ],
+    relatedBookingPages: [
+      "cuckoo-club-table-booking",
+      "maddox-club-table-booking",
+      "tape-london-table-booking",
+      "scotch-of-st-james-table-booking",
+    ],
+    relatedBlogSlugs: [
+      "best-house-music-clubs-london-bottle-service",
+      "mayfair-night-out-dinner-drinks-club-itinerary",
+      "mayfair-dress-code-what-to-wear",
+    ],
+  },
 ];
 
 export function getBookingPageBySlug(

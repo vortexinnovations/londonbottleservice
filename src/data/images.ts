@@ -86,6 +86,12 @@ export const clubImages: Record<
     alt: "Luna Club London VIP bottle service",
     extra: [`${G}/DSC_7252.jpg`, `${G}/DSC_7257.jpg`, `${G}/DSC_7260.jpg`],
   },
+  "maison-close": {
+    hero: `${G}/fe4414_0023ee263fca4fe9806bc09d74113eaa.jpg`,
+    card: `${G}/fe4414_002538ddacfe4ce1a4fe89fa0e8305ae.jpg`,
+    alt: "Maison Close Mayfair VIP bottle service house music",
+    extra: [`${G}/fe4414_00edcb5adc4c4c4cb5dd97d80ea2f4c4.jpg`, `${G}/fe4414_0152b4f29a9540be8eef055230e66221.jpg`, `${G}/fe4414_016460dc35074665a9f15d051da0d9de.jpg`],
+  },
   // Closed clubs — kept for SEO pages
   "libertine": {
     hero: `${G}/DSC_7276.jpg`,

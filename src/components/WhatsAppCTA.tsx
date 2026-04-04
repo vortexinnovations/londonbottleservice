@@ -19,7 +19,7 @@ export function WhatsAppCTA({
 
   if (variant === "sticky") {
     return (
-      <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-bg-primary/90 backdrop-blur-md border-t border-border md:hidden">
+      <div className="fixed bottom-0 left-0 right-0 z-50 p-4 bg-bg-primary/95 backdrop-blur-md border-t border-gold/20 md:hidden">
         {urgencyMessage && (
           <p className="text-center text-xs text-gold mb-2 font-medium">{urgencyMessage}</p>
         )}
@@ -27,7 +27,7 @@ export function WhatsAppCTA({
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 w-full py-3.5 px-6 bg-[#25D366] hover:bg-[#20bd5a] text-[#0a0a0a] font-semibold rounded-lg transition-colors text-base"
+          className="flex items-center justify-center gap-2 w-full py-3.5 px-6 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors text-base"
         >
           <WhatsAppIcon />
           {clubName ? `Book a Table at ${clubName}` : "Book a Table on WhatsApp"}
@@ -47,7 +47,7 @@ export function WhatsAppCTA({
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-flex items-center gap-2 py-4 px-10 bg-[#25D366] hover:bg-[#20bd5a] text-[#0a0a0a] font-bold rounded-lg transition-colors text-lg ${className}`}
+            className={`inline-flex items-center gap-2 py-4 px-10 bg-gold hover:bg-gold-light text-bg-primary font-bold rounded-lg transition-colors text-lg ${className}`}
           >
             <WhatsAppIcon />
             {clubName ? `Book Your Table at ${clubName} Now` : "Book Your Table Now on WhatsApp"}
@@ -66,7 +66,7 @@ export function WhatsAppCTA({
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className={`inline-flex items-center gap-2 py-3.5 px-8 bg-[#25D366] hover:bg-[#20bd5a] text-[#0a0a0a] font-semibold rounded-lg transition-colors text-base ${className}`}
+        className={`inline-flex items-center gap-2 py-3.5 px-8 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors text-base ${className}`}
       >
         <WhatsAppIcon />
         {clubName ? `Book at ${clubName}` : "Book a Table on WhatsApp"}

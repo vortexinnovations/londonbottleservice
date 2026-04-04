@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Which London club has the cheapest bottle service?",
     answer:
-      "Most Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Cuckoo Club, Maddox, Tabu, Selene, and Funky Buddha. Tape London is the most expensive starting at £1,500. Weekday tables at any venue tend to have lower minimum spends than weekends.",
+      "Most Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Cuckoo Club, Maddox, Tabu, Selene, Funky Buddha, and Maison Close. VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
   },
   {
     question: "Which Mayfair clubs play hip-hop?",
@@ -85,7 +85,7 @@ const reviews: ClubReview[] = [
     rank: 2,
     headline: "The Gold Standard of Mayfair Exclusivity",
     review:
-      "Tape London is what most people imagine when they think of an exclusive London members' club. Under 200 capacity, recording studio-inspired interiors, a crowd that reads like a tabloid gossip column, and a door policy that's genuinely difficult without a booking. The higher price tag (from £1,500) buys you access to a world most people can't get into. The music is hip-hop focused and the DJs are consistently excellent. This is the club for people who've done everything else and want something more private.",
+      "Tape London is what most people imagine when they think of an exclusive London members' club. Under 200 capacity, recording studio-inspired interiors, a crowd that reads like a tabloid gossip column, and a door policy that's genuinely difficult without a booking. The music is hip-hop focused and the DJs are consistently excellent. This is the club for people who've done everything else and want something more private.",
     bestFor: "Groups who value exclusivity, music industry connections, people who've outgrown mainstream clubs",
     prosText: [
       "Genuinely exclusive — the small capacity creates a premium feel",
@@ -94,7 +94,7 @@ const reviews: ClubReview[] = [
       "Celebrity and music industry crowd",
     ],
     consText: [
-      "Higher starting price than most Mayfair venues",
+      "Very strict door policy — even with a booking, standards are high",
       "Very strict dress code — no room for casual",
       "Small venue means limited table availability",
     ],
@@ -151,7 +151,7 @@ const reviews: ClubReview[] = [
       "Iconic brand inspired by the famous New York original",
     ],
     consText: [
-      "Very expensive — tables start from £1,500",
+      "VIP tables start from £3,000 — the premium positions are expensive",
       "Extremely selective door policy",
       "Not for everyone — deliberately provocative content",
     ],
@@ -189,8 +189,8 @@ const reviews: ClubReview[] = [
       "Performances create natural energy peaks throughout the night",
     ],
     consText: [
-      "Only open Friday and Saturday",
-      "VIP tables start from £2,500 — the premium tables are expensive",
+      "Larger venue means the atmosphere can feel less intimate",
+      "VIP tables start from £2,000 — premium positions carry a premium",
       "The spectacle can sometimes overshadow the music",
     ],
   },
@@ -227,9 +227,9 @@ const reviews: ClubReview[] = [
       "£1,000 starting minimum is standard and fair",
     ],
     consText: [
-      "Only open Friday and Saturday",
       "Jack of all genres, master of none",
       "Less distinctive identity than specialist venues",
+      "The rebranded name still building its own following",
     ],
   },
   {
@@ -304,8 +304,27 @@ const reviews: ClubReview[] = [
     ],
     consText: [
       "Niche appeal — not for hip-hop or RnB fans",
-      "Only open Friday and Saturday",
+      "Only open Thursday, Friday and Saturday",
       "Less exclusive atmosphere than Mayfair clubs",
+    ],
+  },
+  {
+    slug: "maison-close",
+    rank: 14,
+    headline: "Mayfair's House Music Haven",
+    review:
+      "Maison Close is a breath of fresh air in a Mayfair scene dominated by hip-hop. This intimate, French-inspired venue on Swallow Street has committed fully to house music, and the result is a club that attracts a genuinely different crowd — older, more discerning, and here for the music as much as the social scene. The Parisian-cabaret design with vintage chandeliers, crimson velvet, and ambient lighting creates an atmosphere that feels a world away from the flashier Mayfair clubs. If you love house music and want bottle service without compromise, Maison Close is the strongest option in Mayfair right now.",
+    bestFor: "House music lovers, couples, design-conscious groups, anyone tired of the standard Mayfair hip-hop rotation",
+    prosText: [
+      "Dedicated house music — rare in Mayfair",
+      "Stunning Parisian-inspired interior design",
+      "Intimate 160-capacity creates a premium atmosphere",
+      "Four opening nights gives genuine flexibility",
+    ],
+    consText: [
+      "House music only — no hip-hop, RnB, or commercial options",
+      "Newer venue still building its reputation",
+      "The intimate size means tables sell out quickly",
     ],
   },
 ];
@@ -364,7 +383,8 @@ export default function BestClubsPage() {
               <thead>
                 <tr className="border-b border-border">
                   <th className="text-left py-3 pr-4 text-text-muted font-medium">Club</th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">From</th>
+                  <th className="text-left py-3 pr-4 text-text-muted font-medium">Floor</th>
+                  <th className="text-left py-3 pr-4 text-text-muted font-medium">VIP</th>
                   <th className="text-left py-3 pr-4 text-text-muted font-medium">Music</th>
                   <th className="text-left py-3 text-text-muted font-medium">Nights</th>
                 </tr>
@@ -384,6 +404,9 @@ export default function BestClubsPage() {
                       </td>
                       <td className="py-3 pr-4 text-text-secondary">
                         £{club.pricing.floorTable.toLocaleString()}
+                      </td>
+                      <td className="py-3 pr-4 text-text-secondary">
+                        £{club.pricing.vipTable.toLocaleString()}
                       </td>
                       <td className="py-3 pr-4 text-text-muted">
                         {club.musicPolicy.split(",")[0]}

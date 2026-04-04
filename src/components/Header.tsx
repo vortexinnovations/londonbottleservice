@@ -71,7 +71,7 @@ export function Header() {
                 href={getWhatsAppLink()}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-2 px-4 bg-[#25D366] hover:bg-[#20bd5a] text-[#0a0a0a] font-medium rounded-lg transition-colors text-sm"
+                className="py-2 px-4 bg-gold hover:bg-gold-light text-bg-primary font-medium rounded-lg transition-colors text-sm"
               >
                 Book Now
               </a>
@@ -123,7 +123,7 @@ export function Header() {
               href={getWhatsAppLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="block text-center py-3 px-6 bg-[#25D366] hover:bg-[#20bd5a] text-[#0a0a0a] font-semibold rounded-lg transition-colors mt-4"
+              className="block text-center py-3 px-6 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors mt-4"
             >
               Book a Table on WhatsApp
             </a>

@@ -138,7 +138,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
           {club.area} {club.openingNights.length > 0 && <>&bull; {club.openingNights.join(", ")}</>}
         </p>
         <h1 className="text-3xl md:text-5xl font-bold mb-4">
-          {club.name} Table Prices &amp; VIP Bottle Service
+          {club.name}{" "}Table Prices &amp; VIP Bottle Service
         </h1>
         <p className="text-text-muted text-lg italic mb-6">{club.tagline}</p>
         <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
@@ -151,7 +151,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       <section className="py-12 px-4 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-8">
-            {club.name} Minimum Spend &amp; Table Prices
+            {club.name}{" "}Minimum Spend &amp; Table Prices
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-bg-card border border-border rounded-xl p-6">
@@ -267,7 +267,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       <section className="py-12 px-4 border-t border-border">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-8">
-            {club.name} — Essential Details
+            {club.name}{" "}— Essential Details
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <DetailCard title="Music Policy" content={club.musicPolicy} />
@@ -311,7 +311,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       <section className="py-12 px-4 border-t border-border">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-8">
-            {club.name} — Frequently Asked Questions
+            {club.name}{" "}— Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             {club.faqs.map((faq, i) => (

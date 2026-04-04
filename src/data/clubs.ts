@@ -54,7 +54,7 @@ export const clubs: Club[] = [
     musicPolicy: "Hip-Hop, RnB, with occasional commercial crossover",
     dressCode:
       "Smart and stylish. No sportswear, no trainers, no shorts. Think Mayfair-ready — collared shirts for men, heels or smart boots for women. The door is selective so make an effort.",
-    openingNights: ["Wednesday", "Friday", "Saturday"],
+    openingNights: ["Monday", "Wednesday", "Friday", "Saturday"],
     openingHours: "10:30 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -122,11 +122,11 @@ export const clubs: Club[] = [
     musicPolicy: "Hip-Hop, RnB, US Rap, occasional Afrobeats",
     dressCode:
       "Strictly smart. Men must wear smart shoes and a collared shirt minimum — jackets are encouraged but not required. Women should dress elegantly. No streetwear, no casual trainers, no exceptions. This is a members' club environment.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
+    openingNights: ["Tuesday", "Friday", "Saturday", "Sunday"],
     openingHours: "10:30 PM – 3:30 AM",
     pricing: {
-      floorTable: 1500,
-      vipTable: 3000,
+      floorTable: 1000,
+      vipTable: 2000,
     },
     whatsIncluded: [
       "Guaranteed entry to a private members' club (normally inaccessible to the public)",
@@ -191,7 +191,7 @@ export const clubs: Club[] = [
       "Ground floor: House, Deep House, Tech House. Basement: Hip-Hop, RnB, Afrobeats",
     dressCode:
       "Smart casual to smart. Collared shirts for men, no trainers or sportswear. Women should dress for a Mayfair night out. The door is firm but fair — make an effort and you'll be fine.",
-    openingNights: ["Tuesday", "Thursday", "Friday", "Saturday"],
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -328,7 +328,7 @@ export const clubs: Club[] = [
     musicPolicy: "Hip-Hop, RnB, UK Rap, Drill, Afrobeats",
     dressCode:
       "Smart and fashion-forward. Tabu is more relaxed than traditional Mayfair clubs but still expects effort. Smart trainers may be accepted depending on the overall outfit. No sportswear or casual wear.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -397,11 +397,11 @@ export const clubs: Club[] = [
       "Mixed — commercial, house, hip-hop. The live entertainment is the main attraction.",
     dressCode:
       "Smart. Similar standards to other Mayfair clubs. Men need smart shoes and a collared shirt. Women should dress up. The venue is high-production, so the crowd tends to make an effort.",
-    openingNights: ["Friday", "Saturday"],
+    openingNights: ["Tuesday", "Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
-      vipTable: 2500,
+      vipTable: 2000,
     },
     whatsIncluded: [
       "Priority entry for your group",
@@ -465,7 +465,7 @@ export const clubs: Club[] = [
     musicPolicy: "Hip-Hop, RnB, Afrobeats across multiple rooms",
     dressCode:
       "Smart. Standard Mayfair dress code — collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -534,7 +534,7 @@ export const clubs: Club[] = [
       "Open format — Hip-Hop, House, RnB, Afrobeats, Commercial. DJs read the room.",
     dressCode:
       "Smart. Standard Mayfair expectations — smart shoes, collared shirts for men. No sportswear, trainers, or casual wear.",
-    openingNights: ["Friday", "Saturday"],
+    openingNights: ["Thursday", "Friday", "Saturday"],
     openingHours: "10:30 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -602,7 +602,7 @@ export const clubs: Club[] = [
     musicPolicy: "Eclectic — Soul, Funk, Disco, Hip-Hop, Rock. Quality-curated, not commercial.",
     dressCode:
       "Smart but with personality. Scotch appreciates style over formality. Smart-casual is the baseline but they value individual expression. No sportswear or very casual attire.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
+    openingNights: ["Friday", "Saturday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -670,7 +670,7 @@ export const clubs: Club[] = [
     musicPolicy: "Hip-Hop, RnB, Afrobeats, with quality cocktail bar earlier in the evening",
     dressCode:
       "Smart and fashion-forward. Similar standards to other Mayfair clubs — collared shirts and smart shoes for men, dressed-up for women. The crowd here tends to be well put-together.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
+    openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -738,7 +738,7 @@ export const clubs: Club[] = [
     musicPolicy: "House, Tech House, Techno, Electronic",
     dressCode:
       "Smart casual with a more relaxed approach than traditional Mayfair. Smart trainers may be accepted. No sportswear or very casual attire.",
-    openingNights: ["Friday", "Saturday"],
+    openingNights: ["Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM – 4:00 AM",
     pricing: {
       floorTable: 1000,
@@ -809,7 +809,7 @@ export const clubs: Club[] = [
     openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
     openingHours: "10:30 PM – 3:00 AM",
     pricing: {
-      floorTable: 1500,
+      floorTable: 1000,
       vipTable: 3000,
     },
     whatsIncluded: [
@@ -925,6 +925,76 @@ export const clubs: Club[] = [
         question: "How does Luna compare to other Mayfair clubs?",
         answer:
           "Luna is a strong all-rounder for hip-hop fans. It's less theatrical than Cirque Le Soir, less exclusive than Tape, and less activity-focused than Selene — but it delivers consistently good music, a strong crowd, and reliable bottle service. Think of it as the no-nonsense option.",
+      },
+    ],
+  },
+  {
+    slug: "maison-close",
+    bookingSlug: "maison-close-table-booking",
+    name: "Maison Close",
+    shortName: "Maison Close",
+    tagline: "Mayfair's intimate French-inspired house music sanctuary",
+    description:
+      "Maison Close is an intimate, French-inspired nightclub on Swallow Street in the heart of Mayfair. Opened in the former Kadie's site next door to Cuckoo Club, it brings a distinctly Parisian sensibility to London nightlife — think vintage chandeliers, plush velvet, bold crimson accents, and a crowd that appreciates house music played properly. This is not a large-scale superclub. It's deliberately small, deliberately selective, and all the better for it.",
+    longDescription:
+      "Maison Close occupies a unique position in Mayfair's club landscape. Where most venues in the area lean toward hip-hop and RnB, Maison Close has planted its flag firmly in the house music camp — and the crowd it attracts reflects that choice. The interior is unapologetically theatrical in a Parisian cabaret style, with rich reds, deep blacks, ambient lighting, and design touches that feel more like a private members' salon than a conventional nightclub. The dancefloor is intimate, the sound system is serious, and the DJs are booked for their ability to build a set rather than drop obvious crowd-pleasers. Tables are positioned to keep you close to the action without being swallowed by it. The atmosphere is sophisticated but never stiff — Maison Close manages to feel exclusive without being unwelcoming, which is harder to pull off than most clubs make it look. Bottle service here is about enhancing the experience rather than dominating it. If you appreciate quality house music in a beautifully designed space with a curated door policy, Maison Close is one of the strongest options in Mayfair right now.",
+    address: "9 Swallow Street, London W1B 4DF",
+    area: "Mayfair",
+    musicPolicy: "House music",
+    dressCode:
+      "Elegant and sophisticated. Suits or sharp separates for men, elegant dresses or stylish cocktail wear for women. The door policy is selective and presentation matters — dress as though you are attending a private Parisian salon.",
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
+    openingHours: "11:00 PM – 3:00 AM",
+    pricing: {
+      floorTable: 1000,
+      vipTable: 2000,
+    },
+    whatsIncluded: [
+      "Priority entry for your group (skip the queue entirely)",
+      "A dedicated table and seating area for your party",
+      "A personal waitress assigned to your table for the night",
+      "Your choice of premium spirits or champagne (covered by your minimum spend)",
+      "Mixers, ice, and garnishes included",
+      "Access to the intimate dancefloor and full venue experience",
+    ],
+    knownFor: [
+      "Dedicated house music programming",
+      "Parisian-inspired interior design with vintage chandeliers",
+      "Intimate atmosphere with a carefully curated door policy",
+      "Live performances and art exhibitions",
+      "Premium cocktail programme alongside bottle service",
+      "Sophisticated crowd who appreciate quality music",
+    ],
+    bestFor:
+      "House music lovers who want an intimate, beautifully designed Mayfair club without the hip-hop-heavy soundtrack that dominates most venues in the area. Ideal for groups of 4-8 who appreciate a more refined, musically focused night out.",
+    atmosphere:
+      "Intimate, sophisticated, Parisian-cabaret. The design is theatrical without being gimmicky — rich reds and deep blacks, vintage chandeliers, plush velvet seating. The sound is focused and the dancefloor is close enough to your table that you're always part of the energy. Think private members' salon meets underground house music club.",
+    capacity: "Approximately 160",
+    faqs: [
+      {
+        question: "What kind of music does Maison Close play?",
+        answer:
+          "Maison Close is a dedicated house music venue — one of the few in Mayfair. The programming focuses on quality house and deep house, with DJs booked for their ability to build a proper set. If you prefer hip-hop or RnB, look at Tabu, Cirque Le Soir, or Tape London instead.",
+      },
+      {
+        question: "What is the minimum spend at Maison Close?",
+        answer:
+          "Floor tables start from £1,000 minimum spend. VIP and premium table positions start from £2,000. Prices vary by night and group size — message us on WhatsApp for exact pricing for your date.",
+      },
+      {
+        question: "What is the dress code at Maison Close?",
+        answer:
+          "Elegant and sophisticated. Men should wear suits or sharp separates — no trainers, no casual wear. Women should opt for elegant dresses or stylish cocktail wear. The door policy is selective, so make an effort with your presentation.",
+      },
+      {
+        question: "What nights is Maison Close open?",
+        answer:
+          "Maison Close is open Wednesday, Thursday, Friday, and Saturday from 11 PM until late. Thursday and Saturday tend to be the busiest nights. Wednesday is a strong option if you want the full experience with slightly less competition for tables.",
+      },
+      {
+        question: "Where is Maison Close located?",
+        answer:
+          "Maison Close is at 9 Swallow Street in Mayfair, London W1B 4DF — right next door to Cuckoo Club and a short walk from Piccadilly Circus. The venue occupies the former Kadie's site.",
       },
     ],
   },

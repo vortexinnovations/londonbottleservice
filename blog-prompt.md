@@ -37,6 +37,7 @@ You must NOT modify any other file. The sitemap, blog listing page, and blog pos
 - `beat-london` — Beat London (from £1,000)
 - `the-box` — The Box (performance venue, Soho, from £1,500)
 - `luna-club-london` — Luna Club London (from £1,000)
+- `maison-close` — Maison Close (French-inspired house music, Swallow Street, from £1,000)
 
 ### Permanently closed clubs (do NOT include in relatedClubs):
 - `libertine`
@@ -167,6 +168,7 @@ After selecting the image, add the filename to the JSON array in `src/data/used-
 - `/clubs/beat-london`
 - `/clubs/the-box`
 - `/clubs/luna-club-london`
+- `/clubs/maison-close`
 
 ### Booking pages (use format `/SLUG`):
 - `/cirque-le-soir-table-booking`
@@ -182,6 +184,7 @@ After selecting the image, add the filename to the JSON array in `src/data/used-
 - `/beat-london-table-booking`
 - `/the-box-london-table-booking`
 - `/luna-club-london-table-booking`
+- `/maison-close-table-booking`
 
 ### Get all existing blog post URLs:
 ```bash

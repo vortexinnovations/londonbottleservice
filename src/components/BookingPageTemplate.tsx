@@ -125,7 +125,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       <section className="py-12 px-4 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            {club.name} Table Prices &amp; Minimum Spend
+            {club.name}{" "}Table Prices &amp; Minimum Spend
           </h2>
           <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
             {data.pricingIntro}
@@ -313,7 +313,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       <section className="py-12 px-4 border-b border-border">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-2xl md:text-3xl font-bold mb-8">
-            {club.name} Table Booking — Frequently Asked Questions
+            {club.name}{" "}Table Booking — Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             {data.faqs.map((faq, i) => (
