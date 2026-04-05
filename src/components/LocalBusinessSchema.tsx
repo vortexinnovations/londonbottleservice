@@ -7,6 +7,8 @@ export function LocalBusinessSchema() {
       "VIP table and bottle service bookings at London's most exclusive Mayfair nightclubs. Real prices, instant WhatsApp booking.",
     url: "https://londonbottleservice.com",
     telephone: "+447880662708",
+    image: "https://londonbottleservice.com/gallery/images/0.jpg",
+    logo: "https://londonbottleservice.com/icon.svg",
     address: {
       "@type": "PostalAddress",
       addressLocality: "London",
@@ -22,19 +24,28 @@ export function LocalBusinessSchema() {
       "@type": "City",
       name: "London",
     },
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "reservations",
+      telephone: "+447880662708",
+      availableLanguage: "English",
+    },
     priceRange: "£££",
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [
+        "Monday",
         "Tuesday",
         "Wednesday",
         "Thursday",
         "Friday",
         "Saturday",
+        "Sunday",
       ],
       opens: "22:00",
       closes: "03:00",
     },
+    sameAs: ["https://londonluxurynightlife.com"],
   };
 
   return (

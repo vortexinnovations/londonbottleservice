@@ -4,6 +4,8 @@ export function OrganizationSchema() {
     "@type": "Organization",
     name: "London Bottle Service",
     url: "https://londonbottleservice.com",
+    logo: "https://londonbottleservice.com/icon.svg",
+    image: "https://londonbottleservice.com/gallery/images/0.jpg",
     description:
       "VIP table bookings at London's most exclusive nightclubs. Direct venue relationships, transparent pricing, instant WhatsApp confirmation.",
     contactPoint: {
