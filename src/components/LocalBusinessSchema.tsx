@@ -11,8 +11,10 @@ export function LocalBusinessSchema() {
     logo: "https://londonbottleservice.com/icon.svg",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "9 Swallow Street",
       addressLocality: "London",
       addressRegion: "Greater London",
+      postalCode: "W1B 4DF",
       addressCountry: "GB",
     },
     geo: {
