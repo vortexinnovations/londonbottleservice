@@ -1187,6 +1187,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "what-comes-with-bottle-service-london-club",
+    title: "What Comes with Bottle Service at a London Club",
+    metaTitle: "What Comes with Bottle Service London | London Bottle Service",
+    metaDescription:
+      "Find out exactly what comes with bottle service at London clubs. Mixers, ice, sparklers, waitress service, and everything included in your table booking.",
+    excerpt:
+      "Booked a table but not sure what you actually get? Here is everything that comes with bottle service at London clubs, from the physical setup to the service you can expect all night.",
+    publishedAt: "2026-04-07",
+    updatedAt: "2026-04-07",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "what comes with bottle service london",
+      "bottle service package london clubs",
+      "what is included in bottle service",
+      "london club table service included",
+      "bottle service setup london",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "maddox", "selene-london", "scotch-of-st-james"],
+    faqs: [
+      {
+        question: "What mixers are included with bottle service in London?",
+        answer:
+          "Standard mixers are included at no extra charge. This typically covers tonic water, soda water, cranberry juice, orange juice, lemonade, and Red Bull (sometimes charged separately at certain venues). Your waitress will keep mixers topped up throughout the night. Premium or unusual mixers may need to be requested in advance.",
+      },
+      {
+        question: "Do you get sparklers with every bottle at a London club?",
+        answer:
+          "Not automatically. Sparklers and LED bottle presentations are available at most venues but are usually reserved for champagne orders or by request. At clubs like Cirque Le Soir and Selene London, the bottle presentation is part of the theatre. If you want sparklers on your spirits, just ask your waitress when ordering.",
+      },
+      {
+        question: "Is a dedicated waitress included with bottle service?",
+        answer:
+          "Yes. Every table booking comes with a dedicated waitress who manages your orders, pours drinks, keeps your ice and mixers stocked, and ensures your table stays clean and well-presented. At busier venues like Tape London, one waitress may cover two or three tables, but you will always have a direct point of contact.",
+      },
+      {
+        question: "Can you bring your own drinks or food to a bottle service table?",
+        answer:
+          "No. London clubs do not allow outside drinks or food. Everything consumed must be purchased through the venue. The exception is birthday cakes, which some clubs permit if arranged in advance through your booker. All alcohol must be ordered from the club.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

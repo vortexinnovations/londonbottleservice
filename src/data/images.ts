@@ -242,6 +242,11 @@ export const blogImages: Record<
     alt: "Bottle service table setup at a London nightclub",
     inline: [],
   },
+  "what-comes-with-bottle-service-london-club": {
+    featured: `${G}/maison-close-843.jpg`,
+    alt: "VIP bottle service setup with mixers and ice at a London nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
