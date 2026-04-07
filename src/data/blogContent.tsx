@@ -3243,4 +3243,142 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "what-comes-with-bottle-service-london-club": (
+    <>
+      <p>
+        You have booked a table at a London club, agreed to the minimum spend, and sorted
+        your guest list. But what exactly do you get when you arrive? Bottle service at London
+        clubs includes far more than a bottle and a table. Here is a full breakdown of what
+        comes with bottle service at a London club, so you know exactly what to expect before
+        you walk through the door.
+      </p>
+
+      <h2>Your Table and Seating Area</h2>
+      <p>
+        Every bottle service booking comes with a reserved table and seating area. The exact
+        setup varies by venue. At{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>,
+        you get deep leather booths with semi-private sightlines to the dance floor. At{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,
+        tables are positioned around the performance area so you are part of the show.{" "}
+        <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene London</Link>{" "}
+        has three distinct rooms, each with a different layout and atmosphere.
+      </p>
+      <p>
+        Your table is yours for the night. Nobody else sits there, and security will keep
+        it clear if you step away to dance. The size of the seating area depends on the
+        table tier you booked. Standard floor tables seat 5-8 comfortably. VIP and raised
+        tables accommodate larger groups and offer better views. For a deeper look at table
+        options, read our{" "}
+        <Link href="/blog/where-to-sit-table-positioning-london-clubs" className="text-gold hover:underline">table positioning guide</Link>.
+      </p>
+
+      <h2>Bottles, Mixers, and Ice</h2>
+      <p>
+        The centrepiece of any table booking is the drinks. When you order a bottle of
+        spirits, it arrives with a full set of standard mixers at no extra charge.
+        These typically include:
+      </p>
+      <ul>
+        <li><strong>Tonic water</strong> and <strong>soda water</strong></li>
+        <li><strong>Cranberry juice</strong> and <strong>orange juice</strong></li>
+        <li><strong>Lemonade</strong></li>
+        <li><strong>Red Bull</strong> (complimentary at most venues, occasionally charged separately)</li>
+        <li><strong>Fresh ice</strong>, replenished throughout the night</li>
+      </ul>
+      <p>
+        Your waitress will pour for you and keep mixers and ice topped up without
+        being asked. If you want something specific that is not on the standard list,
+        mention it when ordering. Most venues can accommodate reasonable requests.
+        For guidance on choosing between champagne and spirits, check our{" "}
+        <Link href="/blog/best-champagne-bottle-service-london-clubs" className="text-gold hover:underline">champagne guide</Link>{" "}
+        and{" "}
+        <Link href="/blog/what-to-order-london-club-bottle-menu-guide" className="text-gold hover:underline">bottle menu guide</Link>.
+      </p>
+
+      <h2>Dedicated Waitress Service</h2>
+      <p>
+        This is what separates bottle service from ordering at the bar. Every table comes
+        with a dedicated waitress assigned to look after you for the entire night. Her job
+        includes pouring drinks, clearing empty glasses, restocking ice and mixers, taking
+        new orders, and making sure the table looks sharp.
+      </p>
+      <p>
+        At smaller venues like{" "}
+        <Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>,
+        a waitress may look after just one or two tables, so the service feels almost
+        private. At larger clubs on Saturday nights, she may cover three tables, but you
+        will always have a direct point of contact. A good waitress makes the entire night
+        run smoothly, and tipping 15-20% on your final bill is standard. For more on what
+        to expect from the service dynamic, see our{" "}
+        <Link href="/blog/bottle-service-etiquette-london-clubs" className="text-gold hover:underline">etiquette guide</Link>.
+      </p>
+
+      <h2>Bottle Presentations and Sparklers</h2>
+      <p>
+        London clubs are known for theatrical bottle presentations. When you order champagne
+        or a premium spirit, many venues deliver it with LED sparklers, dramatic lighting,
+        and music drops that draw attention to your table. At Cirque Le Soir, performers
+        may bring the bottle directly as part of a show. At Selene London, certain packages
+        include full LED displays synced to the music.
+      </p>
+      <p>
+        Sparklers are not automatically included with every order. They are standard for
+        champagne at most venues and available on request for spirits. If you are celebrating
+        a birthday or special occasion, let your booker know in advance and the venue will
+        coordinate a presentation. Some clubs also offer dry ice effects and personalised
+        signs for celebrations.
+      </p>
+
+      <h2>Guaranteed Entry and Queue Skip</h2>
+      <p>
+        One of the most underrated benefits of bottle service is bypassing the queue entirely.
+        With a table booking, you and your guests arrive at the door, give the table name,
+        and walk straight in. No waiting in the general queue, no uncertainty at the door.
+        This applies every night, including peak Saturdays when walk-in queues can stretch
+        past an hour.
+      </p>
+      <p>
+        Your booking confirmation will include a guest list. Make sure all names are submitted
+        in advance, as door teams at venues like{" "}
+        <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>{" "}
+        check against the list. Latecomers can usually still enter if the table host confirms
+        them, but submitting names early avoids any friction. For more on how entry works,
+        read our{" "}
+        <Link href="/blog/how-to-get-into-exclusive-london-clubs" className="text-gold hover:underline">guide to getting into exclusive clubs</Link>.
+      </p>
+
+      <h2>What Is Not Included</h2>
+      <p>
+        Knowing what is not part of the package is just as important. Here is what you
+        should not expect:
+      </p>
+      <ul>
+        <li><strong>Food:</strong> Most clubs do not serve food at tables (Maddox is the exception, with its restaurant-to-club setup). Eat before you arrive.</li>
+        <li><strong>Coat check:</strong> Usually a separate charge of &pound;2-3 per item.</li>
+        <li><strong>Private area:</strong> A standard table is in the main room. If you want a fully private space, you need to book a private room or VIP area, which comes at a higher minimum.</li>
+        <li><strong>Shots or cocktails:</strong> These are separate orders on top of your minimum spend. Bottles are the core of what you are paying for.</li>
+        <li><strong>Re-entry:</strong> Leaving and coming back is not guaranteed at every venue. Check the re-entry policy before stepping out.</li>
+      </ul>
+
+      <h2>Making the Most of Your Booking</h2>
+      <p>
+        The best way to enjoy bottle service is to plan ahead. Know your{" "}
+        <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">budget</Link>,
+        choose the right{" "}
+        <Link href="/best-clubs-bottle-service-london" className="text-gold hover:underline">venue</Link>{" "}
+        for your group, and communicate any special requests to your booker before the night.
+        Birthday cakes, specific seating requests, and personalised touches can all be arranged
+        with enough notice.
+      </p>
+      <p>
+        Ready to book a table? Message us on{" "}
+        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>.
+        We will confirm your table, walk you through what is included at your chosen venue,
+        and make sure everything is set up before you arrive.
+      </p>
+    </>
+  ),
 };
