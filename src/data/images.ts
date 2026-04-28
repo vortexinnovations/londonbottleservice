@@ -247,6 +247,11 @@ export const blogImages: Record<
     alt: "VIP bottle service setup with mixers and ice at a London nightclub",
     inline: [],
   },
+  "is-bottle-service-london-worth-it": {
+    featured: `${G}/31-DSC03353.jpg`,
+    alt: "VIP bottle service table at a London nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

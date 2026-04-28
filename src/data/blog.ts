@@ -1230,6 +1230,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "is-bottle-service-london-worth-it",
+    title: "Is Bottle Service at London Clubs Worth It? A Realistic Guide",
+    metaTitle: "Is Bottle Service Worth It? | London Bottle Service",
+    metaDescription:
+      "Is bottle service at London clubs worth the money? An honest breakdown of costs, what you get, and when it makes sense to book a table.",
+    excerpt:
+      "A table at a London club starts from £1,000. Whether that’s good value or a waste depends entirely on how you use it. Here’s the honest breakdown.",
+    publishedAt: "2026-04-28",
+    updatedAt: "2026-04-28",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "is bottle service worth it london",
+      "bottle service value london clubs",
+      "should I book a table london club",
+      "london club table booking worth it",
+      "bottle service pros cons london",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "maddox", "cuckoo-club", "scotch-of-st-james"],
+    faqs: [
+      {
+        question: "Is bottle service worth it for a group of 4?",
+        answer:
+          "Yes, for a group of four it can work well. At £1,000 minimum spend, that’s £250 per person for guaranteed entry, a reserved table, a full bottle of spirits or champagne, mixers, and dedicated waitress service all night. Compare that to buying individual drinks at £15–20 each and you’re getting significantly more for a similar per-person spend.",
+      },
+      {
+        question: "What is the minimum spend for bottle service in London?",
+        answer:
+          "Most London clubs start at £1,000 minimum spend per table, which typically includes one bottle of spirits with mixers or champagne. Premium tables at venues like Tape London start from £1,500. The minimum spend is not the bottle price — it is the total you must spend at your table across the night.",
+      },
+      {
+        question: "Can you share bottle service with another group?",
+        answer:
+          "No. Each table booking is private to your group. You cannot split a table with strangers. However, if your group is small, you can still book a table for just two or three people. The minimum spend remains the same regardless of group size, so larger groups get better value per head.",
+      },
+      {
+        question: "Is it cheaper to just buy drinks at the bar instead?",
+        answer:
+          "Individually, yes. A drink at the bar costs £15–20. But if your group of six buys rounds all night, you could easily spend £600–800 between you with no reserved space, no queue-skip, and no dedicated service. A £1,000 table gives you all of that plus a full bottle. For groups over four, the maths often favours bottle service.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
