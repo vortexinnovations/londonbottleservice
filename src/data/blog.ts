@@ -1273,6 +1273,55 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-london-club-minimum-spend-works",
+    title: "How London Club Minimum Spend Actually Works",
+    metaTitle: "How Club Minimum Spend Works | London Bottle Service",
+    metaDescription:
+      "London club minimum spend explained: what counts, what happens if you fall short, and how to get the most from your table booking. A practical breakdown.",
+    excerpt:
+      "Minimum spend confuses first-timers more than anything else about bottle service. Here is how it actually works, what counts toward it, and how to avoid common mistakes.",
+    publishedAt: "2026-05-02",
+    updatedAt: "2026-05-02",
+    category: "Pricing",
+    readingTime: "7 min read",
+    keywords: [
+      "london club minimum spend explained",
+      "minimum spend bottle service london",
+      "how minimum spend works nightclub",
+      "bottle service minimum spend uk",
+      "london club table minimum",
+    ],
+    relatedClubs: [
+      "cirque-le-soir",
+      "tape-london",
+      "maddox",
+      "cuckoo-club",
+      "selene-london",
+    ],
+    faqs: [
+      {
+        question: "What does minimum spend mean at a London club?",
+        answer:
+          "Minimum spend is the amount you commit to spending on drinks at your table. It is not an entry fee or a deposit you get back. If your minimum is £1,000, you order £1,000 worth of bottles, champagne, or spirits. Mixers, ice, and table service are included at no extra cost.",
+      },
+      {
+        question: "What happens if you don't reach the minimum spend?",
+        answer:
+          "You still pay the full minimum spend amount. If you order £700 of drinks on a £1,000 minimum, you are charged £1,000. The venue does not refund the difference. This is why planning your order in advance matters, so you use the full amount on drinks you actually want.",
+      },
+      {
+        question: "Does the minimum spend include entry to the club?",
+        answer:
+          "Yes. Your table booking includes entry for your agreed group size. There is no separate cover charge or entry fee on top of the minimum spend. Everyone on your table list gets in as part of the booking.",
+      },
+      {
+        question: "Is the minimum spend per person or per table?",
+        answer:
+          "Per table. A £1,000 minimum is the total for the table, not per guest. For a group of eight, that works out to £125 per person. For a group of four, it is £250 each. The per-person cost drops the larger your group.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

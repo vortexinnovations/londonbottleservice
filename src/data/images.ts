@@ -252,6 +252,11 @@ export const blogImages: Record<
     alt: "VIP bottle service table at a London nightclub",
     inline: [],
   },
+  "how-london-club-minimum-spend-works": {
+    featured: `${G}/fe4414_8736c3fa5a0c46c6ae844af5dfd7ef3b.jpg`,
+    alt: "Bottle service table with spirits and champagne at a London nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

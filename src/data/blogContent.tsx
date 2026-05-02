@@ -3538,4 +3538,267 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "how-london-club-minimum-spend-works": (
+    <>
+      <p>
+        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+      </p>
+
+      <p>
+        <em>Last updated: 2 May 2026</em>
+      </p>
+
+      <p>
+        The single most common question I get from first-time bookers is not about
+        which club to choose or what to wear. It is about minimum spend. What does
+        it actually mean? What counts toward it? What happens if you fall short?
+        After eight years in London hospitality, I have seen every possible
+        misunderstanding play out at the table. This guide covers how London club
+        minimum spend actually works, so you know exactly what you are committing
+        to before you book.
+      </p>
+
+      <h2>What Minimum Spend Means in Practice</h2>
+      <p>
+        Minimum spend is the total amount you agree to spend on drinks at your
+        table over the course of the night. It is <strong>not</strong> an entry
+        fee, a cover charge, or a deposit you get back at the end. When a venue
+        says the minimum is &pound;1,000, that means you order &pound;1,000 worth
+        of bottles from their menu. As of May 2026, most London clubs start at
+        &pound;1,000 for a standard floor table and &pound;1,500 to &pound;3,000
+        for elevated or premium positions.
+      </p>
+      <p>
+        As{" "}
+        <a
+          href="https://www.timeout.com/london/clubs"
+          className="text-gold hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Time Out&apos;s London club coverage
+        </a>{" "}
+        regularly notes, London&apos;s premium club scene operates almost entirely
+        on a bottle service model. Understanding how it works before you arrive
+        saves confusion on the night.
+      </p>
+
+      <h2>What Counts Toward Your Minimum Spend</h2>
+      <p>
+        Your minimum spend is met through bottle orders only. This includes
+        spirits (vodka, tequila, whisky, gin, rum), champagne, and wine.
+        Everything you order from the{" "}
+        <Link
+          href="/blog/what-to-order-london-club-bottle-menu-guide"
+          className="text-gold hover:underline"
+        >
+          bottle menu
+        </Link>{" "}
+        counts toward the total.
+      </p>
+      <p>
+        What does <strong>not</strong> count: individual cocktails ordered at the
+        bar, tips for your waitress, or food at venues that offer it. At{" "}
+        <Link href="/clubs/maddox" className="text-gold hover:underline">
+          Maddox
+        </Link>
+        , which has a restaurant upstairs, your dinner bill and your club minimum
+        are separate tabs. Entry fees do not apply either, because there are none
+        with a table booking.
+      </p>
+      <p>
+        The good news is that{" "}
+        <Link
+          href="/blog/what-comes-with-bottle-service-london-club"
+          className="text-gold hover:underline"
+        >
+          everything that comes with bottle service
+        </Link>{" "}
+        beyond the bottles themselves is complimentary. Mixers, ice, glassware,
+        and the service of a dedicated waitress are all included. You are only
+        paying for the bottles.
+      </p>
+
+      <h2>What Happens If You Fall Short</h2>
+      <p>
+        This is the part that catches people out. If your minimum spend is
+        &pound;1,000 and you only order &pound;750 of drinks, you are still
+        charged &pound;1,000. The venue does not refund the difference or let you
+        carry it over to another visit. I have seen this happen most often with
+        smaller groups who overestimate how much they will drink, or with groups
+        who arrive late and run out of time.
+      </p>
+      <p>
+        The lesson is straightforward: plan your order so you use the full amount.
+        A bottle of premium vodka (&pound;300 to &pound;500 as of May 2026), a
+        bottle of champagne (&pound;350 to &pound;450 for Mo&euml;t), and a second
+        spirit hits &pound;1,000 comfortably for most groups. Your waitress will
+        help you pace the spend if you ask.
+      </p>
+
+      <h2>How Minimum Spend Varies by Night and Table Position</h2>
+      <p>
+        Not every table at every venue on every night carries the same minimum.
+        Three factors drive the variation:
+      </p>
+      <ul>
+        <li>
+          <strong>Night of the week:</strong> Weeknight tables (Tuesday to
+          Thursday) are typically 20 to 40 per cent lower than Saturday minimums.
+          A table that starts at &pound;1,500 on Saturday might be &pound;1,000 on
+          a Thursday at the same venue.
+        </li>
+        <li>
+          <strong>Table position:</strong> Floor tables near the dance floor carry
+          the base minimum. Elevated booths, stage-side positions, and dedicated
+          areas cost more. At{" "}
+          <Link
+            href="/clubs/cirque-le-soir"
+            className="text-gold hover:underline"
+          >
+            Cirque Le Soir
+          </Link>
+          , a stage-side table commands a higher minimum than a standard floor spot
+          because you are next to the performers.
+        </li>
+        <li>
+          <strong>Venue tier:</strong>{" "}
+          <Link
+            href="/clubs/tape-london"
+            className="text-gold hover:underline"
+          >
+            Tape London
+          </Link>{" "}
+          starts at &pound;1,500 as of May 2026 because of its members&apos; club
+          status and limited capacity. Most other venues begin at &pound;1,000.
+        </li>
+      </ul>
+      <p>
+        When I visited{" "}
+        <Link
+          href="/clubs/cuckoo-club"
+          className="text-gold hover:underline"
+        >
+          Cuckoo Club
+        </Link>{" "}
+        on a Wednesday, the floor table minimum was noticeably lower than the
+        Saturday rate, and the waitress confirmed they adjust pricing based on
+        expected demand. That midweek flexibility is consistent across most Mayfair
+        venues.
+      </p>
+
+      <h2>How to Get the Most from Your Minimum Spend</h2>
+      <p>
+        From experience, the groups that get the best value are the ones that plan
+        loosely before they arrive. You do not need a rigid order sheet, but having
+        a rough idea helps enormously.
+      </p>
+      <ul>
+        <li>
+          <strong>Start with spirits:</strong> A bottle of Grey Goose or Belvedere
+          (&pound;300 to &pound;500 as of May 2026) gives you roughly 20 mixed
+          drinks. That is the most efficient way to begin hitting your minimum.
+        </li>
+        <li>
+          <strong>Add champagne for a moment:</strong> One bottle of Mo&euml;t or
+          Veuve (&pound;350 to &pound;450) gives the table a celebratory visual
+          without dominating your spend. It also counts fully toward your minimum.
+        </li>
+        <li>
+          <strong>Talk to your waitress early:</strong> On my last visit to Cirque
+          Le Soir, the waitress helped pace two bottles of spirits and a champagne
+          perfectly across a &pound;1,200 minimum for a group of six. They do this
+          every night and know exactly how to balance the order.
+        </li>
+        <li>
+          <strong>Do not over-order champagne:</strong> Champagne gives you 6 to 7
+          glasses per bottle versus 20 drinks from a spirit. If you are trying to
+          hit a &pound;1,000 minimum efficiently, two bottles of champagne leaves
+          you short on actual drinks. Mix spirits and champagne for balance.
+        </li>
+      </ul>
+
+      <h2>Deposits and How Prepayment Works</h2>
+      <p>
+        Most London clubs require a deposit at the time of booking, typically
+        &pound;200 to &pound;500 depending on the venue and night. This deposit is
+        <strong> deducted from</strong> your minimum spend on the night, not
+        charged on top of it. If your minimum is &pound;1,000 and your deposit was
+        &pound;200, you pay the remaining &pound;800 at the venue.
+      </p>
+      <p>
+        Deposits are usually non-refundable if you cancel within 48 hours of the
+        booking. For larger groups or peak nights like New Year&apos;s Eve, the
+        deposit may be higher. When I arranged a booking for a group of 20 at{" "}
+        <Link
+          href="/clubs/selene-london"
+          className="text-gold hover:underline"
+        >
+          Selene London
+        </Link>
+        , the deposit was &pound;500 for three adjacent tables, which was deducted
+        from the combined &pound;3,000 minimum on the night.
+      </p>
+
+      <h2>Common Minimum Spend Mistakes</h2>
+      <p>
+        After years of seeing how groups handle their first table booking, these
+        are the mistakes that come up again and again:
+      </p>
+      <ul>
+        <li>
+          <strong>Assuming the minimum is per person:</strong> It is per table. A
+          &pound;1,000 minimum for eight people is &pound;125 each, not
+          &pound;1,000 each.
+        </li>
+        <li>
+          <strong>Arriving too late:</strong> If you arrive at 1 AM and the club
+          closes at 3 AM, you have two hours to spend your minimum. That often
+          means rushing orders or leaving drinks unfinished. Arrive by 11 PM to
+          enjoy the full allocation.
+        </li>
+        <li>
+          <strong>Ordering individual drinks at the bar:</strong> Bar drinks do
+          not count toward your table minimum. I noticed groups sending people to
+          the bar for cocktails while their table minimum sat unfinished.
+          Everything should be ordered through your waitress.
+        </li>
+        <li>
+          <strong>Not confirming the minimum in advance:</strong> Minimums can
+          change for special events, bank holidays, or peak weekends. Always
+          confirm the exact figure when you{" "}
+          <Link
+            href="/book-a-table"
+            className="text-gold hover:underline"
+          >
+            book your table
+          </Link>
+          . No surprises on the night.
+        </li>
+      </ul>
+
+      <h2>The Bottom Line</h2>
+      <p>
+        Minimum spend is straightforward once you understand the mechanics. It is
+        the total you spend on bottles, it includes everything you need for a full
+        night of drinks, and it guarantees your entry and table. For a deeper look
+        at London club pricing, see our{" "}
+        <Link
+          href="/bottle-service-guide"
+          className="text-gold hover:underline"
+        >
+          bottle service guide
+        </Link>
+        . If you are ready to book and want help planning your order around the
+        minimum, message us on{" "}
+        <a
+          href="https://wa.me/447880662708"
+          className="text-gold hover:underline"
+        >
+          WhatsApp
+        </a>{" "}
+        and we will sort it out.
+      </p>
+    </>
+  ),
 };
