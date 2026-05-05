@@ -1322,6 +1322,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "bottle-service-deposits-payments-london",
+    title: "How Bottle Service Deposits and Payments Work at London Clubs",
+    metaTitle: "Bottle Service Deposits & Payments | London Bottle Service",
+    metaDescription:
+      "How deposits, card holds, and payments work for bottle service at London clubs. Cancellation policies, splitting bills, and what to expect on the night.",
+    excerpt:
+      "Nobody explains the payment side of bottle service until you are already committed. Here is how deposits, card holds, and final bills actually work at London clubs.",
+    publishedAt: "2026-05-05",
+    updatedAt: "2026-05-05",
+    category: "Pricing",
+    readingTime: "7 min read",
+    keywords: [
+      "bottle service deposit payment london",
+      "london club table deposit",
+      "bottle service cancellation policy london",
+      "how to pay for bottle service london",
+      "splitting bottle service bill london",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club", "selene-london", "maddox"],
+    faqs: [
+      {
+        question: "How much is the deposit for bottle service in London?",
+        answer:
+          "Most London clubs require a deposit of 50% of the minimum spend to confirm your booking. On a standard table with a £1,000 minimum, expect to pay £500 upfront. Some venues charge the full amount in advance for peak nights like New Year's Eve or bank holidays.",
+      },
+      {
+        question: "Can you split the bill across multiple cards at a London club?",
+        answer:
+          "Yes, most London clubs will split the final bill across two or three cards. Let your waitress know at the start of the night. Some venues prefer a single card on file for the table but will accommodate a split at the end. Splitting across more than four cards is generally not possible.",
+      },
+      {
+        question: "What happens to your deposit if you cancel bottle service?",
+        answer:
+          "Cancellation policies vary. Most clubs offer a full refund if you cancel 48 to 72 hours in advance. Cancel within 24 hours and you typically lose the deposit. No-shows forfeit the full deposit with no exception. Always confirm the cancellation window with your booker when you pay.",
+      },
+      {
+        question: "Do London clubs take cash for bottle service?",
+        answer:
+          "Almost never for the main bill. London clubs operate on card payments for table bookings, and most are fully cashless for bar purchases too. Tips can be given in cash directly to your waitress, but the deposit and final spend will always be processed by card.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

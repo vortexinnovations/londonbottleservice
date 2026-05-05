@@ -3538,6 +3538,244 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "bottle-service-deposits-payments-london": (
+    <>
+      <p>
+        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+      </p>
+
+      <p>
+        <em>Last updated: 5 May 2026</em>
+      </p>
+
+      <p>
+        Everyone focuses on bottle prices and minimum spends when they research
+        table bookings, but nobody talks about the bit that actually trips people
+        up: the payment process. How much deposit do you pay upfront? When does
+        the rest get charged? Can you split across cards? What happens if plans
+        fall through? After eight years working in London hospitality, I have
+        processed hundreds of bottle service deposits and seen every possible
+        payment scenario play out. This guide covers exactly how the money side
+        works so there are no surprises on the night.
+      </p>
+
+      <h2>How Bottle Service Deposits Work</h2>
+      <p>
+        When you confirm a table booking at a London club, you pay a deposit to
+        secure the reservation. This is not a separate charge on top of your
+        minimum spend. It is a portion of the total you have already committed
+        to. Think of it as a down payment that gets deducted from your final
+        bill.
+      </p>
+      <p>
+        The standard deposit across most venues is{" "}
+        <strong>50% of the minimum spend</strong> as of May 2026. On a table
+        with a &pound;1,000 minimum, you pay &pound;500 upfront. At{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">
+          Tape London
+        </Link>
+        , where minimums start from &pound;1,500, expect a &pound;750 deposit.
+        Some clubs ask for 100% upfront on peak dates like New Year&apos;s Eve,
+        Valentine&apos;s Day, or bank holiday weekends.
+      </p>
+      <p>
+        I have noticed that smaller, newer venues tend to be more flexible on
+        deposit amounts. When I booked at{" "}
+        <Link href="/clubs/selene-london" className="text-gold hover:underline">
+          Selene London
+        </Link>{" "}
+        on a Wednesday, the deposit was just &pound;300 on a &pound;1,000
+        minimum. On a Saturday at the same venue, it was the full 50%. The night
+        of the week makes a real difference.
+      </p>
+
+      <h2>When and How You Pay the Deposit</h2>
+      <p>
+        Deposits are taken by card at the time of booking. If you book through a
+        promoter or concierge service, they will send you a payment link or take
+        your details over the phone. If you book directly with the venue, you
+        typically pay over the phone or via a secure link sent by email.
+      </p>
+      <p>
+        The timing varies. Some clubs require the deposit immediately to hold
+        the table. Others give you 24 to 48 hours to confirm with payment,
+        especially for bookings made well in advance. I have seen tables released
+        back to general availability when deposits are not received within the
+        window, so do not delay once you have committed.
+      </p>
+      <p>
+        As{" "}
+        <a
+          href="https://www.timeout.com/london/nightlife"
+          className="text-gold hover:underline"
+        >
+          Time Out&apos;s London nightlife guide
+        </a>{" "}
+        notes, the city&apos;s top clubs are in high demand, particularly on
+        Fridays and Saturdays. Deposits exist because no-shows cost venues
+        thousands in lost revenue. The system protects both sides.
+      </p>
+
+      <h2>What Happens on the Night</h2>
+      <p>
+        When you arrive at the club, your table is already reserved and your
+        deposit is on file. The venue will ask for a card to keep on tab for the
+        remainder of the night. This can be the same card you paid the deposit
+        with or a different one.
+      </p>
+      <p>
+        Throughout the evening, your orders are added to the tab. At the end of
+        the night, the venue calculates your total spend, deducts the deposit
+        you already paid, and charges the balance to the card on file. If your
+        minimum is &pound;1,000, you paid &pound;500 deposit, and you spent
+        &pound;1,200 on bottles, you will be charged &pound;700 at the end.
+      </p>
+      <p>
+        If you spend less than the minimum, the venue still charges up to the
+        full minimum amount. On a &pound;1,000 table where you only ordered
+        &pound;800 of drinks, you would be charged an additional &pound;200 at
+        close, bringing your total to &pound;1,000. We covered this in detail in
+        our{" "}
+        <Link
+          href="/blog/how-london-club-minimum-spend-works"
+          className="text-gold hover:underline"
+        >
+          minimum spend guide
+        </Link>
+        .
+      </p>
+
+      <h2>Splitting Payment Across Multiple Cards</h2>
+      <p>
+        This is one of the most common requests I saw when working the floor.
+        Groups of six or eight rarely want one person stuck with the full bill.
+        The good news is that most London clubs will split the final charge
+        across two or three cards without any fuss.
+      </p>
+      <p>
+        The process works like this: tell your waitress at the start of the
+        night that you want to split. She will make a note. At the end, she
+        divides the remaining balance (after deposit) equally or by whatever
+        split you agree on, and processes each card separately. At{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
+          Cuckoo Club
+        </Link>{" "}
+        and{" "}
+        <Link href="/clubs/maddox" className="text-gold hover:underline">
+          Maddox
+        </Link>
+        , I have seen bills split across three cards without any issue.
+      </p>
+      <p>
+        Where it gets tricky is with more than four cards. Most venues draw the
+        line at three or four splits because of the admin involved at closing
+        time when they are processing dozens of tables simultaneously. If your
+        group needs a more granular split, settle it between yourselves using a
+        payment app and put the full balance on one or two cards.
+      </p>
+
+      <h2>Cancellation and Refund Policies</h2>
+      <p>
+        Every club has a cancellation window. The standard across London is{" "}
+        <strong>48 to 72 hours before your booking</strong> for a full refund of
+        the deposit. Cancel within this window and you get your money back,
+        no questions asked.
+      </p>
+      <p>
+        Cancel inside 24 hours and you will almost certainly lose the deposit.
+        No-shows forfeit everything. I have personally seen groups lose
+        &pound;750 deposits because one person in the group decided last minute
+        they did not want to go. The venue will not make exceptions.
+      </p>
+      <p>
+        Some clubs offer a one-time reschedule instead of a cancellation. If you
+        need to move your booking to a different date, contact your booker as
+        early as possible. Rescheduling is much easier than cancelling and
+        rebooking, and your deposit carries over. At{" "}
+        <Link
+          href="/clubs/cirque-le-soir"
+          className="text-gold hover:underline"
+        >
+          Cirque Le Soir
+        </Link>
+        , we have moved bookings up to twice before the deposit is forfeited,
+        provided the new date is within 30 days.
+      </p>
+
+      <h2>Cash, Card, and Contactless</h2>
+      <p>
+        London&apos;s club scene has gone almost entirely cashless. Deposits are
+        always by card. The tab on the night is always by card. Most venues no
+        longer accept cash for bottle orders at all.
+      </p>
+      <p>
+        The one exception is tipping. If you want to tip your waitress in cash,
+        that is welcome and appreciated. A 15 to 20% tip is standard for good
+        service, as we outlined in our{" "}
+        <Link
+          href="/blog/bottle-service-etiquette-london-clubs"
+          className="text-gold hover:underline"
+        >
+          etiquette guide
+        </Link>
+        . Some venues add a discretionary service charge to the bill
+        automatically, so check before doubling up.
+      </p>
+      <p>
+        Contactless has a transaction limit that makes it impractical for most
+        bottle service bills. The venue will always ask for chip and PIN for the
+        final amount. Apple Pay and Google Pay work in most cases if your bank
+        allows high-value contactless transactions, but confirm with the venue
+        beforehand if you plan to rely on your phone.
+      </p>
+
+      <h2>Pre-Authorisation Holds</h2>
+      <p>
+        Some clubs place a pre-authorisation hold on your card when you arrive.
+        This is a temporary hold, not a charge, for an amount equal to or
+        slightly above the minimum spend. It ensures the card has sufficient
+        funds to cover the night.
+      </p>
+      <p>
+        The hold drops off within three to five business days after the actual
+        charge is processed. If you are using a debit card, this temporarily
+        reduces your available balance, which can catch people off guard. We
+        always recommend using a credit card for bottle service tabs to avoid
+        cash flow issues while the hold clears.
+      </p>
+
+      <h2>Book with Confidence</h2>
+      <p>
+        Understanding the payment mechanics removes the uncertainty from
+        booking. Pay your deposit, know your cancellation window, bring a card
+        for the night, and let your waitress know if you want to split. That is
+        all there is to it. For a full breakdown of what your spend gets you,
+        read our{" "}
+        <Link
+          href="/blog/what-comes-with-bottle-service-london-club"
+          className="text-gold hover:underline"
+        >
+          guide to what comes with bottle service
+        </Link>
+        .
+      </p>
+      <p>
+        Ready to book? Message us on{" "}
+        <a
+          href="https://wa.me/447880662708"
+          className="text-gold hover:underline"
+        >
+          WhatsApp
+        </a>{" "}
+        with your date, group size, and preferred venue. We will confirm
+        availability, explain the deposit, and get your table locked in. Or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">
+          book a table online
+        </Link>{" "}
+        and we will be in touch within the hour.
+      </p>
+    </>
+  ),
   "how-london-club-minimum-spend-works": (
     <>
       <p>

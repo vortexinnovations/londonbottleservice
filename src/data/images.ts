@@ -257,6 +257,11 @@ export const blogImages: Record<
     alt: "Bottle service table with spirits and champagne at a London nightclub",
     inline: [],
   },
+  "bottle-service-deposits-payments-london": {
+    featured: `${G}/fe4414_c1fe834a912c4dcd8facbae41f182d22.jpg`,
+    alt: "VIP bottle service payment and card transaction at a London nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
