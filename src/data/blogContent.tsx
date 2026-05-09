@@ -4039,4 +4039,311 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
     </>
   ),
+  "champagne-vs-spirits-london-bottle-menu": (
+    <>
+      <p>
+        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+      </p>
+      <p>
+        <em>Last updated: 9 May 2026</em>
+      </p>
+      <p>
+        Every group I have sat with at a London club hits the same crossroads the
+        moment the bottle menu arrives: champagne or spirits? It sounds simple,
+        but the answer shapes your entire night, from how long your table lasts to
+        how much each person actually pays. After eight years working tables in
+        central London and countless bookings since, I have a clear view on when
+        each option makes sense, and when it does not.
+      </p>
+
+      <h2>How London Bottle Menus Are Structured</h2>
+      <p>
+        A typical London club bottle menu splits into three columns: spirits
+        (vodka, gin, rum, tequila, whisky), champagne, and sometimes a separate
+        premium or rare section. Spirits dominate the left side of the menu and
+        tend to start lower in price. Champagne sits in the middle or right,
+        starting around the same entry price but scaling up fast once you move
+        past the house options.
+      </p>
+      <p>
+        When I first started serving at clubs in Soho, most tables ordered
+        champagne automatically, treating it as the default bottle service drink.
+        That has shifted. As of May 2026, I would say roughly 60% of tables now
+        lead with spirits, with champagne reserved for toasts or celebrations
+        midway through the night. The reason is straightforward: value.
+      </p>
+
+      <h2>Champagne: What You Get for the Price</h2>
+      <p>
+        A standard bottle of champagne at a London club (Mo&euml;t Imp&eacute;rial, Veuve
+        Clicquot Yellow Label, or similar) typically costs between{" "}
+        <strong>&pound;450 and &pound;600</strong> as of May 2026. A bottle of
+        champagne holds roughly 750ml, which pours into about six glasses. That
+        works out to around &pound;75 to &pound;100 per glass, and a group of
+        six will finish it in under 30 minutes.
+      </p>
+      <p>
+        Premium champagnes climb sharply. Dom P&eacute;rignon, Krug, and
+        Armand de Brignac (Ace of Spades) regularly list between{" "}
+        <strong>&pound;800 and &pound;3,000+</strong> per bottle. At{" "}
+        <Link
+          href="/clubs/cirque-le-soir"
+          className="text-gold hover:underline"
+        >
+          Cirque Le Soir
+        </Link>
+        , I have seen groups drop over &pound;2,000 on a single magnum of Ace
+        of Spades - impressive for the table presentation, less impressive for
+        the cost per drink.
+      </p>
+      <p>
+        Champagne does have advantages. The sparkler presentation is a spectacle
+        at venues like{" "}
+        <Link
+          href="/clubs/selene-london"
+          className="text-gold hover:underline"
+        >
+          Selene London
+        </Link>{" "}
+        and Cirque Le Soir, where LED bottle parades and fire displays come
+        standard with champagne orders. If you want that Instagram moment or you
+        are celebrating a specific milestone, champagne delivers the theatre. As{" "}
+        <a
+          href="https://www.tatler.com/article/the-best-nightclubs-in-london"
+          className="text-gold hover:underline"
+        >
+          Tatler&apos;s guide to London nightclubs
+        </a>{" "}
+        notes, the bottle presentation has become a core part of the Mayfair club
+        experience, and champagne lends itself to that more than spirits do.
+      </p>
+
+      <h2>Spirits: What You Get for the Price</h2>
+      <p>
+        A bottle of premium vodka (Belvedere, Grey Goose, or Ciroc) at most
+        London clubs runs between{" "}
+        <strong>&pound;350 and &pound;500</strong> as of May 2026. A standard
+        700ml bottle yields approximately 14 single measures. Mixed with the
+        complimentary juices, tonics, and Red Bull that come with your table,
+        that is 14 drinks for your group. For a table of seven, that is two
+        rounds from a single bottle.
+      </p>
+      <p>
+        The per-drink economics are striking. At &pound;400 for a bottle yielding
+        14 drinks, you are paying around <strong>&pound;28 per drink</strong>.
+        Compare that to champagne at &pound;500 for six glasses (&pound;83 per
+        glass). Spirits give you more than double the drinks per pound spent.
+      </p>
+      <p>
+        I noticed this most clearly on Saturday nights at{" "}
+        <Link
+          href="/clubs/cuckoo-club"
+          className="text-gold hover:underline"
+        >
+          Cuckoo Club
+        </Link>
+        . Groups that led with vodka or gin stayed at their tables longer,
+        ordered more comfortably within their minimum spend, and generally seemed
+        less rushed. The ones who went all-in on champagne often hit the minimum
+        in the first hour and then sat watching an empty ice bucket for the rest
+        of the night.
+      </p>
+
+      <h2>The Hybrid Strategy: What Most Smart Tables Do</h2>
+      <p>
+        From experience, the best approach for most groups is a combination. Open
+        with a bottle of champagne for the arrival, the toast, the table
+        presentation. Then switch to spirits for the rest of the night. This
+        gives you the visual impact of champagne on arrival plus the sustained
+        drinking value of spirits.
+      </p>
+      <p>
+        A practical order for a group of six to eight on a &pound;1,500 minimum
+        might look like this:
+      </p>
+      <ul>
+        <li>
+          <strong>1 x Veuve Clicquot:</strong> roughly &pound;500, six glasses
+          for the first 30 minutes
+        </li>
+        <li>
+          <strong>1 x Belvedere vodka:</strong> roughly &pound;400, 14 mixed
+          drinks for the next two hours
+        </li>
+        <li>
+          <strong>1 x Ciroc or second spirit:</strong> roughly &pound;400, another
+          14 drinks for the final stretch
+        </li>
+        <li>
+          <strong>Remaining spend:</strong> topped up with individual cocktails,
+          shots, or a second champagne if the mood calls for it
+        </li>
+      </ul>
+      <p>
+        This way you use roughly &pound;1,300 in bottles and have &pound;200 of
+        breathing room for extras. For more on planning your spend, see our{" "}
+        <Link
+          href="/bottle-service-guide"
+          className="text-gold hover:underline"
+        >
+          bottle service guide
+        </Link>
+        .
+      </p>
+
+      <h2>When Champagne Is the Right Call</h2>
+      <p>
+        There are situations where champagne makes more sense than spirits,
+        regardless of value per drink:
+      </p>
+      <ul>
+        <li>
+          <strong>Celebrations with a toast moment:</strong> engagements,
+          promotions, milestones. Nothing replaces popping a bottle of champagne
+          when the whole table is watching.
+        </li>
+        <li>
+          <strong>Tables of two to four:</strong> smaller groups drink less
+          volume. A bottle of champagne between two people is three glasses each,
+          which is a reasonable pace. A bottle of vodka between two is seven
+          drinks each, which is a lot.
+        </li>
+        <li>
+          <strong>Early in the night:</strong> champagne pairs better with the
+          first hour when the energy is building. Spirits hit harder and work
+          better once the club is in full swing.
+        </li>
+        <li>
+          <strong>Venues with strong bottle presentations:</strong> at clubs
+          like{" "}
+          <Link
+            href="/clubs/tape-london"
+            className="text-gold hover:underline"
+          >
+            Tape London
+          </Link>{" "}
+          and Cirque Le Soir, the champagne presentation is part of the
+          experience. Ordering only spirits means you miss the visual side of
+          the night.
+        </li>
+      </ul>
+
+      <h2>When Spirits Are the Right Call</h2>
+      <p>
+        Spirits win in these scenarios:
+      </p>
+      <ul>
+        <li>
+          <strong>Groups of five or more:</strong> the maths simply works better.
+          More drinks per bottle means everyone stays topped up without ordering
+          a third or fourth bottle.
+        </li>
+        <li>
+          <strong>Budget-conscious bookings:</strong> if your priority is meeting
+          the minimum spend without overshoting, spirits stretch further. Check
+          our{" "}
+          <Link
+            href="/club-table-prices-london"
+            className="text-gold hover:underline"
+          >
+            table prices guide
+          </Link>{" "}
+          for current minimums.
+        </li>
+        <li>
+          <strong>Long nights:</strong> if you are arriving at 10:30 PM and
+          staying until close at 3 AM, spirits sustain the table. Champagne runs
+          out too quickly for a four-hour session.
+        </li>
+        <li>
+          <strong>Groups who prefer mixed drinks:</strong> vodka-Red Bull,
+          gin-and-tonic, rum-and-Coke. If your group drinks mixed, spirits are
+          the obvious choice.
+        </li>
+      </ul>
+
+      <h2>What We Went With on My Last Visit</h2>
+      <p>
+        On my last booking at{" "}
+        <Link
+          href="/clubs/funky-buddha"
+          className="text-gold hover:underline"
+        >
+          Funky Buddha
+        </Link>
+        , we had a group of seven on a Friday. We opened with a Veuve Clicquot
+        for the table photo and initial toast, then moved to two bottles of
+        Belvedere for the rest of the night. The waitress kept our mixers stocked
+        without being asked, and we hit the minimum spend almost exactly. Nobody
+        felt rushed, nobody overspent. That is the formula I recommend to anyone
+        who messages us for advice.
+      </p>
+      <p>
+        One detail worth noting: at Funky Buddha the bottle presentation for
+        spirits is more understated than champagne. No sparklers on a bottle of
+        vodka. If the visual moment matters to your group, lead with champagne
+        and enjoy the show, then switch to spirits when the lights go down and the
+        music takes over.
+      </p>
+
+      <h2>How to Place Your Order on the Night</h2>
+      <p>
+        Your dedicated waitress will bring the bottle menu once you are seated.
+        You do not need to decide everything upfront. I always suggest ordering
+        your first bottle within 15 minutes of sitting down, then pacing
+        additional orders based on how the night is going. Your waitress will
+        track your running spend and let you know where you stand against the
+        minimum.
+      </p>
+      <p>
+        If you want to plan your order before you arrive, message us on{" "}
+        <a
+          href="https://wa.me/447880662708"
+          className="text-gold hover:underline"
+        >
+          WhatsApp
+        </a>{" "}
+        and we can walk you through the menu for your specific venue. Or{" "}
+        <Link
+          href="/book-a-table"
+          className="text-gold hover:underline"
+        >
+          book a table
+        </Link>{" "}
+        directly and we will confirm pricing and availability before your night.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline:
+              "Champagne vs Spirits: How to Order from a London Bottle Menu",
+            datePublished: "2026-05-09",
+            dateModified: "2026-05-09",
+            author: {
+              "@type": "Person",
+              name: "Ethan Reid",
+              url: "https://londonbottleservice.com/about-the-editor/",
+              jobTitle: "Bottle Service & Hospitality Pro",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "London Bottle Service",
+              url: "https://londonbottleservice.com",
+            },
+            image:
+              "https://londonbottleservice.com/gallery/images/maison-close-069.jpg",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://londonbottleservice.com/blog/champagne-vs-spirits-london-bottle-menu",
+            },
+          }),
+        }}
+      />
+    </>
+  ),
 };

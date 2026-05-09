@@ -262,6 +262,11 @@ export const blogImages: Record<
     alt: "VIP bottle service payment and card transaction at a London nightclub",
     inline: [],
   },
+  "champagne-vs-spirits-london-bottle-menu": {
+    featured: `${G}/maison-close-069.jpg`,
+    alt: "Champagne and spirits bottle service at a London nightclub table",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

@@ -1365,6 +1365,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "champagne-vs-spirits-london-bottle-menu",
+    title: "Champagne vs Spirits: How to Order from a London Bottle Menu",
+    metaTitle: "Champagne vs Spirits London Clubs | London Bottle Service",
+    metaDescription:
+      "Champagne vs spirits at London clubs: which gives better value, how to choose, and what we order after years of booking bottle service tables.",
+    excerpt:
+      "Every table booking starts with the same question: champagne or spirits? Here is how the pricing, value, and experience compare across London clubs.",
+    publishedAt: "2026-05-09",
+    updatedAt: "2026-05-09",
+    category: "Pricing",
+    readingTime: "8 min read",
+    keywords: [
+      "champagne vs spirits bottle service london",
+      "what to order bottle service london",
+      "bottle menu london clubs value",
+      "champagne or vodka london club",
+      "london bottle service order guide",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club", "selene-london", "funky-buddha"],
+    faqs: [
+      {
+        question: "Is champagne or spirits better value at London clubs?",
+        answer:
+          "Spirits offer better value per drink. A bottle of vodka at around 700ml gives you roughly 14 single measures, working out to about 14 mixed drinks for your table. A bottle of champagne gives you roughly six glasses. At similar price points, spirits stretch your minimum spend further, especially for groups of five or more.",
+      },
+      {
+        question: "What is the cheapest bottle you can order at a London club?",
+        answer:
+          "Standard vodka and gin are typically the most affordable options on a London bottle menu, starting from around 350 to 450 pounds as of May 2026. Belvedere, Grey Goose, and Ciroc are the most commonly stocked house-level premium vodkas. Prosecco may appear cheaper per bottle but offers fewer servings.",
+      },
+      {
+        question: "Can you mix champagne and spirits in one bottle service order?",
+        answer:
+          "Yes. Most groups order a combination. A common approach is to start with a bottle of champagne for the first hour, then switch to spirits for the rest of the night. As long as your total spend meets the table minimum, you can order across both categories freely.",
+      },
+      {
+        question: "Do London clubs charge more for champagne on weekends?",
+        answer:
+          "Bottle prices are generally fixed on the printed menu regardless of the night. However, some venues raise the table minimum spend on Fridays and Saturdays, which means you may need to order more bottles overall. The per-bottle price stays the same, but your total commitment increases.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
