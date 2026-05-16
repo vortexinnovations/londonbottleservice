@@ -1408,6 +1408,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-far-in-advance-to-book-bottle-service-london",
+    title: "How Far in Advance Should You Book Bottle Service in London?",
+    metaTitle: "How Far in Advance to Book Bottle Service London?",
+    metaDescription:
+      "How far in advance to book bottle service in London: real lead times for weeknights, weekends, and peak dates from someone who books tables every week.",
+    excerpt:
+      "Wondering when to lock in your London bottle service table? Here are the real booking windows for weeknights, weekends, and the dates that fill up earliest.",
+    publishedAt: "2026-05-16",
+    updatedAt: "2026-05-16",
+    category: "Tips",
+    readingTime: "7 min read",
+    keywords: [
+      "how far in advance to book bottle service london",
+      "london bottle service booking lead time",
+      "when to book table london nightclub",
+      "last minute bottle service london",
+      "advance booking london clubs",
+    ],
+    relatedClubs: ["cuckoo-club", "tape-london", "cirque-le-soir", "selene-london", "maddox"],
+    faqs: [
+      {
+        question: "How far in advance should you book bottle service in London?",
+        answer:
+          "For weeknight tables (Tuesday to Thursday), 2 to 4 days ahead is comfortable. For standard Friday and Saturday tables, aim for 7 to 14 days. For peak dates such as New Year's Eve, Valentine's, bank holiday Fridays, and major event weeks, 3 to 6 weeks is realistic and some venues open earlier than that.",
+      },
+      {
+        question: "Can you book bottle service on the same day in London?",
+        answer:
+          "Yes, especially on Tuesday and Wednesday nights for groups of four or fewer at non-peak venues. Same-day bookings on Friday and Saturday are harder and usually mean smaller tables or higher minimum spends. The fastest route on the day is messaging directly on WhatsApp rather than filling in an online form.",
+      },
+      {
+        question: "When should you book for New Year's Eve in London?",
+        answer:
+          "New Year's Eve tables at Mayfair clubs typically open in September or October and the prime positions are confirmed by mid-November. By December, most venues only have back-wall tables left at elevated minimum spends. If New Year's Eve matters, treat October as your booking deadline.",
+      },
+      {
+        question: "Do London clubs charge more for last-minute bottle service bookings?",
+        answer:
+          "Last-minute weekend bookings often come with a higher minimum spend because the entry-level tables go first. A table that would have cost a 1,000 pound minimum two weeks out can move to 1,500 pounds or more by Friday afternoon. Premium bottles can also run out, so plan early if a specific bottle matters to you.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

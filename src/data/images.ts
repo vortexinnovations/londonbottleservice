@@ -267,6 +267,11 @@ export const blogImages: Record<
     alt: "Champagne and spirits bottle service at a London nightclub table",
     inline: [],
   },
+  "how-far-in-advance-to-book-bottle-service-london": {
+    featured: `${G}/12-DSC03270.jpg`,
+    alt: "VIP bottle service table booking at a Mayfair nightclub in London",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
