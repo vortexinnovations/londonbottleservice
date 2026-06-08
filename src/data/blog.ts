@@ -1451,6 +1451,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "champagne-bottle-sizes-explained",
+    title: "Champagne Bottle Sizes Explained: Magnum to Methuselah",
+    metaTitle: "Champagne Bottle Sizes Explained | London Bottle Service",
+    metaDescription:
+      "A guide to champagne bottle sizes in London clubs, from the standard 75cl to the magnum, jeroboam and beyond, and which size to order for your table.",
+    excerpt:
+      "Magnum, jeroboam, methuselah: London bottle menus are full of big formats. Here is what each champagne bottle size means and which one suits your table.",
+    publishedAt: "2026-06-09",
+    updatedAt: "2026-06-09",
+    category: "Guides",
+    readingTime: "7 min read",
+    keywords: [
+      "champagne bottle sizes",
+      "magnum vs jeroboam",
+      "big format champagne london",
+      "bottle service bottle sizes",
+      "methuselah champagne",
+    ],
+    relatedClubs: ["cirque-le-soir", "tape-london", "maddox"],
+    faqs: [
+      {
+        question: "What are the champagne bottle sizes in order?",
+        answer:
+          "From smallest up: the standard bottle (75cl), magnum (1.5L, two bottles), jeroboam (3L, four bottles), methuselah (6L, eight bottles), salmanazar (9L, twelve bottles), balthazar (12L, sixteen bottles) and nebuchadnezzar (15L, twenty bottles). In London clubs you will mostly see standards and magnums, with jeroboams and larger reserved for bigger spends.",
+      },
+      {
+        question: "Is a magnum better value than two bottles?",
+        answer:
+          "Not usually on price. A magnum almost always carries a premium over two standard bottles because of the format and the presentation. What you pay for is the impact and a single larger centrepiece rather than a discount per millilitre, as of June 2026.",
+      },
+      {
+        question: "Which champagne bottle size should I order for my table?",
+        answer:
+          "For most groups of four to six, one or two standard bottles or a single magnum works well. Larger formats like the jeroboam suit bigger groups or a statement moment, and they are what most venues bring out with a full sparkler presentation.",
+      },
+      {
+        question: "Do London clubs carry the giant champagne bottles?",
+        answer:
+          "The very large formats like the balthazar and nebuchadnezzar are special-order at most venues rather than everyday stock. If you want one for a specific night, ask in advance so the club can confirm availability and price.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

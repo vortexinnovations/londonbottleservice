@@ -4594,4 +4594,178 @@ export const blogContent: Record<string, ReactNode> = {
       />
     </>
   ),
+  "champagne-bottle-sizes-explained": (
+    <>
+      <p>
+        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+      </p>
+      <p>
+        <em>Last updated: 9 June 2026</em>
+      </p>
+      <p>
+        Open almost any London bottle menu and you will hit the same wall of
+        unfamiliar words: magnum, jeroboam, methuselah. After eight years working
+        tables in central London, I can tell you that most guests have no idea
+        what these actually mean, how much liquid is in each, or whether the
+        bigger formats are worth it. This is the plain-English guide to champagne
+        bottle sizes, what you will really see on a London table, and how to
+        choose the right one for your group.
+      </p>
+
+      <h2>The Champagne Bottle Size Ladder</h2>
+      <p>
+        Champagne formats follow a fixed ladder, and each step up roughly doubles
+        the one before. Here is the full run, with how many standard bottles each
+        one holds:
+      </p>
+      <ul>
+        <li><strong>Standard:</strong> 75cl, the everyday bottle.</li>
+        <li><strong>Magnum:</strong> 1.5L, equal to two standard bottles.</li>
+        <li><strong>Jeroboam:</strong> 3L, equal to four bottles.</li>
+        <li><strong>Methuselah:</strong> 6L, equal to eight bottles.</li>
+        <li><strong>Salmanazar:</strong> 9L, equal to twelve bottles.</li>
+        <li><strong>Balthazar:</strong> 12L, equal to sixteen bottles.</li>
+        <li><strong>Nebuchadnezzar:</strong> 15L, equal to twenty bottles.</li>
+      </ul>
+      <p>
+        The names above magnum come from biblical kings, which is a useful way to
+        remember that anything with a grand name is a serious amount of champagne.
+        A nebuchadnezzar is the equivalent of twenty bottles in a single vessel.
+      </p>
+
+      <h2>What You Actually See on a London Table</h2>
+      <p>
+        In practice, the London club scene runs on two sizes. The standard bottle
+        is the default for most orders, and the magnum is the most popular step up
+        for a group that wants something with more presence. I have carried more
+        magnums across a busy floor than I can count, and they are the size that
+        hits the sweet spot between impact and practicality.
+      </p>
+      <p>
+        Jeroboams and larger appear far less often, and almost always at the
+        bigger-spending tables. On my floor, a methuselah would come out of the
+        back perhaps once or twice on a busy Saturday, and it was always tied to
+        a milestone celebration rather than a casual order. The genuinely giant
+        formats, the balthazar and nebuchadnezzar, were special-order items we had
+        to confirm with the venue in advance rather than everyday stock.
+      </p>
+
+      <h2>Are the Big Formats Worth It?</h2>
+      <p>
+        Here is the honest answer most menus will not give you: a larger format is
+        rarely cheaper per millilitre than buying the equivalent in standard
+        bottles. A magnum almost always carries a premium over two regular
+        bottles. You are not paying for a volume discount, you are paying for the
+        format itself and the moment it creates. If value per pound is your
+        priority, standard bottles win, and our guide to{" "}
+        <Link href="/blog/champagne-vs-spirits-london-bottle-menu" className="text-gold hover:underline">champagne versus spirits</Link>{" "}
+        goes deeper on getting the most from a menu.
+      </p>
+      <p>
+        Where the big formats earn their place is impact. A single large bottle
+        arriving at a table is a far bigger statement than the same volume split
+        across smaller ones, and it counts toward your{" "}
+        <Link href="/blog/how-london-club-minimum-spend-works" className="text-gold hover:underline">minimum spend</Link>{" "}
+        just the same. For a milestone night where the moment matters more than the
+        maths, a magnum or jeroboam is the right call.
+      </p>
+
+      <h2>Which Size Should You Order?</h2>
+      <p>
+        Match the format to the group and the occasion rather than defaulting to
+        the biggest thing on the menu:
+      </p>
+      <ul>
+        <li><strong>Two to four people:</strong> one or two standard bottles is plenty.</li>
+        <li><strong>Four to six people:</strong> a magnum makes a better centrepiece than two separate bottles.</li>
+        <li><strong>Larger groups or a statement moment:</strong> a jeroboam, ideally timed with a presentation.</li>
+        <li><strong>A headline celebration:</strong> a methuselah or above, ordered ahead of time.</li>
+      </ul>
+      <p>
+        Remember that the bottle is only part of the order. Our breakdown of{" "}
+        <Link href="/blog/what-comes-with-bottle-service-london-club" className="text-gold hover:underline">what comes with bottle service</Link>{" "}
+        covers the mixers, garnishes and service that arrive alongside it, and the{" "}
+        <Link href="/club-table-prices-london" className="text-gold hover:underline">table prices guide</Link>{" "}
+        shows how it all adds up. Most Mayfair tables start from &pound;1,000 as of June 2026.
+      </p>
+
+      <h2>Spirits Come in Big Formats Too</h2>
+      <p>
+        Champagne gets the attention, but spirits also climb in size, and they
+        are a big part of most bottle orders. Standard spirit bottles on a London
+        table are usually 70cl or a litre, and premium brands often offer
+        magnum-sized 1.75L bottles plus the occasional display-scale bottle for a
+        flagship vodka or cognac. The same rule applies as with champagne: the
+        larger the format, the bigger the premium and the bigger the moment,
+        rather than a saving. If your group is split between champagne drinkers and
+        spirit drinkers, a sensible order is one statement champagne format plus a
+        litre of a mixable spirit, which keeps the table going without overspending
+        on the show.
+      </p>
+
+      <h2>How the Big Bottles Are Served</h2>
+      <p>
+        The larger the format, the bigger the production. A magnum or jeroboam is
+        almost never just walked over. At venues like{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
+        and{" "}
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>, a big bottle comes out with sparklers, a lit
+        parade and often the music dropping for the moment. From experience, the
+        lip of a jeroboam is genuinely heavy, which is why staff carry it with two
+        hands and set it in a stand rather than holding it like a standard bottle.
+      </p>
+      <p>
+        Big-format bottles have become a fixture of London&apos;s high-end nightlife,
+        as{" "}
+        <a href="https://www.timeout.com/london/bars" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London bar coverage</a>{" "}
+        reflects, precisely because the presentation is as much the point as the
+        champagne. If a sparkler moment is what you are after, order the format
+        ahead of time so the team can have it ready.
+      </p>
+
+      <h2>Planning Your Order</h2>
+      <p>
+        The simplest approach is to decide your headline bottle before you arrive,
+        then let your waitress pace the rest of the order against your minimum. If
+        you tell us the group size and the occasion, we will recommend the right
+        format and confirm it is in stock for your night. Message us on{" "}
+        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
+        and we will sort the details before you walk in.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline:
+              "Champagne Bottle Sizes Explained: Magnum to Methuselah",
+            datePublished: "2026-06-09",
+            dateModified: "2026-06-09",
+            author: {
+              "@type": "Person",
+              name: "Ethan Reid",
+              url: "https://londonbottleservice.com/about-the-editor/",
+              jobTitle: "Bottle Service & Hospitality Pro",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "London Bottle Service",
+              url: "https://londonbottleservice.com",
+            },
+            image:
+              "https://londonbottleservice.com/gallery/images/maison-close-001.jpg",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://londonbottleservice.com/blog/champagne-bottle-sizes-explained",
+            },
+          }),
+        }}
+      />
+    </>
+  ),
 };

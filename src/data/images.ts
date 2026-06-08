@@ -272,6 +272,11 @@ export const blogImages: Record<
     alt: "VIP bottle service table booking at a Mayfair nightclub in London",
     inline: [],
   },
+  "champagne-bottle-sizes-explained": {
+    featured: `${G}/maison-close-001.jpg`,
+    alt: "Champagne bottle service presentation at a London Mayfair nightclub",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
