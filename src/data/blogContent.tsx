@@ -3541,7 +3541,7 @@ export const blogContent: Record<string, ReactNode> = {
   "bottle-service-deposits-payments-london": (
     <>
       <p>
-        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
       </p>
 
       <p>
@@ -3779,7 +3779,7 @@ export const blogContent: Record<string, ReactNode> = {
   "how-london-club-minimum-spend-works": (
     <>
       <p>
-        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
       </p>
 
       <p>
@@ -4042,7 +4042,7 @@ export const blogContent: Record<string, ReactNode> = {
   "champagne-vs-spirits-london-bottle-menu": (
     <>
       <p>
-        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
       </p>
       <p>
         <em>Last updated: 9 May 2026</em>
@@ -4349,7 +4349,7 @@ export const blogContent: Record<string, ReactNode> = {
   "how-far-in-advance-to-book-bottle-service-london": (
     <>
       <p>
-        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
       </p>
       <p>
         <em>Last updated: 16 May 2026</em>
@@ -4597,7 +4597,7 @@ export const blogContent: Record<string, ReactNode> = {
   "champagne-bottle-sizes-explained": (
     <>
       <p>
-        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
       </p>
       <p>
         <em>Last updated: 9 June 2026</em>
@@ -4771,7 +4771,7 @@ export const blogContent: Record<string, ReactNode> = {
   "how-many-bottles-for-a-club-table": (
     <>
       <p>
-        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
       </p>
       <p>
         <em>Last updated: 10 June 2026</em>
