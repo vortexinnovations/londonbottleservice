@@ -277,6 +277,11 @@ export const blogImages: Record<
     alt: "Champagne bottle service presentation at a London Mayfair nightclub",
     inline: [],
   },
+  "how-many-bottles-for-a-club-table": {
+    featured: `${G}/maison-close-310.jpg`,
+    alt: "Bottle service order arriving at a London nightclub table",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

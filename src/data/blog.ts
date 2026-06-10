@@ -1494,6 +1494,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-many-bottles-for-a-club-table",
+    title: "How Many Bottles Do You Need for a Club Table? A Group-Size Guide",
+    metaTitle: "How Many Bottles for a Club Table? | London Bottle Service",
+    metaDescription:
+      "How many bottles does your group need for a London club table? Serving maths by group size, how minimum spend changes it, and how to pace the night.",
+    excerpt:
+      "One bottle or four? Here is the serving maths behind a London club table: how many bottles each group size actually needs, and how to pace the order.",
+    publishedAt: "2026-06-10",
+    updatedAt: "2026-06-10",
+    category: "Guides",
+    readingTime: "6 min read",
+    keywords: [
+      "how many bottles for a club table",
+      "bottle service group size",
+      "how many bottles bottle service",
+      "bottles per person club table",
+      "club table planning london",
+    ],
+    relatedClubs: ["tape-london", "maddox", "funky-buddha"],
+    faqs: [
+      {
+        question: "How many bottles do you need for a table of 6?",
+        answer:
+          "As a planning baseline, two bottles comfortably covers a group of six for a full night: typically one spirit bottle with mixers plus one champagne, or two spirits if your group prefers mixed drinks. Many venues size their minimum spend for a six-person table around the two-bottle mark as of June 2026, so the maths usually aligns with the booking anyway.",
+      },
+      {
+        question: "Is one bottle enough for 4 people?",
+        answer:
+          "Usually, yes. A 70cl spirit bottle pours roughly 16 single-measure drinks, which is around four drinks each for a group of four, enough to carry most of the night when paced with mixers. If your group drinks quickly or stays past 2am, plan for a second bottle or top up mid-night.",
+      },
+      {
+        question: "Should you order all your bottles at the start of the night?",
+        answer:
+          "No. Order your first bottle when you sit down and add the rest in waves as the night builds. Bottles opened all at once go flat or warm before you reach them, and your spend counts toward the minimum whenever you order. Your waitress tracks the running total, so pacing costs you nothing.",
+      },
+      {
+        question: "Do bigger groups need champagne and spirits?",
+        answer:
+          "Mixed orders work best for groups of eight or more: spirits with mixers keep the table going drink by drink, while a champagne bottle or magnum creates the shared moment. The split also suits mixed preferences, since not everyone wants the same drink all night.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

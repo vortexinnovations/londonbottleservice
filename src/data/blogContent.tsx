@@ -4768,4 +4768,194 @@ export const blogContent: Record<string, ReactNode> = {
       />
     </>
   ),
+  "how-many-bottles-for-a-club-table": (
+    <>
+      <p>
+        <em>By Ethan Reid, Bottle Service &amp; Hospitality Pro</em>
+      </p>
+      <p>
+        <em>Last updated: 10 June 2026</em>
+      </p>
+      <p>
+        After eight years working tables, the question I have answered more than
+        any other at the point of booking is some version of: how many bottles
+        do we actually need? It matters, because ordering too few interrupts the
+        night with constant menu decisions, and ordering too many leaves you
+        staring at an unopened bottle at 3am that nobody wanted. The good news
+        is that table maths is predictable. Here is how I size an order for any
+        group, and how the venue&apos;s minimum spend folds into it.
+      </p>
+
+      <h2>The Baseline Maths Every Table Host Should Know</h2>
+      <p>
+        Two numbers do most of the work. A standard 70cl spirit bottle pours
+        roughly 16 single-measure drinks once you add mixers, and a 75cl bottle
+        of champagne pours five to six glasses. From there it is simple
+        multiplication against how your group drinks: a typical table guest gets
+        through two to three drinks in the first couple of hours and slows from
+        there.
+      </p>
+      <p>
+        That means one spirit bottle realistically serves about four people for
+        a full night at a comfortable pace, while one champagne bottle is a
+        single round for a group of six rather than a night&apos;s supply. If
+        you remember nothing else from this guide, remember those two ratios.
+      </p>
+
+      <h2>Bottles by Group Size</h2>
+      <p>
+        Applying the maths, here is the planning baseline I give groups when
+        they book, as of June 2026:
+      </p>
+      <ul>
+        <li>
+          <strong>Two to four people:</strong> one spirit bottle with mixers
+          carries the night. Add a champagne if there is something to toast.
+        </li>
+        <li>
+          <strong>Five to six people:</strong> two bottles, classically one
+          spirit plus one champagne, or two spirits for a mixed-drinks group.
+        </li>
+        <li>
+          <strong>Seven to nine people:</strong> three bottles, weighted toward
+          spirits, with the third arriving mid-night rather than upfront.
+        </li>
+        <li>
+          <strong>Ten to twelve people:</strong> four bottles or a large-format
+          centrepiece plus spirits. This is where a magnum starts to make sense
+          as the shared moment.
+        </li>
+      </ul>
+      <p>
+        Every group skews the numbers a little: heavy champagne drinkers burn
+        through bottles faster than spirit drinkers, and a late-arriving group
+        needs less than one settling in at 11pm. Treat the list as the starting
+        point, not a rule.
+      </p>
+
+      <h2>How Minimum Spend Changes the Maths</h2>
+      <p>
+        Here is the part most first-time bookers miss: at most London venues
+        the decision is partly made for you. Tables carry a{" "}
+        <Link href="/blog/how-london-club-minimum-spend-works" className="text-gold hover:underline">minimum spend</Link>{" "}
+        sized to the table and the night, and the menu pricing means that
+        minimum usually translates to a certain number of bottles anyway. A
+        six-person table&apos;s minimum typically lands around the two-bottle
+        mark, and bigger tables scale up from there.
+      </p>
+      <p>
+        So rather than fighting the minimum, plan with it: work out what your
+        group would naturally order using the maths above, check it against the
+        venue&apos;s minimum on our{" "}
+        <Link href="/club-table-prices-london" className="text-gold hover:underline">table prices guide</Link>
+        , and if there is a gap, close it with the upgrade your group will
+        actually enjoy, a better spirit, a champagne for the table, or food
+        where the venue offers it. What arrives alongside the bottles, the
+        mixers, ice, and garnishes, is covered in our guide to{" "}
+        <Link href="/blog/what-comes-with-bottle-service-london-club" className="text-gold hover:underline">what comes with bottle service</Link>
+        .
+      </p>
+
+      <h2>Spirits, Champagne, or Both</h2>
+      <p>
+        For the order itself, the split matters as much as the count. Spirits
+        with mixers are the workhorse: they serve the most drinks per pound and
+        keep every glass at the table full. Champagne is the moment-maker, one
+        shared round that lifts the table, best timed rather than rationed
+        through the night. Our{" "}
+        <Link href="/blog/champagne-vs-spirits-london-bottle-menu" className="text-gold hover:underline">champagne versus spirits guide</Link>{" "}
+        goes deeper, and if you are tempted by the big formats, the{" "}
+        <Link href="/blog/champagne-bottle-sizes-explained" className="text-gold hover:underline">bottle sizes guide</Link>{" "}
+        explains what a magnum or jeroboam actually holds.
+      </p>
+      <p>
+        From experience on the floor, the tables that enjoy the night most run
+        roughly two-thirds spirits to one-third champagne, and they time the
+        champagne for the moment the whole group is together rather than
+        opening everything in the first half hour. London&apos;s table culture
+        has only grown more presentation-led in recent years, as{" "}
+        <a href="https://www.timeout.com/london/bars" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London bar coverage</a>{" "}
+        reflects, but the serving maths underneath it has not changed.
+      </p>
+
+      <h2>Order in Waves, Not All at Once</h2>
+      <p>
+        My single biggest tip: never order the full count upfront. Tables that
+        open everything at once end up with flat champagne and warm mixers by
+        1am, and I watched it happen weekly when I worked the floor. Start with
+        one bottle as you sit down, read the table after an hour, and add the
+        next wave when the first runs low. Your waitress tracks the running
+        spend against the minimum, so pacing the order costs nothing and keeps
+        every drink cold.
+      </p>
+      <p>
+        If the night outruns your plan, topping up is the easiest order in the
+        venue. If you have overshot, a sealed bottle sometimes goes home with
+        you depending on licensing, but do not count on it; it is far better to
+        order one short and add than start one over.
+      </p>
+
+      <h2>What If Your Group Does Not Drink Much?</h2>
+      <p>
+        Not every table is built around alcohol, and the maths bends to fit.
+        For a group with light drinkers or non-drinkers, size the order to the
+        drinkers only, then round the table out with what the venue offers
+        beyond bottles: mocktails, premium soft drinks, and food at the venues
+        that serve it can usually be put toward the spend. The minimum still
+        applies, since it attaches to the table rather than to what you pour,
+        but how you reach it is more flexible than most groups assume.
+      </p>
+      <p>
+        I have set up plenty of tables where half the group was not drinking,
+        and the version that works is one good spirit bottle for the drinkers,
+        a round of well-made alcohol-free options for the rest, and the
+        champagne moment kept for a toast everyone joins with whatever is in
+        their glass. Tell the venue in advance and the waitress will pace the
+        night around it without anyone feeling like the odd one out.
+      </p>
+
+      <h2>Plan the Order Before the Night</h2>
+      <p>
+        Tell us your group size, the split of champagne and spirit drinkers,
+        and the night you have in mind, and we will size the order and the
+        table to match before you commit. Message us on{" "}
+        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
+        and we will confirm the venue&apos;s minimum and menu before your night.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline:
+              "How Many Bottles Do You Need for a Club Table? A Group-Size Guide",
+            datePublished: "2026-06-10",
+            dateModified: "2026-06-10",
+            author: {
+              "@type": "Person",
+              name: "Ethan Reid",
+              url: "https://londonbottleservice.com/about-the-editor/",
+              jobTitle: "Bottle Service & Hospitality Pro",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "London Bottle Service",
+              url: "https://londonbottleservice.com",
+            },
+            image:
+              "https://londonbottleservice.com/gallery/images/maison-close-310.jpg",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id":
+                "https://londonbottleservice.com/blog/how-many-bottles-for-a-club-table",
+            },
+          }),
+        }}
+      />
+    </>
+  ),
 };
