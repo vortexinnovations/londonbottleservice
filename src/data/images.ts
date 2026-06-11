@@ -282,6 +282,11 @@ export const blogImages: Record<
     alt: "Bottle service order arriving at a London nightclub table",
     inline: [],
   },
+  "how-long-do-you-get-a-club-table-london": {
+    featured: `${G}/maison-close-1033.jpg`,
+    alt: "Bottle service table dressed with ice buckets in a dark London club",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

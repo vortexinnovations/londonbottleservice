@@ -4958,4 +4958,178 @@ export const blogContent: Record<string, ReactNode> = {
       />
     </>
   ),
+  "how-long-do-you-get-a-club-table-london": (
+    <>
+      <p>
+        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
+      </p>
+      <p>
+        <em>Last updated: 11 June 2026</em>
+      </p>
+      <p>
+        In my serving years this was the quiet worry behind half the bookings I
+        looked after: you have reserved a table for 11pm, so is it yours until
+        the lights come up, or is there a clock running? The honest answer is
+        that London does this two ways, and knowing which way your venue works
+        is the difference between a relaxed night and an awkward conversation
+        with a floor manager at half past midnight. Here is how long you
+        actually get a club table in London, and the timings around it that
+        nobody explains until you are standing at the rope.
+      </p>
+
+      <h2>The Short Answer: Arrival Until Close</h2>
+      <p>
+        At most London clubs, a booked table is yours from your arrival until
+        the venue closes. There is no hourly slot and no timer: the minimum
+        spend buys the space for the night, as of June 2026. Close times vary
+        more than people expect, anywhere from 2am to well past 4am in the West
+        End, as{" "}
+        <a href="https://www.timeout.com/london/nightlife" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London nightlife coverage</a>{" "}
+        shows, so the same booking can mean a three-hour table in one postcode
+        and a six-hour table in another.
+      </p>
+      <p>
+        That is the default. The exceptions below are where good nights go
+        wrong, and they are exactly the details I used to watch groups discover
+        at the worst possible moment.
+      </p>
+
+      <h2>The Exceptions: Second Sittings and Early Tables</h2>
+      <p>
+        A growing number of dinner-led and show-led venues run two sittings.
+        The early table comes with dinner service and a stated release time,
+        often somewhere between 10.30pm and 11.30pm, when the room turns over
+        to the late crowd. The late sitting is the classic club table: arrive
+        late, keep it to close.
+      </p>
+      <p>
+        Your confirmation message tells you which you have, if you read it the
+        way a server does. Language like a table until 11pm, a dining
+        reservation, or a request to vacate for the evening turn means a
+        release time exists. If the confirmation only gives an arrival window
+        and a minimum spend, you almost certainly hold the table to close.
+        When in doubt, ask the question directly before the night, not at the
+        table.
+      </p>
+
+      <h2>The Arrival Window: How Long the Table Is Held</h2>
+      <p>
+        The timing that actually catches groups out is not how long the table
+        lasts but how long the venue holds it. From experience on the floor,
+        most clubs hold a booked table for 30 to 45 minutes past the booked
+        time. On quiet nights the hold stretches; on a packed Saturday it does
+        not, because a dressed table with nobody at it is the most expensive
+        empty space in the room.
+      </p>
+      <p>
+        I held plenty of tables past the official window as a server, but the
+        decision was never mine: the floor manager watched the door count and
+        made the call, and once a table was released there was rarely a second
+        one to offer. The fix costs nothing: if you are running late, message
+        the venue or whoever arranged the booking before the window closes.
+        A table flagged as on the way gets held; a silent no-show gets resold.
+      </p>
+
+      <h2>Event Nights Change the Rules</h2>
+      <p>
+        Everything above describes a normal weekend. On event nights, the
+        timings tighten across the board: ticketed parties, big fixture
+        weekends, Halloween and the December run all compress the room.
+        Arrival windows shrink because the queue outside is longer and the
+        door wants the room full early. Holds are enforced to the minute
+        because every released table resells instantly. And the venues that
+        normally run one relaxed sitting will quietly run two, because demand
+        lets them.
+      </p>
+      <p>
+        I worked enough New Year shifts to give the same advice every year:
+        on the five or six biggest nights of the calendar, treat your booked
+        arrival time as a hard appointment, reconfirm the timings with the
+        venue that week, and assume nothing carries over from your normal
+        nights out. The table you keep to 4am in February is the table you
+        lose at 11.45pm on December 31st.
+      </p>
+
+      <h2>The Timeline at the Table</h2>
+      <p>
+        Once you are seated, the night follows a rhythm that makes more sense
+        when you know the mechanics behind it. The payment side settles first:
+        the deposit you paid in advance is confirmed and the balance
+        arrangement is agreed, which is covered properly in our guide to{" "}
+        <Link href="/blog/bottle-service-deposits-payments-london" className="text-gold hover:underline">how deposits and payments work</Link>.
+        Only then do the first bottles come out, usually within minutes.
+      </p>
+      <p>
+        From there, reorders run all night against your{" "}
+        <Link href="/blog/how-london-club-minimum-spend-works" className="text-gold hover:underline">minimum spend</Link>{" "}
+        until last orders, which most rooms call 30 to 45 minutes before
+        close. The end of the night is the part groups misjudge: the bill is
+        settled at the table, and lingering long past close-out is the one
+        thing that sours a table team on an otherwise great group.
+      </p>
+
+      <h3>When to Order What</h3>
+      <p>
+        The groups that get the most from their hours order in phases rather
+        than all at once: a first round to open the table, then reading the
+        room before committing the rest. Our{" "}
+        <Link href="/blog/how-many-bottles-for-a-club-table" className="text-gold hover:underline">group-size bottle guide</Link>{" "}
+        covers the maths, but the timing principle is simple: a bottle ordered
+        at last orders is a bottle you drink in a hurry.
+      </p>
+
+      <h2>Making the Hours Count</h2>
+      <p>
+        Arrive at your booked time, not fashionably after it; the start of the
+        night is when the table feels most generous and the room is easiest to
+        enjoy. Midweek nights run looser: holds are softer, the floor team has
+        more time for you, and the table effectively runs longer because the
+        room breathes. And if a specific night matters, book it properly in
+        advance so the sitting you want is the sitting you get; our guide on{" "}
+        <Link href="/blog/how-far-in-advance-to-book-bottle-service-london" className="text-gold hover:underline">how far ahead to book</Link>{" "}
+        breaks down the lead times by night.
+      </p>
+
+      <h2>Lock In Your Night</h2>
+      <p>
+        Tell us the night, the group and how long you want the table to run,
+        and we will match you to a venue whose timings fit rather than fight
+        your plan. Message us on{" "}
+        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
+        and we will confirm arrival windows, sittings and close times before
+        you commit.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "How Long Do You Get a Club Table in London? Timings Explained",
+            datePublished: "2026-06-11",
+            dateModified: "2026-06-11",
+            author: {
+              "@type": "Person",
+              name: "Ethan Reid",
+              url: "https://londonbottleservice.com/about-the-editor/",
+              jobTitle: "Bottle Service & Hospitality Pro",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "London Bottle Service",
+              url: "https://londonbottleservice.com",
+            },
+            image: "https://londonbottleservice.com/gallery/images/maison-close-1033.jpg",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://londonbottleservice.com/blog/how-long-do-you-get-a-club-table-london",
+            },
+          }),
+        }}
+      />
+    </>
+  ),
 };

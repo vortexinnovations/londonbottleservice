@@ -1537,6 +1537,25 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "how-long-do-you-get-a-club-table-london",
+    title: "How Long Do You Get a Club Table in London? Timings Explained",
+    metaTitle: "How Long Do You Get a Club Table? | London Bottle Service",
+    metaDescription: "How long a club table is yours in London: arrival windows, second sittings, when the bottles arrive and last orders, from a former senior club server.",
+    excerpt: "Your table is usually yours until close, but the exceptions catch people out. Arrival holds, second sittings and last orders, explained from the server side.",
+    publishedAt: "2026-06-11",
+    updatedAt: "2026-06-11",
+    category: "Guides",
+    readingTime: "6 min read",
+    keywords: ["how long do you get a club table london", "club table timings london", "table arrival window london clubs", "second sitting club table london", "last orders bottle service london"],
+    relatedClubs: ["tape-london", "maddox", "funky-buddha", "dear-darling"],
+    faqs: [
+      { question: "How long do you keep a club table in London?", answer: "At most London clubs the table is yours from arrival until close, not a fixed hourly slot. The exceptions are venues running early sittings or dinner service, where your confirmation will state a release time, as of June 2026." },
+      { question: "How late can you arrive before losing your table?", answer: "Most venues hold a booked table for around 30 to 45 minutes past the booked time on busy nights. If you are running later than that, message the venue or your booker before the window closes rather than after it." },
+      { question: "Do London clubs have second sittings?", answer: "Some dinner-led and show-led venues do. The first sitting usually carries an earlier arrival time and a stated release time, while the late sitting runs to close. The confirmation language tells you which one you have." },
+      { question: "When do the bottles actually arrive?", answer: "Once the table is seated and the payment side is settled, typically the deposit beforehand and the balance or a card on arrival. After that the first bottles come out within minutes, and reorders run until last orders." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
