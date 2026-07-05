@@ -1556,6 +1556,49 @@ export const blogPosts: BlogPost[] = [
       { question: "When do the bottles actually arrive?", answer: "Once the table is seated and the payment side is settled, typically the deposit beforehand and the balance or a card on arrival. After that the first bottles come out within minutes, and reorders run until last orders." },
     ],
   },
+  {
+    slug: "how-to-split-club-table-cost-london",
+    title: "How to Split the Cost of a Club Table in London: Who Pays What",
+    metaTitle: "How to Split a Club Table Bill | London Bottle Service",
+    metaDescription:
+      "How to split the cost of a club table in London: what you are actually splitting, the per-head maths, collecting money early, and handling dropouts.",
+    excerpt:
+      "The table is booked and now comes the awkward part: the money. A former server's guide to splitting a London club table without anyone falling out.",
+    publishedAt: "2026-07-06",
+    updatedAt: "2026-07-06",
+    category: "Pricing",
+    readingTime: "7 min read",
+    keywords: [
+      "how to split a club table london",
+      "split bottle service cost",
+      "club table cost per person london",
+      "who pays for a club table",
+      "group bill club table london",
+    ],
+    relatedClubs: ["tape-london", "cirque-le-soir", "selene-london"],
+    faqs: [
+      {
+        question: "How do you split the cost of a club table in London?",
+        answer:
+          "Agree the method before you book: an even split is standard, with the total being the minimum spend plus service charge divided by confirmed guests. Collect each person's share by bank transfer before the night, put one card behind the tab, and settle any small difference the next morning.",
+      },
+      {
+        question: "Do London clubs split the bill between everyone at the table?",
+        answer:
+          "Not usually. Most venues will take a deposit from one card and settle the final tab on one or two cards at the end of the night, not ten. The split between friends happens outside the venue, which is why collecting money before the night matters so much.",
+      },
+      {
+        question: "How much does a club table cost per person?",
+        answer:
+          "It depends on the minimum spend and your group size. As of July 2026, central London tables typically start around £1,000 minimum spend, so eight people sharing lands near £125 each before service charge, and six people near £170. Bigger groups bring the per-head figure down.",
+      },
+      {
+        question: "What happens to the split if someone drops out?",
+        answer:
+          "The minimum spend does not shrink because your group did, so the remaining guests absorb the difference. Re-run the per-head figure as soon as someone pulls out, tell the group the new number straight away, and try to replace the dropout rather than quietly eating the cost.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

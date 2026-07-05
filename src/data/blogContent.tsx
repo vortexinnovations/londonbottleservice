@@ -5132,4 +5132,183 @@ export const blogContent: Record<string, ReactNode> = {
       />
     </>
   ),
+  "how-to-split-club-table-cost-london": (
+    <>
+      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
+
+      <p><em>Last updated: 6 July 2026</em></p>
+
+      <p>
+        Booking the table is the easy part. The moment that actually tests a group
+        is the money: who pays the deposit, how the minimum spend gets divided, and
+        what happens when someone drops out three days before the night. I spent
+        years serving tables in central London clubs, and I watched more nights
+        soured by a messy split than by any queue or any DJ. This guide covers how
+        to split the cost of a club table in London properly, from the first
+        transfer to the final tab, so the only thing your group argues about is the
+        playlist.
+      </p>
+
+      <h2>Know What You Are Splitting Before You Split It</h2>
+      <p>
+        A table bill has three moving parts, and half of all splitting arguments
+        come from mixing them up. The <strong>deposit</strong> is paid up front to
+        hold the booking, and it almost always comes off the final bill rather than
+        sitting on top of it; our guide to{" "}
+        <Link href="/blog/bottle-service-deposits-payments-london" className="text-gold hover:underline">how deposits and payments work</Link>{" "}
+        covers the mechanics. The <strong>minimum spend</strong> is the figure the
+        table must reach in drinks across the night, and it is the number your
+        split is really built on;{" "}
+        <Link href="/blog/how-london-club-minimum-spend-works" className="text-gold hover:underline">how minimum spend actually works</Link>{" "}
+        explains why it is not a fee. Finally, the <strong>service charge</strong>{" "}
+        is added to the tab when you settle, typically a percentage on top, so a
+        split that ignores it leaves the organiser short at 3am.
+      </p>
+      <p>
+        Put simply: the deposit is timing, the minimum spend is the target, and the
+        service charge is the surcharge. Split the minimum spend plus service, and
+        treat whoever paid the deposit as having already contributed that amount.
+      </p>
+
+      <h2>The Three Ways Groups Actually Split a Table</h2>
+      <p>
+        From experience, every group lands on one of three methods, and all three
+        work as long as everyone knows which one is in play before the night.
+      </p>
+      <ul>
+        <li><strong>The even split:</strong> total divided by heads, everyone pays the same. Cleanest, fastest, and the default for groups of friends where everyone drinks roughly alike.</li>
+        <li><strong>The weighted split:</strong> heavier drinkers pay more, light or non-drinkers pay a smaller share. Fairer in mixed groups, but it needs one honest conversation up front rather than a negotiation at the table.</li>
+        <li><strong>The host-and-top-up:</strong> one person covers the deposit and a bigger slice as the effective host, and the rest contribute a fixed amount each. Common for celebrations and work groups where one person is driving the night.</li>
+      </ul>
+      <p>
+        Pick one, say it out loud in the group chat, and do not change method after
+        the night has happened. Retro-fitting fairness at brunch the next day is
+        how friendships get tested.
+      </p>
+
+      <h2>Collect the Money Before the Night, Not After</h2>
+      <p>
+        This is the single rule I wish every organiser followed. Collect each
+        person&apos;s share by bank transfer <strong>before</strong> the booking is
+        confirmed, or at the very latest before you leave for the club. When I was
+        on the floor I lost count of the organisers I watched hunched over their
+        phones at two in the morning, chasing transfers between rounds while the
+        rest of the table danced. Nobody sends money faster after the drinks than
+        they would have before them, and the organiser should not be the group&apos;s
+        unpaid credit line.
+      </p>
+      <p>
+        The clean sequence looks like this: agree the method, work out the per-head
+        figure, collect everyone&apos;s share, and only then confirm the booking and
+        pay the deposit. If someone has not paid, they have not confirmed, and the
+        table size reflects that. It sounds strict; it is also how groups stay
+        friends. Booking windows reward this discipline too, because the good
+        tables go early, as we covered in{" "}
+        <Link href="/blog/how-far-in-advance-to-book-bottle-service-london" className="text-gold hover:underline">how far in advance to book</Link>.
+      </p>
+
+      <h2>The Per-Head Maths That Keeps It Fair</h2>
+      <p>
+        The arithmetic is simple; the discipline is doing it with the real numbers
+        rather than optimistic ones. As of July 2026, central London tables
+        typically start around a &pound;1,000 minimum spend, and a big night out in
+        the capital is never a small line on anyone&apos;s budget, a point{" "}
+        <a href="https://www.timeout.com/london/nightlife" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London nightlife coverage</a>{" "}
+        makes plain season after season. Worked through honestly, a &pound;1,200
+        minimum across eight people is &pound;150 each before service; the same
+        table across six people is &pound;200 each. Add the service charge to the
+        target figure before you divide, not after, and round up rather than down
+        so the kitty carries a small buffer for the inevitable extra round.
+      </p>
+      <p>
+        Our{" "}
+        <Link href="/club-table-prices-london" className="text-gold hover:underline">club table prices guide</Link>{" "}
+        gives you realistic starting figures venue by venue, and larger groups
+        should remember the quiet upside: the minimum spend does not rise with
+        every extra guest, so more confirmed heads almost always means a kinder
+        per-head number.
+      </p>
+
+      <h2>When Someone Drops Out</h2>
+      <p>
+        The minimum spend does not shrink because your group did. If two people
+        pull out of an eight-person split on a &pound;1,200 table, the remaining
+        six are now at &pound;200 a head, and the organiser needs to say so plainly
+        and immediately rather than hoping the night absorbs it. Re-run the maths
+        the moment anyone drops, post the new figure in the chat, and give people
+        the chance to invite replacements; a confirmed newcomer is worth more than
+        an awkward silence.
+      </p>
+      <p>
+        This is also where collecting early earns its keep. A dropout who has
+        already paid is a conversation about a refund on your terms, not a hole in
+        the budget on the venue&apos;s terms. And if the group shrinks badly, talk to
+        the venue before the night: switching to a smaller table with a lower
+        minimum is often possible earlier in the week, and almost never possible on
+        the night itself.
+      </p>
+
+      <h2>On the Night: One Tab, One Owner</h2>
+      <p>
+        However you divided the cost beforehand, the tab itself should live with
+        one person. Most venues will happily settle a bill on one or two cards;
+        none of them wants to split it ten ways at the end of the night, and the
+        queue of taps and declines that follows is the least glamorous scene in
+        clubland. The organiser keeps the card behind the tab, everyone else has
+        already paid their share, and the only maths left at close is a quick check
+        that the total matches expectations before the service charge is settled.
+      </p>
+      <p>
+        Keep an eye on the clock as well as the tab. Tables run to a session, not
+        an open-ended evening, and last orders arrive earlier than most first-time
+        bookers expect, as we explained in{" "}
+        <Link href="/blog/how-long-do-you-get-a-club-table-london" className="text-gold hover:underline">how long you get a club table</Link>.
+        A group that has already sorted its money spends that final hour enjoying
+        the room rather than doing accountancy in it.
+      </p>
+
+      <h2>Split Sorted, Night Sorted</h2>
+      <p>
+        A fair split is not about spreadsheets; it is about sequencing. Agree the
+        method, collect before the night, keep one card on the tab, and re-run the
+        numbers the moment the group changes shape. Do that and the money becomes
+        invisible, which is exactly what it should be on a good night out. If you
+        want the starting figures for a specific venue or a hand matching your
+        group size to the right table,{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
+        or message us on{" "}
+        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        and we will give you the real numbers before anyone transfers a penny.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "How to Split the Cost of a Club Table in London: Who Pays What",
+            datePublished: "2026-07-06",
+            dateModified: "2026-07-06",
+            author: {
+              "@type": "Person",
+              name: "Ethan Reid",
+              url: "https://londonbottleservice.com/about-the-editor/",
+              jobTitle: "Bottle Service & Hospitality Pro",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "London Bottle Service",
+              url: "https://londonbottleservice.com",
+            },
+            image: "https://londonbottleservice.com/gallery/images/maison-close-199.jpg",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://londonbottleservice.com/blog/how-to-split-club-table-cost-london",
+            },
+          }),
+        }}
+      />
+    </>
+  ),
 };

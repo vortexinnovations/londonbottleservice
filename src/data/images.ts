@@ -287,6 +287,11 @@ export const blogImages: Record<
     alt: "Bottle service table dressed with ice buckets in a dark London club",
     inline: [],
   },
+  "how-to-split-club-table-cost-london": {
+    featured: `${G}/maison-close-199.jpg`,
+    alt: "Group sharing bottle service at a London nightclub table",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
