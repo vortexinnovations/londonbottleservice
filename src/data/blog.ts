@@ -1599,6 +1599,49 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "non-alcoholic-bottle-service-london",
+    title: "Non-Alcoholic Bottle Service in London: What Clubs Offer",
+    metaTitle: "Non-Alcoholic Bottle Service | London Bottle Service",
+    metaDescription:
+      "Non-alcoholic bottle service at London clubs: the alcohol-free sparkling, zero-proof spirits and soft options on menus, and how they work with your table.",
+    excerpt:
+      "You can run a full table without touching alcohol. What London bottle menus actually offer the non-drinkers, and how it works, from a former server.",
+    publishedAt: "2026-07-07",
+    updatedAt: "2026-07-07",
+    category: "Guides",
+    readingTime: "6 min read",
+    keywords: [
+      "non alcoholic bottle service london",
+      "alcohol free bottle service",
+      "zero proof spirits club table",
+      "alcohol free sparkling nightclub",
+      "non drinker club table london",
+    ],
+    relatedClubs: ["tape-london", "selene-london", "maison-close"],
+    faqs: [
+      {
+        question: "Do London clubs offer non-alcoholic bottle service?",
+        answer:
+          "Most established venues now carry genuine alcohol-free options at table level, from de-alcoholised sparkling to zero-proof spirits and premium soft packages. Depth varies venue to venue, so confirm what is stocked when you arrange the table.",
+      },
+      {
+        question: "Does non-alcoholic bottle service count toward the minimum spend?",
+        answer:
+          "Yes. The minimum spend is a spend target, not an alcohol target. Alcohol-free bottles, carafes and mocktail rounds count toward the table's target exactly like any other order on the tab.",
+      },
+      {
+        question: "What non-alcoholic options do club bottle menus include?",
+        answer:
+          "Four families: alcohol-free sparkling served from the ice bucket, zero-proof spirits with the usual mixers and garnish, premium soft packages, and at some venues a mocktail service run to the table. Most good rooms offer at least two.",
+      },
+      {
+        question: "Should I tell the venue about non-drinkers in advance?",
+        answer:
+          "Yes. The better alcohol-free bottles are stocked in smaller quantities than house spirits, and a venue with notice will have the right options chilled rather than improvising on the night.",
+      },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

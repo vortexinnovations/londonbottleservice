@@ -5311,4 +5311,176 @@ export const blogContent: Record<string, ReactNode> = {
       />
     </>
   ),
+  "non-alcoholic-bottle-service-london": (
+    <>
+      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
+
+      <p><em>Last updated: 7 July 2026</em></p>
+
+      <p>
+        One of the quiet shifts I watched happen across London&apos;s club floors over
+        the last few years is this: the non-drinker stopped being an afterthought.
+        Every group has one now, the driver, the one in training, the one who
+        simply does not drink, and the bottle menus have finally caught up. You
+        can run a full, proper table in a London club without a drop of alcohol
+        on it, and done right it looks and feels exactly like every other table
+        in the room. Here is what non-alcoholic bottle service actually means,
+        what is on the menus, and how it works when you order it, as of July 2026.
+      </p>
+
+      <h2>The Short Answer: Yes, and It Is Getting Better Every Year</h2>
+      <p>
+        Most established London venues now carry genuine alcohol-free options at
+        table level, not just tap water and a shrug. The no-and-low movement that
+        reshaped the city&apos;s bar scene, a shift{" "}
+        <a href="https://www.timeout.com/london/bars" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London bar coverage</a>{" "}
+        has tracked for years, reached the club floor later but it arrived. The
+        depth varies venue by venue, which is why it pays to ask ahead, but the
+        direction of travel is one way: more options, better quality, and service
+        that treats the alcohol-free table with the same theatre as any other.
+      </p>
+      <p>
+        The reason is commercial as much as cultural, and having worked those
+        floors I can tell you venues understood it quickly: a group books where
+        the whole group is looked after. The table with two non-drinkers does
+        not shrink its order, it changes it, and the room that serves those two
+        guests properly keeps the whole party coming back. Nothing in
+        hospitality moves faster than something that pays for itself.
+      </p>
+
+      <h2>What Is Actually on the Menu</h2>
+      <p>
+        Alcohol-free at a club table falls into four families, and a good venue
+        will offer at least two of them:
+      </p>
+      <ul>
+        <li><strong>Alcohol-free sparkling:</strong> the flagship. De-alcoholised sparkling wines and champagne-style bottles that arrive in the ice bucket like anything else. This is the one to order when the table is celebrating and you want the moment without the alcohol.</li>
+        <li><strong>Zero-proof spirits:</strong> distilled non-alcoholic alternatives served exactly like their originals, with the same mixers, ice and garnish. The category has matured fast, and the good ones carry a round convincingly.</li>
+        <li><strong>Soft packages:</strong> premium juices, sodas and energy drinks by the bottle or carafe, the straightforward option for a table that just wants the fridge stocked.</li>
+        <li><strong>Mocktail service:</strong> some venues will run made drinks to the table all night instead of bottles. Less common, more dependent on the venue&apos;s bar depth, and worth confirming in advance.</li>
+      </ul>
+      <p>
+        Which of these a specific room carries changes venue to venue and menu to
+        menu, so treat the list as the landscape rather than a promise, as of
+        July 2026. What has become rare is the venue that offers nothing at all.
+      </p>
+
+      <h2>How It Works With the Minimum Spend</h2>
+      <p>
+        The question I heard most often from organisers: does the alcohol-free
+        order count toward the table&apos;s minimum spend? Yes. The minimum spend is
+        a drinks-and-menu target, not an alcohol target, and every bottle,
+        carafe and mocktail round on the bill counts toward it exactly like a
+        bottle of vodka would; our guide to{" "}
+        <Link href="/blog/how-london-club-minimum-spend-works" className="text-gold hover:underline">how minimum spend actually works</Link>{" "}
+        covers the mechanics. For mixed tables, that matters: the two
+        non-drinkers ordering alcohol-free sparkling are contributing to the
+        same target as everyone else, which keeps the maths of a shared table
+        clean and fair.
+      </p>
+
+      <h2>Who Orders It, and Why It Works</h2>
+      <p>
+        From experience, the alcohol-free table order is almost never a whole
+        table; it is woven through a normal one. The designated driver, the
+        friend mid-training-block, guests who do not drink for faith or health
+        reasons, the mum-to-be at her own celebration. What the modern options
+        fix is the optics problem the old lime-and-soda never could. I served
+        tables where the driver&apos;s alcohol-free sparkling went into the same ice
+        bucket and got the same presentation as everything else, and nobody on
+        that floor could tell who was drinking what, which is exactly the point.
+        The night feels shared because the service is.
+      </p>
+
+      <h2>How to Arrange It Properly</h2>
+      <p>
+        Two habits make this seamless. First, mention it when you arrange the
+        table rather than on the night: menus vary, the best alcohol-free
+        sparkling is stocked in smaller quantities, and a venue that knows a
+        non-drinking guest is coming will have the right bottle cold. Second,
+        order it like you would order anything else, by the bottle for the
+        table rather than drink by drink at the bar, so the non-drinkers get the
+        same table service rhythm as everyone else. The wider package that
+        arrives with any bottle order, the mixers, ice and service we covered
+        in{" "}
+        <Link href="/blog/what-comes-with-bottle-service-london-club" className="text-gold hover:underline">what comes with bottle service</Link>
+        , applies to the alcohol-free order identically. And if you are
+        weighing what the drinking half of the table should order alongside,
+        our{" "}
+        <Link href="/blog/champagne-vs-spirits-london-bottle-menu" className="text-gold hover:underline">champagne versus spirits guide</Link>{" "}
+        pairs naturally with this one.
+      </p>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Do London clubs offer non-alcoholic bottle service?</h3>
+      <p>
+        Most established venues now offer genuine alcohol-free options at the
+        table, from de-alcoholised sparkling to zero-proof spirits and premium
+        soft packages. Depth varies by venue, so confirm when you arrange the
+        table, as of July 2026.
+      </p>
+
+      <h3>Does non-alcoholic bottle service count toward the minimum spend?</h3>
+      <p>
+        Yes. The minimum spend is a spend target, not an alcohol target, and
+        alcohol-free bottles, carafes and mocktail rounds count toward it like
+        any other order on the tab.
+      </p>
+
+      <h3>Is alcohol-free sparkling served like real champagne at a club?</h3>
+      <p>
+        At a good venue, identically: same ice bucket, same presentation, same
+        service. That parity is the whole appeal for a mixed table celebrating
+        together.
+      </p>
+
+      <h3>Should I tell the venue in advance about non-drinkers?</h3>
+      <p>
+        Ideally, yes. The better alcohol-free bottles are stocked in smaller
+        numbers than the house vodka, and a venue with notice will have the
+        right options chilled and ready rather than improvising on the night.
+      </p>
+
+      <p>
+        A great table has never been about what is in the glass; it is about
+        the group around it. Tell us who is coming and what they drink, or do
+        not drink, and we will match you to a venue whose menu genuinely covers
+        everyone.{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">Book a table</Link>{" "}
+        or message us on{" "}
+        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        and we will sort the details before anyone arrives.
+      </p>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: "Non-Alcoholic Bottle Service in London: What Clubs Offer",
+            datePublished: "2026-07-07",
+            dateModified: "2026-07-07",
+            author: {
+              "@type": "Person",
+              name: "Ethan Reid",
+              url: "https://londonbottleservice.com/about-the-editor/",
+              jobTitle: "Bottle Service & Hospitality Pro",
+            },
+            publisher: {
+              "@type": "Organization",
+              name: "London Bottle Service",
+              url: "https://londonbottleservice.com",
+            },
+            image: "https://londonbottleservice.com/gallery/images/maison-close-023.jpg",
+            mainEntityOfPage: {
+              "@type": "WebPage",
+              "@id": "https://londonbottleservice.com/blog/non-alcoholic-bottle-service-london",
+            },
+          }),
+        }}
+      />
+    </>
+  ),
 };

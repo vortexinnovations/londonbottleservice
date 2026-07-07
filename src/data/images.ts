@@ -292,6 +292,11 @@ export const blogImages: Record<
     alt: "Group sharing bottle service at a London nightclub table",
     inline: [],
   },
+  "non-alcoholic-bottle-service-london": {
+    featured: `${G}/maison-close-023.jpg`,
+    alt: "Alcohol-free sparkling served in an ice bucket at a London club table",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
