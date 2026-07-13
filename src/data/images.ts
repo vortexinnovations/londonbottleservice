@@ -297,6 +297,11 @@ export const blogImages: Record<
     alt: "Alcohol-free sparkling served in an ice bucket at a London club table",
     inline: [],
   },
+  "can-you-take-bottles-home-from-a-london-club": {
+    featured: `${G}/maison-close-609.jpg`,
+    alt: "Bottles on ice at a London club table late in the night",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

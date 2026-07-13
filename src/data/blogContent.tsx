@@ -5483,4 +5483,75 @@ export const blogContent: Record<string, ReactNode> = {
       />
     </>
   ),
+  "can-you-take-bottles-home-from-a-london-club": (
+    <>
+      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
+      <p><em>Last updated: 13 July 2026</em></p>
+      <p>
+        It is quarter to three, the lights are threatening to come up, and there is a third of a bottle of vodka sitting in the ice bucket. Someone at the table says what everyone is thinking: we paid for that, surely we can take it home. I have watched this conversation happen hundreds of times, and the answer almost never changes. Here is the honest, complete answer to whether you can take bottles home from a London club, what actually happens to the leftovers, and how to stop paying for spirits you never drink, as of July 2026.
+      </p>
+
+      <h2>The Short Answer</h2>
+      <p>
+        No, in almost every case. Once a bottle is open, no London club will let it leave the building, and most will not release a sealed one either. This is not the venue being precious about &pound;30 of vodka you paid several hundred for; it is a condition of how the building is allowed to sell alcohol at all. The sooner a table accepts this, the sooner it can do the thing that actually works: order at the pace the night deserves rather than the pace the first hour suggests.
+      </p>
+
+      <h2>Why the Rule Works This Way</h2>
+      <p>
+        A nightclub sells alcohol under an on-premises licence: drinks are sold to be consumed where they are served. Selling bottles to take away is a different permission entirely, one that clubs generally do not hold and would not want to police at 3am. Add the reality outside the door, where walking through the West End with an open bottle of spirits invites exactly the attention no venue wants associated with its name, and the blanket rule makes sense. It also explains why no amount of charm moves the answer: the door team is protecting the licence, and the licence is the business. The wider late-night framework that shapes all of this is part of the city&apos;s nightlife fabric that{" "}
+        <a href="https://www.timeout.com/london/nightlife" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London nightlife coverage</a>{" "}
+        maps from the guest side.
+      </p>
+
+      <h2>What Actually Happens to Unfinished Bottles</h2>
+      <p>
+        Through the night, your bottles are worked properly: iced, re-iced, poured and re-positioned by your server, whose job includes making the last third of a bottle as drinkable as the first. As the session closes, the service tightens; you will notice pours getting more attentive in the final half hour, which is the floor team quietly helping the table finish what it opened. Then the lights come up, the table is cleared, and whatever is left goes back to the bar and is written off. From experience, the sweep is fast and completely unsentimental: I once watched a table try to negotiate for a nearly full bottle of champagne at close, and the manager&apos;s answer was to offer them a round of glasses on the house instead, poured and drunk there. That is as generous as the rule ever gets.
+      </p>
+
+      <h2>The Unopened Bottle Question</h2>
+      <p>
+        The genuinely grey area is the sealed bottle: ordered in a burst of enthusiasm, never opened, still sitting there at close. Policy varies venue to venue, and it is worth knowing the range. Some clubs treat it exactly like an opened bottle: sold is sold, and it stays. Others, particularly where you booked directly and the team knows you, will hold an unopened bottle against your next visit as a goodwill credit, noted on your booking record. What almost none will do is hand it to you at the door. Two practical rules follow. First, ask about the policy before you order a bottle you might not need, because the answer changes what a sensible third order looks like. Second, remember the money side: an unopened bottle still counts toward what you spent, so nothing about leaving it behind is refunded.
+      </p>
+
+      <h2>Bottle Keep: The Exception That Proves the Rule</h2>
+      <p>
+        In Tokyo or Seoul, keeping your part-finished whisky behind the bar with your name on it is ordinary. In London it is a rarity: a handful of members rooms and spirit-led lounges run a bottle keep, and virtually no mainstream nightclub does, as of July 2026. Where it exists it is a relationship product, offered to regulars rather than advertised, and it applies to spirits rather than champagne for obvious reasons. If the idea appeals, ask the venue directly; just calibrate expectations, because in this city the default answer is no.
+      </p>
+
+      <h2>Does the Leftover Risk Change What You Should Order?</h2>
+      <p>
+        Quietly, yes. Champagne is the perishable end of the menu: once opened it is finished or it is gone, and even the rare venues that keep bottles will not keep an open one overnight. Spirits are more forgiving inside the night itself, because an open bottle of vodka at midnight is still perfectly serviceable at half two in a way a flat magnum is not. The practical reading is simple. Open the champagne when the whole table is present and ready for it, so the moment and the bottle land together, and let the spirits carry the long middle of the night, scaling bottle by bottle as the hours and the headcount demand. None of this changes what you enjoy drinking; it changes the order in which you commit to it, and committing well is what an experienced server will nudge you towards anyway.
+      </p>
+
+      <h2>How to Stop Leaving Bottles Behind</h2>
+      <p>
+        The real fix is not getting the leftovers home; it is not creating them. Order in stages rather than all at once: the right opening order for your group size is covered in our guide to{" "}
+        <Link href="/blog/how-many-bottles-for-a-club-table" className="text-gold hover:underline">how many bottles a table actually needs</Link>, and adding a bottle mid-night takes minutes. Know your timings, because a table that understands{" "}
+        <Link href="/blog/how-long-do-you-get-a-club-table-london" className="text-gold hover:underline">how long the session runs</Link>{" "}
+        paces itself better than one guessing at the clock. And if the money is shared, agree the ordering discipline before anyone is three drinks deep; our breakdown of{" "}
+        <Link href="/blog/how-to-split-club-table-cost-london" className="text-gold hover:underline">splitting a table fairly</Link>{" "}
+        covers why one person should own the tab. A table that orders well ends the night with empty bottles and no regrets, which is the whole art.
+      </p>
+
+      <p>
+        If you are planning a table and want the ordering pitched right for your group from the start, our{" "}
+        <Link href="/bottle-service-guide" className="text-gold hover:underline">bottle service guide</Link>{" "}
+        covers the fundamentals, or{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
+        and we will advise on the night itself.
+      </p>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Can You Take Unfinished Bottles Home from a London Club?",
+        datePublished: "2026-07-13",
+        dateModified: "2026-07-13",
+        author: { "@type": "Person", name: "Ethan Reid", url: "https://londonbottleservice.com/about-the-editor/", jobTitle: "Bottle Service & Hospitality Pro" },
+        publisher: { "@type": "Organization", name: "London Bottle Service", url: "https://londonbottleservice.com" },
+        image: "https://londonbottleservice.com/gallery/images/maison-close-609.jpg",
+        mainEntityOfPage: { "@type": "WebPage", "@id": "https://londonbottleservice.com/blog/can-you-take-bottles-home-from-a-london-club" }
+      }) }} />
+    </>
+  ),
 };

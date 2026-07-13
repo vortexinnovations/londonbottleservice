@@ -1642,6 +1642,25 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "can-you-take-bottles-home-from-a-london-club",
+    title: "Can You Take Unfinished Bottles Home from a London Club?",
+    metaTitle: "Taking Bottles Home from a Club | London Bottle Service",
+    metaDescription: "Can you take unfinished bottles home from a London club? The licensing reality, what happens to leftovers, unopened-bottle policies and avoiding waste.",
+    excerpt: "That half-full bottle at 3am is not coming home with you, and the reason is the licence, not the venue. What actually happens to leftover bottles, and how to stop buying them.",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    category: "Guides",
+    readingTime: "6 min read",
+    keywords: ["can you take bottles home from a club london", "unfinished bottles nightclub", "leftover bottle club rules", "bottle keep london clubs", "unopened bottle club policy"],
+    relatedClubs: ["tape-london", "maddox", "london-reign"],
+    faqs: [
+      { question: "Can you take an unopened bottle home from a London club?", answer: "Usually not, and never assume it. A club sells alcohol under an on-premises licence, so even a sealed bottle is technically sold for drinking there. Some venues will hold an unopened bottle as a credit for your next visit instead; ask before you order it, not after." },
+      { question: "Why do clubs refuse to let you take opened bottles out?", answer: "Licensing, not meanness. Club licences cover consumption on the premises, and letting guests walk out with open alcohol would breach both the licence and open-container norms outside. The rule is applied to everyone, including the biggest spenders in the room." },
+      { question: "What happens to bottles you do not finish?", answer: "They stay on your table, iced and served, until the session ends, and then they are cleared. There is no refund for what is left, which is exactly why pacing your ordering matters more than most tables realise." },
+      { question: "Do any London clubs offer bottle keep?", answer: "It is rare. Bottle keep, where the venue stores your part-finished spirit for a future visit, is standard in parts of East Asia but exceptional in London, appearing mostly in members rooms and a handful of lounges. If it matters to you, ask the venue directly before you book." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
