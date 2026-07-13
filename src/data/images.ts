@@ -302,6 +302,11 @@ export const blogImages: Record<
     alt: "Bottles on ice at a London club table late in the night",
     inline: [],
   },
+  "why-is-bottle-service-so-expensive-london": {
+    featured: `${G}/maison-close-946.jpg`,
+    alt: "Bottle service presentation at an upscale London club table",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------

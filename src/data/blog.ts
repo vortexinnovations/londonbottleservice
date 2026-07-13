@@ -1661,6 +1661,25 @@ export const blogPosts: BlogPost[] = [
       { question: "Do any London clubs offer bottle keep?", answer: "It is rare. Bottle keep, where the venue stores your part-finished spirit for a future visit, is standard in parts of East Asia but exceptional in London, appearing mostly in members rooms and a handful of lounges. If it matters to you, ask the venue directly before you book." },
     ],
   },
+  {
+    slug: "why-is-bottle-service-so-expensive-london",
+    title: "Why Is Bottle Service So Expensive in London? The Real Economics",
+    metaTitle: "Why Bottle Service Costs So Much | London Bottle Service",
+    metaDescription: "Why is bottle service so expensive in London? The venue-side economics: what a table really rents, the hidden costs, and why the pricing model works.",
+    excerpt: "The bottle costs a fraction of that in a shop, and everyone at the table knows it. Here is the venue-side maths that actually sets the price, explained honestly.",
+    publishedAt: "2026-07-13",
+    updatedAt: "2026-07-13",
+    category: "Pricing",
+    readingTime: "6 min read",
+    keywords: ["why is bottle service so expensive", "bottle service cost explained london", "club bottle markup london", "why club drinks cost more", "london club table economics"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "maddox"],
+    faqs: [
+      { question: "Why does a bottle cost several times its shop price in a club?", answer: "Because the price is not really for the liquid. It pays for a reserved piece of prime central London floor space, a dedicated server for the night, and a share of everything it costs to run a licensed late-night venue. The bottle is simply the unit the whole package is billed through." },
+      { question: "Is the markup similar at every London club?", answer: "The structure is similar everywhere: spirits and champagne priced at a multiple of retail, with the multiple rising at the most in-demand rooms and on the busiest nights. What varies is the base level, which tracks the venue tier, the postcode and the night of the week." },
+      { question: "Do clubs make huge profits on bottle service?", answer: "Less than the price tags suggest. Drinks margins fund the entire operation: rent, security, staff, licensing, insurance and the quiet nights. London clubs close constantly, which tells you the economics are tighter than a busy Saturday makes them look." },
+      { question: "Is it cheaper to just drink at the bar?", answer: "Per drink, usually yes. But the comparison is not just liquid: a table buys guaranteed space and service on nights when standing room is the alternative. Whether that trade is worth it depends on your group and the night, which we cover honestly in our worth-it guide." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
