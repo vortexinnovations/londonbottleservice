@@ -11,22 +11,32 @@ const allGuides = [
   { href: "/book-a-table", label: "Book a Table", desc: "All clubs, instant booking" },
 ];
 
+/*
+ * Further reading as an index of hairline-ruled rows — the dossier's
+ * table of contents, not a grid of boxes.
+ */
 export function RelatedGuides({ currentPath }: { currentPath: string }) {
   const guides = allGuides.filter((g) => g.href !== currentPath);
 
   return (
-    <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+    <section className="py-14 px-4 border-t border-border bg-bg-secondary">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-xl font-bold mb-6">Related Guides</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          {guides.slice(0, 4).map((g) => (
+        <h2 className="eyebrow mb-6">Related Guides</h2>
+        <div className="border-t border-border">
+          {guides.slice(0, 4).map((g, i) => (
             <Link
               key={g.href}
               href={g.href}
-              className="bg-bg-card border border-border rounded-lg p-3 hover:border-gold/30 transition-colors group"
+              className="flex items-baseline gap-4 py-4 border-b border-border group transition-colors hover:bg-bg-card/40"
             >
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">{g.label}</p>
-              <p className="text-text-muted text-xs mt-1">{g.desc}</p>
+              <span className="font-mono text-[0.625rem] text-gold-dark w-6 shrink-0">
+                {String(i + 1).padStart(2, "0")}
+              </span>
+              <span className="font-display text-lg font-medium text-text-primary group-hover:text-gold-light transition-colors">
+                {g.label}
+              </span>
+              <span className="dotted-leader hidden sm:block" aria-hidden="true" />
+              <span className="text-text-muted text-xs shrink-0 hidden sm:block">{g.desc}</span>
             </Link>
           ))}
         </div>

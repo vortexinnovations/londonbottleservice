@@ -85,11 +85,11 @@ export default function MayfairTableBookingGuidePage() {
       />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">/</span>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">
             Mayfair Table Booking Guide
           </span>
@@ -98,10 +98,11 @@ export default function MayfairTableBookingGuidePage() {
 
       {/* Hero */}
       <HeroImage src={pageImages.mayfairGuide.hero} alt={pageImages.mayfairGuide.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">Area guide — Mayfair</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
           Mayfair Table Booking Guide — Everything You Need to Know
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed mb-4">
+        <p className="text-text-secondary text-lg leading-relaxed mb-4 animate-fade-up-2">
           Mayfair is the centre of London&apos;s nightlife scene. Within a
           few streets you will find some of the most exclusive clubs in the
           world — members&apos; clubs, show venues, hip-hop institutions, and
@@ -109,7 +110,7 @@ export default function MayfairTableBookingGuidePage() {
           time can feel opaque. How much should you spend? What do you
           wear? Which club suits your group? Which night should you go?
         </p>
-        <p className="text-text-secondary leading-relaxed mb-4">
+        <p className="text-text-secondary leading-relaxed mb-4 animate-fade-up-3">
           This guide answers all of that. We book tables at every Mayfair
           club on this page every single week. We know the prices, we know
           the door policies, we know which nights are strongest, and we
@@ -118,23 +119,24 @@ export default function MayfairTableBookingGuidePage() {
           just a proper Saturday night out, this guide gives you everything
           you need to make the right decision.
         </p>
-        <p className="text-text-muted">
+        <p className="text-text-muted animate-fade-up-3">
           No fluff, no guesswork — just practical information from people
           who do this professionally.
         </p>
       </HeroImage>
 
       {/* Trust Badges */}
-      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-8 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
           <TrustBadges />
         </div>
       </section>
 
       {/* Pricing Overview */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 01 — Pricing</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Mayfair Club Prices — What to Expect
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
@@ -152,20 +154,20 @@ export default function MayfairTableBookingGuidePage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                <tr className="border-b border-border-light">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Club
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Floor
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     VIP
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Music
                   </th>
-                  <th className="text-left py-3 text-text-muted font-medium">
+                  <th className="text-left py-3 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Nights
                   </th>
                 </tr>
@@ -174,20 +176,20 @@ export default function MayfairTableBookingGuidePage() {
                 {mayfairClubs.map((club) => (
                   <tr
                     key={club.slug}
-                    className="border-b border-border/50"
+                    className="border-b border-border"
                   >
-                    <td className="py-3 pr-4">
+                    <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                       <Link
                         href={`/${club.bookingSlug}`}
-                        className="text-gold hover:underline font-medium"
+                        className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
                       </Link>
                     </td>
-                    <td className="py-3 pr-4 text-text-secondary">
+                    <td className="py-3 pr-4 price">
                       £{club.pricing.floorTable.toLocaleString()}
                     </td>
-                    <td className="py-3 pr-4 text-gold font-medium">
+                    <td className="py-3 pr-4 price text-gold-light">
                       £{club.pricing.vipTable.toLocaleString()}
                     </td>
                     <td className="py-3 pr-4 text-text-muted">
@@ -207,9 +209,10 @@ export default function MayfairTableBookingGuidePage() {
       </section>
 
       {/* Dress Code Section */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 02 — Dress code</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Mayfair Dress Code — What to Wear
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -220,53 +223,53 @@ export default function MayfairTableBookingGuidePage() {
             slightly by club.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">For Men</h3>
+            <div className="bg-bg-card border border-border p-6">
+              <p className="eyebrow mb-4">For Men</p>
               <ul className="space-y-2 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Collared shirt — mandatory at every Mayfair club
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Smart trousers or well-fitted dark jeans
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Smart shoes — leather or suede, no trainers
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Jackets encouraged at Tape London and Maddox
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-red-400 flex-shrink-0">-</span>
+                  <span className="text-danger flex-shrink-0">-</span>
                   No sportswear, trainers, shorts, or casual t-shirts
                 </li>
               </ul>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">For Women</h3>
+            <div className="bg-bg-card border border-border p-6">
+              <p className="eyebrow mb-4">For Women</p>
               <ul className="space-y-2 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Cocktail dresses, elegant jumpsuits, or smart separates
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Heels or smart boots — the standard Mayfair look
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Fashion-forward outfits welcome, especially at Tabu and
                   Dear Darling
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   Accessories and statement pieces encouraged
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-red-400 flex-shrink-0">-</span>
+                  <span className="text-danger flex-shrink-0">-</span>
                   No casual wear, flat trainers, or beachwear
                 </li>
               </ul>
@@ -276,9 +279,10 @@ export default function MayfairTableBookingGuidePage() {
       </section>
 
       {/* Best Nights */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 03 — The week</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Best Nights to Go Out in Mayfair
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -286,9 +290,9 @@ export default function MayfairTableBookingGuidePage() {
             best night for you depends on your budget, how busy you want the
             club to be, and which venues are open.
           </p>
-          <div className="space-y-6">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-2">
+          <div className="border-t border-border">
+            <div className="py-5 border-b border-border">
+              <h3 className="font-display text-lg font-medium mb-2">
                 Saturday — The Main Event
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -300,8 +304,8 @@ export default function MayfairTableBookingGuidePage() {
                 weeks in advance for Saturdays.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-2">
+            <div className="py-5 border-b border-border">
+              <h3 className="font-display text-lg font-medium mb-2">
                 Friday — The Sweet Spot
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -313,8 +317,8 @@ export default function MayfairTableBookingGuidePage() {
                 and Tape London are particularly strong on Fridays.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-2">
+            <div className="py-5 border-b border-border">
+              <h3 className="font-display text-lg font-medium mb-2">
                 Thursday — The Insider Night
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -327,8 +331,8 @@ export default function MayfairTableBookingGuidePage() {
                 regulars go out.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-2">
+            <div className="py-5 border-b border-border">
+              <h3 className="font-display text-lg font-medium mb-2">
                 Wednesday — Early Week Option
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -344,9 +348,10 @@ export default function MayfairTableBookingGuidePage() {
       </section>
 
       {/* All Mayfair Clubs */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 04 — The clubs</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Every Mayfair Club — Quick Guide
           </h2>
           <p className="text-text-muted mb-8">
@@ -357,57 +362,59 @@ export default function MayfairTableBookingGuidePage() {
             {mayfairClubs.map((club) => (
               <div
                 key={club.slug}
-                className="bg-bg-card border border-border rounded-lg p-6"
+                className="bg-bg-card border border-border p-6 hover:border-gold-dark transition-colors"
               >
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                   <div>
-                    <h3 className="text-xl font-bold">
+                    <h3 className="font-display italic text-xl font-medium">
                       <Link
                         href={`/${club.bookingSlug}`}
-                        className="text-gold hover:underline"
+                        className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
                       </Link>
                     </h3>
-                    <p className="text-text-muted text-sm">
-                      {club.area} | {club.openingNights.join(", ")} |{" "}
+                    <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">
+                      {club.area} &mdash; {club.openingNights.join(", ")} &mdash;{" "}
                       {club.musicPolicy.split(",")[0]}
                     </p>
                   </div>
-                  <div className="flex gap-3">
-                    <span className="text-xs px-3 py-1 bg-bg-secondary border border-border rounded-full text-text-secondary whitespace-nowrap">
-                      Floor £{club.pricing.floorTable.toLocaleString()}
-                    </span>
-                    <span className="text-xs px-3 py-1 bg-gold/10 border border-gold/30 rounded-full text-gold whitespace-nowrap">
-                      VIP £{club.pricing.vipTable.toLocaleString()}
-                    </span>
+                  <div className="md:text-right whitespace-nowrap">
+                    <p className="price text-sm">
+                      Floor <span className="price-sign">&pound;</span>
+                      {club.pricing.floorTable.toLocaleString()}
+                    </p>
+                    <p className="price text-sm text-gold-light">
+                      VIP <span className="price-sign">&pound;</span>
+                      {club.pricing.vipTable.toLocaleString()}
+                    </p>
                   </div>
                 </div>
                 <p className="text-text-secondary text-sm leading-relaxed mb-3">
                   {club.description}
                 </p>
                 <p className="text-sm mb-4">
-                  <span className="text-gold font-medium">Best for: </span>
+                  <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-gold">Best for: </span>
                   <span className="text-text-muted">{club.bestFor}</span>
                 </p>
-                <div className="flex flex-wrap gap-3">
+                <div className="flex flex-wrap gap-3 items-baseline">
                   <Link
                     href={`/${club.bookingSlug}`}
-                    className="text-gold text-sm font-medium hover:underline"
+                    className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                   >
                     Book a table &rarr;
                   </Link>
-                  <span className="text-text-muted text-sm">|</span>
+                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                   <Link
                     href={`/${club.slug}-table-prices`}
-                    className="text-text-secondary text-sm hover:text-gold transition-colors"
+                    className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                   >
                     Prices
                   </Link>
-                  <span className="text-text-muted text-sm">|</span>
+                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                   <Link
                     href={`/${club.slug}-vip-tables`}
-                    className="text-text-secondary text-sm hover:text-gold transition-colors"
+                    className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                   >
                     VIP tables
                   </Link>
@@ -419,9 +426,10 @@ export default function MayfairTableBookingGuidePage() {
       </section>
 
       {/* Booking Process */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 05 — The process</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How the Booking Process Works
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -431,9 +439,9 @@ export default function MayfairTableBookingGuidePage() {
             exact amount you spend at the venue on the night.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-            <div className="bg-bg-card border border-border rounded-lg p-5">
-              <div className="text-gold font-bold text-xl mb-2">1</div>
-              <h3 className="font-semibold text-sm mb-2">
+            <div className="border-t border-border pt-5">
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-3">1</div>
+              <h3 className="font-display text-sm font-medium mb-2">
                 Tell Us What You Want
               </h3>
               <p className="text-text-muted text-xs leading-relaxed">
@@ -441,9 +449,9 @@ export default function MayfairTableBookingGuidePage() {
                 Not sure which club? We will recommend one.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-5">
-              <div className="text-gold font-bold text-xl mb-2">2</div>
-              <h3 className="font-semibold text-sm mb-2">
+            <div className="border-t border-border pt-5">
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-3">2</div>
+              <h3 className="font-display text-sm font-medium mb-2">
                 We Check Availability
               </h3>
               <p className="text-text-muted text-xs leading-relaxed">
@@ -451,9 +459,9 @@ export default function MayfairTableBookingGuidePage() {
                 availability, position, and minimum spend for your date.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-5">
-              <div className="text-gold font-bold text-xl mb-2">3</div>
-              <h3 className="font-semibold text-sm mb-2">
+            <div className="border-t border-border pt-5">
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-3">3</div>
+              <h3 className="font-display text-sm font-medium mb-2">
                 Confirmation
               </h3>
               <p className="text-text-muted text-xs leading-relaxed">
@@ -461,9 +469,9 @@ export default function MayfairTableBookingGuidePage() {
                 time, dress code reminder, and your table details.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-5">
-              <div className="text-gold font-bold text-xl mb-2">4</div>
-              <h3 className="font-semibold text-sm mb-2">
+            <div className="border-t border-border pt-5">
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-3">4</div>
+              <h3 className="font-display text-sm font-medium mb-2">
                 Enjoy the Night
               </h3>
               <p className="text-text-muted text-xs leading-relaxed">
@@ -476,21 +484,22 @@ export default function MayfairTableBookingGuidePage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">
+          <p className="eyebrow mb-4">No. 06 — Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Mayfair Table Booking FAQs
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
               <div
                 key={i}
-                className="border border-border rounded-lg p-6 bg-bg-card"
+                className="py-6 border-b border-border"
               >
-                <h3 className="font-semibold text-lg mb-3">
+                <h3 className="font-display text-lg font-medium mb-2">
                   {faq.question}
                 </h3>
-                <p className="text-text-muted text-sm leading-relaxed">
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
@@ -500,9 +509,10 @@ export default function MayfairTableBookingGuidePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">
+          <p className="eyebrow mb-4">Reservations</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
             Ready to Book Your Mayfair Table?
           </h2>
           <p className="text-text-muted mb-8">

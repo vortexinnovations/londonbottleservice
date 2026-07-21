@@ -92,21 +92,21 @@ export default async function ClubPage({ params }: ClubPageProps) {
       />
 
       {/* Breadcrumb */}
-      <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6">
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">/</span>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">{club.name}</span>
         </nav>
       </div>
 
       {/* Closed Banner */}
       {closed && (
-        <div className="max-w-4xl mx-auto px-4 mt-6">
-          <div className="bg-red-900/30 border border-red-500/40 rounded-xl p-6">
-            <h2 className="text-red-400 font-bold text-lg mb-2">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 mt-6">
+          <div className="bg-danger/10 border border-danger/40 p-6">
+            <h2 className="text-danger font-display text-lg font-medium mb-2">
               {club.name} Has Permanently Closed
             </h2>
             <p className="text-text-secondary text-sm leading-relaxed mb-4">
@@ -115,10 +115,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
               WhatsApp and we&apos;ll recommend the perfect alternative.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <Link
-                href="/"
-                className="inline-flex items-center justify-center gap-2 py-2.5 px-6 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors text-sm"
-              >
+              <Link href="/" className="btn-secondary">
                 Browse Open Clubs &rarr;
               </Link>
               <WhatsAppCTA />
@@ -133,40 +130,46 @@ export default async function ClubPage({ params }: ClubPageProps) {
         alt={images.alt}
         height="h-[50vh] min-h-[400px]"
         overlay="strong"
+        caption={`Fig. — ${club.name}, ${club.area}`}
       >
-        <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
-          {club.area} {club.openingNights.length > 0 && <>&bull; {club.openingNights.join(", ")}</>}
+        <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">
+          {club.area} {club.openingNights.length > 0 && <>&mdash; {club.openingNights.join(", ")}</>}
         </p>
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">
           {club.name}{" "}Table Prices &amp; VIP Bottle Service
         </h1>
-        <p className="text-text-muted text-lg italic mb-6">{club.tagline}</p>
-        <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
+        <p className="text-gold-light/90 text-lg font-display italic font-light [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-6 animate-fade-up-2">{club.tagline}</p>
+        <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl animate-fade-up-2">
           {club.description}
         </p>
-        {!closed && <WhatsAppCTA clubName={club.name} />}
+        {!closed && (
+          <div className="animate-fade-up-3">
+            <WhatsAppCTA clubName={club.name} />
+          </div>
+        )}
       </HeroImage>
 
       {/* Pricing Section */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">Pricing</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             {club.name}{" "}Minimum Spend &amp; Table Prices
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-bg-card border border-border rounded-xl p-6">
-              <h3 className="text-lg font-semibold mb-2">Floor Table</h3>
-              <p className="text-3xl font-bold text-gold mb-2">
-                From £{club.pricing.floorTable.toLocaleString()}
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="font-display text-lg font-medium mb-2">Floor Table</h3>
+              <p className="price text-2xl md:text-3xl mb-2">
+                From <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
               </p>
               <p className="text-text-muted text-sm">
                 Minimum spend per table. Standard tables on the main floor with full table service.
               </p>
             </div>
-            <div className="bg-bg-card border border-gold/30 rounded-xl p-6">
-              <h3 className="text-lg font-semibold mb-2">VIP Table</h3>
-              <p className="text-3xl font-bold text-gold mb-2">
-                From £{club.pricing.vipTable.toLocaleString()}
+            <div className="bg-bg-card border border-gold/30 p-6">
+              <h3 className="font-display text-lg font-medium mb-2">VIP Table</h3>
+              <p className="price text-2xl md:text-3xl mb-2">
+                From <span className="price-sign">&pound;</span>{club.pricing.vipTable.toLocaleString()}
               </p>
               <p className="text-text-muted text-sm">
                 Minimum spend per table. Premium positions with the best views and enhanced service.
@@ -182,16 +185,18 @@ export default async function ClubPage({ params }: ClubPageProps) {
       </section>
 
       {/* What's Included */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">The service</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             What&apos;s Included with Your Table at {club.name}
           </h2>
           <ul className="space-y-3">
             {club.whatsIncluded.map((item, i) => (
               <li key={i} className="flex items-start gap-3">
                 <svg
-                  className="w-5 h-5 text-gold flex-shrink-0 mt-0.5"
+                  className="w-5 h-5 text-gold-dark flex-shrink-0 mt-0.5"
+                  aria-hidden="true"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -211,9 +216,10 @@ export default async function ClubPage({ params }: ClubPageProps) {
       </section>
 
       {/* Full Description */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">The experience</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What to Expect at {club.name}
           </h2>
           <p className="text-text-secondary leading-relaxed mb-8">
@@ -221,8 +227,8 @@ export default async function ClubPage({ params }: ClubPageProps) {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-card border border-border rounded-xl p-6">
-              <h3 className="font-semibold mb-3 text-gold">Known For</h3>
+            <div className="bg-bg-card border border-border p-6">
+              <p className="eyebrow mb-4">Known For</p>
               <ul className="space-y-2">
                 {club.knownFor.map((item, i) => (
                   <li key={i} className="text-text-secondary text-sm flex items-start gap-2">
@@ -231,8 +237,8 @@ export default async function ClubPage({ params }: ClubPageProps) {
                 ))}
               </ul>
             </div>
-            <div className="bg-bg-card border border-border rounded-xl p-6">
-              <h3 className="font-semibold mb-3 text-gold">Best For</h3>
+            <div className="bg-bg-card border border-border p-6">
+              <p className="eyebrow mb-4">Best For</p>
               <p className="text-text-secondary text-sm leading-relaxed">
                 {club.bestFor}
               </p>
@@ -243,17 +249,18 @@ export default async function ClubPage({ params }: ClubPageProps) {
 
       {/* Gallery */}
       {images.extra.length > 0 && (
-        <section className="py-12 px-4 border-t border-border">
+        <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-8">Inside {club.name}</h2>
+            <p className="eyebrow mb-4">The room</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">Inside {club.name}</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
               {images.extra.map((src, i) => (
-                <div key={i} className="relative aspect-[3/2] rounded-lg overflow-hidden">
+                <div key={i} className="relative aspect-[3/2] overflow-hidden group">
                   <Image
                     src={src}
                     alt={`${club.name} interior and VIP area ${i + 1}`}
                     fill
-                    className="object-cover hover:scale-105 transition-transform duration-500"
+                    className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
                     sizes="(max-width: 768px) 50vw, 33vw"
                   />
                 </div>
@@ -264,12 +271,13 @@ export default async function ClubPage({ params }: ClubPageProps) {
       )}
 
       {/* Details Grid */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">Particulars</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             {club.name}{" "}— Essential Details
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-0">
             <DetailCard title="Music Policy" content={club.musicPolicy} />
             <DetailCard title="Dress Code" content={club.dressCode} />
             <DetailCard title="Opening Nights" content={club.openingNights.join(", ")} />
@@ -283,9 +291,10 @@ export default async function ClubPage({ params }: ClubPageProps) {
 
       {/* CTA */}
       {!closed && (
-        <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+        <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            <p className="eyebrow mb-4">Reservations</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
               Book Your Table at {club.name}
             </h2>
             <p className="text-text-muted mb-6">
@@ -295,10 +304,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppCTA clubName={club.name} />
               {club.bookingSlug && (
-                <Link
-                  href={`/${club.bookingSlug}`}
-                  className="inline-flex items-center gap-2 py-3.5 px-8 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors text-base"
-                >
+                <Link href={`/${club.bookingSlug}`} className="btn-secondary">
                   View Booking Details &rarr;
                 </Link>
               )}
@@ -308,16 +314,17 @@ export default async function ClubPage({ params }: ClubPageProps) {
       )}
 
       {/* FAQs */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             {club.name}{" "}— Frequently Asked Questions
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {club.faqs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
@@ -327,9 +334,10 @@ export default async function ClubPage({ params }: ClubPageProps) {
       </section>
 
       {/* Other Clubs */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold mb-6">
+          <p className="eyebrow mb-4">Further reading</p>
+          <h2 className="font-display text-2xl md:text-3xl font-normal mb-6">
             Other Clubs You Might Like
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -339,26 +347,28 @@ export default async function ClubPage({ params }: ClubPageProps) {
                 <Link
                   key={c.slug}
                   href={`/clubs/${c.slug}`}
-                  className="bg-bg-card border border-border rounded-lg overflow-hidden hover:border-gold/30 transition-colors group"
+                  className="block hover:border-gold-dark border border-border bg-bg-card transition-colors group"
                 >
-                  <div className="relative aspect-[3/2] overflow-hidden">
-                    <Image
-                      src={cImages.card}
-                      alt={cImages.alt}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-500"
-                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-                    />
+                  <div className="border-b border-border-light p-2 bg-bg-primary">
+                    <div className="relative aspect-[3/2] overflow-hidden">
+                      <Image
+                        src={cImages.card}
+                        alt={cImages.alt}
+                        fill
+                        className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
+                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                      />
+                    </div>
                   </div>
                   <div className="p-4">
-                    <h3 className="font-semibold group-hover:text-gold transition-colors">
+                    <h3 className="font-display italic text-[0.9375rem] group-hover:text-gold-light transition-colors">
                       {c.name}
                     </h3>
-                    <p className="text-gold text-sm mt-1">
-                      From £{c.pricing.floorTable.toLocaleString()}
+                    <p className="price text-sm mt-1">
+                      From <span className="price-sign">&pound;</span>{c.pricing.floorTable.toLocaleString()}
                     </p>
-                    <p className="text-text-muted text-xs mt-1">
-                      {c.openingNights.join(", ")}
+                    <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-2">
+                      {c.openingNights.join(" — ")}
                     </p>
                   </div>
                 </Link>
@@ -382,10 +392,8 @@ function DetailCard({
   content: string;
 }) {
   return (
-    <div className="bg-bg-card border border-border rounded-lg p-5">
-      <h3 className="text-gold text-sm font-medium uppercase tracking-wider mb-2">
-        {title}
-      </h3>
+    <div className="py-5 border-b border-border">
+      <p className="eyebrow mb-2">{title}</p>
       <p className="text-text-secondary text-sm leading-relaxed">{content}</p>
     </div>
   );

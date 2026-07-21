@@ -1,3 +1,5 @@
+import { WHATSAPP_TEL } from "@/lib/whatsapp";
+
 export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
@@ -11,7 +13,7 @@ export function OrganizationSchema() {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "reservations",
-      telephone: "+447880662708",
+      telephone: WHATSAPP_TEL,
       availableLanguage: "English",
     },
     areaServed: {

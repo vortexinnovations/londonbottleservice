@@ -146,11 +146,11 @@ export default function BestVipTablesPage() {
       />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">/</span>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">
             Best VIP Tables in London
           </span>
@@ -159,10 +159,11 @@ export default function BestVipTablesPage() {
 
       {/* Hero */}
       <HeroImage src={pageImages.bestVipTables.hero} alt={pageImages.bestVipTables.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The ranking</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
           Best VIP Tables in London — Where to Book in 2026
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           VIP tables are where the real London nightlife experience happens.
           You get the best positions in the venue, premium service, and a
           night that feels genuinely special rather than standing three-deep
@@ -173,16 +174,17 @@ export default function BestVipTablesPage() {
       </HeroImage>
 
       {/* Trust Badges */}
-      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-8 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
           <TrustBadges />
         </div>
       </section>
 
       {/* VIP Price Overview Grid */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">Pricing</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             VIP Table Prices at a Glance
           </h2>
           <p className="text-text-muted mb-8">
@@ -194,20 +196,20 @@ export default function BestVipTablesPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                <tr className="border-b border-border-light">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Club
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Floor Table
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     VIP Table
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Area
                   </th>
-                  <th className="text-left py-3 text-text-muted font-medium">
+                  <th className="text-left py-3 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Nights
                   </th>
                 </tr>
@@ -216,21 +218,21 @@ export default function BestVipTablesPage() {
                 {clubs.map((club) => (
                   <tr
                     key={club.slug}
-                    className="border-b border-border/50"
+                    className="border-b border-border"
                   >
-                    <td className="py-3 pr-4">
+                    <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                       <Link
                         href={`/${club.bookingSlug}`}
-                        className="text-gold hover:underline font-medium"
+                        className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
                       </Link>
                     </td>
-                    <td className="py-3 pr-4 text-text-secondary">
-                      From £{club.pricing.floorTable.toLocaleString()}
+                    <td className="py-3 pr-4 price">
+                      £{club.pricing.floorTable.toLocaleString()}
                     </td>
-                    <td className="py-3 pr-4 text-gold font-medium">
-                      From £{club.pricing.vipTable.toLocaleString()}
+                    <td className="py-3 pr-4 price text-gold-light">
+                      £{club.pricing.vipTable.toLocaleString()}
                     </td>
                     <td className="py-3 pr-4 text-text-muted">
                       {club.area}
@@ -249,9 +251,10 @@ export default function BestVipTablesPage() {
       </section>
 
       {/* What Makes VIP Worth It */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">The premium</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What Makes a VIP Table Worth the Premium?
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -265,8 +268,8 @@ export default function BestVipTablesPage() {
             priority attention from your waitress.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">
                 Better Positioning
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -278,8 +281,8 @@ export default function BestVipTablesPage() {
                 crowd.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">
                 More Space and Privacy
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -290,8 +293,8 @@ export default function BestVipTablesPage() {
                 that further.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">
                 Premium Service
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -302,8 +305,8 @@ export default function BestVipTablesPage() {
                 attentive.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">
                 Special Occasion Impact
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -319,16 +322,19 @@ export default function BestVipTablesPage() {
       </section>
 
       {/* Individual VIP Club Reviews */}
-      {vipHighlights.map((vh) => {
+      {vipHighlights.map((vh, i) => {
         const club = clubs.find((c) => c.slug === vh.slug)!;
         return (
           <section
             key={vh.slug}
-            className="py-12 px-4 border-t border-border"
+            className="py-16 md:py-20 px-4 sm:px-6 border-t border-border"
             id={vh.slug}
           >
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold mb-2">
+              <p className="eyebrow mb-4">
+                No. {String(i + 1).padStart(2, "0")} &mdash; The clubs
+              </p>
+              <h2 className="font-display italic text-3xl md:text-4xl font-normal mb-3">
                 <Link
                   href={`/${club.bookingSlug}`}
                   className="hover:text-gold transition-colors"
@@ -336,20 +342,17 @@ export default function BestVipTablesPage() {
                   {club.name}
                 </Link>
               </h2>
-              <div className="flex flex-wrap gap-3 mb-6">
-                <span className="text-xs px-3 py-1 bg-gold/10 border border-gold/30 rounded-full text-gold">
+              <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-6">
+                <span className="text-gold">
                   VIP from £{club.pricing.vipTable.toLocaleString()}
                 </span>
-                <span className="text-xs px-3 py-1 bg-bg-card border border-border rounded-full text-text-muted">
-                  Floor from £{club.pricing.floorTable.toLocaleString()}
-                </span>
-                <span className="text-xs px-3 py-1 bg-bg-card border border-border rounded-full text-text-muted">
-                  {club.area}
-                </span>
-                <span className="text-xs px-3 py-1 bg-bg-card border border-border rounded-full text-text-muted">
-                  {club.openingNights.join(", ")}
-                </span>
-              </div>
+                {" — "}Floor from £
+                {club.pricing.floorTable.toLocaleString()}
+                {" — "}
+                {club.area}
+                {" — "}
+                {club.openingNights.join(", ")}
+              </p>
 
               <p className="text-text-secondary leading-relaxed mb-4">
                 {vh.vipDescription}
@@ -364,24 +367,28 @@ export default function BestVipTablesPage() {
                 </span>
               </p>
 
-              <div className="flex flex-wrap gap-3">
+              <div className="flex flex-wrap items-baseline gap-3">
                 <Link
                   href={`/${club.bookingSlug}`}
-                  className="text-gold text-sm font-medium hover:underline"
+                  className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                 >
                   Book a VIP table at {club.name} &rarr;
                 </Link>
-                <span className="text-text-muted text-sm">|</span>
+                <span className="font-mono text-[0.6875rem] text-text-muted">
+                  &mdash;
+                </span>
                 <Link
                   href={`/${club.slug}-vip-tables`}
-                  className="text-text-secondary text-sm hover:text-gold transition-colors"
+                  className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                 >
                   {club.name} VIP tables guide
                 </Link>
-                <span className="text-text-muted text-sm">|</span>
+                <span className="font-mono text-[0.6875rem] text-text-muted">
+                  &mdash;
+                </span>
                 <Link
                   href={`/${club.slug}-table-prices`}
-                  className="text-text-secondary text-sm hover:text-gold transition-colors"
+                  className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                 >
                   {club.name} table prices
                 </Link>
@@ -392,16 +399,17 @@ export default function BestVipTablesPage() {
       })}
 
       {/* Remaining Clubs Quick List */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">The wider list</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             More Clubs With VIP Tables
           </h2>
           <p className="text-text-muted mb-8">
             Every club we work with offers VIP table options. Here are the
             remaining venues with VIP availability.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 border-t border-border">
             {clubs
               .filter(
                 (c) =>
@@ -410,19 +418,21 @@ export default function BestVipTablesPage() {
               .map((club) => (
                 <div
                   key={club.slug}
-                  className="bg-bg-card border border-border rounded-lg p-5"
+                  className="py-5 border-b border-border hover:bg-bg-card/40 transition-colors"
                 >
-                  <h3 className="font-semibold mb-2">
+                  <h3 className="font-display italic text-lg mb-2">
                     <Link
                       href={`/${club.bookingSlug}`}
-                      className="text-gold hover:underline"
+                      className="text-gold hover:text-gold-light transition-colors"
                     >
                       {club.name}
                     </Link>
                   </h3>
-                  <p className="text-text-muted text-sm mb-2">
-                    VIP from £{club.pricing.vipTable.toLocaleString()} |{" "}
-                    {club.area} |{" "}
+                  <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-2">
+                    VIP from £{club.pricing.vipTable.toLocaleString()}
+                    {" — "}
+                    {club.area}
+                    {" — "}
                     {club.openingNights
                       .map((n) => n.slice(0, 3))
                       .join(", ")}
@@ -430,16 +440,16 @@ export default function BestVipTablesPage() {
                   <p className="text-text-secondary text-sm leading-relaxed mb-3">
                     {club.bestFor}
                   </p>
-                  <div className="flex gap-3">
+                  <div className="flex items-baseline gap-3">
                     <Link
                       href={`/${club.slug}-vip-tables`}
-                      className="text-text-secondary text-xs hover:text-gold transition-colors"
+                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                     >
                       VIP guide
                     </Link>
                     <Link
                       href={`/${club.slug}-table-prices`}
-                      className="text-text-secondary text-xs hover:text-gold transition-colors"
+                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                     >
                       Prices
                     </Link>
@@ -451,9 +461,10 @@ export default function BestVipTablesPage() {
       </section>
 
       {/* How to Book */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">The process</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How to Book a VIP Table Through Us
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -463,29 +474,41 @@ export default function BestVipTablesPage() {
             booking channels — particularly on busy Saturday nights when
             demand is highest.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <div className="text-gold font-bold text-2xl mb-3">1</div>
-              <h3 className="font-semibold mb-2">Message Us</h3>
-              <p className="text-text-muted text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 border-t border-border pt-8">
+            <div>
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-4">
+                1
+              </div>
+              <h3 className="font-display text-lg font-medium mb-2">
+                Message Us
+              </h3>
+              <p className="text-text-muted text-sm leading-relaxed">
                 Send us a WhatsApp with your preferred club, date, group
                 size, and any special requirements. We respond within
                 minutes.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <div className="text-gold font-bold text-2xl mb-3">2</div>
-              <h3 className="font-semibold mb-2">We Confirm</h3>
-              <p className="text-text-muted text-sm">
+            <div>
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-4">
+                2
+              </div>
+              <h3 className="font-display text-lg font-medium mb-2">
+                We Confirm
+              </h3>
+              <p className="text-text-muted text-sm leading-relaxed">
                 We check VIP availability with the venue directly and
                 confirm your table position, minimum spend, and everything
                 included. No hidden fees.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <div className="text-gold font-bold text-2xl mb-3">3</div>
-              <h3 className="font-semibold mb-2">Arrive and Enjoy</h3>
-              <p className="text-text-muted text-sm">
+            <div>
+              <div className="font-display text-3xl font-light text-gold-dark leading-none mb-4">
+                3
+              </div>
+              <h3 className="font-display text-lg font-medium mb-2">
+                Arrive and Enjoy
+              </h3>
+              <p className="text-text-muted text-sm leading-relaxed">
                 On the night, you and your group arrive, skip the queue,
                 and go straight to your VIP table. Your waitress will be
                 ready.
@@ -496,21 +519,19 @@ export default function BestVipTablesPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">
+          <p className="eyebrow mb-4">Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Frequently Asked Questions About VIP Tables in London
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
-              <div
-                key={i}
-                className="border border-border rounded-lg p-6 bg-bg-card"
-              >
-                <h3 className="font-semibold text-lg mb-3">
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">
                   {faq.question}
                 </h3>
-                <p className="text-text-muted text-sm leading-relaxed">
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
@@ -520,9 +541,10 @@ export default function BestVipTablesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">
+          <p className="eyebrow mb-4">Reservations</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
             Ready to Book a VIP Table?
           </h2>
           <p className="text-text-muted mb-8">

@@ -84,12 +84,12 @@ export default function ClubTablePricesPage() {
         ]}
       />
 
-      <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6">
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">/</span>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">
             London Club Table Prices
           </span>
@@ -98,10 +98,11 @@ export default function ClubTablePricesPage() {
 
       {/* Hero */}
       <HeroImage src={pageImages.tablePrices.hero} alt={pageImages.tablePrices.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The price ledger</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
           London Club Table Prices — The Complete 2026 Guide
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           How much does a table actually cost at London&apos;s top
           nightclubs? This is the question we answer more than any other.
           The short answer is that most clubs start at £1,000 minimum spend
@@ -113,16 +114,17 @@ export default function ClubTablePricesPage() {
       </HeroImage>
 
       {/* Trust Badges */}
-      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-8 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
           <TrustBadges />
         </div>
       </section>
 
       {/* Complete Price Comparison Grid */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 01 — The full ledger</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Complete Price Comparison — All 13 Clubs
           </h2>
           <p className="text-text-muted mb-8">
@@ -132,23 +134,23 @@ export default function ClubTablePricesPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                <tr className="border-b border-border-light">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Club
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Floor Table
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     VIP Table
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Per Person (6 ppl)
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Area
                   </th>
-                  <th className="text-left py-3 text-text-muted font-medium">
+                  <th className="text-left py-3 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Nights
                   </th>
                 </tr>
@@ -157,23 +159,23 @@ export default function ClubTablePricesPage() {
                 {sortedByFloor.map((club) => (
                   <tr
                     key={club.slug}
-                    className="border-b border-border/50"
+                    className="border-b border-border"
                   >
-                    <td className="py-3 pr-4">
+                    <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                       <Link
                         href={`/${club.bookingSlug}`}
-                        className="text-gold hover:underline font-medium"
+                        className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
                       </Link>
                     </td>
-                    <td className="py-3 pr-4 text-text-secondary">
+                    <td className="py-3 pr-4 price">
                       £{club.pricing.floorTable.toLocaleString()}
                     </td>
-                    <td className="py-3 pr-4 text-gold font-medium">
+                    <td className="py-3 pr-4 price">
                       £{club.pricing.vipTable.toLocaleString()}
                     </td>
-                    <td className="py-3 pr-4 text-text-muted">
+                    <td className="py-3 pr-4 price text-gold-light">
                       ~£{Math.round(club.pricing.floorTable / 6).toLocaleString()}
                     </td>
                     <td className="py-3 pr-4 text-text-muted">
@@ -193,9 +195,10 @@ export default function ClubTablePricesPage() {
       </section>
 
       {/* Per Person Breakdown */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 02 — Per head</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Per-Person Cost Breakdown
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -207,79 +210,79 @@ export default function ClubTablePricesPage() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                <tr className="border-b border-border-light">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Min. Spend
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     4 People
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     6 People
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     8 People
                   </th>
-                  <th className="text-left py-3 text-text-muted font-medium">
+                  <th className="text-left py-3 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     10 People
                   </th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-border/50">
-                  <td className="py-3 pr-4 text-text-secondary font-medium">
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 price">
                     £1,000
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£250pp</td>
-                  <td className="py-3 pr-4 text-gold font-medium">
+                  <td className="py-3 pr-4 price">£250pp</td>
+                  <td className="py-3 pr-4 price text-gold-light">
                     £167pp
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£125pp</td>
-                  <td className="py-3 text-text-muted">£100pp</td>
+                  <td className="py-3 pr-4 price">£125pp</td>
+                  <td className="py-3 price">£100pp</td>
                 </tr>
-                <tr className="border-b border-border/50">
-                  <td className="py-3 pr-4 text-text-secondary font-medium">
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 price">
                     £1,500
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£375pp</td>
-                  <td className="py-3 pr-4 text-gold font-medium">
+                  <td className="py-3 pr-4 price">£375pp</td>
+                  <td className="py-3 pr-4 price text-gold-light">
                     £250pp
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£188pp</td>
-                  <td className="py-3 text-text-muted">£150pp</td>
+                  <td className="py-3 pr-4 price">£188pp</td>
+                  <td className="py-3 price">£150pp</td>
                 </tr>
-                <tr className="border-b border-border/50">
-                  <td className="py-3 pr-4 text-text-secondary font-medium">
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 price">
                     £2,000
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£500pp</td>
-                  <td className="py-3 pr-4 text-gold font-medium">
+                  <td className="py-3 pr-4 price">£500pp</td>
+                  <td className="py-3 pr-4 price text-gold-light">
                     £333pp
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£250pp</td>
-                  <td className="py-3 text-text-muted">£200pp</td>
+                  <td className="py-3 pr-4 price">£250pp</td>
+                  <td className="py-3 price">£200pp</td>
                 </tr>
-                <tr className="border-b border-border/50">
-                  <td className="py-3 pr-4 text-text-secondary font-medium">
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 price">
                     £2,500
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£625pp</td>
-                  <td className="py-3 pr-4 text-gold font-medium">
+                  <td className="py-3 pr-4 price">£625pp</td>
+                  <td className="py-3 pr-4 price text-gold-light">
                     £417pp
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£313pp</td>
-                  <td className="py-3 text-text-muted">£250pp</td>
+                  <td className="py-3 pr-4 price">£313pp</td>
+                  <td className="py-3 price">£250pp</td>
                 </tr>
-                <tr className="border-b border-border/50">
-                  <td className="py-3 pr-4 text-text-secondary font-medium">
+                <tr className="border-b border-border">
+                  <td className="py-3 pr-4 price">
                     £3,000
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£750pp</td>
-                  <td className="py-3 pr-4 text-gold font-medium">
+                  <td className="py-3 pr-4 price">£750pp</td>
+                  <td className="py-3 pr-4 price text-gold-light">
                     £500pp
                   </td>
-                  <td className="py-3 pr-4 text-text-muted">£375pp</td>
-                  <td className="py-3 text-text-muted">£300pp</td>
+                  <td className="py-3 pr-4 price">£375pp</td>
+                  <td className="py-3 price">£300pp</td>
                 </tr>
               </tbody>
             </table>
@@ -293,9 +296,10 @@ export default function ClubTablePricesPage() {
       </section>
 
       {/* Floor vs VIP Comparison */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 03 — Floor vs VIP</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Floor Tables vs VIP Tables — Is the Upgrade Worth It?
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -304,13 +308,13 @@ export default function ClubTablePricesPage() {
             the venue and the occasion.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">
                 VIP is Worth It At
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       Cirque Le Soir
@@ -320,7 +324,7 @@ export default function ClubTablePricesPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       London Reign
@@ -330,7 +334,7 @@ export default function ClubTablePricesPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       The Box
@@ -340,7 +344,7 @@ export default function ClubTablePricesPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       Special occasions
@@ -350,13 +354,13 @@ export default function ClubTablePricesPage() {
                 </li>
               </ul>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">
                 Floor Tables Are Fine At
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       Tape London
@@ -366,7 +370,7 @@ export default function ClubTablePricesPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       Scotch of St James
@@ -376,7 +380,7 @@ export default function ClubTablePricesPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       Tabu London
@@ -386,7 +390,7 @@ export default function ClubTablePricesPage() {
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-green-500 flex-shrink-0">+</span>
+                  <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
                       Regular nights out
@@ -401,9 +405,10 @@ export default function ClubTablePricesPage() {
       </section>
 
       {/* Individual Club Price Details */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 04 — The clubs</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Pricing Details by Club
           </h2>
           <p className="text-text-muted mb-8">
@@ -414,49 +419,61 @@ export default function ClubTablePricesPage() {
             {sortedByFloor.map((club) => (
               <div
                 key={club.slug}
-                className="bg-bg-card border border-border rounded-lg p-6"
+                className="bg-bg-card border border-border p-6 hover:border-gold-dark transition-colors"
               >
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-4">
-                  <h3 className="text-xl font-bold">
-                    <Link
-                      href={`/${club.bookingSlug}`}
-                      className="text-gold hover:underline"
-                    >
-                      {club.name}
-                    </Link>
-                  </h3>
-                  <div className="flex gap-3">
-                    <span className="text-sm px-3 py-1 bg-bg-secondary border border-border rounded-full text-text-secondary">
-                      Floor £{club.pricing.floorTable.toLocaleString()}
+                <h3 className="font-display italic text-xl mb-4">
+                  <Link
+                    href={`/${club.bookingSlug}`}
+                    className="text-gold hover:text-gold-light transition-colors"
+                  >
+                    {club.name}
+                  </Link>
+                </h3>
+                <div className="max-w-xs mb-4">
+                  <p className="flex items-baseline py-1.5">
+                    <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+                      Floor
                     </span>
-                    <span className="text-sm px-3 py-1 bg-gold/10 border border-gold/30 rounded-full text-gold">
-                      VIP £{club.pricing.vipTable.toLocaleString()}
+                    <span className="dotted-leader" aria-hidden="true" />
+                    <span className="price">
+                      <span className="price-sign">&pound;</span>
+                      {club.pricing.floorTable.toLocaleString()}
                     </span>
-                  </div>
+                  </p>
+                  <p className="flex items-baseline py-1.5">
+                    <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+                      VIP
+                    </span>
+                    <span className="dotted-leader" aria-hidden="true" />
+                    <span className="price text-gold-light">
+                      <span className="price-sign">&pound;</span>
+                      {club.pricing.vipTable.toLocaleString()}
+                    </span>
+                  </p>
                 </div>
-                <p className="text-text-muted text-sm mb-3">
-                  {club.area} |{" "}
-                  {club.openingNights.join(", ")} |{" "}
+                <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-3">
+                  {club.area} &mdash;{" "}
+                  {club.openingNights.join(", ")} &mdash;{" "}
                   {club.musicPolicy.split(",")[0]}
                 </p>
                 <p className="text-text-secondary text-sm leading-relaxed mb-3">
                   {club.tagline}. {club.bestFor}
                 </p>
-                <div className="flex flex-wrap gap-3 text-sm">
+                <div className="flex flex-wrap gap-3 text-sm items-baseline">
                   <Link
                     href={`/${club.slug}-table-prices`}
-                    className="text-gold font-medium hover:underline"
+                    className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                   >
                     Full {club.shortName} price guide &rarr;
                   </Link>
-                  <span className="text-text-muted">|</span>
+                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                   <Link
                     href={`/${club.bookingSlug}`}
                     className="text-text-secondary hover:text-gold transition-colors"
                   >
                     Book a table
                   </Link>
-                  <span className="text-text-muted">|</span>
+                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                   <Link
                     href={`/${club.slug}-vip-tables`}
                     className="text-text-secondary hover:text-gold transition-colors"
@@ -471,14 +488,15 @@ export default function ClubTablePricesPage() {
       </section>
 
       {/* Tips for Getting Best Value */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 05 — On value</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How to Get the Best Value
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+          <div className="border-t border-border">
+            <div className="py-5 border-b border-border">
+              <h3 className="eyebrow mb-4">
                 Go on a Thursday or Friday
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -490,8 +508,8 @@ export default function ClubTablePricesPage() {
                 excellent.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="py-5 border-b border-border">
+              <h3 className="eyebrow mb-4">
                 Bring Six to Eight People
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -502,8 +520,8 @@ export default function ClubTablePricesPage() {
                 better value than buying drinks at the bar all evening.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="py-5 border-b border-border">
+              <h3 className="eyebrow mb-4">
                 Book Early for Peak Dates
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -514,8 +532,8 @@ export default function ClubTablePricesPage() {
                 is ideal for Saturday bookings.
               </p>
             </div>
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="py-5 border-b border-border">
+              <h3 className="eyebrow mb-4">
                 Ask Us for Recommendations
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -532,21 +550,22 @@ export default function ClubTablePricesPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">
+          <p className="eyebrow mb-4">No. 06 — Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             London Club Table Pricing FAQs
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
               <div
                 key={i}
-                className="border border-border rounded-lg p-6 bg-bg-card"
+                className="py-6 border-b border-border"
               >
-                <h3 className="font-semibold text-lg mb-3">
+                <h3 className="font-display text-lg font-medium mb-2">
                   {faq.question}
                 </h3>
-                <p className="text-text-muted text-sm leading-relaxed">
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
@@ -556,9 +575,10 @@ export default function ClubTablePricesPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">
+          <p className="eyebrow mb-4">Enquiries</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
             Get an Exact Price for Your Night
           </h2>
           <p className="text-text-muted mb-8">
