@@ -349,18 +349,19 @@ export default function BestClubsPage() {
       />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-          <span className="mx-2">/</span>
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">Best Clubs for Bottle Service</span>
         </nav>
       </div>
 
       <HeroImage src={pageImages.bestClubs.hero} alt={pageImages.bestClubs.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The rankings</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
           Best Clubs for Bottle Service in London
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           An honest, opinionated guide to every club we work with. We book tables at
           all of these venues every week, so this isn&apos;t based on one visit or a press
           release — it&apos;s based on consistent, real experience.
@@ -375,37 +376,38 @@ export default function BestClubsPage() {
       </section>
 
       {/* Quick Compare */}
-      <section className="py-8 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold mb-6">At a Glance</h2>
+          <p className="eyebrow mb-4">The ledger</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">At a Glance</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">Club</th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">Floor</th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">VIP</th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">Music</th>
-                  <th className="text-left py-3 text-text-muted font-medium">Nights</th>
+                <tr className="border-b border-border-light">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">Club</th>
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">Floor</th>
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">VIP</th>
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">Music</th>
+                  <th className="text-left py-3 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">Nights</th>
                 </tr>
               </thead>
               <tbody>
                 {reviews.map((r) => {
                   const club = clubs.find((c) => c.slug === r.slug)!;
                   return (
-                    <tr key={r.slug} className="border-b border-border/50">
-                      <td className="py-3 pr-4">
+                    <tr key={r.slug} className="border-b border-border">
+                      <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                         <Link
                           href={`/clubs/${r.slug}`}
-                          className="text-gold hover:underline font-medium"
+                          className="text-gold hover:text-gold-light transition-colors"
                         >
                           {club.name}
                         </Link>
                       </td>
-                      <td className="py-3 pr-4 text-text-secondary">
+                      <td className="py-3 pr-4 price">
                         £{club.pricing.floorTable.toLocaleString()}
                       </td>
-                      <td className="py-3 pr-4 text-text-secondary">
+                      <td className="py-3 pr-4 price">
                         £{club.pricing.vipTable.toLocaleString()}
                       </td>
                       <td className="py-3 pr-4 text-text-muted">
@@ -429,16 +431,16 @@ export default function BestClubsPage() {
         return (
           <section
             key={r.slug}
-            className="py-12 px-4 border-t border-border"
+            className="py-16 md:py-20 px-4 sm:px-6 border-t border-border"
             id={r.slug}
           >
             <div className="max-w-4xl mx-auto">
-              <div className="flex items-start gap-4 mb-4">
-                <span className="flex-shrink-0 w-10 h-10 rounded-full bg-gold/20 text-gold font-bold flex items-center justify-center text-lg">
-                  {r.rank}
+              <div className="flex items-start gap-5 mb-4">
+                <span className="flex-shrink-0 font-display text-3xl font-light text-gold-dark leading-none pt-1">
+                  {String(r.rank).padStart(2, "0")}
                 </span>
                 <div>
-                  <h2 className="text-2xl md:text-3xl font-bold">
+                  <h2 className="font-display text-3xl md:text-4xl font-normal">
                     <Link
                       href={`/clubs/${r.slug}`}
                       className="hover:text-gold transition-colors"
@@ -446,48 +448,41 @@ export default function BestClubsPage() {
                       {club.name}
                     </Link>
                   </h2>
-                  <p className="text-gold italic">{r.headline}</p>
+                  <p className="text-gold font-display italic font-light">{r.headline}</p>
                 </div>
               </div>
 
-              <div className="flex flex-wrap gap-3 mb-6">
-                <span className="text-xs px-3 py-1 bg-gold/10 border border-gold/30 rounded-full text-gold">
-                  From £{club.pricing.floorTable.toLocaleString()}
-                </span>
-                <span className="text-xs px-3 py-1 bg-bg-card border border-border rounded-full text-text-muted">
-                  {club.area}
-                </span>
-                <span className="text-xs px-3 py-1 bg-bg-card border border-border rounded-full text-text-muted">
-                  {club.openingNights.join(", ")}
-                </span>
-              </div>
+              <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] mb-6">
+                <span className="text-gold">From £{club.pricing.floorTable.toLocaleString()}</span>
+                <span className="text-text-muted"> &mdash; {club.area} &mdash; {club.openingNights.join(", ")}</span>
+              </p>
 
               <p className="text-text-secondary leading-relaxed mb-6">
                 {r.review}
               </p>
 
               <p className="text-sm mb-6">
-                <span className="text-gold font-medium">Best for: </span>
+                <span className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-gold">Best for: </span>
                 <span className="text-text-muted">{r.bestFor}</span>
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-                <div className="bg-bg-card border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-sm text-green-500 mb-3">Strengths</h4>
+                <div className="bg-bg-card border border-border p-6">
+                  <p className="font-mono text-[0.6875rem] uppercase tracking-[0.28em] text-success mb-4">Strengths</p>
                   <ul className="space-y-2">
                     {r.prosText.map((pro, i) => (
                       <li key={i} className="text-text-secondary text-sm flex items-start gap-2">
-                        <span className="text-green-500 flex-shrink-0">+</span> {pro}
+                        <span className="text-success flex-shrink-0">+</span> {pro}
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div className="bg-bg-card border border-border rounded-lg p-4">
-                  <h4 className="font-semibold text-sm text-red-400 mb-3">Considerations</h4>
+                <div className="bg-bg-card border border-border p-6">
+                  <p className="font-mono text-[0.6875rem] uppercase tracking-[0.28em] text-danger mb-4">Considerations</p>
                   <ul className="space-y-2">
                     {r.consText.map((con, i) => (
                       <li key={i} className="text-text-secondary text-sm flex items-start gap-2">
-                        <span className="text-red-400 flex-shrink-0">-</span> {con}
+                        <span className="text-danger flex-shrink-0">-</span> {con}
                       </li>
                     ))}
                   </ul>
@@ -496,7 +491,7 @@ export default function BestClubsPage() {
 
               <Link
                 href={`/clubs/${r.slug}`}
-                className="text-gold text-sm font-medium hover:underline"
+                className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
               >
                 Full {club.name} review, prices &amp; booking &rarr;
               </Link>
@@ -506,14 +501,15 @@ export default function BestClubsPage() {
       })}
 
       {/* FAQ */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">Frequently Asked Questions</h2>
-          <div className="space-y-6">
+          <p className="eyebrow mb-4">Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">Frequently Asked Questions</h2>
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6 bg-bg-card">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">{faq.answer}</p>
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -521,9 +517,10 @@ export default function BestClubsPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Need Help Choosing?</h2>
+          <p className="eyebrow mb-4">Concierge</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">Need Help Choosing?</h2>
           <p className="text-text-muted mb-8">
             Not sure which club fits your group? Message us on WhatsApp with your
             vibe, budget, and group size — we&apos;ll give you an honest recommendation

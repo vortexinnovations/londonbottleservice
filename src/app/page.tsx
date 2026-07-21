@@ -46,200 +46,197 @@ export default function HomePage() {
       <HeroImage
         src={pageImages.home.hero}
         alt={pageImages.home.alt}
-        height="h-[60vh] min-h-[500px]"
+        height="h-[72vh] min-h-[560px]"
         overlay="strong"
+        caption="Fig. 01 — Inside a Mayfair main room"
       >
-        <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Bottle Service at London&apos;s
-            <span className="text-gold"> Most Exclusive Clubs</span>
+        <div className="max-w-3xl">
+          <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-5 animate-fade-up">
+            No. 01 &mdash; Table Dossier &middot; London W1
+          </p>
+          <h1 className="font-display font-light text-[2.6rem] md:text-6xl leading-[1.05] tracking-[-0.015em] mb-6 animate-fade-up">
+            Bottle Service at London&apos;s{" "}
+            <em className="text-gold-light">Most Exclusive Clubs</em>
           </h1>
-          <p className="text-text-secondary text-lg md:text-xl mb-4 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-text-secondary text-lg md:text-xl mb-4 max-w-xl leading-relaxed animate-fade-up-1">
             Real table prices. No hidden fees. Instant WhatsApp booking at Mayfair&apos;s
             finest nightclubs — from £1,000 minimum spend.
           </p>
-          <p className="text-text-muted text-base mb-8 max-w-xl mx-auto">
+          <p className="text-text-muted text-[0.9375rem] mb-9 max-w-lg animate-fade-up-2">
             We work directly with the venues so you know exactly what you&apos;re paying
             before you arrive. No surprises, no inflated quotes.
           </p>
-          <WhatsAppCTA />
+          <div className="animate-fade-up-3">
+            <WhatsAppCTA />
+          </div>
         </div>
       </HeroImage>
 
-      {/* Why Book With Us */}
-      <section className="py-16 px-4 border-t border-border">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
-            Why Book Your Table Through Us
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center">
-                <svg className="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Transparent Pricing</h3>
-              <p className="text-text-muted text-sm leading-relaxed">
-                Every club page shows real starting prices. We don&apos;t hide behind
-                &quot;contact us for a quote&quot; — you know what to expect before you message.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center">
-                <svg className="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Instant WhatsApp Booking</h3>
-              <p className="text-text-muted text-sm leading-relaxed">
-                No forms, no email chains, no waiting days for a reply. Message us on
-                WhatsApp and we&apos;ll confirm your table within minutes.
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center">
-                <svg className="w-6 h-6 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Direct Venue Relationships</h3>
-              <p className="text-text-muted text-sm leading-relaxed">
-                We work directly with every club listed on this site. Your booking goes
-                straight to the venue — no middlemen, no inflated prices.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Badges */}
-      <section className="py-10 px-4 border-t border-border bg-bg-secondary">
-        <div className="max-w-4xl mx-auto">
+      {/* Trust ledger */}
+      <section className="px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto -mt-px">
           <TrustBadges />
         </div>
       </section>
 
-      {/* Clubs Grid */}
-      <section className="py-16 px-4 border-t border-border" id="clubs">
+      {/* Why Book With Us */}
+      <section className="py-20 md:py-24 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-4">
+          <p className="eyebrow mb-4">No. 02 &mdash; The House Rules</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-14 max-w-xl">
+            Why Book Your Table Through Us
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
+            {[
+              {
+                n: "01",
+                title: "Transparent Pricing",
+                body:
+                  "Every club page shows real starting prices. We don't hide behind “contact us for a quote” — you know what to expect before you message.",
+              },
+              {
+                n: "02",
+                title: "Instant WhatsApp Booking",
+                body:
+                  "No forms, no email chains, no waiting days for a reply. Message us on WhatsApp and we'll confirm your table within minutes.",
+              },
+              {
+                n: "03",
+                title: "Direct Venue Relationships",
+                body:
+                  "We work directly with every club listed on this site. Your booking goes straight to the venue — no middlemen, no inflated prices.",
+              },
+            ].map((item) => (
+              <div key={item.n} className="border-t border-border-light pt-6">
+                <p className="font-mono text-[0.6875rem] text-gold-dark tracking-[0.25em] mb-4">
+                  {item.n}
+                </p>
+                <h3 className="font-display text-xl font-medium mb-3">{item.title}</h3>
+                <p className="text-text-muted text-sm leading-relaxed">{item.body}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Clubs Grid */}
+      <section className="py-20 md:py-24 px-4 sm:px-6 border-t border-border bg-bg-secondary" id="clubs">
+        <div className="max-w-6xl mx-auto">
+          <p className="eyebrow mb-4">No. 03 &mdash; The Clubs</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-5 max-w-2xl">
             VIP Table Prices at London&apos;s Best Clubs
           </h2>
-          <p className="text-text-muted text-center mb-12 max-w-2xl mx-auto">
+          <p className="text-text-muted max-w-xl mb-16 text-[0.9375rem] leading-relaxed">
             Every club below has its own page with full pricing, what&apos;s included,
             opening nights, dress code, and everything else you need to know.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {clubs.map((club) => (
-              <ClubCard key={club.slug} club={club} />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-16 md:gap-y-20">
+            {clubs.map((club, i) => (
+              <div key={club.slug} className={i % 2 === 1 ? "lg:translate-y-12" : ""}>
+                <ClubCard club={club} index={i} total={clubs.length} />
+              </div>
             ))}
           </div>
         </div>
       </section>
 
       {/* How It Works */}
-      <section className="py-16 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-20 md:py-24 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
+          <p className="eyebrow mb-4">No. 04 &mdash; The Process</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-14 max-w-xl">
             How to Book Bottle Service in London
           </h2>
-          <div className="space-y-8">
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gold/20 text-gold font-bold flex items-center justify-center">
-                1
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg mb-1">Pick Your Club</h3>
-                <p className="text-text-muted text-sm leading-relaxed">
-                  Browse our club pages to compare prices, music policies, vibes, and opening nights.
-                  Each page has everything you need to decide.
+          <div className="border-t border-border">
+            {[
+              {
+                n: "01",
+                title: "Pick Your Club",
+                body:
+                  "Browse our club pages to compare prices, music policies, vibes, and opening nights. Each page has everything you need to decide.",
+              },
+              {
+                n: "02",
+                title: "Message Us on WhatsApp",
+                body:
+                  "Tap the WhatsApp button on any page. The message pre-fills with the club name — just add your date, group size, and any preferences.",
+              },
+              {
+                n: "03",
+                title: "Get Confirmed",
+                body:
+                  "We confirm your table directly with the venue, usually within minutes. You'll get your table details, arrival time, and everything you need for the night.",
+              },
+            ].map((step) => (
+              <div
+                key={step.n}
+                className="grid grid-cols-[3rem_1fr] md:grid-cols-[5rem_16rem_1fr] gap-4 md:gap-8 py-7 border-b border-border items-baseline"
+              >
+                <span className="font-display text-3xl md:text-4xl font-light text-gold-dark leading-none">
+                  {step.n}
+                </span>
+                <h3 className="font-display text-xl font-medium">{step.title}</h3>
+                <p className="text-text-muted text-sm leading-relaxed col-span-2 md:col-span-1 col-start-2 md:col-start-auto">
+                  {step.body}
                 </p>
               </div>
-            </div>
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gold/20 text-gold font-bold flex items-center justify-center">
-                2
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg mb-1">Message Us on WhatsApp</h3>
-                <p className="text-text-muted text-sm leading-relaxed">
-                  Tap the WhatsApp button on any page. The message pre-fills with the club name —
-                  just add your date, group size, and any preferences.
-                </p>
-              </div>
-            </div>
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-10 h-10 rounded-full bg-gold/20 text-gold font-bold flex items-center justify-center">
-                3
-              </div>
-              <div>
-                <h3 className="font-semibold text-lg mb-1">Get Confirmed</h3>
-                <p className="text-text-muted text-sm leading-relaxed">
-                  We confirm your table directly with the venue, usually within minutes.
-                  You&apos;ll get your table details, arrival time, and everything you need for the night.
-                </p>
-              </div>
-            </div>
+            ))}
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-14">
             <WhatsAppCTA />
           </div>
         </div>
       </section>
 
       {/* Guides & Resources */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-xl font-bold text-center mb-8">Guides &amp; Resources</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <Link href="/best-clubs-bottle-service-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Best Clubs Ranked</p>
-              <p className="text-text-muted text-xs mt-1">Our honest reviews</p>
-            </Link>
-            <Link href="/club-table-prices-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Table Prices</p>
-              <p className="text-text-muted text-xs mt-1">Full price comparison</p>
-            </Link>
-            <Link href="/best-vip-tables-in-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Best VIP Tables</p>
-              <p className="text-text-muted text-xs mt-1">Premium positions ranked</p>
-            </Link>
-            <Link href="/guestlist-vs-table-booking-london" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Guestlist vs Table</p>
-              <p className="text-text-muted text-xs mt-1">Which should you choose?</p>
-            </Link>
-            <Link href="/mayfair-table-booking-guide" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Mayfair Guide</p>
-              <p className="text-text-muted text-xs mt-1">Area booking guide</p>
-            </Link>
-            <Link href="/bottle-service-guide" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">What is Bottle Service?</p>
-              <p className="text-text-muted text-xs mt-1">Complete explainer</p>
-            </Link>
-            <Link href="/clubs-by-night" className="bg-bg-card border border-border rounded-lg p-4 hover:border-gold/30 transition-colors group text-center">
-              <p className="font-semibold text-sm group-hover:text-gold transition-colors">Clubs by Night</p>
-              <p className="text-text-muted text-xs mt-1">What&apos;s open when</p>
-            </Link>
-            <Link href="/book-a-table" className="bg-bg-card border border-gold/30 rounded-lg p-4 hover:border-gold/50 transition-colors group text-center">
-              <p className="font-semibold text-sm text-gold group-hover:text-gold-light transition-colors">Book a Table</p>
-              <p className="text-text-muted text-xs mt-1">All clubs, instant booking</p>
-            </Link>
+          <p className="eyebrow mb-4">No. 05 &mdash; Read before you book</p>
+          <h2 className="font-display text-2xl md:text-3xl font-normal mb-10">
+            Guides &amp; Resources
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-12 border-t border-border md:border-t-0">
+            {[
+              { href: "/best-clubs-bottle-service-london", label: "Best Clubs Ranked", desc: "Our honest reviews" },
+              { href: "/club-table-prices-london", label: "Table Prices", desc: "Full price comparison" },
+              { href: "/best-vip-tables-in-london", label: "Best VIP Tables", desc: "Premium positions ranked" },
+              { href: "/guestlist-vs-table-booking-london", label: "Guestlist vs Table", desc: "Which should you choose?" },
+              { href: "/mayfair-table-booking-guide", label: "Mayfair Guide", desc: "Area booking guide" },
+              { href: "/bottle-service-guide", label: "What is Bottle Service?", desc: "Complete explainer" },
+              { href: "/clubs-by-night", label: "Clubs by Night", desc: "What's open when" },
+              { href: "/book-a-table", label: "Book a Table", desc: "All clubs, instant booking" },
+            ].map((g, i) => (
+              <Link
+                key={g.href}
+                href={g.href}
+                className="flex items-baseline gap-4 py-3.5 border-b border-border md:first:border-t md:[&:nth-child(2)]:border-t group hover:bg-bg-card/40 transition-colors"
+              >
+                <span className="font-mono text-[0.625rem] text-gold-dark w-6 shrink-0">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="font-display text-base font-medium text-text-primary group-hover:text-gold-light transition-colors">
+                  {g.label}
+                </span>
+                <span className="dotted-leader" aria-hidden="true" />
+                <span className="text-text-muted text-xs shrink-0">{g.desc}</span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section className="py-16 px-4 border-t border-border">
+      <section className="py-20 md:py-24 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
+          <p className="eyebrow mb-4">No. 06 &mdash; Questions, Answered Plainly</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-12">
             Frequently Asked Questions About Bottle Service in London
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {homeFAQs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">
+              <div key={i} className="py-7 border-b border-border">
+                <h3 className="font-display text-xl font-medium mb-3">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">
                   {faq.answer}
                 </p>
               </div>

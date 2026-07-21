@@ -69,67 +69,73 @@ export default function BookATablePage() {
 
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-          <span className="mx-2">/</span>
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">Book a Table</span>
         </nav>
       </div>
 
       {/* Hero */}
       <HeroImage src={pageImages.bookATable.hero} alt={pageImages.bookATable.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">Reservations</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">
           Book a VIP Table at London&apos;s Best Clubs
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+        <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-2xl animate-fade-up-2">
           Choose your club, message us on WhatsApp, and we&apos;ll confirm your table
           directly with the venue. Real prices, instant confirmation, no booking fees.
         </p>
-        <WhatsAppCTA urgencyMessage="Weekend tables fill fast — book now to secure your spot" />
+        <div className="animate-fade-up-3">
+          <WhatsAppCTA urgencyMessage="Weekend tables fill fast — book now to secure your spot" />
+        </div>
       </HeroImage>
 
       {/* Trust Badges */}
-      <section className="py-8 px-4 border-y border-border bg-bg-secondary">
-        <div className="max-w-4xl mx-auto">
+      <section className="px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto -mt-px">
           <TrustBadges />
         </div>
       </section>
 
       {/* Club Booking Grid */}
-      <section className="py-12 px-4">
+      <section className="py-16 md:py-20 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+          <p className="eyebrow mb-4">The clubs</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Choose Your Club
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {clubs.map((club) => (
+            {clubs.map((club, i) => (
               <Link
                 key={club.slug}
                 href={club.bookingSlug ? `/${club.bookingSlug}` : `/clubs/${club.slug}`}
-                className="bg-bg-card border border-border rounded-xl p-5 hover:border-gold/30 transition-colors group"
+                className="bg-bg-card border border-border p-6 hover:border-gold-dark hover:bg-bg-card/40 transition-colors group"
               >
-                <h3 className="font-bold text-lg group-hover:text-gold transition-colors mb-1">
+                <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-3">
+                  No. {String(i + 1).padStart(2, "0")} &mdash; {club.area}
+                </p>
+                <h3 className="font-display italic text-xl font-normal group-hover:text-gold-light transition-colors mb-4">
                   {club.name}
                 </h3>
-                <p className="text-text-muted text-xs mb-3">{club.area}</p>
-                <div className="flex items-baseline gap-3 mb-3">
-                  <div>
-                    <p className="text-xs text-text-muted">Floor Table</p>
-                    <p className="text-gold font-bold">
-                      &pound;{club.pricing.floorTable.toLocaleString()}
-                    </p>
-                  </div>
-                  <div>
-                    <p className="text-xs text-text-muted">VIP Table</p>
-                    <p className="text-gold font-bold">
-                      &pound;{club.pricing.vipTable.toLocaleString()}
-                    </p>
-                  </div>
+                <div className="flex items-baseline mb-2">
+                  <span className="text-xs text-text-muted">Floor Table</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">
+                    <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
+                  </span>
                 </div>
-                <p className="text-text-muted text-xs mb-3">
-                  {club.openingNights.join(", ")}
+                <div className="flex items-baseline mb-4">
+                  <span className="text-xs text-text-muted">VIP Table</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">
+                    <span className="price-sign">&pound;</span>{club.pricing.vipTable.toLocaleString()}
+                  </span>
+                </div>
+                <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-4">
+                  {club.openingNights.join(" — ")}
                 </p>
-                <span className="text-gold text-sm font-semibold group-hover:underline">
+                <span className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold group-hover:text-gold-light transition-colors">
                   Book a Table &rarr;
                 </span>
               </Link>
@@ -139,9 +145,10 @@ export default function BookATablePage() {
       </section>
 
       {/* How It Works */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">
+          <p className="eyebrow mb-4">The process</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             How It Works
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -151,12 +158,12 @@ export default function BookATablePage() {
               { step: "3", title: "We Confirm", desc: "We contact the venue directly and confirm your table — usually within minutes." },
               { step: "4", title: "Arrive & Enjoy", desc: "Skip the queue, sit down at your reserved table, and your personal waitress is ready." },
             ].map((item) => (
-              <div key={item.step} className="text-center">
-                <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center text-gold font-bold text-lg mx-auto mb-3">
+              <div key={item.step}>
+                <p className="font-display text-3xl font-light text-gold-dark leading-none mb-3">
                   {item.step}
-                </div>
-                <h3 className="font-semibold mb-2">{item.title}</h3>
-                <p className="text-text-muted text-sm">{item.desc}</p>
+                </p>
+                <h3 className="font-display text-lg font-medium mb-2">{item.title}</h3>
+                <p className="text-text-muted text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -164,30 +171,22 @@ export default function BookATablePage() {
       </section>
 
       {/* Not Sure Section */}
-      <section className="py-12 px-4 border-t border-border">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-xl font-bold mb-4">Not Sure Which Club?</h2>
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
+        <div className="max-w-3xl mx-auto">
+          <p className="eyebrow mb-4">Further reading</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">Not Sure Which Club?</h2>
           <p className="text-text-muted mb-6">
             Message us on WhatsApp with what you&apos;re looking for and we&apos;ll
             recommend the perfect venue. Or check out our guides:
           </p>
-          <div className="flex flex-wrap justify-center gap-3">
-            <Link
-              href="/best-clubs-bottle-service-london"
-              className="text-sm bg-bg-card border border-border px-4 py-2 rounded-lg hover:border-gold/30 hover:text-gold transition-colors"
-            >
+          <div className="flex flex-wrap gap-3">
+            <Link href="/best-clubs-bottle-service-london" className="btn-secondary">
               Best Clubs Guide
             </Link>
-            <Link
-              href="/clubs-by-night"
-              className="text-sm bg-bg-card border border-border px-4 py-2 rounded-lg hover:border-gold/30 hover:text-gold transition-colors"
-            >
+            <Link href="/clubs-by-night" className="btn-secondary">
               Clubs by Night
             </Link>
-            <Link
-              href="/bottle-service-guide"
-              className="text-sm bg-bg-card border border-border px-4 py-2 rounded-lg hover:border-gold/30 hover:text-gold transition-colors"
-            >
+            <Link href="/bottle-service-guide" className="btn-secondary">
               Bottle Service Guide
             </Link>
           </div>
@@ -195,16 +194,17 @@ export default function BookATablePage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8 text-center">
+          <p className="eyebrow mb-4">Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Table Booking — Frequently Asked Questions
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6 bg-bg-card">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">{faq.answer}</p>
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -212,9 +212,10 @@ export default function BookATablePage() {
       </section>
 
       {/* Final CTA */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">Ready to Book?</h2>
+          <p className="eyebrow mb-4">Reservations</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">Ready to Book?</h2>
           <p className="text-text-muted mb-8">
             Message us on WhatsApp and we&apos;ll have your table confirmed within minutes.
           </p>

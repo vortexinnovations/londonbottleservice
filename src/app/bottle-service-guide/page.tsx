@@ -89,19 +89,20 @@ export default function BottleServiceGuidePage() {
 
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-          <span className="mx-2">/</span>
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">Bottle Service Guide</span>
         </nav>
       </div>
 
       {/* Hero */}
-      <HeroImage src={pageImages.bottleServiceGuide.hero} alt={pageImages.bottleServiceGuide.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+      <HeroImage src={pageImages.bottleServiceGuide.hero} alt={pageImages.bottleServiceGuide.alt} height="h-auto min-h-[40vh]" overlay="strong">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] pt-24 md:pt-32 mb-4 animate-fade-up">The complete guide</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
           What is Bottle Service? The Complete London Guide
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl">
+        <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           If you&apos;ve never booked bottle service before, the whole concept can seem
           confusing. What&apos;s a minimum spend? What do you actually get? Is it worth
           the money? This guide answers every question so you know exactly what to
@@ -117,9 +118,10 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* What is Bottle Service */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 01 &mdash; The concept</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What Bottle Service Actually Means
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
@@ -135,35 +137,40 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* How Minimum Spend Works */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 02 &mdash; Minimum spend</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How Minimum Spend Works at London Nightclubs
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
             This is the bit that confuses most people, so let&apos;s be clear: the minimum spend is not an entry fee. It&apos;s the minimum amount you spend on bottles at your table.
           </p>
-          <div className="bg-bg-card border border-border rounded-xl p-6 mb-6">
-            <h3 className="font-semibold text-lg mb-4 text-gold">Example: £1,000 Minimum Spend</h3>
-            <ul className="space-y-2 text-text-secondary text-sm">
-              <li className="flex items-start gap-2">
-                <span className="text-gold">&#8226;</span>
-                1 bottle of Grey Goose vodka: ~£350
+          <div className="bg-bg-card border border-border p-6 mb-6">
+            <p className="eyebrow mb-4">Example: £1,000 Minimum Spend</p>
+            <ul className="space-y-3 text-text-secondary text-sm">
+              <li className="flex items-baseline">
+                <span>1 bottle of Grey Goose vodka</span>
+                <span className="dotted-leader" aria-hidden="true" />
+                <span className="price">~<span className="price-sign">&pound;</span>350</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-gold">&#8226;</span>
-                1 bottle of Moët Champagne: ~£350
+              <li className="flex items-baseline">
+                <span>1 bottle of Moët Champagne</span>
+                <span className="dotted-leader" aria-hidden="true" />
+                <span className="price">~<span className="price-sign">&pound;</span>350</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-gold">&#8226;</span>
-                1 bottle of Hennessy: ~£350
+              <li className="flex items-baseline">
+                <span>1 bottle of Hennessy</span>
+                <span className="dotted-leader" aria-hidden="true" />
+                <span className="price">~<span className="price-sign">&pound;</span>350</span>
               </li>
-              <li className="flex items-start gap-2">
-                <span className="text-gold font-bold">Total:</span>
-                ~£1,050 — minimum spend met
+              <li className="flex items-baseline pt-2 border-t border-border">
+                <span className="text-gold">Total</span>
+                <span className="dotted-leader" aria-hidden="true" />
+                <span><span className="price">~<span className="price-sign">&pound;</span>1,050</span> &mdash; minimum spend met</span>
               </li>
             </ul>
-            <p className="text-text-muted text-sm mt-4">
+            <p className="microline text-text-muted mt-4">
               Mixers, ice, and garnishes are included in the bottle price. You don&apos;t pay extra for coke, tonic, or Red Bull.
             </p>
           </div>
@@ -174,14 +181,15 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* What's Included */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 03 &mdash; What&apos;s included</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What You Get with Bottle Service in London
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="space-y-4">
-              <h3 className="font-semibold text-lg">Always Included</h3>
+              <h3 className="eyebrow mb-4">Always Included</h3>
               <ul className="space-y-3">
                 {[
                   "A reserved table and seating area (yours all night)",
@@ -192,7 +200,7 @@ export default function BottleServiceGuidePage() {
                   "Ice and garnishes (lime, lemon, etc.)",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-text-secondary text-sm">
-                    <svg className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-gold-dark flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     {item}
@@ -201,7 +209,7 @@ export default function BottleServiceGuidePage() {
               </ul>
             </div>
             <div className="space-y-4">
-              <h3 className="font-semibold text-lg">Available on Request</h3>
+              <h3 className="eyebrow mb-4">Available on Request</h3>
               <ul className="space-y-3">
                 {[
                   "Birthday cakes and custom messages",
@@ -212,7 +220,7 @@ export default function BottleServiceGuidePage() {
                   "Combined dinner and club packages (at select venues)",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-text-secondary text-sm">
-                    <svg className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-gold-dark flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
                     </svg>
                     {item}
@@ -225,38 +233,39 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* Dress Code */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 04 &mdash; Dress code</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What to Wear — Mayfair Club Dress Code
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
             Every Mayfair club enforces a dress code and the door staff are genuinely selective. Having a table booking helps, but you can still be turned away if your outfit doesn&apos;t meet the standard. Here&apos;s the honest rundown:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-card border border-border rounded-xl p-6">
-              <h3 className="font-semibold text-lg mb-4">Men</h3>
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">Men</h3>
               <ul className="space-y-2 text-text-secondary text-sm">
-                <li><span className="text-green-500">&#10003;</span> Collared shirts (button-down, polo in some venues)</li>
-                <li><span className="text-green-500">&#10003;</span> Smart trousers or dark, well-fitted jeans</li>
-                <li><span className="text-green-500">&#10003;</span> Smart shoes or smart boots</li>
-                <li><span className="text-green-500">&#10003;</span> Blazers or jackets (encouraged, not always required)</li>
-                <li className="mt-3"><span className="text-red-500">&#10007;</span> Trainers, sneakers, or casual shoes</li>
-                <li><span className="text-red-500">&#10007;</span> T-shirts or hoodies</li>
-                <li><span className="text-red-500">&#10007;</span> Sportswear, tracksuits, or shorts</li>
-                <li><span className="text-red-500">&#10007;</span> Ripped jeans or heavily distressed denim</li>
+                <li><span className="text-success">&#10003;</span> Collared shirts (button-down, polo in some venues)</li>
+                <li><span className="text-success">&#10003;</span> Smart trousers or dark, well-fitted jeans</li>
+                <li><span className="text-success">&#10003;</span> Smart shoes or smart boots</li>
+                <li><span className="text-success">&#10003;</span> Blazers or jackets (encouraged, not always required)</li>
+                <li className="mt-3"><span className="text-danger">&#10007;</span> Trainers, sneakers, or casual shoes</li>
+                <li><span className="text-danger">&#10007;</span> T-shirts or hoodies</li>
+                <li><span className="text-danger">&#10007;</span> Sportswear, tracksuits, or shorts</li>
+                <li><span className="text-danger">&#10007;</span> Ripped jeans or heavily distressed denim</li>
               </ul>
             </div>
-            <div className="bg-bg-card border border-border rounded-xl p-6">
-              <h3 className="font-semibold text-lg mb-4">Women</h3>
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="eyebrow mb-4">Women</h3>
               <ul className="space-y-2 text-text-secondary text-sm">
-                <li><span className="text-green-500">&#10003;</span> Cocktail dresses and evening dresses</li>
-                <li><span className="text-green-500">&#10003;</span> Heels, smart boots, or elegant flats</li>
-                <li><span className="text-green-500">&#10003;</span> Smart separates (blazer and trousers, etc.)</li>
-                <li><span className="text-green-500">&#10003;</span> Dressy jumpsuits</li>
-                <li className="mt-3"><span className="text-red-500">&#10007;</span> Casual trainers or flip-flops</li>
-                <li><span className="text-red-500">&#10007;</span> Sportswear or gym clothes</li>
-                <li><span className="text-red-500">&#10007;</span> Very casual daywear</li>
+                <li><span className="text-success">&#10003;</span> Cocktail dresses and evening dresses</li>
+                <li><span className="text-success">&#10003;</span> Heels, smart boots, or elegant flats</li>
+                <li><span className="text-success">&#10003;</span> Smart separates (blazer and trousers, etc.)</li>
+                <li><span className="text-success">&#10003;</span> Dressy jumpsuits</li>
+                <li className="mt-3"><span className="text-danger">&#10007;</span> Casual trainers or flip-flops</li>
+                <li><span className="text-danger">&#10007;</span> Sportswear or gym clothes</li>
+                <li><span className="text-danger">&#10007;</span> Very casual daywear</li>
               </ul>
             </div>
           </div>
@@ -269,9 +278,10 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* Is It Worth It */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 05 &mdash; The verdict</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Is Bottle Service Worth It?
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
@@ -291,16 +301,17 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* FAQs */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">No. 06 &mdash; Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Bottle Service FAQ — Every Question Answered
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6 bg-bg-card">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">{faq.answer}</p>
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -308,14 +319,15 @@ export default function BottleServiceGuidePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          <p className="eyebrow mb-4">Reservations</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
             Ready to Book Your First Table?
           </h2>
           <p className="text-text-muted mb-4">
-            Browse our <Link href="/#clubs" className="text-gold hover:underline">club pages</Link> to find
-            the right venue, or check out our <Link href="/best-clubs-bottle-service-london" className="text-gold hover:underline">best clubs guide</Link> for recommendations.
+            Browse our <Link href="/#clubs" className="text-gold hover:text-gold-light transition-colors">club pages</Link> to find
+            the right venue, or check out our <Link href="/best-clubs-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">best clubs guide</Link> for recommendations.
           </p>
           <p className="text-text-muted mb-8">
             When you&apos;re ready, tap the button below and we&apos;ll get your table sorted.

@@ -47,22 +47,23 @@ export default function LuxxPage() {
       <FAQSchema faqs={faqs} />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-          <span className="mx-2">/</span>
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">Luxx Club London</span>
         </nav>
       </div>
 
-      <section className="py-12 md:py-20 px-4">
+      <section className="py-16 md:py-20 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">
-            Luxx Club London — Now <span className="text-gold">Funky Buddha</span>
+          <p className="eyebrow mb-4 animate-fade-up">Rebrand notice</p>
+          <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
+            Luxx Club London — Now <em className="text-gold-light italic">Funky Buddha</em>
           </h1>
           <p className="text-text-secondary text-lg leading-relaxed mb-6">
             If you&apos;re searching for Luxx Club London, you&apos;ve found the right place.
             Luxx has closed and the venue has been rebranded as{" "}
-            <Link href="/clubs/funky-buddha" className="text-gold hover:underline font-medium">
+            <Link href="/clubs/funky-buddha" className="text-gold hover:text-gold-light transition-colors font-medium">
               Funky Buddha
             </Link>{" "}
             — reviving one of the most iconic names in Mayfair nightlife history.
@@ -82,18 +83,18 @@ export default function LuxxPage() {
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Link
               href="/clubs/funky-buddha"
-              className="inline-flex items-center justify-center gap-2 py-3.5 px-8 bg-gold hover:bg-gold-light text-bg-primary font-semibold rounded-lg transition-colors"
+              className="btn-secondary"
             >
               View Funky Buddha Prices &amp; Details &rarr;
             </Link>
             <WhatsAppCTA clubName="Funky Buddha" />
           </div>
 
-          <div className="bg-bg-card border border-border rounded-xl p-6 mb-8">
-            <h2 className="text-xl font-bold mb-4">Quick Comparison: Luxx vs Funky Buddha</h2>
+          <div className="bg-bg-card border border-border p-6 mb-8">
+            <h2 className="font-display text-xl font-normal mb-6">Quick Comparison: Luxx vs Funky Buddha</h2>
             <div className="grid grid-cols-2 gap-4 text-sm">
               <div>
-                <h3 className="text-text-muted font-medium mb-2">Luxx (Closed)</h3>
+                <h3 className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted font-normal mb-3">Luxx (Closed)</h3>
                 <ul className="space-y-1.5 text-text-secondary">
                   <li>15 Berkeley Street, Mayfair</li>
                   <li>Tables from £1,000</li>
@@ -102,7 +103,7 @@ export default function LuxxPage() {
                 </ul>
               </div>
               <div>
-                <h3 className="text-gold font-medium mb-2">Funky Buddha (Now Open)</h3>
+                <h3 className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-gold font-normal mb-3">Funky Buddha (Now Open)</h3>
                 <ul className="space-y-1.5 text-text-secondary">
                   <li>Same location — 15 Berkeley Street</li>
                   <li>Tables from £1,000</li>
@@ -115,25 +116,27 @@ export default function LuxxPage() {
         </div>
       </section>
 
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">
+          <p className="eyebrow mb-4">Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Luxx Club London — Frequently Asked Questions
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6 bg-bg-card">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">{faq.answer}</p>
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">
+          <p className="eyebrow mb-4">Reservations</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
             Book a Table at Funky Buddha
           </h2>
           <p className="text-text-muted mb-8">

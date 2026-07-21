@@ -1,3 +1,5 @@
+import { WHATSAPP_TEL } from "@/lib/whatsapp";
+
 export function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
@@ -6,7 +8,7 @@ export function LocalBusinessSchema() {
     description:
       "VIP table and bottle service bookings at London's most exclusive Mayfair nightclubs. Real prices, instant WhatsApp booking.",
     url: "https://londonbottleservice.com",
-    telephone: "+447880662708",
+    telephone: WHATSAPP_TEL,
     image: "https://londonbottleservice.com/gallery/images/0.jpg",
     logo: "https://londonbottleservice.com/icon.svg",
     address: {
@@ -29,7 +31,7 @@ export function LocalBusinessSchema() {
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "reservations",
-      telephone: "+447880662708",
+      telephone: WHATSAPP_TEL,
       availableLanguage: "English",
     },
     priceRange: "£££",

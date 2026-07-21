@@ -26,18 +26,6 @@ export interface Club {
   faqs: { question: string; answer: string }[];
 }
 
-export const WHATSAPP_NUMBER = "447880662708";
-
-export function getWhatsAppLink(clubName?: string): string {
-  let message: string;
-  if (clubName) {
-    message = `Hi, I'd like to book a table at ${clubName}. Here are my details:\n\nDate:\nGroup size:\nOccasion:\nAny preferences:`;
-  } else {
-    message = `Hi, I found you on londonbottleservice.com and I'd like to book a table. Here are my details:\n\nClub:\nDate:\nGroup size:\nOccasion:\nAny preferences:`;
-  }
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
-}
-
 export const clubs: Club[] = [
   {
     slug: "cirque-le-soir",

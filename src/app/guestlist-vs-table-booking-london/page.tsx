@@ -81,11 +81,11 @@ export default function GuestlistVsTableBookingPage() {
       />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">/</span>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">
             Guestlist vs Table Booking
           </span>
@@ -94,10 +94,11 @@ export default function GuestlistVsTableBookingPage() {
 
       {/* Hero */}
       <HeroImage src={pageImages.guestlistVsTable.hero} alt={pageImages.guestlistVsTable.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <h1 className="text-3xl md:text-5xl font-bold mb-6">
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The comparison</p>
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
           Guestlist vs Table Booking in London — The Complete Comparison
         </h1>
-        <p className="text-text-secondary text-lg leading-relaxed mb-4">
+        <p className="text-text-secondary text-lg leading-relaxed mb-4 animate-fade-up-2">
           If you are planning a night out in London, you have two main
           options for getting into the best clubs: guestlist or table
           booking. Both get you through the door, but the experiences are
@@ -106,7 +107,7 @@ export default function GuestlistVsTableBookingPage() {
           queue. Table booking is the premium option — you get a reserved
           space, bottle service, a personal waitress, and guaranteed entry.
         </p>
-        <p className="text-text-secondary leading-relaxed mb-4">
+        <p className="text-text-secondary leading-relaxed mb-4 animate-fade-up-3">
           The right choice depends on your group size, budget, what you
           want from the night, and which club you are going to. This guide
           breaks down both options in detail so you can make an informed
@@ -114,7 +115,7 @@ export default function GuestlistVsTableBookingPage() {
           biased — but we will be honest about when guestlist is the better
           call for certain groups.
         </p>
-        <p className="text-text-muted">
+        <p className="text-text-muted animate-fade-up-3">
           We work with every club mentioned on this page and can advise on
           both guestlist availability and table booking options.
         </p>
@@ -128,113 +129,114 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* Side by Side Comparison */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 01 — Side by side</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Guestlist vs Table Booking — Side by Side
           </h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-border">
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                <tr className="border-b border-border-light">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Feature
                   </th>
-                  <th className="text-left py-3 pr-4 text-text-muted font-medium">
+                  <th className="text-left py-3 pr-4 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Guestlist
                   </th>
-                  <th className="text-left py-3 text-text-muted font-medium">
+                  <th className="text-left py-3 font-mono text-[0.625rem] uppercase tracking-[0.2em] text-text-muted font-normal">
                     Table Booking
                   </th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Cost
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    Free or £10-£30pp cover
+                    Free or <span className="price">£10-£30pp</span> cover
                   </td>
                   <td className="py-3 text-text-muted">
-                    £1,000-£1,500 min. spend (covers drinks)
+                    <span className="price">£1,000-£1,500</span> min. spend (covers drinks)
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Entry Guarantee
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
                     Not guaranteed — door discretion applies
                   </td>
-                  <td className="py-3 text-gold font-medium">
+                  <td className="py-3 text-gold-light">
                     Guaranteed for your entire group
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Queue
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
                     May skip general queue, not always
                   </td>
-                  <td className="py-3 text-gold font-medium">
+                  <td className="py-3 text-gold-light">
                     Priority entry — skip the queue entirely
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Seating
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
                     No reserved space — standing or finding space
                   </td>
-                  <td className="py-3 text-gold font-medium">
+                  <td className="py-3 text-gold-light">
                     Reserved table and seating area
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Drinks
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    Buy individually at the bar (£15-£20 each)
+                    Buy individually at the bar (<span className="price">£15-£20</span> each)
                   </td>
-                  <td className="py-3 text-gold font-medium">
+                  <td className="py-3 text-gold-light">
                     Bottles served to your table by a waitress
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Service
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
                     Self-service at the bar
                   </td>
-                  <td className="py-3 text-gold font-medium">
+                  <td className="py-3 text-gold-light">
                     Personal waitress assigned to your table
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Best For
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
                     Small groups, budget-conscious, venue-hopping
                   </td>
-                  <td className="py-3 text-gold font-medium">
+                  <td className="py-3 text-gold-light">
                     Groups of 6+, celebrations, guaranteed experience
                   </td>
                 </tr>
-                <tr className="border-b border-border/50">
+                <tr className="border-b border-border">
                   <td className="py-3 pr-4 text-text-secondary font-medium">
                     Per Person (Group of 8)
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    £10-£30 entry + £60-£100 drinks = £70-£130
+                    <span className="price">£10-£30</span> entry + <span className="price">£60-£100</span> drinks = <span className="price">£70-£130</span>
                   </td>
-                  <td className="py-3 text-gold font-medium">
-                    £125pp (all drinks included)
+                  <td className="py-3 text-gold-light">
+                    <span className="price">£125pp</span> (all drinks included)
                   </td>
                 </tr>
               </tbody>
@@ -244,9 +246,10 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* Cost Comparison Deep Dive */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 02 — The costs</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             The Real Cost Comparison
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -257,33 +260,39 @@ export default function GuestlistVsTableBookingPage() {
             larger groups.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-lg mb-4">
+            <div className="bg-bg-card border border-border p-6">
+              <p className="eyebrow mb-2">Ledger A</p>
+              <h3 className="font-display text-lg font-medium mb-4">
                 Guestlist Night — Typical Cost
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Cover charge (if applicable)</span>
-                  <span className="text-text-secondary">£0-£30</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price"><span className="price-sign">&pound;</span>0-<span className="price-sign">&pound;</span>30</span>
                 </li>
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Cocktails at the bar (4-6 drinks)</span>
-                  <span className="text-text-secondary">£60-£120</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price"><span className="price-sign">&pound;</span>60-<span className="price-sign">&pound;</span>120</span>
                 </li>
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Queue time</span>
-                  <span className="text-text-secondary">30-90 mins</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">30-90 mins</span>
                 </li>
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Cloakroom</span>
-                  <span className="text-text-secondary">£2-£5</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price"><span className="price-sign">&pound;</span>2-<span className="price-sign">&pound;</span>5</span>
                 </li>
-                <li className="flex justify-between border-t border-border pt-3">
-                  <span className="font-semibold text-text-primary">
+                <li className="flex items-baseline border-t border-border-light pt-3">
+                  <span className="font-medium text-text-primary">
                     Total per person
                   </span>
-                  <span className="font-semibold text-text-primary">
-                    £70-£155
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">
+                    <span className="price-sign">&pound;</span>70-<span className="price-sign">&pound;</span>155
                   </span>
                 </li>
               </ul>
@@ -292,35 +301,41 @@ export default function GuestlistVsTableBookingPage() {
                 reserved space inside.
               </p>
             </div>
-            <div className="bg-bg-card border border-gold/30 rounded-lg p-6">
-              <h3 className="font-semibold text-lg mb-4">
+            <div className="bg-bg-card border border-gold-dark p-6">
+              <p className="eyebrow mb-2">Ledger B</p>
+              <h3 className="font-display text-lg font-medium mb-4">
                 Table Booking — Typical Cost
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>
                     Min. spend (group of 8 at £1,000)
                   </span>
-                  <span className="text-gold">£125pp</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price"><span className="price-sign">&pound;</span>125pp</span>
                 </li>
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Drinks covered by min. spend</span>
-                  <span className="text-gold">Included</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">Included</span>
                 </li>
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Queue time</span>
-                  <span className="text-gold">0 mins</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">0 mins</span>
                 </li>
-                <li className="flex justify-between">
+                <li className="flex items-baseline">
                   <span>Entry guarantee</span>
-                  <span className="text-gold">Guaranteed</span>
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">Guaranteed</span>
                 </li>
-                <li className="flex justify-between border-t border-border pt-3">
-                  <span className="font-semibold text-text-primary">
+                <li className="flex items-baseline border-t border-border-light pt-3">
+                  <span className="font-medium text-text-primary">
                     Total per person
                   </span>
-                  <span className="font-semibold text-gold">
-                    £125
+                  <span className="dotted-leader" aria-hidden="true" />
+                  <span className="price">
+                    <span className="price-sign">&pound;</span>125
                   </span>
                 </li>
               </ul>
@@ -340,9 +355,10 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* Experience Comparison */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 03 — The experience</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             The Experience Difference
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
@@ -351,8 +367,8 @@ export default function GuestlistVsTableBookingPage() {
             busiest venues on weekend nights.
           </p>
           <div className="space-y-6">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="font-display text-xl font-normal mb-3">
                 The Guestlist Experience
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -369,8 +385,8 @@ export default function GuestlistVsTableBookingPage() {
                 be frustrating.
               </p>
             </div>
-            <div className="bg-bg-card border border-gold/30 rounded-lg p-6">
-              <h3 className="font-semibold text-gold mb-3">
+            <div className="bg-bg-card border border-gold-dark p-6">
+              <h3 className="font-display text-xl font-normal mb-3">
                 The Table Booking Experience
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
@@ -392,9 +408,10 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* Club-Specific Comparison */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 04 — The clubs</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Guestlist vs Table Booking — By Club
           </h2>
           <p className="text-text-muted mb-8">
@@ -403,7 +420,7 @@ export default function GuestlistVsTableBookingPage() {
             table booking is practically essential. Here is how it breaks
             down at every club we work with.
           </p>
-          <div className="space-y-4">
+          <div className="border-t border-border">
             {clubs.map((club) => {
               const isHardDoor =
                 club.slug === "tape-london" ||
@@ -415,51 +432,51 @@ export default function GuestlistVsTableBookingPage() {
               return (
                 <div
                   key={club.slug}
-                  className="bg-bg-card border border-border rounded-lg p-5"
+                  className="py-5 border-b border-border hover:bg-bg-card/40 transition-colors"
                 >
-                  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 mb-2">
-                    <h3 className="font-semibold">
+                  <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-3 mb-2">
+                    <h3 className="font-display italic text-lg font-normal">
                       <Link
                         href={`/${club.bookingSlug}`}
-                        className="text-gold hover:underline"
+                        className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
                       </Link>
                     </h3>
-                    <div className="flex gap-2">
-                      <span className="text-xs px-3 py-1 bg-bg-secondary border border-border rounded-full text-text-muted">
-                        Table from £
-                        {club.pricing.floorTable.toLocaleString()}
+                    <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+                      Table from{" "}
+                      <span className="text-gold">
+                        £{club.pricing.floorTable.toLocaleString()}
                       </span>
                       {isHardDoor && (
-                        <span className="text-xs px-3 py-1 bg-gold/10 border border-gold/30 rounded-full text-gold">
-                          Table recommended
+                        <span className="text-gold">
+                          {" "}&mdash; Table recommended
                         </span>
                       )}
-                    </div>
+                    </p>
                   </div>
-                  <p className="text-text-muted text-sm mb-2">
+                  <p className="text-text-muted text-sm mb-3">
                     {tableEssential}
                   </p>
-                  <div className="flex flex-wrap gap-3 text-xs">
+                  <div className="flex flex-wrap items-baseline gap-3">
                     <Link
                       href={`/${club.slug}-guestlist-vs-table-booking`}
-                      className="text-gold hover:underline"
+                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                     >
                       Full guestlist vs table comparison for{" "}
                       {club.shortName} &rarr;
                     </Link>
-                    <span className="text-text-muted">|</span>
+                    <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                     <Link
                       href={`/${club.bookingSlug}`}
-                      className="text-text-secondary hover:text-gold transition-colors"
+                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                     >
                       Book a table
                     </Link>
-                    <span className="text-text-muted">|</span>
+                    <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                     <Link
                       href={`/${club.slug}-table-prices`}
-                      className="text-text-secondary hover:text-gold transition-colors"
+                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                     >
                       Prices
                     </Link>
@@ -472,46 +489,47 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* When to Choose Each Option */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 05 — The decision</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             When to Choose Each Option
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-bg-card border border-border rounded-lg p-6">
-              <h3 className="font-semibold text-lg mb-4">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="font-display text-lg font-medium mb-4">
                 Choose Guestlist When...
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-text-secondary flex-shrink-0">
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">
                     1.
                   </span>
                   Your group is two to four people and you want to keep
                   costs low
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-text-secondary flex-shrink-0">
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">
                     2.
                   </span>
                   You are planning to visit multiple venues in one night
                   and do not want to commit to one
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-text-secondary flex-shrink-0">
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">
                     3.
                   </span>
                   You are going on a quieter weeknight when entry is more
                   relaxed
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-text-secondary flex-shrink-0">
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">
                     4.
                   </span>
                   You are happy to stand, queue, and buy drinks at the bar
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-text-secondary flex-shrink-0">
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">
                     5.
                   </span>
                   Budget is your primary concern and the club has
@@ -519,33 +537,33 @@ export default function GuestlistVsTableBookingPage() {
                 </li>
               </ul>
             </div>
-            <div className="bg-bg-card border border-gold/30 rounded-lg p-6">
-              <h3 className="font-semibold text-lg mb-4">
+            <div className="bg-bg-card border border-gold-dark p-6">
+              <h3 className="font-display text-lg font-medium mb-4">
                 Choose Table Booking When...
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
-                  <span className="text-gold flex-shrink-0">1.</span>
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">1.</span>
                   Your group is six or more people — the per-person value
                   is strong
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold flex-shrink-0">2.</span>
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">2.</span>
                   You are celebrating a birthday, anniversary, or special
                   occasion
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold flex-shrink-0">3.</span>
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">3.</span>
                   You need guaranteed entry — especially at exclusive
                   venues
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold flex-shrink-0">4.</span>
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">4.</span>
                   You want a premium experience with reserved seating and
                   bottle service
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-gold flex-shrink-0">5.</span>
+                  <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">5.</span>
                   You are going on a Saturday when queues are longest and
                   door policy is strictest
                 </li>
@@ -556,9 +574,10 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* The Verdict */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-bold mb-6">
+          <p className="eyebrow mb-4">No. 06 — The verdict</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             The Verdict — Our Honest Recommendation
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
@@ -585,21 +604,19 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-12 px-4 border-t border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold mb-8">
+          <p className="eyebrow mb-4">No. 07 — Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Guestlist vs Table Booking FAQs
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {faqs.map((faq, i) => (
-              <div
-                key={i}
-                className="border border-border rounded-lg p-6 bg-bg-card"
-              >
-                <h3 className="font-semibold text-lg mb-3">
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">
                   {faq.question}
                 </h3>
-                <p className="text-text-muted text-sm leading-relaxed">
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">
                   {faq.answer}
                 </p>
               </div>
@@ -609,9 +626,10 @@ export default function GuestlistVsTableBookingPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl font-bold mb-4">
+          <p className="eyebrow mb-4">Enquiries</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-4">
             Need Help Deciding?
           </h2>
           <p className="text-text-muted mb-8">

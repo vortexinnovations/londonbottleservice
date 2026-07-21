@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ReactNode } from "react";
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 export const blogContent: Record<string, ReactNode> = {
   "how-much-does-bottle-service-cost-london": (
@@ -2912,7 +2913,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         A great date night in London&apos;s best clubs comes down to choosing the right
         venue and the right table. We handle both. Message us on{" "}
-        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         with your preferred date, and we&apos;ll recommend the best venue, secure an intimate
         table position, and make sure everything is arranged before you arrive. No queues,
         no stress — just a brilliant night for two.
@@ -3075,7 +3076,7 @@ export const blogContent: Record<string, ReactNode> = {
         Midweek is where the value is, and we book tables every night of the week. Tell us
         your preferred date and group size, and we&apos;ll recommend the best venue and secure
         a strong table position at the lowest available minimum. Message us on{" "}
-        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
         &mdash; weeknight tables are easier to arrange and often available at shorter notice
@@ -3236,7 +3237,7 @@ export const blogContent: Record<string, ReactNode> = {
         and{" "}
         <Link href="/blog/where-to-sit-table-positioning-london-clubs" className="text-gold hover:underline">table positioning guide</Link>.
         Ready to book? Message us on{" "}
-        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
         &mdash; we&apos;ll handle the logistics so you can focus on the night.
@@ -3373,7 +3374,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         Ready to book a table? Message us on{" "}
-        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>.
         We will confirm your table, walk you through what is included at your chosen venue,
@@ -3530,7 +3531,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         Want to know what bottle service would cost for your group? Message us on{" "}
-        <Link href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</Link>{" "}
+        <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         with your date, group size, and preferred venue, and we will send you a personalised
         quote. Or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
@@ -3762,7 +3763,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Ready to book? Message us on{" "}
         <a
-          href="https://wa.me/447880662708"
+          href={WHATSAPP_URL}
           className="text-gold hover:underline"
         >
           WhatsApp
@@ -4030,7 +4031,7 @@ export const blogContent: Record<string, ReactNode> = {
         . If you are ready to book and want help planning your order around the
         minimum, message us on{" "}
         <a
-          href="https://wa.me/447880662708"
+          href={WHATSAPP_URL}
           className="text-gold hover:underline"
         >
           WhatsApp
@@ -4298,7 +4299,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         If you want to plan your order before you arrive, message us on{" "}
         <a
-          href="https://wa.me/447880662708"
+          href={WHATSAPP_URL}
           className="text-gold hover:underline"
         >
           WhatsApp
@@ -4535,7 +4536,7 @@ export const blogContent: Record<string, ReactNode> = {
         </Link>{" "}
         through the form, or message us directly on{" "}
         <a
-          href="https://wa.me/447880662708"
+          href={WHATSAPP_URL}
           className="text-gold hover:underline"
         >
           WhatsApp
@@ -4729,7 +4730,7 @@ export const blogContent: Record<string, ReactNode> = {
         then let your waitress pace the rest of the order against your minimum. If
         you tell us the group size and the occasion, we will recommend the right
         format and confirm it is in stock for your night. Message us on{" "}
-        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will sort the details before you walk in.
@@ -4919,7 +4920,7 @@ export const blogContent: Record<string, ReactNode> = {
         Tell us your group size, the split of champagne and spirit drinkers,
         and the night you have in mind, and we will size the order and the
         table to match before you commit. Message us on{" "}
-        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will confirm the venue&apos;s minimum and menu before your night.
@@ -5095,7 +5096,7 @@ export const blogContent: Record<string, ReactNode> = {
         Tell us the night, the group and how long you want the table to run,
         and we will match you to a venue whose timings fit rather than fight
         your plan. Message us on{" "}
-        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         or{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will confirm arrival windows, sittings and close times before
@@ -5277,7 +5278,7 @@ export const blogContent: Record<string, ReactNode> = {
         group size to the right table,{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         or message us on{" "}
-        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         and we will give you the real numbers before anyone transfers a penny.
       </p>
 
@@ -5449,7 +5450,7 @@ export const blogContent: Record<string, ReactNode> = {
         everyone.{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">Book a table</Link>{" "}
         or message us on{" "}
-        <a href="https://wa.me/447880662708" className="text-gold hover:underline">WhatsApp</a>{" "}
+        <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         and we will sort the details before anyone arrives.
       </p>
 

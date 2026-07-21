@@ -50,20 +50,20 @@ export default function AboutTheEditorPage() {
       />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-          <span className="mx-2">/</span>
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">About the Editor</span>
         </nav>
       </div>
 
-      <section className="py-16 px-4">
+      <section className="py-16 md:py-20 px-4 sm:px-6">
         <div className="max-w-2xl mx-auto">
-          <p className="text-sm uppercase tracking-widest text-text-muted mb-3 text-center">
+          <p className="eyebrow mb-4">
             About the Editor
           </p>
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">Ethan Reid</h1>
-          <p className="text-text-secondary text-lg leading-relaxed mb-12 text-center">
+          <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4">Ethan Reid</h1>
+          <p className="text-text-secondary text-lg leading-relaxed mb-12 font-display italic font-light">
             Bottle Service &amp; Hospitality Pro, London Bottle Service
           </p>
 
@@ -82,51 +82,54 @@ export default function AboutTheEditorPage() {
             </p>
           </div>
 
-          <h2 className="text-2xl font-bold mb-5">What Ethan Covers</h2>
-          <ul className="space-y-3 text-text-secondary leading-relaxed list-disc list-inside mb-12">
+          <p className="eyebrow mb-4">Coverage</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">What Ethan Covers</h2>
+          <ul className="space-y-3 text-text-secondary leading-relaxed list-disc list-inside marker:text-gold-dark mb-12">
             <li>Bottle service mechanics: deposits, minimums, and what comes with a table</li>
             <li>Spirits, champagne formats, and table package value</li>
             <li>Hospitality insight from the service side of the floor</li>
             <li>Honest cost breakdowns with dated price checks</li>
           </ul>
 
-          <h2 className="text-2xl font-bold mb-5">Recent Guides by Ethan</h2>
-          <ul className="space-y-3 mb-10">
-            <li>
-              <Link href="/blog/champagne-bottle-sizes-explained" className="text-gold hover:underline">
+          <p className="eyebrow mb-4">Further reading</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">Recent Guides by Ethan</h2>
+          <ul className="border-t border-border mb-10">
+            <li className="py-4 border-b border-border">
+              <Link href="/blog/champagne-bottle-sizes-explained" className="text-gold hover:text-gold-light transition-colors">
                 Champagne Bottle Sizes Explained: Magnum to Methuselah
               </Link>
             </li>
-            <li>
-              <Link href="/blog/how-far-in-advance-to-book-bottle-service-london" className="text-gold hover:underline">
+            <li className="py-4 border-b border-border">
+              <Link href="/blog/how-far-in-advance-to-book-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">
                 How Far in Advance Should You Book Bottle Service in London?
               </Link>
             </li>
-            <li>
-              <Link href="/blog/bottle-service-etiquette-london-clubs" className="text-gold hover:underline">
+            <li className="py-4 border-b border-border">
+              <Link href="/blog/bottle-service-etiquette-london-clubs" className="text-gold hover:text-gold-light transition-colors">
                 Bottle Service Etiquette at London Clubs: The Unwritten Rules
               </Link>
             </li>
-            <li>
-              <Link href="/blog/is-bottle-service-london-worth-it" className="text-gold hover:underline">
+            <li className="py-4 border-b border-border">
+              <Link href="/blog/is-bottle-service-london-worth-it" className="text-gold hover:text-gold-light transition-colors">
                 Is Bottle Service at London Clubs Worth It?
               </Link>
             </li>
           </ul>
           <p className="text-text-secondary leading-relaxed mb-12">
-            Browse all of Ethan&apos;s guides on the <Link href="/blog" className="text-gold hover:underline">blog</Link>, or
-            see the <Link href="/bottle-service-guide" className="text-gold hover:underline">complete bottle service guide</Link>.
+            Browse all of Ethan&apos;s guides on the <Link href="/blog" className="text-gold hover:text-gold-light transition-colors">blog</Link>, or
+            see the <Link href="/bottle-service-guide" className="text-gold hover:text-gold-light transition-colors">complete bottle service guide</Link>.
           </p>
 
-          <div className="border border-gold/30 rounded-xl p-8 text-center">
-            <h2 className="text-2xl font-bold mb-3">Ready to book a table?</h2>
+          <div className="border border-border bg-bg-card p-8 text-center">
+            <p className="eyebrow mb-4">Reservations</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-3">Ready to book a table?</h2>
             <p className="text-text-secondary leading-relaxed mb-6">
               Tell us the night, the venue, and the group size, and we&apos;ll confirm pricing and
               availability before you commit.
             </p>
             <Link
               href="/book-a-table"
-              className="inline-block bg-gold text-black font-semibold px-6 py-3 rounded-full hover:opacity-90 transition-opacity"
+              className="btn-secondary"
             >
               Book a Table
             </Link>

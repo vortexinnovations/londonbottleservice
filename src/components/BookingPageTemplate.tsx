@@ -1,7 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getBookingPageBySlug } from "@/data/bookingPages";
-import { getOpenClubBySlug, clubs, WHATSAPP_NUMBER } from "@/data/clubs";
+import { getOpenClubBySlug, clubs } from "@/data/clubs";
+import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 import { getBlogPostBySlug } from "@/data/blog";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
@@ -89,11 +90,11 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
 
       {/* Breadcrumb */}
       <div className="max-w-4xl mx-auto px-4 pt-6">
-        <nav className="text-sm text-text-muted">
-          <Link href="/" className="hover:text-gold transition-colors">Home</Link>
-          <span className="mx-2">/</span>
-          <Link href="/book-a-table" className="hover:text-gold transition-colors">Book a Table</Link>
-          <span className="mx-2">/</span>
+        <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
+          <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
+          <span className="mx-2">&mdash;</span>
+          <Link href="/book-a-table" className="hover:text-text-secondary transition-colors">Book a Table</Link>
+          <span className="mx-2">&mdash;</span>
           <span className="text-text-secondary">{club.name}</span>
         </nav>
       </div>
@@ -104,62 +105,66 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
         alt={images.alt}
         height="h-[50vh] min-h-[400px]"
         overlay="strong"
+        caption={`Fig. 01 — ${club.name}, ${club.area}`}
       >
-        <p className="text-text-muted text-xs tracking-wider uppercase mb-4">
+        <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">
           London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
         </p>
-        <p className="text-gold text-sm font-medium tracking-wider uppercase mb-3">
-          {club.area} &bull; Tables from &pound;{club.pricing.floorTable.toLocaleString()}
+        <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-3 animate-fade-up-1">
+          {club.area} &mdash; <span className="price">Tables from <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}</span>
         </p>
-        <h1 className="text-3xl md:text-5xl font-bold mb-4">{data.h1}</h1>
-        <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl">
+        <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">{data.h1}</h1>
+        <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl animate-fade-up-2">
           {data.heroSubheading}
         </p>
-        <WhatsAppCTA
-          clubName={club.name}
-          urgencyMessage="Tables fill fast on weekends — book now to secure your spot"
-        />
+        <div className="animate-fade-up-3">
+          <WhatsAppCTA
+            clubName={club.name}
+            urgencyMessage="Tables fill fast on weekends — book now to secure your spot"
+          />
+        </div>
       </HeroImage>
 
       {/* Pricing */}
-      <section className="py-12 px-4 border-t border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          <p className="eyebrow mb-4">Pricing</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             {club.name}{" "}Table Prices &amp; Minimum Spend
           </h2>
           <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl">
             {data.pricingIntro}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            <div className="bg-bg-card border border-border rounded-xl p-6">
-              <h3 className="text-lg font-semibold mb-2">Floor Table</h3>
-              <p className="text-3xl font-bold text-gold mb-2">
-                From &pound;{club.pricing.floorTable.toLocaleString()}
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="font-display text-lg font-medium mb-2">Floor Table</h3>
+              <p className="price text-2xl md:text-3xl mb-2">
+                From <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
               </p>
               <p className="text-text-muted text-sm">
                 Minimum spend per table. Standard tables on the main floor with full table service.
               </p>
             </div>
-            <div className="bg-bg-card border border-gold/30 rounded-xl p-6 relative">
-              <span className="absolute -top-3 right-4 bg-gold text-bg-primary text-xs font-bold px-3 py-1 rounded-full">
-                Most Popular
-              </span>
-              <h3 className="text-lg font-semibold mb-2">VIP Table</h3>
-              <p className="text-3xl font-bold text-gold mb-2">
-                From &pound;{club.pricing.vipTable.toLocaleString()}
+            <div className="bg-bg-card border border-border p-6">
+              <p className="eyebrow mb-2">Most requested</p>
+              <h3 className="font-display text-lg font-medium mb-2">VIP Table</h3>
+              <p className="price text-2xl md:text-3xl mb-2">
+                From <span className="price-sign">&pound;</span>{club.pricing.vipTable.toLocaleString()}
               </p>
               <p className="text-text-muted text-sm">
                 Premium positions with the best views and enhanced service. Recommended for special occasions.
               </p>
             </div>
           </div>
-          <div className="bg-bg-card border border-border rounded-lg p-4 mb-6">
-            <p className="text-gold text-sm font-medium mb-1">VIP Upgrade</p>
-            <p className="text-text-secondary text-sm">{data.vipUpsellPitch}</p>
-          </div>
-          <div className="bg-bg-card border border-border rounded-lg p-4">
-            <p className="text-gold text-sm font-medium mb-1">Midweek Advantage</p>
-            <p className="text-text-secondary text-sm">{data.weekdayDeal}</p>
+          <div className="border-t border-border">
+            <div className="py-5 border-b border-border">
+              <p className="eyebrow mb-2">VIP Upgrade</p>
+              <p className="text-text-secondary text-sm">{data.vipUpsellPitch}</p>
+            </div>
+            <div className="py-5 border-b border-border">
+              <p className="eyebrow mb-2">Midweek Advantage</p>
+              <p className="text-text-secondary text-sm">{data.weekdayDeal}</p>
+            </div>
           </div>
         </div>
       </section>
@@ -172,16 +177,17 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       />
 
       {/* Trust Badges */}
-      <section className="py-10 px-4 border-b border-border">
+      <section className="py-10 px-4 sm:px-6 border-b border-border">
         <div className="max-w-4xl mx-auto">
           <TrustBadges />
         </div>
       </section>
 
       {/* How to Book */}
-      <section className="py-12 px-4 border-b border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">The process</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             How to Book Your Table at {club.name}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -207,12 +213,12 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
                 desc: `Give your name at the door, skip the queue, and your table and personal waitress are ready. It's that simple.`,
               },
             ].map((item) => (
-              <div key={item.step} className="flex gap-4">
-                <div className="w-10 h-10 rounded-full bg-gold/10 flex items-center justify-center text-gold font-bold flex-shrink-0">
+              <div key={item.step} className="flex gap-5">
+                <div className="font-display text-3xl font-light text-gold-dark leading-none flex-shrink-0">
                   {item.step}
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-1">{item.title}</h3>
+                  <h3 className="font-display text-lg font-medium mb-1">{item.title}</h3>
                   <p className="text-text-muted text-sm">{item.desc}</p>
                 </div>
               </div>
@@ -222,15 +228,16 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       </section>
 
       {/* What's Included */}
-      <section className="py-12 px-4 border-b border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">The table</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What&apos;s Included with Your Table at {club.name}
           </h2>
           <ul className="space-y-3 mb-6">
             {club.whatsIncluded.map((item, i) => (
               <li key={i} className="flex items-start gap-3">
-                <svg className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg aria-hidden="true" className="w-5 h-5 text-gold-dark flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 <span className="text-text-secondary">{item}</span>
@@ -241,9 +248,10 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       </section>
 
       {/* Arrival Guide */}
-      <section className="py-12 px-4 border-b border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="eyebrow mb-4">Arrival notes</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Before You Arrive at {club.name}
           </h2>
           <p className="text-text-secondary leading-relaxed whitespace-pre-line">
@@ -254,9 +262,10 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
 
       {/* Guestlist vs Table Booking */}
       {data.guestlistComparison && (
-        <section className="py-12 px-4 border-b border-border bg-bg-secondary">
+        <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border bg-bg-secondary">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+            <p className="eyebrow mb-4">Guestlist or table</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
               Guestlist vs Table Booking at {club.name}
             </h2>
             <p className="text-text-secondary leading-relaxed whitespace-pre-line">
@@ -268,9 +277,10 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
 
       {/* Entry Guide */}
       {data.entryGuide && (
-        <section className="py-12 px-4 border-b border-border">
+        <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">
+            <p className="eyebrow mb-4">The door</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
               How to Get Into {club.name}
             </h2>
             <p className="text-text-secondary leading-relaxed whitespace-pre-line">
@@ -284,10 +294,11 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       {data.sections.map((section, i) => (
         <section
           key={i}
-          className={`py-12 px-4 border-b border-border ${i % 2 === 0 ? "bg-bg-secondary" : ""}`}
+          className={`py-16 md:py-20 px-4 sm:px-6 border-b border-border ${i % 2 === 0 ? "bg-bg-secondary" : ""}`}
         >
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-6">{section.heading}</h2>
+            <p className="eyebrow mb-4">No. {String(i + 1).padStart(2, "0")} &mdash; In detail</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">{section.heading}</h2>
             <p className="text-text-secondary leading-relaxed whitespace-pre-line">
               {section.content}
             </p>
@@ -296,9 +307,10 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       ))}
 
       {/* CTA */}
-      <section className="py-12 px-4 border-b border-border bg-bg-secondary">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+          <p className="eyebrow mb-4">Reservations</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Ready to Book Your Table at {club.name}?
           </h2>
           <p className="text-text-muted mb-8">
@@ -310,16 +322,17 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       </section>
 
       {/* FAQs */}
-      <section className="py-12 px-4 border-b border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold mb-8">
+          <p className="eyebrow mb-4">Questions</p>
+          <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             {club.name}{" "}Table Booking — Frequently Asked Questions
           </h2>
-          <div className="space-y-6">
+          <div className="border-t border-border">
             {data.faqs.map((faq, i) => (
-              <div key={i} className="border border-border rounded-lg p-6">
-                <h3 className="font-semibold text-lg mb-3">{faq.question}</h3>
-                <p className="text-text-muted text-sm leading-relaxed">{faq.answer}</p>
+              <div key={i} className="py-6 border-b border-border">
+                <h3 className="font-display text-lg font-medium mb-2">{faq.question}</h3>
+                <p className="text-text-muted text-[0.9375rem] leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
@@ -328,38 +341,41 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
 
       {/* Related Booking Pages */}
       {relatedClubs.length > 0 && (
-        <section className="py-12 px-4 border-b border-border bg-bg-secondary">
+        <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border bg-bg-secondary">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-xl font-bold mb-6">
+            <p className="eyebrow mb-4">The clubs</p>
+            <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
               Book Tables at Other Top London Clubs
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
               {relatedClubs.map(({ booking, club: c }) => {
                 const cImages = getClubImages(c.slug);
                 return (
                   <Link
                     key={booking.bookingSlug}
                     href={`/${booking.bookingSlug}`}
-                    className="bg-bg-card border border-border rounded-lg overflow-hidden hover:border-gold/30 transition-colors group"
+                    className="group"
                   >
-                    <div className="relative aspect-[3/2] overflow-hidden">
-                      <Image
-                        src={cImages.card}
-                        alt={cImages.alt}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
-                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-                      />
+                    <div className="border border-border-light p-2 bg-bg-primary">
+                      <div className="relative aspect-[3/2] overflow-hidden">
+                        <Image
+                          src={cImages.card}
+                          alt={cImages.alt}
+                          fill
+                          className="img-grade object-cover group-hover:scale-[1.02] transition-transform duration-700"
+                          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                        />
+                      </div>
                     </div>
-                    <div className="p-4">
-                      <h3 className="font-semibold group-hover:text-gold transition-colors">
+                    <div className="pt-4">
+                      <h3 className="font-display italic text-lg group-hover:text-gold-light transition-colors">
                         {c.name}
                       </h3>
-                      <p className="text-gold text-sm mt-1">
-                        Tables from &pound;{c.pricing.floorTable.toLocaleString()}
+                      <p className="price text-sm mt-1">
+                        Tables from <span className="price-sign">&pound;</span>{c.pricing.floorTable.toLocaleString()}
                       </p>
-                      <p className="text-text-muted text-xs mt-1">{c.area}</p>
-                      <p className="text-gold text-xs mt-2 font-medium group-hover:underline">
+                      <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">{c.area}</p>
+                      <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold group-hover:text-gold-light transition-colors mt-3">
                         Book a Table &rarr;
                       </p>
                     </div>
@@ -372,11 +388,11 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       )}
 
       {/* Internal Links */}
-      <section className="py-12 px-4 border-b border-border">
+      <section className="py-16 md:py-20 px-4 sm:px-6 border-b border-border">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-semibold mb-4 text-gold">More About {club.name}</h3>
+              <h3 className="eyebrow mb-4">More About {club.name}</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href={`/clubs/${club.slug}`} className="text-text-secondary hover:text-gold transition-colors">
@@ -400,7 +416,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb-4 text-gold">London Nightlife</h3>
+              <h3 className="eyebrow mb-4">London Nightlife</h3>
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href="/best-clubs-bottle-service-london" className="text-text-secondary hover:text-gold transition-colors">
