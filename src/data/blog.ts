@@ -1680,6 +1680,25 @@ export const blogPosts: BlogPost[] = [
       { question: "Is it cheaper to just drink at the bar?", answer: "Per drink, usually yes. But the comparison is not just liquid: a table buys guaranteed space and service on nights when standing room is the alternative. Whether that trade is worth it depends on your group and the night, which we cover honestly in our worth-it guide." },
     ],
   },
+  {
+    slug: "service-charge-bottle-service-london",
+    title: "Service Charge on Bottle Service in London: What You Pay",
+    metaTitle: "Club Service Charge Explained | London Bottle Service",
+    metaDescription: "Does London bottle service carry a service charge? What it is, whether it counts toward your minimum spend, and what the 2024 tipping law changed.",
+    excerpt: "It is the line on the bill nobody explains until the tab arrives. Here is what a club service charge actually is, how it sits against your minimum spend, and what to ask before you book.",
+    publishedAt: "2026-09-07",
+    updatedAt: "2026-09-07",
+    category: "Pricing",
+    readingTime: "6 min read",
+    keywords: ["service charge bottle service london", "london club service charge", "does bottle service include service charge", "club bill service charge uk", "bottle service final bill london"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club"],
+    faqs: [
+      { question: "Do London clubs add a service charge to bottle service?", answer: "Most do. It is applied as a percentage on the final tab in the same way restaurants apply one, and reputable venues state it in the booking confirmation. The percentage varies between rooms, so confirm it for your specific booking rather than assuming a standard figure." },
+      { question: "Does the service charge count toward the minimum spend?", answer: "Generally no. The minimum spend is the target your table has to reach in drinks, and the service charge is then calculated on top of what you spent. Budgeting as though the two are the same number leaves you short by exactly that percentage." },
+      { question: "Is a service charge the same as a tip?", answer: "No. A tip is discretionary and decided by you; a service charge is added by the venue as a line on the bill. Check the tab before adding anything further so you are not covering the same thing twice." },
+      { question: "Where does the service charge actually go?", answer: "To the staff. Since the Employment (Allocation of Tips) Act 2023 came into force on 1 October 2024, employers in England, Scotland and Wales must pass on one hundred per cent of qualifying tips, gratuities and service charges to workers without deductions, and must have a written policy setting out how they are allocated." },
+    ],
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

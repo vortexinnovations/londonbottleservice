@@ -5622,4 +5622,91 @@ export const blogContent: Record<string, ReactNode> = {
       }) }} />
     </>
   ),
+  "service-charge-bottle-service-london": (
+    <>
+      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
+      <p><em>Last updated: 7 September 2026</em></p>
+      <p>
+        Almost every guide to booking a table in London explains the minimum spend and then goes quiet about the last line on the bill. That line is the service charge, and it is the single most common source of a raised eyebrow at 3am, because it arrives after everyone has already agreed what they were spending. I have watched more tables recalculate their split at the end of the night than I care to count, and it is nearly always this that caused it. So here is the honest version, as of September 2026: what the charge is, whether it sits inside or on top of your minimum, and what changed in UK law recently that most guests still do not know about.
+      </p>
+
+      <h2>What a Service Charge Actually Is</h2>
+      <p>
+        A service charge is a percentage added to your final bill by the venue. It is not a fee for booking, it is not the deposit, and it is not the same thing as a tip you choose to leave. It is a standard part of how hospitality bills work in this country, and London clubs apply it in the same way restaurants do, which is why it catches out visitors far more often than it catches out locals.
+      </p>
+      <p>
+        The distinction that matters most is between the charge and a tip. A tip is something you decide on. A service charge is applied by the venue as a line on the tab, and in most London rooms it is described as discretionary, which means you can ask about it rather than simply absorb it. Our{" "}
+        <Link href="/blog/bottle-service-etiquette-london-clubs" className="text-gold hover:underline">etiquette guide</Link>{" "}
+        makes the practical point that follows from this: check the bill before you add anything on top, because paying twice for the same thing is an easy and expensive mistake to make at the end of a long night.
+      </p>
+
+      <h2>Does It Count Toward Your Minimum Spend?</h2>
+      <p>
+        This is the question worth getting answered before you book, and it is the one most groups never think to ask. In the general run of things the service charge sits on top of the minimum rather than counting toward it. Your minimum spend is the target your table has to reach in drinks; the service charge is then calculated on what you actually spent. Treat them as one number and your budget will be short by exactly the percentage involved.
+      </p>
+      <p>
+        The practical consequence is easy to work through. If a table is working to a minimum and the group has planned to hit it exactly, the amount that leaves the account at the end of the night is larger than the figure everyone agreed. Nobody has been misled, but nobody has been told either, and the difference lands on whoever is holding the card. Our explainer on{" "}
+        <Link href="/blog/how-london-club-minimum-spend-works" className="text-gold hover:underline">how minimum spend actually works</Link>{" "}
+        covers why the minimum is a target rather than a fee, and this is the natural companion to it: the target is not the total.
+      </p>
+
+      <h2>Where It Shows Up, and When</h2>
+      <p>
+        You will usually meet the service charge at three points. The first is the booking confirmation, where reputable venues state it in writing before you commit. The second is the menu itself, where it is often printed as a footnote that nobody reads under club lighting. The third is the moment the tab is settled, which is the worst possible time to discover it for the first time.
+      </p>
+      <p>
+        The deposit is a separate mechanism entirely and is worth keeping straight in your head. A deposit is money you have already paid that comes off the total; a service charge is money added to the total. They move in opposite directions, and confusing the two is how groups end up believing they have more headroom than they do. Our guide to{" "}
+        <Link href="/blog/bottle-service-deposits-payments-london" className="text-gold hover:underline">how deposits and payments work</Link>{" "}
+        sets out the timing side of that in full.
+      </p>
+
+      <h2>What the 2024 Law Changed</h2>
+      <p>
+        There is a genuine and fairly recent change here that very few guests are aware of. The Employment (Allocation of Tips) Act 2023 came into force on 1 October 2024 across England, Scotland and Wales. It requires employers to pass on one hundred per cent of qualifying tips, gratuities and service charges to workers, without deductions, and to operate a written policy on how those amounts are allocated.
+      </p>
+      <p>
+        In plain terms, the service charge on your club bill is now legally required to reach the staff who worked your table rather than being retained by the business. That is a meaningful shift from how things worked for years, and it is a reasonable answer to the old suspicion that the charge simply disappeared into the venue. It also means a venue should be able to tell you what its policy is if you ask, because it is obliged to have one written down.
+      </p>
+
+      <h2>Why It Bites Hardest on a Big Table</h2>
+      <p>
+        The larger the group, the more this matters, because the charge is a percentage and percentages scale. On a small table an unnoticed service charge is an irritation. On a large table it is a real number, and it is the number that turns a clean per-head split into an awkward conversation while everyone is putting their coats on.
+      </p>
+      <p>
+        The fix is simple and it is entirely within your control: add the service charge to the target figure before you divide, never after. That single habit is the difference between an organiser who breaks even and an organiser who quietly covers the gap. We work through the arithmetic properly in our guide on{" "}
+        <Link href="/blog/how-to-split-club-table-cost-london" className="text-gold hover:underline">how to split the cost of a club table</Link>, and the service charge is the variable that most often derails an otherwise sensible plan.
+      </p>
+
+      <h2>What to Ask Before You Book</h2>
+      <p>
+        Three questions settle this completely, and any venue or booking team worth using will answer all three without hesitation. Ask whether a service charge applies. Ask what percentage it is. Ask whether it counts toward the minimum spend or sits on top of it. Get those answers before you confirm and there is nothing left to be surprised by.
+      </p>
+      <p>
+        It is worth saying plainly that this varies between venues, and anyone who quotes you a single figure that applies across London is guessing. The rooms differ, the policies differ, and the only reliable number is the one attached to the specific table you are booking on the specific night you are booking it. London&apos;s nightlife has never been uniform, as{" "}
+        <a href="https://www.timeout.com/london/nightlife" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Time Out&apos;s London nightlife coverage</a>{" "}
+        reflects season after season, and billing practice is no more standardised than anything else about it.
+      </p>
+      <p>
+        None of this is a reason to be wary of booking a table. It is simply the part of the bill that gets explained least and costs most in surprise, and a booking that accounts for it up front is a booking that ends well. If you want the whole cost picture before you commit, our{" "}
+        <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">cost guide</Link>{" "}
+        gives realistic figures and our{" "}
+        <Link href="/bottle-service-guide" className="text-gold hover:underline">bottle service guide</Link>{" "}
+        covers the fundamentals. Or just{" "}
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
+        and we will give you the full number, service charge included, before you agree to anything.
+      </p>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: "Service Charge on Bottle Service in London: What You Pay",
+        datePublished: "2026-09-07",
+        dateModified: "2026-09-07",
+        author: { "@type": "Person", name: "Ethan Reid", url: "https://londonbottleservice.com/about-the-editor/", jobTitle: "Bottle Service & Hospitality Pro" },
+        publisher: { "@type": "Organization", name: "London Bottle Service", url: "https://londonbottleservice.com" },
+        image: "https://londonbottleservice.com/gallery/images/maison-close-517.jpg",
+        mainEntityOfPage: { "@type": "WebPage", "@id": "https://londonbottleservice.com/blog/service-charge-bottle-service-london" }
+      }) }} />
+    </>
+  ),
 };

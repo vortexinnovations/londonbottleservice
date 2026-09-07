@@ -307,6 +307,11 @@ export const blogImages: Record<
     alt: "Bottle service presentation at an upscale London club table",
     inline: [],
   },
+  "service-charge-bottle-service-london": {
+    featured: `${G}/maison-close-517.jpg`,
+    alt: "Final bill and card settlement at a London club table",
+    inline: [],
+  },
 };
 
 // ---------- Page-level hero images ----------
