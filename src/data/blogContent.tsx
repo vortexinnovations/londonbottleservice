@@ -5627,7 +5627,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
       <p><em>Last updated: 7 September 2026</em></p>
       <p>
-        Almost every guide to booking a table in London explains the minimum spend and then goes quiet about the last line on the bill. That line is the service charge, and it is the single most common source of a raised eyebrow at 3am, because it arrives after everyone has already agreed what they were spending. I have watched more tables recalculate their split at the end of the night than I care to count, and it is nearly always this that caused it. So here is the honest version, as of September 2026: what the charge is, whether it sits inside or on top of your minimum, and what changed in UK law recently that most guests still do not know about.
+        Almost every guide to booking a table in London explains the minimum spend and then goes quiet about the last line on the bill. That line is the service charge, and it is the single most common source of a raised eyebrow at 3am, because it arrives after everyone has already agreed what they were spending. It is one of the questions we get asked after the night rather than before it, and this line is nearly always what prompted it. So here is the honest version, as of September 2026: what the charge is, whether it sits inside or on top of your minimum, and what changed in UK law recently that most guests still do not know about.
       </p>
 
       <h2>What a Service Charge Actually Is</h2>
