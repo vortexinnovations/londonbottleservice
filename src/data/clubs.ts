@@ -433,7 +433,7 @@ export const clubs: Club[] = [
       "Selene London is one of Mayfair's newest additions — a multi-room venue that combines a proper nightclub with private bowling lanes and multiple distinct spaces. It's built for groups who want options, variety, and a night that goes beyond sitting at a table in one room.",
     longDescription:
       "Selene is the kind of venue that only exists because someone asked 'what if a Mayfair nightclub also had bowling?' The result is surprisingly good. The venue spans multiple rooms, each with its own identity — the main club room plays hip-hop and RnB with the standard Mayfair bottle service setup, but there are also private bowling lanes where you can book a table and bowl between drinks. A third room offers a different vibe again. This multi-room concept makes Selene one of the most versatile venues in Mayfair. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights — it adds an activity element that gives people something to do beyond drinking and dancing. The venue is well-designed, the sound systems are proper, and the fit-out is high-end Mayfair standard. It's still relatively new on the scene, which means it hasn't yet developed the queues and sky-high pricing of some established venues.",
-    address: "25 Sackville Street, Mayfair, London W1S 3AX",
+    address: "4 Winsley Street, Fitzrovia, London W1W 8HF",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, Afrobeats across multiple rooms",
     dressCode:
