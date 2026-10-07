@@ -2,7 +2,21 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { clubs, allClubs, getClubBySlug, isClosedClub, fromPrice, formatNights } from "@/data/clubs";
+import { clubs, allClubs, getClubBySlug, getOpenClubBySlug, isClosedClub, fromPrice, formatNights } from "@/data/clubs";
+import type { Club } from "@/data/clubs";
+
+/** Open alternatives listed on a renamed venue's page. */
+function alternativesFor(club: Club): Club[] {
+  return (club.alternativeSlugs ?? [])
+    .map((s) => getOpenClubBySlug(s))
+    .filter((c): c is Club => Boolean(c));
+}
+
+function joinNames(names: string[]): string {
+  return names.length <= 1
+    ? names.join("")
+    : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+}
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
@@ -26,11 +40,17 @@ export async function generateMetadata({
   if (!club) return {};
 
   const closed = isClosedClub(slug);
+  const renamed = !closed && Boolean(club.formerName);
+  const alternatives = alternativesFor(club);
   const title = closed
     ? `${club.name} — Permanently Closed`
+    : renamed
+    ? `${club.formerName} Is Now ${club.shortName}: Tables & Prices`
     : `${club.name} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
   const description = closed
     ? `${club.name} has permanently closed. Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
+    : renamed
+    ? `${club.formerName} in ${club.area} now trades as ${club.shortName}. Table minimums under the new name are confirmed on enquiry.${alternatives.length > 0 ? ` Open alternatives: ${joinNames(alternatives.map((c) => c.shortName))}.` : ""}`
     : `Book a VIP table at ${club.name} in ${club.area}. ${club.pricing.floorTable === null || club.pricing.vipTable === null ? "Table prices on request." : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`}${club.openingNights.length > 0 ? ` ${club.musicPolicy}. Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
 
   return {
@@ -40,8 +60,10 @@ export async function generateMetadata({
       canonical: `https://londonbottleservice.com/clubs/${slug}`,
     },
     openGraph: {
-      title: `${club.name} Table Prices & VIP Bottle Service`,
-      description: `Book a VIP table at ${club.name}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
+      title: renamed ? title : `${club.name} Table Prices & VIP Bottle Service`,
+      description: renamed
+        ? description
+        : `Book a VIP table at ${club.name}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
       url: `https://londonbottleservice.com/clubs/${slug}`,
     },
   };
@@ -53,6 +75,8 @@ export default async function ClubPage({ params }: ClubPageProps) {
   if (!club) notFound();
 
   const closed = isClosedClub(slug);
+  const renamed = !closed && Boolean(club.formerName);
+  const alternatives = alternativesFor(club);
   const otherClubs = clubs.filter((c) => c.slug !== slug);
   const images = getClubImages(slug);
 
@@ -125,6 +149,37 @@ export default async function ClubPage({ params }: ClubPageProps) {
         </div>
       )}
 
+      {/* Rename notice */}
+      {renamed && (
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 mt-6">
+          <div className="bg-bg-card border border-gold/40 p-6">
+            <h2 className="text-gold font-display text-lg font-medium mb-2">
+              {club.formerName} is now {club.shortName}
+            </h2>
+            <p className="text-text-secondary text-sm leading-relaxed mb-3">
+              {club.formerName} now trades as {club.shortName}, in {club.area}. The
+              minimum spends, music and opening nights published for {club.formerName}{" "}
+              described the old club, so they are not repeated here as current: ask for
+              the current minimum spend before you book.
+            </p>
+            {alternatives.length > 0 && (
+              <p className="text-text-secondary text-sm leading-relaxed">
+                Want a confirmed price today? Compare these open clubs:{" "}
+                {alternatives.map((alt, i) => (
+                  <span key={alt.slug}>
+                    {i > 0 && (i === alternatives.length - 1 ? " and " : ", ")}
+                    <Link href={`/clubs/${alt.slug}`} className="text-gold hover:text-gold-light transition-colors">
+                      {alt.name}
+                    </Link>
+                  </span>
+                ))}
+                .
+              </p>
+            )}
+          </div>
+        </div>
+      )}
+
       {/* Hero */}
       <HeroImage
         src={images.hero}
@@ -137,7 +192,11 @@ export default async function ClubPage({ params }: ClubPageProps) {
           {club.area} {club.openingNights.length > 0 && <>&mdash; {formatNights(club, ", ")}</>}
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">
-          {club.name}{" "}Table Prices &amp; VIP Bottle Service
+          {renamed ? (
+            <>{club.formerName} Is Now {club.shortName}</>
+          ) : (
+            <>{club.name}{" "}Table Prices &amp; VIP Bottle Service</>
+          )}
         </h1>
         <p className="text-gold-light/90 text-lg font-display italic font-light [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-6 animate-fade-up-2">{club.tagline}</p>
         <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl animate-fade-up-2">

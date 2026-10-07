@@ -360,19 +360,10 @@ export default function BestVipTablesPage() {
                   &mdash;
                 </span>
                 <Link
-                  href={`/${club.slug}-vip-tables`}
+                  href={`/clubs/${club.slug}`}
                   className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                 >
-                  {club.name} VIP tables guide
-                </Link>
-                <span className="font-mono text-[0.6875rem] text-text-muted">
-                  &mdash;
-                </span>
-                <Link
-                  href={`/${club.slug}-table-prices`}
-                  className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
-                >
-                  {club.name} table prices
+                  {club.name} guide and table prices
                 </Link>
               </div>
             </div>
@@ -426,16 +417,10 @@ export default function BestVipTablesPage() {
                   </p>
                   <div className="flex items-baseline gap-3">
                     <Link
-                      href={`/${club.slug}-vip-tables`}
+                      href={`/clubs/${club.slug}`}
                       className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                     >
-                      VIP guide
-                    </Link>
-                    <Link
-                      href={`/${club.slug}-table-prices`}
-                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
-                    >
-                      Prices
+                      Club guide and prices
                     </Link>
                   </div>
                 </div>

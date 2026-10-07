@@ -460,25 +460,17 @@ export default function GuestlistVsTableBookingPage() {
                   </p>
                   <div className="flex flex-wrap items-baseline gap-3">
                     <Link
-                      href={`/${club.slug}-guestlist-vs-table-booking`}
+                      href={`/${club.bookingSlug}`}
                       className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                     >
-                      Full guestlist vs table comparison for{" "}
-                      {club.shortName} &rarr;
+                      Book a table at {club.shortName} &rarr;
                     </Link>
                     <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                     <Link
-                      href={`/${club.bookingSlug}`}
+                      href={`/clubs/${club.slug}`}
                       className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                     >
-                      Book a table
-                    </Link>
-                    <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
-                    <Link
-                      href={`/${club.slug}-table-prices`}
-                      className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
-                    >
-                      Prices
+                      Club guide and prices
                     </Link>
                   </div>
                 </div>

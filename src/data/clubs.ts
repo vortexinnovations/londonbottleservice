@@ -12,6 +12,8 @@ export interface Club {
   shortName: string;
   /** Previous trading name, for a venue that has been renamed. */
   formerName?: string;
+  /** Open clubs to suggest alongside a renamed venue (slugs from `clubs`). */
+  alternativeSlugs?: string[];
   tagline: string;
   description: string;
   longDescription: string;
@@ -173,6 +175,7 @@ export const clubs: Club[] = [
     name: "99 Regent Street (formerly Cuckoo Club)",
     shortName: "99 Regent Street",
     formerName: "Cuckoo Club",
+    alternativeSlugs: ["maddox", "tape-london", "selene-london"],
     tagline: "The Mayfair club formerly known as Cuckoo Club, now trading as 99 Regent Street",
     description:
       "99 Regent Street is the new name of the Mayfair club formerly known as Cuckoo Club. Table minimums, music and opening nights under the new name are confirmed on enquiry: message us with your date and group size for current details.",
@@ -298,6 +301,7 @@ export const clubs: Club[] = [
     name: "Rumour (formerly Tabu)",
     shortName: "Rumour",
     formerName: "Tabu",
+    alternativeSlugs: ["tape-london", "selene-london", "dear-darling"],
     tagline: "The Mayfair club formerly known as Tabu, now trading as Rumour",
     description:
       "Rumour is the new name of the Mayfair club formerly known as Tabu. Table minimums, music and opening nights under the new name are confirmed on enquiry: message us with your date and group size for current details.",

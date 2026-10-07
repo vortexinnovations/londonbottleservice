@@ -288,85 +288,66 @@ export const bookingPages: BookingPageData[] = [
     ],
   },
 
-  // 4. Tabu London
+  // 4. Tabu London (now Rumour)
   {
     bookingSlug: "tabu-london-table-booking",
     clubSlug: "tabu-london",
-    metaTitle: "Tabu London Table Booking | Japanese Underground VIP from £1,000",
+    metaTitle: "Tabu London Is Now Rumour: Table Booking",
     metaDescription:
-      "Book a VIP table at Tabu London from £1,000. Japanese-inspired underground vibe with hip-hop & RnB in Mayfair. WhatsApp us for instant booking confirmation.",
-    h1: "Book a Table at Tabu London",
+      "Tabu London in Mayfair now trades as Rumour. Table minimums under the new name are confirmed on enquiry, or compare open clubs such as Tape and Selene.",
+    h1: "Tabu London Is Now Rumour",
     heroSubheading:
-      "Japanese underground aesthetics meet Mayfair bottle service on Albemarle Street. Dark, moody, and hip-hop focused — Tabu is the antidote to predictable Mayfair clubs.",
+      "Tabu now trades as Rumour. Tables can be booked under the new name, with the current minimum spend confirmed before you commit.",
     pricingIntro:
-      "Tables at Tabu London start from £1,000 minimum spend for a floor table. This covers your bottles for the night — premium spirits and champagne from a well-stocked menu. As a newer venue on the Mayfair circuit, Tabu's pricing is competitive while delivering an atmosphere and design that stands out from the established competition.",
+      "Tabu's old minimum spends do not carry over automatically to Rumour, so no figure is shown here until one is confirmed for the new name. Send your date and group size on WhatsApp and the current floor and VIP minimum spend will be confirmed before you book. For a published price today, compare Tape London, Selene London and Dear Darling, each listed below with its current starting minimum.",
     vipUpsellPitch:
-      "VIP tables start from £2,000 and give you the best positions in this intimate, design-led space. At a venue this compact, VIP isn't just about location — it's about having more space and a premium setup in a room where every detail has been considered. If you want to feel like you own the room, VIP at Tabu delivers that energy.",
+      "VIP positions under the new name, and what they include, are confirmed on enquiry. Ask about the table layout and the VIP minimum spend when you message.",
     weekdayDeal:
-      "Thursday is Tabu's underrated night. The venue is open Thursday through Saturday, and Thursday consistently delivers a strong crowd of regulars and fashion-forward Mayfair goers at minimum spends that are often lower than the weekend. The intimate size means the atmosphere doesn't suffer on quieter nights — 150 people in a 200-capacity venue feels busier than 300 in a 500-capacity room.",
+      "Opening nights under the new name are confirmed on enquiry. If your date is flexible, say so when you message, so that more than one night can be checked.",
     arrivalGuide:
-      "Tabu is at 35 Albemarle Street in Mayfair. Doors open at 10:00 PM. Table bookings get priority entry — arrive between 10:30 PM and 11:30 PM for the sweet spot where the venue is filling up but you're settled before peak energy. Green Park tube is a 3-minute walk. The dress code is smart but fashion-forward: Tabu is slightly more relaxed than traditional Mayfair, so smart trainers can work if the overall outfit is sharp. But don't push it — the door still has standards.",
-    guestlistComparison:
-      "Tabu does run a guestlist, and as a newer venue building its reputation, it can be slightly more accessible than the established Mayfair clubs. On a Thursday night, guestlist can genuinely work — you'll likely get in with a reduced cover charge around £15-20. But the guestlist experience at Tabu highlights exactly why tables make more sense for groups. The venue is compact, around 200 capacity, with a Japanese-underground design that's specifically built around the booth and table areas. The standing space is limited and often cramped, especially once the venue fills up after midnight.\n\nThe atmosphere that makes Tabu special — the dark lighting, the moody Japanese aesthetic, the intimate energy — is designed to be experienced from the tables. Standing by the bar in a 200-person venue, you're essentially watching other people enjoy the space the way it was intended. The hip-hop and RnB sounds better from the booth positions where the sound design was calibrated, and the visual impact of the interior loses its effect when you're squeezed between the bar and the wall.\n\nFor groups who care about the music and the vibe — which is the entire reason to choose Tabu over a generic Mayfair club — table booking is the move. At £1,000 minimum split across six to eight people, you're paying £125-170 each for a reserved spot in one of Mayfair's most distinctive venues, drinks included. Guestlist gets you through the door with a cover charge and bar-price drinks that will likely cost you £100+ per person anyway, minus the table, the service, and the actual experience the venue was built to deliver.",
-    entryGuide:
-      "Tabu's door operates differently from the old-guard Mayfair clubs. The dress code is smart but fashion-forward, which means the traditional Mayfair uniform of a blue shirt and brogues isn't necessarily enough. Tabu's crowd skews younger and more style-conscious — think fashion-week adjacent rather than finance-bro smart. Smart trainers can work here if the rest of the outfit is strong: a well-put-together look with designer trainers will get you in before a boring shirt-and-shoes combination. But this flexibility has limits. Sportswear is still out, casual is still out, and turning up looking like you got dressed in the dark won't fly.\n\nThe door team at Tabu pays attention to the overall energy of your group more than individual outfit checks. A group that looks like they're going to add to the atmosphere gets through easily. A group of six men in identical outfits looking like they're on a stag do will have problems regardless of how smart the shirts are. Mixed groups, people who look like they've thought about their outfit, and anyone who matches Tabu's fashion-forward, underground identity will have no trouble.\n\nWith a table booking, the door situation becomes straightforward. Priority entry means you name-check at the door and walk in, full group together. This matters more at Tabu than bigger venues because the compact size means they hit capacity early on Saturdays — general admission effectively closes while table bookings continue to walk in. Arrive between 10:30 PM and 11:30 PM. Green Park tube is three minutes away. Look sharp, look considered, and look like you belong in a venue that was inspired by late-night Tokyo rather than traditional Mayfair.",
+      "Arrival time, door policy and dress code are confirmed with your booking. Smart Mayfair dress is the safe default: no sportswear and no casual wear. Arrive at the time given with your confirmation and give the booking name at the door.",
     sections: [
       {
-        heading: "Best Nights to Book at Tabu London",
+        heading: "What Changed: Tabu to Rumour",
         content:
-          "Saturday is the headline night at Tabu — the fullest room, the most energy, and the strongest DJ lineups. Friday is excellent and tends to attract a slightly more local crowd versus Saturday's international mix. Thursday is the dark horse: lower minimums, a loyal crowd of regulars, and an atmosphere that punches above its weight thanks to the intimate venue size. For groups who care more about the music and vibe than being seen, Thursday at Tabu is genuinely one of the best nights out in Mayfair.",
+          "Tabu, the Mayfair club, now trades as Rumour. Many people still search for it by its old name, which is why this page keeps both. The details that described Tabu, such as its Japanese-inspired interior, its hip-hop and RnB music policy, its Thursday to Saturday schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for Rumour. Ask for the current music, nights and minimum spend before you book.",
       },
       {
-        heading: "What Makes Tabu Different from Other Mayfair Clubs",
+        heading: "Open Mayfair Clubs to Compare",
         content:
-          "Most Mayfair clubs follow the same formula: gold accents, crystal chandeliers, and a generic luxury aesthetic. Tabu threw that playbook out. The Japanese underground-inspired design — dark lighting, rich textures, moody atmosphere reminiscent of a late-night Tokyo bar — creates a setting that feels completely separate from the rest of Mayfair. The music policy matches: hip-hop, RnB, UK rap, drill, and Afrobeats, leaning into the underground rather than the commercial. If every Mayfair club has started to blur together for you, Tabu is a genuine reset.",
-      },
-      {
-        heading: "Birthday & Special Occasion Bookings at Tabu",
-        content:
-          "Tabu works brilliantly for birthdays, especially for groups in their mid-twenties to thirties who want a stylish setting without the theatrical productions of show-format venues. The intimate size means your group naturally becomes part of the room's energy rather than being lost in a cavernous space. We can arrange sparklers, birthday cakes, and dedicated table setups. The Japanese-inspired backdrop photographs exceptionally well — your Instagram will thank you. For milestone celebrations, a VIP table with a premium champagne package makes a statement.",
+          "Tabu was known for hip-hop, RnB and Afrobeats. For that sound at an open club with a published price and known nights, Tape London, Selene London and Dear Darling are the closest matches on this site. Each has its own booking page below, with its current starting minimum.",
       },
     ],
     faqs: [
       {
-        question: "How much does a table at Tabu London cost?",
+        question: "Is Tabu London still open?",
         answer:
-          "Floor tables start from £1,000 minimum spend. VIP tables start from £2,000. Pricing is competitive for a Mayfair venue, especially given the quality of the design and atmosphere. Message us on WhatsApp for exact pricing for your preferred date.",
+          "Tabu now trades as Rumour, in Mayfair. Tables can be booked under the new name: send your date and group size on WhatsApp for current availability.",
       },
       {
-        question: "How do I book a table at Tabu London?",
+        question: "How much is a table at Rumour?",
         answer:
-          "Send us a WhatsApp message with your date, group size, and any occasion details. We'll confirm availability and pricing quickly. Tabu is an intimate venue with limited tables, so booking ahead — especially for Saturdays — is strongly recommended.",
+          "Minimum spends under the new name are confirmed on enquiry. Tabu's old prices are not a guide to the new venue, so ask for the current floor and VIP minimum before you book.",
       },
       {
-        question: "What's the dress code at Tabu London?",
+        question: "What music does Rumour play, and which nights is it open?",
         answer:
-          "Smart and fashion-forward. Tabu is more relaxed than traditional Mayfair clubs — smart trainers can work if the rest of the outfit is strong. But no sportswear, casual wear, or anything that looks like you didn't try. Think of it as Mayfair meets streetwear at its best.",
+          "Music and opening nights under the new name are confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
       },
       {
-        question: "What music does Tabu London play?",
+        question: "What are the alternatives to Tabu London in Mayfair?",
         answer:
-          "Hip-hop, RnB, UK rap, drill, and Afrobeats. The music policy leans underground rather than commercial top-40. If you want deeper cuts alongside the big tracks, Tabu's DJs deliver. For house music, look at Maddox or BEAT instead.",
+          "For hip-hop, RnB and Afrobeats with table service, Tape London, Selene London and Dear Darling are open and bookable through this site, each with a published starting minimum.",
       },
       {
-        question: "What nights is Tabu open?",
+        question: "How do I book a table at Rumour?",
         answer:
-          "Thursday, Friday, and Saturday. All three nights have strong energy thanks to the compact venue. Thursday is the value pick with lower minimums. Saturday is the busiest with the highest demand.",
-      },
-      {
-        question: "How far in advance should I book Tabu?",
-        answer:
-          "For Saturday, book at least a week in advance — preferably two. The venue has limited capacity and tables sell out. Thursday and Friday can sometimes be arranged with shorter notice but earlier booking always means better table selection.",
-      },
-      {
-        question: "Is Tabu good for groups who want hip-hop in Mayfair?",
-        answer:
-          "Tabu is specifically built for hip-hop fans who want Mayfair bottle service. Unlike clubs where hip-hop is one option on a mixed playlist, Tabu's entire identity is built around the genre. If your group lives for hip-hop, RnB, and Afrobeats, this is your venue.",
+          "Message on WhatsApp with your date, group size and any occasion. Availability and the current minimum spend are confirmed before you commit.",
       },
     ],
     relatedBookingPages: [
-      "cuckoo-club-table-booking",
-      "cirque-le-soir-table-booking",
+      "tape-london-table-booking",
+      "selene-london-table-booking",
       "dear-darling-table-booking",
     ],
     relatedBlogSlugs: [
@@ -376,81 +357,67 @@ export const bookingPages: BookingPageData[] = [
     ],
   },
 
-  // 6. Cuckoo Club
+  // 6. Cuckoo Club (now 99 Regent Street)
   {
     bookingSlug: "cuckoo-club-table-booking",
     clubSlug: "cuckoo-club",
-    metaTitle: "Cuckoo Club Table Booking | Two Floors, VIP from £1,000",
+    metaTitle: "Cuckoo Club Is Now 99 Regent Street: Table Booking",
     metaDescription:
-      "Book a VIP table at Cuckoo Club from £1,000. Two floors — house upstairs, hip-hop downstairs. The best of both in Mayfair. WhatsApp us to book now.",
-    h1: "Book a Table at Cuckoo Club",
+      "Cuckoo Club in Mayfair now trades as 99 Regent Street. Table minimums under the new name are confirmed on enquiry, or compare Maddox and Tape instead.",
+    h1: "Cuckoo Club Is Now 99 Regent Street",
     heroSubheading:
-      "Two floors, two vibes, one booking. House music upstairs, hip-hop and RnB in the basement. Cuckoo Club on Swallow Street has been getting Mayfair right for years.",
+      "Cuckoo Club now trades as 99 Regent Street. Tables can be booked under the new name, with the current minimum spend confirmed before you commit.",
     pricingIntro:
-      "Tables at Cuckoo Club start from £1,000 minimum spend. VIP tables and premium positions start from £2,000. You can book tables on either floor — the ground floor for house music or the basement for hip-hop and RnB. Your minimum spend covers premium spirits and champagne, with your personal server guiding you through the options.",
+      "Cuckoo Club's old minimum spends do not carry over automatically to 99 Regent Street, so no figure is shown here until one is confirmed for the new name. Send your date and group size on WhatsApp and the current floor and VIP minimum spend will be confirmed before you book. For a published price today, compare Maddox, Tape London and Selene London, each listed below with its current starting minimum.",
     vipUpsellPitch:
-      "VIP tables from £2,000 get you the prime spots on either floor — the best positions next to the dance floor where the energy is highest. Basement VIP tables are the most in-demand (everyone wants to be in the hip-hop room with a prime seat), so book early if that's your preference. VIP includes a dedicated server and priority bottle selection.",
+      "VIP positions under the new name, and what they include, are confirmed on enquiry. Ask about the table layout and the VIP minimum spend when you message.",
     weekdayDeal:
-      "Tuesday and Thursday are the smart bookings at Cuckoo. Both nights run both floors with lower minimum spends than the weekend. Thursday in particular has built a loyal following — it's one of the strongest midweek nights in Mayfair. If your schedule allows it, Thursday at Cuckoo gives you the full two-floor experience at a friendlier price point.",
+      "Opening nights under the new name are confirmed on enquiry. If your date is flexible, say so when you message, so that more than one night can be checked.",
     arrivalGuide:
-      "Cuckoo Club is at 58 Swallow Street, just off Regent Street in Mayfair. Doors open at 10:00 PM. Table bookings get priority entry — give your name at the door and you'll be escorted to your table. Arrive between 10:30 PM and 11:30 PM. Piccadilly Circus tube is a 2-minute walk. When booking, let us know if you want a ground floor table (house music) or a basement table (hip-hop) so we can secure the right position.",
-    guestlistComparison:
-      "Cuckoo Club is one of the more guestlist-friendly Mayfair venues, particularly on Tuesday and Thursday nights. The two-floor layout and 350-person capacity mean there's more room for general admission than at the smaller, more exclusive clubs. On a Tuesday or Thursday, guestlist will likely get you through the door with a cover charge around £15-20. You'll have access to both floors and can move between the house music upstairs and hip-hop downstairs. For a couple or a small group mid-week, this is a reasonable way to experience the venue.\n\nThe guestlist calculation changes on Friday and Saturday. The venue fills up faster, the door becomes more selective, and guestlist names get turned away once capacity is reached. Even when you get in, the experience as a general admission guest at a packed Cuckoo on a Saturday is standing room in the gaps between tables — and the best positions on both floors are occupied by table bookings. The basement hip-hop room, which is where most people want to be, is particularly tight on weekends. Standing in a packed basement trying to enjoy hip-hop while table guests have space to move and drinks being served is a lesson in why tables exist.\n\nCuckoo's two-floor layout actually makes the table booking case stronger than at single-room venues. When you book a table, you choose your floor — ground floor for house, basement for hip-hop — and you have a guaranteed base. But you still have access to both floors, so your group can explore. Without a table, you're roaming between two packed floors with no home base and no guarantee of finding space on either. A £1,000 table split across six to eight people costs less per head than a night of buying rounds at bar prices, and it comes with a reserved space on the floor you actually want to be on.",
-    entryGuide:
-      "Cuckoo Club strikes a good balance at the door — it's selective enough to maintain a quality crowd but not so exclusive that well-dressed groups face a genuine risk of rejection. The dress code is smart casual to smart, which in practice means collared shirts and smart shoes for men, and a proper going-out outfit for women. This is less demanding than the members' clubs (Tape, Scotch) but still firmly Mayfair — no trainers, no sportswear, no casual streetwear. The ground floor's house music crowd tends to dress slightly more polished, while the basement's hip-hop crowd can lean a touch more fashion-forward, but the entry standard is the same.\n\nThe door team at Cuckoo has been doing this for years and they're efficient. Groups that look well-dressed, are in a good mood, and don't cause a fuss get through quickly. The club's longevity in Mayfair means the door operation is well-oiled rather than inconsistent. The most common issue is groups arriving too late on a Saturday — after midnight, general admission can close entirely if both floors are at capacity. Tuesday and Thursday nights are the most accessible, with shorter queues and a more relaxed door.\n\nWith a table booking, you bypass the queue entirely. Name-check at the door, confirmation against the list, and you're walked to your table on your chosen floor. This is particularly valuable at Cuckoo because you're guaranteed your preferred floor — if you've booked a basement table for hip-hop, you know you'll have space there even when the room is packed. Arrive between 10:30 PM and 11:30 PM. Piccadilly Circus is a two-minute walk, making Cuckoo one of the most accessible Mayfair clubs by transport.",
+      "Arrival time, door policy and dress code are confirmed with your booking. Smart Mayfair dress is the safe default: a collared shirt and smart shoes for men, no sportswear. Arrive at the time given with your confirmation and give the booking name at the door.",
     sections: [
       {
-        heading: "Ground Floor vs Basement: Which Room Should You Book?",
+        heading: "What Changed: Cuckoo Club to 99 Regent Street",
         content:
-          "This is the key decision at Cuckoo. The ground floor is a stylish lounge-to-club space playing deep house, tech house, and sophisticated electronic music. It's more conversational earlier in the night and builds into a proper club atmosphere. The basement is dedicated hip-hop, RnB, and Afrobeats territory — higher energy, darker, and louder from the start. If your group is split, book the ground floor and visit the basement during the night — your table booking gives you access to both. If everyone wants hip-hop, go straight for a basement table. For corporate groups or date-adjacent nights, the ground floor's more sophisticated tone usually works better.",
+          "Cuckoo Club, the Mayfair club, now trades as 99 Regent Street. Many people still search for it by its old name, which is why this page keeps both. The details that described Cuckoo Club, such as its two-room split between house and hip-hop, its weeknight schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for 99 Regent Street. Ask for the current music, nights and minimum spend before you book.",
       },
       {
-        heading: "Why Cuckoo Club Has Lasted So Long in Mayfair",
+        heading: "Open Mayfair Clubs to Compare",
         content:
-          "Mayfair clubs come and go. Cuckoo has outlasted most of them because the two-floor formula works — it hedges your bets on music, gives groups options, and creates natural movement throughout the night. The crowd reflects this longevity: a core of regulars who've been coming for years, mixed with new visitors who've heard it recommended. The atmosphere is polished but approachable — less pretentious than the ultra-exclusive members' clubs, more curated than the high-volume party venues. It's the reliable choice in Mayfair, and reliability has real value when you're spending £1,000+.",
-      },
-      {
-        heading: "Group Booking Guide for Cuckoo Club",
-        content:
-          "Cuckoo's two-floor layout makes it particularly strong for larger groups where people have different preferences. Book a table on one floor as your base, then let people explore the other room freely. For groups of 10-15, a single table works well. For 15-20, adjacent tables on the same floor keep you together. Groups over 20 can even split across floors with a table on each — the staircase between them is quick and easy. For mixed birthday groups where half the crowd wants to dance to house and the other half wants hip-hop, Cuckoo is the obvious solution.",
+          "If you would rather book a venue with a published price and known nights, three open clubs cover the same ground. Maddox suits groups who liked Cuckoo Club's house music room, with dinner and clubbing under one roof. Tape London and Selene London suit groups who preferred the hip-hop and RnB side. Each has its own booking page below, with its current starting minimum.",
       },
     ],
     faqs: [
       {
-        question: "How much is a table at Cuckoo Club?",
+        question: "Is Cuckoo Club still open?",
         answer:
-          "Tables start from £1,000 minimum spend. VIP and premium positions start from £2,000. Prices vary by night — Tuesday and Thursday are typically more accessible than Friday and Saturday.",
+          "Cuckoo Club now trades as 99 Regent Street, in Mayfair. Tables can be booked under the new name: send your date and group size on WhatsApp for current availability.",
       },
       {
-        question: "Can I choose which floor my table is on?",
+        question: "How much is a table at 99 Regent Street?",
         answer:
-          "Yes. When you book through us, specify whether you want the ground floor (house music) or the basement (hip-hop and RnB). Basement tables are more popular so book early if that's your preference. Either way, you have access to both floors.",
+          "Minimum spends under the new name are confirmed on enquiry. Cuckoo Club's old prices are not a guide to the new venue, so ask for the current floor and VIP minimum before you book.",
       },
       {
-        question: "What's the best night to visit Cuckoo Club?",
+        question: "What music does 99 Regent Street play, and which nights is it open?",
         answer:
-          "Thursday and Friday are the strongest nights. Thursday is the insider pick with a loyal crowd and lower minimums. Saturday is the biggest night. Tuesday is the most accessible in terms of pricing and is surprisingly strong for a weeknight.",
+          "Music and opening nights under the new name are confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
       },
       {
-        question: "What's the dress code at Cuckoo Club?",
+        question: "What are the alternatives to Cuckoo Club in Mayfair?",
         answer:
-          "Smart casual to smart. Collared shirts and smart shoes for men. No sportswear, trainers, or casual wear. Women should dress for a Mayfair night. The dress code is enforced but isn't as strict as members' clubs like Tape.",
+          "For house music with dinner beforehand, Maddox. For hip-hop and RnB, Tape London or Selene London. All three are open and bookable through this site, each with a published starting minimum.",
       },
       {
-        question: "Is Cuckoo Club good for birthdays?",
+        question: "How do I book a table at 99 Regent Street?",
         answer:
-          "Excellent, especially if your group has mixed music tastes. The two-floor layout means everyone's happy. We can arrange cakes, sparklers, and birthday packages. The basement is particularly popular for birthday groups who want a high-energy hip-hop atmosphere.",
-      },
-      {
-        question: "How do I book a table at Cuckoo Club?",
-        answer:
-          "WhatsApp us with your date, group size, preferred floor, and any occasion details. We'll confirm availability and pricing quickly. Midweek tables can sometimes be booked at short notice; weekends need at least a week's lead time.",
+          "Message on WhatsApp with your date, group size and any occasion. Availability and the current minimum spend are confirmed before you commit.",
       },
     ],
     relatedBookingPages: [
-      "tabu-london-table-booking",
       "maddox-club-table-booking",
-      "dear-darling-table-booking",
+      "tape-london-table-booking",
+      "selene-london-table-booking",
     ],
     relatedBlogSlugs: [
       "mayfair-vs-shoreditch-nightlife",

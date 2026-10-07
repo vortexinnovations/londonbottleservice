@@ -26,11 +26,40 @@ export const metadata: Metadata = {
   },
 };
 
+// Price facts for the FAQs come from the club data, so the answers can never
+// drift from the price table on the same page.
+const gbp = (v: number) => `£${v.toLocaleString()}`;
+const nameList = (names: string[]) =>
+  names.length <= 1
+    ? names.join("")
+    : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
+const pricedClubs = clubs.filter((c) => c.pricing.floorTable !== null);
+const onRequestClubs = clubs.filter((c) => c.pricing.floorTable === null);
+const floorValues = pricedClubs.map((c) => c.pricing.floorTable as number);
+const vipValues = clubs
+  .map((c) => c.pricing.vipTable)
+  .filter((v): v is number => v !== null);
+const minFloor = Math.min(...floorValues);
+const maxFloor = Math.max(...floorValues);
+const minVip = Math.min(...vipValues);
+const maxVip = Math.max(...vipValues);
+const atMinFloor = nameList(
+  pricedClubs.filter((c) => c.pricing.floorTable === minFloor).map((c) => c.name)
+);
+const atMaxFloor = nameList(
+  pricedClubs.filter((c) => c.pricing.floorTable === maxFloor).map((c) => c.name)
+);
+const atMaxVip = clubs.filter((c) => c.pricing.vipTable === maxVip).map((c) => c.name);
+const onRequestNote =
+  onRequestClubs.length > 0
+    ? ` Minimum spends at ${nameList(onRequestClubs.map((c) => c.name))} are confirmed on enquiry${onRequestClubs.every((c) => c.formerName) ? ", because the venues trade under new names" : ""}.`
+    : "";
+
 const faqs = [
   {
     question: "How much is a table at a London nightclub?",
     answer:
-      "Most London nightclubs start at £1,000 minimum spend for a standard floor table. This includes Cirque Le Soir, Maddox, Selene London, Dear Darling, Scotch of St James, London Reign, and BEAT London. Tape London and The Box start at £1,500 due to their heightened exclusivity. VIP tables range from £2,000 to £3,000 across all venues. Two Mayfair clubs have new names: 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu). Their minimum spends under the new names are confirmed on enquiry.",
+      `Most London nightclubs start at ${gbp(minFloor)} minimum spend for a standard floor table. On this site that includes ${atMinFloor}.${maxFloor > minFloor ? ` ${atMaxFloor} start higher, at ${gbp(maxFloor)}.` : ""} VIP tables range from ${gbp(minVip)} to ${gbp(maxVip)} across the clubs with published prices.${onRequestNote}`,
   },
   {
     question: "What does the minimum spend include?",
@@ -50,12 +79,12 @@ const faqs = [
   {
     question: "Which is the cheapest club for a table in London?",
     answer:
-      "Most clubs start at the same £1,000 floor table minimum, including Cirque Le Soir, Maddox, Selene, Dear Darling, Scotch of St James, London Reign, and BEAT. The cheapest overall option is booking on a weeknight: Wednesday or Thursday tables at venues like Scotch of St James or Tape London can have reduced minimums. Message us and we will find the best value for your budget.",
+      `Most clubs start at the same ${gbp(minFloor)} floor table minimum, including ${atMinFloor}. The cheapest overall option is booking on a weeknight: Wednesday or Thursday tables at venues like Scotch of St James or Tape London can have reduced minimums. Message us and we will find the best value for your budget.`,
   },
   {
     question: "Which London club has the most expensive tables?",
     answer:
-      "Tape London and The Box have the highest starting prices at £1,500 for a floor table and £3,000 for VIP. London Reign's VIP tables start at £2,500. These premium prices reflect the exclusivity, intimate capacity, and unique experiences at each venue. For most groups, the £1,000-starting venues offer outstanding value — Cirque Le Soir at £1,000 minimum delivers one of the most memorable nights in London.",
+      `${maxFloor > minFloor ? `${atMaxFloor} have the highest starting price for a floor table, at ${gbp(maxFloor)}.` : `Floor tables start at ${gbp(minFloor)} at every club here with a published price, so the difference shows at VIP level.`} ${nameList(atMaxVip)} ${atMaxVip.length === 1 ? "has" : "have"} the highest VIP starting price, at ${gbp(maxVip)}; VIP tables at the other clubs with published prices start from ${gbp(minVip)}. Premium prices reflect exclusivity, capacity and the kind of night each venue puts on. For most groups, a standard floor table offers the best value: Cirque Le Soir at a standard floor minimum delivers one of the most memorable nights in London.`,
   },
   {
     question: "Do table prices include entry to the club?",

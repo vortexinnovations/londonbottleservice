@@ -402,17 +402,10 @@ export default function MayfairTableBookingGuidePage() {
                   </Link>
                   <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
                   <Link
-                    href={`/${club.slug}-table-prices`}
+                    href={`/clubs/${club.slug}`}
                     className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
                   >
-                    Prices
-                  </Link>
-                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
-                  <Link
-                    href={`/${club.slug}-vip-tables`}
-                    className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
-                  >
-                    VIP tables
+                    Club guide and prices
                   </Link>
                 </div>
               </div>
