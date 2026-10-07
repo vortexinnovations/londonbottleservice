@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs } from "@/data/clubs";
+import { clubs, formatNights } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
@@ -11,7 +12,7 @@ import { pageImages } from "@/data/images";
 export const metadata: Metadata = {
   title: "Book a VIP Table in London | Instant WhatsApp Booking",
   description:
-    "Book VIP tables at London's best nightclubs. Tape London, Cirque Le Soir, Cuckoo Club and more. Real prices from £1,000. Instant WhatsApp confirmation.",
+    "Book VIP tables at London's best nightclubs. Tape London, Cirque Le Soir, Maddox and more. Real prices from £1,000. Instant WhatsApp confirmation.",
   alternates: {
     canonical: "https://londonbottleservice.com/book-a-table",
   },
@@ -122,18 +123,18 @@ export default function BookATablePage() {
                   <span className="text-xs text-text-muted">Floor Table</span>
                   <span className="dotted-leader" aria-hidden="true" />
                   <span className="price">
-                    <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
+                    <Price value={club.pricing.floorTable} />
                   </span>
                 </div>
                 <div className="flex items-baseline mb-4">
                   <span className="text-xs text-text-muted">VIP Table</span>
                   <span className="dotted-leader" aria-hidden="true" />
                   <span className="price">
-                    <span className="price-sign">&pound;</span>{club.pricing.vipTable.toLocaleString()}
+                    <Price value={club.pricing.vipTable} />
                   </span>
                 </div>
                 <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-4">
-                  {club.openingNights.join(" — ")}
+                  {formatNights(club, " — ")}
                 </p>
                 <span className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold group-hover:text-gold-light transition-colors">
                   Book a Table &rarr;

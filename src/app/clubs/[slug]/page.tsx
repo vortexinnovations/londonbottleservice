@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { clubs, allClubs, getClubBySlug, isClosedClub } from "@/data/clubs";
+import { clubs, allClubs, getClubBySlug, isClosedClub, fromPrice, formatNights } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
 import { FAQSchema } from "@/components/FAQSchema";
@@ -27,10 +28,10 @@ export async function generateMetadata({
   const closed = isClosedClub(slug);
   const title = closed
     ? `${club.name} — Permanently Closed`
-    : `${club.name} Table Prices & VIP Bottle Service | From £${club.pricing.floorTable.toLocaleString()}`;
+    : `${club.name} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
   const description = closed
     ? `${club.name} has permanently closed. Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
-    : `Book a VIP table at ${club.name} in ${club.area}. Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}. ${club.musicPolicy}. Open ${club.openingNights.join(", ")}. Instant WhatsApp booking.`;
+    : `Book a VIP table at ${club.name} in ${club.area}. ${club.pricing.floorTable === null || club.pricing.vipTable === null ? "Table prices on request." : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`}${club.openingNights.length > 0 ? ` ${club.musicPolicy}. Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
 
   return {
     title,
@@ -40,7 +41,7 @@ export async function generateMetadata({
     },
     openGraph: {
       title: `${club.name} Table Prices & VIP Bottle Service`,
-      description: `Book a VIP table at ${club.name}. Floor tables from £${club.pricing.floorTable.toLocaleString()}. ${club.tagline}.`,
+      description: `Book a VIP table at ${club.name}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
       url: `https://londonbottleservice.com/clubs/${slug}`,
     },
   };
@@ -72,7 +73,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       opens: club.openingHours.split("–")[0].trim(),
       closes: club.openingHours.split("–")[1]?.trim() || "03:00",
     })),
-    priceRange: `From £${club.pricing.floorTable.toLocaleString()}`,
+    priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
     url: `https://londonbottleservice.com/clubs/${slug}`,
   };
 
@@ -133,7 +134,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
         caption={`Fig. — ${club.name}, ${club.area}`}
       >
         <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">
-          {club.area} {club.openingNights.length > 0 && <>&mdash; {club.openingNights.join(", ")}</>}
+          {club.area} {club.openingNights.length > 0 && <>&mdash; {formatNights(club, ", ")}</>}
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">
           {club.name}{" "}Table Prices &amp; VIP Bottle Service
@@ -160,7 +161,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <div className="bg-bg-card border border-border p-6">
               <h3 className="font-display text-lg font-medium mb-2">Floor Table</h3>
               <p className="price text-2xl md:text-3xl mb-2">
-                From <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
+                <Price value={club.pricing.floorTable} prefix="From " onRequest="Price on request" />
               </p>
               <p className="text-text-muted text-sm">
                 Minimum spend per table. Standard tables on the main floor with full table service.
@@ -169,7 +170,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <div className="bg-bg-card border border-gold/30 p-6">
               <h3 className="font-display text-lg font-medium mb-2">VIP Table</h3>
               <p className="price text-2xl md:text-3xl mb-2">
-                From <span className="price-sign">&pound;</span>{club.pricing.vipTable.toLocaleString()}
+                <Price value={club.pricing.vipTable} prefix="From " onRequest="Price on request" />
               </p>
               <p className="text-text-muted text-sm">
                 Minimum spend per table. Premium positions with the best views and enhanced service.
@@ -280,7 +281,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-0">
             <DetailCard title="Music Policy" content={club.musicPolicy} />
             <DetailCard title="Dress Code" content={club.dressCode} />
-            <DetailCard title="Opening Nights" content={club.openingNights.join(", ")} />
+            <DetailCard title="Opening Nights" content={formatNights(club, ", ")} />
             <DetailCard title="Opening Hours" content={club.openingHours} />
             <DetailCard title="Location" content={`${club.address} (${club.area})`} />
             <DetailCard title="Atmosphere" content={club.atmosphere} />
@@ -365,10 +366,10 @@ export default async function ClubPage({ params }: ClubPageProps) {
                       {c.name}
                     </h3>
                     <p className="price text-sm mt-1">
-                      From <span className="price-sign">&pound;</span>{c.pricing.floorTable.toLocaleString()}
+                      <Price value={c.pricing.floorTable} prefix="From " onRequest="Price on request" />
                     </p>
                     <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-2">
-                      {c.openingNights.join(" — ")}
+                      {formatNights(c, " — ")}
                     </p>
                   </div>
                 </Link>

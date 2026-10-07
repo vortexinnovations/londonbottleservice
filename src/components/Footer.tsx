@@ -71,10 +71,10 @@ export function Footer() {
               <li><Link href="/book-a-table" className="text-text-secondary hover:text-gold transition-colors text-[0.8125rem]">Book a Table</Link></li>
               <li><Link href="/tape-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">Tape London</Link></li>
               <li><Link href="/cirque-le-soir-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">Cirque Le Soir</Link></li>
-              <li><Link href="/cuckoo-club-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">Cuckoo Club</Link></li>
+              <li><Link href="/cuckoo-club-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">99 Regent Street (formerly Cuckoo Club)</Link></li>
               <li><Link href="/maddox-club-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">Maddox</Link></li>
               <li><Link href="/the-box-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">The Box</Link></li>
-              <li><Link href="/tabu-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">Tabu London</Link></li>
+              <li><Link href="/tabu-london-table-booking" className="text-text-muted hover:text-gold transition-colors text-[0.8125rem]">Rumour (formerly Tabu)</Link></li>
             </ul>
           </div>
 

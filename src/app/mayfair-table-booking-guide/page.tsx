@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs } from "@/data/clubs";
+import { clubs, formatPrice, formatNights } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
@@ -36,17 +37,17 @@ const faqs = [
   {
     question: "How much does a table cost in Mayfair?",
     answer:
-      "Most Mayfair clubs start at £1,000 minimum spend for a standard floor table. This includes Cuckoo Club, Maddox, Tabu London, Selene London, Funky Buddha, Dear Darling, and Luna Club London. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
+      "Most Mayfair clubs start at £1,000 minimum spend for a standard floor table. This includes Maddox, Selene London, and Dear Darling. For 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu), minimums under the new names are confirmed on enquiry. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
   },
   {
     question: "What is the dress code for Mayfair nightclubs?",
     answer:
-      "Mayfair clubs enforce a smart dress code. For men: collared shirt, smart trousers or dark jeans, smart shoes — no trainers, no sportswear, no shorts. Jackets are encouraged at more exclusive venues like Tape London and Maddox. For women: cocktail dresses, heels or smart boots, stylish separates. The door staff at Mayfair clubs are selective, so if you are unsure, overdress. Tabu is slightly more relaxed and may accept smart trainers as part of a fashion-forward outfit.",
+      "Mayfair clubs enforce a smart dress code. For men: collared shirt, smart trousers or dark jeans, smart shoes — no trainers, no sportswear, no shorts. Jackets are encouraged at more exclusive venues like Tape London and Maddox. For women: cocktail dresses, heels or smart boots, stylish separates. The door staff at Mayfair clubs are selective, so if you are unsure, overdress.",
   },
   {
     question: "What is the best night to go to a Mayfair club?",
     answer:
-      "Saturday is the biggest night at every Mayfair club — the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Cuckoo Club, Tape London, Tabu, Selene, Dear Darling, and Luna. Wednesday is available at Tape London, Cuckoo Club, and Scotch of St James with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
+      "Saturday is the biggest night at every Mayfair club — the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Tape London, Selene, and Dear Darling. Wednesday is available at Tape London and Scotch of St James with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
   },
   {
     question: "How do I book a table in Mayfair?",
@@ -61,12 +62,12 @@ const faqs = [
   {
     question: "Can I get into a Mayfair club without a table booking?",
     answer:
-      "Some Mayfair clubs offer guestlist entry, but most do not guarantee walk-in access — especially on weekends. Tape London and The Box are extremely difficult to enter without a booking. Other clubs like Cuckoo Club and Funky Buddha occasionally accept walk-ins early in the evening, but there is no guarantee. A table booking gives you guaranteed entry, a reserved space, and a personal waitress — it is the reliable way to experience Mayfair nightlife.",
+      "Some Mayfair clubs offer guestlist entry, but most do not guarantee walk-in access — especially on weekends. Tape London and The Box are extremely difficult to enter without a booking. Some other clubs occasionally accept walk-ins early in the evening, but there is no guarantee. A table booking gives you guaranteed entry, a reserved space, and a personal waitress — it is the reliable way to experience Mayfair nightlife.",
   },
   {
     question: "Which Mayfair club is best for a birthday celebration?",
     answer:
-      "For theatrical birthday celebrations, Cirque Le Soir's circus performers and Soho location make it the most memorable option. Within Mayfair proper, Selene London's bowling lanes add an activity element that works brilliantly for birthday groups. Cuckoo Club's two floors give large groups flexibility. Most clubs can arrange cakes, sparklers, and birthday announcements — let us know when you book and we coordinate everything.",
+      "For theatrical birthday celebrations, Cirque Le Soir's circus performers and Soho location make it the most memorable option. Within Mayfair proper, Selene London's bowling lanes add an activity element that works brilliantly for birthday groups. Most clubs can arrange cakes, sparklers, and birthday announcements — let us know when you book and we coordinate everything.",
   },
 ];
 
@@ -187,18 +188,16 @@ export default function MayfairTableBookingGuidePage() {
                       </Link>
                     </td>
                     <td className="py-3 pr-4 price">
-                      £{club.pricing.floorTable.toLocaleString()}
+                      {formatPrice(club.pricing.floorTable)}
                     </td>
                     <td className="py-3 pr-4 price text-gold-light">
-                      £{club.pricing.vipTable.toLocaleString()}
+                      {formatPrice(club.pricing.vipTable)}
                     </td>
                     <td className="py-3 pr-4 text-text-muted">
                       {club.musicPolicy.split(",")[0]}
                     </td>
                     <td className="py-3 text-text-muted">
-                      {club.openingNights
-                        .map((n) => n.slice(0, 3))
-                        .join(", ")}
+                      {formatNights(club, ", ", true)}
                     </td>
                   </tr>
                 ))}
@@ -261,8 +260,8 @@ export default function MayfairTableBookingGuidePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
-                  Fashion-forward outfits welcome, especially at Tabu and
-                  Dear Darling
+                  Fashion-forward outfits welcome, especially at Dear
+                  Darling
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
@@ -313,8 +312,8 @@ export default function MayfairTableBookingGuidePage() {
                 relaxed atmosphere than Saturday. Minimum spends are
                 typically lower and tables are easier to secure. Friday is
                 the best night for groups who want a proper Mayfair
-                experience without the Saturday price premium. Cuckoo Club
-                and Tape London are particularly strong on Fridays.
+                experience without the Saturday price premium. Tape London
+                is particularly strong on Fridays.
               </p>
             </div>
             <div className="py-5 border-b border-border">
@@ -322,8 +321,8 @@ export default function MayfairTableBookingGuidePage() {
                 Thursday — The Insider Night
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                Available at Tape London, Cuckoo Club, Tabu, Selene, Dear
-                Darling, Luna, Maddox, and Scotch of St James. Thursdays
+                Available at Tape London, Selene, Dear Darling, Maddox, and
+                Scotch of St James. Thursdays
                 attract a local, regular crowd and the atmosphere at the
                 best venues is genuinely excellent. Minimum spends are the
                 lowest of the weekend stretch and VIP availability is
@@ -336,8 +335,7 @@ export default function MayfairTableBookingGuidePage() {
                 Wednesday — Early Week Option
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                Available at Tape London, Cuckoo Club (Tuesday and
-                Thursday), and Scotch of St James. Midweek nights offer the
+                Available at Tape London and Scotch of St James. Midweek nights offer the
                 lowest prices and a more intimate atmosphere. These are
                 excellent for smaller groups or couples who want a quieter
                 Mayfair experience.
@@ -375,18 +373,16 @@ export default function MayfairTableBookingGuidePage() {
                       </Link>
                     </h3>
                     <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">
-                      {club.area} &mdash; {club.openingNights.join(", ")} &mdash;{" "}
+                      {club.area} &mdash; {formatNights(club, ", ")} &mdash;{" "}
                       {club.musicPolicy.split(",")[0]}
                     </p>
                   </div>
                   <div className="md:text-right whitespace-nowrap">
                     <p className="price text-sm">
-                      Floor <span className="price-sign">&pound;</span>
-                      {club.pricing.floorTable.toLocaleString()}
+                      <Price value={club.pricing.floorTable} prefix="Floor " onRequest="Floor: on request" />
                     </p>
                     <p className="price text-sm text-gold-light">
-                      VIP <span className="price-sign">&pound;</span>
-                      {club.pricing.vipTable.toLocaleString()}
+                      <Price value={club.pricing.vipTable} prefix="VIP " onRequest="VIP: on request" />
                     </p>
                   </div>
                 </div>

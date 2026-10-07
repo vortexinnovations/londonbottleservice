@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Club } from "@/data/clubs";
+import { type Club, formatNights } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { getClubImages } from "@/data/images";
 
 interface ClubCardProps {
@@ -67,16 +68,14 @@ export function ClubCard({ club, index, total }: ClubCardProps) {
             <span className="text-text-secondary">Floor table</span>
             <span className="dotted-leader" aria-hidden="true" />
             <span className="price">
-              from <span className="price-sign">&pound;</span>
-              {club.pricing.floorTable.toLocaleString()}
+              <Price value={club.pricing.floorTable} prefix="from " />
             </span>
           </div>
           <div className="flex items-baseline text-[0.8125rem]">
             <span className="text-text-secondary">VIP table</span>
             <span className="dotted-leader" aria-hidden="true" />
             <span className="price">
-              from <span className="price-sign">&pound;</span>
-              {club.pricing.vipTable.toLocaleString()}
+              <Price value={club.pricing.vipTable} prefix="from " />
             </span>
           </div>
         </div>
@@ -87,7 +86,7 @@ export function ClubCard({ club, index, total }: ClubCardProps) {
           <span className="text-border-light mx-2">&mdash;</span>
           {club.area}
           <span className="text-border-light mx-2">&mdash;</span>
-          {club.openingNights.join(", ")}
+          {formatNights(club)}
         </p>
 
         <span className="inline-flex items-center gap-2 font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold group-hover:text-gold-light transition-colors">

@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     template: "%s | London Bottle Service",
   },
   description:
-    "Book VIP tables at London's best Mayfair nightclubs. Real prices, no hidden fees. Cirque Le Soir, Tape London, Cuckoo Club & more. WhatsApp booking.",
+    "Book VIP tables at London's best Mayfair nightclubs. Real prices, no hidden fees. Cirque Le Soir, Tape London, Maddox & more. WhatsApp booking.",
   keywords: [
     "bottle service London",
     "London bottle service",

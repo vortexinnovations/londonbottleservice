@@ -1,6 +1,8 @@
+// null = price on request (e.g. a venue that has changed its name and has no
+// confirmed minimum spend yet). Never invent a figure to fill the gap.
 export interface ClubPricing {
-  floorTable: number;
-  vipTable: number;
+  floorTable: number | null;
+  vipTable: number | null;
 }
 
 export interface Club {
@@ -8,6 +10,8 @@ export interface Club {
   bookingSlug?: string;
   name: string;
   shortName: string;
+  /** Previous trading name, for a venue that has been renamed. */
+  formerName?: string;
   tagline: string;
   description: string;
   longDescription: string;
@@ -166,69 +170,56 @@ export const clubs: Club[] = [
   {
     slug: "cuckoo-club",
     bookingSlug: "cuckoo-club-table-booking",
-    name: "Cuckoo Club",
-    shortName: "Cuckoo",
-    tagline: "Two floors of Mayfair nightlife done right",
+    name: "99 Regent Street (formerly Cuckoo Club)",
+    shortName: "99 Regent Street",
+    formerName: "Cuckoo Club",
+    tagline: "The Mayfair club formerly known as Cuckoo Club, now trading as 99 Regent Street",
     description:
-      "The Cuckoo Club on Swallow Street has been a Mayfair staple for years — a two-floor venue that manages to feel both polished and fun without taking itself too seriously. The ground floor leans towards house music while the basement goes harder with hip-hop and RnB. It's one of the most versatile clubs in the area.",
+      "99 Regent Street is the new name of the Mayfair club formerly known as Cuckoo Club. Table minimums, music and opening nights under the new name are confirmed on enquiry: message us with your date and group size for current details.",
     longDescription:
-      "Cuckoo Club has the kind of longevity that most Mayfair clubs would kill for, and that's because it gets the formula right. The ground floor is a stylish lounge-bar that transitions into a club as the night goes on, with deep house and tech house setting the tone. Head downstairs and you're in a different world — the basement is a dedicated hip-hop and RnB room where the energy is higher and the music is harder. This two-floor setup is what makes Cuckoo special. You're not locked into one vibe for the whole night. If your group has mixed music tastes, this is the answer. The crowd is a good mix of Mayfair regulars, young professionals, and international visitors. It's less celebrity-focused than Tape or Cirque but the atmosphere is consistently strong, especially on Fridays and Saturdays. Tables are available on both floors, with basement tables being the most popular for hip-hop fans.",
-    address: "58 Swallow Street, Mayfair, London W1B 4DG",
+      "Cuckoo Club now trades as 99 Regent Street. The venue is still in Mayfair, and the old name is still how many people search for it, so this page keeps both. Because the venue has changed its name, the floor and VIP minimum spends, music policy and opening nights published for Cuckoo Club no longer apply automatically. Rather than show out-of-date figures, this guide lists prices as on request: send your date, group size and any occasion on WhatsApp and the current minimum spend, table options and door policy will be confirmed before you commit.",
+    address: "Mayfair, London",
     area: "Mayfair",
-    musicPolicy:
-      "Ground floor: House, Deep House, Tech House. Basement: Hip-Hop, RnB, Afrobeats",
+    musicPolicy: "Confirmed on enquiry",
     dressCode:
-      "Smart casual to smart. Collared shirts for men, no trainers or sportswear. Women should dress for a Mayfair night out. The door is firm but fair — make an effort and you'll be fine.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM – 3:00 AM",
+      "Confirmed with your booking. Smart Mayfair dress is the safe default: collared shirts and smart shoes for men, no sportswear.",
+    openingNights: [],
+    openingHours: "Confirmed on enquiry",
     pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
+      floorTable: null,
+      vipTable: null,
     },
     whatsIncluded: [
       "Priority entry for your group",
-      "Reserved table and seating area on your chosen floor",
-      "Personal table service all night",
+      "Reserved table and seating area",
+      "Personal table service",
       "Premium spirits or champagne",
       "Mixers, ice, and garnishes",
-      "Access to both floors of the venue",
     ],
     knownFor: [
-      "Two distinct floors with different music policies",
-      "Consistent Mayfair atmosphere without pretension",
-      "Strong Thursday and Friday nights",
-      "One of the longest-running Mayfair clubs",
+      "Formerly Cuckoo Club",
+      "Mayfair location",
     ],
     bestFor:
-      "Groups with mixed music tastes who don't want to commit to one genre all night. Also great for a solid Mayfair night without the sky-high price tags of the ultra-exclusive venues.",
+      "Groups who knew Cuckoo Club and want to book the venue under its new name. Ask for the current minimum spend before you book.",
     atmosphere:
-      "Stylish but approachable. The two-floor layout keeps things interesting — upstairs is sophisticated, downstairs is where things get rowdy.",
-    capacity: "Approximately 350 across both floors",
+      "Confirmed on enquiry. The venue has a new name, so ask for current details before booking.",
+    capacity: "Confirmed on enquiry",
     faqs: [
       {
-        question: "How much is a table at Cuckoo Club?",
+        question: "Is Cuckoo Club still open?",
         answer:
-          "Tables at Cuckoo Club start from £1,000 minimum spend. VIP tables and premium positions start from £2,000. Prices can vary depending on the night of the week and any special events.",
+          "Cuckoo Club now trades as 99 Regent Street, in Mayfair. Tables can still be booked: message us with your date and group size for current availability.",
       },
       {
-        question: "Does Cuckoo Club play hip-hop?",
+        question: "How much is a table at 99 Regent Street?",
         answer:
-          "Yes — the basement at Cuckoo Club is dedicated to hip-hop, RnB, and Afrobeats. If hip-hop is what you're after, request a basement table when you book. The ground floor plays house music.",
+          "Table minimums under the new name are confirmed on enquiry. Message us with your date and group size and the current floor and VIP minimum spend will be confirmed before you book.",
       },
       {
-        question: "What nights is Cuckoo Club open?",
+        question: "What nights is 99 Regent Street open?",
         answer:
-          "Cuckoo Club is open Tuesday, Thursday, Friday, and Saturday. Thursday and Friday are particularly popular. Saturdays are the biggest night with the highest minimum spends.",
-      },
-      {
-        question: "What's the dress code at Cuckoo Club?",
-        answer:
-          "Smart casual to smart. Men should wear collared shirts and smart shoes. Women should dress for a night in Mayfair. The dress code is enforced but isn't as strict as some of the more exclusive members' clubs.",
-      },
-      {
-        question: "Is Cuckoo Club good for birthdays?",
-        answer:
-          "Cuckoo is a great birthday venue, especially if your group is split between house music and hip-hop fans — the two-floor layout means everyone's happy. We can arrange cakes, sparklers, and birthday packages.",
+          "Opening nights under the new name are confirmed on enquiry. Send your preferred date and availability will be checked for you.",
       },
     ],
   },
@@ -304,68 +295,56 @@ export const clubs: Club[] = [
   {
     slug: "tabu-london",
     bookingSlug: "tabu-london-table-booking",
-    name: "Tabu London",
-    shortName: "Tabu",
-    tagline: "Japanese-inspired underground clubbing in Mayfair",
+    name: "Rumour (formerly Tabu)",
+    shortName: "Rumour",
+    formerName: "Tabu",
+    tagline: "The Mayfair club formerly known as Tabu, now trading as Rumour",
     description:
-      "Tabu London brings a Japanese underground aesthetic to Mayfair with a dark, moody interior, hip-hop-heavy music policy, and an atmosphere that feels like Tokyo's late-night scene transplanted into central London. It's intimate, stylish, and different from the typical Mayfair offering.",
+      "Rumour is the new name of the Mayfair club formerly known as Tabu. Table minimums, music and opening nights under the new name are confirmed on enquiry: message us with your date and group size for current details.",
     longDescription:
-      "Tabu is what happens when someone takes the best elements of Tokyo's underground nightlife and drops them into Mayfair. The venue is deliberately dark with Japanese-inspired design touches — think low lighting, rich textures, and an aesthetic that's more Shibuya than Swallow Street. The music policy is firmly hip-hop and RnB, with DJs who lean into the harder, more underground end of the spectrum rather than the commercial top-40 approach. The crowd tends to be younger, fashion-forward, and more diverse than some of the older Mayfair establishments. It's attracted a loyal following since opening and has quickly become one of the go-to spots for anyone who wants Mayfair bottle service without the traditional Mayfair stuffiness. The venue is relatively compact which keeps the atmosphere intense and the energy high. If you've been to the big Mayfair clubs and found them a bit safe or predictable, Tabu is designed to be the antidote.",
-    address: "35 Albemarle Street, Mayfair, London W1S 4JE",
+      "Tabu now trades as Rumour. The venue is still in Mayfair, and the old name is still searched, so this page keeps both. Because the venue has changed its name, the floor and VIP minimum spends, music policy and opening nights published for Tabu no longer apply automatically. Rather than show out-of-date figures, this guide lists prices as on request: send your date, group size and any occasion on WhatsApp and the current minimum spend, table options and door policy will be confirmed before you commit.",
+    address: "Mayfair, London",
     area: "Mayfair",
-    musicPolicy: "Hip-Hop, RnB, UK Rap, Drill, Afrobeats",
+    musicPolicy: "Confirmed on enquiry",
     dressCode:
-      "Smart and fashion-forward. Tabu is more relaxed than traditional Mayfair clubs but still expects effort. Smart trainers may be accepted depending on the overall outfit. No sportswear or casual wear.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM – 3:00 AM",
+      "Confirmed with your booking. Smart Mayfair dress is the safe default: no sportswear or casual wear.",
+    openingNights: [],
+    openingHours: "Confirmed on enquiry",
     pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
+      floorTable: null,
+      vipTable: null,
     },
     whatsIncluded: [
       "Priority entry for your group",
-      "Reserved table in an intimate setting",
+      "Reserved table and seating area",
       "Personal table service",
       "Premium spirits or champagne",
       "Mixers, ice, and garnishes",
-      "An atmosphere you won't find anywhere else in Mayfair",
     ],
     knownFor: [
-      "Japanese underground-inspired interior",
-      "Strong hip-hop and RnB music policy",
-      "Fashion-forward crowd",
-      "Dark, moody atmosphere",
+      "Formerly Tabu",
+      "Mayfair location",
     ],
     bestFor:
-      "Hip-hop fans who want bottle service in Mayfair without the traditional Mayfair vibe. Groups who value aesthetics, good music, and an atmosphere that's more underground than upscale.",
+      "Groups who knew Tabu and want to book the venue under its new name. Ask for the current minimum spend before you book.",
     atmosphere:
-      "Dark, intimate, and stylish. The Japanese-inspired design creates a unique backdrop that makes Tabu feel completely separate from the standard Mayfair club circuit.",
-    capacity: "Approximately 200",
+      "Confirmed on enquiry. The venue has a new name, so ask for current details before booking.",
+    capacity: "Confirmed on enquiry",
     faqs: [
       {
-        question: "How much is a table at Tabu London?",
+        question: "Is Tabu London still open?",
         answer:
-          "Tables at Tabu London start from £1,000 minimum spend for a floor table. VIP tables start from £2,000. For a newer venue, the pricing is competitive with established Mayfair clubs.",
+          "Tabu now trades as Rumour, in Mayfair. Tables can still be booked: message us with your date and group size for current availability.",
       },
       {
-        question: "What type of music does Tabu play?",
+        question: "How much is a table at Rumour?",
         answer:
-          "Tabu focuses on hip-hop, RnB, UK rap, drill, and Afrobeats. The music policy leans more underground than commercial — expect deep cuts alongside the big tracks. If you're after house music, look at Maddox instead.",
+          "Table minimums under the new name are confirmed on enquiry. Message us with your date and group size and the current floor and VIP minimum spend will be confirmed before you book.",
       },
       {
-        question: "What nights is Tabu London open?",
+        question: "What nights is Rumour open?",
         answer:
-          "Tabu is open Thursday, Friday, and Saturday nights. All three nights maintain a strong atmosphere thanks to the intimate size of the venue.",
-      },
-      {
-        question: "What's the dress code at Tabu?",
-        answer:
-          "Smart and fashion-forward. Tabu is slightly more relaxed than traditional Mayfair clubs — smart trainers can work if the overall outfit is on point. But no sportswear, no casual gear, and no flip-flops.",
-      },
-      {
-        question: "What's the Japanese theme about?",
-        answer:
-          "Tabu's interior design draws inspiration from Japanese underground nightlife — dark lighting, Japanese aesthetic elements, and a moody atmosphere reminiscent of Tokyo's late-night scene. It's a design concept rather than a themed venue.",
+          "Opening nights under the new name are confirmed on enquiry. Send your preferred date and availability will be checked for you.",
       },
     ],
   },
@@ -503,75 +482,6 @@ export const clubs: Club[] = [
         question: "Is Selene good for large groups?",
         answer:
           "Excellent for large groups. The multi-room layout means a group of 20+ can spread across spaces without feeling cramped. The bowling element also gives people something to do together, which is great for groups where not everyone knows each other.",
-      },
-    ],
-  },
-  {
-    slug: "funky-buddha",
-    bookingSlug: "funky-buddha-table-booking",
-    name: "Funky Buddha",
-    shortName: "Funky Buddha",
-    tagline: "The iconic Mayfair name returns with a fresh identity",
-    description:
-      "Funky Buddha (formerly Luxx) is the reborn version of one of Mayfair's most legendary club names. Located in the heart of Mayfair, the venue has been refreshed with a new look while keeping the open-format music policy that appeals to groups who don't want to be locked into one genre all night.",
-    longDescription:
-      "The Funky Buddha name carries serious weight in London nightlife — the original was one of the defining Mayfair clubs of its era, known for an eclectic crowd and music policy that crossed every boundary. The rebranded venue keeps that spirit alive with an open-format approach where DJs move between hip-hop, house, RnB, afrobeats, and commercial anthems depending on the crowd and the energy. It's the kind of club where the music follows the room rather than dictating it. The venue has been refitted and modernised but retains a Mayfair-standard interior — it's sleek, dark, and designed for a proper night out. The crowd is mixed in the best way: regulars who remember the original name, new visitors drawn by the relaunch, and Mayfair's usual international mix. Tables start from £1,000 and the open-format music makes it one of the easier sells for mixed groups where people have different musical preferences.",
-    address: "15 Berkeley Street, Mayfair, London W1J 8DY",
-    area: "Mayfair",
-    musicPolicy:
-      "Open format — Hip-Hop, House, RnB, Afrobeats, Commercial. DJs read the room.",
-    dressCode:
-      "Smart. Standard Mayfair expectations — smart shoes, collared shirts for men. No sportswear, trainers, or casual wear.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:30 PM – 3:00 AM",
-    pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
-    },
-    whatsIncluded: [
-      "Priority entry for your group",
-      "Reserved table and seating area",
-      "Personal table service",
-      "Premium spirits or champagne",
-      "Mixers, ice, and garnishes",
-      "Open-format music that adapts to the crowd",
-    ],
-    knownFor: [
-      "Revived legendary Mayfair club name",
-      "Open-format music policy (not locked to one genre)",
-      "Strong mixed crowd",
-      "Classic Mayfair club atmosphere",
-    ],
-    bestFor:
-      "Groups with mixed music tastes who want a reliable Mayfair night out without committing to one genre. Also great if you have nostalgia for the original Funky Buddha name.",
-    atmosphere:
-      "Classic Mayfair club energy — well-dressed crowd, strong music, and the buzz of a venue that doesn't need to try too hard because the formula works.",
-    capacity: "Approximately 300",
-    faqs: [
-      {
-        question: "How much is a table at Funky Buddha?",
-        answer:
-          "Tables at Funky Buddha start from £1,000 minimum spend. VIP tables start from £2,000. The pricing is standard for a Mayfair club of this calibre.",
-      },
-      {
-        question: "Is Funky Buddha the same as the original?",
-        answer:
-          "The venue was previously known as Luxx before rebranding to Funky Buddha, reviving one of Mayfair's most iconic club names. The spirit is similar — eclectic, fun, well-dressed — but the venue has been updated and modernised.",
-      },
-      {
-        question: "What music does Funky Buddha play?",
-        answer:
-          "Funky Buddha operates an open-format music policy. DJs move between hip-hop, house, RnB, Afrobeats, and commercial anthems based on the crowd and energy. This makes it ideal for mixed groups.",
-      },
-      {
-        question: "What nights is Funky Buddha open?",
-        answer:
-          "Funky Buddha is open Friday and Saturday nights. Both are strong nights with the Friday crowd skewing slightly more local and Saturday drawing a broader mix.",
-      },
-      {
-        question: "What's the dress code at Funky Buddha?",
-        answer:
-          "Standard Mayfair smart dress code. Collared shirts and smart shoes for men, dressed-up for women. No sportswear, casual trainers, or shorts. The door will turn you away if you're not dressed appropriately.",
       },
     ],
   },
@@ -775,7 +685,7 @@ export const clubs: Club[] = [
       {
         question: "How does BEAT compare to other London clubs?",
         answer:
-          "BEAT is for electronic music what Tabu is for hip-hop — a venue built around the music first. If you care about sound quality and DJ talent over celebrity sightings, BEAT is the choice.",
+          "BEAT is a venue built around the music first. If you care about sound quality and DJ talent over celebrity sightings, BEAT is the choice.",
       },
     ],
   },
@@ -848,148 +758,117 @@ export const clubs: Club[] = [
       },
     ],
   },
+];
+
+// Permanently closed clubs — kept for SEO purposes only (people still search for these)
+export const closedClubs: Club[] = [
+  {
+    slug: "funky-buddha",
+    name: "Funky Buddha",
+    shortName: "Funky Buddha",
+    tagline: "Open-format Mayfair club on Berkeley Street (permanently closed)",
+    description:
+      "Funky Buddha was a Mayfair nightclub on Berkeley Street with an open-format music policy that moved between hip-hop, house, RnB and commercial anthems. Funky Buddha is now permanently closed.",
+    longDescription:
+      "Funky Buddha carried one of the best-known names in Mayfair nightlife, and its open-format music policy made it an easy choice for mixed groups who did not want to commit to one genre all night. The venue is now permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
+    address: "15 Berkeley Street, Mayfair, London W1J 8DY",
+    area: "Mayfair",
+    musicPolicy: "Open format: Hip-Hop, House, RnB, Afrobeats, Commercial",
+    dressCode: "Not applicable: the venue has closed.",
+    openingNights: [],
+    openingHours: "Permanently Closed",
+    pricing: { floorTable: null, vipTable: null },
+    whatsIncluded: [],
+    knownFor: [
+      "Well-known Mayfair club name",
+      "Open-format music policy",
+      "Mixed crowd",
+    ],
+    bestFor: "Funky Buddha is permanently closed. For a similar Mayfair night with table service, try Cirque Le Soir, Selene London or Dear Darling.",
+    atmosphere: "Classic Mayfair club energy with open-format music.",
+    capacity: "Approximately 300",
+    faqs: [
+      {
+        question: "Is Funky Buddha still open?",
+        answer: "No, Funky Buddha has permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
+      },
+      {
+        question: "Can I still book a table at Funky Buddha?",
+        answer: "No. Funky Buddha is closed, so tables can no longer be booked there. Tables at open Mayfair clubs can be arranged instead: send your date, group size and budget on WhatsApp.",
+      },
+    ],
+  },
   {
     slug: "luna-club-london",
-    bookingSlug: "luna-club-london-table-booking",
     name: "Luna Club London",
-    shortName: "Luna",
-    tagline: "Mayfair's sleek late-night destination for the well-connected",
+    shortName: "Luna Club London",
+    tagline: "Intimate Mayfair hip-hop club (permanently closed)",
     description:
-      "Luna Club London is a sleek, intimate Mayfair nightclub that draws a well-connected, international crowd. With a refined interior, strong hip-hop and RnB music policy, and the kind of atmosphere that rewards people who know the scene, Luna has established itself as a favourite among Mayfair regulars and visiting VIPs.",
+      "Luna Club London was an intimate Mayfair club with a hip-hop, RnB and Afrobeats music policy. Luna Club London is now permanently closed.",
     longDescription:
-      "Luna Club London is built for people who take their nightlife seriously. The venue is deliberately intimate — small enough to create genuine energy but spacious enough for proper bottle service with room to move. The interior is sleek and modern with a dark colour palette, metallic accents, and lighting designed to create atmosphere rather than spectacle. The music policy centres on hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with tracks that show genuine musical knowledge. The crowd at Luna is one of its strongest assets — a mix of well-connected Mayfair regulars, international visitors, and people who've been around the London club circuit and settled on Luna as their go-to. The door is selective but not impossible — if you're well-dressed and have a table booking, you're in. The atmosphere is confident without being aggressive, exclusive without being pretentious. Tables start from £1,000 and the intimate size of the venue means even standard floor tables feel well-positioned. If you want a reliable, well-run Mayfair hip-hop club without the theatrics or gimmicks, Luna delivers consistently.",
+      "Luna Club London was a compact Mayfair venue built around hip-hop, RnB, Afrobeats and UK rap, with tables close to the dancefloor. The venue is now permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
     address: "Mayfair, London W1",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, Afrobeats, UK Rap",
-    dressCode:
-      "Smart. Standard Mayfair dress code applies — collared shirts and smart shoes for men, dressed-up for women. No sportswear, casual trainers, or shorts.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:30 PM – 3:00 AM",
-    pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
-    },
-    whatsIncluded: [
-      "Priority entry for your group",
-      "Reserved table and seating area",
-      "Personal table service all night",
-      "Premium spirits or champagne",
-      "Mixers, ice, and garnishes",
-      "Access to one of Mayfair's most well-connected crowds",
-    ],
+    dressCode: "Not applicable: the venue has closed.",
+    openingNights: [],
+    openingHours: "Permanently Closed",
+    pricing: { floorTable: null, vipTable: null },
+    whatsIncluded: [],
     knownFor: [
-      "Sleek, intimate Mayfair setting",
-      "Strong hip-hop and RnB music policy",
-      "Well-connected, international crowd",
-      "Consistently good atmosphere",
+      "Intimate Mayfair setting",
+      "Hip-hop and RnB music policy",
     ],
-    bestFor:
-      "Groups who want a solid, reliable Mayfair hip-hop club with a strong crowd and intimate atmosphere. No gimmicks, just good music, good people, and proper table service.",
-    atmosphere:
-      "Sleek, confident, energetic. The intimate size keeps the energy concentrated and the well-connected crowd creates an atmosphere that feels exclusive without being stuffy.",
+    bestFor: "Luna Club London is permanently closed. For a similar Mayfair night with table service, try Cirque Le Soir, Selene London or Dear Darling.",
+    atmosphere: "Sleek and intimate, with a hip-hop focus.",
     capacity: "Approximately 250",
     faqs: [
       {
-        question: "How much is a table at Luna Club London?",
-        answer:
-          "Tables at Luna Club London start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Pricing is competitive with other Mayfair clubs of similar quality.",
+        question: "Is Luna Club London still open?",
+        answer: "No, Luna Club London has permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
-        question: "What type of music does Luna play?",
-        answer:
-          "Luna focuses on hip-hop, RnB, Afrobeats, and UK rap. The DJs know the scene well and balance mainstream tracks with deeper cuts. If you're looking for house or electronic music, try Maddox or BEAT instead.",
-      },
-      {
-        question: "What nights is Luna Club London open?",
-        answer:
-          "Luna is open Thursday, Friday, and Saturday nights. All three nights have strong energy thanks to the intimate venue size. Saturday is the biggest night.",
-      },
-      {
-        question: "What's the dress code at Luna?",
-        answer:
-          "Standard Mayfair smart dress code. Collared shirts and smart shoes for men, dressed-up for women. No sportswear, casual trainers, or shorts. The door is selective so dress well.",
-      },
-      {
-        question: "How does Luna compare to other Mayfair clubs?",
-        answer:
-          "Luna is a strong all-rounder for hip-hop fans. It's less theatrical than Cirque Le Soir, less exclusive than Tape, and less activity-focused than Selene — but it delivers consistently good music, a strong crowd, and reliable bottle service. Think of it as the no-nonsense option.",
+        question: "Can I still book a table at Luna Club London?",
+        answer: "No. Luna Club London is closed, so tables can no longer be booked there. Tables at open Mayfair clubs can be arranged instead: send your date, group size and budget on WhatsApp.",
       },
     ],
   },
   {
     slug: "maison-close",
-    bookingSlug: "maison-close-table-booking",
     name: "Maison Close",
     shortName: "Maison Close",
-    tagline: "Mayfair's intimate French-inspired house music sanctuary",
+    tagline: "French-inspired house music club on Swallow Street (permanently closed)",
     description:
-      "Maison Close is an intimate, French-inspired nightclub on Swallow Street in the heart of Mayfair. Opened in the former Kadie's site next door to Cuckoo Club, it brings a distinctly Parisian sensibility to London nightlife — think vintage chandeliers, plush velvet, bold crimson accents, and a crowd that appreciates house music played properly. This is not a large-scale superclub. It's deliberately small, deliberately selective, and all the better for it.",
+      "Maison Close was an intimate, French-inspired Mayfair club on Swallow Street with a house music policy. Maison Close is now permanently closed.",
     longDescription:
-      "Maison Close occupies a unique position in Mayfair's club landscape. Where most venues in the area lean toward hip-hop and RnB, Maison Close has planted its flag firmly in the house music camp — and the crowd it attracts reflects that choice. The interior is unapologetically theatrical in a Parisian cabaret style, with rich reds, deep blacks, ambient lighting, and design touches that feel more like a private members' salon than a conventional nightclub. The dancefloor is intimate, the sound system is serious, and the DJs are booked for their ability to build a set rather than drop obvious crowd-pleasers. Tables are positioned to keep you close to the action without being swallowed by it. The atmosphere is sophisticated but never stiff — Maison Close manages to feel exclusive without being unwelcoming, which is harder to pull off than most clubs make it look. Bottle service here is about enhancing the experience rather than dominating it. If you appreciate quality house music in a beautifully designed space with a curated door policy, Maison Close is one of the strongest options in Mayfair right now.",
+      "Maison Close stood out in a hip-hop-heavy Mayfair scene by committing to house music, in a small room with a Parisian-inspired interior. The venue is now permanently closed. For house music with table service, Maddox and BEAT London are the closest alternatives on this site; for a general Mayfair night, try Cirque Le Soir, Selene London or Dear Darling. Send your date and group size on WhatsApp for a recommendation.",
     address: "9 Swallow Street, London W1B 4DF",
     area: "Mayfair",
     musicPolicy: "House music",
-    dressCode:
-      "Elegant and sophisticated. Suits or sharp separates for men, elegant dresses or stylish cocktail wear for women. The door policy is selective and presentation matters — dress as though you are attending a private Parisian salon.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "11:00 PM – 3:00 AM",
-    pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
-    },
-    whatsIncluded: [
-      "Priority entry for your group (skip the queue entirely)",
-      "A dedicated table and seating area for your party",
-      "A personal waitress assigned to your table for the night",
-      "Your choice of premium spirits or champagne (covered by your minimum spend)",
-      "Mixers, ice, and garnishes included",
-      "Access to the intimate dancefloor and full venue experience",
-    ],
+    dressCode: "Not applicable: the venue has closed.",
+    openingNights: [],
+    openingHours: "Permanently Closed",
+    pricing: { floorTable: null, vipTable: null },
+    whatsIncluded: [],
     knownFor: [
-      "Dedicated house music programming",
-      "Parisian-inspired interior design with vintage chandeliers",
-      "Intimate atmosphere with a carefully curated door policy",
-      "Live performances and art exhibitions",
-      "Premium cocktail programme alongside bottle service",
-      "Sophisticated crowd who appreciate quality music",
+      "House music programming",
+      "Parisian-inspired interior",
+      "Intimate room",
     ],
-    bestFor:
-      "House music lovers who want an intimate, beautifully designed Mayfair club without the hip-hop-heavy soundtrack that dominates most venues in the area. Ideal for groups of 4-8 who appreciate a more refined, musically focused night out.",
-    atmosphere:
-      "Intimate, sophisticated, Parisian-cabaret. The design is theatrical without being gimmicky — rich reds and deep blacks, vintage chandeliers, plush velvet seating. The sound is focused and the dancefloor is close enough to your table that you're always part of the energy. Think private members' salon meets underground house music club.",
+    bestFor: "Maison Close is permanently closed. For a similar Mayfair night with table service, try Maddox or BEAT London for house music.",
+    atmosphere: "Intimate and Parisian-inspired, with a house music focus.",
     capacity: "Approximately 160",
     faqs: [
       {
-        question: "What kind of music does Maison Close play?",
-        answer:
-          "Maison Close is a dedicated house music venue — one of the few in Mayfair. The programming focuses on quality house and deep house, with DJs booked for their ability to build a proper set. If you prefer hip-hop or RnB, look at Tabu, Cirque Le Soir, or Tape London instead.",
+        question: "Is Maison Close still open?",
+        answer: "No, Maison Close has permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
-        question: "What is the minimum spend at Maison Close?",
-        answer:
-          "Floor tables start from £1,000 minimum spend. VIP and premium table positions start from £2,000. Prices vary by night and group size — message us on WhatsApp for exact pricing for your date.",
-      },
-      {
-        question: "What is the dress code at Maison Close?",
-        answer:
-          "Elegant and sophisticated. Men should wear suits or sharp separates — no trainers, no casual wear. Women should opt for elegant dresses or stylish cocktail wear. The door policy is selective, so make an effort with your presentation.",
-      },
-      {
-        question: "What nights is Maison Close open?",
-        answer:
-          "Maison Close is open Wednesday, Thursday, Friday, and Saturday from 11 PM until late. Thursday and Saturday tend to be the busiest nights. Wednesday is a strong option if you want the full experience with slightly less competition for tables.",
-      },
-      {
-        question: "Where is Maison Close located?",
-        answer:
-          "Maison Close is at 9 Swallow Street in Mayfair, London W1B 4DF — right next door to Cuckoo Club and a short walk from Piccadilly Circus. The venue occupies the former Kadie's site.",
+        question: "Can I still book a table at Maison Close?",
+        answer: "No. Maison Close is closed, so tables can no longer be booked there. Tables at open Mayfair clubs can be arranged instead: send your date, group size and budget on WhatsApp.",
       },
     ],
   },
-];
-
-// Permanently closed clubs — kept for SEO purposes only (people still search for these)
-export const closedClubs: Club[] = [
   {
     slug: "libertine",
     name: "Libertine",
@@ -998,7 +877,7 @@ export const closedClubs: Club[] = [
     description:
       "Libertine was one of Mayfair's most high-energy nightclubs — a venue that attracted a young, international crowd who came to party hard. Located on Winsley Street just off Oxford Circus, it was known for its anything-goes atmosphere, celebrity appearances, and music that spanned hip-hop, RnB, and commercial anthems. Libertine is now permanently closed.",
     longDescription:
-      "Libertine carved out a reputation as the club where Mayfair's rules got bent. The atmosphere was deliberately more hedonistic than the polished, restrained vibe found at some of the area's more established venues. The interior was dark and club-focused — this wasn't a lounge that became a club, it was a nightclub from the moment you walked in. The music policy centred on hip-hop and RnB with commercial crossover, and the DJs knew how to build energy through the night. The crowd skewed young and international — models, influencers, visiting celebrities, and groups who were specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables were positioned around the dance floor, putting you right in the middle of the action. Libertine didn't pretend to be understated — it was loud, fun, and unapologetically a party. While Libertine has now permanently closed, the spirit of high-energy Mayfair partying lives on at venues like Tabu London, Funky Buddha, and Cirque Le Soir.",
+      "Libertine carved out a reputation as the club where Mayfair's rules got bent. The atmosphere was deliberately more hedonistic than the polished, restrained vibe found at some of the area's more established venues. The interior was dark and club-focused — this wasn't a lounge that became a club, it was a nightclub from the moment you walked in. The music policy centred on hip-hop and RnB with commercial crossover, and the DJs knew how to build energy through the night. The crowd skewed young and international — models, influencers, visiting celebrities, and groups who were specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables were positioned around the dance floor, putting you right in the middle of the action. Libertine didn't pretend to be understated — it was loud, fun, and unapologetically a party. While Libertine has now permanently closed, the spirit of high-energy Mayfair partying lives on at venues like Cirque Le Soir, Selene London and Dear Darling.",
     address: "4 Winsley Street, London W1W 8HF",
     area: "Fitzrovia (edge of Mayfair)",
     musicPolicy: "Hip-Hop, RnB, Commercial, Afrobeats",
@@ -1012,13 +891,13 @@ export const closedClubs: Club[] = [
       "Young, international crowd",
       "Regular celebrity appearances",
     ],
-    bestFor: "Libertine is permanently closed. For a similar high-energy Mayfair experience, try Tabu London or Funky Buddha.",
+    bestFor: "Libertine is permanently closed. For a similar high-energy Mayfair experience, try Cirque Le Soir or Selene London.",
     atmosphere: "High-energy, hedonistic, loud. Libertine was the opposite of Mayfair's usual restraint.",
     capacity: "Approximately 300",
     faqs: [
       {
         question: "Is Libertine London still open?",
-        answer: "No, Libertine London has permanently closed. For a similar high-energy party atmosphere, we recommend Tabu London, Funky Buddha, or Cirque Le Soir. Message us on WhatsApp and we'll help you find the perfect alternative.",
+        answer: "No, Libertine London has permanently closed. For a similar high-energy party atmosphere, we recommend Cirque Le Soir, Selene London or Dear Darling. Message us on WhatsApp and we'll help you find the perfect alternative.",
       },
       {
         question: "What happened to Libertine London?",
@@ -1077,4 +956,38 @@ export function getOpenClubBySlug(slug: string): Club | undefined {
 
 export function isClosedClub(slug: string): boolean {
   return closedClubs.some((c) => c.slug === slug);
+}
+
+/** "£1,000", or "On request" when no confirmed figure exists. */
+export function formatPrice(value: number | null): string {
+  return value === null ? "On request" : `£${value.toLocaleString()}`;
+}
+
+/** Sort key that puts price-on-request venues after priced ones. */
+export function priceSortValue(value: number | null): number {
+  return value === null ? Number.POSITIVE_INFINITY : value;
+}
+
+/** "From £1,000" (label configurable), or `onRequest` when no figure exists. */
+export function fromPrice(
+  value: number | null,
+  label = "From",
+  onRequest = "Price on request"
+): string {
+  return value === null ? onRequest : `${label} £${value.toLocaleString()}`;
+}
+
+/**
+ * Opening nights for display. Falls back to openingHours ("Confirmed on
+ * enquiry", "Permanently Closed") when no nights are listed.
+ */
+export function formatNights(
+  club: Pick<Club, "openingNights" | "openingHours">,
+  separator = ", ",
+  short = false
+): string {
+  if (club.openingNights.length === 0) return club.openingHours;
+  return club.openingNights
+    .map((n) => (short ? n.slice(0, 3) : n))
+    .join(separator);
 }

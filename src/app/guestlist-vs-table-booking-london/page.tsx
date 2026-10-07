@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs } from "@/data/clubs";
+import { clubs, formatPrice } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
@@ -46,7 +46,7 @@ const faqs = [
   {
     question: "Can I get on the guestlist at any London club?",
     answer:
-      "Most London clubs offer some form of guestlist, but the availability and benefit varies. Some clubs like Cuckoo Club and Funky Buddha have active guestlists. Others like Tape London rarely offer meaningful guestlist access — the venue is a members' club and getting in without a table booking is very difficult. The Box is similarly selective. We can advise on guestlist availability for any specific venue.",
+      "Most London clubs offer some form of guestlist, but the availability and benefit varies. Some clubs run active guestlists on certain nights. Others like Tape London rarely offer meaningful guestlist access — the venue is a members' club and getting in without a table booking is very difficult. The Box is similarly selective. We can advise on guestlist availability for any specific venue.",
   },
   {
     question: "When should I choose a table booking over guestlist?",
@@ -446,7 +446,7 @@ export default function GuestlistVsTableBookingPage() {
                     <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
                       Table from{" "}
                       <span className="text-gold">
-                        £{club.pricing.floorTable.toLocaleString()}
+                        {formatPrice(club.pricing.floorTable)}
                       </span>
                       {isHardDoor && (
                         <span className="text-gold">

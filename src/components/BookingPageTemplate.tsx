@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { getBookingPageBySlug } from "@/data/bookingPages";
 import { getOpenClubBySlug, clubs } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 import { getBlogPostBySlug } from "@/data/blog";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
@@ -40,7 +41,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       opens: club.openingHours.split("–")[0]?.trim(),
       closes: club.openingHours.split("–")[1]?.trim() || "03:00",
     })),
-    priceRange: `From £${club.pricing.floorTable.toLocaleString()}`,
+    priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
     url: `https://londonbottleservice.com/${bookingSlug}`,
     potentialAction: {
       "@type": "ReserveAction",
@@ -111,7 +112,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
           London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
         </p>
         <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-3 animate-fade-up-1">
-          {club.area} &mdash; <span className="price">Tables from <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}</span>
+          {club.area} &mdash; <span className="price"><Price value={club.pricing.floorTable} prefix="Tables from " onRequest="Price on request" /></span>
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">{data.h1}</h1>
         <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl animate-fade-up-2">
@@ -139,7 +140,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
             <div className="bg-bg-card border border-border p-6">
               <h3 className="font-display text-lg font-medium mb-2">Floor Table</h3>
               <p className="price text-2xl md:text-3xl mb-2">
-                From <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
+                <Price value={club.pricing.floorTable} prefix="From " onRequest="Price on request" />
               </p>
               <p className="text-text-muted text-sm">
                 Minimum spend per table. Standard tables on the main floor with full table service.
@@ -149,7 +150,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
               <p className="eyebrow mb-2">Most requested</p>
               <h3 className="font-display text-lg font-medium mb-2">VIP Table</h3>
               <p className="price text-2xl md:text-3xl mb-2">
-                From <span className="price-sign">&pound;</span>{club.pricing.vipTable.toLocaleString()}
+                <Price value={club.pricing.vipTable} prefix="From " onRequest="Price on request" />
               </p>
               <p className="text-text-muted text-sm">
                 Premium positions with the best views and enhanced service. Recommended for special occasions.
@@ -372,7 +373,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
                         {c.name}
                       </h3>
                       <p className="price text-sm mt-1">
-                        Tables from <span className="price-sign">&pound;</span>{c.pricing.floorTable.toLocaleString()}
+                        <Price value={c.pricing.floorTable} prefix="Tables from " onRequest="Price on request" />
                       </p>
                       <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">{c.area}</p>
                       <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold group-hover:text-gold-light transition-colors mt-3">

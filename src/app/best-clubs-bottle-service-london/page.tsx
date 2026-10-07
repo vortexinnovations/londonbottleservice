@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs } from "@/data/clubs";
+import { clubs, fromPrice, formatPrice, formatNights } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
@@ -31,17 +31,17 @@ const faqs = [
   {
     question: "What is the best club for bottle service in London?",
     answer:
-      "It depends entirely on what you want. For the most memorable experience, Cirque Le Soir with its circus performers is hard to beat. For exclusivity, Tape London is the gold standard. For versatility, Cuckoo Club's two-floor layout works for any group. For dinner and clubbing combined, Maddox is unmatched. There's no single 'best' — it's about matching the venue to your group.",
+      "It depends entirely on what you want. For the most memorable experience, Cirque Le Soir with its circus performers is hard to beat. For exclusivity, Tape London is the gold standard. For dinner and clubbing combined, Maddox is unmatched. There's no single 'best' — it's about matching the venue to your group.",
   },
   {
     question: "Which London club has the cheapest bottle service?",
     answer:
-      "Most Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Cuckoo Club, Maddox, Tabu, Selene, Funky Buddha, and Maison Close. VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
+      "Most Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Maddox, Selene, Dear Darling, and Scotch of St James. VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
   },
   {
     question: "Which Mayfair clubs play hip-hop?",
     answer:
-      "Tabu London is the strongest pure hip-hop venue, with a music policy focused on hip-hop, RnB, UK rap, and drill. Cirque Le Soir and Tape London also lean heavily hip-hop. Cuckoo Club's basement room is dedicated to hip-hop. Funky Buddha plays hip-hop as part of its open-format policy. Maddox is the outlier — it focuses on house music.",
+      "Cirque Le Soir and Tape London lean heavily hip-hop and RnB, and Selene London and Dear Darling both play hip-hop, RnB and Afrobeats. Maddox is the outlier: it focuses on house music.",
   },
   {
     question: "Which London club is best for a birthday?",
@@ -100,27 +100,8 @@ const reviews: ClubReview[] = [
     ],
   },
   {
-    slug: "cuckoo-club",
-    rank: 3,
-    headline: "The Most Versatile Club in Mayfair",
-    review:
-      "Cuckoo Club is the safe bet that never disappoints. Two floors with completely different music policies — house upstairs, hip-hop in the basement — means every group finds their spot. It's been running for years because it gets the formula right: good music, strong crowd, reasonable prices, and a layout that keeps things interesting. If half your group wants house music and the other half wants hip-hop, Cuckoo solves that problem. It's not the flashiest or most exclusive venue on this list, but it's the most consistently good.",
-    bestFor: "Mixed groups, people who want options, reliable Mayfair night out",
-    prosText: [
-      "Two distinct music rooms — something for everyone",
-      "Consistently strong atmosphere, especially Thursday and Friday",
-      "£1,000 starting minimum is accessible",
-      "The longest-running clubs survive for a reason",
-    ],
-    consText: [
-      "Not as 'exclusive' feeling as Tape or Cirque",
-      "The ground floor can lean commercial at times",
-      "Less of a 'special occasion' venue",
-    ],
-  },
-  {
     slug: "maddox",
-    rank: 4,
+    rank: 3,
     headline: "The Best Dinner-to-Club Transition in London",
     review:
       "Maddox is a problem solver. If you want to start with a proper Italian dinner and then stay for clubbing without switching venues, taxis, or queues, this is the only venue that does both at a high level. The restaurant is genuinely good — this isn't club food, it's real Italian fine dining. The club transition happens naturally as the lights drop and the house music builds. The crowd is more mature and sophisticated than most Mayfair clubs, which is either a pro or a con depending on what you're after.",
@@ -139,7 +120,7 @@ const reviews: ClubReview[] = [
   },
   {
     slug: "the-box",
-    rank: 5,
+    rank: 4,
     headline: "London's Most Provocative Night Out",
     review:
       "The Box brings avant-garde theatrical performances, burlesque, and deliberately provocative acts to its Soho location. Inspired by the famous New York original, it attracts a creative, fashion-forward crowd who come for a night out that genuinely pushes boundaries. The performances are unlike anything else in London — part cabaret, part performance art, part nightclub. The door policy is extremely selective, and that exclusivity is part of the appeal. If you're in fashion, music, or the creative industries, this is where your people go.",
@@ -157,27 +138,8 @@ const reviews: ClubReview[] = [
     ],
   },
   {
-    slug: "tabu-london",
-    rank: 6,
-    headline: "The Freshest Addition to Mayfair's Hip-Hop Scene",
-    review:
-      "Tabu takes the Japanese underground aesthetic and drops it into Mayfair with genuine style. The dark, moody interior feels completely different from the gold-and-mirrors approach of traditional Mayfair clubs. The music policy is hip-hop-heavy with a lean towards UK rap, drill, and Afrobeats — harder and more underground than most venues in the area. The crowd reflects this: younger, more fashion-forward, more diverse. If you find traditional Mayfair clubs a bit safe or predictable, Tabu is built for you.",
-    bestFor: "Hip-hop enthusiasts, fashion-forward groups, people who want Mayfair service without Mayfair stuffiness",
-    prosText: [
-      "Genuinely different aesthetic from traditional Mayfair",
-      "Strong, underground-leaning music policy",
-      "Fashion-forward, diverse crowd",
-      "Competitive pricing at £1,000 starting minimum",
-    ],
-    consText: [
-      "Smaller venue — can feel tight on busy Saturdays",
-      "Still relatively new, building its reputation",
-      "Not for people who want commercial pop or house music",
-    ],
-  },
-  {
     slug: "london-reign",
-    rank: 7,
+    rank: 5,
     headline: "Vegas-Scale Spectacle in the Heart of London",
     review:
       "London Reign is the closest thing London has to a Las Vegas showclub. Aerial acrobats, professional dancers, live vocalists, fire performers — the production quality rivals a West End show. The venue is larger than most Mayfair clubs, which gives the performances room to breathe and the crowd space to enjoy them. The music crosses genres because the entertainment is the headline, not the DJ. If Cirque Le Soir is an intimate circus, Reign is the full arena show.",
@@ -196,7 +158,7 @@ const reviews: ClubReview[] = [
   },
   {
     slug: "selene-london",
-    rank: 8,
+    rank: 6,
     headline: "The Multi-Activity Club That Actually Works",
     review:
       "Selene took a risk by adding bowling lanes to a Mayfair nightclub — and it paid off. The multi-room layout means you're not stuck in one space all night. Bowl between drinks, move between rooms, find the vibe that suits your group at that moment. It's particularly good for birthdays and corporate events where you need an icebreaker beyond 'sit at a table and drink.' The fit-out is high-end Mayfair standard and the music across all rooms is strong. As a newer venue, it doesn't yet have Saturday-night scarcity, which works in your favour.",
@@ -214,46 +176,8 @@ const reviews: ClubReview[] = [
     ],
   },
   {
-    slug: "funky-buddha",
-    rank: 9,
-    headline: "The Legendary Name Returns",
-    review:
-      "The Funky Buddha name carries weight in London nightlife, and the rebranded venue does a decent job of living up to it. The open-format music policy is the selling point — DJs move between hip-hop, house, RnB, Afrobeats, and commercial tracks depending on the crowd. This makes it the easiest sell for groups where people have wildly different music tastes. The venue is solid, the crowd is good, and the experience is reliable. It's not the most exciting venue on this list, but it's the most crowd-pleasing.",
-    bestFor: "Groups with mixed music tastes, people who want a reliable night, nostalgic fans of the original venue",
-    prosText: [
-      "Open-format music means something for everyone",
-      "Legendary name with an established reputation",
-      "Reliable atmosphere — rarely disappoints",
-      "£1,000 starting minimum is standard and fair",
-    ],
-    consText: [
-      "Jack of all genres, master of none",
-      "Less distinctive identity than specialist venues",
-      "The rebranded name still building its own following",
-    ],
-  },
-  {
-    slug: "luna-club-london",
-    rank: 10,
-    headline: "Mayfair's Reliable Late-Night Favourite",
-    review:
-      "Luna Club London is a sleek, intimate Mayfair club with a strong hip-hop and RnB focus. The well-connected international crowd keeps the atmosphere consistently strong, and the intimate size means the energy never gets diluted. It's not trying to reinvent the wheel — it takes the Mayfair formula of quality sound, good-looking crowd, and attentive table service, and executes it reliably every time it opens. For hip-hop fans who want a solid night without gimmicks, Luna delivers.",
-    bestFor: "Hip-hop fans who want solid Mayfair bottle service without gimmicks",
-    prosText: [
-      "Reliable hip-hop club with a strong music policy",
-      "Well-connected, international crowd",
-      "Intimate atmosphere that keeps the energy high",
-      "Consistent quality — rarely disappoints",
-    ],
-    consText: [
-      "Less distinctive than some venues on this list",
-      "Standard Mayfair formula without standout features",
-      "Smaller venue means limited availability on peak nights",
-    ],
-  },
-  {
     slug: "scotch-of-st-james",
-    rank: 11,
+    rank: 7,
     headline: "Rock and Roll History With Impeccable Taste",
     review:
       "Scotch of St James is for people who care about music. The venue where Hendrix and the Stones used to party has been reborn as an intimate, quality-driven club where the DJs are chosen for taste rather than fame. The cocktail programme is genuinely good, the crowd is older and more discerning, and the atmosphere has a warmth and authenticity that newer venues can't manufacture. It's not a high-energy superclub — it's a place to drink well, hear great music, and feel the weight of London's musical heritage.",
@@ -272,7 +196,7 @@ const reviews: ClubReview[] = [
   },
   {
     slug: "dear-darling",
-    rank: 12,
+    rank: 8,
     headline: "The Stylish Newcomer Punching Above Its Weight",
     review:
       "Dear Darling arrived on the Mayfair scene with a clear design vision and has quickly built a loyal following. The venue transitions from a sophisticated cocktail bar to a proper nightclub as the night progresses, and the attention to design detail is evident everywhere. The cocktails are better than they need to be, the music is well-curated, and the crowd is fashion-conscious without being pretentious. It's the kind of venue that will continue to rise as word spreads.",
@@ -291,7 +215,7 @@ const reviews: ClubReview[] = [
   },
   {
     slug: "beat-london",
-    rank: 13,
+    rank: 9,
     headline: "London's Electronic Music Answer to Bottle Service",
     review:
       "BEAT fills a gap in London's nightlife. If you love electronic music but also want bottle service, your options have traditionally been limited — most serious electronic venues don't do tables, and most table-service clubs don't take electronic music seriously. BEAT does both. The sound system is built for electronic music, the DJs are booked for talent, and the table service doesn't compromise the music experience. It's a niche proposition but for the right group, it's perfect.",
@@ -309,22 +233,33 @@ const reviews: ClubReview[] = [
     ],
   },
   {
-    slug: "maison-close",
-    rank: 14,
-    headline: "Mayfair's House Music Haven",
+    slug: "cuckoo-club",
+    rank: 10,
+    headline: "99 Regent Street, Formerly Cuckoo Club",
     review:
-      "Maison Close is a breath of fresh air in a Mayfair scene dominated by hip-hop. This intimate, French-inspired venue on Swallow Street has committed fully to house music, and the result is a club that attracts a genuinely different crowd — older, more discerning, and here for the music as much as the social scene. The Parisian-cabaret design with vintage chandeliers, crimson velvet, and ambient lighting creates an atmosphere that feels a world away from the flashier Mayfair clubs. If you love house music and want bottle service without compromise, Maison Close is the strongest option in Mayfair right now.",
-    bestFor: "House music lovers, couples, design-conscious groups, anyone tired of the standard Mayfair hip-hop rotation",
+      "Cuckoo Club now trades as 99 Regent Street, still in Mayfair. Because the venue has changed its name, the music policy, opening nights and minimum spends published for Cuckoo Club no longer apply automatically, so this guide does not rank it on old details. Message us with your date and group size for the current table options and minimum spend before you book.",
+    bestFor: "Groups who knew Cuckoo Club and want to book the venue under its new name",
     prosText: [
-      "Dedicated house music — rare in Mayfair",
-      "Stunning Parisian-inspired interior design",
-      "Intimate 160-capacity creates a premium atmosphere",
-      "Four opening nights gives genuine flexibility",
+      "Mayfair location",
+      "Current details confirmed on enquiry",
     ],
     consText: [
-      "House music only — no hip-hop, RnB, or commercial options",
-      "Newer venue still building its reputation",
-      "The intimate size means tables sell out quickly",
+      "Minimum spend under the new name is on request",
+    ],
+  },
+  {
+    slug: "tabu-london",
+    rank: 11,
+    headline: "Rumour, Formerly Tabu",
+    review:
+      "Tabu now trades as Rumour, still in Mayfair. Because the venue has changed its name, the music policy, opening nights and minimum spends published for Tabu no longer apply automatically, so this guide does not rank it on old details. Message us with your date and group size for the current table options and minimum spend before you book.",
+    bestFor: "Groups who knew Tabu and want to book the venue under its new name",
+    prosText: [
+      "Mayfair location",
+      "Current details confirmed on enquiry",
+    ],
+    consText: [
+      "Minimum spend under the new name is on request",
     ],
   },
 ];
@@ -405,16 +340,16 @@ export default function BestClubsPage() {
                         </Link>
                       </td>
                       <td className="py-3 pr-4 price">
-                        £{club.pricing.floorTable.toLocaleString()}
+                        {formatPrice(club.pricing.floorTable)}
                       </td>
                       <td className="py-3 pr-4 price">
-                        £{club.pricing.vipTable.toLocaleString()}
+                        {formatPrice(club.pricing.vipTable)}
                       </td>
                       <td className="py-3 pr-4 text-text-muted">
                         {club.musicPolicy.split(",")[0]}
                       </td>
                       <td className="py-3 text-text-muted">
-                        {club.openingNights.map((n) => n.slice(0, 3)).join(", ")}
+                        {formatNights(club, ", ", true)}
                       </td>
                     </tr>
                   );
@@ -453,8 +388,8 @@ export default function BestClubsPage() {
               </div>
 
               <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] mb-6">
-                <span className="text-gold">From £{club.pricing.floorTable.toLocaleString()}</span>
-                <span className="text-text-muted"> &mdash; {club.area} &mdash; {club.openingNights.join(", ")}</span>
+                <span className="text-gold">{fromPrice(club.pricing.floorTable)}</span>
+                <span className="text-text-muted"> &mdash; {club.area} &mdash; {formatNights(club, ", ")}</span>
               </p>
 
               <p className="text-text-secondary leading-relaxed mb-6">

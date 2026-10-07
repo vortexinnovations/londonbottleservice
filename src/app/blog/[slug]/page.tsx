@@ -6,7 +6,8 @@ import { marked } from "marked";
 import { getMergedPostBySlug, getMergedPosts } from "@/lib/posts";
 import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 import { blogContent } from "@/data/blogContent";
-import { clubs } from "@/data/clubs";
+import { clubs, formatNights } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
@@ -200,11 +201,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         {club.name}
                       </h3>
                       <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">
-                        {club.openingNights.join(", ")} &mdash; {club.area}
+                        {formatNights(club, ", ")} &mdash; {club.area}
                       </p>
                     </div>
                     <p className="price text-sm shrink-0">
-                      From <span className="price-sign">&pound;</span>{club.pricing.floorTable.toLocaleString()}
+                      <Price value={club.pricing.floorTable} prefix="From " onRequest="Price on request" />
                     </p>
                   </Link>
                 ) : null

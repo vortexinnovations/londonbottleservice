@@ -32,7 +32,7 @@ const homeFAQs = [
   {
     question: "Which London clubs are best for bottle service?",
     answer:
-      "It depends on what you're after. Cirque Le Soir for theatrical entertainment, Tape London for exclusivity, Cuckoo Club for versatility with two floors, Maddox for dinner-and-club, Tabu for Japanese-inspired aesthetics, London Reign for Las Vegas-style shows, Selene for bowling and multiple rooms, and Funky Buddha for open-format music.",
+      "It depends on what you're after. Cirque Le Soir for theatrical entertainment, Tape London for exclusivity, Maddox for dinner-and-club, London Reign for Las Vegas-style shows, and Selene for bowling and multiple rooms.",
   },
 ];
 

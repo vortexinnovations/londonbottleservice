@@ -28,6 +28,22 @@ const nextConfig: NextConfig = {
         destination: "/best-clubs-bottle-service-london",
         permanent: true,
       },
+      // Closed venues: booking pages point to the closed-venue page.
+      {
+        source: "/funky-buddha-table-booking",
+        destination: "/clubs/funky-buddha",
+        permanent: true,
+      },
+      {
+        source: "/luna-club-london-table-booking",
+        destination: "/clubs/luna-club-london",
+        permanent: true,
+      },
+      {
+        source: "/maison-close-table-booking",
+        destination: "/clubs/maison-close",
+        permanent: true,
+      },
     ];
   },
 };

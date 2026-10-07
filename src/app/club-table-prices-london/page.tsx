@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs } from "@/data/clubs";
+import { clubs, formatPrice, priceSortValue, formatNights } from "@/data/clubs";
+import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
@@ -12,7 +13,7 @@ import { pageImages } from "@/data/images";
 export const metadata: Metadata = {
   title: "London Club Table Prices 2026 | Complete Price Guide",
   description:
-    "Complete guide to London club table prices in 2026. Floor and VIP prices for all 13 clubs, per-person breakdowns, and tips on getting the best value.",
+    `Complete guide to London club table prices in 2026. Floor and VIP prices for all ${clubs.length} clubs, per-person breakdowns, and tips on getting the best value.`,
   alternates: {
     canonical:
       "https://londonbottleservice.com/club-table-prices-london",
@@ -29,7 +30,7 @@ const faqs = [
   {
     question: "How much is a table at a London nightclub?",
     answer:
-      "Most London nightclubs start at £1,000 minimum spend for a standard floor table. This includes Cirque Le Soir, Cuckoo Club, Maddox, Tabu London, Selene London, Funky Buddha, Dear Darling, Luna Club London, Scotch of St James, London Reign, and BEAT London. Tape London and The Box start at £1,500 due to their heightened exclusivity. VIP tables range from £2,000 to £3,000 across all venues.",
+      "Most London nightclubs start at £1,000 minimum spend for a standard floor table. This includes Cirque Le Soir, Maddox, Selene London, Dear Darling, Scotch of St James, London Reign, and BEAT London. Tape London and The Box start at £1,500 due to their heightened exclusivity. VIP tables range from £2,000 to £3,000 across all venues. Two Mayfair clubs have new names: 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu). Their minimum spends under the new names are confirmed on enquiry.",
   },
   {
     question: "What does the minimum spend include?",
@@ -49,7 +50,7 @@ const faqs = [
   {
     question: "Which is the cheapest club for a table in London?",
     answer:
-      "Most clubs start at the same £1,000 floor table minimum, including Cirque Le Soir, Cuckoo Club, Maddox, Tabu, Selene, Funky Buddha, Dear Darling, Luna, Scotch of St James, London Reign, and BEAT. The cheapest overall option is booking on a weeknight — Wednesday or Thursday tables at venues like Cuckoo Club, Scotch of St James, or Tape London can have reduced minimums. Message us and we will find the best value for your budget.",
+      "Most clubs start at the same £1,000 floor table minimum, including Cirque Le Soir, Maddox, Selene, Dear Darling, Scotch of St James, London Reign, and BEAT. The cheapest overall option is booking on a weeknight: Wednesday or Thursday tables at venues like Scotch of St James or Tape London can have reduced minimums. Message us and we will find the best value for your budget.",
   },
   {
     question: "Which London club has the most expensive tables?",
@@ -65,10 +66,8 @@ const faqs = [
 
 export default function ClubTablePricesPage() {
   const sortedByFloor = [...clubs].sort(
-    (a, b) => a.pricing.floorTable - b.pricing.floorTable
-  );
-  const sortedByVip = [...clubs].sort(
-    (a, b) => a.pricing.vipTable - b.pricing.vipTable
+    (a, b) =>
+      priceSortValue(a.pricing.floorTable) - priceSortValue(b.pricing.floorTable)
   );
 
   return (
@@ -125,11 +124,13 @@ export default function ClubTablePricesPage() {
         <div className="max-w-4xl mx-auto">
           <p className="eyebrow mb-4">No. 01 — The full ledger</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Complete Price Comparison — All 13 Clubs
+            Complete Price Comparison — All {clubs.length} Clubs
           </h2>
           <p className="text-text-muted mb-8">
             Every club, every price tier, every detail in one table. Prices
-            shown are standard starting minimum spends.
+            shown are standard starting minimum spends. Venues marked
+            &ldquo;On request&rdquo; have recently changed their name, so
+            their current minimums are confirmed when you enquire.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -170,21 +171,19 @@ export default function ClubTablePricesPage() {
                       </Link>
                     </td>
                     <td className="py-3 pr-4 price">
-                      £{club.pricing.floorTable.toLocaleString()}
+                      {formatPrice(club.pricing.floorTable)}
                     </td>
                     <td className="py-3 pr-4 price">
-                      £{club.pricing.vipTable.toLocaleString()}
+                      {formatPrice(club.pricing.vipTable)}
                     </td>
                     <td className="py-3 pr-4 price text-gold-light">
-                      ~£{Math.round(club.pricing.floorTable / 6).toLocaleString()}
+                      {club.pricing.floorTable === null ? "On request" : `~£${Math.round(club.pricing.floorTable / 6).toLocaleString()}`}
                     </td>
                     <td className="py-3 pr-4 text-text-muted">
                       {club.area}
                     </td>
                     <td className="py-3 text-text-muted">
-                      {club.openingNights
-                        .map((n) => n.slice(0, 3))
-                        .join(", ")}
+                      {formatNights(club, ", ", true)}
                     </td>
                   </tr>
                 ))}
@@ -383,16 +382,6 @@ export default function ClubTablePricesPage() {
                   <span className="text-success flex-shrink-0">+</span>
                   <span>
                     <strong className="text-text-secondary">
-                      Tabu London
-                    </strong>{" "}
-                    — intimate venue where floor tables still get the full
-                    atmosphere
-                  </span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-success flex-shrink-0">+</span>
-                  <span>
-                    <strong className="text-text-secondary">
                       Regular nights out
                     </strong>{" "}
                     — save VIP budget for truly special occasions
@@ -436,8 +425,7 @@ export default function ClubTablePricesPage() {
                     </span>
                     <span className="dotted-leader" aria-hidden="true" />
                     <span className="price">
-                      <span className="price-sign">&pound;</span>
-                      {club.pricing.floorTable.toLocaleString()}
+                      <Price value={club.pricing.floorTable} />
                     </span>
                   </p>
                   <p className="flex items-baseline py-1.5">
@@ -446,22 +434,27 @@ export default function ClubTablePricesPage() {
                     </span>
                     <span className="dotted-leader" aria-hidden="true" />
                     <span className="price text-gold-light">
-                      <span className="price-sign">&pound;</span>
-                      {club.pricing.vipTable.toLocaleString()}
+                      <Price value={club.pricing.vipTable} />
                     </span>
                   </p>
                 </div>
                 <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-3">
                   {club.area} &mdash;{" "}
-                  {club.openingNights.join(", ")} &mdash;{" "}
-                  {club.musicPolicy.split(",")[0]}
+                  {club.openingNights.length > 0 ? (
+                    <>
+                      {formatNights(club, ", ")} &mdash;{" "}
+                      {club.musicPolicy.split(",")[0]}
+                    </>
+                  ) : (
+                    "Nights and music on request"
+                  )}
                 </p>
                 <p className="text-text-secondary text-sm leading-relaxed mb-3">
                   {club.tagline}. {club.bestFor}
                 </p>
                 <div className="flex flex-wrap gap-3 text-sm items-baseline">
                   <Link
-                    href={`/${club.slug}-table-prices`}
+                    href={`/clubs/${club.slug}`}
                     className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                   >
                     Full {club.shortName} price guide &rarr;
@@ -472,13 +465,6 @@ export default function ClubTablePricesPage() {
                     className="text-text-secondary hover:text-gold transition-colors"
                   >
                     Book a table
-                  </Link>
-                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
-                  <Link
-                    href={`/${club.slug}-vip-tables`}
-                    className="text-text-secondary hover:text-gold transition-colors"
-                  >
-                    VIP options
                   </Link>
                 </div>
               </div>
@@ -539,7 +525,8 @@ export default function ClubTablePricesPage() {
               <p className="text-text-muted text-sm leading-relaxed">
                 We know which venues offer the best value for specific
                 group types. A group of eight hip-hop fans will get
-                different value at Tabu than they would at Maddox. Tell us
+                different value at Cirque Le Soir than they would at
+                Maddox, which focuses on house music. Tell us
                 your group, your budget, and what matters most — we will
                 match you with the venue that delivers the most for your
                 money.

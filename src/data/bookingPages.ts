@@ -192,7 +192,6 @@ export const bookingPages: BookingPageData[] = [
       "cirque-le-soir-table-booking",
       "the-box-london-table-booking",
       "scotch-of-st-james-table-booking",
-      "luna-club-london-table-booking",
     ],
     relatedBlogSlugs: [
       "how-to-get-into-exclusive-london-clubs",
@@ -281,7 +280,6 @@ export const bookingPages: BookingPageData[] = [
       "cirque-le-soir-table-booking",
       "the-box-london-table-booking",
       "selene-london-table-booking",
-      "funky-buddha-table-booking",
     ],
     relatedBlogSlugs: [
       "hen-party-london-clubs",
@@ -367,7 +365,6 @@ export const bookingPages: BookingPageData[] = [
       },
     ],
     relatedBookingPages: [
-      "luna-club-london-table-booking",
       "cuckoo-club-table-booking",
       "cirque-le-soir-table-booking",
       "dear-darling-table-booking",
@@ -376,90 +373,6 @@ export const bookingPages: BookingPageData[] = [
       "mayfair-dress-code-what-to-wear",
       "how-much-does-bottle-service-cost-london",
       "mayfair-vs-shoreditch-nightlife",
-    ],
-  },
-
-  // 5. Funky Buddha
-  {
-    bookingSlug: "funky-buddha-table-booking",
-    clubSlug: "funky-buddha",
-    metaTitle: "Funky Buddha Table Booking | Mayfair Icon, VIP from £1,000",
-    metaDescription:
-      "Book a VIP table at Funky Buddha Mayfair from £1,000. Legendary name, open-format music & classic Mayfair energy. WhatsApp us to book your table tonight.",
-    h1: "Book a Table at Funky Buddha",
-    heroSubheading:
-      "One of Mayfair's most iconic club names, reborn on Berkeley Street. Open-format music, a well-dressed crowd, and the kind of classic Mayfair energy that made the original legendary.",
-    pricingIntro:
-      "Tables at Funky Buddha start from £1,000 minimum spend. This covers your drinks — spirits, champagne, or a mix from the bottle menu. The pricing is standard for a Mayfair club of this calibre, and the open-format music policy means your group gets variety without having to venue-hop. Friday and Saturday are the operating nights, with Saturday typically carrying the higher minimum.",
-    vipUpsellPitch:
-      "VIP tables start from £2,000 and give you premium positioning in the venue — more space, better sightlines, and priority bottle service. For groups celebrating an occasion or simply wanting the best experience, VIP at Funky Buddha delivers the classic Mayfair bottle service experience done properly. Pre-order a champagne package and have it waiting at your table when you arrive.",
-    weekdayDeal:
-      "Funky Buddha operates Friday and Saturday only. Friday tends to draw a more local, regular crowd and often has slightly lower minimum spends than Saturday. If you're flexible on dates, Friday gives you the full Funky Buddha atmosphere with less competition for prime tables.",
-    arrivalGuide:
-      "Funky Buddha is at 15 Berkeley Street in the heart of Mayfair. Doors open at 10:30 PM. With a table booking, arrive between 11:00 PM and midnight — you'll have priority entry so skip the general queue and give your name at the door. Green Park tube is the nearest station, about a 4-minute walk. The dress code is standard Mayfair smart: collared shirts and smart shoes for men, dressed-up for women. The door team will turn you away if you don't meet the standard.",
-    guestlistComparison:
-      "Funky Buddha is one of the Mayfair venues where guestlist can actually work on the right night. Friday evenings before midnight, guestlist gets you through the door with a cover charge of around £15-20 per person. The venue operates at a good capacity (around 300) and the open-format music means it draws a broad crowd, so guestlist availability tends to be decent outside of peak Saturday nights and special events. If you're a couple or a small group of three to four on a Friday, guestlist is a legitimate option here.\n\nWhere guestlist falls apart at Funky Buddha is groups. The moment you're trying to get six, eight, or twelve people in together, guestlist becomes a coordination headache. Not everyone arrives at the same time, the queue moves slowly, and there's always the risk that the door team decides the venue is full and starts turning guestlist names away. You end up with half your group inside and half stuck outside — a scenario that ruins more nights out in Mayfair than bad music ever will.\n\nThe table booking maths at Funky Buddha is straightforward. A £1,000 minimum for a group of eight works out to £125 each for guaranteed entry, a reserved table, personal service, and premium drinks. On guestlist, you're paying £20 entry plus drinks at bar prices — three or four rounds of cocktails later you've each spent £80-100 with nothing to show for it but a sore back from standing all night. For groups of five or more, the table is objectively better value and an incomparably better experience. Funky Buddha's open-format music and classic Mayfair energy are best enjoyed with your own space and a bottle on the table.",
-    entryGuide:
-      "Funky Buddha's door sits in the middle of the Mayfair strictness spectrum. It's not as selective as Tape or Scotch (which operate as members' clubs), but it's more discerning than a standard nightclub. The dress code is straightforward Mayfair smart: collared shirts and proper shoes for men, dressed-up for women. No trainers of any description — Funky Buddha doesn't have the fashion-forward flexibility of somewhere like Tabu where smart trainers might slide. Shorts, sportswear, and casual wear are non-starters. If you're in doubt, overdress rather than underdress.\n\nThe door team at Funky Buddha is experienced and consistent. They're looking for groups that look like they fit the Mayfair standard — well-dressed, sociable, and ready for a night out. Large all-male groups face more scrutiny than mixed groups, which is standard across Mayfair. The crowd inside tends to be a mix of Mayfair regulars, people who remember the original Funky Buddha name, and international visitors — it's a crowd that dresses well without being aggressively fashionable.\n\nWith a table booking, the door process is simple and stress-free. Give your name, your group is confirmed, and you're escorted past the queue to your table. This matters on Saturday nights when Berkeley Street gets busy and the general queue can stretch. For groups celebrating birthdays or occasions, the priority entry means everyone arrives together and you're settled at your table before the energy peaks. Arrive between 11:00 PM and midnight. Green Park tube is four minutes away.",
-    sections: [
-      {
-        heading: "The Funky Buddha Legacy: Why This Name Matters",
-        content:
-          "The original Funky Buddha was one of the defining Mayfair clubs of its era — a venue where the music crossed every genre, the crowd was eclectic, and the nights were legendary. The rebranded venue on Berkeley Street carries that spirit into a modernised space with an open-format music policy that DJs adapt to the room. Hip-hop, house, RnB, Afrobeats, and commercial anthems all get airtime depending on the crowd and energy. If the original Funky Buddha was part of your nightlife history, the new version will feel familiar. If you're discovering the name for the first time, you're getting a Mayfair club that prioritises fun over pretension.",
-      },
-      {
-        heading: "Why Open-Format Music Makes Funky Buddha Perfect for Groups",
-        content:
-          "The biggest challenge of booking a table for a mixed group is the music. Half your friends want hip-hop, the other half want house. At most clubs, someone's compromising. Funky Buddha's open-format policy solves this — DJs read the room and move between genres throughout the night. You'll hear RnB flow into house into Afrobeats into a commercial anthem, and the transitions feel natural rather than jarring. For birthday groups, work nights out, or any gathering where people have different tastes, this flexibility is genuinely valuable.",
-      },
-      {
-        heading: "Birthday Bookings at Funky Buddha",
-        content:
-          "Funky Buddha's atmosphere lends itself well to birthday celebrations — the energy is high without being chaotic, and the open-format music means everyone in your group hears something they like. We can arrange cakes, sparklers, and a birthday setup at your table. Groups of 8-15 are the sweet spot for a single table. For larger birthdays, adjacent tables keep your party together. The VIP upgrade is worth considering for birthdays — more space, better positioning, and a premium feel that makes the guest of honour feel genuinely special.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How much is a table at Funky Buddha?",
-        answer:
-          "Tables start from £1,000 minimum spend. VIP tables start from £2,000. This covers premium spirits and champagne from the bottle menu. Prices may vary by night and event — WhatsApp us for exact quotes.",
-      },
-      {
-        question: "What music does Funky Buddha play?",
-        answer:
-          "Open format. DJs move between hip-hop, house, RnB, Afrobeats, and commercial anthems based on the crowd and energy. It's the best option in Mayfair if your group has mixed musical tastes.",
-      },
-      {
-        question: "Is Funky Buddha the same as the original?",
-        answer:
-          "The venue was previously operating as Luxx before rebranding to the iconic Funky Buddha name. The spirit is similar — eclectic, fun, well-dressed — but the venue has been updated and modernised. Same energy, fresh look.",
-      },
-      {
-        question: "What's the dress code at Funky Buddha?",
-        answer:
-          "Standard Mayfair smart. Collared shirts and smart shoes for men. No sportswear, trainers, or shorts. Women should dress for a Mayfair night out. The door team enforces the code regardless of booking status.",
-      },
-      {
-        question: "What nights is Funky Buddha open?",
-        answer:
-          "Friday and Saturday. Friday typically has a more local crowd and slightly lower minimums. Saturday is the bigger night with more demand and higher pricing.",
-      },
-      {
-        question: "How do I book a table at Funky Buddha?",
-        answer:
-          "WhatsApp us with your date, group size, and any occasion details. We'll confirm availability and pricing within minutes. Weekend tables are popular so booking at least a week ahead is recommended.",
-      },
-    ],
-    relatedBookingPages: [
-      "cuckoo-club-table-booking",
-      "tabu-london-table-booking",
-      "maddox-club-table-booking",
-      "selene-london-table-booking",
-    ],
-    relatedBlogSlugs: [
-      "london-nightlife-first-timers",
-      "mayfair-dress-code-what-to-wear",
-      "best-clubs-for-birthday-london",
     ],
   },
 
@@ -535,7 +448,6 @@ export const bookingPages: BookingPageData[] = [
       },
     ],
     relatedBookingPages: [
-      "funky-buddha-table-booking",
       "tabu-london-table-booking",
       "maddox-club-table-booking",
       "dear-darling-table-booking",
@@ -715,7 +627,6 @@ export const bookingPages: BookingPageData[] = [
     relatedBookingPages: [
       "tabu-london-table-booking",
       "scotch-of-st-james-table-booking",
-      "luna-club-london-table-booking",
       "cuckoo-club-table-booking",
     ],
     relatedBlogSlugs: [
@@ -799,7 +710,6 @@ export const bookingPages: BookingPageData[] = [
     relatedBookingPages: [
       "cuckoo-club-table-booking",
       "beat-london-table-booking",
-      "funky-buddha-table-booking",
       "scotch-of-st-james-table-booking",
     ],
     relatedBlogSlugs: [
@@ -898,95 +808,6 @@ export const bookingPages: BookingPageData[] = [
     ],
   },
 
-  // 11. Luna Club London
-  {
-    bookingSlug: "luna-club-london-table-booking",
-    clubSlug: "luna-club-london",
-    metaTitle: "Luna Club London Table Booking | Hip-Hop VIP from £1,000",
-    metaDescription:
-      "Book a VIP table at Luna Club London from £1,000. Sleek Mayfair club with hip-hop, RnB & a well-connected crowd. WhatsApp us for instant table availability.",
-    h1: "Book a Table at Luna Club London",
-    heroSubheading:
-      "Sleek, intimate, and consistently good. Luna Club delivers exactly what Mayfair hip-hop fans want: strong music, a well-connected crowd, and proper bottle service without the gimmicks.",
-    pricingIntro:
-      "Tables at Luna Club London start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. The pricing is competitive with other Mayfair hip-hop clubs, and the intimate size of the venue means even standard floor tables feel well-positioned. Your spend covers premium spirits and champagne, served by dedicated table staff who know the menu well.",
-    vipUpsellPitch:
-      "VIP tables from £2,000 give you the prime positions at Luna — closest to the DJ, most space, and the best energy in the room. In a venue this intimate, VIP is less about separation from the crowd and more about being in the centre of the action with room to enjoy it. For groups who want to be where the atmosphere peaks, VIP at Luna is the move.",
-    weekdayDeal:
-      "Thursday at Luna is a properly good night. The venue is open Thursday through Saturday, and Thursday has developed a loyal following of Mayfair regulars who treat it as their weekly anchor. The energy is strong thanks to the small venue size, minimum spends are lower, and the crowd tends to be more local and connected versus the weekend's broader mix. If you want the authentic Luna experience without Saturday's premium pricing, Thursday delivers.",
-    arrivalGuide:
-      "Luna Club London is in Mayfair. Doors open at 10:30 PM. With a table booking, arrive between 11:00 PM and midnight for the best experience — the intimate venue fills up quickly and the energy builds fast once it does. Table bookings include priority entry for your entire group. The dress code is standard Mayfair smart: collared shirts and smart shoes for men, dressed-up for women. Green Park tube is the most convenient station.",
-    guestlistComparison:
-      "Luna Club does operate a guestlist, and like most mid-tier Mayfair clubs, it works best on quieter nights. Thursday is your best bet for guestlist entry — the venue is building the room and welcomes well-dressed general admission guests with a cover charge around £15-20. Friday guestlist is hit-or-miss depending on demand. Saturday guestlist is largely unreliable — the venue fills with table bookings and regular crowd, and guestlist names are the first to get cut when the room approaches its 250-person capacity.\n\nLuna's identity as a no-nonsense hip-hop club means the guestlist experience is particularly underwhelming compared to having a table. The venue is intimate and designed around its booth seating — the DJ is positioned relative to the tables, the sound is calibrated for the seated areas, and the energy flows from the table sections outward. General admission at Luna means standing in the spaces between those tables, which in a 250-capacity venue isn't much space at all. You're close to the action but you don't have a stake in it.\n\nThe per-person cost comparison is telling. Luna's crowd tends to drink well — premium spirits, champagne, cocktails at Mayfair bar prices. A night of buying rounds for a group of six on general admission easily runs to £100+ per person once you add the cover charge. A £1,000 table split six ways is £167 each, and that includes your drinks, guaranteed entry, a reserved booth, and personal service. You're paying a modest premium for an incomparably better experience. For Luna specifically, where the whole appeal is being part of a well-connected, intimate room with strong music, the table is how you actually become part of that room rather than hovering on its edges.",
-    entryGuide:
-      "Luna Club London runs a standard Mayfair door — selective, professional, and consistent. The dress code is firmly smart: collared shirts and smart shoes for men, properly dressed up for women. There's no fashion-forward flexibility here like you'd get at Tabu or Dear Darling — Luna is classic Mayfair, and the door expects classic Mayfair dressing. No trainers, no streetwear, no casual wear. The crowd inside is well-connected and well-dressed without being ostentatious, and the door maintains that standard reliably.\n\nLuna draws a crowd that knows the Mayfair circuit — regulars who've tried the other venues and settled on Luna for its straightforward delivery of good hip-hop, good crowd, and good service. The door team reflects this: they're looking for people who look like they belong in a Mayfair club, are in a good mood, and aren't going to be trouble. Mixed groups of men and women get through smoothly. Groups of men who look like they're on a night out together are assessed more carefully, which is universal across Mayfair. The most important thing is looking like you've made an effort appropriate to the venue.\n\nWith a table booking, entry is simple. Name-check at the door, confirmation, and you're walked to your booth. This matters at Luna because the intimate size means the venue hits capacity early on Saturdays — by midnight, general admission often closes entirely while table bookings continue to be welcomed. Arrive between 11:00 PM and midnight. Green Park tube is the nearest station. If you're comparing Luna to similar hip-hop venues like Tabu, the entry standard at Luna is more traditionally Mayfair — smarter, less streetwear-friendly, but also less likely to surprise you with an unexpected rejection if you've dressed properly.",
-    sections: [
-      {
-        heading: "Why Luna Is the No-Nonsense Mayfair Hip-Hop Club",
-        content:
-          "Luna doesn't try to be everything to everyone. There's no gimmick, no theme, no multi-room concept. It's a well-designed, intimate Mayfair club that plays excellent hip-hop, RnB, Afrobeats, and UK rap to a well-connected crowd. The DJs balance crowd-pleasers with deeper cuts that show genuine musical knowledge. The intimate capacity (around 250) keeps the energy concentrated — there's no dead zone in the venue. For groups who know what they want (hip-hop, good crowd, proper table service) and don't need theatrics or activities to have a good night, Luna is the straightforward, reliable choice.",
-      },
-      {
-        heading: "Best Nights to Book at Luna Club",
-        content:
-          "Saturday is the main event — fullest room, highest energy, strongest DJ lineups. If it's a special occasion, Saturday is the recommendation. Friday is excellent with a slightly more relaxed atmosphere and better table availability. Thursday is the value pick and a genuinely great night in its own right — the regular crowd keeps the energy high and the minimum spends are noticeably lower. For first-time visitors, Saturday or Friday gives you Luna at its peak. For repeat visitors or budget-conscious groups, Thursday is the smart play.",
-      },
-      {
-        heading: "Birthday & Group Celebrations at Luna",
-        content:
-          "Luna works well for birthday groups in the 6-15 person range. The intimate size means your group becomes part of the room's energy rather than being isolated in a corner, and the hip-hop-focused music keeps the dance floor active all night. We can arrange sparklers, cakes, and a birthday table setup. VIP tables are popular for birthdays — more space and better positioning give the celebration a premium feel. For larger groups (15+), we can arrange adjacent tables. Let us know the occasion and group size when you message us.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How much is a table at Luna Club London?",
-        answer:
-          "Floor tables start from £1,000 minimum spend. VIP tables start from £2,000. Pricing is competitive with similar Mayfair clubs. WhatsApp us for exact pricing for your preferred date.",
-      },
-      {
-        question: "What music does Luna Club play?",
-        answer:
-          "Hip-hop, RnB, Afrobeats, and UK rap. The music policy is focused and consistent — DJs balance mainstream hits with deeper cuts. If you want house or electronic music, try Maddox or BEAT instead. Luna is for hip-hop fans.",
-      },
-      {
-        question: "What nights is Luna Club London open?",
-        answer:
-          "Thursday, Friday, and Saturday. All three nights have strong atmosphere thanks to the intimate venue. Thursday is the value pick, Saturday is the flagship.",
-      },
-      {
-        question: "What's the dress code at Luna?",
-        answer:
-          "Standard Mayfair smart. Collared shirts and smart shoes for men, dressed-up for women. No sportswear, casual trainers, or shorts. The door is selective so dress appropriately even with a table booking.",
-      },
-      {
-        question: "How does Luna compare to Tabu?",
-        answer:
-          "Both are intimate Mayfair hip-hop clubs with £1,000 starting minimums. Tabu has the Japanese underground aesthetic and a slightly more fashion-forward, younger crowd. Luna is more classically Mayfair — sleek, well-connected, and straightforward. If design and concept matter to you, try Tabu. If you want reliable music and atmosphere without a theme, Luna is the pick.",
-      },
-      {
-        question: "Is Luna good for a birthday?",
-        answer:
-          "Yes. The intimate size means your group is naturally part of the energy, not tucked away. We can arrange sparklers, cakes, and birthday setups. Groups of 6-15 are the sweet spot. VIP tables add a premium touch for the guest of honour.",
-      },
-      {
-        question: "How do I book a table at Luna?",
-        answer:
-          "WhatsApp us with your date, group size, and any occasion. We'll confirm availability and pricing quickly. Tables are limited due to Luna's small capacity, so booking at least a week ahead for weekends is recommended.",
-      },
-    ],
-    relatedBookingPages: [
-      "tabu-london-table-booking",
-      "dear-darling-table-booking",
-      "cuckoo-club-table-booking",
-      "funky-buddha-table-booking",
-    ],
-    relatedBlogSlugs: [
-      "luna-club-london-guide",
-      "how-much-does-bottle-service-cost-london",
-      "mayfair-dress-code-what-to-wear",
-    ],
-  },
-
   // 12. Selene London
   {
     bookingSlug: "selene-london-table-booking",
@@ -1066,8 +887,6 @@ export const bookingPages: BookingPageData[] = [
     relatedBookingPages: [
       "reign-london-table-booking",
       "cuckoo-club-table-booking",
-      "funky-buddha-table-booking",
-      "luna-club-london-table-booking",
     ],
     relatedBlogSlugs: [
       "best-clubs-for-birthday-london",
@@ -1165,83 +984,6 @@ export const bookingPages: BookingPageData[] = [
     ],
   },
   // Maison Close
-  {
-    bookingSlug: "maison-close-table-booking",
-    clubSlug: "maison-close",
-    metaTitle: "Maison Close Table Booking | House Music & VIP from £1,000",
-    metaDescription:
-      "Book a VIP table at Maison Close Mayfair from £1,000 minimum spend. Intimate French-inspired house music club on Swallow Street. Message us on WhatsApp.",
-    h1: "Book a Table at Maison Close Mayfair",
-    heroSubheading:
-      "Mayfair's intimate French-inspired house music club on Swallow Street. Vintage chandeliers, plush velvet, and a soundtrack that puts quality house front and centre — with your own table and bottle service.",
-    pricingIntro:
-      "Floor tables at Maison Close start from £1,000 minimum spend. This covers your drinks for the night — premium spirits, champagne, or a combination from the bottle menu. Your personal waitress will walk you through the options when you arrive. The intimate venue size means table positions vary less than at larger clubs, but the best spots closest to the dancefloor carry a premium on Fridays and Saturdays.",
-    vipUpsellPitch:
-      "VIP tables start from £2,000 and give you the prime positions in the venue — closest to the dancefloor action with the best sightlines and enhanced service. In a venue this intimate, VIP isn't just about prestige — it's about being at the centre of the energy. If you're booking for a celebration or simply want the best possible night, VIP at Maison Close is worth the upgrade.",
-    weekdayDeal:
-      "Wednesday and Thursday are excellent value at Maison Close. The music programming is just as strong, the atmosphere is sophisticated and buzzing, and the minimum spend tends to be more flexible than on weekends. Thursday in particular has developed a loyal following among Mayfair regulars who prefer it to the busier Friday and Saturday crowds. If your group is flexible on dates, midweek at Maison Close delivers the full experience at better value.",
-    arrivalGuide:
-      "Maison Close is at 9 Swallow Street in Mayfair, right next door to Cuckoo Club and a short walk from Piccadilly Circus station. Doors open at 11 PM. With a table booking through us, you skip any queue — give your name at the door and you'll be escorted directly to your table. Most tables arrive between 11:30 PM and midnight. Your waitress will introduce herself and take your first order. Piccadilly Circus is the nearest tube, about a 2-minute walk.",
-    guestlistComparison:
-      "Maison Close operates primarily on a guestlist and table booking basis — walk-ins are not the norm here. The door policy is selective and presentation-focused. Getting on the guestlist doesn't guarantee entry; the door team makes the final call based on your group's appearance and the venue's capacity.\n\nFor groups of four or more, a table booking is strongly recommended. Split a £1,000 minimum across six people and you're paying roughly £167 each for guaranteed entry, a reserved table, personal service, and premium drinks in one of Mayfair's most intimate settings. Compare that to the uncertainty of guestlist — where you might wait, might pay a cover charge, and will definitely be standing all night without table service.\n\nThe venue is small (around 160 capacity) which means it fills up fast on popular nights. A table is the only way to guarantee your spot and the quality of your experience.",
-    entryGuide:
-      "Maison Close has one of the more selective door policies in Mayfair. The dress code is elegant and sophisticated — this is a Parisian-inspired venue and the expectation is that guests dress accordingly. Men should wear suits or sharp tailored separates with smart shoes. Women should opt for elegant dresses or stylish cocktail wear. Trainers, casual jeans, sportswear, and anything that reads as 'casual night out' will get you turned away.\n\nThe door team also considers group composition and presentation. Well-presented mixed groups have the smoothest experience. All-male groups without a booking will find it very difficult to gain entry, particularly on Fridays and Saturdays.\n\nWith a table booking through us, you bypass the door assessment entirely. Your name is on the list, your table is reserved, and you're walked straight in. This is particularly valuable at Maison Close where the intimate capacity means the door can be strict even with well-dressed guests simply because the venue is full.",
-    sections: [
-      {
-        heading: "Best Nights to Book at Maison Close",
-        content:
-          "Saturday is the main event — the strongest DJ bookings, the fullest house, and the peak energy. If this is your first visit, Saturday gives you Maison Close at its most impressive. Friday is excellent too, with a slightly more relaxed feel and often a creative industry crowd. Thursday has quietly become one of the best nights in Mayfair — a loyal, music-focused crowd who come specifically because they appreciate house music played properly. Wednesday is the quieter option, ideal for smaller groups who want the intimate atmosphere without the weekend intensity.",
-      },
-      {
-        heading: "Why Maison Close Stands Out in Mayfair",
-        content:
-          "Most Mayfair clubs run on hip-hop and RnB. Maison Close is one of the very few venues in the area with a dedicated house music policy, which makes it a genuine alternative for anyone who finds the mainstream Mayfair soundtrack repetitive. The Parisian-inspired design — vintage chandeliers, crimson accents, plush velvet — creates an atmosphere that feels more like a private members' salon than a conventional nightclub. The crowd reflects the music: slightly older, more discerning, and here because they genuinely love the sound rather than just looking for a big night out. It's a refreshing change of pace.",
-      },
-      {
-        heading: "Group Booking Guide for Maison Close",
-        content:
-          "The ideal group size for one table at Maison Close is 4-8 people. The venue's intimate scale means even a standard table feels close to the action. For groups of 10+, we can arrange adjacent tables so your party stays together. Maison Close works particularly well for groups where at least some members genuinely appreciate house music — the venue's entire atmosphere is built around the soundtrack, so it resonates most with people who are there for the music as much as the social experience. For mixed-taste groups, consider pairing Maison Close with a stop at one of the nearby Mayfair venues for variety.",
-      },
-    ],
-    faqs: [
-      {
-        question: "What music does Maison Close play?",
-        answer:
-          "House music exclusively. This is one of the few dedicated house music venues in Mayfair. If your group prefers hip-hop or RnB, consider Tabu London, Cirque Le Soir, or Tape London instead.",
-      },
-      {
-        question: "How much is a table at Maison Close?",
-        answer:
-          "Floor tables start from £1,000 minimum spend. VIP positions start from £2,000. Exact pricing depends on the night and group size — message us on WhatsApp for a quote for your specific date.",
-      },
-      {
-        question: "What nights is Maison Close open?",
-        answer:
-          "Wednesday, Thursday, Friday, and Saturday from 11 PM. Thursday and Saturday are the standout nights. Wednesday is the best value option with a more intimate crowd.",
-      },
-      {
-        question: "What should I wear to Maison Close?",
-        answer:
-          "Elegant and sophisticated. Suits or tailored separates for men, elegant dresses or cocktail wear for women. The dress code is strictly enforced — no trainers, no casual jeans, no sportswear.",
-      },
-      {
-        question: "Is Maison Close near other clubs?",
-        answer:
-          "Yes — it's at 9 Swallow Street, right next door to Cuckoo Club and a short walk from Maddox, Tape London, and most other Mayfair venues. It's an excellent option as part of a two-venue evening.",
-      },
-    ],
-    relatedBookingPages: [
-      "cuckoo-club-table-booking",
-      "maddox-club-table-booking",
-      "tape-london-table-booking",
-      "scotch-of-st-james-table-booking",
-    ],
-    relatedBlogSlugs: [
-      "best-house-music-clubs-london-bottle-service",
-      "mayfair-night-out-dinner-drinks-club-itinerary",
-      "mayfair-dress-code-what-to-wear",
-    ],
-  },
 ];
 
 export function getBookingPageBySlug(

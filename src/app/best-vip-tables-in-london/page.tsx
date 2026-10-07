@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs } from "@/data/clubs";
+import { clubs, fromPrice, formatPrice, formatNights } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "How much do VIP tables cost in London?",
     answer:
-      "VIP table prices in London vary by venue. At Cirque Le Soir, VIP tables start from £2,000. Tape London and The Box VIP tables start from £3,000. London Reign VIP tables start from £2,500. Most other Mayfair clubs — including Cuckoo Club, Maddox, Tabu, Selene, Funky Buddha, Dear Darling, Luna, and Scotch of St James — offer VIP tables from £2,000. Standard floor tables at all venues start from £1,000.",
+      "VIP table prices in London vary by venue. At Cirque Le Soir, VIP tables start from £2,000. Tape London and The Box VIP tables start from £3,000. London Reign VIP tables start from £2,500. Most other clubs, including Maddox, Selene, Dear Darling, and Scotch of St James, offer VIP tables from £2,000. For 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu), VIP minimums under the new names are confirmed on enquiry. Standard floor tables at all venues start from £1,000.",
   },
   {
     question: "What is the difference between a floor table and a VIP table?",
@@ -97,25 +97,11 @@ const vipHighlights: {
       "Las Vegas-scale production, aerial performer views, largest show-format venue in Mayfair",
   },
   {
-    slug: "cuckoo-club",
-    vipDescription:
-      "Cuckoo Club offers VIP tables on both floors — house music upstairs and hip-hop in the basement. The two-floor layout means your VIP experience can shift between vibes throughout the night. VIP positions on either floor give you prime real estate in one of Mayfair's most consistently reliable venues. If your group has mixed tastes, Cuckoo VIP is the safest and smartest choice.",
-    whatMakesVipSpecial:
-      "Two distinct floors with different music, the most versatile VIP option in Mayfair",
-  },
-  {
     slug: "maddox",
     vipDescription:
       "Maddox combines Italian fine dining with a sophisticated house music nightclub. VIP tables here give you the best of both worlds — start with dinner in the restaurant, then transition to a premium club position as the venue shifts into nightlife mode. The crowd is mature and well-dressed, and the house music policy creates an atmosphere that suits a more refined VIP experience.",
     whatMakesVipSpecial:
       "Dinner-to-club transition, Italian fine dining, sophisticated house music crowd",
-  },
-  {
-    slug: "tabu-london",
-    vipDescription:
-      "Tabu brings a Japanese underground aesthetic to Mayfair with dark, moody interiors and a hip-hop-heavy music policy. VIP tables here put you at the heart of one of the most stylish newer venues in the area. The intimate size means even VIP positions feel connected to the energy of the room rather than isolated from it.",
-    whatMakesVipSpecial:
-      "Japanese-inspired design, underground hip-hop focus, fashion-forward crowd",
   },
   {
     slug: "selene-london",
@@ -229,18 +215,16 @@ export default function BestVipTablesPage() {
                       </Link>
                     </td>
                     <td className="py-3 pr-4 price">
-                      £{club.pricing.floorTable.toLocaleString()}
+                      {formatPrice(club.pricing.floorTable)}
                     </td>
                     <td className="py-3 pr-4 price text-gold-light">
-                      £{club.pricing.vipTable.toLocaleString()}
+                      {formatPrice(club.pricing.vipTable)}
                     </td>
                     <td className="py-3 pr-4 text-text-muted">
                       {club.area}
                     </td>
                     <td className="py-3 text-text-muted">
-                      {club.openingNights
-                        .map((n) => n.slice(0, 3))
-                        .join(", ")}
+                      {formatNights(club, ", ", true)}
                     </td>
                   </tr>
                 ))}
@@ -262,8 +246,7 @@ export default function BestVipTablesPage() {
             about price. VIP tables are positioned in the best spots in the
             venue — that means front-row views of performers at Cirque Le
             Soir and London Reign, the most private booths at Tape London,
-            elevated platforms at Cuckoo Club, and prime positions at every
-            other venue. You also get more space, which matters when your
+            and prime positions at every other venue. You also get more space, which matters when your
             group is six or more people, and in many cases you receive
             priority attention from your waitress.
           </p>
@@ -344,14 +327,13 @@ export default function BestVipTablesPage() {
               </h2>
               <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-6">
                 <span className="text-gold">
-                  VIP from £{club.pricing.vipTable.toLocaleString()}
+                  {fromPrice(club.pricing.vipTable, "VIP from", "VIP on request")}
                 </span>
-                {" — "}Floor from £
-                {club.pricing.floorTable.toLocaleString()}
+                {" — "}{fromPrice(club.pricing.floorTable, "Floor from", "Floor on request")}
                 {" — "}
                 {club.area}
                 {" — "}
-                {club.openingNights.join(", ")}
+                {formatNights(club, ", ")}
               </p>
 
               <p className="text-text-secondary leading-relaxed mb-4">
@@ -429,13 +411,15 @@ export default function BestVipTablesPage() {
                     </Link>
                   </h3>
                   <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-2">
-                    VIP from £{club.pricing.vipTable.toLocaleString()}
+                    {fromPrice(club.pricing.vipTable, "VIP from", "VIP on request")}
                     {" — "}
                     {club.area}
-                    {" — "}
-                    {club.openingNights
-                      .map((n) => n.slice(0, 3))
-                      .join(", ")}
+                    {club.openingNights.length > 0 && (
+                      <>
+                        {" — "}
+                        {formatNights(club, ", ", true)}
+                      </>
+                    )}
                   </p>
                   <p className="text-text-secondary text-sm leading-relaxed mb-3">
                     {club.bestFor}
