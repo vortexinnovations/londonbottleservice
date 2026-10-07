@@ -12,6 +12,8 @@ export interface Club {
   shortName: string;
   /** Previous trading name, for a venue that has been renamed. */
   formerName?: string;
+  /** Closed venues only: one sentence naming the owner-confirmed successor, shown after "has closed". */
+  successorNote?: string;
   /** Open clubs to suggest alongside a renamed venue (slugs from `clubs`). */
   alternativeSlugs?: string[];
   tagline: string;
@@ -771,8 +773,9 @@ export const closedClubs: Club[] = [
     name: "Funky Buddha",
     shortName: "Funky Buddha",
     tagline: "Open-format Mayfair club on Berkeley Street (permanently closed)",
+    successorNote: "Itzel now operates at its Berkeley Street address.",
     description:
-      "Funky Buddha was a Mayfair nightclub on Berkeley Street with an open-format music policy that moved between hip-hop, house, RnB and commercial anthems. Funky Buddha is now permanently closed.",
+      "Funky Buddha was a Mayfair nightclub on Berkeley Street with an open-format music policy that moved between hip-hop, house, RnB and commercial anthems. Funky Buddha is now permanently closed, and Itzel now operates at its Berkeley Street address.",
     longDescription:
       "Funky Buddha carried one of the best-known names in Mayfair nightlife, and its open-format music policy made it an easy choice for mixed groups who did not want to commit to one genre all night. The venue is now permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
     address: "15 Berkeley Street, Mayfair, London W1J 8DY",
@@ -794,7 +797,7 @@ export const closedClubs: Club[] = [
     faqs: [
       {
         question: "Is Funky Buddha still open?",
-        answer: "No, Funky Buddha has permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
+        answer: "No, Funky Buddha has permanently closed, and Itzel now operates at its Berkeley Street address. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
         question: "Can I still book a table at Funky Buddha?",
@@ -878,8 +881,9 @@ export const closedClubs: Club[] = [
     name: "Libertine",
     shortName: "Libertine",
     tagline: "Mayfair's high-energy party headquarters (permanently closed)",
+    successorNote: "Selene now operates in its place.",
     description:
-      "Libertine was one of Mayfair's most high-energy nightclubs — a venue that attracted a young, international crowd who came to party hard. Located on Winsley Street just off Oxford Circus, it was known for its anything-goes atmosphere, celebrity appearances, and music that spanned hip-hop, RnB, and commercial anthems. Libertine is now permanently closed.",
+      "Libertine was one of Mayfair's most high-energy nightclubs — a venue that attracted a young, international crowd who came to party hard. Located on Winsley Street just off Oxford Circus, it was known for its anything-goes atmosphere, celebrity appearances, and music that spanned hip-hop, RnB, and commercial anthems. Libertine is now permanently closed, and Selene now operates in its place.",
     longDescription:
       "Libertine carved out a reputation as the club where Mayfair's rules got bent. The atmosphere was deliberately more hedonistic than the polished, restrained vibe found at some of the area's more established venues. The interior was dark and club-focused — this wasn't a lounge that became a club, it was a nightclub from the moment you walked in. The music policy centred on hip-hop and RnB with commercial crossover, and the DJs knew how to build energy through the night. The crowd skewed young and international — models, influencers, visiting celebrities, and groups who were specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables were positioned around the dance floor, putting you right in the middle of the action. Libertine didn't pretend to be understated — it was loud, fun, and unapologetically a party. While Libertine has now permanently closed, the spirit of high-energy Mayfair partying lives on at venues like Cirque Le Soir, Selene London and Dear Darling.",
     address: "4 Winsley Street, London W1W 8HF",
@@ -895,13 +899,13 @@ export const closedClubs: Club[] = [
       "Young, international crowd",
       "Regular celebrity appearances",
     ],
-    bestFor: "Libertine is permanently closed. For a similar high-energy Mayfair experience, try Cirque Le Soir or Selene London.",
+    bestFor: "Libertine is permanently closed and Selene London now operates in its place. For a similar high-energy Mayfair experience, try Selene London or Cirque Le Soir.",
     atmosphere: "High-energy, hedonistic, loud. Libertine was the opposite of Mayfair's usual restraint.",
     capacity: "Approximately 300",
     faqs: [
       {
         question: "Is Libertine London still open?",
-        answer: "No, Libertine London has permanently closed. For a similar high-energy party atmosphere, we recommend Cirque Le Soir, Selene London or Dear Darling. Message us on WhatsApp and we'll help you find the perfect alternative.",
+        answer: "No, Libertine London has permanently closed, and Selene now operates in its place. For a similar high-energy party atmosphere, we recommend Selene London, Cirque Le Soir or Dear Darling. Message us on WhatsApp and we'll help you find the perfect alternative.",
       },
       {
         question: "What happened to Libertine London?",

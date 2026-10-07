@@ -48,7 +48,7 @@ export async function generateMetadata({
     ? `${club.formerName} Is Now ${club.shortName}: Tables & Prices`
     : `${club.name} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
   const description = closed
-    ? `${club.name} has permanently closed. Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
+    ? `${club.name} has permanently closed.${club.successorNote ? ` ${club.successorNote}` : ""} Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
     : renamed
     ? `${club.formerName} in ${club.area} now trades as ${club.shortName}. Table minimums under the new name are confirmed on enquiry.${alternatives.length > 0 ? ` Open alternatives: ${joinNames(alternatives.map((c) => c.shortName))}.` : ""}`
     : `Book a VIP table at ${club.name} in ${club.area}. ${club.pricing.floorTable === null || club.pricing.vipTable === null ? "Table prices on request." : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`}${club.openingNights.length > 0 ? ` ${club.musicPolicy}. Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
@@ -135,7 +135,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
               {club.name} Has Permanently Closed
             </h2>
             <p className="text-text-secondary text-sm leading-relaxed mb-4">
-              {club.name} is no longer open. This page is maintained for informational purposes.
+              {club.name} is no longer open.{club.successorNote ? ` ${club.successorNote}` : ""} This page is maintained for informational purposes.
               Looking for a similar experience? Check out our open venues below or message us on
               WhatsApp and we&apos;ll recommend the perfect alternative.
             </p>
