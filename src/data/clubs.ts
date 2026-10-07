@@ -438,7 +438,7 @@ export const clubs: Club[] = [
     musicPolicy: "Hip-Hop, RnB, Afrobeats across multiple rooms",
     dressCode:
       "Smart. Standard Mayfair dress code — collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
-    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
+    openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -477,7 +477,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Selene open?",
         answer:
-          "Selene is open Thursday, Friday, and Saturday nights. As a newer venue, they occasionally add special event nights — check with us for the latest schedule.",
+          "Selene is open Thursday, Friday, Saturday and Sunday nights. As a newer venue, they occasionally add special event nights — check with us for the latest schedule.",
       },
       {
         question: "How does Selene compare to other Mayfair clubs?",

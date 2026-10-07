@@ -828,7 +828,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What nights is Selene open?",
         answer:
-          "Thursday, Friday, and Saturday. As a newer venue, they occasionally add special event nights. Thursday offers the best value with lower minimums and good availability. Check with us for the latest schedule.",
+          "Thursday, Friday, Saturday and Sunday. As a newer venue, they occasionally add special event nights. Thursday offers the best value with lower minimums and good availability. Check with us for the latest schedule.",
       },
       {
         question: "Is Selene good for large groups?",

@@ -27,7 +27,7 @@ const nightFaqs = [
   {
     question: "Which London clubs are open on weekdays?",
     answer:
-      "Several Mayfair clubs operate on weekdays. Monday: Cirque Le Soir. Tuesday: Tape London, Reign London. Wednesday: Cirque Le Soir, The Box, Selene. Thursday is the biggest weekday with six of the clubs listed here open. Opening nights for 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu) are confirmed on enquiry. Weekday minimum spends are often lower than weekends.",
+      "Several Mayfair clubs operate on weekdays. Monday: Cirque Le Soir. Tuesday: Tape London, Reign London. Wednesday: Cirque Le Soir, The Box. Thursday is the biggest weekday with six of the clubs listed here open. Opening nights for 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu) are confirmed on enquiry. Weekday minimum spends are often lower than weekends.",
   },
   {
     question: "What is the best night to go clubbing in London?",
@@ -42,7 +42,7 @@ const nightFaqs = [
   {
     question: "Which clubs are open on Sunday in London?",
     answer:
-      "Two of the clubs we work with are open on Sundays: Tape London and Dear Darling. Both offer a more relaxed atmosphere to close out the weekend. For the full range of Mayfair bottle service options, Thursday through Saturday gives you the most choice.",
+      "Three of the clubs we work with are open on Sundays: Tape London, Dear Darling and Selene. All three offer a more relaxed atmosphere to close out the weekend. For the full range of Mayfair bottle service options, Thursday through Saturday gives you the most choice.",
   },
 ];
 
@@ -78,8 +78,8 @@ const nights: NightData[] = [
     night: "Wednesday",
     status: "active",
     description:
-      "Wednesday is when the London club week really starts. Three venues open their doors, headlined by Cirque Le Soir which runs one of its strongest nights midweek. The Box delivers its provocative performances and Selene adds its multi-room experience.",
-    clubs: ["cirque-le-soir", "the-box", "selene-london"],
+      "Wednesday is when the London club week really starts. Two venues open their doors, headlined by Cirque Le Soir which runs one of its strongest nights midweek. The Box delivers its provocative performances.",
+    clubs: ["cirque-le-soir", "the-box"],
     vibe: "Building energy. The crowd is keen to be out and the atmosphere benefits from it. Less tourist-heavy than weekends.",
     tip: "Wednesday at Cirque Le Soir is arguably their best-value night. You get the full show experience with slightly lower minimum spends than Saturday.",
   },
@@ -141,8 +141,8 @@ const nights: NightData[] = [
     night: "Sunday",
     status: "limited",
     description:
-      "Sunday offers a couple of options for those who aren't ready for the weekend to end. Tape London opens its doors with its intimate members' club atmosphere, and Dear Darling keeps the party going in Mayfair. It's a more relaxed vibe than the peak nights, perfect for extending a long weekend.",
-    clubs: ["tape-london", "dear-darling"],
+      "Sunday offers a few options for those who aren't ready for the weekend to end. Tape London opens its doors with its intimate members' club atmosphere, Dear Darling keeps the party going in Mayfair, and Selene adds its multi-room experience. It's a more relaxed vibe than the peak nights, perfect for extending a long weekend.",
+    clubs: ["tape-london", "dear-darling", "selene-london"],
     vibe: "Wind-down energy. A smaller, loyal crowd who want one more night before the week starts.",
     tip: "Sunday at Dear Darling is a hidden gem — the crowd is relaxed, the atmosphere is stylish, and you get genuine Mayfair quality without the weekend intensity.",
   },
