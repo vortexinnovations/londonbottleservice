@@ -11,6 +11,13 @@ export interface BlogPost {
   keywords: string[];
   relatedClubs: string[];
   faqs: { question: string; answer: string }[];
+  // Content-API posts (Supabase site_posts, merged in by lib/posts.ts) carry
+  // a Markdown body and their own image; the original posts' bodies are JSX in
+  // blogContent.tsx and their images are in images.ts.
+  source?: "file" | "db";
+  bodyMd?: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export const blogPosts: BlogPost[] = [

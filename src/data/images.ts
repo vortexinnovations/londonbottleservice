@@ -382,6 +382,13 @@ export function getClubImages(slug: string) {
 }
 
 // Helper: get blog images with fallback
+/** A post's images: its own (database posts), else the slug map. */
+export function postImages(post: { slug: string; title: string; image?: string; imageAlt?: string }) {
+  return post.image
+    ? { featured: post.image, alt: post.imageAlt ?? post.title, inline: [] as string[] }
+    : getBlogImages(post.slug);
+}
+
 export function getBlogImages(slug: string) {
   return (
     blogImages[slug] ?? {

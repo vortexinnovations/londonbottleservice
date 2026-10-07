@@ -2,28 +2,42 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { blogPosts, getBlogPostBySlug } from "@/data/blog";
+import { marked } from "marked";
+import { getMergedPostBySlug, getMergedPosts } from "@/lib/posts";
+import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 import { blogContent } from "@/data/blogContent";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { HeroImage } from "@/components/HeroImage";
-import { getBlogImages } from "@/data/images";
+import { postImages } from "@/data/images";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
 }
 
+// Posts are prerendered at build and refreshed by /api/revalidate when the
+// content API publishes; this daily regeneration is only a safety net.
+export const revalidate = 86400;
+
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+  return (await getMergedPosts()).map((post) => ({ slug: post.slug }));
 }
+
+// Database posts are Markdown with no raw HTML (the content API rejects < and
+// >); any HTML that got through is shown as text. WhatsApp links get the live
+// number, like the site's own CTAs.
+const escapeHtml = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+marked.use({ renderer: { html: ({ text }) => escapeHtml(text) } });
+const dbBodyHtml = (md: string) =>
+  marked.parse(md.replace(/(wa\.me\/|api\.whatsapp\.com\/send\?phone=)\d+/g, `$1${WHATSAPP_NUMBER}`), { async: false });
 
 export async function generateMetadata({
   params,
 }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = await getMergedPostBySlug(slug);
   if (!post) return {};
 
   return {
@@ -46,18 +60,18 @@ export async function generateMetadata({
 
 export default async function BlogPostPage({ params }: BlogPostPageProps) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = await getMergedPostBySlug(slug);
   if (!post) notFound();
 
   const content = blogContent[slug];
-  if (!content) notFound();
+  if (post.source !== "db" && !content) notFound();
 
   const relatedClubData = post.relatedClubs
     .map((s) => clubs.find((c) => c.slug === s))
     .filter(Boolean);
 
-  const otherPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 4);
-  const images = getBlogImages(slug);
+  const otherPosts = (await getMergedPosts()).filter((p) => p.slug !== slug).slice(0, 4);
+  const images = postImages(post);
 
   const articleSchema = {
     "@context": "https://schema.org",
@@ -146,9 +160,13 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </p>
 
           {/* Article Body */}
-          <div className="prose-custom">
-            {content}
-          </div>
+          {post.source === "db" ? (
+            <div className="prose-custom" dangerouslySetInnerHTML={{ __html: dbBodyHtml(post.bodyMd ?? "") }} />
+          ) : (
+            <div className="prose-custom">
+              {content}
+            </div>
+          )}
 
           {/* CTA within article */}
           <div className="my-12 p-6 border border-border bg-bg-secondary text-center">
@@ -223,7 +241,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">More Articles</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {otherPosts.map((p) => {
-              const pImages = getBlogImages(p.slug);
+              const pImages = postImages(p);
               return (
                 <Link
                   key={p.slug}

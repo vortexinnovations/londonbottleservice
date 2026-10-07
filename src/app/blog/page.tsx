@@ -1,10 +1,10 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { blogPosts } from "@/data/blog";
+import { getMergedPosts } from "@/lib/posts";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
-import { pageImages, getBlogImages } from "@/data/images";
+import { pageImages, postImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title: "London Nightlife Blog | Bottle Service Tips, Club Guides & Pricing",
@@ -22,12 +22,15 @@ export const metadata: Metadata = {
   },
 };
 
-const categories = [...new Set(blogPosts.map((p) => p.category))];
-const sortedPosts = [...blogPosts].sort(
-  (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-);
+// Prerendered; /api/revalidate marks it stale when the content API publishes.
+export const revalidate = 86400;
 
-export default function BlogIndexPage() {
+export default async function BlogIndexPage() {
+  const blogPosts = await getMergedPosts();
+  const categories = [...new Set(blogPosts.map((p) => p.category))];
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
   return (
     <>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-6">
@@ -77,8 +80,8 @@ export default function BlogIndexPage() {
             <div className="border border-border-light p-2 bg-bg-primary">
               <div className="relative aspect-video overflow-hidden">
                 <Image
-                  src={getBlogImages(sortedPosts[0].slug).featured}
-                  alt={getBlogImages(sortedPosts[0].slug).alt}
+                  src={postImages(sortedPosts[0]).featured}
+                  alt={postImages(sortedPosts[0]).alt}
                   fill
                   className="img-grade object-cover group-hover:scale-[1.02] transition-transform duration-700"
                   sizes="(max-width: 768px) 100vw, 800px"
@@ -120,8 +123,8 @@ export default function BlogIndexPage() {
                 <div className="border border-border-light p-2 bg-bg-primary">
                   <div className="relative aspect-video overflow-hidden">
                     <Image
-                      src={getBlogImages(post.slug).featured}
-                      alt={getBlogImages(post.slug).alt}
+                      src={postImages(post).featured}
+                      alt={postImages(post).alt}
                       fill
                       className="img-grade object-cover group-hover:scale-[1.02] transition-transform duration-700"
                       sizes="(max-width: 768px) 100vw, 50vw"

@@ -363,3 +363,24 @@ h4 {
 .prose-custom a:hover {
   text-decoration-color: var(--color-gold);
 }
+
+/* Tables in content-API (Markdown) posts */
+.prose-custom table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+  margin: 0 0 1.5rem;
+}
+.prose-custom th {
+  text-align: left;
+  font-weight: 500;
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-bottom: 1px solid var(--color-gold-dark);
+}
+.prose-custom td {
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-secondary);
+}
