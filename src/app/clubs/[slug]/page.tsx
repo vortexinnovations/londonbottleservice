@@ -26,7 +26,7 @@ export async function generateMetadata({
 
   const closed = isClosedClub(slug);
   const title = closed
-    ? `${club.name} — Permanently Closed | London Bottle Service`
+    ? `${club.name} — Permanently Closed`
     : `${club.name} Table Prices & VIP Bottle Service | From £${club.pricing.floorTable.toLocaleString()}`;
   const description = closed
     ? `${club.name} has permanently closed. Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`

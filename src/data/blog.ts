@@ -1154,7 +1154,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "bottle-service-etiquette-london-clubs",
     title: "Bottle Service Etiquette at London Clubs: The Unwritten Rules",
-    metaTitle: "Bottle Service Etiquette London Clubs | London Bottle Service",
+    metaTitle: "Bottle Service Etiquette London Clubs",
     metaDescription:
       "Learn the unwritten rules of bottle service etiquette at London clubs. From tipping to table behaviour, everything you need to know before your first booking.",
     excerpt:
@@ -1197,7 +1197,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "what-comes-with-bottle-service-london-club",
     title: "What Comes with Bottle Service at a London Club",
-    metaTitle: "What Comes with Bottle Service London | London Bottle Service",
+    metaTitle: "What Comes with Bottle Service London",
     metaDescription:
       "Find out exactly what comes with bottle service at London clubs. Mixers, ice, sparklers, waitress service, and everything included in your table booking.",
     excerpt:
@@ -1240,7 +1240,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "is-bottle-service-london-worth-it",
     title: "Is Bottle Service at London Clubs Worth It? A Realistic Guide",
-    metaTitle: "Is Bottle Service Worth It? | London Bottle Service",
+    metaTitle: "Is Bottle Service Worth It?",
     metaDescription:
       "Is bottle service at London clubs worth the money? An honest breakdown of costs, what you get, and when it makes sense to book a table.",
     excerpt:
@@ -1283,7 +1283,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-london-club-minimum-spend-works",
     title: "How London Club Minimum Spend Actually Works",
-    metaTitle: "How Club Minimum Spend Works | London Bottle Service",
+    metaTitle: "How Club Minimum Spend Works",
     metaDescription:
       "London club minimum spend explained: what counts, what happens if you fall short, and how to get the most from your table booking. A practical breakdown.",
     excerpt:
@@ -1332,7 +1332,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "bottle-service-deposits-payments-london",
     title: "How Bottle Service Deposits and Payments Work at London Clubs",
-    metaTitle: "Bottle Service Deposits & Payments | London Bottle Service",
+    metaTitle: "Bottle Service Deposits & Payments",
     metaDescription:
       "How deposits, card holds, and payments work for bottle service at London clubs. Cancellation policies, splitting bills, and what to expect on the night.",
     excerpt:
@@ -1375,7 +1375,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "champagne-vs-spirits-london-bottle-menu",
     title: "Champagne vs Spirits: How to Order from a London Bottle Menu",
-    metaTitle: "Champagne vs Spirits London Clubs | London Bottle Service",
+    metaTitle: "Champagne vs Spirits London Clubs",
     metaDescription:
       "Champagne vs spirits at London clubs: which gives better value, how to choose, and what we order after years of booking bottle service tables.",
     excerpt:
@@ -1461,7 +1461,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "champagne-bottle-sizes-explained",
     title: "Champagne Bottle Sizes Explained: Magnum to Methuselah",
-    metaTitle: "Champagne Bottle Sizes Explained | London Bottle Service",
+    metaTitle: "Champagne Bottle Sizes Explained",
     metaDescription:
       "A guide to champagne bottle sizes in London clubs, from the standard 75cl to the magnum, jeroboam and beyond, and which size to order for your table.",
     excerpt:
@@ -1504,7 +1504,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-many-bottles-for-a-club-table",
     title: "How Many Bottles Do You Need for a Club Table? A Group-Size Guide",
-    metaTitle: "How Many Bottles for a Club Table? | London Bottle Service",
+    metaTitle: "How Many Bottles for a Club Table?",
     metaDescription:
       "How many bottles does your group need for a London club table? Serving maths by group size, how minimum spend changes it, and how to pace the night.",
     excerpt:
@@ -1547,7 +1547,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-long-do-you-get-a-club-table-london",
     title: "How Long Do You Get a Club Table in London? Timings Explained",
-    metaTitle: "How Long Do You Get a Club Table? | London Bottle Service",
+    metaTitle: "How Long Do You Get a Club Table?",
     metaDescription: "How long a club table is yours in London: arrival windows, second sittings, when the bottles arrive and last orders, from a former senior club server.",
     excerpt: "Your table is usually yours until close, but the exceptions catch people out. Arrival holds, second sittings and last orders, explained from the server side.",
     publishedAt: "2026-06-11",
@@ -1566,7 +1566,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "how-to-split-club-table-cost-london",
     title: "How to Split the Cost of a Club Table in London: Who Pays What",
-    metaTitle: "How to Split a Club Table Bill | London Bottle Service",
+    metaTitle: "How to Split a Club Table Bill",
     metaDescription:
       "How to split the cost of a club table in London: what you are actually splitting, the per-head maths, collecting money early, and handling dropouts.",
     excerpt:
@@ -1609,7 +1609,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "non-alcoholic-bottle-service-london",
     title: "Non-Alcoholic Bottle Service in London: What Clubs Offer",
-    metaTitle: "Non-Alcoholic Bottle Service | London Bottle Service",
+    metaTitle: "Non-Alcoholic Bottle Service",
     metaDescription:
       "Non-alcoholic bottle service at London clubs: the alcohol-free sparkling, zero-proof spirits and soft options on menus, and how they work with your table.",
     excerpt:
@@ -1652,7 +1652,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "can-you-take-bottles-home-from-a-london-club",
     title: "Can You Take Unfinished Bottles Home from a London Club?",
-    metaTitle: "Taking Bottles Home from a Club | London Bottle Service",
+    metaTitle: "Taking Bottles Home from a Club",
     metaDescription: "Can you take unfinished bottles home from a London club? The licensing reality, what happens to leftovers, unopened-bottle policies and avoiding waste.",
     excerpt: "That half-full bottle at 3am is not coming home with you, and the reason is the licence, not the venue. What actually happens to leftover bottles, and how to stop buying them.",
     publishedAt: "2026-07-13",
@@ -1671,7 +1671,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "why-is-bottle-service-so-expensive-london",
     title: "Why Is Bottle Service So Expensive in London? The Real Economics",
-    metaTitle: "Why Bottle Service Costs So Much | London Bottle Service",
+    metaTitle: "Why Bottle Service Costs So Much",
     metaDescription: "Why is bottle service so expensive in London? The venue-side economics: what a table really rents, the hidden costs, and why the pricing model works.",
     excerpt: "The bottle costs a fraction of that in a shop, and everyone at the table knows it. Here is the venue-side maths that actually sets the price, explained honestly.",
     publishedAt: "2026-07-13",
@@ -1690,7 +1690,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "service-charge-bottle-service-london",
     title: "Service Charge on Bottle Service in London: What You Pay",
-    metaTitle: "Club Service Charge Explained | London Bottle Service",
+    metaTitle: "Club Service Charge Explained",
     metaDescription: "Does London bottle service carry a service charge? What it is, whether it counts toward your minimum spend, and what the 2024 tipping law changed.",
     excerpt: "It is the line on the bill nobody explains until the tab arrives. Here is what a club service charge actually is, how it sits against your minimum spend, and what to ask before you book.",
     publishedAt: "2026-09-07",
