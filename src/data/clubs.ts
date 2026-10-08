@@ -681,7 +681,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is BEAT London open?",
         answer:
-          "BEAT is open Friday and Saturday nights, typically running later than most Mayfair clubs — often until 4:00 AM.",
+          "BEAT is open Friday and Saturday nights and on select Thursdays, typically running later than most Mayfair clubs — often until 4:00 AM.",
       },
       {
         question: "What's the dress code at BEAT?",

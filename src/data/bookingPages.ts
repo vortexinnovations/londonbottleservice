@@ -877,7 +877,7 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP tables from £2,000 put you in the optimal listening and viewing position — closest to the DJ booth, best bass response from the sound system, and front-row seats for the immersive lighting rig. At a venue built around the music, VIP positioning matters more than at clubs where the DJ is background noise. If you're here for the sound, VIP is where the sound is best.",
     weekdayDeal:
-      "BEAT operates Friday and Saturday only, so there's no midweek discount. However, Friday tends to attract a more local electronic music crowd with slightly lower minimum spends. The DJs on Friday often play longer, more exploratory sets compared to Saturday's higher-energy approach. If you prefer deeper, more progressive sets, Friday is your night. Saturday brings peak energy and the fullest dance floor.",
+      "BEAT opens on Friday and Saturday, plus select Thursdays, so there's no regular midweek discount. Friday tends to attract a more local electronic music crowd with slightly lower minimum spends. The DJs on Friday often play longer, more exploratory sets compared to Saturday's higher-energy approach. If you prefer deeper, more progressive sets, Friday is your night. Saturday brings peak energy and the fullest dance floor.",
     arrivalGuide:
       "BEAT London is in Central London. Doors open at 10:00 PM and the club runs late — often until 4:00 AM, later than most Mayfair venues. This later closing means the energy builds differently; don't feel rushed to arrive early. 11:00 PM to midnight is a good arrival window for table bookings. Priority entry with your booking means no queue. The dress code is more relaxed than traditional Mayfair — smart casual works, and smart trainers are generally accepted. The focus is on the music, not your collar.",
     guestlistComparison:
@@ -915,7 +915,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What nights is BEAT open?",
         answer:
-          "Friday and Saturday, running until 4:00 AM — later than most London clubs. Friday tends towards deeper, more progressive sets. Saturday is peak energy and the fullest room.",
+          "Friday and Saturday, plus select Thursdays, running until 4:00 AM — later than most London clubs. Friday tends towards deeper, more progressive sets. Saturday is peak energy and the fullest room.",
       },
       {
         question: "What's the dress code at BEAT?",
