@@ -127,18 +127,18 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP tables start from £3,000 and give you the prime positions in the venue — the best sightlines, the most space, and proximity to the DJ booth. At a venue this small and exclusive, VIP isn't just a label; it's a genuinely different experience. If you're entertaining clients or hosting something that needs to impress, VIP at Tape is as good as it gets in Mayfair.",
     weekdayDeal:
-      "Thursday is the smart booking at Tape. The crowd is strong — industry people, regulars, and a more relaxed atmosphere than the weekend rush. Minimum spends are typically lower than Friday or Saturday, and the venue feels even more intimate with a slightly smaller crowd. Wednesday is the most accessible night in terms of pricing and availability.",
+      "Tuesday is the smart booking at Tape. The crowd is strong — industry people, regulars, and a more relaxed atmosphere than the weekend rush. Minimum spends are typically lower than Friday or Saturday, and the venue feels even more intimate with a slightly smaller crowd. Sunday is the most accessible night in terms of pricing and availability.",
     arrivalGuide:
       "Tape London is at 17 Hanover Square in Mayfair. Doors open at 10:30 PM. With a table booking through us, your entire group gets guaranteed entry — just give your name at the door. Arrive between 11:00 PM and midnight for the best experience. The venue is small so it fills up fast. Oxford Circus tube is a 5-minute walk. Dress impeccably — this is a members' club environment and the door team will turn away anyone not meeting the standard, table booking or not.",
     guestlistComparison:
-      "There is no realistic guestlist route into Tape London. This is a private members' club with a capacity under 200 people, and they don't operate a public guestlist in any meaningful sense. Promoters who claim they can get you on a Tape guestlist are either misleading you or talking about a different venue entirely. The door at Tape is managed for members and their guests, plus table bookings arranged through recognised partners. If you're not a member and you don't have a table, your chances of getting through that door on any given night are close to zero.\n\nThis isn't Tape being difficult for the sake of it — it's a function of how the venue operates. Under 200 capacity means every person in the room has been deliberately allowed in. Members have priority, table bookings fill the remaining space, and walk-ups or guestlist hopefuls are what's left over, which on busy nights means nothing. Even on a quiet Wednesday, the door team would rather run a half-empty room than compromise the crowd by letting in people who don't fit the standard.\n\nA table booking is the only reliable way for non-members to experience Tape. Starting at £1,500 minimum spend, it's not cheap — but you're buying access to a room that money alone can't normally enter. Split across a group of six to eight, the per-person cost is reasonable for what is genuinely one of the most exclusive nightlife experiences in London. There is no budget alternative here. Either you book a table and you're in, or you don't and you're not.",
+      "There is no realistic guestlist route into Tape London. This is a private members' club with a capacity under 200 people, and they don't operate a public guestlist in any meaningful sense. Promoters who claim they can get you on a Tape guestlist are either misleading you or talking about a different venue entirely. The door at Tape is managed for members and their guests, plus table bookings arranged through recognised partners. If you're not a member and you don't have a table, your chances of getting through that door on any given night are close to zero.\n\nThis isn't Tape being difficult for the sake of it — it's a function of how the venue operates. Under 200 capacity means every person in the room has been deliberately allowed in. Members have priority, table bookings fill the remaining space, and walk-ups or guestlist hopefuls are what's left over, which on busy nights means nothing. Even on a quiet Tuesday, the door team would rather run a half-empty room than compromise the crowd by letting in people who don't fit the standard.\n\nA table booking is the only reliable way for non-members to experience Tape. Starting at £1,500 minimum spend, it's not cheap — but you're buying access to a room that money alone can't normally enter. Split across a group of six to eight, the per-person cost is reasonable for what is genuinely one of the most exclusive nightlife experiences in London. There is no budget alternative here. Either you book a table and you're in, or you don't and you're not.",
     entryGuide:
       "Getting into Tape London without a membership or table booking is, for practical purposes, not going to happen. The door at Tape is run with the precision of a private members' club because that's exactly what it is. There's no queue to join — the door team isn't looking at the line and deciding who looks good enough. They're checking a list. If your name isn't on it, the conversation is over before it starts. This is the reality of a sub-200-capacity venue that counts Premier League footballers and music industry executives among its regular crowd.\n\nThe dress code at Tape is the strictest in Mayfair. Smart shoes and a collared shirt are the absolute bare minimum for men, and even that might not be enough — jackets are strongly encouraged and the door team has been known to turn away people in smart shirts who simply didn't look polished enough. Women should dress in cocktail-level elegance: think designer or at least designer-adjacent. Streetwear, no matter how expensive, won't fly here. The members' club standard applies to everyone, including table bookings.\n\nWith a table booked through us, your group gets guaranteed entry as guests of the venue. Give your name at the door, your group is confirmed against the booking, and you're walked in. But guaranteed entry doesn't mean guaranteed entry in tracksuit bottoms — the dress code is non-negotiable even for bookings. Arrive between 11:00 PM and midnight looking like you belong in a room full of people who are used to the best of everything, and you'll have no issues.",
     sections: [
       {
         heading: "Best Nights to Book at Tape London",
         content:
-          "Saturday is the premier night — the biggest names in the crowd, the highest energy, and the fullest room. Friday is nearly as exclusive with a slightly more relaxed feel. Thursday is the value pick and genuinely one of the best nights at Tape: the crowd is industry-heavy (music, fashion, media), the atmosphere is more conversational early on before building into a proper party, and minimums are noticeably lower. Wednesday works for smaller groups who want the Tape experience at the most accessible price point.",
+          "Saturday is the premier night — the biggest names in the crowd, the highest energy, and the fullest room. Friday is nearly as exclusive with a slightly more relaxed feel. Tuesday is the value pick and genuinely one of the best nights at Tape: the crowd is industry-heavy (music, fashion, media), the atmosphere is more conversational early on before building into a proper party, and minimums are noticeably lower. Sunday works for smaller groups who want the Tape experience at the most accessible price point.",
       },
       {
         heading: "Why Tape London Is Worth the Premium",
@@ -165,7 +165,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What's the best night to visit Tape London?",
         answer:
-          "Saturday is the flagship night. Thursday is the insider pick — strong crowd, lower minimums, and a more intimate feel. Friday sits between the two. Wednesday is the most accessible entry point.",
+          "Saturday is the flagship night. Tuesday is the insider pick — strong crowd, lower minimums, and a more intimate feel. Friday sits between the two. Sunday is the most accessible entry point.",
       },
       {
         question: "What's the dress code for Tape London?",
@@ -175,7 +175,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "How far in advance should I book Tape London?",
         answer:
-          "Book at least 2 weeks in advance for Friday or Saturday. Tape has very limited capacity so tables sell out quickly. Thursday and Wednesday can sometimes be booked with shorter notice. For peak dates, a month ahead is not excessive.",
+          "Book at least 2 weeks in advance for Friday or Saturday. Tape has very limited capacity so tables sell out quickly. Tuesday and Sunday can sometimes be booked with shorter notice. For peak dates, a month ahead is not excessive.",
       },
       {
         question: "Is Tape London good for birthdays?",
@@ -215,7 +215,7 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP tables start from £2,500 and are positioned for the best possible views of the aerial performances and stage shows. At Reign, table position matters more than at most clubs because the entertainment is the centrepiece. VIP puts you front and centre — the performers are above you, beside you, and the entire production is designed to be experienced from these positions. For groups celebrating a birthday or special occasion, VIP transforms the night from a club visit into a genuine event.",
     weekdayDeal:
-      "Reign operates Friday and Saturday only, so there's no midweek discount option. However, Friday tends to have slightly lower minimum spends than Saturday while delivering the same full show programme. If your dates are flexible, Friday gives you the identical Reign experience with a bit more breathing room on price and availability.",
+      "Reign opens Tuesday, Thursday, Friday and Saturday, with Friday and Saturday the main show nights. Friday tends to have slightly lower minimum spends than Saturday while delivering the same full show programme. If your dates are flexible, Friday gives you the identical Reign experience with a bit more breathing room on price and availability.",
     arrivalGuide:
       "London Reign is at 12-14 Piccadilly, right in the heart of Mayfair. Doors open at 10:00 PM. With a table booking, you'll have priority entry — give your name at the door and you're in. The shows start around 11:00 PM and run in waves throughout the night, so arriving by 10:30-11:00 PM means you won't miss the first set. Green Park and Piccadilly Circus tubes are both a short walk. The venue is large by Mayfair standards, so the vibe builds as the room fills up.",
     guestlistComparison:
@@ -253,7 +253,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What nights is London Reign open?",
         answer:
-          "Friday and Saturday only. Both nights feature the full show programme. Saturday is busier with higher minimums. Friday offers the same entertainment with slightly better availability.",
+          "Tuesday, Thursday, Friday and Saturday. Friday and Saturday are the main show nights. Saturday is busier with higher minimums. Friday offers the same entertainment with slightly better availability.",
       },
       {
         question: "Is London Reign good for a hen party?",
@@ -303,14 +303,14 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP positions under the new name, and what they include, are confirmed on enquiry. Ask about the table layout and the VIP minimum spend when you message.",
     weekdayDeal:
-      "Opening nights under the new name are confirmed on enquiry. If your date is flexible, say so when you message, so that more than one night can be checked.",
+      "Rumour opens Wednesday to Saturday. If your date is flexible, say so when you message, so that more than one night can be checked.",
     arrivalGuide:
       "Arrival time, door policy and dress code are confirmed with your booking. Smart Mayfair dress is the safe default: no sportswear and no casual wear. Arrive at the time given with your confirmation and give the booking name at the door.",
     sections: [
       {
         heading: "What Changed: Tabu to Rumour",
         content:
-          "Tabu, the Mayfair club, now trades as Rumour. Many people still search for it by its old name, which is why this page keeps both. The details that described Tabu, such as its Japanese-inspired interior, its hip-hop and RnB music policy, its Thursday to Saturday schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for Rumour. Ask for the current music, nights and minimum spend before you book.",
+          "Tabu, the Mayfair club, now trades as Rumour. Many people still search for it by its old name, which is why this page keeps both. The details that described Tabu, such as its Japanese-inspired interior, its hip-hop and RnB music policy, its Thursday to Saturday schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for Rumour. Rumour opens Wednesday to Saturday: ask for the current music and minimum spend before you book.",
       },
       {
         heading: "Open Mayfair Clubs to Compare",
@@ -332,7 +332,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What music does Rumour play, and which nights is it open?",
         answer:
-          "Music and opening nights under the new name are confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
+          "Rumour is open Wednesday to Saturday. Music under the new name is confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
       },
       {
         question: "What are the alternatives to Tabu London in Mayfair?",
@@ -372,14 +372,14 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP positions under the new name, and what they include, are confirmed on enquiry. Ask about the table layout and the VIP minimum spend when you message.",
     weekdayDeal:
-      "Opening nights under the new name are confirmed on enquiry. If your date is flexible, say so when you message, so that more than one night can be checked.",
+      "99 Regent Street opens Wednesday to Saturday. If your date is flexible, say so when you message, so that more than one night can be checked.",
     arrivalGuide:
       "Arrival time, door policy and dress code are confirmed with your booking. Smart Mayfair dress is the safe default: a collared shirt and smart shoes for men, no sportswear. Arrive at the time given with your confirmation and give the booking name at the door.",
     sections: [
       {
         heading: "What Changed: Cuckoo Club to 99 Regent Street",
         content:
-          "Cuckoo Club, the Mayfair club, now trades as 99 Regent Street. Many people still search for it by its old name, which is why this page keeps both. The details that described Cuckoo Club, such as its two-room split between house and hip-hop, its weeknight schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for 99 Regent Street. Ask for the current music, nights and minimum spend before you book.",
+          "Cuckoo Club, the Mayfair club, now trades as 99 Regent Street. Many people still search for it by its old name, which is why this page keeps both. The details that described Cuckoo Club, such as its two-room split between house and hip-hop, its weeknight schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for 99 Regent Street. 99 Regent Street opens Wednesday to Saturday: ask for the current music and minimum spend before you book.",
       },
       {
         heading: "Open Mayfair Clubs to Compare",
@@ -401,7 +401,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What music does 99 Regent Street play, and which nights is it open?",
         answer:
-          "Music and opening nights under the new name are confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
+          "99 Regent Street is open Wednesday to Saturday. Music under the new name is confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
       },
       {
         question: "What are the alternatives to Cuckoo Club in Mayfair?",
@@ -441,11 +441,11 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP tables from £2,000 place you in the most coveted positions in one of London's most historically significant venues. The space is small enough that every table feels close to the action, but VIP gives you the definitive positions — more space, the best sound, and a setup that matches the prestige of the room. If you're booking Scotch, you're already choosing quality over quantity. VIP takes that philosophy further.",
     weekdayDeal:
-      "Wednesday and Thursday at Scotch are genuinely special. The crowd is smaller and more intimate, the DJs often play deeper cuts, and the atmosphere is closer to a private party than a club night. Minimum spends tend to be lower on these nights. If you're a music lover who wants to actually hear the DJ's craft without a packed room, midweek at Scotch is one of London's best-kept secrets.",
+      "Thursday at Scotch is genuinely special. The crowd is smaller and more intimate, the DJs often play deeper cuts, and the atmosphere is closer to a private party than a club night. Minimum spends tend to be lower than at the weekend. If you're a music lover who wants to actually hear the DJ's craft without a packed room, midweek at Scotch is one of London's best-kept secrets.",
     arrivalGuide:
       "Scotch of St James is at 13 Mason's Yard in St James's — a quiet, tucked-away courtyard that feels deliberately hidden. That's part of the charm. Doors open at 10:00 PM. With a table booking through us, you get guest access to this members' club. Arrive between 10:30 PM and 11:30 PM. Green Park tube is the nearest station, about a 5-minute walk. The dress code is smart but with personality — Scotch values individual style over formal uniformity.",
     guestlistComparison:
-      "Scotch of St James operates as a members' club, and that fundamentally changes the guestlist equation. There is no public guestlist in the way most people understand it. You can't text a promoter and get your name on a list — access is controlled through membership and table bookings. Some promoters claim guestlist access to Scotch, but the reality is that the door team recognises members and checks bookings, and everyone else is at the mercy of whoever's managing the door that night. On a quiet Wednesday you might talk your way in, but it's never guaranteed and you'll likely pay a premium cover charge for the privilege.\n\nWhat makes the guestlist question particularly irrelevant at Scotch is the nature of the venue. This is an intimate, sub-200-capacity space where the cocktail programme is genuinely excellent and the music is curated by DJs selected for taste. The experience is built around sitting with a drink in your hand, listening to soul or funk or disco, and being part of a room that feels like the best private party you've ever attended. Standing at the bar with no seat in a room that small isn't a fallback option — it's awkward.\n\nA table booking at Scotch starts from £1,000 and grants your group guest access to the members' club. This is the only reliable route in for non-members, and it comes with the full experience: reserved seating, personal service, premium spirits and cocktails against your minimum spend, and a spot in one of London's most historically significant music venues. The cocktail programme at Scotch means your minimum spend goes further than at bottle-only venues — genuinely crafted drinks rather than just pouring from a bottle.",
+      "Scotch of St James operates as a members' club, and that fundamentally changes the guestlist equation. There is no public guestlist in the way most people understand it. You can't text a promoter and get your name on a list — access is controlled through membership and table bookings. Some promoters claim guestlist access to Scotch, but the reality is that the door team recognises members and checks bookings, and everyone else is at the mercy of whoever's managing the door that night. On a quiet Thursday you might talk your way in, but it's never guaranteed and you'll likely pay a premium cover charge for the privilege.\n\nWhat makes the guestlist question particularly irrelevant at Scotch is the nature of the venue. This is an intimate, sub-200-capacity space where the cocktail programme is genuinely excellent and the music is curated by DJs selected for taste. The experience is built around sitting with a drink in your hand, listening to soul or funk or disco, and being part of a room that feels like the best private party you've ever attended. Standing at the bar with no seat in a room that small isn't a fallback option — it's awkward.\n\nA table booking at Scotch starts from £1,000 and grants your group guest access to the members' club. This is the only reliable route in for non-members, and it comes with the full experience: reserved seating, personal service, premium spirits and cocktails against your minimum spend, and a spot in one of London's most historically significant music venues. The cocktail programme at Scotch means your minimum spend goes further than at bottle-only venues — genuinely crafted drinks rather than just pouring from a bottle.",
     entryGuide:
       "Scotch of St James is hidden on Mason's Yard in St James's, down a quiet courtyard that most people walk past without noticing. Finding it is the first test; getting in is the second. As a members' club, the door isn't a standard Mayfair queue-and-check operation. Members walk in. Table bookings are confirmed at the door. Everyone else is assessed on a case-by-case basis, and on busy nights that assessment is heavily weighted towards 'no.' The venue holds under 200 people and they'd rather keep it uncrowded than fill the room with walk-ins.\n\nThe dress code at Scotch is unique in Mayfair. While most clubs want smart-formal, Scotch values personality and style. The baseline is smart-casual, but creative dressing is encouraged — think vintage, fashion-forward, or effortfully individual rather than corporate. A well-dressed musician will get more respect at the door than a man in a generic business suit. This reflects the venue's heritage: this is where Hendrix and the Stones used to drink, and the modern door team looks for people who carry that same creative energy. No sportswear, no very casual attire, but the interpretation of 'smart' here is broader than anywhere else in Mayfair.\n\nA table booking through us gives your group guaranteed guest access. You arrive at Mason's Yard, find the entrance (look for the discreet signage), give your name, and you're in. The process is low-key and understated, which matches the venue's character. Arrive between 10:30 PM and 11:30 PM — earlier on midweek nights when the atmosphere is more conversational, closer to 11:00 PM on weekends when the music builds later. Green Park tube is five minutes away. Dress with personality and arrive with the expectation of a genuinely special night rather than a standard club experience.",
     sections: [
@@ -462,7 +462,7 @@ export const bookingPages: BookingPageData[] = [
       {
         heading: "Best Nights to Experience Scotch of St James",
         content:
-          "Friday and Saturday deliver the fullest rooms and highest energy. But the real insider move at Scotch is Wednesday or Thursday. The smaller crowd means the atmosphere becomes almost private-party-like, the DJs play longer sets with more depth, and you'll have conversations with people who are there because they genuinely love the venue rather than because it's the weekend and they need somewhere to go. For couples, smaller groups, and music purists, midweek Scotch is one of London's finest nights out.",
+          "Friday and Saturday deliver the fullest rooms and highest energy. But the real insider move at Scotch is Thursday. The smaller crowd means the atmosphere becomes almost private-party-like, the DJs play longer sets with more depth, and you'll have conversations with people who are there because they genuinely love the venue rather than because it's the weekend and they need somewhere to go. For couples, smaller groups, and music purists, midweek Scotch is one of London's finest nights out.",
       },
     ],
     faqs: [
@@ -489,7 +489,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What nights is Scotch open?",
         answer:
-          "Wednesday through Saturday. Weekends are busier but midweek nights (Wednesday and Thursday) offer a more intimate, music-focused experience with lower minimum spends.",
+          "Thursday, Friday and Saturday. Friday and Saturday are busier, but Thursday offers a more intimate, music-focused experience with lower minimum spends.",
       },
       {
         question: "Is Scotch good for a date night?",
@@ -499,7 +499,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "How far in advance should I book Scotch?",
         answer:
-          "For Friday and Saturday, at least 1-2 weeks ahead. The venue holds under 200 people so table inventory is very limited. Wednesday and Thursday can sometimes be arranged at shorter notice. Contact us on WhatsApp and we'll check availability immediately.",
+          "For Friday and Saturday, at least 1-2 weeks ahead. The venue holds under 200 people so table inventory is very limited. Thursday can sometimes be arranged at shorter notice. Contact us on WhatsApp and we'll check availability immediately.",
       },
     ],
     relatedBookingPages: [
@@ -530,7 +530,7 @@ export const bookingPages: BookingPageData[] = [
     vipUpsellPitch:
       "VIP tables from £2,000 give you the best positions in one of Mayfair's most beautifully designed venues. Dear Darling's VIP setup matches the attention to detail in the rest of the space — premium positioning, extra space, and a level of service that feels personal rather than transactional. For groups who chose Dear Darling specifically for the design and atmosphere, VIP ensures you experience it at its best.",
     weekdayDeal:
-      "Thursday is Dear Darling's sweet spot. The venue transitions beautifully from cocktail bar to club on all three nights (Thursday to Saturday), but Thursday's crowd tends to be more discerning — regulars, fashion industry people, and couples who appreciate a venue where every detail has been considered. Minimum spends are lower and table availability is better than the weekend.",
+      "Thursday is Dear Darling's sweet spot. The venue transitions beautifully from cocktail bar to club on every night it opens (Thursday to Sunday), but Thursday's crowd tends to be more discerning — regulars, fashion industry people, and couples who appreciate a venue where every detail has been considered. Minimum spends are lower and table availability is better than the weekend.",
     arrivalGuide:
       "Dear Darling is in Mayfair. With a table booking, you'll have priority entry for your group. The venue transitions from cocktail bar to club as the night progresses, so arriving earlier (around 10:00-10:30 PM) lets you enjoy the cocktail bar phase before the energy shifts into full club mode around 11:30 PM. Dress code is smart and fashion-forward — the crowd here puts effort in, so match the energy. Green Park tube is nearby.",
     guestlistComparison:
@@ -568,7 +568,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What nights is Dear Darling open?",
         answer:
-          "Thursday, Friday, and Saturday. Thursday is the insider pick — strong crowd, lower minimums. Saturday is the biggest night. All three maintain a good atmosphere thanks to the venue's size and design.",
+          "Thursday to Sunday. Thursday is the insider pick — strong crowd, lower minimums. Saturday is the biggest night. All four maintain a good atmosphere thanks to the venue's size and design.",
       },
       {
         question: "Is Dear Darling good for a date?",

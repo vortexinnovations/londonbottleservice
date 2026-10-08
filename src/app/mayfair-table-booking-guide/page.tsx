@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "What is the best night to go to a Mayfair club?",
     answer:
-      "Saturday is the biggest night at every Mayfair club — the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Tape London, Selene, and Dear Darling. Wednesday is available at Tape London and Scotch of St James with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
+      "Saturday is the biggest night at every Mayfair club — the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling. Wednesday is available at Cirque Le Soir and The Box with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
   },
   {
     question: "How do I book a table in Mayfair?",
@@ -321,7 +321,7 @@ export default function MayfairTableBookingGuidePage() {
                 Thursday — The Insider Night
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                Available at Tape London, Selene, Dear Darling, Maddox, and
+                Available at Selene, Dear Darling, Maddox, and
                 Scotch of St James. Thursdays
                 attract a local, regular crowd and the atmosphere at the
                 best venues is genuinely excellent. Minimum spends are the
@@ -335,7 +335,7 @@ export default function MayfairTableBookingGuidePage() {
                 Wednesday — Early Week Option
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                Available at Tape London and Scotch of St James. Midweek nights offer the
+                Available at Cirque Le Soir and The Box. Midweek nights offer the
                 lowest prices and a more intimate atmosphere. These are
                 excellent for smaller groups or couples who want a quieter
                 Mayfair experience.

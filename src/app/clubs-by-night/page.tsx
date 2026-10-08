@@ -27,12 +27,12 @@ const nightFaqs = [
   {
     question: "Which London clubs are open on weekdays?",
     answer:
-      "Several Mayfair clubs operate on weekdays. Monday: Cirque Le Soir. Tuesday: Tape London, Reign London. Wednesday: Cirque Le Soir, The Box. Thursday is the biggest weekday with six of the clubs listed here open. Opening nights for 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu) are confirmed on enquiry. Weekday minimum spends are often lower than weekends.",
+      "Several Mayfair clubs operate on weekdays. Monday: Cirque Le Soir. Tuesday: Tape London, Reign London. Wednesday: Cirque Le Soir, The Box. Thursday is the biggest weekday with seven of the clubs listed here open. 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu) are open Wednesday to Saturday. Weekday minimum spends are often lower than weekends.",
   },
   {
     question: "What is the best night to go clubbing in London?",
     answer:
-      "Saturday is the biggest night with nine of the clubs listed here open and the strongest crowds. Friday is nearly as busy with a more local crowd. Thursday is excellent value: six clubs open, strong atmosphere, but lower minimum spends. Each night has its own character.",
+      "Saturday is the biggest night with nine of the clubs listed here open and the strongest crowds. Friday is nearly as busy with a more local crowd. Thursday is excellent value: seven clubs open, strong atmosphere, but lower minimum spends. Each night has its own character.",
   },
   {
     question: "Are London clubs open on Monday?",
@@ -87,9 +87,10 @@ const nights: NightData[] = [
     night: "Thursday",
     status: "active",
     description:
-      "Thursday is the sweet spot for many London regulars — strong atmosphere, real buzz, but without Saturday's premium pricing. Six of the clubs listed here are open, giving you real choice across music genres and atmospheres. This is the night when Mayfair professionals come out, international visitors start their long weekends, and the energy is unmistakably 'big night' without the chaos.",
+      "Thursday is the sweet spot for many London regulars — strong atmosphere, real buzz, but without Saturday's premium pricing. Seven of the clubs listed here are open, giving you real choice across music genres and atmospheres. This is the night when Mayfair professionals come out, international visitors start their long weekends, and the energy is unmistakably 'big night' without the chaos.",
     clubs: [
       "london-reign",
+      "scotch-of-st-james",
       "dear-darling",
       "maddox",
       "the-box",

@@ -493,7 +493,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What nights is Dear Darling open?",
         answer:
-          "Dear Darling is open Thursday, Friday, and Saturday. All three nights maintain strong energy, with Saturdays being the busiest.",
+          "Dear Darling is open Thursday to Sunday. All four nights maintain strong energy, with Saturdays being the busiest.",
       },
       {
         question: "How does Dear Darling compare to other Mayfair clubs?",
@@ -1115,7 +1115,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Discover the best weeknight clubs in London. Lower minimums, insider crowds, and easier entry — why Tuesday to Thursday in Mayfair is the smart move.",
     excerpt:
-      "Mayfair doesn&apos;t shut down on weeknights. From Tuesday at Cuckoo Club to Thursday at Tape London, midweek clubbing offers better value, a more local crowd, and none of the Saturday chaos.",
+      "Mayfair doesn&apos;t shut down on weeknights. From Tuesday at Tape London to Thursday at Cuckoo Club, midweek clubbing offers better value, a more local crowd, and none of the Saturday chaos.",
     publishedAt: "2026-04-03",
     updatedAt: "2026-04-03",
     category: "Guides",
@@ -1132,7 +1132,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which London clubs are open on weeknights?",
         answer:
-          "Several top Mayfair venues operate midweek. Cuckoo Club opens Tuesday, Thursday, Friday, and Saturday. Tape London, Scotch of St James, and The Box run Wednesday through Saturday. Maddox, Tabu London, Selene London, Dear Darling, and Luna Club open Thursday to Saturday. Wednesday and Thursday offer the widest choice.",
+          "Several top Mayfair venues operate midweek. Tape London opens on Tuesday as well as Friday to Sunday. Cuckoo Club, Tabu London and The Box run Wednesday through Saturday. Maddox, Scotch of St James and Luna Club open Thursday to Saturday, and Selene London and Dear Darling open Thursday to Sunday. Wednesday and Thursday offer the widest choice.",
       },
       {
         question: "Are weeknight minimum spends lower than weekends?",
@@ -1142,7 +1142,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is the atmosphere good at London clubs on a weeknight?",
         answer:
-          "Absolutely. Thursday nights at venues like Tape London and Cuckoo Club are genuinely buzzing &mdash; you&apos;ll find a more local, industry-heavy crowd rather than tourists. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
+          "Absolutely. Thursday nights at venues like Scotch of St James and Cuckoo Club are genuinely buzzing &mdash; you&apos;ll find a more local, industry-heavy crowd rather than tourists. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
       },
       {
         question: "Is the dress code more relaxed on weeknights?",

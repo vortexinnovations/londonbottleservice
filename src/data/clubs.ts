@@ -89,7 +89,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Cirque Le Soir open?",
         answer:
-          "Cirque Le Soir is open Wednesday, Friday, and Saturday nights. Saturdays are the busiest and most in-demand. Wednesdays and Fridays tend to have a slightly lower minimum spend and are great for smaller groups.",
+          "Cirque Le Soir is open Monday, Wednesday, Friday, and Saturday nights. Saturdays are the busiest and most in-demand. Wednesdays and Fridays tend to have a slightly lower minimum spend and are great for smaller groups.",
       },
       {
         question: "Is there a dress code at Cirque Le Soir?",
@@ -157,7 +157,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Tape London open?",
         answer:
-          "Tape London is open Wednesday through Saturday. Fridays and Saturdays are the busiest and most expensive. Thursday is an excellent night — still a strong crowd and atmosphere, with slightly lower minimum spends.",
+          "Tape London is open Tuesday, Friday, Saturday and Sunday. Fridays and Saturdays are the busiest and most expensive. Tuesday and Sunday are excellent nights, still a strong crowd and atmosphere, with slightly lower minimum spends.",
       },
       {
         question: "What's the dress code at Tape London?",
@@ -180,7 +180,7 @@ export const clubs: Club[] = [
     alternativeSlugs: ["maddox", "tape-london", "selene-london"],
     tagline: "The Mayfair club formerly known as Cuckoo Club, now trading as 99 Regent Street",
     description:
-      "99 Regent Street is the new name of the Mayfair club formerly known as Cuckoo Club. Table minimums, music and opening nights under the new name are confirmed on enquiry: message us with your date and group size for current details.",
+      "99 Regent Street is the new name of the Mayfair club formerly known as Cuckoo Club. It opens Wednesday to Saturday. Table minimums and music under the new name are confirmed on enquiry: message us with your date and group size for current details.",
     longDescription:
       "Cuckoo Club now trades as 99 Regent Street. The venue is still in Mayfair, and the old name is still how many people search for it, so this page keeps both. Because the venue has changed its name, the floor and VIP minimum spends, music policy and opening nights published for Cuckoo Club no longer apply automatically. Rather than show out-of-date figures, this guide lists prices as on request: send your date, group size and any occasion on WhatsApp and the current minimum spend, table options and door policy will be confirmed before you commit.",
     address: "Mayfair, London",
@@ -188,7 +188,7 @@ export const clubs: Club[] = [
     musicPolicy: "Confirmed on enquiry",
     dressCode:
       "Confirmed with your booking. Smart Mayfair dress is the safe default: collared shirts and smart shoes for men, no sportswear.",
-    openingNights: [],
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
     openingHours: "Confirmed on enquiry",
     pricing: {
       floorTable: null,
@@ -224,7 +224,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is 99 Regent Street open?",
         answer:
-          "Opening nights under the new name are confirmed on enquiry. Send your preferred date and availability will be checked for you.",
+          "99 Regent Street is open Wednesday to Saturday. Send your preferred date and availability will be checked for you.",
       },
     ],
   },
@@ -306,7 +306,7 @@ export const clubs: Club[] = [
     alternativeSlugs: ["tape-london", "selene-london", "dear-darling"],
     tagline: "The Mayfair club formerly known as Tabu, now trading as Rumour",
     description:
-      "Rumour is the new name of the Mayfair club formerly known as Tabu. Table minimums, music and opening nights under the new name are confirmed on enquiry: message us with your date and group size for current details.",
+      "Rumour is the new name of the Mayfair club formerly known as Tabu. It opens Wednesday to Saturday. Table minimums and music under the new name are confirmed on enquiry: message us with your date and group size for current details.",
     longDescription:
       "Tabu now trades as Rumour. The venue is still in Mayfair, and the old name is still searched, so this page keeps both. Because the venue has changed its name, the floor and VIP minimum spends, music policy and opening nights published for Tabu no longer apply automatically. Rather than show out-of-date figures, this guide lists prices as on request: send your date, group size and any occasion on WhatsApp and the current minimum spend, table options and door policy will be confirmed before you commit.",
     address: "Mayfair, London",
@@ -314,7 +314,7 @@ export const clubs: Club[] = [
     musicPolicy: "Confirmed on enquiry",
     dressCode:
       "Confirmed with your booking. Smart Mayfair dress is the safe default: no sportswear or casual wear.",
-    openingNights: [],
+    openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
     openingHours: "Confirmed on enquiry",
     pricing: {
       floorTable: null,
@@ -350,7 +350,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Rumour open?",
         answer:
-          "Opening nights under the new name are confirmed on enquiry. Send your preferred date and availability will be checked for you.",
+          "Rumour is open Wednesday to Saturday. Send your preferred date and availability will be checked for you.",
       },
     ],
   },
@@ -409,7 +409,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is London Reign open?",
         answer:
-          "London Reign is open Friday and Saturday nights. Both nights feature the full show programme. Saturdays tend to be busier and have higher minimum spends.",
+          "London Reign is open Tuesday, Thursday, Friday and Saturday nights. Friday and Saturday are the main show nights. Saturdays tend to be busier and have higher minimum spends.",
       },
       {
         question: "Is London Reign good for hen parties?",
@@ -506,7 +506,7 @@ export const clubs: Club[] = [
     musicPolicy: "Eclectic — Soul, Funk, Disco, Hip-Hop, Rock. Quality-curated, not commercial.",
     dressCode:
       "Smart but with personality. Scotch appreciates style over formality. Smart-casual is the baseline but they value individual expression. No sportswear or very casual attire.",
-    openingNights: ["Friday", "Saturday"],
+    openingNights: ["Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM – 3:00 AM",
     pricing: {
       floorTable: 1000,
@@ -550,7 +550,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Scotch of St James open?",
         answer:
-          "Scotch is open Wednesday through Saturday. Each night has its own character, with weekends being busier and midweek offering a more intimate experience.",
+          "Scotch is open Thursday, Friday and Saturday. Each night has its own character, with Friday and Saturday being busier and Thursday offering a more intimate experience.",
       },
       {
         question: "What's the history of Scotch of St James?",
@@ -569,7 +569,7 @@ export const clubs: Club[] = [
       "Dear Darling is one of Mayfair's newer nightlife additions — a stylish, design-led venue that combines a strong cocktail bar with a proper late-night club atmosphere. It's attracted a well-dressed, savvy crowd since opening and has quickly established itself as a serious contender on the Mayfair circuit.",
     longDescription:
       "Dear Darling arrived on the Mayfair scene with a clear vision: create a space that's beautiful enough for early-evening cocktails but has the sound system and energy to carry a serious late-night crowd. The interior is carefully designed with warm tones, textured surfaces, and lighting that shifts as the night progresses from cocktail bar to full nightclub mode. The music policy leans towards hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with deeper cuts. What sets Dear Darling apart from established Mayfair clubs is the attention to detail in the drinks programme — the cocktails are genuinely good, not an afterthought. The crowd is fashion-conscious, predominantly in their late twenties to thirties, and the atmosphere manages to be both stylish and genuinely fun. It's the kind of venue that appeals to people who've grown out of the bigger, louder Mayfair clubs but still want a proper night out. Tables are well-positioned and the venue's size keeps the energy concentrated without feeling cramped.",
-    address: "Mayfair, London W1",
+    address: "91 Jermyn Street, St James's, London",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, Afrobeats, with quality cocktail bar earlier in the evening",
     dressCode:
@@ -608,7 +608,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Dear Darling open?",
         answer:
-          "Dear Darling is open Thursday, Friday, and Saturday nights. All three nights maintain a strong atmosphere, with Saturdays being the busiest.",
+          "Dear Darling is open Thursday to Sunday. All four nights maintain a strong atmosphere, with Saturdays being the busiest.",
       },
       {
         question: "What's the vibe at Dear Darling?",

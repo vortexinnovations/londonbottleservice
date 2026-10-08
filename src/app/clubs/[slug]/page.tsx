@@ -51,7 +51,7 @@ export async function generateMetadata({
     ? `${club.name} has permanently closed.${club.successorNote ? ` ${club.successorNote}` : ""} Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
     : renamed
     ? `${club.formerName} in ${club.area} now trades as ${club.shortName}. Table minimums under the new name are confirmed on enquiry.${alternatives.length > 0 ? ` Open alternatives: ${joinNames(alternatives.map((c) => c.shortName))}.` : ""}`
-    : `Book a VIP table at ${club.name} in ${club.area}. ${club.pricing.floorTable === null || club.pricing.vipTable === null ? "Table prices on request." : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`}${club.openingNights.length > 0 ? ` ${club.musicPolicy}. Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
+    : `Book a VIP table at ${club.name} in ${club.area}. ${club.pricing.floorTable === null || club.pricing.vipTable === null ? "Table prices on request." : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`}${club.openingNights.length > 0 ? `${club.musicPolicy === "Confirmed on enquiry" ? "" : ` ${club.musicPolicy}.`} Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
 
   return {
     title,
@@ -91,7 +91,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       addressLocality: "London",
       addressCountry: "GB",
     },
-    openingHoursSpecification: club.openingNights.map((night) => ({
+    openingHoursSpecification: !club.openingHours.includes("–") ? undefined : club.openingNights.map((night) => ({
       "@type": "OpeningHoursSpecification",
       dayOfWeek: night,
       opens: club.openingHours.split("–")[0].trim(),

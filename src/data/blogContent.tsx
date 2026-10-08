@@ -976,7 +976,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>How to Book</h2>
       <p>
         Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll confirm
-        your table at Dear Darling directly, usually within minutes. Thursday through Saturday are
+        your table at Dear Darling directly, usually within minutes. Thursday through Sunday are
         the operating nights — book early for Saturdays.
       </p>
     </>
@@ -2945,23 +2945,20 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/blog/friday-night-vs-saturday-night-london-clubs" className="text-gold hover:underline">Friday vs Saturday guide</Link>.
       </p>
 
-      <h2>Tuesday: Cuckoo Club</h2>
+      <h2>Tuesday: Tape London</h2>
       <p>
         Tuesday in Mayfair has one standout option:{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
-        on Swallow Street. It&apos;s one of the few venues brave enough to open on a Tuesday,
-        and it works because the club has a loyal midweek following. The ground floor bar
-        fills with an after-work crowd from around 6 PM, and the basement club kicks off
-        properly by 11 PM. Expect an open-format playlist, a relaxed but well-dressed
-        crowd, and minimum spends that are among the lowest of the week. If you want to
-        test Mayfair without the weekend price tag, this is where to start. Tables start
-        from &pound;1,000, and you can{" "}
-        <Link href="/cuckoo-club-table-booking" className="text-gold hover:underline">book a Cuckoo Club table here</Link>.
+        <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
+        on Hanover Square. This members&apos; club opens its doors to non-members on Tuesday.
+        The sound system is world-class, the booths are deep and private, and the crowd
+        is music-industry heavy. If you want to test Mayfair without the weekend price tag,
+        this is where to start. Tables start from &pound;1,500, and you can{" "}
+        <Link href="/tape-london-table-booking" className="text-gold hover:underline">book a Tape London table here</Link>.
       </p>
 
       <h2>Wednesday: The Hidden Gem Night</h2>
       <p>
-        Wednesday is when Mayfair starts to warm up properly. Four excellent venues
+        Wednesday is when Mayfair starts to warm up properly. Three excellent venues
         operate on Wednesdays, each with a distinct character:
       </p>
       <ul>
@@ -2972,16 +2969,10 @@ export const blogContent: Record<string, ReactNode> = {
           intimate crowd. Tables from &pound;1,000.
         </li>
         <li>
-          <strong><Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>:</strong>{" "}
-          This Hanover Square members&apos; club opens its doors to non-members on Wednesday.
-          The sound system is world-class, the booths are deep and private, and the crowd
-          is music-industry heavy. Tables from &pound;1,500.
-        </li>
-        <li>
-          <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>:</strong>{" "}
-          One of Mayfair&apos;s most exclusive small venues. Wednesday nights here feel like
-          a private party &mdash; intimate, curated, and effortlessly cool. Tables from
-          &pound;1,000.
+          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>:</strong>{" "}
+          Now trading as 99 Regent Street, the venue opens from Wednesday and has a loyal
+          midweek following. You can{" "}
+          <Link href="/cuckoo-club-table-booking" className="text-gold hover:underline">book a Cuckoo Club table here</Link>.
         </li>
         <li>
           <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>:</strong>{" "}
@@ -2995,11 +2986,17 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Thursday: The Best Night You&apos;re Not Booking</h2>
       <p>
-        Thursday is the strongest weeknight across Mayfair, with <strong>nine venues</strong>{" "}
-        open and a genuine buzz that rivals Friday in several spots. Every club listed
-        above for Wednesday also operates on Thursday, plus you gain:
+        Thursday is the strongest weeknight across Mayfair, with <strong>eight venues</strong>{" "}
+        open and a genuine buzz that rivals Friday in several spots. Cuckoo Club and The Box
+        from the Wednesday list also operate on Thursday, plus you gain:
       </p>
       <ul>
+        <li>
+          <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>:</strong>{" "}
+          One of Mayfair&apos;s most exclusive small venues. Thursday nights here feel like
+          a private party: intimate, curated, and effortlessly cool. Tables from
+          &pound;1,000.
+        </li>
         <li>
           <strong><Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>:</strong>{" "}
           The restaurant-to-club transition is seamless. Dinner upstairs, then descend

@@ -79,7 +79,7 @@ const faqs = [
   {
     question: "Which is the cheapest club for a table in London?",
     answer:
-      `Most clubs start at the same ${gbp(minFloor)} floor table minimum, including ${atMinFloor}. The cheapest overall option is booking on a weeknight: Wednesday or Thursday tables at venues like Scotch of St James or Tape London can have reduced minimums. Message us and we will find the best value for your budget.`,
+      `Most clubs start at the same ${gbp(minFloor)} floor table minimum, including ${atMinFloor}. The cheapest overall option is booking on a weeknight: Tuesday tables at Tape London or Thursday tables at Scotch of St James can have reduced minimums. Message us and we will find the best value for your budget.`,
   },
   {
     question: "Which London club has the most expensive tables?",

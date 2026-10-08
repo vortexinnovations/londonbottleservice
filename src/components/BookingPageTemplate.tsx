@@ -35,7 +35,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       addressLocality: "London",
       addressCountry: "GB",
     },
-    openingHoursSpecification: club.openingNights.map((night) => ({
+    openingHoursSpecification: !club.openingHours.includes("–") ? undefined : club.openingNights.map((night) => ({
       "@type": "OpeningHoursSpecification",
       dayOfWeek: night,
       opens: club.openingHours.split("–")[0]?.trim(),
