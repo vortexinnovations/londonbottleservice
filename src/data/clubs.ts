@@ -51,7 +51,7 @@ export const clubs: Club[] = [
     dressCode:
       "Smart and stylish. No sportswear, no trainers, no shorts. Think Mayfair-ready — collared shirts for men, heels or smart boots for women. The door is selective so make an effort.",
     openingNights: ["Monday", "Wednesday", "Friday", "Saturday"],
-    openingHours: "10:30 PM – 3:00 AM",
+    openingHours: "10:30 PM – 3:45 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -119,7 +119,7 @@ export const clubs: Club[] = [
     dressCode:
       "Strictly smart. Men must wear smart shoes and a collared shirt minimum — jackets are encouraged but not required. Women should dress elegantly. No streetwear, no casual trainers, no exceptions. This is a members' club environment.",
     openingNights: ["Tuesday", "Friday", "Saturday", "Sunday"],
-    openingHours: "10:30 PM – 3:30 AM",
+    openingHours: "10:30 PM – 3:45 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
