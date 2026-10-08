@@ -128,7 +128,9 @@ export default function BottleServiceGuidePage() {
             Bottle service is straightforward once you understand it. Instead of queuing at the bar and buying individual drinks, you book a private table at the club and buy whole bottles of spirits or champagne. Your table comes with a dedicated waitress who pours your drinks, brings mixers, and looks after your group all night.
           </p>
           <p className="text-text-secondary leading-relaxed mb-4">
-            The &quot;bottle&quot; part is literal — you&apos;re buying bottles. A bottle of Grey Goose, a bottle of Dom Perignon, a bottle of Hennessy. Your waitress brings them to your table with mixers (tonic, coke, Red Bull, juices), ice, and garnishes. You pour your own drinks or she does it for you.
+            The &quot;bottle&quot; part is literal — you&apos;re buying bottles. A bottle of Grey Goose, a bottle of Dom Perignon, a bottle of Hennessy. Your waitress brings them to your table with mixers (tonic, coke, Red Bull, juices), ice, and garnishes. You pour your own drinks or she does it for you. Champagne also comes in larger formats, from the magnum upwards: see{" "}
+            <Link href="/blog/champagne-bottle-sizes-explained" className="text-gold hover:text-gold-light transition-colors">champagne bottle sizes explained</Link>. If some of your group are not drinking, see{" "}
+            <Link href="/blog/non-alcoholic-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">non-alcoholic bottle service in London</Link>.
           </p>
           <p className="text-text-secondary leading-relaxed">
             Every table comes with a <strong>minimum spend</strong>{" "}— the minimum amount you must spend on drinks at your table. At London&apos;s Mayfair clubs, this starts from £1,000. Think of it as your drinks budget for the night, not a fee on top of your drinks.

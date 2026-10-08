@@ -425,7 +425,9 @@ export default function MayfairTableBookingGuidePage() {
             Booking a table through us is straightforward and there are no
             hidden costs. We do not charge a booking fee or add a mark-up to
             the club&apos;s prices. The minimum spend you are quoted is the
-            exact amount you spend at the venue on the night.
+            exact amount you spend at the venue on the night. For how
+            deposits and payment on the night work, see our guide to{" "}
+            <Link href="/blog/bottle-service-deposits-payments-london" className="text-gold hover:text-gold-light transition-colors">bottle service deposits and payments</Link>.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
             <div className="border-t border-border pt-5">
@@ -465,7 +467,9 @@ export default function MayfairTableBookingGuidePage() {
               </h3>
               <p className="text-text-muted text-xs leading-relaxed">
                 Arrive, skip the queue, and head to your table. Your
-                waitress takes care of everything from there.
+                waitress takes care of everything from there. For timings,
+                see{" "}
+                <Link href="/blog/how-long-do-you-get-a-club-table-london" className="text-gold hover:text-gold-light transition-colors">how long you get a club table in London</Link>.
               </p>
             </div>
           </div>

@@ -533,6 +533,8 @@ export default function ClubTablePricesPage() {
                 that covers all your drinks, priority entry, a reserved
                 table, and waitress service for the entire night. It is
                 better value than buying drinks at the bar all evening.
+                For how far that budget goes in bottles, see{" "}
+                <Link href="/blog/how-many-bottles-for-a-club-table" className="text-gold hover:text-gold-light transition-colors">how many bottles a club table needs</Link>.
               </p>
             </div>
             <div className="py-5 border-b border-border">
@@ -600,7 +602,9 @@ export default function ClubTablePricesPage() {
           <p className="text-text-muted mb-8">
             Message us on WhatsApp with your preferred club, date, and group
             size. We will confirm the exact minimum spend and secure your
-            table — no booking fees, no hidden charges.
+            table — no booking fees, no hidden charges. For how a service
+            charge shows up on the final bill, see our guide to{" "}
+            <Link href="/blog/service-charge-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">service charges on bottle service in London</Link>.
           </p>
           <WhatsAppCTA />
         </div>
