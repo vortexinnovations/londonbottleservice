@@ -156,10 +156,10 @@ export default function GuestlistVsTableBookingPage() {
                     Cost
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    Free or <span className="price">£10-£30pp</span> cover
+                    Free or <span className="price">£10-£30pp</span>{" "}cover
                   </td>
                   <td className="py-3 text-text-muted">
-                    <span className="price">£1,000-£1,500</span> min. spend (covers drinks)
+                    <span className="price">£1,000-£1,500</span>{" "}min. spend (covers drinks)
                   </td>
                 </tr>
                 <tr className="border-b border-border">
@@ -200,7 +200,7 @@ export default function GuestlistVsTableBookingPage() {
                     Drinks
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    Buy individually at the bar (<span className="price">£15-£20</span> each)
+                    Buy individually at the bar (<span className="price">£15-£20</span>{" "}each)
                   </td>
                   <td className="py-3 text-gold-light">
                     Bottles served to your table by a waitress
@@ -233,10 +233,10 @@ export default function GuestlistVsTableBookingPage() {
                     Per Person (Group of 8)
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    <span className="price">£10-£30</span> entry + <span className="price">£60-£100</span> drinks = <span className="price">£70-£130</span>
+                    <span className="price">£10-£30</span>{" "}entry + <span className="price">£60-£100</span>{" "}drinks = <span className="price">£70-£130</span>
                   </td>
                   <td className="py-3 text-gold-light">
-                    <span className="price">£125pp</span> (all drinks included)
+                    <span className="price">£125pp</span>{" "}(all drinks included)
                   </td>
                 </tr>
               </tbody>

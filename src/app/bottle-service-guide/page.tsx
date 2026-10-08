@@ -131,7 +131,7 @@ export default function BottleServiceGuidePage() {
             The &quot;bottle&quot; part is literal — you&apos;re buying bottles. A bottle of Grey Goose, a bottle of Dom Perignon, a bottle of Hennessy. Your waitress brings them to your table with mixers (tonic, coke, Red Bull, juices), ice, and garnishes. You pour your own drinks or she does it for you.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            Every table comes with a <strong>minimum spend</strong> — the minimum amount you must spend on drinks at your table. At London&apos;s Mayfair clubs, this starts from £1,000. Think of it as your drinks budget for the night, not a fee on top of your drinks.
+            Every table comes with a <strong>minimum spend</strong>{" "}— the minimum amount you must spend on drinks at your table. At London&apos;s Mayfair clubs, this starts from £1,000. Think of it as your drinks budget for the night, not a fee on top of your drinks.
           </p>
         </div>
       </section>
@@ -167,7 +167,7 @@ export default function BottleServiceGuidePage() {
               <li className="flex items-baseline pt-2 border-t border-border">
                 <span className="text-gold">Total</span>
                 <span className="dotted-leader" aria-hidden="true" />
-                <span><span className="price">~<span className="price-sign">&pound;</span>1,050</span> &mdash; minimum spend met</span>
+                <span><span className="price">~<span className="price-sign">&pound;</span>1,050</span>{" "}&mdash; minimum spend met</span>
               </li>
             </ul>
             <p className="microline text-text-muted mt-4">
@@ -246,26 +246,26 @@ export default function BottleServiceGuidePage() {
             <div className="bg-bg-card border border-border p-6">
               <h3 className="eyebrow mb-4">Men</h3>
               <ul className="space-y-2 text-text-secondary text-sm">
-                <li><span className="text-success">&#10003;</span> Collared shirts (button-down, polo in some venues)</li>
-                <li><span className="text-success">&#10003;</span> Smart trousers or dark, well-fitted jeans</li>
-                <li><span className="text-success">&#10003;</span> Smart shoes or smart boots</li>
-                <li><span className="text-success">&#10003;</span> Blazers or jackets (encouraged, not always required)</li>
-                <li className="mt-3"><span className="text-danger">&#10007;</span> Trainers, sneakers, or casual shoes</li>
-                <li><span className="text-danger">&#10007;</span> T-shirts or hoodies</li>
-                <li><span className="text-danger">&#10007;</span> Sportswear, tracksuits, or shorts</li>
-                <li><span className="text-danger">&#10007;</span> Ripped jeans or heavily distressed denim</li>
+                <li><span className="text-success">&#10003;</span>{" "}Collared shirts (button-down, polo in some venues)</li>
+                <li><span className="text-success">&#10003;</span>{" "}Smart trousers or dark, well-fitted jeans</li>
+                <li><span className="text-success">&#10003;</span>{" "}Smart shoes or smart boots</li>
+                <li><span className="text-success">&#10003;</span>{" "}Blazers or jackets (encouraged, not always required)</li>
+                <li className="mt-3"><span className="text-danger">&#10007;</span>{" "}Trainers, sneakers, or casual shoes</li>
+                <li><span className="text-danger">&#10007;</span>{" "}T-shirts or hoodies</li>
+                <li><span className="text-danger">&#10007;</span>{" "}Sportswear, tracksuits, or shorts</li>
+                <li><span className="text-danger">&#10007;</span>{" "}Ripped jeans or heavily distressed denim</li>
               </ul>
             </div>
             <div className="bg-bg-card border border-border p-6">
               <h3 className="eyebrow mb-4">Women</h3>
               <ul className="space-y-2 text-text-secondary text-sm">
-                <li><span className="text-success">&#10003;</span> Cocktail dresses and evening dresses</li>
-                <li><span className="text-success">&#10003;</span> Heels, smart boots, or elegant flats</li>
-                <li><span className="text-success">&#10003;</span> Smart separates (blazer and trousers, etc.)</li>
-                <li><span className="text-success">&#10003;</span> Dressy jumpsuits</li>
-                <li className="mt-3"><span className="text-danger">&#10007;</span> Casual trainers or flip-flops</li>
-                <li><span className="text-danger">&#10007;</span> Sportswear or gym clothes</li>
-                <li><span className="text-danger">&#10007;</span> Very casual daywear</li>
+                <li><span className="text-success">&#10003;</span>{" "}Cocktail dresses and evening dresses</li>
+                <li><span className="text-success">&#10003;</span>{" "}Heels, smart boots, or elegant flats</li>
+                <li><span className="text-success">&#10003;</span>{" "}Smart separates (blazer and trousers, etc.)</li>
+                <li><span className="text-success">&#10003;</span>{" "}Dressy jumpsuits</li>
+                <li className="mt-3"><span className="text-danger">&#10007;</span>{" "}Casual trainers or flip-flops</li>
+                <li><span className="text-danger">&#10007;</span>{" "}Sportswear or gym clothes</li>
+                <li><span className="text-danger">&#10007;</span>{" "}Very casual daywear</li>
               </ul>
             </div>
           </div>
@@ -326,8 +326,8 @@ export default function BottleServiceGuidePage() {
             Ready to Book Your First Table?
           </h2>
           <p className="text-text-muted mb-4">
-            Browse our <Link href="/#clubs" className="text-gold hover:text-gold-light transition-colors">club pages</Link> to find
-            the right venue, or check out our <Link href="/best-clubs-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">best clubs guide</Link> for recommendations.
+            Browse our <Link href="/#clubs" className="text-gold hover:text-gold-light transition-colors">club pages</Link>{" "}to find
+            the right venue, or check out our <Link href="/best-clubs-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">best clubs guide</Link>{" "}for recommendations.
           </p>
           <p className="text-text-muted mb-8">
             When you&apos;re ready, tap the button below and we&apos;ll get your table sorted.
