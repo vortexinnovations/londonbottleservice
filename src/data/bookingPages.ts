@@ -656,7 +656,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What type of music does Maddox play?",
         answer:
-          "House music — deep house, tech house, and commercial house. The music is sophisticated and fits the dining-to-clubbing concept. If you're specifically looking for hip-hop, Tabu or Cuckoo's basement would be better fits.",
+          "House music — deep house, tech house, and commercial house. The music is sophisticated and fits the dining-to-clubbing concept. If you're specifically looking for hip-hop, Rumour (formerly Tabu) or the basement at 99 Regent Street (formerly Cuckoo Club) would be better fits.",
       },
       {
         question: "What's the dress code at Maddox?",
@@ -910,7 +910,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What music does BEAT play?",
         answer:
-          "House, tech house, and techno. The music policy is strictly electronic. DJs are booked for talent and taste. If you want hip-hop or RnB, try Tabu, Luna, or Cuckoo instead. BEAT is for electronic music fans.",
+          "House, tech house, and techno. The music policy is strictly electronic. DJs are booked for talent and taste. If you want hip-hop or RnB, try Rumour (formerly Tabu), 99 Regent Street (formerly Cuckoo Club) or Dear Darling instead. BEAT is for electronic music fans.",
       },
       {
         question: "What nights is BEAT open?",
@@ -930,7 +930,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "Is BEAT good for a birthday?",
         answer:
-          "If the birthday person loves electronic music, absolutely. The immersive production makes any night feel like an event. We can arrange sparklers and table setups. For birthdays where the group has mixed tastes (some want hip-hop), BEAT may not be the best fit — consider Cuckoo or Funky Buddha instead.",
+          "If the birthday person loves electronic music, absolutely. The immersive production makes any night feel like an event. We can arrange sparklers and table setups. For birthdays where the group has mixed tastes (some want hip-hop), BEAT may not be the best fit; consider 99 Regent Street (formerly Cuckoo Club) or Cirque Le Soir instead.",
       },
       {
         question: "How do I book a table at BEAT?",

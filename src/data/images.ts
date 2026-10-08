@@ -23,7 +23,7 @@ export const clubImages: Record<
   "cuckoo-club": {
     hero: `${G}/fe4414_423495393edf437d9425d453f03729f1.jpg`,
     card: `${G}/fe4414_f06a962e34d74d8d88f62e3607c5dab0.jpg`,
-    alt: "Cuckoo Club Mayfair VIP bottle service",
+    alt: "99 Regent Street (formerly Cuckoo Club) Mayfair VIP bottle service",
     extra: [`${G}/fe4414_243e282bb43f4d2cb03320ddb0cf5549.jpg`, `${G}/fe4414_abfb3ef6a9794a8ab2e27779ebfab3f5.jpg`, `${G}/fe4414_938458d67f614f5cb736ac0e2e4fe1f9.jpg`],
   },
   "maddox": {
@@ -35,7 +35,7 @@ export const clubImages: Record<
   "tabu-london": {
     hero: `${G}/fe4414_2927b7810b9c4b14a8358df996c0408e.jpg`,
     card: `${G}/fe4414_48ae7b23f1e04f0a94a53da7e6a08ea9.jpg`,
-    alt: "Tabu London VIP bottle service Mayfair",
+    alt: "Rumour (formerly Tabu) VIP bottle service Mayfair",
     extra: [`${G}/fe4414_d03ed6fb1e754a34a815beebf6a14835.jpg`, `${G}/fe4414_c1cdde8590474c1fa5509122636f79d1.jpg`, `${G}/fe4414_4d46bfda41374b7b9f1779d9757bc871.jpg`],
   },
   "london-reign": {
@@ -53,7 +53,7 @@ export const clubImages: Record<
   "funky-buddha": {
     hero: `${G}/fe4414_affd1145589143f7a655ebcb34a0a7c8.jpg`,
     card: `${G}/fe4414_950de24e4f2b429ba47a022f13479db5.jpg`,
-    alt: "Funky Buddha London VIP table booking Mayfair",
+    alt: "Funky Buddha London nightclub (permanently closed)",
     extra: [`${G}/fe4414_80bf23f50fb443a99d16df14a145ffe5.jpg`, `${G}/fe4414_ff953c00db3a4af5b4b7a6575ab8abae.jpg`, `${G}/fe4414_6e2adddf70f24f388d49faeba85db960.jpg`],
   },
   "scotch-of-st-james": {
@@ -83,13 +83,13 @@ export const clubImages: Record<
   "luna-club-london": {
     hero: `${G}/fe4414_de7fc0b8b7b04a1e956a7161623452b6.jpg`,
     card: `${G}/fe4414_d0f23381f8094125a6bf2ee0f93def16.jpg`,
-    alt: "Luna Club London VIP bottle service",
+    alt: "Luna Club London nightclub (permanently closed)",
     extra: [`${G}/fe4414_4c672667e7a5457b9224ad73e3c5dda7.jpg`, `${G}/fe4414_e949276097ce47268f86b1b06b938c57.jpg`, `${G}/fe4414_c6667a69785e4fac823c8041211beae8.jpg`],
   },
   "maison-close": {
     hero: `${G}/fe4414_0023ee263fca4fe9806bc09d74113eaa.jpg`,
     card: `${G}/fe4414_002538ddacfe4ce1a4fe89fa0e8305ae.jpg`,
-    alt: "Maison Close Mayfair VIP bottle service house music",
+    alt: "Maison Close Mayfair nightclub (permanently closed)",
     extra: [`${G}/fe4414_00edcb5adc4c4c4cb5dd97d80ea2f4c4.jpg`, `${G}/fe4414_0152b4f29a9540be8eef055230e66221.jpg`, `${G}/fe4414_016460dc35074665a9f15d051da0d9de.jpg`],
   },
   // Closed clubs — kept for SEO pages

@@ -50,7 +50,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What is the cheapest bottle service in London?",
         answer:
-          "The most affordable bottle service in Mayfair starts at £1,000 minimum spend at venues like Cirque Le Soir, Cuckoo Club, Maddox, and Funky Buddha. Weeknight tables (Tuesday-Thursday) often have lower minimums than weekend tables.",
+          "The most affordable bottle service in Mayfair starts at £1,000 minimum spend at venues like Cirque Le Soir and Maddox. Weeknight tables (Tuesday-Thursday) often have lower minimums than weekend tables.",
       },
       {
         question: "Are there hidden fees with London bottle service?",
@@ -140,12 +140,12 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Can you wear trainers to Mayfair clubs?",
         answer:
-          "Most Mayfair clubs do not allow trainers. Some newer venues like Tabu London may accept designer/smart trainers if the overall outfit is sharp, but it's not guaranteed. The safest option is always smart shoes. When in doubt, don't risk it.",
+          "Most Mayfair clubs do not allow trainers. Some venues, such as Rumour (formerly Tabu), may accept designer/smart trainers if the overall outfit is sharp, but it's not guaranteed. The safest option is always smart shoes. When in doubt, don't risk it.",
       },
       {
         question: "Which Mayfair club has the strictest dress code?",
         answer:
-          "Tape London and Maddox have the strictest dress codes. Both are at the formal end of Mayfair — jackets are encouraged (though not always required) and the door staff are very selective. Venues like Tabu and Luna are slightly more relaxed but still expect smart attire.",
+          "Tape London and Maddox have the strictest dress codes. Both are at the formal end of Mayfair — jackets are encouraged (though not always required) and the door staff are very selective. Venues like Rumour (formerly Tabu) are slightly more relaxed but still expect smart attire.",
       },
       {
         question: "Will I get turned away for wearing jeans?",
@@ -454,7 +454,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is bottle service appropriate for client entertaining?",
         answer:
-          "At the right venue, absolutely. A dinner-and-club evening at Maddox or London Reign is polished and impressive. A night at Tape London signals exclusivity and connections. Avoid the more party-focused venues (Luna, for example) for formal client entertaining unless you know your clients' tastes well.",
+          "At the right venue, absolutely. A dinner-and-club evening at Maddox or London Reign is polished and impressive. A night at Tape London signals exclusivity and connections. Avoid the more party-focused venues for formal client entertaining unless you know your clients' tastes well.",
       },
     ],
   },
@@ -498,7 +498,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How does Dear Darling compare to other Mayfair clubs?",
         answer:
-          "Dear Darling sits between Cuckoo Club and Maddox in terms of vibe — stylish and well-designed with a focus on quality drinks and music. What sets it apart is the cocktail bar element and the newer, fresher feel compared to established venues.",
+          "Dear Darling sits between 99 Regent Street (formerly Cuckoo Club) and Maddox in terms of vibe — stylish and well-designed with a focus on quality drinks and music. What sets it apart is the cocktail bar element and the newer, fresher feel compared to established venues.",
       },
     ],
   },
@@ -549,12 +549,12 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "luna-club-london-guide",
-    title: "Luna Club London: Your Guide to Mayfair's Favourite Late-Night Spot",
-    metaTitle: "Luna Club London — Table Prices, Music, Door Policy & Booking Guide",
+    title: "Luna Club London Has Closed: Where to Book Instead",
+    metaTitle: "Luna Club London Has Closed | Where to Book Instead",
     metaDescription:
-      "Luna Club London is a sleek Mayfair hip-hop club with tables from £1,000. Strong crowd, intimate atmosphere, consistent quality. Here's the full guide to booking.",
+      "Luna Club London, the Mayfair hip-hop club, has permanently closed. Here is what it was like and where to book a similar table instead.",
     excerpt:
-      "Luna Club has quietly built a loyal following among Mayfair regulars. If you want reliable hip-hop, a strong crowd, and proper bottle service without the gimmicks, this is it.",
+      "Luna Club London has permanently closed. Here is what it offered and the open Mayfair clubs that come closest for a hip-hop night with table service.",
     publishedAt: "2025-08-15",
     updatedAt: "2026-03-01",
     category: "Club Guides",
@@ -570,24 +570,24 @@ export const blogPosts: BlogPost[] = [
     relatedClubs: ["luna-club-london", "tabu-london", "funky-buddha", "cuckoo-club"],
     faqs: [
       {
-        question: "How much is a table at Luna Club London?",
+        question: "Is Luna Club London still open?",
         answer:
-          "Tables at Luna start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Standard Mayfair pricing for a club of this quality.",
+          "No, Luna Club London has permanently closed, so tables can no longer be booked there. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives.",
       },
       {
-        question: "What type of music does Luna play?",
+        question: "What type of music did Luna play?",
         answer:
-          "Luna focuses on hip-hop, RnB, Afrobeats, and UK rap. The DJs balance mainstream tracks with deeper cuts. If you want house or electronic music, try Maddox or BEAT London instead.",
+          "Luna focused on hip-hop, RnB, Afrobeats, and UK rap. For that sound now, Dear Darling and Rumour (formerly Tabu) are the places to ask about. If you want house or electronic music, try Maddox or BEAT London instead.",
       },
       {
-        question: "Is Luna Club London a good club?",
+        question: "Where should I book instead of Luna?",
         answer:
-          "Luna is a strong all-rounder for hip-hop fans. It consistently delivers good music, a well-connected crowd, and reliable table service. It won't wow you with theatrics or gimmicks, but it delivers a solid Mayfair night out every time.",
+          "For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
-        question: "How does Luna compare to Tabu London?",
+        question: "Is Tabu still open?",
         answer:
-          "Both are hip-hop focused Mayfair clubs. Tabu has a more distinctive Japanese-inspired aesthetic and a slightly more underground music policy. Luna is more straightforward — a sleek, reliable club with a strong crowd. Both are excellent choices for hip-hop fans.",
+          "Tabu now trades as Rumour, open Wednesday to Saturday. Minimums and music under the new name are confirmed on enquiry.",
       },
     ],
   },
@@ -596,7 +596,7 @@ export const blogPosts: BlogPost[] = [
     title: "Best Hip-Hop Clubs in Mayfair for Bottle Service",
     metaTitle: "Best Hip-Hop Clubs in Mayfair | VIP Tables & Bottle Service",
     metaDescription:
-      "The definitive ranking of Mayfair's best hip-hop clubs for bottle service. Compare Tabu, Luna, Cuckoo, Funky Buddha, and Cirque — music policies, crowds, pricing, and which club suits your sub-genre.",
+      "The definitive ranking of Mayfair's best hip-hop clubs for bottle service. Compare Rumour (formerly Tabu), 99 Regent Street (formerly Cuckoo Club) and Cirque Le Soir: music policies, crowds, pricing, and which club suits your sub-genre.",
     excerpt:
       "Not all hip-hop clubs in Mayfair are the same. From underground Japanese-inspired venues to circus-themed clubs, here's how every hip-hop option actually compares.",
     publishedAt: "2026-03-25",
@@ -614,27 +614,27 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which Mayfair club is best for hip-hop?",
         answer:
-          "Tabu London is the best dedicated hip-hop club in Mayfair, with a Japanese-inspired underground aesthetic and a music policy that balances mainstream hits with deeper cuts. Luna Club London is the strongest alternative — sleek, reliable, and consistently delivers a quality hip-hop night.",
+          "Rumour (formerly Tabu), open Wednesday to Saturday, built its name as Mayfair's most dedicated hip-hop club, with a music policy that balanced mainstream hits with deeper cuts; confirm the current music policy under the new name when you enquire. Cirque Le Soir is the strongest alternative for hip-hop with a show.",
       },
       {
         question: "Do any Mayfair clubs play Afrobeats?",
         answer:
-          "Yes — Tabu London, Luna Club London, and Funky Buddha all incorporate Afrobeats into their sets. Tabu and Luna weave it into their hip-hop and RnB rotation, while Funky Buddha's open-format policy means Afrobeats features regularly alongside other genres.",
+          "Yes. Rumour (formerly Tabu) weaves Afrobeats into its hip-hop and RnB rotation, and Dear Darling's music leans towards hip-hop, RnB and Afrobeats. Confirm the current music policy for your night when you enquire.",
       },
       {
         question: "How much is bottle service at a hip-hop club in Mayfair?",
         answer:
-          "Most hip-hop clubs in Mayfair start from £1,000 minimum spend for a floor table and £2,000 for VIP. This is consistent across Tabu, Luna, Cuckoo Club, and Funky Buddha. Cirque Le Soir is also £1,000 for floor tables.",
+          "Most hip-hop clubs in Mayfair start from £1,000 minimum spend for a floor table and £2,000 for VIP. Cirque Le Soir is £1,000 for floor tables. Minimums at Rumour (formerly Tabu) and 99 Regent Street (formerly Cuckoo Club) are confirmed on enquiry under their new names.",
       },
       {
         question: "Which Mayfair club plays UK rap?",
         answer:
-          "Tabu London has the strongest UK rap presence in its rotation, followed by Luna Club London. Both DJs incorporate UK drill, grime, and UK rap alongside US hip-hop and RnB. Cuckoo Club's basement also features UK rap regularly.",
+          "Rumour (formerly Tabu) has the strongest UK rap presence in its rotation, with UK drill, grime, and UK rap alongside US hip-hop and RnB. The basement at 99 Regent Street (formerly Cuckoo Club) also features UK rap. Confirm the current music policy under the new names when you enquire.",
       },
       {
         question: "Can I hear house music at a hip-hop club in Mayfair?",
         answer:
-          "Cuckoo Club is the best option — the basement plays hip-hop while the upstairs floor plays house and tech house. This makes it ideal for mixed groups. If you want pure house music, try Maddox or BEAT London instead.",
+          "99 Regent Street (formerly Cuckoo Club), open Wednesday to Saturday, is the best option: the basement plays hip-hop while the upstairs floor plays house and tech house. This makes it ideal for mixed groups. If you want pure house music, try Maddox or BEAT London instead.",
       },
     ],
   },
@@ -671,7 +671,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which Mayfair club is best on Saturday night?",
         answer:
-          "Cirque Le Soir offers the most theatrical Saturday experience. London Reign has the biggest production with Las Vegas-style shows. Tape London is the most exclusive. Tabu London offers a strong hip-hop Saturday without the highest price tag. The best choice depends on your group's preferences.",
+          "Cirque Le Soir offers the most theatrical Saturday experience. London Reign has the biggest production with Las Vegas-style shows. Tape London is the most exclusive. Rumour (formerly Tabu) offers a strong hip-hop Saturday without the highest price tag. The best choice depends on your group's preferences.",
       },
       {
         question: "What time should I arrive on Saturday?",
@@ -718,7 +718,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which London clubs are best for stag parties?",
         answer:
-          "London Reign is the top choice — the Las Vegas-style shows give the night a focal point and the venue handles groups well. Cirque Le Soir adds theatrical flair. Funky Buddha is relaxed and welcoming to groups. Selene London works well for larger parties with its multi-room layout.",
+          "London Reign is the top choice — the Las Vegas-style shows give the night a focal point and the venue handles groups well. Cirque Le Soir adds theatrical flair. Selene London works well for larger parties with its multi-room layout.",
       },
       {
         question: "Will all-male groups get turned away at Mayfair clubs?",
@@ -784,7 +784,7 @@ export const blogPosts: BlogPost[] = [
     title: "Best Clubs in London for House Music & Bottle Service",
     metaTitle: "Best House Music Clubs London | VIP Tables & Bottle Service",
     metaDescription:
-      "The best London clubs for house music with VIP bottle service. Compare Maddox, Cuckoo Club, BEAT London, and Dear Darling — sound systems, DJ policies, sub-genres, and table prices.",
+      "The best London clubs for house music with VIP bottle service. Compare Maddox, 99 Regent Street (formerly Cuckoo Club), BEAT London, and Dear Darling — sound systems, DJ policies, sub-genres, and table prices.",
     excerpt:
       "If you want proper house music with the comfort of bottle service, your options in London are more limited than you'd think. Here are the clubs that actually deliver both.",
     publishedAt: "2026-03-25",
@@ -802,7 +802,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which Mayfair club is best for house music?",
         answer:
-          "Maddox is the best Mayfair club for house music. The music policy is sophisticated deep house and tech house, the dinner-to-club format gives the evening structure, and the sound system does the music justice. Cuckoo Club's upstairs floor is the strongest alternative within Mayfair.",
+          "Maddox is the best Mayfair club for house music. The music policy is sophisticated deep house and tech house, the dinner-to-club format gives the evening structure, and the sound system does the music justice. The upstairs floor at 99 Regent Street (formerly Cuckoo Club) is the strongest alternative within Mayfair.",
       },
       {
         question: "Does BEAT London play house music?",
@@ -812,12 +812,12 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How much is bottle service at a house music club in London?",
         answer:
-          "Tables at Maddox, Cuckoo Club, and Dear Darling start from £1,000 minimum spend. BEAT London starts from £1,000 as well. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
+          "Tables at Maddox and Dear Darling start from £1,000 minimum spend, and minimums at 99 Regent Street (formerly Cuckoo Club) are confirmed on enquiry. BEAT London starts from £1,000 as well. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
       },
       {
         question: "What is the difference between deep house and tech house?",
         answer:
-          "Deep house is smoother and more melodic — warm basslines, soulful vocals, a relaxed groove. Tech house is more driving and percussive — heavier beats, more energy, designed for peak-time dancing. Maddox leans towards deep house, BEAT London is more tech house, and Cuckoo's upstairs floor mixes both.",
+          "Deep house is smoother and more melodic — warm basslines, soulful vocals, a relaxed groove. Tech house is more driving and percussive — heavier beats, more energy, designed for peak-time dancing. Maddox leans towards deep house, BEAT London is more tech house, and the upstairs floor at 99 Regent Street mixes both.",
       },
       {
         question: "Are there any late-night house music clubs in London with bottle service?",
@@ -831,7 +831,7 @@ export const blogPosts: BlogPost[] = [
     title: "Where to Sit: Table Positioning Guide for London Clubs",
     metaTitle: "Where to Sit at London Clubs | Table Positioning Guide",
     metaDescription:
-      "A detailed guide to table positioning at London's top clubs. Learn which positions cost more, how to request specific spots, and club-by-club breakdowns for Cirque, Tape, Reign, and Cuckoo.",
+      "A detailed guide to table positioning at London's top clubs. Learn which positions cost more, how to request specific spots, and club-by-club breakdowns for Cirque, Tape, Reign, and 99 Regent Street (formerly Cuckoo Club).",
     excerpt:
       "Not all tables are created equal. Your position inside the club shapes your entire night — from the energy around you to the price you pay. Here's how to choose wisely.",
     publishedAt: "2026-03-25",
@@ -870,7 +870,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which London clubs have the best VIP sections?",
         answer:
-          "Tape London's intimate booths offer genuine privacy. Cirque Le Soir's stage-side VIP puts you next to the performers. London Reign's elevated VIP gives a panoramic view of the show. Cuckoo Club's upstairs VIP feels like a separate venue entirely. Each offers a distinct experience.",
+          "Tape London's intimate booths offer genuine privacy. Cirque Le Soir's stage-side VIP puts you next to the performers. London Reign's elevated VIP gives a panoramic view of the show. The upstairs VIP at 99 Regent Street (formerly Cuckoo Club) feels like a separate venue entirely. Each offers a distinct experience.",
       },
     ],
   },
@@ -1061,7 +1061,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which clubs are better on Friday than Saturday?",
         answer:
-          "Maddox and Cuckoo Club are excellent on Fridays — strong local crowds and great atmosphere without Saturday's intensity. Tape London's Friday is popular with music industry insiders. Cirque Le Soir is arguably best on Saturday when the energy peaks. It depends on the venue's character and your preferences.",
+          "Maddox and 99 Regent Street (formerly Cuckoo Club) are excellent on Fridays — strong local crowds and great atmosphere without Saturday's intensity. Tape London's Friday is popular with music industry insiders. Cirque Le Soir is arguably best on Saturday when the energy peaks. It depends on the venue's character and your preferences.",
       },
     ],
   },
@@ -1115,7 +1115,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Discover the best weeknight clubs in London. Lower minimums, insider crowds, and easier entry — why Tuesday to Thursday in Mayfair is the smart move.",
     excerpt:
-      "Mayfair doesn&apos;t shut down on weeknights. From Tuesday at Tape London to Thursday at Cuckoo Club, midweek clubbing offers better value, a more local crowd, and none of the Saturday chaos.",
+      "Mayfair doesn&apos;t shut down on weeknights. From Tuesday at Tape London to Thursday at 99 Regent Street (formerly Cuckoo Club), midweek clubbing offers better value, a more local crowd, and none of the Saturday chaos.",
     publishedAt: "2026-04-03",
     updatedAt: "2026-04-03",
     category: "Guides",
@@ -1132,7 +1132,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which London clubs are open on weeknights?",
         answer:
-          "Several top Mayfair venues operate midweek. Tape London opens on Tuesday as well as Friday to Sunday. Cuckoo Club, Tabu London and The Box run Wednesday through Saturday. Maddox, Scotch of St James and Luna Club open Thursday to Saturday, and Selene London and Dear Darling open Thursday to Sunday. Wednesday and Thursday offer the widest choice.",
+          "Several top Mayfair venues operate midweek. Tape London opens on Tuesday as well as Friday to Sunday. 99 Regent Street (formerly Cuckoo Club), Rumour (formerly Tabu) and The Box run Wednesday through Saturday. Maddox and Scotch of St James open Thursday to Saturday, and Selene London and Dear Darling open Thursday to Sunday. Wednesday and Thursday offer the widest choice.",
       },
       {
         question: "Are weeknight minimum spends lower than weekends?",
@@ -1142,7 +1142,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is the atmosphere good at London clubs on a weeknight?",
         answer:
-          "Absolutely. Thursday nights at venues like Scotch of St James and Cuckoo Club are genuinely buzzing &mdash; you&apos;ll find a more local, industry-heavy crowd rather than tourists. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
+          "Absolutely. Thursday nights at venues like Scotch of St James and 99 Regent Street (formerly Cuckoo Club) are genuinely buzzing &mdash; you&apos;ll find a more local, industry-heavy crowd rather than tourists. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
       },
       {
         question: "Is the dress code more relaxed on weeknights?",

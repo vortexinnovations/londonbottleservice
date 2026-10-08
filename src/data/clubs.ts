@@ -676,7 +676,7 @@ export const clubs: Club[] = [
       {
         question: "What music does BEAT London play?",
         answer:
-          "BEAT focuses on house, tech house, and techno. The music policy is electronic-focused with guest DJs booked for their talent. If you're after hip-hop or RnB, this isn't the venue — try Tabu or Cirque instead.",
+          "BEAT focuses on house, tech house, and techno. The music policy is electronic-focused with guest DJs booked for their talent. If you're after hip-hop or RnB, this isn't the venue — try Rumour (formerly Tabu) or Cirque instead.",
       },
       {
         question: "What nights is BEAT London open?",

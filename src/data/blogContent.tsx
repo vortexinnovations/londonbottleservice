@@ -212,8 +212,8 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Getting turned away at the door is the fastest way to ruin a night out.
         The good news: it&apos;s completely avoidable if you know what Mayfair clubs
-        actually expect. Here&apos;s the honest guide from someone who watches the
-        door policy every week.
+        actually expect. Here&apos;s the honest guide from a booking team that deals
+        with door policy every week.
       </p>
 
       <h2>The Universal Mayfair Rules</h2>
@@ -273,17 +273,15 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Standard Mayfair</h3>
       <p>
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>,{" "}
-        <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>,{" "}
-        <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene</Link>,{" "}
-        <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>{" "}—
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,{" "}
+        <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}and{" "}
+        <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene</Link>{" "}—
         smart dress code enforced firmly but fairly. Follow the guidelines and you&apos;re in.
       </p>
 
       <h3>Slightly More Relaxed</h3>
       <p>
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>{" "}and{" "}
-        <Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link>{" "}— still smart,
+        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>{" "}— still smart,
         but fashion-forward styling can bend the rules. Designer trainers <em>might</em>{" "}work
         if the overall outfit is sharp. Don&apos;t bank on it.
       </p>
@@ -439,15 +437,6 @@ export const blogContent: Record<string, ReactNode> = {
         fan mobs. Just a great night with a like-minded crowd.
       </p>
 
-      <h3>Luna Club London — The Party Crowd</h3>
-      <p>
-        <Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link>{" "}
-        attracts younger celebrities, influencers, and visiting international stars
-        who want a high-energy party rather than a private, understated evening.
-        The well-connected Mayfair crowd and hip-hop focus appeal to a different
-        type of famous person.
-      </p>
-
       <h2>When Are You Most Likely to See Celebrities?</h2>
       <ul>
         <li><strong>Saturday nights</strong>{" "}— peak night at every venue</li>
@@ -517,9 +506,9 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>How to Choose Your First Club</h2>
       <p>Ask yourself these questions:</p>
       <ul>
-        <li><strong>What music do you like?</strong>{" "}Hip-hop → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu</Link>, <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque</Link>. House → <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT</Link>. Mixed → <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo</Link>, <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>.</li>
+        <li><strong>What music do you like?</strong>{" "}Hip-hop → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>, <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque</Link>. House → <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT</Link>. Mixed → <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>.</li>
         <li><strong>Do you want entertainment?</strong>{" "}Performers → <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>. Shows → <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>. Theatrical → <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>.</li>
-        <li><strong>How exclusive do you want?</strong>{" "}Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>.</li>
+        <li><strong>How exclusive do you want?</strong>{" "}Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour</Link>.</li>
         <li><strong>What&apos;s your budget?</strong>{" "}Most venues start at £1,000 minimum. For premium experiences, budget £1,500–£3,000.</li>
       </ul>
 
@@ -635,9 +624,9 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong>{" "}Hen groups who want a bold, theatrical experience that stands out.</p>
 
-      <h3>Cuckoo Club — Best for Mixed Music Tastes</h3>
+      <h3>99 Regent Street (formerly Cuckoo Club) — Best for Mixed Music Tastes</h3>
       <p>
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>&apos;s
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street</Link>&apos;s
         two-floor layout is perfect for hen groups with mixed music preferences.
         House music upstairs, hip-hop in the basement. The bride&apos;s squad can
         split between floors and regroup whenever they want.
@@ -717,9 +706,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>{" "}and{" "}
         <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>.
         Open-format venues like{" "}
-        <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>{" "}
-        and{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         mix genres. The music is good but the DJ is rarely the main attraction —
         the overall experience is.
       </p>
@@ -848,11 +835,6 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Venues to Avoid for Corporate Entertainment</h2>
       <p>
-        <strong><Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link></strong>{" "}—
-        too high-energy and party-focused. The atmosphere is more &quot;wild night out&quot; than
-        &quot;impressive client evening.&quot;
-      </p>
-      <p>
         <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link></strong>{" "}—
         incredible venue but the circus performers at your table can make formal
         clients uncomfortable. Know your audience.
@@ -938,9 +920,9 @@ export const blogContent: Record<string, ReactNode> = {
         fare, but executed well. The DJs read the room rather than sticking to a rigid playlist,
         and the sound system is properly installed rather than an afterthought. If you&apos;re
         comparing it to other hip-hop-focused venues,{" "}
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>{" "}
+        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>{" "}
         is more underground and{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         offers a two-floor split with house upstairs. Dear Darling sits in the middle — polished
         and quality-focused.
       </p>
@@ -1063,9 +1045,8 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         If your group is looking for a standard Mayfair night of bottle service and chart music,
-        The Box will be wasted on you. Save the £1,500 and go to{" "}
-        <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>{" "}
-        instead. The Box rewards people who are genuinely interested in something different.
+        The Box will be wasted on you. Save the £1,500 and book a more
+        conventional Mayfair club instead. The Box rewards people who are genuinely interested in something different.
       </p>
 
       <h2>Who Should Book The Box</h2>
@@ -1092,6 +1073,16 @@ export const blogContent: Record<string, ReactNode> = {
   "luna-club-london-guide": (
     <>
       <p>
+        <strong>Update, October 2026:</strong>{" "}Luna Club London has permanently
+        closed, so tables can no longer be booked there. This guide is kept for
+        reference. For a similar Mayfair night with table service,{" "}
+        <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,{" "}
+        <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene London</Link>{" "}
+        and{" "}
+        <Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling</Link>{" "}
+        are the closest alternatives.
+      </p>
+      <p>
         Luna Club London doesn&apos;t shout about itself. There are no circus performers, no
         bowling lanes, no provocative art installations. What there is: a sleek venue, good hip-hop,
         a well-connected crowd, and the kind of consistent quality that turns first-time visitors
@@ -1115,40 +1106,31 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Tables at Luna start from <strong>£1,000 minimum spend</strong>{" "}for floor tables. VIP tables
         start from <strong>£2,000</strong>. Standard Mayfair pricing for a club of this quality —
-        the same as{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>,{" "}
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>,
-        and most other Mayfair hip-hop venues.
+        the same as most other Mayfair hip-hop venues.
       </p>
       <p>
         Saturdays have the highest minimums. Thursday is a good bet for the same atmosphere at a
         slightly lower entry point.
       </p>
 
-      <h2>Luna vs Other Hip-Hop Clubs in Mayfair</h2>
+      <h2>Other Hip-Hop Clubs in Mayfair</h2>
       <p>
-        Mayfair has several strong hip-hop options, so how does Luna compare?
+        Mayfair still has several strong hip-hop options now that Luna has closed:
       </p>
       <ul>
         <li>
-          <strong><Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link></strong>{" "}
-          — More distinctive with its Japanese-inspired design. The music policy is slightly more
-          underground. Tabu is for people who want hip-hop with an aesthetic statement.
+          <strong><Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link></strong>:{" "}
+          open Wednesday to Saturday. The venue now trades as Rumour; confirm the current
+          music policy when you enquire.
         </li>
         <li>
-          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link></strong>{" "}
-          — Two floors with hip-hop downstairs and house upstairs. Better for mixed groups with
-          different music tastes. Luna is more focused.
-        </li>
-        <li>
-          <strong><Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link></strong>{" "}
-          — Open-format music that crosses genres. If your group doesn&apos;t all agree on hip-hop,
-          Funky Buddha is more flexible. Luna is the better choice if hip-hop is what you want.
+          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link></strong>:{" "}
+          open Wednesday to Saturday, and a good fit for mixed groups with different music
+          tastes.
         </li>
       </ul>
       <p>
-        Luna sits in the sweet spot: more focused than Funky Buddha, less niche than Tabu, more
-        intimate than Cuckoo&apos;s basement. It&apos;s the no-nonsense hip-hop option.
+        Luna was the no-nonsense hip-hop option. With it closed, these are the places to look.
       </p>
 
       <h2>The Crowd</h2>
@@ -1166,25 +1148,21 @@ export const blogContent: Record<string, ReactNode> = {
         If you&apos;re well-dressed and have a table booking, you&apos;re in.
       </p>
 
-      <h2>Who Should Book Luna</h2>
-      <ul>
-        <li>Hip-hop fans who want a reliable Mayfair club without gimmicks</li>
-        <li>Groups who value a strong crowd and intimate atmosphere</li>
-        <li>Regular Mayfair goers looking for a fresh option</li>
-        <li>Anyone who wants solid bottle service, good music, and zero surprises</li>
-      </ul>
+      <h2>Where to Go Now</h2>
       <p>
         If you want theatrics, go to{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>.
         If you want maximum exclusivity, go to{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>.
-        If you want a solid hip-hop night in Mayfair that just works, Luna is the one.
+        If you want a stylish hip-hop and RnB night, try{" "}
+        <Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling</Link>.
       </p>
 
-      <h2>How to Book</h2>
+      <h2>How to Book an Alternative</h2>
       <p>
-        Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll confirm
-        your table at Luna, usually within minutes. Open Thursday, Friday, and Saturday.
+        Luna has closed, so message us on WhatsApp with your date, group size, and any
+        preferences, and we&apos;ll recommend and confirm a table at an open Mayfair club with a
+        similar hip-hop and RnB night, usually within minutes.
       </p>
     </>
   ),
@@ -1205,90 +1183,52 @@ export const blogContent: Record<string, ReactNode> = {
         definitive guide.
       </p>
 
-      <h2>1. Tabu London — The Underground Hip-Hop Choice</h2>
+      <h2>1. Rumour (formerly Tabu) — The Underground Hip-Hop Choice</h2>
       <p>
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Tabu London</Link>{" "}
-        is the most distinctive hip-hop club in Mayfair. The Japanese-inspired underground
+        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>,
+        open Wednesday to Saturday, is the most distinctive hip-hop club in Mayfair. The Japanese-inspired underground
         aesthetic sets it apart immediately — dark interiors, striking design elements, and a
         atmosphere that feels more Tokyo basement bar than typical London nightclub. The music
-        policy is where Tabu truly differentiates itself: the DJs balance mainstream hip-hop
+        policy is where Rumour truly differentiates itself: the DJs balance mainstream hip-hop
         with deeper cuts, UK rap, drill, and underground tracks that you won&apos;t hear at
         other Mayfair venues.
       </p>
       <p>
-        The crowd at Tabu reflects the music — well-connected, fashion-forward, and genuinely
-        into hip-hop culture rather than just wanting background beats while they drink. Tables
-        start from <strong>£1,000 minimum spend</strong>{" "}for floor positions and{" "}
-        <strong>£2,000 for VIP</strong>. For a{" "}
-        <Link href="/tabu-london-table-booking" className="text-gold hover:underline">Tabu table booking</Link>,
+        The crowd at Rumour reflects the music — well-connected, fashion-forward, and genuinely
+        into hip-hop culture rather than just wanting background beats while they drink. That
+        reputation was built under the Tabu name, so ask us to confirm the current music policy
+        and minimum spend under the new name when you enquire. For a{" "}
+        <Link href="/tabu-london-table-booking" className="text-gold hover:underline">Rumour table booking</Link>,
         message us on WhatsApp.
       </p>
       <p>
         <strong>Best for:</strong>{" "}UK rap fans, underground hip-hop heads, groups who want
         something with genuine character. If you know the difference between Central Cee and
-        commercial chart rap, Tabu is your venue.
+        commercial chart rap, Rumour is your venue.
       </p>
 
-      <h2>2. Luna Club London — Sleek and Reliable</h2>
+      <h2>2. 99 Regent Street (formerly Cuckoo Club) — The Two-Floor Advantage</h2>
       <p>
-        <Link href="/clubs/luna-club-london" className="text-gold hover:underline">Luna Club London</Link>{" "}
-        is the hip-hop club that just works. No gimmicks, no elaborate theme — just a sleek
-        Mayfair interior, a properly tuned sound system, and DJs who know how to read a room.
-        The music policy centres on mainstream hip-hop, RnB, and Afrobeats, delivered with
-        the consistency that turns first-time visitors into regulars.
-      </p>
-      <p>
-        Luna&apos;s crowd is one of its strongest assets. These are Mayfair regulars who chose
-        this club specifically for the music, not tourists who wandered in off the street. The
-        intimate capacity means the energy stays concentrated rather than dispersing across a
-        cavernous space. Tables start from <strong>£1,000 minimum spend</strong>. Book your{" "}
-        <Link href="/luna-club-london-table-booking" className="text-gold hover:underline">Luna table here</Link>.
-      </p>
-      <p>
-        <strong>Best for:</strong>{" "}Groups who want a guaranteed good hip-hop night without
-        surprises. The safe, quality choice when you don&apos;t want to gamble on atmosphere.
-      </p>
-
-      <h2>3. Cuckoo Club — The Two-Floor Advantage</h2>
-      <p>
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
-        has a unique advantage over every other club on this list: a dedicated hip-hop floor in
-        the basement and a separate house music floor upstairs. This makes Cuckoo the obvious
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,
+        open Wednesday to Saturday, has a unique advantage over every other club on this list: a
+        dedicated hip-hop floor in the basement and a separate house music floor upstairs. This
+        makes 99 Regent Street the obvious
         choice for mixed groups where not everyone agrees on genre. Your hip-hop fans head
         downstairs; your house music crowd stays upstairs. Everyone&apos;s happy.
       </p>
       <p>
         The basement hip-hop room is properly done — dark, intimate, with a sound system that
         handles bass-heavy tracks without distortion. The DJs play a mix of mainstream hip-hop,
-        RnB, UK rap, and Afrobeats. It&apos;s not as underground as Tabu or as polished as
-        Luna, but the two-floor format is genuinely useful. Tables at Cuckoo start from{" "}
-        <strong>£1,000 minimum spend</strong>.
+        RnB, UK rap, and Afrobeats. It&apos;s not as underground as Rumour, but the two-floor
+        format is genuinely useful. That layout dates from the Cuckoo Club days, so ask us to
+        confirm the current music policy and minimum spend under the new name when you enquire.
       </p>
       <p>
         <strong>Best for:</strong>{" "}Mixed groups with varied music tastes. Birthday parties where
         you need everyone to have a good time, regardless of genre preference.
       </p>
 
-      <h2>4. Funky Buddha — Open Format with Hip-Hop Roots</h2>
-      <p>
-        Funky Buddha is Mayfair&apos;s longest-running club and its music policy reflects
-        years of evolution. The format is open — hip-hop, RnB, Afrobeats, dancehall, chart
-        music, and occasional house tracks all feature. The DJs are skilled at reading the room
-        and adjusting the balance based on the crowd&apos;s energy.
-      </p>
-      <p>
-        If you&apos;re a hip-hop purist, Funky Buddha might frustrate you — the genre-hopping
-        means you&apos;ll get 20 minutes of solid hip-hop followed by a dancehall set. But for
-        groups where musical flexibility matters more than genre purity, it&apos;s an excellent
-        choice. The venue is intimate, the crowd is diverse, and the atmosphere is consistently
-        fun. Tables start from <strong>£1,000 minimum spend</strong>.
-      </p>
-      <p>
-        <strong>Best for:</strong>{" "}Groups who want energy over genre purity. Crowds that enjoy
-        singing along to hits across multiple genres. The crowd-pleaser option.
-      </p>
-
-      <h2>5. Cirque Le Soir — Hip-Hop with a Show</h2>
+      <h2>3. Cirque Le Soir — Hip-Hop with a Show</h2>
       <p>
         Cirque Le Soir isn&apos;t a hip-hop club in the traditional sense, but the music
         policy is primarily hip-hop, RnB, and chart-leaning urban music — played while circus
@@ -1313,12 +1253,10 @@ export const blogContent: Record<string, ReactNode> = {
         hip-hop, here&apos;s where to go:
       </p>
       <ul>
-        <li><strong>US Hip-Hop (Drake, Travis Scott, Future):</strong>{" "}Luna Club London — the most consistent mainstream US hip-hop rotation in Mayfair.</li>
-        <li><strong>UK Rap &amp; Drill (Central Cee, Dave, Headie One):</strong>{" "}Tabu London — the strongest UK rap presence of any Mayfair club.</li>
-        <li><strong>Afrobeats (Burna Boy, Wizkid, Rema):</strong>{" "}Tabu London and Luna both incorporate Afrobeats heavily. Funky Buddha also features it regularly.</li>
-        <li><strong>RnB (SZA, The Weeknd, Chris Brown):</strong>{" "}Luna Club London — RnB is woven through the sets rather than being an occasional track.</li>
-        <li><strong>Old School Hip-Hop (Biggie, 2Pac, Jay-Z):</strong>{" "}Funky Buddha — the open format means DJs can reach back further than at genre-specific venues.</li>
-        <li><strong>Dancehall &amp; Reggaeton:</strong>{" "}Funky Buddha — the most likely to weave Caribbean sounds into the rotation.</li>
+        <li><strong>US Hip-Hop (Drake, Travis Scott, Future):</strong>{" "}Cirque Le Soir: crowd-pleasing mainstream hip-hop alongside the show.</li>
+        <li><strong>UK Rap &amp; Drill (Central Cee, Dave, Headie One):</strong>{" "}Rumour (formerly Tabu): the strongest UK rap presence of any Mayfair club.</li>
+        <li><strong>Afrobeats (Burna Boy, Wizkid, Rema):</strong>{" "}Rumour incorporates Afrobeats heavily, and the basement at 99 Regent Street features it too.</li>
+        <li><strong>RnB (SZA, The Weeknd, Chris Brown):</strong>{" "}<Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling</Link>, open Thursday to Sunday, leans towards hip-hop, RnB and Afrobeats.</li>
       </ul>
 
       <h2>Pricing Comparison</h2>
@@ -1326,10 +1264,8 @@ export const blogContent: Record<string, ReactNode> = {
         The good news for hip-hop fans: pricing is remarkably consistent across these venues.
       </p>
       <ul>
-        <li><strong>Tabu London:</strong>{" "}From £1,000 (floor) / £2,000 (VIP)</li>
-        <li><strong>Luna Club London:</strong>{" "}From £1,000 (floor) / £2,000 (VIP)</li>
-        <li><strong>Cuckoo Club:</strong>{" "}From £1,000 (floor) / £2,000 (VIP)</li>
-        <li><strong>Funky Buddha:</strong>{" "}From £1,000 (floor) / £2,000 (VIP)</li>
+        <li><strong>Rumour (formerly Tabu):</strong>{" "}Confirmed on enquiry under the new name</li>
+        <li><strong>99 Regent Street (formerly Cuckoo Club):</strong>{" "}Confirmed on enquiry under the new name</li>
         <li><strong>Cirque Le Soir:</strong>{" "}From £1,000 (floor) / £2,500 (VIP)</li>
       </ul>
       <p>
@@ -1343,10 +1279,8 @@ export const blogContent: Record<string, ReactNode> = {
         demographic:
       </p>
       <ul>
-        <li><strong>Tabu:</strong>{" "}Fashion-conscious, younger (early-to-mid twenties), culturally connected. The Instagram-aware crowd.</li>
-        <li><strong>Luna:</strong>{" "}Well-dressed Mayfair regulars and international visitors. Slightly older (mid-twenties to early thirties).</li>
-        <li><strong>Cuckoo:</strong>{" "}Diverse mix — the two-floor format attracts a broader range. Strong for birthdays and mixed groups.</li>
-        <li><strong>Funky Buddha:</strong>{" "}Loyal regulars and a wide age range. The most relaxed and welcoming door policy of the five.</li>
+        <li><strong>Rumour:</strong>{" "}Fashion-conscious, younger (early-to-mid twenties), culturally connected. The Instagram-aware crowd.</li>
+        <li><strong>99 Regent Street:</strong>{" "}Diverse mix — the two-floor format attracts a broader range. Strong for birthdays and mixed groups.</li>
         <li><strong>Cirque:</strong>{" "}Tourists, celebrities, birthday groups, international visitors. The most diverse and party-focused crowd.</li>
       </ul>
 
@@ -1429,7 +1363,7 @@ export const blogContent: Record<string, ReactNode> = {
         available.
       </p>
       <p>
-        <strong>Tabu London</strong>{" "}— For hip-hop fans, Tabu on Saturday brings the best crowd
+        <strong>Rumour (formerly Tabu)</strong>{" "}— For hip-hop fans, Rumour on Saturday brings the best crowd
         of the week. The music goes harder, the energy is higher, and the Japanese-inspired
         underground setting makes it feel like you&apos;ve discovered somewhere nobody else
         knows about.
@@ -1443,8 +1377,8 @@ export const blogContent: Record<string, ReactNode> = {
         <li><strong>Cirque Le Soir:</strong>{" "}3–6 weeks ahead for good table positions</li>
         <li><strong>Tape London:</strong>{" "}3–4 weeks ahead (limited capacity, very few tables)</li>
         <li><strong>London Reign:</strong>{" "}2–3 weeks ahead</li>
-        <li><strong>Tabu London:</strong>{" "}1–2 weeks ahead (newer venue, still building Saturday demand)</li>
-        <li><strong>Cuckoo Club / Maddox / Funky Buddha:</strong>{" "}1–2 weeks ahead</li>
+        <li><strong>Rumour (formerly Tabu):</strong>{" "}1–2 weeks ahead (newer venue, still building Saturday demand)</li>
+        <li><strong>99 Regent Street (formerly Cuckoo Club) / Maddox:</strong>{" "}1–2 weeks ahead</li>
       </ul>
       <p>
         The earlier you book, the better your table position. Last-minute Saturday bookings
@@ -1543,15 +1477,6 @@ export const blogContent: Record<string, ReactNode> = {
         &quot;remember when Dave fell over.&quot; The intimate venue works well for groups of
         6-10 but may feel cramped for larger parties. Book via our{" "}
         <Link href="/cirque-le-soir-table-booking" className="text-gold hover:underline">Cirque Le Soir booking page</Link>.
-      </p>
-      <p>
-        <strong>Funky Buddha — The Relaxed Choice</strong>
-      </p>
-      <p>
-        If your stag party isn&apos;t the sharp-suited Mayfair type, Funky Buddha offers the
-        most relaxed atmosphere of any premium venue. The open-format music keeps everyone
-        happy, the crowd is diverse and welcoming, and the door policy — while still selective
-        — is the least intimidating of the Mayfair clubs for all-male groups.
       </p>
       <p>
         <strong><Link href="/selene-london-table-booking" className="text-gold hover:underline">Selene London</Link>{" "}— For Large Groups</strong>
@@ -1823,16 +1748,16 @@ export const blogContent: Record<string, ReactNode> = {
         it drowning the mids.
       </p>
 
-      <h2>Cuckoo Club Upstairs — The Two-Floor Advantage</h2>
+      <h2>99 Regent Street (formerly Cuckoo Club) Upstairs — The Two-Floor Advantage</h2>
       <p>
-        Cuckoo Club&apos;s upper floor is dedicated to house and tech house, making it the
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>, open Wednesday to Saturday, has an upper floor dedicated to house and tech house, making it the
         only Mayfair club where house music fans have their own distinct space. While the
         basement pumps out hip-hop and RnB, upstairs operates as an entirely separate
         experience — house-focused DJs, a crowd that&apos;s there for the music, and a sound
         system that handles electronic music properly.
       </p>
       <p>
-        The two-floor format is Cuckoo&apos;s genuine unique selling point. If your group is
+        The two-floor format is 99 Regent Street&apos;s genuine unique selling point. If your group is
         split between house and hip-hop fans, this is the only venue where both sides get what
         they want under one roof. Your table booking gives you access to both floors, so you
         can drift between them as the mood takes you.
@@ -1840,7 +1765,8 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The upstairs house floor leans towards deep house and groovy tech house rather than
         harder, peak-time techno. Think warm basslines, textured synths, and the kind of music
-        that makes you nod rather than jump. Tables start from <strong>£1,000 minimum spend</strong>.
+        that makes you nod rather than jump. That floor plan dates from the Cuckoo Club days, so ask
+        us to confirm the current music policy and minimum spend under the new name when you enquire.
       </p>
       <p>
         <strong>Sound system verdict:</strong>{" "}Good. Not audiophile-grade but more than adequate
@@ -1902,9 +1828,9 @@ export const blogContent: Record<string, ReactNode> = {
         the breakdown:
       </p>
       <ul>
-        <li><strong>Deep House</strong>{" "}(warm, melodic, soulful): Maddox is the strongest choice. The sophisticated setting matches the music perfectly. Cuckoo&apos;s upstairs floor also leans this direction.</li>
+        <li><strong>Deep House</strong>{" "}(warm, melodic, soulful): Maddox is the strongest choice. The sophisticated setting matches the music perfectly. The upstairs floor at 99 Regent Street also leans this direction.</li>
         <li><strong>Tech House</strong>{" "}(driving, percussive, energetic): BEAT London is the clear winner. The later hours and better sound system give tech house the space it needs.</li>
-        <li><strong>Commercial House / Dance</strong>{" "}(accessible, vocal-driven, radio-friendly): Cuckoo&apos;s upstairs floor or Maddox on busier nights. Neither venue plays purely commercial, but the DJs incorporate it when the crowd energy demands it.</li>
+        <li><strong>Commercial House / Dance</strong>{" "}(accessible, vocal-driven, radio-friendly): The upstairs floor at 99 Regent Street or Maddox on busier nights. Neither venue plays purely commercial, but the DJs incorporate it when the crowd energy demands it.</li>
         <li><strong>Minimal / Deeper Electronic</strong>: BEAT London, particularly in the later hours (2-5 AM) when the DJs have room to go deeper.</li>
         <li><strong>House-Influenced / Eclectic</strong>: Dear Darling. The transitional format means the music pulls from multiple influences rather than committing to a single sub-genre.</li>
       </ul>
@@ -1915,7 +1841,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li><strong>Maddox:</strong>{" "}Resident DJs who understand the dinner-to-club transition. The music starts ambient and builds to proper house by midnight. Consistent quality, no surprises.</li>
-        <li><strong>Cuckoo Club:</strong>{" "}Separate DJs for each floor. The upstairs house DJ operates independently from the basement hip-hop DJ. Quality varies slightly night to night but is generally strong.</li>
+        <li><strong>99 Regent Street:</strong>{" "}Separate DJs for each floor. The upstairs house DJ operates independently from the basement hip-hop DJ. Quality varies slightly night to night but is generally strong.</li>
         <li><strong>BEAT London:</strong>{" "}The strongest DJ booking policy of any Mayfair venue for electronic music. Guest DJs from the wider London electronic scene appear regularly alongside skilled residents.</li>
         <li><strong>Dear Darling:</strong>{" "}Resident DJs who are skilled at the early-evening-to-late-night transition. The emphasis is on reading the room rather than sticking to a genre rigidly.</li>
       </ul>
@@ -1926,7 +1852,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li><strong>Maddox:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Dinner available separately.</li>
-        <li><strong>Cuckoo Club:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Access to both floors included.</li>
+        <li><strong>99 Regent Street:</strong>{" "}Confirmed on enquiry under the new name.</li>
         <li><strong>BEAT London:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Best value per hour given the later closing time.</li>
         <li><strong>Dear Darling:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Cocktail bar access included.</li>
       </ul>
@@ -1934,7 +1860,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>The Honest Summary</h2>
       <p>
         If house music is your primary criterion: Maddox for sophistication, BEAT for sound
-        quality and late hours, Cuckoo for flexibility with a mixed group, Dear Darling for
+        quality and late hours, 99 Regent Street for flexibility with a mixed group, Dear Darling for
         the full-evening experience. Any of these four will satisfy a house fan — the choice
         comes down to what else matters to you beyond the music.
       </p>
@@ -2106,9 +2032,9 @@ export const blogContent: Record<string, ReactNode> = {
         groups who want to overlook the spectacle from above, elevated VIP is worth the premium.
       </p>
 
-      <h3>Cuckoo Club: Choose Your Floor</h3>
+      <h3>99 Regent Street (formerly Cuckoo Club): Choose Your Floor</h3>
       <p>
-        Cuckoo is a two-floor venue, and the experience on each floor is genuinely different.
+        99 Regent Street is a two-floor venue, and the experience on each floor is genuinely different.
         The ground floor is the main room — house music, more social, higher energy. The basement
         (The Shack) plays hip-hop, RnB, and Afrobeats with a darker, more intimate atmosphere.
         Your choice of floor effectively determines your music and vibe for the night. If your
@@ -2324,7 +2250,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>,{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,
         and{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         attract a mature, professional clientele. The minimum spend for bottle service
         (£1,000+) naturally filters the crowd towards people with disposable income. Door teams
         are also curating a specific atmosphere — and while age alone isn&apos;t a criterion for
@@ -2493,17 +2419,6 @@ export const blogContent: Record<string, ReactNode> = {
         theatrical experience, Cirque is excellent. For 20+, consider Selene or Reign instead —
         the space simply works better at scale. Cirque&apos;s charm is its intimacy, and
         overfilling it diminishes that.
-      </p>
-
-      <h3>Funky Buddha: Flexible Layout</h3>
-      <p>
-        <Link href="/clubs/funky-buddha" className="text-gold hover:underline">Funky Buddha</Link>{" "}
-        has a flexible layout that adapts well to different group sizes. The venue can reconfigure
-        table positions to create a semi-private area for larger bookings. For groups of 15 to
-        25, Funky Buddha offers good value with tables from <strong>£1,000</strong>{" "}and a
-        hip-hop and RnB music policy that appeals to a wide range of tastes. The atmosphere
-        is lively without being overwhelming, making it a safe choice for mixed groups where
-        not everyone is a die-hard clubber.
       </p>
 
       <h2>Multiple Table Configurations</h2>
@@ -2727,9 +2642,9 @@ export const blogContent: Record<string, ReactNode> = {
         experience.
       </p>
 
-      <h3>Cuckoo Club</h3>
+      <h3>99 Regent Street (formerly Cuckoo Club)</h3>
       <p>
-        Cuckoo has a strong Friday following — the local Mayfair crowd loves it as a Friday
+        99 Regent Street, open Wednesday to Saturday, has a strong Friday following — the local Mayfair crowd loves it as a Friday
         spot. Saturday is busier but can feel less cohesive. <strong>Best night:</strong>{" "}
         Friday for the loyal local crowd.
       </p>
@@ -2831,11 +2746,12 @@ export const blogContent: Record<string, ReactNode> = {
           programming and a well-dressed crowd. Tables from &pound;1,000.
         </li>
         <li>
-          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>:</strong>{" "}
+          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>:</strong>{" "}
           Two distinct floors give you options. The upstairs lounge is perfect for early
           evening cocktails and conversation, while the basement club delivers a proper
           dance floor later on. It&apos;s a versatile choice when one of you wants to talk
-          and the other wants to dance. Tables from &pound;1,000.
+          and the other wants to dance. Open Wednesday to Saturday; minimums under the new
+          name are confirmed on enquiry.
         </li>
         <li>
           <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>:</strong>{" "}
@@ -2958,7 +2874,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Wednesday: The Hidden Gem Night</h2>
       <p>
-        Wednesday is when Mayfair starts to warm up properly. Three excellent venues
+        Wednesday is when Mayfair starts to warm up properly. Four excellent venues
         operate on Wednesdays, each with a distinct character:
       </p>
       <ul>
@@ -2969,10 +2885,14 @@ export const blogContent: Record<string, ReactNode> = {
           intimate crowd. Tables from &pound;1,000.
         </li>
         <li>
-          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>:</strong>{" "}
-          Now trading as 99 Regent Street, the venue opens from Wednesday and has a loyal
-          midweek following. You can{" "}
-          <Link href="/cuckoo-club-table-booking" className="text-gold hover:underline">book a Cuckoo Club table here</Link>.
+          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>:</strong>{" "}
+          Open Wednesday to Saturday, the venue has a loyal midweek following. You can{" "}
+          <Link href="/cuckoo-club-table-booking" className="text-gold hover:underline">book a 99 Regent Street table here</Link>.
+        </li>
+        <li>
+          <strong><Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>:</strong>{" "}
+          Open Wednesday to Saturday. Minimums and music under the new name are confirmed
+          when you enquire.
         </li>
         <li>
           <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>:</strong>{" "}
@@ -2986,9 +2906,9 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Thursday: The Best Night You&apos;re Not Booking</h2>
       <p>
-        Thursday is the strongest weeknight across Mayfair, with <strong>eight venues</strong>{" "}
-        open and a genuine buzz that rivals Friday in several spots. Cuckoo Club and The Box
-        from the Wednesday list also operate on Thursday, plus you gain:
+        Thursday is the strongest weeknight across Mayfair, with <strong>seven venues</strong>{" "}
+        open and a genuine buzz that rivals Friday in several spots. 99 Regent Street, Rumour
+        and The Box from the Wednesday list also operate on Thursday, plus you gain:
       </p>
       <ul>
         <li>
@@ -3004,11 +2924,6 @@ export const blogContent: Record<string, ReactNode> = {
           Tables from &pound;1,000.
         </li>
         <li>
-          <strong>Tabu London:</strong>{" "}The Japanese-inspired underground venue on
-          Albemarle Street has a loyal Thursday following. Intimate, dark, and bass-heavy.
-          Tables from &pound;1,000.
-        </li>
-        <li>
           <strong>Selene London:</strong>{" "}Three rooms including bowling lanes give your
           group options beyond the dance floor. A strong Thursday choice for mixed groups.
           Tables from &pound;1,000.
@@ -3019,11 +2934,6 @@ export const blogContent: Record<string, ReactNode> = {
           Read our{" "}
           <Link href="/blog/dear-darling-mayfair-guide" className="text-gold hover:underline">Dear Darling guide</Link>{" "}
           for the full picture. Tables from &pound;1,000.
-        </li>
-        <li>
-          <strong>Luna Club London:</strong>{" "}A compact late-night spot that keeps going
-          after other venues wind down. Thursday is one of its strongest nights. Tables
-          from &pound;1,000.
         </li>
       </ul>
       <p>
@@ -3179,7 +3089,7 @@ export const blogContent: Record<string, ReactNode> = {
         <strong>&pound;1,000</strong>{" "}and you only order &pound;700 of drinks, you still pay
         &pound;1,000. The difference doesn&apos;t roll over or get refunded. This is standard
         at every London club with table service &mdash; from{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         to{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>.
       </p>
@@ -3489,7 +3399,7 @@ export const blogContent: Record<string, ReactNode> = {
         <li>
           <strong>Choose your night wisely:</strong>{" "}Midweek minimums can drop 20-40% compared
           to Saturday. A Thursday at{" "}
-          <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">Cuckoo Club</Link>{" "}
+          <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
           or{" "}
           <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>{" "}
           delivers a strong atmosphere at a lower price point.
@@ -3551,10 +3461,10 @@ export const blogContent: Record<string, ReactNode> = {
         table bookings, but nobody talks about the bit that actually trips people
         up: the payment process. How much deposit do you pay upfront? When does
         the rest get charged? Can you split across cards? What happens if plans
-        fall through? After eight years working in London hospitality, I have
-        processed hundreds of bottle service deposits and seen every possible
-        payment scenario play out. This guide covers exactly how the money side
-        works so there are no surprises on the night.
+        fall through? Our bookings team handles bottle service deposits every
+        week and sees the same payment questions come up again and again. This
+        guide covers exactly how the money side works so there are no surprises
+        on the night.
       </p>
 
       <h2>How Bottle Service Deposits Work</h2>
@@ -3577,14 +3487,13 @@ export const blogContent: Record<string, ReactNode> = {
         Valentine&apos;s Day, or bank holiday weekends.
       </p>
       <p>
-        I have noticed that smaller, newer venues tend to be more flexible on
-        deposit amounts. When I booked at{" "}
+        In our experience, smaller, newer venues such as{" "}
         <Link href="/clubs/selene-london" className="text-gold hover:underline">
           Selene London
         </Link>{" "}
-        on a Wednesday, the deposit was just &pound;300 on a &pound;1,000
-        minimum. On a Saturday at the same venue, it was the full 50%. The night
-        of the week makes a real difference.
+        tend to be more flexible on deposit amounts on their quieter nights,
+        such as a Thursday or Sunday, with the full 50% more likely on a
+        Saturday. The night of the week makes a real difference.
       </p>
 
       <h2>When and How You Pay the Deposit</h2>
@@ -3597,7 +3506,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The timing varies. Some clubs require the deposit immediately to hold
         the table. Others give you 24 to 48 hours to confirm with payment,
-        especially for bookings made well in advance. I have seen tables released
+        especially for bookings made well in advance. Tables are regularly released
         back to general availability when deposits are not received within the
         window, so do not delay once you have committed.
       </p>
@@ -3645,7 +3554,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Splitting Payment Across Multiple Cards</h2>
       <p>
-        This is one of the most common requests I saw when working the floor.
+        This is one of the most common requests our bookings team hears.
         Groups of six or eight rarely want one person stuck with the full bill.
         The good news is that most London clubs will split the final charge
         across two or three cards without any fuss.
@@ -3656,13 +3565,14 @@ export const blogContent: Record<string, ReactNode> = {
         divides the remaining balance (after deposit) equally or by whatever
         split you agree on, and processes each card separately. At{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
-          Cuckoo Club
+          99 Regent Street (formerly Cuckoo Club)
         </Link>{" "}
         and{" "}
         <Link href="/clubs/maddox" className="text-gold hover:underline">
           Maddox
         </Link>
-        , I have seen bills split across three cards without any issue.
+        , guests we book tell us bills are split across three cards without any
+        issue.
       </p>
       <p>
         Where it gets tricky is with more than four cards. Most venues draw the
@@ -3681,8 +3591,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         Cancel inside 24 hours and you will almost certainly lose the deposit.
-        No-shows forfeit everything. I have personally seen groups lose
-        &pound;750 deposits because one person in the group decided last minute
+        No-shows forfeit everything. Groups do lose &pound;750 deposits because one person in the group decided last minute
         they did not want to go. The venue will not make exceptions.
       </p>
       <p>
@@ -3785,11 +3694,11 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
 
       <p>
-        The single most common question I get from first-time bookers is not about
-        which club to choose or what to wear. It is about minimum spend. What does
-        it actually mean? What counts toward it? What happens if you fall short?
-        After eight years in London hospitality, I have seen every possible
-        misunderstanding play out at the table. This guide covers how London club
+        The single most common question our bookings team gets from first-time
+        bookers is not about which club to choose or what to wear. It is about
+        minimum spend. What does it actually mean? What counts toward it? What
+        happens if you fall short? The same misunderstandings come up again and
+        again. This guide covers how London club
         minimum spend actually works, so you know exactly what you are committing
         to before you book.
       </p>
@@ -3860,7 +3769,7 @@ export const blogContent: Record<string, ReactNode> = {
         This is the part that catches people out. If your minimum spend is
         &pound;1,000 and you only order &pound;750 of drinks, you are still
         charged &pound;1,000. The venue does not refund the difference or let you
-        carry it over to another visit. I have seen this happen most often with
+        carry it over to another visit. This happens most often with
         smaller groups who overestimate how much they will drink, or with groups
         who arrive late and run out of time.
       </p>
@@ -3910,22 +3819,22 @@ export const blogContent: Record<string, ReactNode> = {
         </li>
       </ul>
       <p>
-        When I visited{" "}
+        At{" "}
         <Link
           href="/clubs/cuckoo-club"
           className="text-gold hover:underline"
         >
-          Cuckoo Club
-        </Link>{" "}
-        on a Wednesday, the floor table minimum was noticeably lower than the
-        Saturday rate, and the waitress confirmed they adjust pricing based on
+          99 Regent Street (formerly Cuckoo Club)
+        </Link>
+        , open Wednesday to Saturday, a Wednesday floor table typically carries a
+        noticeably lower minimum than the Saturday rate, because pricing follows
         expected demand. That midweek flexibility is consistent across most Mayfair
         venues.
       </p>
 
       <h2>How to Get the Most from Your Minimum Spend</h2>
       <p>
-        From experience, the groups that get the best value are the ones that plan
+        In our experience, the groups that get the best value are the ones that plan
         loosely before they arrive. You do not need a rigid order sheet, but having
         a rough idea helps enormously.
       </p>
@@ -3941,10 +3850,10 @@ export const blogContent: Record<string, ReactNode> = {
           without dominating your spend. It also counts fully toward your minimum.
         </li>
         <li>
-          <strong>Talk to your waitress early:</strong>{" "}On my last visit to Cirque
-          Le Soir, the waitress helped pace two bottles of spirits and a champagne
-          perfectly across a &pound;1,200 minimum for a group of six. They do this
-          every night and know exactly how to balance the order.
+          <strong>Talk to your waitress early:</strong>{" "}A good waitress will
+          pace two bottles of spirits and a champagne across a &pound;1,200
+          minimum for a group of six. They do this every night and know exactly
+          how to balance the order.
         </li>
         <li>
           <strong>Do not over-order champagne:</strong>{" "}Champagne gives you 6 to 7
@@ -3965,21 +3874,20 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Deposits are usually non-refundable if you cancel within 48 hours of the
         booking. For larger groups or peak nights like New Year&apos;s Eve, the
-        deposit may be higher. When I arranged a booking for a group of 20 at{" "}
+        deposit may be higher. For a group of 20 at{" "}
         <Link
           href="/clubs/selene-london"
           className="text-gold hover:underline"
         >
           Selene London
         </Link>
-        , the deposit was &pound;500 for three adjacent tables, which was deducted
-        from the combined &pound;3,000 minimum on the night.
+        , for example, a deposit on three adjacent tables is deducted from the
+        combined minimum on the night in exactly the same way.
       </p>
 
       <h2>Common Minimum Spend Mistakes</h2>
       <p>
-        After years of seeing how groups handle their first table booking, these
-        are the mistakes that come up again and again:
+        From the bookings we handle, these are the mistakes that come up again and again:
       </p>
       <ul>
         <li>
@@ -3995,8 +3903,8 @@ export const blogContent: Record<string, ReactNode> = {
         </li>
         <li>
           <strong>Ordering individual drinks at the bar:</strong>{" "}Bar drinks do
-          not count toward your table minimum. I noticed groups sending people to
-          the bar for cocktails while their table minimum sat unfinished.
+          not count toward your table minimum. Groups often send people to the
+          bar for cocktails while their table minimum sits unfinished.
           Everything should be ordered through your waitress.
         </li>
         <li>
@@ -4046,12 +3954,12 @@ export const blogContent: Record<string, ReactNode> = {
         <em>Last updated: 9 May 2026</em>
       </p>
       <p>
-        Every group I have sat with at a London club hits the same crossroads the
-        moment the bottle menu arrives: champagne or spirits? It sounds simple,
-        but the answer shapes your entire night, from how long your table lasts to
-        how much each person actually pays. After eight years working tables in
-        central London and countless bookings since, I have a clear view on when
-        each option makes sense, and when it does not.
+        Every group at a London club table hits the same crossroads the moment
+        the bottle menu arrives: champagne or spirits? It sounds simple, but the
+        answer shapes your entire night, from how long your table lasts to how
+        much each person actually pays. Having helped plan orders for countless
+        bookings, we have a clear view on when each option makes sense, and when
+        it does not.
       </p>
 
       <h2>How London Bottle Menus Are Structured</h2>
@@ -4064,10 +3972,9 @@ export const blogContent: Record<string, ReactNode> = {
         past the house options.
       </p>
       <p>
-        When I first started serving at clubs in Soho, most tables ordered
-        champagne automatically, treating it as the default bottle service drink.
-        That has shifted. As of May 2026, I would say roughly 60% of tables now
-        lead with spirits, with champagne reserved for toasts or celebrations
+        Not long ago, most tables ordered champagne automatically, treating it as
+        the default bottle service drink. That has shifted. As of May 2026, our
+        estimate is that roughly 60% of tables now lead with spirits, with champagne reserved for toasts or celebrations
         midway through the night. The reason is straightforward: value.
       </p>
 
@@ -4090,8 +3997,8 @@ export const blogContent: Record<string, ReactNode> = {
         >
           Cirque Le Soir
         </Link>
-        , I have seen groups drop over &pound;2,000 on a single magnum of Ace
-        of Spades - impressive for the table presentation, less impressive for
+        , a single magnum of Ace of Spades can cost a group over &pound;2,000:
+        impressive for the table presentation, less impressive for
         the cost per drink.
       </p>
       <p>
@@ -4133,23 +4040,23 @@ export const blogContent: Record<string, ReactNode> = {
         glass). Spirits give you more than double the drinks per pound spent.
       </p>
       <p>
-        I noticed this most clearly on Saturday nights at{" "}
+        Guests we book at venues like{" "}
         <Link
           href="/clubs/cuckoo-club"
           className="text-gold hover:underline"
         >
-          Cuckoo Club
-        </Link>
-        . Groups that led with vodka or gin stayed at their tables longer,
-        ordered more comfortably within their minimum spend, and generally seemed
-        less rushed. The ones who went all-in on champagne often hit the minimum
-        in the first hour and then sat watching an empty ice bucket for the rest
-        of the night.
+          99 Regent Street (formerly Cuckoo Club)
+        </Link>{" "}
+        tell us the same thing. Groups that lead with vodka or gin stay at their
+        tables longer, order more comfortably within their minimum spend, and
+        feel less rushed. The ones who go all-in on champagne often hit the
+        minimum in the first hour and then sit watching an empty ice bucket for
+        the rest of the night.
       </p>
 
       <h2>The Hybrid Strategy: What Most Smart Tables Do</h2>
       <p>
-        From experience, the best approach for most groups is a combination. Open
+        In our view, the best approach for most groups is a combination. Open
         with a bottle of champagne for the arrival, the toast, the table
         presentation. Then switch to spirits for the rest of the night. This
         gives you the visual impact of champagne on arrival plus the sustained
@@ -4260,24 +4167,17 @@ export const blogContent: Record<string, ReactNode> = {
         </li>
       </ul>
 
-      <h2>What We Went With on My Last Visit</h2>
+      <h2>The Order We Recommend Most Often</h2>
       <p>
-        On my last booking at{" "}
-        <Link
-          href="/clubs/funky-buddha"
-          className="text-gold hover:underline"
-        >
-          Funky Buddha
-        </Link>
-        , we had a group of seven on a Friday. We opened with a Veuve Clicquot
-        for the table photo and initial toast, then moved to two bottles of
-        Belvedere for the rest of the night. The waitress kept our mixers stocked
-        without being asked, and we hit the minimum spend almost exactly. Nobody
-        felt rushed, nobody overspent. That is the formula I recommend to anyone
-        who messages us for advice.
+        For a typical group of seven on a Friday, the order we suggest is simple:
+        open with a Veuve Clicquot for the table photo and initial toast, then
+        move to two bottles of Belvedere for the rest of the night. Your waitress
+        keeps the mixers stocked, and that combination lands close to a standard
+        minimum spend. Nobody feels rushed, nobody overspends. That is the
+        formula we recommend to anyone who messages us for advice.
       </p>
       <p>
-        One detail worth noting: at Funky Buddha the bottle presentation for
+        One detail worth noting: at most venues the bottle presentation for
         spirits is more understated than champagne. No sparklers on a bottle of
         vodka. If the visual moment matters to your group, lead with champagne
         and enjoy the show, then switch to spirits when the lights go down and the
@@ -4287,7 +4187,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>How to Place Your Order on the Night</h2>
       <p>
         Your dedicated waitress will bring the bottle menu once you are seated.
-        You do not need to decide everything upfront. I always suggest ordering
+        You do not need to decide everything upfront. We always suggest ordering
         your first bottle within 15 minutes of sitting down, then pacing
         additional orders based on how the night is going. Your waitress will
         track your running spend and let you know where you stand against the
@@ -4353,19 +4253,19 @@ export const blogContent: Record<string, ReactNode> = {
         <em>Last updated: 16 May 2026</em>
       </p>
       <p>
-        The question I get asked more than any other in my WhatsApp inbox is
-        some version of: &quot;We are thinking of going out next weekend, is it
+        The question we get asked more than any other on WhatsApp is some
+        version of: &quot;We are thinking of going out next weekend, is it
         too late to book?&quot; The honest answer is that there is no single
         rule for how far in advance to book bottle service in London. The right
-        window depends on the night, the venue, and the date. After eight years
-        working tables in central London, I can tell you how the booking
-        calendar actually moves at every kind of Mayfair club, and how to time
-        your enquiry so you get what you want.
+        window depends on the night, the venue, and the date. From the bookings
+        we handle every week, this guide sets out how the booking calendar
+        actually moves at every kind of Mayfair club, and how to time your
+        enquiry so you get what you want.
       </p>
 
       <h2>The Short Answer: Booking Windows by Night</h2>
       <p>
-        For most groups I help, I think about lead time in three brackets:
+        For most groups we help, we think about lead time in three brackets:
       </p>
       <ul>
         <li>
@@ -4387,12 +4287,11 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Weeknights vs Weekends: How Lead Time Changes</h2>
       <p>
-        I noticed a clear pattern from years on the floor. On a typical
-        Wednesday at{" "}
+        Our bookings team sees a clear pattern. On a typical Wednesday at{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
-          Cuckoo Club
+          99 Regent Street (formerly Cuckoo Club)
         </Link>
-        , walking in a group on the same evening will often work if you message
+        , open Wednesday to Saturday, walking in a group on the same evening will often work if you message
         us by 6 PM. The minimum spend is lower as of May 2026, the table list
         is shorter, and the door has flexibility. Move that same group to
         Saturday at the same venue and the picture changes completely. By
@@ -4401,7 +4300,7 @@ export const blogContent: Record<string, ReactNode> = {
         someone cancels.
       </p>
       <p>
-        I have seen the calendar tighten over the past year. As{" "}
+        The calendar has tightened over the past year. As{" "}
         <a
           href="https://www.timeout.com/london/nightlife"
           className="text-gold hover:underline"
@@ -4420,7 +4319,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Special Dates That Need Extra Notice</h2>
       <p>
-        Some dates I would not attempt under three weeks&apos; notice.
+        Some dates we would not attempt under three weeks&apos; notice.
         New Year&apos;s Eve, the Friday before a UK public holiday weekend,
         Valentine&apos;s, Royal Ascot week, the Saturday of London Fashion
         Week, and the Friday before Christmas all sit in their own category.
@@ -4434,7 +4333,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         Personal milestones falling on a peak weekend behave the same way.
-        From experience, anyone telling me their celebration lands on the first
+        Anyone telling us their celebration lands on the first
         Saturday of December gets a polite warning that they need to be
         thinking about the booking by early October at the latest. Waiting
         until November almost always means a back-wall table at a higher
@@ -4487,9 +4386,9 @@ export const blogContent: Record<string, ReactNode> = {
       </ul>
       <p>
         The fastest route is the phone. When someone messages us at 4 PM for
-        an 11 PM table, I can ring three or four venues inside 30 minutes and
+        an 11 PM table, we can ring three or four venues inside 30 minutes and
         confirm. Going through a venue&apos;s public form on the same day
-        rarely gets a reply in time. As of May 2026, my same-day success rate
+        rarely gets a reply in time. As of May 2026, our same-day success rate
         sits at roughly 75 percent for Tuesday to Thursday and around 35
         percent for Friday to Saturday.
       </p>
@@ -4497,7 +4396,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>How to Book and What to Send Over</h2>
       <p>
         When you do reach out, the more detail you send first, the faster the
-        confirmation comes back. From my side, here is what I need to lock a
+        confirmation comes back. From our side, here is what we need to lock a
         table efficiently:
       </p>
       <ul>
@@ -4524,7 +4423,7 @@ export const blogContent: Record<string, ReactNode> = {
         </li>
       </ul>
       <p>
-        If you can send all of that in your first message, I can typically
+        If you can send all of that in your first message, we can typically
         come back with two or three options inside an hour. Without it, the
         back-and-forth eats into your booking window. To make a request, the
         simplest route is to{" "}
@@ -4551,7 +4450,7 @@ export const blogContent: Record<string, ReactNode> = {
         Saturday, do not give up, but expect fewer options. And on a Tuesday
         for a Wednesday at{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
-          Cuckoo Club
+          99 Regent Street
         </Link>{" "}
         or a similar non-peak venue, you can essentially still pick your night
         freely. For more on how the booking financials work once your date is
@@ -4602,8 +4501,8 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         Open almost any London bottle menu and you will hit the same wall of
-        unfamiliar words: magnum, jeroboam, methuselah. After eight years working
-        tables in central London, I can tell you that most guests have no idea
+        unfamiliar words: magnum, jeroboam, methuselah. From the questions our
+        bookings team fields, most guests have no idea
         what these actually mean, how much liquid is in each, or whether the
         bigger formats are worth it. This is the plain-English guide to champagne
         bottle sizes, what you will really see on a London table, and how to
@@ -4635,17 +4534,15 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         In practice, the London club scene runs on two sizes. The standard bottle
         is the default for most orders, and the magnum is the most popular step up
-        for a group that wants something with more presence. I have carried more
-        magnums across a busy floor than I can count, and they are the size that
-        hits the sweet spot between impact and practicality.
+        for a group that wants something with more presence. The magnum is the
+        size that hits the sweet spot between impact and practicality.
       </p>
       <p>
         Jeroboams and larger appear far less often, and almost always at the
-        bigger-spending tables. On my floor, a methuselah would come out of the
-        back perhaps once or twice on a busy Saturday, and it was always tied to
-        a milestone celebration rather than a casual order. The genuinely giant
-        formats, the balthazar and nebuchadnezzar, were special-order items we had
-        to confirm with the venue in advance rather than everyday stock.
+        bigger-spending tables. A methuselah is typically tied to a milestone
+        celebration rather than a casual order. The genuinely giant formats, the
+        balthazar and nebuchadnezzar, are special-order items to confirm with the
+        venue in advance rather than everyday stock.
       </p>
 
       <h2>Are the Big Formats Worth It?</h2>
@@ -4708,8 +4605,8 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         and{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>, a big bottle comes out with sparklers, a lit
-        parade and often the music dropping for the moment. From experience, the
-        lip of a jeroboam is genuinely heavy, which is why staff carry it with two
+        parade and often the music dropping for the moment. A full jeroboam is
+        genuinely heavy, which is why staff carry it with two
         hands and set it in a stand rather than holding it like a standard bottle.
       </p>
       <p>
@@ -4775,12 +4672,11 @@ export const blogContent: Record<string, ReactNode> = {
         <em>Last updated: 10 June 2026</em>
       </p>
       <p>
-        After eight years working tables, the question I have answered more than
-        any other at the point of booking is some version of: how many bottles
-        do we actually need? It matters, because ordering too few interrupts the
+        The question our bookings team answers more than any other at the point
+        of booking is some version of: how many bottles do we actually need? It matters, because ordering too few interrupts the
         night with constant menu decisions, and ordering too many leaves you
         staring at an unopened bottle at 3am that nobody wanted. The good news
-        is that table maths is predictable. Here is how I size an order for any
+        is that table maths is predictable. Here is how we size an order for any
         group, and how the venue&apos;s minimum spend folds into it.
       </p>
 
@@ -4802,7 +4698,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Bottles by Group Size</h2>
       <p>
-        Applying the maths, here is the planning baseline I give groups when
+        Applying the maths, here is the planning baseline we give groups when
         they book, as of June 2026:
       </p>
       <ul>
@@ -4867,7 +4763,7 @@ export const blogContent: Record<string, ReactNode> = {
         explains what a magnum or jeroboam actually holds.
       </p>
       <p>
-        From experience on the floor, the tables that enjoy the night most run
+        In our experience, the tables that enjoy the night most run
         roughly two-thirds spirits to one-third champagne, and they time the
         champagne for the moment the whole group is together rather than
         opening everything in the first half hour. London&apos;s table culture
@@ -4878,9 +4774,9 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Order in Waves, Not All at Once</h2>
       <p>
-        My single biggest tip: never order the full count upfront. Tables that
+        Our single biggest tip: never order the full count upfront. Tables that
         open everything at once end up with flat champagne and warm mixers by
-        1am, and I watched it happen weekly when I worked the floor. Start with
+        1am. Start with
         one bottle as you sit down, read the table after an hour, and add the
         next wave when the first runs low. Your waitress tracks the running
         spend against the minimum, so pacing the order costs nothing and keeps
@@ -4904,8 +4800,8 @@ export const blogContent: Record<string, ReactNode> = {
         but how you reach it is more flexible than most groups assume.
       </p>
       <p>
-        I have set up plenty of tables where half the group was not drinking,
-        and the version that works is one good spirit bottle for the drinkers,
+        We book plenty of tables where half the group is not drinking, and the
+        version that works is one good spirit bottle for the drinkers,
         a round of well-made alcohol-free options for the rest, and the
         champagne moment kept for a toast everyone joins with whatever is in
         their glass. Tell the venue in advance and the waitress will pace the
@@ -4965,8 +4861,8 @@ export const blogContent: Record<string, ReactNode> = {
         <em>Last updated: 11 June 2026</em>
       </p>
       <p>
-        In my serving years this was the quiet worry behind half the bookings I
-        looked after: you have reserved a table for 11pm, so is it yours until
+        This is the quiet worry behind half the bookings we handle: you have
+        reserved a table for 11pm, so is it yours until
         the lights come up, or is there a clock running? The honest answer is
         that London does this two ways, and knowing which way your venue works
         is the difference between a relaxed night and an awkward conversation
@@ -4988,8 +4884,8 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         That is the default. The exceptions below are where good nights go
-        wrong, and they are exactly the details I used to watch groups discover
-        at the worst possible moment.
+        wrong, and they are exactly the details groups tend to discover at the
+        worst possible moment.
       </p>
 
       <h2>The Exceptions: Second Sittings and Early Tables</h2>
@@ -5001,8 +4897,8 @@ export const blogContent: Record<string, ReactNode> = {
         late, keep it to close.
       </p>
       <p>
-        Your confirmation message tells you which you have, if you read it the
-        way a server does. Language like a table until 11pm, a dining
+        Your confirmation message tells you which you have, if you read it
+        closely. Language like a table until 11pm, a dining
         reservation, or a request to vacate for the evening turn means a
         release time exists. If the confirmation only gives an arrival window
         and a minimum spend, you almost certainly hold the table to close.
@@ -5013,17 +4909,16 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>The Arrival Window: How Long the Table Is Held</h2>
       <p>
         The timing that actually catches groups out is not how long the table
-        lasts but how long the venue holds it. From experience on the floor,
-        most clubs hold a booked table for 30 to 45 minutes past the booked
+        lasts but how long the venue holds it. In our experience, most clubs
+        hold a booked table for 30 to 45 minutes past the booked
         time. On quiet nights the hold stretches; on a packed Saturday it does
         not, because a dressed table with nobody at it is the most expensive
         empty space in the room.
       </p>
       <p>
-        I held plenty of tables past the official window as a server, but the
-        decision was never mine: the floor manager watched the door count and
-        made the call, and once a table was released there was rarely a second
-        one to offer. The fix costs nothing: if you are running late, message
+        Tables are often held past the official window, but that decision sits
+        with the floor manager, who watches the door count and makes the call,
+        and once a table is released there is rarely a second one to offer. The fix costs nothing: if you are running late, message
         the venue or whoever arranged the booking before the window closes.
         A table flagged as on the way gets held; a silent no-show gets resold.
       </p>
@@ -5040,8 +4935,7 @@ export const blogContent: Record<string, ReactNode> = {
         lets them.
       </p>
       <p>
-        I worked enough New Year shifts to give the same advice every year:
-        on the five or six biggest nights of the calendar, treat your booked
+        Our advice is the same every year: on the five or six biggest nights of the calendar, treat your booked
         arrival time as a hard appointment, reconfirm the timings with the
         venue that week, and assume nothing carries over from your normal
         nights out. The table you keep to 4am in February is the table you
@@ -5139,9 +5033,9 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Booking the table is the easy part. The moment that actually tests a group
         is the money: who pays the deposit, how the minimum spend gets divided, and
-        what happens when someone drops out three days before the night. I spent
-        years serving tables in central London clubs, and I watched more nights
-        soured by a messy split than by any queue or any DJ. This guide covers how
+        what happens when someone drops out three days before the night. Guests
+        we book tell us a messy split sours more nights than any queue or any
+        DJ. This guide covers how
         to split the cost of a club table in London properly, from the first
         transfer to the final tab, so the only thing your group argues about is the
         playlist.
@@ -5170,7 +5064,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Three Ways Groups Actually Split a Table</h2>
       <p>
-        From experience, every group lands on one of three methods, and all three
+        In our experience, every group lands on one of three methods, and all three
         work as long as everyone knows which one is in play before the night.
       </p>
       <ul>
@@ -5186,12 +5080,11 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Collect the Money Before the Night, Not After</h2>
       <p>
-        This is the single rule I wish every organiser followed. Collect each
+        This is the single rule we wish every organiser followed. Collect each
         person&apos;s share by bank transfer <strong>before</strong>{" "}the booking is
-        confirmed, or at the very latest before you leave for the club. When I was
-        on the floor I lost count of the organisers I watched hunched over their
-        phones at two in the morning, chasing transfers between rounds while the
-        rest of the table danced. Nobody sends money faster after the drinks than
+        confirmed, or at the very latest before you leave for the club. Otherwise
+        the organiser ends up hunched over their phone at two in the morning,
+        chasing transfers between rounds while the rest of the table dances. Nobody sends money faster after the drinks than
         they would have before them, and the organiser should not be the group&apos;s
         unpaid credit line.
       </p>
@@ -5316,8 +5209,8 @@ export const blogContent: Record<string, ReactNode> = {
       <p><em>Last updated: 7 July 2026</em></p>
 
       <p>
-        One of the quiet shifts I watched happen across London&apos;s club floors over
-        the last few years is this: the non-drinker stopped being an afterthought.
+        One of the quiet shifts across London&apos;s club floors over the last few
+        years is this: the non-drinker stopped being an afterthought.
         Every group has one now, the driver, the one in training, the one who
         simply does not drink, and the bottle menus have finally caught up. You
         can run a full, proper table in a London club without a drop of alcohol
@@ -5338,8 +5231,8 @@ export const blogContent: Record<string, ReactNode> = {
         that treats the alcohol-free table with the same theatre as any other.
       </p>
       <p>
-        The reason is commercial as much as cultural, and having worked those
-        floors I can tell you venues understood it quickly: a group books where
+        The reason is commercial as much as cultural, and venues understood it
+        quickly: a group books where
         the whole group is looked after. The table with two non-drinkers does
         not shrink its order, it changes it, and the room that serves those two
         guests properly keeps the whole party coming back. Nothing in
@@ -5365,7 +5258,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>How It Works With the Minimum Spend</h2>
       <p>
-        The question I heard most often from organisers: does the alcohol-free
+        The question we hear most often from organisers: does the alcohol-free
         order count toward the table&apos;s minimum spend? Yes. The minimum spend is
         a drinks-and-menu target, not an alcohol target, and every bottle,
         carafe and mocktail round on the bill counts toward it exactly like a
@@ -5379,14 +5272,14 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Who Orders It, and Why It Works</h2>
       <p>
-        From experience, the alcohol-free table order is almost never a whole
+        In our experience, the alcohol-free table order is almost never a whole
         table; it is woven through a normal one. The designated driver, the
         friend mid-training-block, guests who do not drink for faith or health
         reasons, the mum-to-be at her own celebration. What the modern options
-        fix is the optics problem the old lime-and-soda never could. I served
-        tables where the driver&apos;s alcohol-free sparkling went into the same ice
-        bucket and got the same presentation as everything else, and nobody on
-        that floor could tell who was drinking what, which is exactly the point.
+        fix is the optics problem the old lime-and-soda never could. When the
+        driver&apos;s alcohol-free sparkling goes into the same ice bucket and gets
+        the same presentation as everything else, nobody on the floor can tell
+        who is drinking what, which is exactly the point.
         The night feels shared because the service is.
       </p>
 
@@ -5486,7 +5379,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
       <p><em>Last updated: 13 July 2026</em></p>
       <p>
-        It is quarter to three, the lights are threatening to come up, and there is a third of a bottle of vodka sitting in the ice bucket. Someone at the table says what everyone is thinking: we paid for that, surely we can take it home. I have watched this conversation happen hundreds of times, and the answer almost never changes. Here is the honest, complete answer to whether you can take bottles home from a London club, what actually happens to the leftovers, and how to stop paying for spirits you never drink, as of July 2026.
+        It is quarter to three, the lights are threatening to come up, and there is a third of a bottle of vodka sitting in the ice bucket. Someone at the table says what everyone is thinking: we paid for that, surely we can take it home. It is one of the questions guests we book ask most often, and the answer almost never changes. Here is the honest, complete answer to whether you can take bottles home from a London club, what actually happens to the leftovers, and how to stop paying for spirits you never drink, as of July 2026.
       </p>
 
       <h2>The Short Answer</h2>
@@ -5503,7 +5396,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>What Actually Happens to Unfinished Bottles</h2>
       <p>
-        Through the night, your bottles are worked properly: iced, re-iced, poured and re-positioned by your server, whose job includes making the last third of a bottle as drinkable as the first. As the session closes, the service tightens; you will notice pours getting more attentive in the final half hour, which is the floor team quietly helping the table finish what it opened. Then the lights come up, the table is cleared, and whatever is left goes back to the bar and is written off. From experience, the sweep is fast and completely unsentimental: I once watched a table try to negotiate for a nearly full bottle of champagne at close, and the manager&apos;s answer was to offer them a round of glasses on the house instead, poured and drunk there. That is as generous as the rule ever gets.
+        Through the night, your bottles are worked properly: iced, re-iced, poured and re-positioned by your server, whose job includes making the last third of a bottle as drinkable as the first. As the session closes, the service tightens; you will notice pours getting more attentive in the final half hour, which is the floor team quietly helping the table finish what it opened. Then the lights come up, the table is cleared, and whatever is left goes back to the bar and is written off. The sweep is fast and completely unsentimental: a table that tries to negotiate for a nearly full bottle of champagne at close might, at best, be offered a final pour to finish there and then. That is as generous as the rule ever gets.
       </p>
 
       <h2>The Unopened Bottle Question</h2>
@@ -5557,7 +5450,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
       <p><em>Last updated: 13 July 2026</em></p>
       <p>
-        Every table has the moment. Someone picks up the menu, finds the bottle they bought last week in a supermarket, sees a number several times larger, and says the line every server in London has heard ten thousand times: you know how much this actually costs, right? Having worked around this industry for years, I want to answer that question properly for once, from the venue side, without spin. The price is real, the reasons are structural, and once you see the maths you will read every bottle menu in London differently, as of July 2026.
+        Every table has the moment. Someone picks up the menu, finds the bottle they bought last week in a supermarket, sees a number several times larger, and says the line every server in London has heard ten thousand times: you know how much this actually costs, right? This guide answers that question properly for once, from the venue side, without spin. The price is real, the reasons are structural, and once you see the maths you will read every bottle menu in London differently, as of July 2026.
       </p>
 
       <h2>You Are Not Buying a Bottle. You Are Renting a Room.</h2>
@@ -5569,7 +5462,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Costs You Never See</h2>
       <p>
-        Now the venue side of the ledger, which nobody at the table sees. Central London rents and business rates are brutal and due every month, while most clubs trade seriously only two or three nights a week; the quiet nights pay the same rent as the full ones. Staffing a proper venue is heavy: a licensed door team, floor security, servers, bartenders, cloakroom, management, all peaking at hours when wages cost the most. The late licence itself carries conditions that cost real money to honour, from security ratios to sound management, and the insurance behind a room full of people and alcohol at 2am is priced accordingly. From my conversations on the operations side, the figure that shocks outsiders most is how much of a big Saturday simply pays for the Tuesday the room sat dark.
+        Now the venue side of the ledger, which nobody at the table sees. Central London rents and business rates are brutal and due every month, while most clubs trade seriously only two or three nights a week; the quiet nights pay the same rent as the full ones. Staffing a proper venue is heavy: a licensed door team, floor security, servers, bartenders, cloakroom, management, all peaking at hours when wages cost the most. The late licence itself carries conditions that cost real money to honour, from security ratios to sound management, and the insurance behind a room full of people and alcohol at 2am is priced accordingly. The figure that shocks outsiders most is how much of a big Saturday simply pays for the Tuesday the room sat dark.
       </p>
 
       <h2>Why the Markup Is the Business Model</h2>
