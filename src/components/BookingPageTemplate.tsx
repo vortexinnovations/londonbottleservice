@@ -35,11 +35,11 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       addressLocality: "London",
       addressCountry: "GB",
     },
-    openingHoursSpecification: !club.openingHours.includes("–") ? undefined : club.openingNights.map((night) => ({
+    openingHoursSpecification: !club.openingHours.includes(" to ") ? undefined : club.openingNights.map((night) => ({
       "@type": "OpeningHoursSpecification",
       dayOfWeek: night,
-      opens: club.openingHours.split("–")[0]?.trim(),
-      closes: club.openingHours.split("–")[1]?.trim() || "03:00",
+      opens: club.openingHours.split(" to ")[0]?.trim(),
+      closes: club.openingHours.split(" to ")[1]?.trim() || "03:00",
     })),
     priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
     url: `https://londonbottleservice.com/${bookingSlug}`,
@@ -93,9 +93,9 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <Link href="/book-a-table" className="hover:text-text-secondary transition-colors">Book a Table</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">{club.name}</span>
         </nav>
       </div>
@@ -106,13 +106,13 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
         alt={images.alt}
         height="h-[50vh] min-h-[400px]"
         overlay="strong"
-        caption={`Fig. 01 — ${club.name}, ${club.area}`}
+        caption={`Fig. 01: ${club.name}, ${club.area}`}
       >
         <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">
-          London&apos;s dedicated VIP table concierge — direct venue relationships, instant confirmation
+          London&apos;s dedicated VIP table concierge: direct venue relationships, instant confirmation
         </p>
         <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-3 animate-fade-up-1">
-          {club.area} &mdash; <span className="price"><Price value={club.pricing.floorTable} prefix="Tables from " onRequest="Price on request" /></span>
+          {club.area} &middot; <span className="price"><Price value={club.pricing.floorTable} prefix="Tables from " onRequest="Price on request" /></span>
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">{data.h1}</h1>
         <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl animate-fade-up-2">
@@ -121,7 +121,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
         <div className="animate-fade-up-3">
           <WhatsAppCTA
             clubName={club.name}
-            urgencyMessage="Tables fill fast on weekends — book now to secure your spot"
+            urgencyMessage="Tables fill fast on weekends. Book now to secure your spot"
           />
         </div>
       </HeroImage>
@@ -174,7 +174,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       <WhatsAppCTA
         variant="banner"
         clubName={club.name}
-        urgencyMessage={`Weekend tables at ${club.name} book out fast — message us now to check availability`}
+        urgencyMessage={`Weekend tables at ${club.name} book out fast. Message us now to check availability`}
       />
 
       {/* Trust Badges */}
@@ -298,7 +298,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
           className={`py-16 md:py-20 px-4 sm:px-6 border-b border-border ${i % 2 === 0 ? "bg-bg-secondary" : ""}`}
         >
           <div className="max-w-4xl mx-auto">
-            <p className="eyebrow mb-4">No. {String(i + 1).padStart(2, "0")} &mdash; In detail</p>
+            <p className="eyebrow mb-4">No. {String(i + 1).padStart(2, "0")}: In detail</p>
             <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">{section.heading}</h2>
             <p className="text-text-secondary leading-relaxed whitespace-pre-line">
               {section.content}
@@ -327,7 +327,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
         <div className="max-w-3xl mx-auto">
           <p className="eyebrow mb-4">Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
-            {club.name}{" "}Table Booking — Frequently Asked Questions
+            {club.name}{" "}Table Booking: Frequently Asked Questions
           </h2>
           <div className="border-t border-border">
             {data.faqs.map((faq, i) => (
@@ -397,7 +397,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
               <ul className="space-y-2 text-sm">
                 <li>
                   <Link href={`/clubs/${club.slug}`} className="text-text-secondary hover:text-gold transition-colors">
-                    {club.name} — Full Club Guide &amp; Details &rarr;
+                    {club.name}: Full Club Guide &amp; Details &rarr;
                   </Link>
                 </li>
                 <li>

@@ -59,7 +59,7 @@ export function WhatsAppCTA({
             {clubName ? `Book Your Table at ${clubName} Now` : "Book Your Table Now on WhatsApp"}
           </a>
           <p className="microline mt-3">
-            You&apos;ll message a real person — replies within minutes, no forms.
+            You&apos;ll message a real person: replies within minutes, no forms.
           </p>
         </div>
       </div>
@@ -83,7 +83,7 @@ export function WhatsAppCTA({
         {clubName ? `Book at ${clubName}` : "Book a Table on WhatsApp"}
       </a>
       <span className="microline block mt-3">
-        You&apos;ll message a real person — replies within minutes.
+        You&apos;ll message a real person: replies within minutes.
       </span>
     </span>
   );

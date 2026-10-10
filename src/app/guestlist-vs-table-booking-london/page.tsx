@@ -11,7 +11,7 @@ import { pageImages } from "@/data/images";
 
 export const metadata: Metadata = {
   title:
-    "Guestlist vs Table Booking London — Which Should You Choose?",
+    "Guestlist vs Table Booking London: Which Should You Choose?",
   description:
     "Guestlist vs table booking at London clubs: real cost comparison, what each gets you, and which is right for your group.",
   alternates: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:
-      "Guestlist vs Table Booking in London — The Complete Comparison",
+      "Guestlist vs Table Booking in London: The Complete Comparison",
     description:
       "Should you get on the guestlist or book a table? We break down cost, experience, access, and practicality for every London club.",
     url: "https://londonbottleservice.com/guestlist-vs-table-booking-london",
@@ -36,22 +36,22 @@ const faqs = [
   {
     question: "How much does guestlist cost compared to a table booking?",
     answer:
-      "Guestlist is typically free or involves a small cover charge of £10 to £30 per person, depending on the venue and night. Table bookings have a minimum spend starting from £1,000 at most London clubs. However, the minimum spend covers all your drinks for the night. When you factor in the cost of buying drinks at the bar — typically £15 to £20 per cocktail in Mayfair — a table booking can work out to similar or better value per person for groups of six or more.",
+      "Guestlist is typically free or involves a small cover charge of £10 to £30 per person, depending on the venue and night. Table bookings have a minimum spend starting from £1,000 at most London clubs. However, the minimum spend covers all your drinks for the night. When you factor in the cost of buying drinks at the bar, typically £15 to £20 per cocktail in Mayfair, a table booking can work out to similar or better value per person for groups of six or more.",
   },
   {
     question: "Is guestlist entry guaranteed?",
     answer:
-      "Not always. Being on the guestlist means your name is at the door, but most London clubs reserve the right to refuse entry based on dress code, capacity, or the door team's discretion. Some venues are more strict than others — Tape London and The Box are extremely difficult to enter on guestlist alone. Table bookings guarantee entry for your entire group, making them the more reliable option if you need certainty.",
+      "Not always. Being on the guestlist means your name is at the door, but most London clubs reserve the right to refuse entry based on dress code, capacity, or the door team's discretion. Some venues are more strict than others: Tape London and The Box are extremely difficult to enter on guestlist alone. Table bookings guarantee entry for your entire group, making them the more reliable option if you need certainty.",
   },
   {
     question: "Can I get on the guestlist at any London club?",
     answer:
-      "Most London clubs offer some form of guestlist, but the availability and benefit varies. Some clubs run active guestlists on certain nights. Others like Tape London rarely offer meaningful guestlist access — the venue is a members' club and getting in without a table booking is very difficult. The Box is similarly selective. We can advise on guestlist availability for any specific venue.",
+      "Most London clubs offer some form of guestlist, but the availability and benefit varies. Some clubs run active guestlists on certain nights. Others like Tape London rarely offer meaningful guestlist access: the venue is a members' club and getting in without a table booking is very difficult. The Box is similarly selective. We can advise on guestlist availability for any specific venue.",
   },
   {
     question: "When should I choose a table booking over guestlist?",
     answer:
-      "Choose a table booking when you want guaranteed entry (no risk of being turned away), a reserved space to sit and drink comfortably, a personal waitress serving bottles to your table, priority entry that skips the entire queue, or when you are celebrating a special occasion. Also choose a table booking for groups of six or more — the per-person value is strong and the experience is dramatically better than standing at the bar.",
+      "Choose a table booking when you want guaranteed entry (no risk of being turned away), a reserved space to sit and drink comfortably, a personal waitress serving bottles to your table, priority entry that skips the entire queue, or when you are celebrating a special occasion. Also choose a table booking for groups of six or more: the per-person value is strong and the experience is dramatically better than standing at the bar.",
   },
   {
     question:
@@ -85,7 +85,7 @@ export default function GuestlistVsTableBookingPage() {
           <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">
             Guestlist vs Table Booking
           </span>
@@ -96,15 +96,15 @@ export default function GuestlistVsTableBookingPage() {
       <HeroImage src={pageImages.guestlistVsTable.hero} alt={pageImages.guestlistVsTable.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
         <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The comparison</p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
-          Guestlist vs Table Booking in London — The Complete Comparison
+          Guestlist vs Table Booking in London: The Complete Comparison
         </h1>
         <p className="text-text-secondary text-lg leading-relaxed mb-4 animate-fade-up-2">
           If you are planning a night out in London, you have two main
           options for getting into the best clubs: guestlist or table
           booking. Both get you through the door, but the experiences are
-          fundamentally different. Guestlist is the entry-level option —
-          you get your name at the door and hopefully skip some of the
-          queue. Table booking is the premium option — you get a reserved
+          fundamentally different. Guestlist is the entry-level option. 
+          You get your name at the door and hopefully skip some of the
+          queue. Table booking is the premium option. You get a reserved
           space, bottle service, a personal waitress, and guaranteed entry.
         </p>
         <p className="text-text-secondary leading-relaxed mb-4 animate-fade-up-3">
@@ -112,7 +112,7 @@ export default function GuestlistVsTableBookingPage() {
           want from the night, and which club you are going to. This guide
           breaks down both options in detail so you can make an informed
           decision. We are a table booking service, so we are naturally
-          biased — but we will be honest about when guestlist is the better
+          biased, but we will be honest about when guestlist is the better
           call for certain groups.
         </p>
         <p className="text-text-muted animate-fade-up-3">
@@ -131,9 +131,9 @@ export default function GuestlistVsTableBookingPage() {
       {/* Side by Side Comparison */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 01 — Side by side</p>
+          <p className="eyebrow mb-4">No. 01: Side by side</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Guestlist vs Table Booking — Side by Side
+            Guestlist vs Table Booking: Side by Side
           </h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
@@ -167,7 +167,7 @@ export default function GuestlistVsTableBookingPage() {
                     Entry Guarantee
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    Not guaranteed — door discretion applies
+                    Not guaranteed: door discretion applies
                   </td>
                   <td className="py-3 text-gold-light">
                     Guaranteed for your entire group
@@ -181,7 +181,7 @@ export default function GuestlistVsTableBookingPage() {
                     May skip general queue, not always
                   </td>
                   <td className="py-3 text-gold-light">
-                    Priority entry — skip the queue entirely
+                    Priority entry: skip the queue entirely
                   </td>
                 </tr>
                 <tr className="border-b border-border">
@@ -189,7 +189,7 @@ export default function GuestlistVsTableBookingPage() {
                     Seating
                   </td>
                   <td className="py-3 pr-4 text-text-muted">
-                    No reserved space — standing or finding space
+                    No reserved space: standing or finding space
                   </td>
                   <td className="py-3 text-gold-light">
                     Reserved table and seating area
@@ -248,22 +248,22 @@ export default function GuestlistVsTableBookingPage() {
       {/* Cost Comparison Deep Dive */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 02 — The costs</p>
+          <p className="eyebrow mb-4">No. 02: The costs</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             The Real Cost Comparison
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
             On the surface, guestlist looks dramatically cheaper than a table
-            booking. But when you factor in the actual cost of a night out —
-            drinks at the bar, potential cover charges, and the risk of not
-            getting in — the gap narrows significantly, especially for
+            booking. But when you factor in the actual cost of a night out
+            (drinks at the bar, potential cover charges, and the risk of not
+            getting in), the gap narrows significantly, especially for
             larger groups.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-bg-card border border-border p-6">
               <p className="eyebrow mb-2">Ledger A</p>
               <h3 className="font-display text-lg font-medium mb-4">
-                Guestlist Night — Typical Cost
+                Guestlist Night: Typical Cost
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-baseline">
@@ -304,7 +304,7 @@ export default function GuestlistVsTableBookingPage() {
             <div className="bg-bg-card border border-gold-dark p-6">
               <p className="eyebrow mb-2">Ledger B</p>
               <h3 className="font-display text-lg font-medium mb-4">
-                Table Booking — Typical Cost
+                Table Booking: Typical Cost
               </h3>
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-baseline">
@@ -347,7 +347,7 @@ export default function GuestlistVsTableBookingPage() {
           </div>
           <p className="text-text-muted text-sm">
             For groups of six or more, table bookings often represent equal
-            or better value than guestlist — with a dramatically better
+            or better value than guestlist, with a dramatically better
             experience. The break-even point is typically around five to six
             people at a £1,000 minimum venue.
           </p>
@@ -357,7 +357,7 @@ export default function GuestlistVsTableBookingPage() {
       {/* Experience Comparison */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 03 — The experience</p>
+          <p className="eyebrow mb-4">No. 03: The experience</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             The Experience Difference
           </h2>
@@ -373,12 +373,12 @@ export default function GuestlistVsTableBookingPage() {
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 You arrive at the venue, give your name to the door team,
-                and join the guestlist queue — which is shorter than the
+                and join the guestlist queue, which is shorter than the
                 general queue but still involves waiting, particularly on
                 Saturdays. Once inside, you head to the bar. At busy
                 Mayfair clubs, expect to wait five to fifteen minutes per
                 round. Cocktails run £15 to £20 each. There is no
-                guaranteed seating — you stand, find a spot near the dance
+                guaranteed seating. You stand, find a spot near the dance
                 floor, or lean against a wall. For a casual night with a
                 small group, this is perfectly fine. For a birthday, a
                 larger group, or a night you want to feel special, it can
@@ -410,9 +410,9 @@ export default function GuestlistVsTableBookingPage() {
       {/* Club-Specific Comparison */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 04 — The clubs</p>
+          <p className="eyebrow mb-4">No. 04: The clubs</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Guestlist vs Table Booking — By Club
+            Guestlist vs Table Booking: By Club
           </h2>
           <p className="text-text-muted mb-8">
             The balance between guestlist and table booking varies by venue.
@@ -427,7 +427,7 @@ export default function GuestlistVsTableBookingPage() {
                 club.slug === "the-box" ||
                 club.slug === "scotch-of-st-james";
               const tableEssential = isHardDoor
-                ? "Table booking strongly recommended — very difficult to enter on guestlist alone"
+                ? "Table booking strongly recommended: very difficult to enter on guestlist alone"
                 : "Guestlist available but table booking gives a significantly better experience";
               return (
                 <div
@@ -450,7 +450,7 @@ export default function GuestlistVsTableBookingPage() {
                       </span>
                       {isHardDoor && (
                         <span className="text-gold">
-                          {" "}&mdash; Table recommended
+                          {" "}&middot; Table recommended
                         </span>
                       )}
                     </p>
@@ -465,7 +465,7 @@ export default function GuestlistVsTableBookingPage() {
                     >
                       Book a table at {club.shortName} &rarr;
                     </Link>
-                    <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
+                    <span className="font-mono text-[0.6875rem] text-text-muted">&middot;</span>
                     <Link
                       href={`/clubs/${club.slug}`}
                       className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
@@ -483,7 +483,7 @@ export default function GuestlistVsTableBookingPage() {
       {/* When to Choose Each Option */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 05 — The decision</p>
+          <p className="eyebrow mb-4">No. 05: The decision</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             When to Choose Each Option
           </h2>
@@ -536,7 +536,7 @@ export default function GuestlistVsTableBookingPage() {
               <ul className="space-y-3 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
                   <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">1.</span>
-                  Your group is six or more people — the per-person value
+                  Your group is six or more people: the per-person value
                   is strong
                 </li>
                 <li className="flex items-start gap-2">
@@ -546,7 +546,7 @@ export default function GuestlistVsTableBookingPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="font-mono text-[0.6875rem] text-gold-dark flex-shrink-0 pt-0.5">3.</span>
-                  You need guaranteed entry — especially at exclusive
+                  You need guaranteed entry, especially at exclusive
                   venues
                 </li>
                 <li className="flex items-start gap-2">
@@ -568,9 +568,9 @@ export default function GuestlistVsTableBookingPage() {
       {/* The Verdict */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 06 — The verdict</p>
+          <p className="eyebrow mb-4">No. 06: The verdict</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            The Verdict — Our Honest Recommendation
+            The Verdict: Our Honest Recommendation
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
             We are a table booking service, so our recommendation is
@@ -582,14 +582,14 @@ export default function GuestlistVsTableBookingPage() {
           </p>
           <p className="text-text-secondary leading-relaxed mb-4">
             For smaller groups of two to four people on a budget, guestlist
-            can work well — particularly on weeknights and at clubs with
+            can work well, particularly on weeknights and at clubs with
             accessible door policies. There is nothing wrong with the
             guestlist route if it matches your group and your budget.
           </p>
           <p className="text-text-muted">
             If you are unsure, message us on WhatsApp. Tell us your group
             size, budget, and what matters most. We will give you an honest
-            recommendation — and if guestlist is the better option for your
+            recommendation, and if guestlist is the better option for your
             situation, we will tell you that.
           </p>
         </div>
@@ -598,7 +598,7 @@ export default function GuestlistVsTableBookingPage() {
       {/* FAQ Section */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto">
-          <p className="eyebrow mb-4">No. 07 — Questions</p>
+          <p className="eyebrow mb-4">No. 07: Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Guestlist vs Table Booking FAQs
           </h2>

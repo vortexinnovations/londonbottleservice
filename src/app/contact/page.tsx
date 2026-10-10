@@ -5,7 +5,7 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 export const metadata: Metadata = {
   title: "Book a VIP Table | Contact London Bottle Service",
   description:
-    "Book a VIP table at any Mayfair nightclub in under 2 minutes. No forms, no waiting — just message us on WhatsApp and we'll confirm your booking.",
+    "Book a VIP table at any Mayfair nightclub in under 2 minutes. No forms, no waiting: just message us on WhatsApp and we'll confirm your booking.",
   alternates: {
     canonical: "https://londonbottleservice.com/contact",
   },
@@ -23,7 +23,7 @@ export default function ContactPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">Book a Table</span>
         </nav>
       </div>
@@ -37,7 +37,7 @@ export default function ContactPage() {
           <p className="text-text-secondary text-lg leading-relaxed mb-4 animate-fade-up-2">
             No forms. No email chains. No waiting days for a reply. Just tap the
             button below to open a WhatsApp conversation with us. The message
-            pre-fills with everything we need — just add your details and hit send.
+            pre-fills with everything we need. Just add your details and hit send.
           </p>
           <p className="text-text-muted mb-10 animate-fade-up-3">
             We typically respond within minutes, even on weekends.
@@ -73,7 +73,7 @@ export default function ContactPage() {
                   <h3 className="font-display text-lg font-medium mb-1">We check availability</h3>
                   <p className="text-text-muted text-sm leading-relaxed">
                     We go directly to the venue to confirm table availability and
-                    pricing for your specific date. No guesswork — we check in real time.
+                    pricing for your specific date. No guesswork. We check in real time.
                   </p>
                 </div>
               </div>
@@ -111,8 +111,8 @@ export default function ContactPage() {
             <p className="eyebrow mb-2">Undecided</p>
             <h3 className="font-display text-lg font-medium mb-3">Not sure which club to pick?</h3>
             <p className="text-text-muted text-sm leading-relaxed mb-4">
-              Tell us what you&apos;re after — music preference, group size, budget,
-              occasion — and we&apos;ll recommend the right venue. We know these clubs
+              Tell us what you&apos;re after (music preference, group size, budget,
+              occasion) and we&apos;ll recommend the right venue. We know these clubs
               inside out and we&apos;ll give you an honest steer, not just push you
               towards whoever pays us the most.
             </p>

@@ -42,32 +42,32 @@ const faqs = [
   {
     question: "What is the dress code for Mayfair nightclubs?",
     answer:
-      "Mayfair clubs enforce a smart dress code. For men: collared shirt, smart trousers or dark jeans, smart shoes — no trainers, no sportswear, no shorts. Jackets are encouraged at more exclusive venues like Tape London and Maddox. For women: cocktail dresses, heels or smart boots, stylish separates. The door staff at Mayfair clubs are selective, so if you are unsure, overdress.",
+      "Mayfair clubs enforce a smart dress code. For men: collared shirt, smart trousers or dark jeans, smart shoes: no trainers, no sportswear, no shorts. Jackets are encouraged at more exclusive venues like Tape London and Maddox. For women: cocktail dresses, heels or smart boots, stylish separates. The door staff at Mayfair clubs are selective, so if you are unsure, overdress.",
   },
   {
     question: "What is the best night to go to a Mayfair club?",
     answer:
-      "Saturday is the biggest night at every Mayfair club — the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling. Wednesday is available at Cirque Le Soir and The Box with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
+      "Saturday is the biggest night at every Mayfair club: the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling. Wednesday is available at Cirque Le Soir and The Box with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
   },
   {
     question: "How do I book a table in Mayfair?",
     answer:
-      "The simplest way is to message us on WhatsApp. We have direct relationships with every Mayfair club and can secure tables quickly — often same-day for midweek bookings. Tell us which club you prefer (or ask for a recommendation), your date, group size, and any special requests. We confirm everything with the venue and you pay nothing to us — the only cost is the minimum spend at the club on the night.",
+      "The simplest way is to message us on WhatsApp. We have direct relationships with every Mayfair club and can secure tables quickly, often same-day for midweek bookings. Tell us which club you prefer (or ask for a recommendation), your date, group size, and any special requests. We confirm everything with the venue and you pay nothing to us: the only cost is the minimum spend at the club on the night.",
   },
   {
     question: "Do Mayfair clubs have a minimum spend?",
     answer:
-      "Yes. Every Mayfair club operates on a minimum spend model for table bookings. This is not a cover charge or fee — it is the amount you commit to spending on drinks at your table. A £1,000 minimum means you choose £1,000 worth of bottles from the menu. Your personal waitress helps you select bottles within budget. Mixers, ice, and garnishes are included in the bottle prices.",
+      "Yes. Every Mayfair club operates on a minimum spend model for table bookings. This is not a cover charge or fee. It is the amount you commit to spending on drinks at your table. A £1,000 minimum means you choose £1,000 worth of bottles from the menu. Your personal waitress helps you select bottles within budget. Mixers, ice, and garnishes are included in the bottle prices.",
   },
   {
     question: "Can I get into a Mayfair club without a table booking?",
     answer:
-      "Some Mayfair clubs offer guestlist entry, but most do not guarantee walk-in access — especially on weekends. Tape London and The Box are extremely difficult to enter without a booking. Some other clubs occasionally accept walk-ins early in the evening, but there is no guarantee. A table booking gives you guaranteed entry, a reserved space, and a personal waitress — it is the reliable way to experience Mayfair nightlife.",
+      "Some Mayfair clubs offer guestlist entry, but most do not guarantee walk-in access, especially on weekends. Tape London and The Box are extremely difficult to enter without a booking. Some other clubs occasionally accept walk-ins early in the evening, but there is no guarantee. A table booking gives you guaranteed entry, a reserved space, and a personal waitress. It is the reliable way to experience Mayfair nightlife.",
   },
   {
     question: "Which Mayfair club is best for a birthday celebration?",
     answer:
-      "For theatrical birthday celebrations, Cirque Le Soir's circus performers and Soho location make it the most memorable option. Within Mayfair proper, Selene London's bowling lanes add an activity element that works brilliantly for birthday groups. Most clubs can arrange cakes, sparklers, and birthday announcements — let us know when you book and we coordinate everything.",
+      "For theatrical birthday celebrations, Cirque Le Soir's circus performers and Soho location make it the most memorable option. Within Mayfair proper, Selene London's bowling lanes add an activity element that works brilliantly for birthday groups. Most clubs can arrange cakes, sparklers, and birthday announcements: let us know when you book and we coordinate everything.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function MayfairTableBookingGuidePage() {
           <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">
             Mayfair Table Booking Guide
           </span>
@@ -99,14 +99,14 @@ export default function MayfairTableBookingGuidePage() {
 
       {/* Hero */}
       <HeroImage src={pageImages.mayfairGuide.hero} alt={pageImages.mayfairGuide.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
-        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">Area guide — Mayfair</p>
+        <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">Area guide: Mayfair</p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
-          Mayfair Table Booking Guide — Everything You Need to Know
+          Mayfair Table Booking Guide: Everything You Need to Know
         </h1>
         <p className="text-text-secondary text-lg leading-relaxed mb-4 animate-fade-up-2">
           Mayfair is the centre of London&apos;s nightlife scene. Within a
           few streets you will find some of the most exclusive clubs in the
-          world — members&apos; clubs, show venues, hip-hop institutions, and
+          world: members&apos; clubs, show venues, hip-hop institutions, and
           house music haunts. But booking a table in Mayfair for the first
           time can feel opaque. How much should you spend? What do you
           wear? Which club suits your group? Which night should you go?
@@ -121,7 +121,7 @@ export default function MayfairTableBookingGuidePage() {
           you need to make the right decision.
         </p>
         <p className="text-text-muted animate-fade-up-3">
-          No fluff, no guesswork — just practical information from people
+          No fluff, no guesswork. Just practical information from people
           who do this professionally.
         </p>
       </HeroImage>
@@ -136,13 +136,13 @@ export default function MayfairTableBookingGuidePage() {
       {/* Pricing Overview */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 01 — Pricing</p>
+          <p className="eyebrow mb-4">No. 01: Pricing</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Mayfair Club Prices — What to Expect
+            Mayfair Club Prices: What to Expect
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
             Table bookings in Mayfair work on a minimum spend model. The
-            amount you commit is not a fee or a cover charge — it is your
+            amount you commit is not a fee or a cover charge. It is your
             drinks budget. You choose bottles from the menu and your personal
             waitress serves them to your table all night. Mixers, ice, and
             garnishes are always included.
@@ -210,14 +210,14 @@ export default function MayfairTableBookingGuidePage() {
       {/* Dress Code Section */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 02 — Dress code</p>
+          <p className="eyebrow mb-4">No. 02: Dress code</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Mayfair Dress Code — What to Wear
+            Mayfair Dress Code: What to Wear
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
             Mayfair clubs take dress code seriously. The door staff are
             selective and will turn people away if they are not dressed
-            appropriately — even with a table booking. The standard across
+            appropriately, even with a table booking. The standard across
             all Mayfair venues is smart, but the interpretation varies
             slightly by club.
           </p>
@@ -227,7 +227,7 @@ export default function MayfairTableBookingGuidePage() {
               <ul className="space-y-2 text-text-muted text-sm">
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
-                  Collared shirt — mandatory at every Mayfair club
+                  Collared shirt: mandatory at every Mayfair club
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
@@ -235,7 +235,7 @@ export default function MayfairTableBookingGuidePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
-                  Smart shoes — leather or suede, no trainers
+                  Smart shoes: leather or suede, no trainers
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
@@ -256,7 +256,7 @@ export default function MayfairTableBookingGuidePage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
-                  Heels or smart boots — the standard Mayfair look
+                  Heels or smart boots: the standard Mayfair look
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-success flex-shrink-0">+</span>
@@ -280,7 +280,7 @@ export default function MayfairTableBookingGuidePage() {
       {/* Best Nights */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 03 — The week</p>
+          <p className="eyebrow mb-4">No. 03: The week</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Best Nights to Go Out in Mayfair
           </h2>
@@ -292,20 +292,20 @@ export default function MayfairTableBookingGuidePage() {
           <div className="border-t border-border">
             <div className="py-5 border-b border-border">
               <h3 className="font-display text-lg font-medium mb-2">
-                Saturday — The Main Event
+                Saturday: The Main Event
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 Every Mayfair club is open and at its busiest. The
                 atmosphere is at its peak, the crowds are largest, and the
                 minimum spends are at their highest. Saturday is the night
                 for groups who want the full Mayfair experience and do not
-                mind paying the premium. Book early — VIP tables sell out
+                mind paying the premium. Book early: VIP tables sell out
                 weeks in advance for Saturdays.
               </p>
             </div>
             <div className="py-5 border-b border-border">
               <h3 className="font-display text-lg font-medium mb-2">
-                Friday — The Sweet Spot
+                Friday: The Sweet Spot
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 All venues open with strong crowds and a slightly more
@@ -318,7 +318,7 @@ export default function MayfairTableBookingGuidePage() {
             </div>
             <div className="py-5 border-b border-border">
               <h3 className="font-display text-lg font-medium mb-2">
-                Thursday — The Insider Night
+                Thursday: The Insider Night
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 Available at Selene, Dear Darling, Maddox, and
@@ -332,7 +332,7 @@ export default function MayfairTableBookingGuidePage() {
             </div>
             <div className="py-5 border-b border-border">
               <h3 className="font-display text-lg font-medium mb-2">
-                Wednesday — Early Week Option
+                Wednesday: Early Week Option
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 Available at Cirque Le Soir and The Box. Midweek nights offer the
@@ -348,9 +348,9 @@ export default function MayfairTableBookingGuidePage() {
       {/* All Mayfair Clubs */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 04 — The clubs</p>
+          <p className="eyebrow mb-4">No. 04: The clubs</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Every Mayfair Club — Quick Guide
+            Every Mayfair Club: Quick Guide
           </h2>
           <p className="text-text-muted mb-8">
             Here is every Mayfair club we work with, what makes each one
@@ -373,7 +373,7 @@ export default function MayfairTableBookingGuidePage() {
                       </Link>
                     </h3>
                     <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">
-                      {club.area} &mdash; {formatNights(club, ", ")} &mdash;{" "}
+                      {club.area} &middot; {formatNights(club, ", ")} &middot;{" "}
                       {club.musicPolicy.split(",")[0]}
                     </p>
                   </div>
@@ -400,7 +400,7 @@ export default function MayfairTableBookingGuidePage() {
                   >
                     Book a table &rarr;
                   </Link>
-                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
+                  <span className="font-mono text-[0.6875rem] text-text-muted">&middot;</span>
                   <Link
                     href={`/clubs/${club.slug}`}
                     className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-text-secondary hover:text-gold transition-colors"
@@ -417,7 +417,7 @@ export default function MayfairTableBookingGuidePage() {
       {/* Booking Process */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 05 — The process</p>
+          <p className="eyebrow mb-4">No. 05: The process</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How the Booking Process Works
           </h2>
@@ -479,7 +479,7 @@ export default function MayfairTableBookingGuidePage() {
       {/* FAQ Section */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <p className="eyebrow mb-4">No. 06 — Questions</p>
+          <p className="eyebrow mb-4">No. 06: Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             Mayfair Table Booking FAQs
           </h2>

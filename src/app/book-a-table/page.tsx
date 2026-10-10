@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "What does minimum spend mean?",
     answer:
-      "The minimum spend is the amount you spend on drinks at your table — premium spirits, champagne, or a mix. It is not an entry fee. Your personal waitress helps you choose bottles that meet your minimum. Mixers, ice, and garnishes are included.",
+      "The minimum spend is the amount you spend on drinks at your table: premium spirits, champagne, or a mix. It is not an entry fee. Your personal waitress helps you choose bottles that meet your minimum. Mixers, ice, and garnishes are included.",
   },
   {
     question: "Is there a booking fee?",
@@ -72,7 +72,7 @@ export default function BookATablePage() {
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">Book a Table</span>
         </nav>
       </div>
@@ -88,7 +88,7 @@ export default function BookATablePage() {
           directly with the venue. Real prices, instant confirmation, no booking fees.
         </p>
         <div className="animate-fade-up-3">
-          <WhatsAppCTA urgencyMessage="Weekend tables fill fast — book now to secure your spot" />
+          <WhatsAppCTA urgencyMessage="Weekend tables fill fast. Book now to secure your spot" />
         </div>
       </HeroImage>
 
@@ -114,7 +114,7 @@ export default function BookATablePage() {
                 className="bg-bg-card border border-border p-6 hover:border-gold-dark hover:bg-bg-card/40 transition-colors group"
               >
                 <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-3">
-                  No. {String(i + 1).padStart(2, "0")} &mdash; {club.area}
+                  No. {String(i + 1).padStart(2, "0")}: {club.area}
                 </p>
                 <h3 className="font-display italic text-xl font-normal group-hover:text-gold-light transition-colors mb-4">
                   {club.name}
@@ -134,7 +134,7 @@ export default function BookATablePage() {
                   </span>
                 </div>
                 <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-4">
-                  {formatNights(club, " — ")}
+                  {formatNights(club, ", ")}
                 </p>
                 <span className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold group-hover:text-gold-light transition-colors">
                   Book a Table &rarr;
@@ -156,7 +156,7 @@ export default function BookATablePage() {
             {[
               { step: "1", title: "Choose a Club", desc: "Browse our venues above or message us if you're not sure which club suits your group." },
               { step: "2", title: "Send Your Details", desc: "Tap WhatsApp and tell us your date, group size, budget, and any special requests." },
-              { step: "3", title: "We Confirm", desc: "We contact the venue directly and confirm your table — usually within minutes." },
+              { step: "3", title: "We Confirm", desc: "We contact the venue directly and confirm your table, usually within minutes." },
               { step: "4", title: "Arrive & Enjoy", desc: "Skip the queue, sit down at your reserved table, and your personal waitress is ready." },
             ].map((item) => (
               <div key={item.step}>
@@ -199,7 +199,7 @@ export default function BookATablePage() {
         <div className="max-w-3xl mx-auto">
           <p className="eyebrow mb-4">Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
-            Table Booking — Frequently Asked Questions
+            Table Booking: Frequently Asked Questions
           </h2>
           <div className="border-t border-border">
             {faqs.map((faq, i) => (

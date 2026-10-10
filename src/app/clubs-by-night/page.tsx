@@ -60,7 +60,7 @@ const nights: NightData[] = [
     night: "Monday",
     status: "limited",
     description:
-      "Monday is the quietest night in Mayfair, but it's not completely dead. Cirque Le Soir opens its doors for those who want to start the week with a bang — and if you're going to go out on a Monday, a circus-themed nightclub is a strong way to do it. Expect a more intimate crowd and often more flexible pricing.",
+      "Monday is the quietest night in Mayfair, but it's not completely dead. Cirque Le Soir opens its doors for those who want to start the week with a bang, and if you're going to go out on a Monday, a circus-themed nightclub is a strong way to do it. Expect a more intimate crowd and often more flexible pricing.",
     clubs: ["cirque-le-soir"],
     vibe: "Intimate and exclusive. A small, dedicated crowd who don't wait for the weekend.",
     tip: "Monday at Cirque Le Soir is the most intimate experience they offer. Smaller crowd, more performer attention, and often the best value of the week.",
@@ -69,10 +69,10 @@ const nights: NightData[] = [
     night: "Tuesday",
     status: "limited",
     description:
-      "Tuesday kicks off the week with two strong options. Tape London brings its members' club exclusivity, while Reign London opens with its Las Vegas-style showclub experience. It's an early-week option for those who can't wait for the weekend — and minimum spends tend to be more flexible.",
+      "Tuesday kicks off the week with two strong options. Tape London brings its members' club exclusivity, while Reign London opens with its Las Vegas-style showclub experience. It's an early-week option for those who can't wait for the weekend, and minimum spends tend to be more flexible.",
     clubs: ["tape-london", "london-reign"],
     vibe: "Exclusive and relaxed. Early-week regulars and a curated crowd who prefer starting the party early.",
-    tip: "Tuesday at Tape London is excellent value — you get the full members' club experience with a more relaxed door and often lower minimums than weekends.",
+    tip: "Tuesday at Tape London is excellent value. You get the full members' club experience with a more relaxed door and often lower minimums than weekends.",
   },
   {
     night: "Wednesday",
@@ -87,7 +87,7 @@ const nights: NightData[] = [
     night: "Thursday",
     status: "active",
     description:
-      "Thursday is the sweet spot for many London regulars — strong atmosphere, real buzz, but without Saturday's premium pricing. Seven of the clubs listed here are open, giving you real choice across music genres and atmospheres. This is the night when Mayfair professionals come out, international visitors start their long weekends, and the energy is unmistakably 'big night' without the chaos.",
+      "Thursday is the sweet spot for many London regulars: strong atmosphere, real buzz, but without Saturday's premium pricing. Seven of the clubs listed here are open, giving you real choice across music genres and atmospheres. This is the night when Mayfair professionals come out, international visitors start their long weekends, and the energy is unmistakably 'big night' without the chaos.",
     clubs: [
       "london-reign",
       "scotch-of-st-james",
@@ -104,7 +104,7 @@ const nights: NightData[] = [
     night: "Friday",
     status: "peak",
     description:
-      "Friday brings out the weekend warriors. Nine of the clubs listed here are open and the streets of Mayfair buzz with groups heading from dinner to the clubs. The crowd skews more local on Fridays — Londoners who've finished the work week and are ready to go. It's the best night if you want a strong atmosphere without Saturday's international tourist influx.",
+      "Friday brings out the weekend warriors. Nine of the clubs listed here are open and the streets of Mayfair buzz with groups heading from dinner to the clubs. The crowd skews more local on Fridays: Londoners who've finished the work week and are ready to go. It's the best night if you want a strong atmosphere without Saturday's international tourist influx.",
     clubs: [
       "tape-london",
       "cirque-le-soir",
@@ -136,7 +136,7 @@ const nights: NightData[] = [
       "beat-london",
     ],
     vibe: "Peak Mayfair. International crowd, maximum energy, highest production. This is the night London nightlife is famous for.",
-    tip: "Book early for Saturday — premium tables sell out weeks in advance, especially at Cirque Le Soir and Tape London. The earlier you book, the better your table position.",
+    tip: "Book early for Saturday: premium tables sell out weeks in advance, especially at Cirque Le Soir and Tape London. The earlier you book, the better your table position.",
   },
   {
     night: "Sunday",
@@ -145,7 +145,7 @@ const nights: NightData[] = [
       "Sunday offers a few options for those who aren't ready for the weekend to end. Tape London opens its doors with its intimate members' club atmosphere, Dear Darling keeps the party going in Mayfair, and Selene adds its multi-room experience. It's a more relaxed vibe than the peak nights, perfect for extending a long weekend.",
     clubs: ["tape-london", "dear-darling", "selene-london"],
     vibe: "Wind-down energy. A smaller, loyal crowd who want one more night before the week starts.",
-    tip: "Sunday at Dear Darling is a hidden gem — the crowd is relaxed, the atmosphere is stylish, and you get genuine Mayfair quality without the weekend intensity.",
+    tip: "Sunday at Dear Darling is a hidden gem: the crowd is relaxed, the atmosphere is stylish, and you get genuine Mayfair quality without the weekend intensity.",
   },
 ];
 
@@ -161,7 +161,7 @@ export default function ClubsByNightPage() {
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">Clubs by Night</span>
         </nav>
       </div>

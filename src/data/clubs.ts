@@ -42,16 +42,16 @@ export const clubs: Club[] = [
     shortName: "Cirque",
     tagline: "London's most theatrical nightclub experience",
     description:
-      "Cirque Le Soir is London's original circus-themed nightclub on Ganton Street, Soho — a favourite of A-list celebrities and anyone looking for a night that goes beyond a standard club. Fire breathers, contortionists, stilt walkers and sword swallowers perform throughout the night while you drink from your table. It's loud, it's outrageous, and there's genuinely nothing else like it in London.",
+      "Cirque Le Soir is London's original circus-themed nightclub on Ganton Street, Soho: a favourite of A-list celebrities and anyone looking for a night that goes beyond a standard club. Fire breathers, contortionists, stilt walkers and sword swallowers perform throughout the night while you drink from your table. It's loud, it's outrageous, and there's genuinely nothing else like it in London.",
     longDescription:
-      "Walking into Cirque Le Soir feels like stepping into a fever dream directed by someone with a serious circus obsession and an unlimited budget. The venue is deliberately dark, intimate, and chaotic in the best possible way. Performers weave between tables throughout the night — you might have a contortionist bending over your champagne while a fire breather lights up the dance floor behind you. The music is primarily hip-hop and RnB, with DJs who know how to read a room that's already been warmed up by the spectacle. The crowd is international, well-dressed, and here for a big night. You'll spot celebrities regularly — the club has hosted everyone from Drake to Rihanna. If you want a table here, book early. Weekend tables sell out fast, especially for groups celebrating birthdays or special occasions.",
+      "Walking into Cirque Le Soir feels like stepping into a fever dream directed by someone with a serious circus obsession and an unlimited budget. The venue is deliberately dark, intimate, and chaotic in the best possible way. Performers weave between tables throughout the night. You might have a contortionist bending over your champagne while a fire breather lights up the dance floor behind you. The music is primarily hip-hop and RnB, with DJs who know how to read a room that's already been warmed up by the spectacle. The crowd is international, well-dressed, and here for a big night. You'll spot celebrities regularly: the club has hosted everyone from Drake to Rihanna. If you want a table here, book early. Weekend tables sell out fast, especially for groups celebrating birthdays or special occasions.",
     address: "15-21 Ganton Street, Soho, London W1F 9BN",
     area: "Soho (minutes from Mayfair)",
     musicPolicy: "Hip-Hop, RnB, with occasional commercial crossover",
     dressCode:
-      "Smart and stylish. No sportswear, no trainers, no shorts. Think Mayfair-ready — collared shirts for men, heels or smart boots for women. The door is selective so make an effort.",
+      "Smart and stylish. No sportswear, no trainers, no shorts. Think Mayfair-ready: collared shirts for men, heels or smart boots for women. The door is selective so make an effort.",
     openingNights: ["Monday", "Wednesday", "Friday", "Saturday"],
-    openingHours: "10:30 PM – 3:45 AM",
+    openingHours: "10:30 PM to 3:45 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -73,18 +73,18 @@ export const clubs: Club[] = [
     bestFor:
       "Birthdays, special occasions, and anyone who wants a night they'll actually remember. If you've done the standard Mayfair club and want something completely different, this is it.",
     atmosphere:
-      "Intimate, high-energy, theatrical. The venue is deliberately small which makes the atmosphere intense — there's no dead corner in this club.",
+      "Intimate, high-energy, theatrical. The venue is deliberately small which makes the atmosphere intense: there's no dead corner in this club.",
     capacity: "Approximately 250",
     faqs: [
       {
         question: "How much is a table at Cirque Le Soir?",
         answer:
-          "Floor tables at Cirque Le Soir start from £1,000 minimum spend. VIP tables closer to the stage and in prime positions start from £2,000. Prices can vary depending on the night and any special events. The minimum spend covers your drinks — premium spirits, champagne, or a mix of both.",
+          "Floor tables at Cirque Le Soir start from £1,000 minimum spend. VIP tables closer to the stage and in prime positions start from £2,000. Prices can vary depending on the night and any special events. The minimum spend covers your drinks: premium spirits, champagne, or a mix of both.",
       },
       {
         question: "What is the minimum spend at Cirque Le Soir?",
         answer:
-          "The minimum spend starts at £1,000 for a standard floor table. This isn't an entry fee — it's the amount you spend on drinks at your table. Your personal waitress will help you choose bottles within your budget.",
+          "The minimum spend starts at £1,000 for a standard floor table. This isn't an entry fee. It's the amount you spend on drinks at your table. Your personal waitress will help you choose bottles within your budget.",
       },
       {
         question: "What nights is Cirque Le Soir open?",
@@ -94,12 +94,12 @@ export const clubs: Club[] = [
       {
         question: "Is there a dress code at Cirque Le Soir?",
         answer:
-          "Yes, the dress code is smart and stylish. Men should wear collared shirts and smart shoes — no trainers, sportswear, or shorts. Women should dress for a night out — heels, dresses, or smart separates. The door team is selective, especially on Saturdays.",
+          "Yes, the dress code is smart and stylish. Men should wear collared shirts and smart shoes: no trainers, sportswear, or shorts. Women should dress for a night out: heels, dresses, or smart separates. The door team is selective, especially on Saturdays.",
       },
       {
         question: "Can I book a table at Cirque Le Soir for a birthday?",
         answer:
-          "Absolutely — Cirque Le Soir is one of the most popular birthday venues in London. The theatrical setting and live performances make it feel like a genuine event rather than just a night at a club. We can arrange birthday cakes, sparklers, and special announcements. Just let us know when you book.",
+          "Absolutely, Cirque Le Soir is one of the most popular birthday venues in London. The theatrical setting and live performances make it feel like a genuine event rather than just a night at a club. We can arrange birthday cakes, sparklers, and special announcements. Just let us know when you book.",
       },
     ],
   },
@@ -110,16 +110,16 @@ export const clubs: Club[] = [
     shortName: "Tape",
     tagline: "Mayfair's most exclusive members' club nightlife experience",
     description:
-      "Tape London on Hanover Square is one of Mayfair's most exclusive late-night venues — a members' club with a recording-studio-inspired interior that attracts music industry heavyweights, celebrities, and serious nightlife connoisseurs. This isn't a high-volume superclub. It's intimate, dark, and deliberately hard to get into.",
+      "Tape London on Hanover Square is one of Mayfair's most exclusive late-night venues: a members' club with a recording-studio-inspired interior that attracts music industry heavyweights, celebrities, and serious nightlife connoisseurs. This isn't a high-volume superclub. It's intimate, dark, and deliberately hard to get into.",
     longDescription:
-      "Tape London was designed for people who have been everywhere else and want something more private. The interior is inspired by recording studios — think sound-panelled walls, low lighting, and an atmosphere that feels like a private party rather than a public nightclub. The music policy is hip-hop focused with a strong lean towards US rap and RnB, though DJs will cross genres when the room calls for it. The crowd is small, curated, and well-connected — you're as likely to bump into a Premier League footballer as a music producer. Tables here start higher than most Mayfair clubs because you're paying for exclusivity. The venue holds under 200 people and they are very selective about who gets in. If you're booking a table through us, you'll get guaranteed entry for your group, but the venue expects a certain standard in terms of dress and conduct.",
+      "Tape London was designed for people who have been everywhere else and want something more private. The interior is inspired by recording studios: think sound-panelled walls, low lighting, and an atmosphere that feels like a private party rather than a public nightclub. The music policy is hip-hop focused with a strong lean towards US rap and RnB, though DJs will cross genres when the room calls for it. The crowd is small, curated, and well-connected. You're as likely to bump into a Premier League footballer as a music producer. Tables here start higher than most Mayfair clubs because you're paying for exclusivity. The venue holds under 200 people and they are very selective about who gets in. If you're booking a table through us, you'll get guaranteed entry for your group, but the venue expects a certain standard in terms of dress and conduct.",
     address: "17 Hanover Square, Mayfair, London W1S 1BN",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, US Rap, occasional Afrobeats",
     dressCode:
-      "Strictly smart. Men must wear smart shoes and a collared shirt minimum — jackets are encouraged but not required. Women should dress elegantly. No streetwear, no casual trainers, no exceptions. This is a members' club environment.",
+      "Strictly smart. Men must wear smart shoes and a collared shirt minimum: jackets are encouraged but not required. Women should dress elegantly. No streetwear, no casual trainers, no exceptions. This is a members' club environment.",
     openingNights: ["Tuesday", "Friday", "Saturday", "Sunday"],
-    openingHours: "10:30 PM – 3:45 AM",
+    openingHours: "10:30 PM to 3:45 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -141,7 +141,7 @@ export const clubs: Club[] = [
     bestFor:
       "Groups who want exclusivity over spectacle. If you've done the big Mayfair clubs and want something more private, more curated, and genuinely exclusive, Tape is the move.",
     atmosphere:
-      "Intimate, dark, exclusive. The small capacity means the energy is concentrated — it feels like you've been invited to someone's very expensive private party.",
+      "Intimate, dark, exclusive. The small capacity means the energy is concentrated: it feels like you've been invited to someone's very expensive private party.",
     capacity: "Under 200",
     faqs: [
       {
@@ -162,7 +162,7 @@ export const clubs: Club[] = [
       {
         question: "What's the dress code at Tape London?",
         answer:
-          "Strictly smart. This is a members' club and the dress code reflects that. Men need smart shoes and a collared shirt at minimum. Jackets are encouraged. Women should dress elegantly — cocktail dresses, heels, smart separates. No streetwear or casual attire.",
+          "Strictly smart. This is a members' club and the dress code reflects that. Men need smart shoes and a collared shirt at minimum. Jackets are encouraged. Women should dress elegantly: cocktail dresses, heels, smart separates. No streetwear or casual attire.",
       },
       {
         question: "How do I get into Tape London without a membership?",
@@ -237,15 +237,15 @@ export const clubs: Club[] = [
     description:
       "Maddox is a restaurant-nightclub hybrid in the heart of Mayfair that does both genuinely well. Start with Italian fine dining, then stay as the venue transforms into a club with house music and a well-dressed crowd. It's the best option if you want dinner and clubbing in one venue without compromising on either.",
     longDescription:
-      "Maddox solves a problem that most Mayfair venues don't even attempt — how to combine a genuine fine dining experience with serious late-night clubbing under one roof. The restaurant serves high-quality Italian cuisine in an elegant setting, and as the night progresses, the lights drop, the music gets louder, and the space transforms into a proper nightclub. The music policy leans towards house, deep house, and commercial house — it's sophisticated rather than aggressive. The crowd reflects this: well-dressed professionals, couples who started with dinner and decided to stay, and groups who specifically chose Maddox because they wanted the full evening in one place. Tables for the club element start from £1,000 minimum spend, but many groups opt for a dinner booking first and then transition to bottle service. If you're hosting clients, celebrating an anniversary, or just want a more grown-up night out that still goes late, Maddox is the answer.",
+      "Maddox solves a problem that most Mayfair venues don't even attempt: how to combine a genuine fine dining experience with serious late-night clubbing under one roof. The restaurant serves high-quality Italian cuisine in an elegant setting, and as the night progresses, the lights drop, the music gets louder, and the space transforms into a proper nightclub. The music policy leans towards house, deep house, and commercial house. It's sophisticated rather than aggressive. The crowd reflects this: well-dressed professionals, couples who started with dinner and decided to stay, and groups who specifically chose Maddox because they wanted the full evening in one place. Tables for the club element start from £1,000 minimum spend, but many groups opt for a dinner booking first and then transition to bottle service. If you're hosting clients, celebrating an anniversary, or just want a more grown-up night out that still goes late, Maddox is the answer.",
     address: "3-5 Mill Street, Mayfair, London W1S 2AU",
     area: "Mayfair",
     musicPolicy: "House, Deep House, Commercial House, occasional soulful sets",
     dressCode:
-      "Smart. This is Mayfair fine dining meets nightclub — dress accordingly. Jackets encouraged for men, smart shoes essential. Women should dress elegantly. No casual wear.",
+      "Smart. This is Mayfair fine dining meets nightclub: dress accordingly. Jackets encouraged for men, smart shoes essential. Women should dress elegantly. No casual wear.",
     openingNights: ["Thursday", "Friday", "Saturday"],
     openingHours:
-      "Restaurant from 7:00 PM, club from 10:30 PM – 3:00 AM",
+      "Restaurant from 7:00 PM, club from 10:30 PM to 3:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -278,12 +278,12 @@ export const clubs: Club[] = [
       {
         question: "Can I have dinner and then bottle service at Maddox?",
         answer:
-          "Yes, this is actually one of the best ways to experience Maddox. Book dinner at the restaurant, then transition seamlessly into the club with a table booking. We can arrange both — just let us know your group size and preferred time.",
+          "Yes, this is actually one of the best ways to experience Maddox. Book dinner at the restaurant, then transition seamlessly into the club with a table booking. We can arrange both. Just let us know your group size and preferred time.",
       },
       {
         question: "What type of music does Maddox play?",
         answer:
-          "Maddox focuses on house music — deep house, tech house, and commercial house. The music is sophisticated and fits the dining-to-clubbing concept. If you're looking for hip-hop, one of the other venues might be a better fit.",
+          "Maddox focuses on house music: deep house, tech house, and commercial house. The music is sophisticated and fits the dining-to-clubbing concept. If you're looking for hip-hop, one of the other venues might be a better fit.",
       },
       {
         question: "What nights is Maddox open?",
@@ -293,7 +293,7 @@ export const clubs: Club[] = [
       {
         question: "What's the dress code at Maddox?",
         answer:
-          "Smart. This is one of the more upscale venues in Mayfair. Men should wear smart shoes and a collared shirt minimum — jackets are encouraged. Women should dress elegantly. Think fine dining dress code that carries into the night.",
+          "Smart. This is one of the more upscale venues in Mayfair. Men should wear smart shoes and a collared shirt minimum: jackets are encouraged. Women should dress elegantly. Think fine dining dress code that carries into the night.",
       },
     ],
   },
@@ -361,17 +361,17 @@ export const clubs: Club[] = [
     shortName: "Reign",
     tagline: "Mayfair's most extravagant showclub",
     description:
-      "London Reign on Piccadilly is a full-scale showclub — think aerial performers, dancers, live vocalists, and production values that rival a West End show. If Cirque Le Soir is theatrical, Reign is the full Broadway production. It's Mayfair's answer to the big Las Vegas nightclub experience.",
+      "London Reign on Piccadilly is a full-scale showclub: think aerial performers, dancers, live vocalists, and production values that rival a West End show. If Cirque Le Soir is theatrical, Reign is the full Broadway production. It's Mayfair's answer to the big Las Vegas nightclub experience.",
     longDescription:
-      "London Reign doesn't do anything by halves. The venue on Piccadilly is designed from the ground up as a showclub — a space where live entertainment and nightclub culture merge into something that's closer to a Las Vegas residency than a standard London night out. Expect aerial acrobats performing above the dance floor, professional dancers, live vocalists, fire performers, and production values that most London clubs can't match. The venue itself is large by Mayfair standards, with a proper stage area, multiple table sections, and enough space for the performances to have real impact. The music crosses genres — commercial hits, house, hip-hop — because the entertainment is the headline act, not the DJ. The crowd is a mix of tourists who've heard about the spectacle, London regulars who want something bigger than a standard club night, and groups celebrating major occasions who want a venue that matches the size of the event. Tables start from £1,000 and the VIP sections offer excellent views of the performances.",
+      "London Reign doesn't do anything by halves. The venue on Piccadilly is designed from the ground up as a showclub: a space where live entertainment and nightclub culture merge into something that's closer to a Las Vegas residency than a standard London night out. Expect aerial acrobats performing above the dance floor, professional dancers, live vocalists, fire performers, and production values that most London clubs can't match. The venue itself is large by Mayfair standards, with a proper stage area, multiple table sections, and enough space for the performances to have real impact. The music crosses genres (commercial hits, house, hip-hop) because the entertainment is the headline act, not the DJ. The crowd is a mix of tourists who've heard about the spectacle, London regulars who want something bigger than a standard club night, and groups celebrating major occasions who want a venue that matches the size of the event. Tables start from £1,000 and the VIP sections offer excellent views of the performances.",
     address: "12-14 Piccadilly, Mayfair, London W1J 0DD",
     area: "Piccadilly / Mayfair",
     musicPolicy:
-      "Mixed — commercial, house, hip-hop. The live entertainment is the main attraction.",
+      "Mixed: commercial, house, hip-hop. The live entertainment is the main attraction.",
     dressCode:
       "Smart. Similar standards to other Mayfair clubs. Men need smart shoes and a collared shirt. Women should dress up. The venue is high-production, so the crowd tends to make an effort.",
     openingNights: ["Tuesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM – 3:00 AM",
+    openingHours: "10:00 PM to 3:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -393,13 +393,13 @@ export const clubs: Club[] = [
     bestFor:
       "Groups who want a spectacle. Major birthdays, hen parties that want something upscale, tourists experiencing London nightlife, and anyone who's been to standard clubs and wants something bigger.",
     atmosphere:
-      "Grand, high-energy, spectacular. The live performances create waves of energy throughout the night — it builds rather than flatlines.",
+      "Grand, high-energy, spectacular. The live performances create waves of energy throughout the night: it builds rather than flatlines.",
     capacity: "Approximately 500",
     faqs: [
       {
         question: "How much is a table at London Reign?",
         answer:
-          "Tables at London Reign start from £1,000 minimum spend for floor tables. VIP tables with premium stage views start from £2,500. The production quality justifies the spend — you're getting a show and a club night in one.",
+          "Tables at London Reign start from £1,000 minimum spend for floor tables. VIP tables with premium stage views start from £2,500. The production quality justifies the spend. You're getting a show and a club night in one.",
       },
       {
         question: "What kind of shows does London Reign have?",
@@ -419,7 +419,7 @@ export const clubs: Club[] = [
       {
         question: "How does London Reign compare to Cirque Le Soir?",
         answer:
-          "Both are show-format venues but the style is different. Cirque Le Soir is intimate, circus-themed, and in-your-face — performers are at your table. London Reign is bigger, more polished, and more like a Las Vegas showclub. Cirque is wild and unpredictable, Reign is grand and spectacular.",
+          "Both are show-format venues but the style is different. Cirque Le Soir is intimate, circus-themed, and in-your-face: performers are at your table. London Reign is bigger, more polished, and more like a Las Vegas showclub. Cirque is wild and unpredictable, Reign is grand and spectacular.",
       },
     ],
   },
@@ -430,16 +430,16 @@ export const clubs: Club[] = [
     shortName: "Selene",
     tagline: "Mayfair's newest multi-room club with bowling",
     description:
-      "Selene London is one of Mayfair's newest additions — a multi-room venue that combines a proper nightclub with private bowling lanes and multiple distinct spaces. It's built for groups who want options, variety, and a night that goes beyond sitting at a table in one room.",
+      "Selene London is one of Mayfair's newest additions: a multi-room venue that combines a proper nightclub with private bowling lanes and multiple distinct spaces. It's built for groups who want options, variety, and a night that goes beyond sitting at a table in one room.",
     longDescription:
-      "Selene is the kind of venue that only exists because someone asked 'what if a Mayfair nightclub also had bowling?' The result is surprisingly good. The venue spans multiple rooms, each with its own identity — the main club room plays hip-hop and RnB with the standard Mayfair bottle service setup, but there are also private bowling lanes where you can book a table and bowl between drinks. A third room offers a different vibe again. This multi-room concept makes Selene one of the most versatile venues in Mayfair. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights — it adds an activity element that gives people something to do beyond drinking and dancing. The venue is well-designed, the sound systems are proper, and the fit-out is high-end Mayfair standard. It's still relatively new on the scene, which means it hasn't yet developed the queues and sky-high pricing of some established venues.",
+      "Selene is the kind of venue that only exists because someone asked 'what if a Mayfair nightclub also had bowling?' The result is surprisingly good. The venue spans multiple rooms, each with its own identity: the main club room plays hip-hop and RnB with the standard Mayfair bottle service setup, but there are also private bowling lanes where you can book a table and bowl between drinks. A third room offers a different vibe again. This multi-room concept makes Selene one of the most versatile venues in Mayfair. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights: it adds an activity element that gives people something to do beyond drinking and dancing. The venue is well-designed, the sound systems are proper, and the fit-out is high-end Mayfair standard. It's still relatively new on the scene, which means it hasn't yet developed the queues and sky-high pricing of some established venues.",
     address: "4 Winsley Street, Fitzrovia, London W1W 8HF",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, Afrobeats across multiple rooms",
     dressCode:
-      "Smart. Standard Mayfair dress code — collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
+      "Smart. Standard Mayfair dress code: collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
-    openingHours: "10:00 PM – 3:00 AM",
+    openingHours: "10:00 PM to 3:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -467,17 +467,17 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at Selene London?",
         answer:
-          "Tables at Selene London start from £1,000 minimum spend. VIP tables start from £2,000. Bowling lane packages may have different pricing structures — contact us for the latest availability.",
+          "Tables at Selene London start from £1,000 minimum spend. VIP tables start from £2,000. Bowling lane packages may have different pricing structures. Contact us for the latest availability.",
       },
       {
         question: "Can you go bowling at Selene London?",
         answer:
-          "Yes — Selene has private bowling lanes that you can book alongside your table reservation. It's one of the unique selling points of the venue and particularly popular for birthdays and group celebrations.",
+          "Yes, Selene has private bowling lanes that you can book alongside your table reservation. It's one of the unique selling points of the venue and particularly popular for birthdays and group celebrations.",
       },
       {
         question: "What nights is Selene open?",
         answer:
-          "Selene is open Thursday, Friday, Saturday and Sunday nights. As a newer venue, they occasionally add special event nights — check with us for the latest schedule.",
+          "Selene is open Thursday, Friday, Saturday and Sunday nights. As a newer venue, they occasionally add special event nights: check with us for the latest schedule.",
       },
       {
         question: "How does Selene compare to other Mayfair clubs?",
@@ -498,16 +498,16 @@ export const clubs: Club[] = [
     shortName: "Scotch",
     tagline: "London's most iconic underground music venue reborn",
     description:
-      "Scotch of St James on Mason's Yard has a legendary history — this is the venue where Jimi Hendrix, The Beatles, and The Rolling Stones used to party. Today it operates as an intimate, music-focused members' club with a strong cocktail programme and a crowd that genuinely cares about what's playing.",
+      "Scotch of St James on Mason's Yard has a legendary history. This is the venue where Jimi Hendrix, The Beatles, and The Rolling Stones used to party. Today it operates as an intimate, music-focused members' club with a strong cocktail programme and a crowd that genuinely cares about what's playing.",
     longDescription:
-      "Few venues in London carry as much musical history as Scotch of St James. The original club on Mason's Yard was the epicentre of 1960s rock and roll culture — a tiny basement where the biggest names in music would drink, jam, and party into the early hours. The modern incarnation respects that heritage while updating it for a contemporary audience. The venue remains deliberately intimate with a capacity well under 200, creating an atmosphere that feels more like a private party than a public nightclub. The music policy is eclectic and quality-driven — expect everything from soul and funk to hip-hop and disco, curated by DJs who are selected for taste rather than name recognition. The crowd is older and more discerning than most Mayfair clubs — musicians, creatives, industry people, and anyone who values a great soundtrack over bottle parades. The cocktail programme is taken seriously, which sets it apart from clubs where the drinks list is just a vehicle for minimum spend. If you care about music and atmosphere more than spectacle, Scotch is in a league of its own.",
+      "Few venues in London carry as much musical history as Scotch of St James. The original club on Mason's Yard was the epicentre of 1960s rock and roll culture: a tiny basement where the biggest names in music would drink, jam, and party into the early hours. The modern incarnation respects that heritage while updating it for a contemporary audience. The venue remains deliberately intimate with a capacity well under 200, creating an atmosphere that feels more like a private party than a public nightclub. The music policy is eclectic and quality-driven: expect everything from soul and funk to hip-hop and disco, curated by DJs who are selected for taste rather than name recognition. The crowd is older and more discerning than most Mayfair clubs: musicians, creatives, industry people, and anyone who values a great soundtrack over bottle parades. The cocktail programme is taken seriously, which sets it apart from clubs where the drinks list is just a vehicle for minimum spend. If you care about music and atmosphere more than spectacle, Scotch is in a league of its own.",
     address: "13 Mason's Yard, St James's, London SW1Y 6BU",
     area: "St James's",
-    musicPolicy: "Eclectic — Soul, Funk, Disco, Hip-Hop, Rock. Quality-curated, not commercial.",
+    musicPolicy: "Eclectic: Soul, Funk, Disco, Hip-Hop, Rock. Quality-curated, not commercial.",
     dressCode:
       "Smart but with personality. Scotch appreciates style over formality. Smart-casual is the baseline but they value individual expression. No sportswear or very casual attire.",
     openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM – 3:00 AM",
+    openingHours: "10:00 PM to 3:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -545,7 +545,7 @@ export const clubs: Club[] = [
       {
         question: "What music does Scotch of St James play?",
         answer:
-          "The music policy is eclectic and quality-driven — soul, funk, disco, hip-hop, and rock depending on the night and the DJ. It's curated for taste rather than commercial appeal. If you care about music, you'll appreciate what they do here.",
+          "The music policy is eclectic and quality-driven: soul, funk, disco, hip-hop, and rock depending on the night and the DJ. It's curated for taste rather than commercial appeal. If you care about music, you'll appreciate what they do here.",
       },
       {
         question: "What nights is Scotch of St James open?",
@@ -566,16 +566,16 @@ export const clubs: Club[] = [
     shortName: "Dear Darling",
     tagline: "Mayfair's stylish newcomer with serious late-night energy",
     description:
-      "Dear Darling is one of Mayfair's newer nightlife additions — a stylish, design-led venue that combines a strong cocktail bar with a proper late-night club atmosphere. It's attracted a well-dressed, savvy crowd since opening and has quickly established itself as a serious contender on the Mayfair circuit.",
+      "Dear Darling is one of Mayfair's newer nightlife additions: a stylish, design-led venue that combines a strong cocktail bar with a proper late-night club atmosphere. It's attracted a well-dressed, savvy crowd since opening and has quickly established itself as a serious contender on the Mayfair circuit.",
     longDescription:
-      "Dear Darling arrived on the Mayfair scene with a clear vision: create a space that's beautiful enough for early-evening cocktails but has the sound system and energy to carry a serious late-night crowd. The interior is carefully designed with warm tones, textured surfaces, and lighting that shifts as the night progresses from cocktail bar to full nightclub mode. The music policy leans towards hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with deeper cuts. What sets Dear Darling apart from established Mayfair clubs is the attention to detail in the drinks programme — the cocktails are genuinely good, not an afterthought. The crowd is fashion-conscious, predominantly in their late twenties to thirties, and the atmosphere manages to be both stylish and genuinely fun. It's the kind of venue that appeals to people who've grown out of the bigger, louder Mayfair clubs but still want a proper night out. Tables are well-positioned and the venue's size keeps the energy concentrated without feeling cramped.",
+      "Dear Darling arrived on the Mayfair scene with a clear vision: create a space that's beautiful enough for early-evening cocktails but has the sound system and energy to carry a serious late-night crowd. The interior is carefully designed with warm tones, textured surfaces, and lighting that shifts as the night progresses from cocktail bar to full nightclub mode. The music policy leans towards hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with deeper cuts. What sets Dear Darling apart from established Mayfair clubs is the attention to detail in the drinks programme: the cocktails are genuinely good, not an afterthought. The crowd is fashion-conscious, predominantly in their late twenties to thirties, and the atmosphere manages to be both stylish and genuinely fun. It's the kind of venue that appeals to people who've grown out of the bigger, louder Mayfair clubs but still want a proper night out. Tables are well-positioned and the venue's size keeps the energy concentrated without feeling cramped.",
     address: "91 Jermyn Street, St James's, London",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, Afrobeats, with quality cocktail bar earlier in the evening",
     dressCode:
-      "Smart and fashion-forward. Similar standards to other Mayfair clubs — collared shirts and smart shoes for men, dressed-up for women. The crowd here tends to be well put-together.",
+      "Smart and fashion-forward. Similar standards to other Mayfair clubs: collared shirts and smart shoes for men, dressed-up for women. The crowd here tends to be well put-together.",
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
-    openingHours: "10:00 PM – 3:00 AM",
+    openingHours: "10:00 PM to 3:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -618,7 +618,7 @@ export const clubs: Club[] = [
       {
         question: "What's the dress code at Dear Darling?",
         answer:
-          "Smart and fashion-forward. Standard Mayfair expectations — smart shoes, collared shirts for men, dressed-up for women. The crowd here tends to make an effort so you'll want to match.",
+          "Smart and fashion-forward. Standard Mayfair expectations: smart shoes, collared shirts for men, dressed-up for women. The crowd here tends to make an effort so you'll want to match.",
       },
       {
         question: "Is Dear Darling good for a date night?",
@@ -636,14 +636,14 @@ export const clubs: Club[] = [
     description:
       "BEAT London brings a genuine electronic music focus to the London club scene. If you're into house, techno, and electronic music played on a proper sound system in a venue that cares about the music first, BEAT is built for you.",
     longDescription:
-      "BEAT London exists for people who care about electronic music. While most Mayfair clubs treat their DJ bookings as background to the bottle service spectacle, BEAT puts the music front and centre. The sound system is serious — designed for electronic music rather than retrofitted into a space built for conversation. The music policy spans house, tech house, and techno, with guest DJs who are booked for their ability behind the decks rather than their Instagram following. The venue design reflects this music-first approach: the dance floor is the focal point, the lighting is reactive and immersive, and the layout is built to create the best possible clubbing experience. Table service is available for those who want it, positioned to give you both comfort and proximity to the action. The crowd is a mix of genuine electronic music fans and groups looking for a different kind of London club night. If you've been to the hip-hop and RnB clubs and want something different, or if you're coming from cities with strong electronic music cultures (Berlin, Amsterdam, Ibiza), BEAT will feel like home.",
+      "BEAT London exists for people who care about electronic music. While most Mayfair clubs treat their DJ bookings as background to the bottle service spectacle, BEAT puts the music front and centre. The sound system is serious: designed for electronic music rather than retrofitted into a space built for conversation. The music policy spans house, tech house, and techno, with guest DJs who are booked for their ability behind the decks rather than their Instagram following. The venue design reflects this music-first approach: the dance floor is the focal point, the lighting is reactive and immersive, and the layout is built to create the best possible clubbing experience. Table service is available for those who want it, positioned to give you both comfort and proximity to the action. The crowd is a mix of genuine electronic music fans and groups looking for a different kind of London club night. If you've been to the hip-hop and RnB clubs and want something different, or if you're coming from cities with strong electronic music cultures (Berlin, Amsterdam, Ibiza), BEAT will feel like home.",
     address: "London",
     area: "Central London",
     musicPolicy: "House, Tech House, Techno, Electronic",
     dressCode:
       "Smart casual with a more relaxed approach than traditional Mayfair. Smart trainers may be accepted. No sportswear or very casual attire.",
     openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM – 4:00 AM",
+    openingHours: "10:00 PM to 4:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -676,17 +676,17 @@ export const clubs: Club[] = [
       {
         question: "What music does BEAT London play?",
         answer:
-          "BEAT focuses on house, tech house, and techno. The music policy is electronic-focused with guest DJs booked for their talent. If you're after hip-hop or RnB, this isn't the venue — try Rumour (formerly Tabu) or Cirque instead.",
+          "BEAT focuses on house, tech house, and techno. The music policy is electronic-focused with guest DJs booked for their talent. If you're after hip-hop or RnB, this isn't the venue: try Rumour (formerly Tabu) or Cirque instead.",
       },
       {
         question: "What nights is BEAT London open?",
         answer:
-          "BEAT is open Friday and Saturday nights and on select Thursdays, typically running later than most Mayfair clubs — often until 4:00 AM.",
+          "BEAT is open Friday and Saturday nights and on select Thursdays, typically running later than most Mayfair clubs: often until 4:00 AM.",
       },
       {
         question: "What's the dress code at BEAT?",
         answer:
-          "More relaxed than traditional Mayfair — smart casual is the standard. Smart trainers can work. No sportswear or flip-flops, but you don't need a suit either.",
+          "More relaxed than traditional Mayfair: smart casual is the standard. Smart trainers can work. No sportswear or flip-flops, but you don't need a suit either.",
       },
       {
         question: "How does BEAT compare to other London clubs?",
@@ -702,16 +702,16 @@ export const clubs: Club[] = [
     shortName: "The Box",
     tagline: "London's most provocative and boundary-pushing nightclub",
     description:
-      "The Box Soho is London's most daring nightclub — a theatrical, provocative venue where avant-garde performances, burlesque, and nightlife collide. Located in the heart of Soho, it's inspired by the famous New York original and attracts a creative, fashion-forward crowd who come for experiences they won't find anywhere else in London.",
+      "The Box Soho is London's most daring nightclub: a theatrical, provocative venue where avant-garde performances, burlesque, and nightlife collide. Located in the heart of Soho, it's inspired by the famous New York original and attracts a creative, fashion-forward crowd who come for experiences they won't find anywhere else in London.",
     longDescription:
-      "The Box is not for the faint-hearted. Inspired by its infamous New York counterpart, The Box London takes the concept of a nightclub and pushes it into genuinely theatrical territory. The performances are provocative, boundary-pushing, and designed to shock as much as entertain — think burlesque, cabaret, performance art, and acts that blur the line between nightclub and avant-garde theatre. The venue is intimate and deliberately decadent, with plush interiors, low lighting, and an atmosphere that feels like stepping into a private members' party from another era. The crowd is a mix of creatives, fashion industry insiders, celebrities, and people who actively seek out experiences that break the mould. Table service is available and the minimum spend reflects the exclusivity and production quality of the venue. The music policy varies but typically spans hip-hop, house, and eclectic DJ sets that complement the theatrical programme. If you want safe and predictable, The Box is the wrong choice. If you want a night that genuinely surprises you and gives you stories to tell, there's nowhere in London quite like it.",
+      "The Box is not for the faint-hearted. Inspired by its infamous New York counterpart, The Box London takes the concept of a nightclub and pushes it into genuinely theatrical territory. The performances are provocative, boundary-pushing, and designed to shock as much as entertain: think burlesque, cabaret, performance art, and acts that blur the line between nightclub and avant-garde theatre. The venue is intimate and deliberately decadent, with plush interiors, low lighting, and an atmosphere that feels like stepping into a private members' party from another era. The crowd is a mix of creatives, fashion industry insiders, celebrities, and people who actively seek out experiences that break the mould. Table service is available and the minimum spend reflects the exclusivity and production quality of the venue. The music policy varies but typically spans hip-hop, house, and eclectic DJ sets that complement the theatrical programme. If you want safe and predictable, The Box is the wrong choice. If you want a night that genuinely surprises you and gives you stories to tell, there's nowhere in London quite like it.",
     address: "11-12 Walker's Court, Soho, London W1F 0ED",
     area: "Soho",
-    musicPolicy: "Eclectic — Hip-Hop, House, Disco, and sets that complement the live performances",
+    musicPolicy: "Eclectic: Hip-Hop, House, Disco, and sets that complement the live performances",
     dressCode:
       "Creative and fashionable. The Box rewards effort and individuality. Smart is the baseline but fashion-forward is encouraged. No sportswear or casual wear. The door is famously selective.",
     openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:30 PM – 3:00 AM",
+    openingHours: "10:30 PM to 3:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 3000,
@@ -732,7 +732,7 @@ export const clubs: Club[] = [
       "Intimate, decadent atmosphere",
     ],
     bestFor:
-      "Creatives, fashion-forward groups, and anyone who wants a nightclub experience that's genuinely unlike anything else. Not for the easily shocked — The Box is deliberately provocative.",
+      "Creatives, fashion-forward groups, and anyone who wants a nightclub experience that's genuinely unlike anything else. Not for the easily shocked: The Box is deliberately provocative.",
     atmosphere:
       "Decadent, provocative, theatrical. The intimate size means the performances feel intensely personal. The energy builds throughout the night from sophisticated to wild.",
     capacity: "Approximately 200",
@@ -745,7 +745,7 @@ export const clubs: Club[] = [
       {
         question: "What kind of shows does The Box have?",
         answer:
-          "The Box features provocative, avant-garde performances including burlesque, cabaret, performance art, and theatrical acts that push boundaries. The shows are designed to surprise, shock, and entertain in equal measure. They're not for everyone — and that's the point.",
+          "The Box features provocative, avant-garde performances including burlesque, cabaret, performance art, and theatrical acts that push boundaries. The shows are designed to surprise, shock, and entertain in equal measure. They're not for everyone, and that's the point.",
       },
       {
         question: "What nights is The Box open?",
@@ -883,9 +883,9 @@ export const closedClubs: Club[] = [
     tagline: "Mayfair's high-energy party headquarters (permanently closed)",
     successorNote: "Selene now operates in its place.",
     description:
-      "Libertine was one of Mayfair's most high-energy nightclubs — a venue that attracted a young, international crowd who came to party hard. Located on Winsley Street just off Oxford Circus, it was known for its anything-goes atmosphere, celebrity appearances, and music that spanned hip-hop, RnB, and commercial anthems. Libertine is now permanently closed, and Selene now operates in its place.",
+      "Libertine was one of Mayfair's most high-energy nightclubs: a venue that attracted a young, international crowd who came to party hard. Located on Winsley Street just off Oxford Circus, it was known for its anything-goes atmosphere, celebrity appearances, and music that spanned hip-hop, RnB, and commercial anthems. Libertine is now permanently closed, and Selene now operates in its place.",
     longDescription:
-      "Libertine carved out a reputation as the club where Mayfair's rules got bent. The atmosphere was deliberately more hedonistic than the polished, restrained vibe found at some of the area's more established venues. The interior was dark and club-focused — this wasn't a lounge that became a club, it was a nightclub from the moment you walked in. The music policy centred on hip-hop and RnB with commercial crossover, and the DJs knew how to build energy through the night. The crowd skewed young and international — models, influencers, visiting celebrities, and groups who were specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables were positioned around the dance floor, putting you right in the middle of the action. Libertine didn't pretend to be understated — it was loud, fun, and unapologetically a party. While Libertine has now permanently closed, the spirit of high-energy Mayfair partying lives on at venues like Cirque Le Soir, Selene London and Dear Darling.",
+      "Libertine carved out a reputation as the club where Mayfair's rules got bent. The atmosphere was deliberately more hedonistic than the polished, restrained vibe found at some of the area's more established venues. The interior was dark and club-focused: this wasn't a lounge that became a club, it was a nightclub from the moment you walked in. The music policy centred on hip-hop and RnB with commercial crossover, and the DJs knew how to build energy through the night. The crowd skewed young and international: models, influencers, visiting celebrities, and groups who were specifically looking for a big night rather than a sophisticated dinner-and-drinks affair. Tables were positioned around the dance floor, putting you right in the middle of the action. Libertine didn't pretend to be understated. It was loud, fun, and unapologetically a party. While Libertine has now permanently closed, the spirit of high-energy Mayfair partying lives on at venues like Cirque Le Soir, Selene London and Dear Darling.",
     address: "4 Winsley Street, London W1W 8HF",
     area: "Fitzrovia (edge of Mayfair)",
     musicPolicy: "Hip-Hop, RnB, Commercial, Afrobeats",
@@ -909,7 +909,7 @@ export const closedClubs: Club[] = [
       },
       {
         question: "What happened to Libertine London?",
-        answer: "Libertine London permanently closed its doors. The venue was known for its wild, high-energy atmosphere and celebrity crowd. Several excellent Mayfair clubs now carry that same spirit — get in touch and we'll recommend the best alternative for your group.",
+        answer: "Libertine London permanently closed its doors. The venue was known for its wild, high-energy atmosphere and celebrity crowd. Several excellent Mayfair clubs now carry that same spirit: get in touch and we'll recommend the best alternative for your group.",
       },
     ],
   },
@@ -921,10 +921,10 @@ export const closedClubs: Club[] = [
     description:
       "Lio Club London brought the spirit of its famous Ibiza original to the heart of London. A cabaret-style showclub combining Mediterranean glamour, live performances, world-class dining, and late-night clubbing. Lio London is now permanently closed.",
     longDescription:
-      "Lio was the London outpost of the famous Ibiza venue, and it brought Mediterranean energy to Mayfair with serious ambition. The concept was dinner-and-show-and-club rolled into one spectacular evening. You started with a Mediterranean fine dining experience, then live cabaret performances began — dancers, acrobats, vocalists, and theatrical acts performed throughout the venue. As the night deepened, the space transformed into a full nightclub. The production quality was exceptional and the venue was lavishly designed with Mediterranean influences. While Lio London has now permanently closed, similar theatrical dining-and-nightlife experiences can be found at Cirque Le Soir and London Reign.",
+      "Lio was the London outpost of the famous Ibiza venue, and it brought Mediterranean energy to Mayfair with serious ambition. The concept was dinner-and-show-and-club rolled into one spectacular evening. You started with a Mediterranean fine dining experience, then live cabaret performances began: dancers, acrobats, vocalists, and theatrical acts performed throughout the venue. As the night deepened, the space transformed into a full nightclub. The production quality was exceptional and the venue was lavishly designed with Mediterranean influences. While Lio London has now permanently closed, similar theatrical dining-and-nightlife experiences can be found at Cirque Le Soir and London Reign.",
     address: "Mayfair, London W1",
     area: "Mayfair",
-    musicPolicy: "Mixed — Mediterranean, House, Commercial, Hip-Hop",
+    musicPolicy: "Mixed: Mediterranean, House, Commercial, Hip-Hop",
     dressCode: "Smart and glamorous. Jacket or blazer encouraged for men.",
     openingNights: [],
     openingHours: "Permanently Closed",

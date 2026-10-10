@@ -83,9 +83,9 @@ export function ClubCard({ club, index, total }: ClubCardProps) {
         {/* Metadata line */}
         <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-4">
           {club.musicPolicy.split(",")[0]}
-          <span className="text-border-light mx-2">&mdash;</span>
+          <span className="text-border-light mx-2">&middot;</span>
           {club.area}
-          <span className="text-border-light mx-2">&mdash;</span>
+          <span className="text-border-light mx-2">&middot;</span>
           {formatNights(club)}
         </p>
 

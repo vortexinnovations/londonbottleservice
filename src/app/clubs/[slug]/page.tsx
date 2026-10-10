@@ -43,7 +43,7 @@ export async function generateMetadata({
   const renamed = !closed && Boolean(club.formerName);
   const alternatives = alternativesFor(club);
   const title = closed
-    ? `${club.name} — Permanently Closed`
+    ? `${club.name}: Permanently Closed`
     : renamed
     ? `${club.formerName} Is Now ${club.shortName}: Tables & Prices`
     : `${club.name} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
@@ -91,11 +91,11 @@ export default async function ClubPage({ params }: ClubPageProps) {
       addressLocality: "London",
       addressCountry: "GB",
     },
-    openingHoursSpecification: !club.openingHours.includes("–") ? undefined : club.openingNights.map((night) => ({
+    openingHoursSpecification: !club.openingHours.includes(" to ") ? undefined : club.openingNights.map((night) => ({
       "@type": "OpeningHoursSpecification",
       dayOfWeek: night,
-      opens: club.openingHours.split("–")[0].trim(),
-      closes: club.openingHours.split("–")[1]?.trim() || "03:00",
+      opens: club.openingHours.split(" to ")[0].trim(),
+      closes: club.openingHours.split(" to ")[1]?.trim() || "03:00",
     })),
     priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
     url: `https://londonbottleservice.com/clubs/${slug}`,
@@ -122,7 +122,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
           <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">{club.name}</span>
         </nav>
       </div>
@@ -186,10 +186,10 @@ export default async function ClubPage({ params }: ClubPageProps) {
         alt={images.alt}
         height="h-[50vh] min-h-[400px]"
         overlay="strong"
-        caption={`Fig. — ${club.name}, ${club.area}`}
+        caption={`Fig. ${club.name}, ${club.area}`}
       >
         <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">
-          {club.area} {club.openingNights.length > 0 && <>&mdash; {formatNights(club, ", ")}</>}
+          {club.area} {club.openingNights.length > 0 && <>&middot; {formatNights(club, ", ")}</>}
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">
           {renamed ? (
@@ -238,7 +238,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
           </div>
           <p className="text-text-muted text-sm">
             Prices are starting minimums and vary by night of the week, group size, and
-            special events. The minimum spend is not an entry fee — it&apos;s the amount you
+            special events. The minimum spend is not an entry fee. It&apos;s the amount you
             spend on drinks (premium spirits, champagne, or both) at your table.
           </p>
         </div>
@@ -335,7 +335,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
         <div className="max-w-4xl mx-auto">
           <p className="eyebrow mb-4">Particulars</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
-            {club.name}{" "}— Essential Details
+            {club.name}: Essential Details
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-0">
             <DetailCard title="Music Policy" content={club.musicPolicy} />
@@ -378,7 +378,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
         <div className="max-w-3xl mx-auto">
           <p className="eyebrow mb-4">Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
-            {club.name}{" "}— Frequently Asked Questions
+            {club.name}: Frequently Asked Questions
           </h2>
           <div className="border-t border-border">
             {club.faqs.map((faq, i) => (
@@ -428,7 +428,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
                       <Price value={c.pricing.floorTable} prefix="From " onRequest="Price on request" />
                     </p>
                     <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-2">
-                      {formatNights(c, " — ")}
+                      {formatNights(c, ", ")}
                     </p>
                   </div>
                 </Link>

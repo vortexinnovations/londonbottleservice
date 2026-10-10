@@ -27,12 +27,12 @@ const faqs = [
   {
     question: "What is bottle service at a nightclub?",
     answer:
-      "Bottle service means booking a private table at a nightclub where you purchase whole bottles of spirits or champagne rather than individual drinks at the bar. You get a reserved seating area, a personal waitress, priority entry, and your drinks served to your table all night. In London's Mayfair clubs, bottle service typically involves a minimum spend — the total amount you must spend on drinks at your table.",
+      "Bottle service means booking a private table at a nightclub where you purchase whole bottles of spirits or champagne rather than individual drinks at the bar. You get a reserved seating area, a personal waitress, priority entry, and your drinks served to your table all night. In London's Mayfair clubs, bottle service typically involves a minimum spend: the total amount you must spend on drinks at your table.",
   },
   {
     question: "How does minimum spend work at London clubs?",
     answer:
-      "Minimum spend is the amount you commit to spending on drinks at your table. It is not an entry fee or a charge on top of your drinks — it IS your drinks budget. If your minimum spend is £1,000, you choose £1,000 worth of bottles from the menu. A bottle of premium vodka typically costs £300-£500, champagne ranges from £400-£2,000+. Your waitress will help you select bottles within your budget. Mixers, ice, and garnishes are included in the price.",
+      "Minimum spend is the amount you commit to spending on drinks at your table. It is not an entry fee or a charge on top of your drinks. It IS your drinks budget. If your minimum spend is £1,000, you choose £1,000 worth of bottles from the menu. A bottle of premium vodka typically costs £300-£500, champagne ranges from £400-£2,000+. Your waitress will help you select bottles within your budget. Mixers, ice, and garnishes are included in the price.",
   },
   {
     question: "What is included with bottle service in London?",
@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "What should I wear to a Mayfair nightclub?",
     answer:
-      "Mayfair clubs enforce a smart dress code. For men: collared shirt (no t-shirts), smart trousers or dark jeans, smart shoes (no trainers or sneakers). Jackets are encouraged at some venues. For women: cocktail dresses, heels or smart boots, stylish separates. Avoid: sportswear, casual trainers, shorts, flip-flops, ripped jeans, or anything you'd wear to the gym. The door staff are selective — if in doubt, overdress.",
+      "Mayfair clubs enforce a smart dress code. For men: collared shirt (no t-shirts), smart trousers or dark jeans, smart shoes (no trainers or sneakers). Jackets are encouraged at some venues. For women: cocktail dresses, heels or smart boots, stylish separates. Avoid: sportswear, casual trainers, shorts, flip-flops, ripped jeans, or anything you'd wear to the gym. The door staff are selective: if in doubt, overdress.",
   },
   {
     question: "How many people can sit at a bottle service table?",
@@ -67,7 +67,7 @@ const faqs = [
   {
     question: "What time should I arrive for bottle service?",
     answer:
-      "Most Mayfair clubs open between 10:00 PM and 10:30 PM. We recommend arriving between 10:30 PM and 11:30 PM. Arriving early means you get settled before the venue fills up. Your table is reserved for you all night — there's no rush, but don't arrive at 1:00 AM expecting the full experience.",
+      "Most Mayfair clubs open between 10:00 PM and 10:30 PM. We recommend arriving between 10:30 PM and 11:30 PM. Arriving early means you get settled before the venue fills up. Your table is reserved for you all night. There's no rush, but don't arrive at 1:00 AM expecting the full experience.",
   },
   {
     question: "How do I book bottle service in London?",
@@ -91,7 +91,7 @@ export default function BottleServiceGuidePage() {
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">Bottle Service Guide</span>
         </nav>
       </div>
@@ -120,7 +120,7 @@ export default function BottleServiceGuidePage() {
       {/* What is Bottle Service */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 01 &mdash; The concept</p>
+          <p className="eyebrow mb-4">No. 01: The concept</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What Bottle Service Actually Means
           </h2>
@@ -128,12 +128,12 @@ export default function BottleServiceGuidePage() {
             Bottle service is straightforward once you understand it. Instead of queuing at the bar and buying individual drinks, you book a private table at the club and buy whole bottles of spirits or champagne. Your table comes with a dedicated waitress who pours your drinks, brings mixers, and looks after your group all night.
           </p>
           <p className="text-text-secondary leading-relaxed mb-4">
-            The &quot;bottle&quot; part is literal — you&apos;re buying bottles. A bottle of Grey Goose, a bottle of Dom Perignon, a bottle of Hennessy. Your waitress brings them to your table with mixers (tonic, coke, Red Bull, juices), ice, and garnishes. You pour your own drinks or she does it for you. Champagne also comes in larger formats, from the magnum upwards: see{" "}
+            The &quot;bottle&quot; part is literal. You&apos;re buying bottles. A bottle of Grey Goose, a bottle of Dom Perignon, a bottle of Hennessy. Your waitress brings them to your table with mixers (tonic, coke, Red Bull, juices), ice, and garnishes. You pour your own drinks or she does it for you. Champagne also comes in larger formats, from the magnum upwards: see{" "}
             <Link href="/blog/champagne-bottle-sizes-explained" className="text-gold hover:text-gold-light transition-colors">champagne bottle sizes explained</Link>. If some of your group are not drinking, see{" "}
             <Link href="/blog/non-alcoholic-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">non-alcoholic bottle service in London</Link>.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            Every table comes with a <strong>minimum spend</strong>{" "}— the minimum amount you must spend on drinks at your table. At London&apos;s Mayfair clubs, this starts from £1,000. Think of it as your drinks budget for the night, not a fee on top of your drinks.
+            Every table comes with a <strong>minimum spend</strong>: the minimum amount you must spend on drinks at your table. At London&apos;s Mayfair clubs, this starts from £1,000. Think of it as your drinks budget for the night, not a fee on top of your drinks.
           </p>
         </div>
       </section>
@@ -141,7 +141,7 @@ export default function BottleServiceGuidePage() {
       {/* How Minimum Spend Works */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 02 &mdash; Minimum spend</p>
+          <p className="eyebrow mb-4">No. 02: Minimum spend</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How Minimum Spend Works at London Nightclubs
           </h2>
@@ -169,7 +169,7 @@ export default function BottleServiceGuidePage() {
               <li className="flex items-baseline pt-2 border-t border-border">
                 <span className="text-gold">Total</span>
                 <span className="dotted-leader" aria-hidden="true" />
-                <span><span className="price">~<span className="price-sign">&pound;</span>1,050</span>{" "}&mdash; minimum spend met</span>
+                <span><span className="price">~<span className="price-sign">&pound;</span>1,050</span>, minimum spend met</span>
               </li>
             </ul>
             <p className="microline text-text-muted mt-4">
@@ -185,7 +185,7 @@ export default function BottleServiceGuidePage() {
       {/* What's Included */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 03 &mdash; What&apos;s included</p>
+          <p className="eyebrow mb-4">No. 03: What&apos;s included</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             What You Get with Bottle Service in London
           </h2>
@@ -195,7 +195,7 @@ export default function BottleServiceGuidePage() {
               <ul className="space-y-3">
                 {[
                   "A reserved table and seating area (yours all night)",
-                  "Priority entry — you skip the general admission queue",
+                  "Priority entry: you skip the general admission queue",
                   "A personal waitress assigned to your table",
                   "Your choice of premium spirits or champagne",
                   "All mixers: tonic, coke, lemonade, cranberry, Red Bull, juices",
@@ -237,9 +237,9 @@ export default function BottleServiceGuidePage() {
       {/* Dress Code */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 04 &mdash; Dress code</p>
+          <p className="eyebrow mb-4">No. 04: Dress code</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            What to Wear — Mayfair Club Dress Code
+            What to Wear: Mayfair Club Dress Code
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
             Every Mayfair club enforces a dress code and the door staff are genuinely selective. Having a table booking helps, but you can still be turned away if your outfit doesn&apos;t meet the standard. Here&apos;s the honest rundown:
@@ -282,21 +282,21 @@ export default function BottleServiceGuidePage() {
       {/* Is It Worth It */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 05 &mdash; The verdict</p>
+          <p className="eyebrow mb-4">No. 05: The verdict</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Is Bottle Service Worth It?
           </h2>
           <p className="text-text-secondary leading-relaxed mb-4">
-            Honestly? It depends on what you value. If you work out the per-drink cost, bottle service is more expensive than buying rounds at the bar. But you&apos;re not just buying drinks — you&apos;re buying the whole experience.
+            Honestly? It depends on what you value. If you work out the per-drink cost, bottle service is more expensive than buying rounds at the bar. But you&apos;re not just buying drinks. You&apos;re buying the whole experience.
           </p>
           <p className="text-text-secondary leading-relaxed mb-4">
             With bottle service you get: no queuing at the bar (which in busy Mayfair clubs can take 15-20 minutes per round), a guaranteed seat all night (try standing for five hours), priority entry (general admission queues can be an hour on Saturdays), and a private space for your group.
           </p>
           <p className="text-text-secondary leading-relaxed mb-4">
-            For a group of 8 splitting a £1,000 minimum, that&apos;s £125 per person for an entire night of drinks, a table, and VIP treatment. You&apos;d easily spend £80-100 on individual drinks anyway — and you&apos;d be standing.
+            For a group of 8 splitting a £1,000 minimum, that&apos;s £125 per person for an entire night of drinks, a table, and VIP treatment. You&apos;d easily spend £80-100 on individual drinks anyway, and you&apos;d be standing.
           </p>
           <p className="text-text-secondary leading-relaxed">
-            For special occasions — birthdays, celebrations, client entertainment — bottle service
+            For special occasions (birthdays, celebrations, client entertainment), bottle service
             is the clear choice. It turns a night out into an event.
           </p>
         </div>
@@ -305,9 +305,9 @@ export default function BottleServiceGuidePage() {
       {/* FAQs */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <p className="eyebrow mb-4">No. 06 &mdash; Questions</p>
+          <p className="eyebrow mb-4">No. 06: Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
-            Bottle Service FAQ — Every Question Answered
+            Bottle Service FAQ: Every Question Answered
           </h2>
           <div className="border-t border-border">
             {faqs.map((faq, i) => (

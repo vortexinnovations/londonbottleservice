@@ -64,7 +64,7 @@ const faqs = [
   {
     question: "What does the minimum spend include?",
     answer:
-      "The minimum spend is your drinks budget — not a cover charge or booking fee. You choose bottles of premium spirits or champagne from the club's menu and your personal waitress serves them to your table. Mixers, ice, and garnishes are included in the bottle prices. Your booking also includes priority entry for your group, a reserved table and seating area, and table service all night. You pay the minimum spend at the venue on the night, not upfront.",
+      "The minimum spend is your drinks budget, not a cover charge or booking fee. You choose bottles of premium spirits or champagne from the club's menu and your personal waitress serves them to your table. Mixers, ice, and garnishes are included in the bottle prices. Your booking also includes priority entry for your group, a reserved table and seating area, and table service all night. You pay the minimum spend at the venue on the night, not upfront.",
   },
   {
     question: "How much should I budget per person?",
@@ -89,7 +89,7 @@ const faqs = [
   {
     question: "Do table prices include entry to the club?",
     answer:
-      "Yes. A table booking includes priority entry for your entire group. You skip the general queue and go straight to your reserved table. There is no separate entry fee or cover charge on top of the minimum spend. The minimum spend covers your drinks, your table, your waitress, and your entry. We do not charge a booking fee either — the price we quote is the exact amount you spend at the venue.",
+      "Yes. A table booking includes priority entry for your entire group. You skip the general queue and go straight to your reserved table. There is no separate entry fee or cover charge on top of the minimum spend. The minimum spend covers your drinks, your table, your waitress, and your entry. We do not charge a booking fee either: the price we quote is the exact amount you spend at the venue.",
   },
 ];
 
@@ -117,7 +117,7 @@ export default function ClubTablePricesPage() {
           <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">
             London Club Table Prices
           </span>
@@ -128,14 +128,14 @@ export default function ClubTablePricesPage() {
       <HeroImage src={pageImages.tablePrices.hero} alt={pageImages.tablePrices.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
         <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The price ledger</p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
-          London Club Table Prices — The Complete 2026 Guide
+          London Club Table Prices: The Complete 2026 Guide
         </h1>
         <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           How much does a table actually cost at London&apos;s top
           nightclubs? This is the question we answer more than any other.
           The short answer is that most clubs start at £1,000 minimum spend
           for a floor table, with VIP tables ranging from £2,000 to
-          £3,000. But the full picture is more nuanced — prices vary by
+          £3,000. But the full picture is more nuanced: prices vary by
           venue, by night, by table position, and by how many people are in
           your group.
         </p>
@@ -151,9 +151,9 @@ export default function ClubTablePricesPage() {
       {/* Complete Price Comparison Grid */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 01 — The full ledger</p>
+          <p className="eyebrow mb-4">No. 01: The full ledger</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Complete Price Comparison — All {clubs.length} Clubs
+            Complete Price Comparison: All {clubs.length} Clubs
           </h2>
           <p className="text-text-muted mb-8">
             Every club, every price tier, every detail in one table. Prices
@@ -225,7 +225,7 @@ export default function ClubTablePricesPage() {
       {/* Per Person Breakdown */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 02 — Per head</p>
+          <p className="eyebrow mb-4">No. 02: Per head</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Per-Person Cost Breakdown
           </h2>
@@ -326,9 +326,9 @@ export default function ClubTablePricesPage() {
       {/* Floor vs VIP Comparison */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 03 — Floor vs VIP</p>
+          <p className="eyebrow mb-4">No. 03: Floor vs VIP</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
-            Floor Tables vs VIP Tables — Is the Upgrade Worth It?
+            Floor Tables vs VIP Tables: Is the Upgrade Worth It?
           </h2>
           <p className="text-text-secondary leading-relaxed mb-6">
             The jump from a floor table to a VIP table is typically £1,000
@@ -346,8 +346,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       Cirque Le Soir
-                    </strong>{" "}
-                    — VIP gets you front-row to the performers, which is
+                    </strong>:{" "}
+                    VIP gets you front-row to the performers, which is
                     the entire point of the venue
                   </span>
                 </li>
@@ -356,8 +356,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       London Reign
-                    </strong>{" "}
-                    — VIP gives you the best views of aerial acts and the
+                    </strong>:{" "}
+                    VIP gives you the best views of aerial acts and the
                     full show
                   </span>
                 </li>
@@ -366,8 +366,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       The Box
-                    </strong>{" "}
-                    — VIP positions are where the performances are most
+                    </strong>:{" "}
+                    VIP positions are where the performances are most
                     impactful
                   </span>
                 </li>
@@ -376,8 +376,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       Special occasions
-                    </strong>{" "}
-                    — birthdays and celebrations deserve the best position
+                    </strong>:{" "}
+                    birthdays and celebrations deserve the best position
                   </span>
                 </li>
               </ul>
@@ -392,8 +392,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       Tape London
-                    </strong>{" "}
-                    — the venue is so intimate that every table feels
+                    </strong>:{" "}
+                    the venue is so intimate that every table feels
                     premium
                   </span>
                 </li>
@@ -402,8 +402,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       Scotch of St James
-                    </strong>{" "}
-                    — the small capacity means no table is far from the
+                    </strong>:{" "}
+                    the small capacity means no table is far from the
                     action
                   </span>
                 </li>
@@ -412,8 +412,8 @@ export default function ClubTablePricesPage() {
                   <span>
                     <strong className="text-text-secondary">
                       Regular nights out
-                    </strong>{" "}
-                    — save VIP budget for truly special occasions
+                    </strong>:{" "}
+                    save VIP budget for truly special occasions
                   </span>
                 </li>
               </ul>
@@ -425,7 +425,7 @@ export default function ClubTablePricesPage() {
       {/* Individual Club Price Details */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 04 — The clubs</p>
+          <p className="eyebrow mb-4">No. 04: The clubs</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             Pricing Details by Club
           </h2>
@@ -468,10 +468,10 @@ export default function ClubTablePricesPage() {
                   </p>
                 </div>
                 <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-3">
-                  {club.area} &mdash;{" "}
+                  {club.area} &middot;{" "}
                   {club.openingNights.length > 0 ? (
                     <>
-                      {formatNights(club, ", ")} &mdash;{" "}
+                      {formatNights(club, ", ")} &middot;{" "}
                       {club.musicPolicy.split(",")[0]}
                     </>
                   ) : (
@@ -488,7 +488,7 @@ export default function ClubTablePricesPage() {
                   >
                     Full {club.shortName} price guide &rarr;
                   </Link>
-                  <span className="font-mono text-[0.6875rem] text-text-muted">&mdash;</span>
+                  <span className="font-mono text-[0.6875rem] text-text-muted">&middot;</span>
                   <Link
                     href={`/${club.bookingSlug}`}
                     className="text-text-secondary hover:text-gold transition-colors"
@@ -505,7 +505,7 @@ export default function ClubTablePricesPage() {
       {/* Tips for Getting Best Value */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 05 — On value</p>
+          <p className="eyebrow mb-4">No. 05: On value</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-6">
             How to Get the Best Value
           </h2>
@@ -529,7 +529,7 @@ export default function ClubTablePricesPage() {
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 The per-person cost drops dramatically with larger groups.
-                A £1,000 table split six ways is under £170 per person —
+                A £1,000 table split six ways is under £170 per person:
                 that covers all your drinks, priority entry, a reserved
                 table, and waitress service for the entire night. It is
                 better value than buying drinks at the bar all evening.
@@ -558,7 +558,7 @@ export default function ClubTablePricesPage() {
                 group types. A group of eight hip-hop fans will get
                 different value at Cirque Le Soir than they would at
                 Maddox, which focuses on house music. Tell us
-                your group, your budget, and what matters most — we will
+                your group, your budget, and what matters most. We will
                 match you with the venue that delivers the most for your
                 money.
               </p>
@@ -570,7 +570,7 @@ export default function ClubTablePricesPage() {
       {/* FAQ Section */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-3xl mx-auto">
-          <p className="eyebrow mb-4">No. 06 — Questions</p>
+          <p className="eyebrow mb-4">No. 06: Questions</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             London Club Table Pricing FAQs
           </h2>
@@ -602,7 +602,7 @@ export default function ClubTablePricesPage() {
           <p className="text-text-muted mb-8">
             Message us on WhatsApp with your preferred club, date, and group
             size. We will confirm the exact minimum spend and secure your
-            table — no booking fees, no hidden charges. For how a service
+            table: no booking fees, no hidden charges. For how a service
             charge shows up on the final bill, see our guide to{" "}
             <Link href="/blog/service-charge-bottle-service-london" className="text-gold hover:text-gold-light transition-colors">service charges on bottle service in London</Link>.
           </p>

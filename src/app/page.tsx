@@ -17,17 +17,17 @@ const homeFAQs = [
   {
     question: "How much does bottle service cost in London?",
     answer:
-      "Bottle service at London's Mayfair clubs typically starts from £1,000 minimum spend for a standard floor table. VIP and premium tables range from £1,500 to £3,000+. This isn't an entry fee — it's the amount you spend on drinks at your table. Prices vary by club, night of the week, and table position.",
+      "Bottle service at London's Mayfair clubs typically starts from £1,000 minimum spend for a standard floor table. VIP and premium tables range from £1,500 to £3,000+. This isn't an entry fee. It's the amount you spend on drinks at your table. Prices vary by club, night of the week, and table position.",
   },
   {
     question: "How do I book a VIP table in London?",
     answer:
-      "The easiest way is to message us on WhatsApp with your preferred club, date, group size, and any special requests. We'll confirm availability and pricing within minutes. No forms, no waiting — just a direct conversation with someone who knows the venues.",
+      "The easiest way is to message us on WhatsApp with your preferred club, date, group size, and any special requests. We'll confirm availability and pricing within minutes. No forms, no waiting. Just a direct conversation with someone who knows the venues.",
   },
   {
     question: "What is the minimum spend at London clubs?",
     answer:
-      "Minimum spend varies by club and night. Most Mayfair clubs start at £1,000 for a floor table. Premium venues like Tape London start from £1,500. VIP tables at any venue start from £2,000-£3,000. The minimum spend covers your drinks — premium spirits, champagne, or a combination.",
+      "Minimum spend varies by club and night. Most Mayfair clubs start at £1,000 for a floor table. Premium venues like Tape London start from £1,500. VIP tables at any venue start from £2,000-£3,000. The minimum spend covers your drinks: premium spirits, champagne, or a combination.",
   },
   {
     question: "Which London clubs are best for bottle service?",
@@ -48,11 +48,11 @@ export default function HomePage() {
         alt={pageImages.home.alt}
         height="h-[72vh] min-h-[560px]"
         overlay="strong"
-        caption="Fig. 01 — Inside a Mayfair main room"
+        caption="Fig. 01: Inside a Mayfair main room"
       >
         <div className="max-w-3xl">
           <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-5 animate-fade-up">
-            No. 01 &mdash; Table Dossier &middot; London W1
+            No. 01: Table Dossier &middot; London W1
           </p>
           <h1 className="font-display font-light text-[2.6rem] md:text-6xl leading-[1.05] tracking-[-0.015em] mb-6 animate-fade-up">
             Bottle Service at London&apos;s{" "}
@@ -60,7 +60,7 @@ export default function HomePage() {
           </h1>
           <p className="text-text-secondary text-lg md:text-xl mb-4 max-w-xl leading-relaxed animate-fade-up-1">
             Real table prices. No hidden fees. Instant WhatsApp booking at Mayfair&apos;s
-            finest nightclubs — from £1,000 minimum spend.
+            finest nightclubs, from £1,000 minimum spend.
           </p>
           <p className="text-text-muted text-[0.9375rem] mb-9 max-w-lg animate-fade-up-2">
             We work directly with the venues so you know exactly what you&apos;re paying
@@ -82,7 +82,7 @@ export default function HomePage() {
       {/* Why Book With Us */}
       <section className="py-20 md:py-24 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <p className="eyebrow mb-4">No. 02 &mdash; The House Rules</p>
+          <p className="eyebrow mb-4">No. 02: The House Rules</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-14 max-w-xl">
             Why Book Your Table Through Us
           </h2>
@@ -92,7 +92,7 @@ export default function HomePage() {
                 n: "01",
                 title: "Transparent Pricing",
                 body:
-                  "Every club page shows real starting prices. We don't hide behind “contact us for a quote” — you know what to expect before you message.",
+                  "Every club page shows real starting prices. We don't hide behind “contact us for a quote”: you know what to expect before you message.",
               },
               {
                 n: "02",
@@ -104,7 +104,7 @@ export default function HomePage() {
                 n: "03",
                 title: "Direct Venue Relationships",
                 body:
-                  "We work directly with every club listed on this site. Your booking goes straight to the venue — no middlemen, no inflated prices.",
+                  "We work directly with every club listed on this site. Your booking goes straight to the venue: no middlemen, no inflated prices.",
               },
             ].map((item) => (
               <div key={item.n} className="border-t border-border-light pt-6">
@@ -122,7 +122,7 @@ export default function HomePage() {
       {/* Clubs Grid */}
       <section className="py-20 md:py-24 px-4 sm:px-6 border-t border-border bg-bg-secondary" id="clubs">
         <div className="max-w-6xl mx-auto">
-          <p className="eyebrow mb-4">No. 03 &mdash; The Clubs</p>
+          <p className="eyebrow mb-4">No. 03: The Clubs</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-5 max-w-2xl">
             VIP Table Prices at London&apos;s Best Clubs
           </h2>
@@ -143,7 +143,7 @@ export default function HomePage() {
       {/* How It Works */}
       <section className="py-20 md:py-24 px-4 sm:px-6 border-t border-border">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 04 &mdash; The Process</p>
+          <p className="eyebrow mb-4">No. 04: The Process</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-14 max-w-xl">
             How to Book Bottle Service in London
           </h2>
@@ -159,7 +159,7 @@ export default function HomePage() {
                 n: "02",
                 title: "Message Us on WhatsApp",
                 body:
-                  "Tap the WhatsApp button on any page. The message pre-fills with the club name — just add your date, group size, and any preferences.",
+                  "Tap the WhatsApp button on any page. The message pre-fills with the club name: just add your date, group size, and any preferences.",
               },
               {
                 n: "03",
@@ -191,7 +191,7 @@ export default function HomePage() {
       {/* Guides & Resources */}
       <section className="py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
-          <p className="eyebrow mb-4">No. 05 &mdash; Read before you book</p>
+          <p className="eyebrow mb-4">No. 05: Read before you book</p>
           <h2 className="font-display text-2xl md:text-3xl font-normal mb-10">
             Guides &amp; Resources
           </h2>
@@ -228,7 +228,7 @@ export default function HomePage() {
       {/* FAQ Section */}
       <section className="py-20 md:py-24 px-4 sm:px-6 border-t border-border">
         <div className="max-w-3xl mx-auto">
-          <p className="eyebrow mb-4">No. 06 &mdash; Questions, Answered Plainly</p>
+          <p className="eyebrow mb-4">No. 06: Questions, Answered Plainly</p>
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-12">
             Frequently Asked Questions About Bottle Service in London
           </h2>

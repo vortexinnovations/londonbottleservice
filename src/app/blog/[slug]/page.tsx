@@ -124,9 +124,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       <div className="max-w-3xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <Link href="/blog" className="hover:text-text-secondary transition-colors">Blog</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary line-clamp-1">{post.title}</span>
         </nav>
       </div>
@@ -152,9 +152,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         <div className="max-w-3xl mx-auto">
           <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] mb-4">
             <span className="text-gold">{post.category}</span>
-            <span className="text-text-muted"> &mdash; {post.readingTime}</span>
+            <span className="text-text-muted"> &middot; {post.readingTime}</span>
             <span className="text-text-muted">
-              {" "}&mdash; Updated {new Date(post.updatedAt).toLocaleDateString("en-GB", {
+              &middot; Updated {new Date(post.updatedAt).toLocaleDateString("en-GB", {
                 month: "long",
                 year: "numeric",
               })}
@@ -209,7 +209,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                         {club.name}
                       </h3>
                       <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mt-1">
-                        {formatNights(club, ", ")} &mdash; {club.area}
+                        {formatNights(club, ", ")} &middot; {club.area}
                       </p>
                     </div>
                     <p className="price text-sm shrink-0">

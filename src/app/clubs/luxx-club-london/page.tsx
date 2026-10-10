@@ -49,7 +49,7 @@ export default function LuxxPage() {
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">Luxx Club London</span>
         </nav>
       </div>

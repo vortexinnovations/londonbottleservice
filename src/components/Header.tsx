@@ -31,7 +31,7 @@ export function Header() {
         {/* Utility tier */}
         <div className="hidden md:block border-b border-border">
           <div className="max-w-7xl mx-auto px-6 h-7 flex items-center justify-between font-mono text-[0.5625rem] uppercase tracking-[0.25em] text-text-muted">
-            <span>Mayfair &middot; Soho &middot; St James&apos;s &mdash; London W1</span>
+            <span>Mayfair &middot; Soho &middot; St James&apos;s, London W1</span>
             <a
               href={WHATSAPP_URL}
               target="_blank"
@@ -40,7 +40,7 @@ export function Header() {
             >
               <span className="presence-dot" aria-hidden="true" />
               <span>Replies within minutes</span>
-              <span className="text-border-light">&mdash;</span>
+              <span className="text-border-light">&middot;</span>
               <span className="tracking-[0.15em] text-text-secondary">{WHATSAPP_DISPLAY}</span>
             </a>
           </div>
@@ -49,7 +49,7 @@ export function Header() {
         {/* Main bar */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center justify-between h-16 md:h-[4.5rem]">
-            <Link href="/" className="flex flex-col leading-none" aria-label="London Bottle Service — home">
+            <Link href="/" className="flex flex-col leading-none" aria-label="London Bottle Service, home">
               <span className="font-mono text-[0.5625rem] uppercase tracking-[0.4em] text-gold-dark mb-1">
                 London
               </span>
@@ -180,10 +180,10 @@ export function Header() {
               Book a Table on WhatsApp
             </a>
             <p className="microline text-center mt-3">
-              You&apos;ll message a real person — replies within minutes.
+              You&apos;ll message a real person: replies within minutes.
             </p>
             <p className="text-center font-mono text-[0.625rem] tracking-[0.2em] text-text-muted mt-6">
-              {WHATSAPP_DISPLAY} &mdash; London W1
+              {WHATSAPP_DISPLAY} &middot; London W1
             </p>
           </nav>
         </div>

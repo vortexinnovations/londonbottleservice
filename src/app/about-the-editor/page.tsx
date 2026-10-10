@@ -2,14 +2,14 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About the Editor — Ethan Reid",
+  title: "About the Editor: Ethan Reid",
   description:
     "Meet Ethan Reid, Bottle Service & Hospitality Pro. Eight years in London hospitality, including senior service at central London nightclubs.",
   alternates: {
     canonical: "https://londonbottleservice.com/about-the-editor",
   },
   openGraph: {
-    title: "About the Editor — Ethan Reid | London Bottle Service",
+    title: "About the Editor: Ethan Reid | London Bottle Service",
     description:
       "Ethan Reid writes about bottle service pricing, value, and what to expect when you upgrade your night - from eight years inside London hospitality.",
     url: "https://londonbottleservice.com/about-the-editor",
@@ -52,7 +52,7 @@ export default function AboutTheEditorPage() {
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">About the Editor</span>
         </nav>
       </div>

@@ -29,7 +29,7 @@ const faqs = [
   {
     question: "What is a VIP table at a London nightclub?",
     answer:
-      "A VIP table is a premium reserved area within a nightclub, usually positioned in the best spots — closest to the stage, on a raised platform, or in a secluded section with better service. VIP tables come with higher minimum spends than standard floor tables but offer superior views, more space, and a more exclusive experience. At most London clubs, VIP tables start from £1,500 to £3,000 minimum spend.",
+      "A VIP table is a premium reserved area within a nightclub, usually positioned in the best spots: closest to the stage, on a raised platform, or in a secluded section with better service. VIP tables come with higher minimum spends than standard floor tables but offer superior views, more space, and a more exclusive experience. At most London clubs, VIP tables start from £1,500 to £3,000 minimum spend.",
   },
   {
     question: "How much do VIP tables cost in London?",
@@ -39,7 +39,7 @@ const faqs = [
   {
     question: "What is the difference between a floor table and a VIP table?",
     answer:
-      "Floor tables are standard reservations on the main level of the club. VIP tables are positioned in premium locations — closer to the stage at venues like Cirque Le Soir and London Reign, on elevated platforms at others, or in private sections with dedicated service. VIP tables have higher minimum spends but offer better sightlines, more privacy, and a more premium experience overall.",
+      "Floor tables are standard reservations on the main level of the club. VIP tables are positioned in premium locations: closer to the stage at venues like Cirque Le Soir and London Reign, on elevated platforms at others, or in private sections with dedicated service. VIP tables have higher minimum spends but offer better sightlines, more privacy, and a more premium experience overall.",
   },
   {
     question: "Which London club has the best VIP tables?",
@@ -49,12 +49,12 @@ const faqs = [
   {
     question: "Do VIP tables include drinks?",
     answer:
-      "Yes. The VIP table minimum spend is not an entry fee — it is your drinks budget for the night. You choose premium spirits, champagne, or cocktails from the menu, and your personal waitress serves them to your table. Mixers, ice, and garnishes are included. If you spend above the minimum, you pay the actual amount. The minimum spend covers everything you drink.",
+      "Yes. The VIP table minimum spend is not an entry fee. It is your drinks budget for the night. You choose premium spirits, champagne, or cocktails from the menu, and your personal waitress serves them to your table. Mixers, ice, and garnishes are included. If you spend above the minimum, you pay the actual amount. The minimum spend covers everything you drink.",
   },
   {
     question: "How do I book a VIP table in London?",
     answer:
-      "The easiest way is to message us on WhatsApp. Tell us your preferred club, date, group size, and any special requirements. We have direct relationships with every venue and can secure VIP table positions that may not be available through other channels. We confirm your booking quickly and there are no hidden fees — the price we quote is the minimum spend at the venue.",
+      "The easiest way is to message us on WhatsApp. Tell us your preferred club, date, group size, and any special requirements. We have direct relationships with every venue and can secure VIP table positions that may not be available through other channels. We confirm your booking quickly and there are no hidden fees: the price we quote is the minimum spend at the venue.",
   },
   {
     question: "Can I book a VIP table for a birthday or special occasion?",
@@ -78,35 +78,35 @@ const vipHighlights: {
   {
     slug: "tape-london",
     vipDescription:
-      "Tape London is already one of the most exclusive venues in Mayfair with under 200 capacity. A VIP table here puts you at the centre of an extremely curated crowd — music industry figures, celebrities, and serious nightlife connoisseurs. The recording studio-inspired interiors feel private and intimate, and VIP positioning gives you the best seats in one of the hardest venues to access in London.",
+      "Tape London is already one of the most exclusive venues in Mayfair with under 200 capacity. A VIP table here puts you at the centre of an extremely curated crowd: music industry figures, celebrities, and serious nightlife connoisseurs. The recording studio-inspired interiors feel private and intimate, and VIP positioning gives you the best seats in one of the hardest venues to access in London.",
     whatMakesVipSpecial:
       "Members' club exclusivity, under-200 capacity, celebrity crowd, the most exclusive VIP setting in Mayfair",
   },
   {
     slug: "the-box",
     vipDescription:
-      "The Box delivers avant-garde theatrical performances that push boundaries — burlesque, cabaret, and performance art in an intimate Soho setting. VIP tables give you prime views of performances that are unlike anything else in London nightlife. The creative, fashion-forward crowd and famously selective door make VIP access here feel genuinely earned.",
+      "The Box delivers avant-garde theatrical performances that push boundaries: burlesque, cabaret, and performance art in an intimate Soho setting. VIP tables give you prime views of performances that are unlike anything else in London nightlife. The creative, fashion-forward crowd and famously selective door make VIP access here feel genuinely earned.",
     whatMakesVipSpecial:
       "Provocative avant-garde performances, fashion industry crowd, inspired by the famous New York original",
   },
   {
     slug: "london-reign",
     vipDescription:
-      "London Reign is the closest thing London has to a Las Vegas showclub, with aerial acrobats, live vocalists, professional dancers, and fire performers. VIP tables offer the best views of the production — elevated positions with clear sightlines to the stage. The venue is larger than most Mayfair clubs, which means VIP here feels spacious and grand rather than cramped.",
+      "London Reign is the closest thing London has to a Las Vegas showclub, with aerial acrobats, live vocalists, professional dancers, and fire performers. VIP tables offer the best views of the production: elevated positions with clear sightlines to the stage. The venue is larger than most Mayfair clubs, which means VIP here feels spacious and grand rather than cramped.",
     whatMakesVipSpecial:
       "Las Vegas-scale production, aerial performer views, largest show-format venue in Mayfair",
   },
   {
     slug: "maddox",
     vipDescription:
-      "Maddox combines Italian fine dining with a sophisticated house music nightclub. VIP tables here give you the best of both worlds — start with dinner in the restaurant, then transition to a premium club position as the venue shifts into nightlife mode. The crowd is mature and well-dressed, and the house music policy creates an atmosphere that suits a more refined VIP experience.",
+      "Maddox combines Italian fine dining with a sophisticated house music nightclub. VIP tables here give you the best of both worlds: start with dinner in the restaurant, then transition to a premium club position as the venue shifts into nightlife mode. The crowd is mature and well-dressed, and the house music policy creates an atmosphere that suits a more refined VIP experience.",
     whatMakesVipSpecial:
       "Dinner-to-club transition, Italian fine dining, sophisticated house music crowd",
   },
   {
     slug: "selene-london",
     vipDescription:
-      "Selene offers VIP across multiple rooms including a main club space and private bowling lanes. VIP access here means your group can move between different experiences throughout the night — bowl between drinks, shift rooms when the mood changes, and enjoy Mayfair-standard bottle service in a venue that offers genuine variety.",
+      "Selene offers VIP across multiple rooms including a main club space and private bowling lanes. VIP access here means your group can move between different experiences throughout the night: bowl between drinks, shift rooms when the mood changes, and enjoy Mayfair-standard bottle service in a venue that offers genuine variety.",
     whatMakesVipSpecial:
       "Multi-room VIP access, private bowling lanes, the most activity-rich venue in Mayfair",
   },
@@ -136,7 +136,7 @@ export default function BestVipTablesPage() {
           <Link href="/" className="hover:text-text-secondary transition-colors">
             Home
           </Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">
             Best VIP Tables in London
           </span>
@@ -147,13 +147,13 @@ export default function BestVipTablesPage() {
       <HeroImage src={pageImages.bestVipTables.hero} alt={pageImages.bestVipTables.alt} height="h-[40vh] min-h-[300px]" overlay="strong">
         <p className="eyebrow [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">The ranking</p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-6 animate-fade-up-1">
-          Best VIP Tables in London — Where to Book in 2026
+          Best VIP Tables in London: Where to Book in 2026
         </h1>
         <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           VIP tables are where the real London nightlife experience happens.
           You get the best positions in the venue, premium service, and a
           night that feels genuinely special rather than standing three-deep
-          at a bar. But not all VIP tables are created equal — the
+          at a bar. But not all VIP tables are created equal: the
           experience at Cirque Le Soir is completely different from Tape
           London, which is completely different from London Reign.
         </p>
@@ -244,7 +244,7 @@ export default function BestVipTablesPage() {
           <p className="text-text-secondary leading-relaxed mb-6">
             The difference between a floor table and a VIP table is not just
             about price. VIP tables are positioned in the best spots in the
-            venue — that means front-row views of performers at Cirque Le
+            venue. That means front-row views of performers at Cirque Le
             Soir and London Reign, the most private booths at Tape London,
             and prime positions at every other venue. You also get more space, which matters when your
             group is six or more people, and in many cases you receive
@@ -272,7 +272,7 @@ export default function BestVipTablesPage() {
                 VIP areas typically have more seating, more room to move,
                 and a sense of separation from the general floor. At
                 venues like Tape London and Scotch of St James, the
-                intimate capacity already feels exclusive — VIP elevates
+                intimate capacity already feels exclusive: VIP elevates
                 that further.
               </p>
             </div>
@@ -315,7 +315,7 @@ export default function BestVipTablesPage() {
           >
             <div className="max-w-4xl mx-auto">
               <p className="eyebrow mb-4">
-                No. {String(i + 1).padStart(2, "0")} &mdash; The clubs
+                No. {String(i + 1).padStart(2, "0")}: The clubs
               </p>
               <h2 className="font-display italic text-3xl md:text-4xl font-normal mb-3">
                 <Link
@@ -329,10 +329,10 @@ export default function BestVipTablesPage() {
                 <span className="text-gold">
                   {fromPrice(club.pricing.vipTable, "VIP from", "VIP on request")}
                 </span>
-                {" — "}{fromPrice(club.pricing.floorTable, "Floor from", "Floor on request")}
-                {" — "}
+                {" · "}{fromPrice(club.pricing.floorTable, "Floor from", "Floor on request")}
+                {" · "}
                 {club.area}
-                {" — "}
+                {" · "}
                 {formatNights(club, ", ")}
               </p>
 
@@ -357,7 +357,7 @@ export default function BestVipTablesPage() {
                   Book a VIP table at {club.name} &rarr;
                 </Link>
                 <span className="font-mono text-[0.6875rem] text-text-muted">
-                  &mdash;
+                  &middot;
                 </span>
                 <Link
                   href={`/clubs/${club.slug}`}
@@ -403,11 +403,11 @@ export default function BestVipTablesPage() {
                   </h3>
                   <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-2">
                     {fromPrice(club.pricing.vipTable, "VIP from", "VIP on request")}
-                    {" — "}
+                    {" · "}
                     {club.area}
                     {club.openingNights.length > 0 && (
                       <>
-                        {" — "}
+                        {" · "}
                         {formatNights(club, ", ", true)}
                       </>
                     )}
@@ -440,7 +440,7 @@ export default function BestVipTablesPage() {
             We make VIP table bookings simple. We work directly with every
             venue on this list, and our relationships mean we can often
             secure VIP positions that are not available through other
-            booking channels — particularly on busy Saturday nights when
+            booking channels, particularly on busy Saturday nights when
             demand is highest.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 border-t border-border pt-8">
@@ -519,7 +519,7 @@ export default function BestVipTablesPage() {
           <p className="text-text-muted mb-8">
             Message us on WhatsApp with your preferred venue, date, and
             group size. We will confirm VIP availability and handle
-            everything — no fees, no hassle.
+            everything: no fees, no hassle.
           </p>
           <WhatsAppCTA />
         </div>

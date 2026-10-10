@@ -36,7 +36,7 @@ export default async function BlogIndexPage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">
           <Link href="/" className="hover:text-text-secondary transition-colors">Home</Link>
-          <span className="mx-2">&mdash;</span>
+          <span className="mx-2">/</span>
           <span className="text-text-secondary">Blog</span>
         </nav>
       </div>
@@ -54,7 +54,7 @@ export default async function BlogIndexPage() {
         <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
           Insider guides, honest pricing breakdowns, and practical advice for
           London&apos;s club scene. Written by people who book tables at these
-          venues every week — not SEO content farms.
+          venues every week, not SEO content farms.
         </p>
       </HeroImage>
 
@@ -92,7 +92,7 @@ export default async function BlogIndexPage() {
             <div className="pt-6">
               <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] mb-3">
                 <span className="text-gold">Featured</span>
-                <span className="text-text-muted"> &mdash; {sortedPosts[0].category} &mdash; {sortedPosts[0].readingTime}</span>
+                <span className="text-text-muted"> &middot; {sortedPosts[0].category} &middot; {sortedPosts[0].readingTime}</span>
               </p>
               <h2 className="font-display italic font-normal text-3xl md:text-4xl mb-3 group-hover:text-gold-light transition-colors">
                 {sortedPosts[0].title}
@@ -133,7 +133,7 @@ export default async function BlogIndexPage() {
                 </div>
                 <div className="pt-5">
                   <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-3">
-                    {post.category} &mdash; {post.readingTime}
+                    {post.category} &middot; {post.readingTime}
                   </p>
                   <h3 className="font-display text-xl font-medium mb-2 group-hover:text-gold-light transition-colors line-clamp-2">
                     {post.title}
