@@ -28,7 +28,7 @@ export const blogContent: Record<string, ReactNode> = {
         This is where most first-timers get confused. The minimum spend is
         <strong> not</strong>{" "}an entry fee or a cover charge. It&apos;s the amount
         you spend on drinks at your table. If your minimum is £1,000, you order
-        £1,000 worth of bottles. That&apos;s your drinks for the night — spirits,
+        £1,000 worth of bottles. That&apos;s your drinks for the night: spirits,
         champagne, or a mix.
       </p>
       <p>
@@ -44,14 +44,14 @@ export const blogContent: Record<string, ReactNode> = {
         realistic range for Mayfair clubs:
       </p>
       <ul>
-        <li><strong>Premium Vodka</strong>{" "}(Grey Goose, Belvedere, Cîroc): £300–£500</li>
-        <li><strong>Whisky/Cognac</strong>{" "}(Hennessy, Jack Daniels, Johnnie Walker): £300–£500</li>
-        <li><strong>Tequila</strong>{" "}(Don Julio, Patrón): £300–£450</li>
-        <li><strong>Gin</strong>{" "}(Hendrick&apos;s, Tanqueray): £280–£400</li>
-        <li><strong>Moët &amp; Chandon</strong>: £350–£450</li>
-        <li><strong>Veuve Clicquot</strong>: £400–£500</li>
-        <li><strong>Dom Perignon</strong>: £600–£900</li>
-        <li><strong>Ace of Spades</strong>{" "}(Armand de Brignac): £800–£1,500+</li>
+        <li><strong>Premium Vodka</strong>{" "}(Grey Goose, Belvedere, Cîroc): £300 to £500</li>
+        <li><strong>Whisky/Cognac</strong>{" "}(Hennessy, Jack Daniels, Johnnie Walker): £300 to £500</li>
+        <li><strong>Tequila</strong>{" "}(Don Julio, Patrón): £300 to £450</li>
+        <li><strong>Gin</strong>{" "}(Hendrick&apos;s, Tanqueray): £280 to £400</li>
+        <li><strong>Moët &amp; Chandon</strong>: £350 to £450</li>
+        <li><strong>Veuve Clicquot</strong>: £400 to £500</li>
+        <li><strong>Dom Perignon</strong>: £600 to £900</li>
+        <li><strong>Ace of Spades</strong>{" "}(Armand de Brignac): £800 to £1,500+</li>
       </ul>
 
       <h2>Cost Per Person: The Real Maths</h2>
@@ -66,10 +66,10 @@ export const blogContent: Record<string, ReactNode> = {
         <li><strong>Group of 10:</strong>{" "}£100 per person</li>
       </ul>
       <p>
-        For context, buying individual drinks at a Mayfair bar costs £15–£20 each.
-        Over a full night (8–10 drinks), you&apos;d spend £120–£200 per person
+        For context, buying individual drinks at a Mayfair bar costs £15 to £20 each.
+        Over a full night (8 to 10 drinks), you&apos;d spend £120 to £200 per person
         <em> standing at the bar</em>. Bottle service at £125 per person (group of 8)
-        gives you a table, personal service, priority entry, and no queuing — for
+        gives you a table, personal service, priority entry, and no queuing, for
         roughly the same money.
       </p>
 
@@ -78,10 +78,10 @@ export const blogContent: Record<string, ReactNode> = {
         The night of the week significantly affects pricing:
       </p>
       <ul>
-        <li><strong>Tuesday–Wednesday:</strong>{" "}Lowest minimums. Some venues drop to £800 or offer reduced VIP pricing.</li>
+        <li><strong>Tuesday to Wednesday:</strong>{" "}Lowest minimums. Some venues drop to £800 or offer reduced VIP pricing.</li>
         <li><strong>Thursday:</strong>{" "}Midweek sweet spot. Standard minimums but occasionally discounted.</li>
         <li><strong>Friday:</strong>{" "}Full pricing at most venues. Strong demand.</li>
-        <li><strong>Saturday:</strong>{" "}Peak pricing. Some venues increase minimums by 20–50% on Saturdays for premium positions.</li>
+        <li><strong>Saturday:</strong>{" "}Peak pricing. Some venues increase minimums by 20 to 50% on Saturdays for premium positions.</li>
       </ul>
 
       <h2>Venue-by-Venue Price Comparison</h2>
@@ -106,15 +106,15 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>What About Tips?</h2>
       <p>
         Tipping your waitress is appreciated but not mandatory at London clubs.
-        If you&apos;ve had great service, 10–15% is generous. Some venues add a
-        discretionary service charge — ask when you book so there are no surprises.
+        If you&apos;ve had great service, 10 to 15% is generous. Some venues add a
+        discretionary service charge: ask when you book so there are no surprises.
       </p>
 
       <h2>The Bottom Line</h2>
       <p>
-        Bottle service in London costs £1,000–£3,000+ per table depending on the
-        venue, night, and table position. Per person, it works out to £100–£250.
-        The sweet spot is a group of 6–8 at a £1,000 minimum — you get the full
+        Bottle service in London costs £1,000 to £3,000+ per table depending on the
+        venue, night, and table position. Per person, it works out to £100 to £250.
+        The sweet spot is a group of 6 to 8 at a £1,000 minimum: you get the full
         VIP experience for roughly the same cost as buying rounds at the bar all
         night, but with a table, personal service, and no queues.
       </p>
@@ -125,19 +125,19 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         Your birthday shouldn&apos;t be a generic night at a random bar. London has
-        clubs that genuinely make birthdays special — venues where the night feels
+        clubs that genuinely make birthdays special, venues where the night feels
         like an event because the venue itself is an event. Here&apos;s where to go,
         ranked by how memorable the experience is.
       </p>
 
-      <h2>1. Cirque Le Soir — The Birthday King</h2>
+      <h2>1. Cirque Le Soir: The Birthday King</h2>
       <p>
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         is the most popular birthday venue in London for a reason. Fire breathers,
         contortionists, stilt walkers, and sword swallowers perform at your table
         while you drink. The intimate venue means the energy is always high and
         the performers make their way to every table. Your birthday isn&apos;t just
-        &quot;another night at a club&quot; — it&apos;s a circus.
+        &quot;another night at a club&quot;: it&apos;s a circus.
       </p>
       <p>
         <strong>Birthday extras:</strong>{" "}Cakes, sparklers, birthday announcements,
@@ -145,19 +145,19 @@ export const blogContent: Record<string, ReactNode> = {
         in the show if you want.
       </p>
       <p><strong>Starting from:</strong>{" "}£1,000 minimum spend</p>
-      <p><strong>Best for:</strong>{" "}Groups of 6–15 who want theatrical, unforgettable fun.</p>
+      <p><strong>Best for:</strong>{" "}Groups of 6 to 15 who want theatrical, unforgettable fun.</p>
 
-      <h2>2. London Reign — The Big Show</h2>
+      <h2>2. London Reign: The Big Show</h2>
       <p>
         If your birthday crew is large and you want spectacle on a grand scale,{" "}
         <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}
-        delivers. Aerial acrobats, professional dancers, live vocalists — the
+        delivers. Aerial acrobats, professional dancers, live vocalists: the
         production quality rivals a West End show. The larger venue accommodates
         big groups without feeling cramped.
       </p>
       <p><strong>Best for:</strong>{" "}Large birthday groups (15+), hen parties, milestone birthdays.</p>
 
-      <h2>3. The Box — The Theatrical Birthday</h2>
+      <h2>3. The Box: The Theatrical Birthday</h2>
       <p>
         If you want an unforgettable, boundary-pushing birthday experience,{" "}
         <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>{" "}
@@ -167,17 +167,17 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong>{" "}Milestone birthdays (30th, 40th) where you want a daring, theatrical experience.</p>
 
-      <h2>4. Selene London — Birthday + Bowling</h2>
+      <h2>4. Selene London: Birthday + Bowling</h2>
       <p>
         <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene London</Link>{" "}
         adds something most clubs can&apos;t offer: bowling. The multi-room layout
         with private bowling lanes gives birthday groups an activity beyond
         drinking. It&apos;s an icebreaker for groups where not everyone knows each
-        other — and it&apos;s genuinely fun after a few drinks.
+        other, and it&apos;s genuinely fun after a few drinks.
       </p>
       <p><strong>Best for:</strong>{" "}Mixed groups, birthdays where you want activity + clubbing.</p>
 
-      <h2>5. Tape London — The Exclusive Birthday</h2>
+      <h2>5. Tape London: The Exclusive Birthday</h2>
       <p>
         If the birthday person values exclusivity over spectacle,{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
@@ -192,17 +192,17 @@ export const blogContent: Record<string, ReactNode> = {
         Message us on WhatsApp with your date, group size, preferred venue, and
         the name of the birthday person. We&apos;ll arrange the table, any birthday
         extras (cake, sparklers, announcements), and make sure the venue knows
-        it&apos;s a celebration. The earlier you book, the better your table position
-        — especially for Friday and Saturday nights.
+        it&apos;s a celebration. The earlier you book, the better your table position,
+        especially for Friday and Saturday nights.
       </p>
 
       <h2>Birthday Booking Tips</h2>
       <ul>
-        <li><strong>Book 2–4 weeks ahead</strong>{" "}for weekends. Cirque Le Soir Saturdays can sell out 4–6 weeks in advance.</li>
+        <li><strong>Book 2 to 4 weeks ahead</strong>{" "}for weekends. Cirque Le Soir Saturdays can sell out 4 to 6 weeks in advance.</li>
         <li><strong>Thursday birthdays</strong>{" "}offer the same atmosphere at lower minimum spends.</li>
         <li><strong>Combine dinner and club</strong>{" "}at Maddox for a fuller evening.</li>
-        <li><strong>Ask about birthday packages</strong>{" "}— many venues include free extras for celebrations.</li>
-        <li><strong>Tell your guests the dress code</strong>{" "}— getting people turned away at the door kills the birthday vibe.</li>
+        <li><strong>Ask about birthday packages</strong>: many venues include free extras for celebrations.</li>
+        <li><strong>Tell your guests the dress code</strong>: getting people turned away at the door kills the birthday vibe.</li>
       </ul>
     </>
   ),
@@ -222,15 +222,15 @@ export const blogContent: Record<string, ReactNode> = {
         specific venue:
       </p>
 
-      <h3>Men — What Works</h3>
+      <h3>Men: What Works</h3>
       <ul>
-        <li><strong>Collared shirt</strong>{" "}— button-down, not a polo (some venues accept polos but don&apos;t risk it)</li>
-        <li><strong>Smart trousers or dark, well-fitted jeans</strong>{" "}— no rips, no distressing, no light wash</li>
-        <li><strong>Smart shoes</strong>{" "}— leather shoes, smart boots, Chelsea boots. Loafers work.</li>
-        <li><strong>Blazers and jackets</strong>{" "}— not required everywhere but always an upgrade</li>
+        <li><strong>Collared shirt</strong>: button-down, not a polo (some venues accept polos but don&apos;t risk it)</li>
+        <li><strong>Smart trousers or dark, well-fitted jeans</strong>: no rips, no distressing, no light wash</li>
+        <li><strong>Smart shoes</strong>: leather shoes, smart boots, Chelsea boots. Loafers work.</li>
+        <li><strong>Blazers and jackets</strong>: not required everywhere but always an upgrade</li>
       </ul>
 
-      <h3>Men — What Gets You Turned Away</h3>
+      <h3>Men: What Gets You Turned Away</h3>
       <ul>
         <li>Trainers/sneakers (yes, even expensive ones at most venues)</li>
         <li>T-shirts, hoodies, or sweatshirts</li>
@@ -241,15 +241,15 @@ export const blogContent: Record<string, ReactNode> = {
         <li>Hats and caps (at most venues)</li>
       </ul>
 
-      <h3>Women — What Works</h3>
+      <h3>Women: What Works</h3>
       <ul>
         <li><strong>Cocktail dresses and evening dresses</strong></li>
         <li><strong>Heels, smart boots, or elegant flats</strong></li>
-        <li><strong>Smart separates</strong>{" "}— blazer and trousers, crop top with tailored trousers, etc.</li>
-        <li><strong>Jumpsuits</strong>{" "}— dressy ones work well</li>
+        <li><strong>Smart separates</strong>: blazer and trousers, crop top with tailored trousers, etc.</li>
+        <li><strong>Jumpsuits</strong>: dressy ones work well</li>
       </ul>
 
-      <h3>Women — What to Avoid</h3>
+      <h3>Women: What to Avoid</h3>
       <ul>
         <li>Casual trainers or flip-flops</li>
         <li>Sportswear or gym clothes</li>
@@ -262,11 +262,11 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Strictest</h3>
       <p>
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}and{" "}
-        <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>{" "}— members&apos; club
+        <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>: members&apos; club
         and fine-dining standards. Jackets encouraged. The door is genuinely selective.
       </p>
       <p>
-        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>{" "}— theatrical show concept
+        <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>: theatrical show concept
         means dress-code expectations are high and the door is very selective.
       </p>
 
@@ -275,18 +275,18 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,{" "}
         <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}and{" "}
-        <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene</Link>{" "}—
+        <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene</Link>:
         smart dress code enforced firmly but fairly. Follow the guidelines and you&apos;re in.
       </p>
 
       <h3>Slightly More Relaxed</h3>
       <p>
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>{" "}— still smart,
+        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>: still smart,
         but fashion-forward styling can bend the rules. Designer trainers <em>might</em>{" "}work
         if the overall outfit is sharp. Don&apos;t bank on it.
       </p>
       <p>
-        <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>{" "}—
+        <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>:
         smart casual is the baseline. Clean trainers are generally fine. The focus is
         on music, not fashion policing.
       </p>
@@ -301,7 +301,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Does Having a Table Help With the Dress Code?</h2>
       <p>
-        Yes — having a table booking gives you more goodwill at the door. But it&apos;s
+        Yes, having a table booking gives you more goodwill at the door. But it&apos;s
         not a free pass. If someone in your group is significantly underdressed,
         they can still be refused entry even if you have a booking. Make sure
         everyone in your group knows the dress code before you go.
@@ -313,7 +313,7 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         The door policies at London&apos;s top clubs are genuinely selective. This
-        isn&apos;t bottle-service marketing — venues like{" "}
+        isn&apos;t bottle-service marketing: venues like{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
         hold under 200 people and turn away more than they let in. Here&apos;s what
         actually works to get past the door.
@@ -357,25 +357,25 @@ export const blogContent: Record<string, ReactNode> = {
       <ul>
         <li><strong>Dress code:</strong>{" "}Are you dressed to the venue&apos;s standard?</li>
         <li><strong>Group composition:</strong>{" "}Mixed groups tend to do better than all-male groups</li>
-        <li><strong>Group size:</strong>{" "}Smaller groups (2–4) are easier to accommodate than large ones</li>
+        <li><strong>Group size:</strong>{" "}Smaller groups (2 to 4) are easier to accommodate than large ones</li>
         <li><strong>Behaviour:</strong>{" "}Sober, polite, and respectful. Aggressive or overly intoxicated groups are refused immediately.</li>
-        <li><strong>Time:</strong>{" "}Arriving between 10:30–11:30 PM gives you the best chance. Arriving at 1 AM when the venue is full is almost always a no.</li>
+        <li><strong>Time:</strong>{" "}Arriving between 10:30 and 11:30 PM gives you the best chance. Arriving at 1 AM when the venue is full is almost always a no.</li>
       </ul>
 
       <h2>The Hardest Doors in London</h2>
       <p>Ranked by difficulty of getting in without a booking:</p>
       <ol>
         <li>
-          <strong><Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link></strong>{" "}— Members&apos; club. Under 200 capacity. Without a table booking or membership, your chances are near zero on weekends.
+          <strong><Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link></strong>: Members&apos; club. Under 200 capacity. Without a table booking or membership, your chances are near zero on weekends.
         </li>
         <li>
-          <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link></strong>{" "}— Intimate members&apos; club. Very curated crowd. Walk-ins are extremely rare.
+          <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link></strong>: Intimate members&apos; club. Very curated crowd. Walk-ins are extremely rare.
         </li>
         <li>
-          <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link></strong>{" "}— Small venue, high demand. Sells out most Saturdays. Walk-in entry is unlikely on weekends.
+          <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link></strong>: Small venue, high demand. Sells out most Saturdays. Walk-in entry is unlikely on weekends.
         </li>
         <li>
-          <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link></strong>{" "}— Exclusive theatrical venue with a notoriously selective door policy.
+          <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link></strong>: Exclusive theatrical venue with a notoriously selective door policy.
         </li>
       </ol>
 
@@ -390,9 +390,9 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>The Honest Advice</h2>
       <p>
         If you&apos;re going to the effort of planning a night at an exclusive London
-        club — getting dressed up, coordinating a group, travelling into Mayfair —
+        club (getting dressed up, coordinating a group, travelling into Mayfair),
         just book a table. The minimum spend covers your drinks anyway, and it
-        removes all uncertainty. The cost per person for a group of 6–8 is roughly
+        removes all uncertainty. The cost per person for a group of 6 to 8 is roughly
         what you&apos;d spend on drinks standing at the bar.
       </p>
     </>
@@ -402,18 +402,18 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         Every London club claims celebrities visit. Most are exaggerating. Here&apos;s
-        an honest breakdown of which venues genuinely attract famous faces — and
+        an honest breakdown of which venues genuinely attract famous faces, and
         which ones are living off a single paparazzi photo from 2019.
       </p>
 
       <h2>The Genuine Celebrity Hotspots</h2>
 
-      <h3>Cirque Le Soir — The A-List Favourite</h3>
+      <h3>Cirque Le Soir: The A-List Favourite</h3>
       <p>
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         has the strongest celebrity track record of any London club. The theatrical
         setting attracts artists and entertainers who appreciate spectacle. The
-        intimate venue means that if a celebrity is there, you&apos;ll know about it —
+        intimate venue means that if a celebrity is there, you&apos;ll know about it:
         there&apos;s nowhere to hide in a 250-capacity circus.
       </p>
       <p>
@@ -423,7 +423,7 @@ export const blogContent: Record<string, ReactNode> = {
         restrained venues aren&apos;t.
       </p>
 
-      <h3>Tape London — The Private Option</h3>
+      <h3>Tape London: The Private Option</h3>
       <p>
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
         attracts celebrities who want privacy rather than spectacle. The members&apos;
@@ -439,23 +439,23 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>When Are You Most Likely to See Celebrities?</h2>
       <ul>
-        <li><strong>Saturday nights</strong>{" "}— peak night at every venue</li>
-        <li><strong>After concerts or events</strong>{" "}— London shows at the O2, Wembley, or Royal Albert Hall often lead to after-parties at Mayfair clubs</li>
-        <li><strong>Fashion Week</strong>{" "}— designers, models, and industry people flood Mayfair clubs</li>
-        <li><strong>Film premiere weeks</strong>{" "}— actors and directors hit Mayfair after Leicester Square premieres</li>
-        <li><strong>Football season</strong>{" "}— Premier League players are regular Mayfair visitors, especially after Saturday matches</li>
+        <li><strong>Saturday nights</strong>: peak night at every venue</li>
+        <li><strong>After concerts or events</strong>: London shows at the O2, Wembley, or Royal Albert Hall often lead to after-parties at Mayfair clubs</li>
+        <li><strong>Fashion Week</strong>: designers, models, and industry people flood Mayfair clubs</li>
+        <li><strong>Film premiere weeks</strong>: actors and directors hit Mayfair after Leicester Square premieres</li>
+        <li><strong>Football season</strong>: Premier League players are regular Mayfair visitors, especially after Saturday matches</li>
       </ul>
 
       <h2>A Reality Check</h2>
       <p>
         Celebrity sightings are common at these venues but never guaranteed. If
         you book a table specifically to see someone famous, you might be
-        disappointed. Book because you want a great night — any celebrity sighting
+        disappointed. Book because you want a great night: any celebrity sighting
         is a bonus, not the main event.
       </p>
       <p>
         Also: celebrities typically book VIP sections with their own security.
-        You&apos;ll see them but you won&apos;t be sharing a table. Respect their privacy —
+        You&apos;ll see them but you won&apos;t be sharing a table. Respect their privacy:
         aggressive fan behaviour gets you removed.
       </p>
     </>
@@ -472,7 +472,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Understanding London&apos;s Nightlife Areas</h2>
       <p>London&apos;s nightlife is spread across distinct areas, each with its own character:</p>
 
-      <h3>Mayfair — High-End Clubs and Bottle Service</h3>
+      <h3>Mayfair: High-End Clubs and Bottle Service</h3>
       <p>
         Mayfair is where London&apos;s most exclusive clubs are concentrated. Think
         VIP tables, bottle service, smart dress codes, and a well-heeled crowd.
@@ -480,14 +480,14 @@ export const blogContent: Record<string, ReactNode> = {
         All the clubs on this site are in or near Mayfair.
       </p>
 
-      <h3>Soho — Bars, Pre-Drinks, and Smaller Venues</h3>
+      <h3>Soho: Bars, Pre-Drinks, and Smaller Venues</h3>
       <p>
         Soho is packed with cocktail bars, pub-bars, and smaller venues. It&apos;s
         excellent for pre-drinks before heading to a Mayfair club, or for a more
         casual night without bottle service. The energy is buzzy and diverse.
       </p>
 
-      <h3>Shoreditch — Trendy, Casual, Underground</h3>
+      <h3>Shoreditch: Trendy, Casual, Underground</h3>
       <p>
         East London&apos;s Shoreditch is the opposite of Mayfair. Casual dress code,
         creative crowd, independent venues, and electronic music. Trainers and
@@ -496,11 +496,11 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Timeline of a London Night Out</h2>
       <ul>
-        <li><strong>7:00–9:00 PM:</strong>{" "}Dinner. Mayfair has excellent restaurants. If you&apos;re going to <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, you can dine and club in one venue.</li>
-        <li><strong>9:00–10:30 PM:</strong>{" "}Pre-drinks at a Soho or Mayfair bar while you wait for clubs to open.</li>
-        <li><strong>10:30–11:30 PM:</strong>{" "}Clubs open. Arrive in this window for the best experience. Skip the late rush.</li>
-        <li><strong>11:30 PM–1:00 AM:</strong>{" "}Peak atmosphere. The clubs are full, the energy is high, and the night is in full swing.</li>
-        <li><strong>1:00–3:00 AM:</strong>{" "}Late night. Energy starts to wind down at some venues. Clubs close between 3:00 and 3:30 AM (BEAT London runs later than most Mayfair clubs).</li>
+        <li><strong>7:00 to 9:00 PM:</strong>{" "}Dinner. Mayfair has excellent restaurants. If you&apos;re going to <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, you can dine and club in one venue.</li>
+        <li><strong>9:00 to 10:30 PM:</strong>{" "}Pre-drinks at a Soho or Mayfair bar while you wait for clubs to open.</li>
+        <li><strong>10:30 to 11:30 PM:</strong>{" "}Clubs open. Arrive in this window for the best experience. Skip the late rush.</li>
+        <li><strong>11:30 PM to 1:00 AM:</strong>{" "}Peak atmosphere. The clubs are full, the energy is high, and the night is in full swing.</li>
+        <li><strong>1:00 to 3:00 AM:</strong>{" "}Late night. Energy starts to wind down at some venues. Clubs close between 3:00 and 3:30 AM (BEAT London runs later than most Mayfair clubs).</li>
       </ul>
 
       <h2>How to Choose Your First Club</h2>
@@ -509,7 +509,7 @@ export const blogContent: Record<string, ReactNode> = {
         <li><strong>What music do you like?</strong>{" "}Hip-hop → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>, <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque</Link>. House → <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT</Link>. Mixed → <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>.</li>
         <li><strong>Do you want entertainment?</strong>{" "}Performers → <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>. Shows → <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>. Theatrical → <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>.</li>
         <li><strong>How exclusive do you want?</strong>{" "}Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour</Link>.</li>
-        <li><strong>What&apos;s your budget?</strong>{" "}Most venues start at £1,000 minimum. For premium experiences, budget £1,500–£3,000.</li>
+        <li><strong>What&apos;s your budget?</strong>{" "}Most venues start at £1,000 minimum. For premium experiences, budget £1,500 to £3,000.</li>
       </ul>
 
       <h2>Essential First-Timer Tips</h2>
@@ -534,35 +534,35 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Champagne Tiers at London Clubs</h2>
 
-      <h3>Entry Level (£350–£500)</h3>
+      <h3>Entry Level (£350 to £500)</h3>
       <ul>
-        <li><strong>Moët &amp; Chandon Imperial:</strong>{" "}£350–£450. The reliable default. Everyone knows it, it tastes fine, and nobody judges you for ordering it. It&apos;s the Toyota of champagne — dependable, not exciting.</li>
-        <li><strong>Veuve Clicquot Yellow Label:</strong>{" "}£400–£500. A step up from Moët in prestige and taste. The yellow label is iconic and photographs well. A solid middle-ground choice.</li>
+        <li><strong>Moët &amp; Chandon Imperial:</strong>{" "}£350 to £450. The reliable default. Everyone knows it, it tastes fine, and nobody judges you for ordering it. It&apos;s the Toyota of champagne: dependable, not exciting.</li>
+        <li><strong>Veuve Clicquot Yellow Label:</strong>{" "}£400 to £500. A step up from Moët in prestige and taste. The yellow label is iconic and photographs well. A solid middle-ground choice.</li>
       </ul>
 
-      <h3>Mid-Range (£500–£800)</h3>
+      <h3>Mid-Range (£500 to £800)</h3>
       <ul>
-        <li><strong>Laurent-Perrier Rosé:</strong>{" "}£500–£700. The pink bottle is visually striking and it&apos;s genuinely good champagne. Very popular with groups and for birthdays — the rosé colour adds a celebratory feel.</li>
-        <li><strong>Ruinart Blanc de Blancs:</strong>{" "}£500–£650. The connoisseur&apos;s choice. Less flashy than Dom but genuinely better champagne in many people&apos;s opinion. If you know your champagne, this is the order that signals it.</li>
-        <li><strong>Perrier-Jouët Belle Epoque:</strong>{" "}£600–£800. The hand-painted floral bottle is beautiful and the champagne is excellent. Impressive without being ostentatious.</li>
+        <li><strong>Laurent-Perrier Rosé:</strong>{" "}£500 to £700. The pink bottle is visually striking and it&apos;s genuinely good champagne. Very popular with groups and for birthdays: the rosé colour adds a celebratory feel.</li>
+        <li><strong>Ruinart Blanc de Blancs:</strong>{" "}£500 to £650. The connoisseur&apos;s choice. Less flashy than Dom but genuinely better champagne in many people&apos;s opinion. If you know your champagne, this is the order that signals it.</li>
+        <li><strong>Perrier-Jouët Belle Epoque:</strong>{" "}£600 to £800. The hand-painted floral bottle is beautiful and the champagne is excellent. Impressive without being ostentatious.</li>
       </ul>
 
-      <h3>Premium (£600–£1,000)</h3>
+      <h3>Premium (£600 to £1,000)</h3>
       <ul>
-        <li><strong>Dom Perignon:</strong>{" "}£600–£900. The name everyone knows. Ordering Dom signals celebration and generosity. The champagne itself is excellent — there&apos;s a reason it&apos;s the most famous in the world. Available in standard and rosé.</li>
+        <li><strong>Dom Perignon:</strong>{" "}£600 to £900. The name everyone knows. Ordering Dom signals celebration and generosity. The champagne itself is excellent: there&apos;s a reason it&apos;s the most famous in the world. Available in standard and rosé.</li>
       </ul>
 
       <h3>Ultra-Premium (£800+)</h3>
       <ul>
-        <li><strong>Armand de Brignac (Ace of Spades):</strong>{" "}£800–£1,500+. The gold bottle is the most visually impactful champagne you can order. It catches every light in the club and photographs incredibly. The champagne is good but you&apos;re paying for the spectacle and the statement.</li>
-        <li><strong>Cristal (Louis Roederer):</strong>{" "}£800–£1,200. The hip-hop heritage champagne. Clear bottle, gold label, genuine prestige. Often considered the most &quot;serious&quot; ultra-premium champagne.</li>
-        <li><strong>Krug Grande Cuvée:</strong>{" "}£800–£1,000. The champagne that champagne experts order. Less flashy than Ace of Spades but arguably better liquid. The insider&apos;s choice.</li>
+        <li><strong>Armand de Brignac (Ace of Spades):</strong>{" "}£800 to £1,500+. The gold bottle is the most visually impactful champagne you can order. It catches every light in the club and photographs incredibly. The champagne is good but you&apos;re paying for the spectacle and the statement.</li>
+        <li><strong>Cristal (Louis Roederer):</strong>{" "}£800 to £1,200. The hip-hop heritage champagne. Clear bottle, gold label, genuine prestige. Often considered the most &quot;serious&quot; ultra-premium champagne.</li>
+        <li><strong>Krug Grande Cuvée:</strong>{" "}£800 to £1,000. The champagne that champagne experts order. Less flashy than Ace of Spades but arguably better liquid. The insider&apos;s choice.</li>
       </ul>
 
       <h2>Champagne vs Spirits: What&apos;s Better Value?</h2>
       <p>
         Let&apos;s be honest about the maths. A £350 bottle of Grey Goose gives you
-        roughly 20 mixed drinks. A £400 bottle of Moët gives you 6–7 glasses.
+        roughly 20 mixed drinks. A £400 bottle of Moët gives you 6 to 7 glasses.
         Drink for drink, spirits are three times better value.
       </p>
       <p>
@@ -574,12 +574,12 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>What to Actually Order: Our Recommendations</h2>
       <ul>
-        <li><strong>Best value:</strong>{" "}Moët Imperial — gets the job done at the lowest price</li>
-        <li><strong>Best all-rounder:</strong>{" "}Veuve Clicquot — good taste, good recognition, good photos</li>
-        <li><strong>Best for celebrations:</strong>{" "}Laurent-Perrier Rosé — the pink bottle adds a festive element</li>
-        <li><strong>Best for impressing:</strong>{" "}Dom Perignon — the name carries weight</li>
-        <li><strong>Best spectacle:</strong>{" "}Ace of Spades — the gold bottle is unmatched for visual impact</li>
-        <li><strong>Best for wine lovers:</strong>{" "}Ruinart or Krug — quality over branding</li>
+        <li><strong>Best value:</strong>{" "}Moët Imperial (gets the job done at the lowest price)</li>
+        <li><strong>Best all-rounder:</strong>{" "}Veuve Clicquot (good taste, good recognition, good photos)</li>
+        <li><strong>Best for celebrations:</strong>{" "}Laurent-Perrier Rosé (the pink bottle adds a festive element)</li>
+        <li><strong>Best for impressing:</strong>{" "}Dom Perignon (the name carries weight)</li>
+        <li><strong>Best spectacle:</strong>{" "}Ace of Spades (the gold bottle is unmatched for visual impact)</li>
+        <li><strong>Best for wine lovers:</strong>{" "}Ruinart or Krug (quality over branding)</li>
       </ul>
     </>
   ),
@@ -594,27 +594,27 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Best Clubs for Hen Parties in London</h2>
 
-      <h3>London Reign — Best for Large Hen Groups</h3>
+      <h3>London Reign: Best for Large Hen Groups</h3>
       <p>
         <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}is
-        purpose-built for spectacle. Aerial acrobats, dancers, live vocalists — the
+        purpose-built for spectacle. Aerial acrobats, dancers, live vocalists: the
         production makes the bride feel like the night is an event, not just drinks
-        at a club. The larger venue handles big hen groups (15–30+) without feeling
+        at a club. The larger venue handles big hen groups (15 to 30+) without feeling
         cramped, and multiple tables can be arranged in the same section so the group
         stays together.
       </p>
       <p><strong>Best for:</strong>{" "}Hen groups of 15+, brides who love a show, groups who want Instagram content.</p>
 
-      <h3>Cirque Le Soir — Best for Memorable Experiences</h3>
+      <h3>Cirque Le Soir: Best for Memorable Experiences</h3>
       <p>
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         turns a hen night into an experience. Fire breathers and contortionists at
         your table. The intimate venue means the bride gets personal attention from
-        the performers. It&apos;s smaller than Reign, so best for hen groups of 8–15.
+        the performers. It&apos;s smaller than Reign, so best for hen groups of 8 to 15.
       </p>
       <p><strong>Best for:</strong>{" "}Smaller hen groups, brides who want unforgettable entertainment.</p>
 
-      <h3>The Box — Best for a Daring Hen Night</h3>
+      <h3>The Box: Best for a Daring Hen Night</h3>
       <p>
         <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>{" "}
         delivers a hen night the bride will never forget. The avant-garde
@@ -624,7 +624,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong>{" "}Hen groups who want a bold, theatrical experience that stands out.</p>
 
-      <h3>99 Regent Street (formerly Cuckoo Club) — Best for Mixed Music Tastes</h3>
+      <h3>99 Regent Street (formerly Cuckoo Club): Best for Mixed Music Tastes</h3>
       <p>
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street</Link>&apos;s
         two-floor layout is perfect for hen groups with mixed music preferences.
@@ -633,7 +633,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong>{" "}Hen groups with diverse music tastes, groups who want options.</p>
 
-      <h3>Selene London — Best for Activity + Clubbing</h3>
+      <h3>Selene London: Best for Activity + Clubbing</h3>
       <p>
         <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene</Link>&apos;s
         bowling lanes give the hen group something to <em>do</em>{" "}together early in
@@ -644,8 +644,8 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>How to Plan a Mayfair Hen Night</h2>
       <ol>
-        <li><strong>Book 3–4 weeks ahead.</strong>{" "}Hen groups are large and popular venues fill up. Saturday nights at Cirque Le Soir can need 4–6 weeks&apos; notice.</li>
-        <li><strong>Count your heads accurately.</strong>{" "}The minimum spend is per table, not per person. Larger groups might need 2–3 tables. Get firm numbers before booking.</li>
+        <li><strong>Book 3 to 4 weeks ahead.</strong>{" "}Hen groups are large and popular venues fill up. Saturday nights at Cirque Le Soir can need 4 to 6 weeks&apos; notice.</li>
+        <li><strong>Count your heads accurately.</strong>{" "}The minimum spend is per table, not per person. Larger groups might need 2 to 3 tables. Get firm numbers before booking.</li>
         <li><strong>Consider a Thursday or Friday.</strong>{" "}Lower minimum spends, easier to book, and the atmosphere is still excellent. Saves money that can go towards champagne.</li>
         <li><strong>Tell us it&apos;s a hen party.</strong>{" "}Venues will arrange extras: cakes, sparklers, announcements, and sometimes complimentary champagne for the bride.</li>
         <li><strong>Brief the group on dress code.</strong>{" "}Send a message to the group chat with the specific dress code. One person in trainers can hold up the whole group at the door.</li>
@@ -663,7 +663,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Budget: What Does a Hen Night Cost?</h2>
       <p>
-        A Mayfair hen night typically costs £1,000–£2,000 in minimum spend depending
+        A Mayfair hen night typically costs £1,000 to £2,000 in minimum spend depending
         on the venue and group size. For a group of 15 at £1,500 total, that&apos;s
         £100 per person for an entire night of drinks, a table, VIP treatment, and
         a venue that makes the evening feel genuinely special.
@@ -674,7 +674,7 @@ export const blogContent: Record<string, ReactNode> = {
   "mayfair-vs-shoreditch-nightlife-compared": (
     <>
       <p>
-        Mayfair and Shoreditch are London&apos;s two biggest nightlife destinations —
+        Mayfair and Shoreditch are London&apos;s two biggest nightlife destinations,
         and they couldn&apos;t be more different. Picking the wrong one for your group
         means a disappointing night. Here&apos;s the honest comparison.
       </p>
@@ -684,7 +684,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Polished, exclusive, and unapologetically premium. Think dark interiors,
         bottle service, and a crowd that&apos;s dressed to impress. The atmosphere is
-        aspirational — you feel like you&apos;re somewhere special. The door staff are
+        aspirational: you feel like you&apos;re somewhere special. The door staff are
         selective, the dress code is enforced, and the experience is designed to
         make you feel like a VIP.
       </p>
@@ -693,7 +693,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Creative, casual, and deliberately anti-establishment. Think warehouse
         conversions, street art on the walls, and a crowd in trainers and vintage
-        clothing. The atmosphere is egalitarian — everyone&apos;s welcome and nobody&apos;s
+        clothing. The atmosphere is egalitarian: everyone&apos;s welcome and nobody&apos;s
         trying to impress anyone. There are no door lists, minimal dress codes,
         and the music comes first.
       </p>
@@ -707,8 +707,8 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>.
         Open-format venues like{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
-        mix genres. The music is good but the DJ is rarely the main attraction —
-        the overall experience is.
+        mix genres. The music is good but the DJ is rarely the main attraction.
+        The overall experience is.
       </p>
 
       <h3>Shoreditch</h3>
@@ -724,7 +724,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Mayfair</h3>
       <ul>
         <li>Bottle service: from £1,000 minimum spend per table</li>
-        <li>Individual drinks: £15–£20+</li>
+        <li>Individual drinks: £15 to £20+</li>
         <li>Per person (bottle service, group of 8): ~£125</li>
         <li>Entry: Free with table booking, varies for guest list</li>
       </ul>
@@ -732,9 +732,9 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Shoreditch</h3>
       <ul>
         <li>Bottle service: rarely available or expected</li>
-        <li>Individual drinks: £8–£15</li>
-        <li>Per person for a full night: £50–£100</li>
-        <li>Entry: £5–£20 depending on the venue and night</li>
+        <li>Individual drinks: £8 to £15</li>
+        <li>Per person for a full night: £50 to £100</li>
+        <li>Entry: £5 to £20 depending on the venue and night</li>
       </ul>
 
       <h2>The Dress Code</h2>
@@ -751,7 +751,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Almost anything goes. Trainers, streetwear, vintage, creative outfits.
         The only way to get dress-coded is to look like you&apos;re trying too hard
-        in the wrong direction — turning up in a full suit and tie might actually
+        in the wrong direction: turning up in a full suit and tie might actually
         get you more looks than turning up in a graphic tee.
       </p>
 
@@ -783,14 +783,14 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         Taking clients to a nightclub sounds like a liability. Done right, it&apos;s
-        the most memorable corporate entertainment you can offer — the kind of
+        the most memorable corporate entertainment you can offer, the kind of
         night that builds relationships in a way a boardroom dinner never will.
         Done wrong, it&apos;s a HR incident. Here&apos;s how to get it right.
       </p>
 
       <h2>The Best Venues for Corporate Entertaining</h2>
 
-      <h3>Maddox — The Safe Bet</h3>
+      <h3>Maddox: The Safe Bet</h3>
       <p>
         <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>{" "}is the
         number one choice for corporate entertaining because it solves the structure
@@ -800,12 +800,12 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         <strong>Why it works for clients:</strong>{" "}The dinner gives you a proper
-        setting for conversation. The club transition happens naturally — no awkward
+        setting for conversation. The club transition happens naturally: no awkward
         &quot;shall we go to a club now?&quot; moment. The house music is background-friendly
         during the transition and builds from there.
       </p>
 
-      <h3>Tape London — The Prestige Choice</h3>
+      <h3>Tape London: The Prestige Choice</h3>
       <p>
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
         signals that you have access and connections. Taking clients to a members&apos;
@@ -814,7 +814,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong>{" "}Music industry clients, creative agencies, luxury brands.</p>
 
-      <h3>Scotch of St James — The Cultural Choice</h3>
+      <h3>Scotch of St James: The Cultural Choice</h3>
       <p>
         <Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>{" "}
         combines nightlife with genuine cultural heritage. The rock and roll history
@@ -823,19 +823,19 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p><strong>Best for:</strong>{" "}Creative clients, media professionals, music industry.</p>
 
-      <h3>London Reign — The Showstopper</h3>
+      <h3>London Reign: The Showstopper</h3>
       <p>
         <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}
         is the option when you want to genuinely impress. Vegas-style
         production with aerial performers, live vocalists, and professional
-        dancers — all at a level that shows you&apos;ve put serious
+        dancers, all at a level that shows you&apos;ve put serious
         thought into the evening. The grand venue accommodates corporate groups comfortably.
       </p>
       <p><strong>Best for:</strong>{" "}High-value client entertainment, deal celebrations, key relationship-building.</p>
 
       <h2>Venues to Avoid for Corporate Entertainment</h2>
       <p>
-        <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link></strong>{" "}—
+        <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link></strong>:
         incredible venue but the circus performers at your table can make formal
         clients uncomfortable. Know your audience.
       </p>
@@ -843,17 +843,17 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>How to Make It Work</h2>
       <ol>
         <li><strong>Book dinner first.</strong>{" "}At Maddox, the dinner element gives the evening structure and gives your clients a &quot;normal&quot; setting before the club transition.</li>
-        <li><strong>Brief the venue.</strong>{" "}Tell us it&apos;s corporate when you book. The venue will adjust — more attentive service, less intrusive bottle presentations, a good table position for conversation.</li>
+        <li><strong>Brief the venue.</strong>{" "}Tell us it&apos;s corporate when you book. The venue will adjust, more attentive service, less intrusive bottle presentations, a good table position for conversation.</li>
         <li><strong>Choose the right table position.</strong>{" "}Ask for a table that offers conversation space but still has a view of the venue. Corner tables or booth-style seating work best for corporate groups.</li>
         <li><strong>Control the drinking pace.</strong>{" "}Order champagne for the table rather than heavy spirits. The evening should feel celebratory, not like a drinking session.</li>
-        <li><strong>Have an exit plan.</strong>{" "}Arrange car service for clients. The night should end well — not with everyone scrambling for Ubers at 3 AM.</li>
+        <li><strong>Have an exit plan.</strong>{" "}Arrange car service for clients. The night should end well, not with everyone scrambling for Ubers at 3 AM.</li>
       </ol>
 
       <h2>Budget for Corporate Entertaining</h2>
       <p>
         A corporate night at Maddox with dinner and bottle service typically runs
-        £2,000–£4,000 for a group of 6–8 (dinner plus £1,000–£2,000 club minimum).
-        At London Reign, budget £2,000–£4,000 for the full show-club experience.
+        £2,000 to £4,000 for a group of 6 to 8 (dinner plus £1,000 to £2,000 club minimum).
+        At London Reign, budget £2,000 to £4,000 for the full show-club experience.
         Tape London&apos;s club-only minimum starts at £1,500.
       </p>
       <p>
@@ -870,14 +870,14 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Dear Darling is one of those venues that arrived in Mayfair without a massive PR campaign
         and quietly started stealing regulars from the established clubs. If you haven&apos;t been
-        yet, here&apos;s what you need to know — and why it deserves a spot on your shortlist.
+        yet, here&apos;s what you need to know, and why it deserves a spot on your shortlist.
       </p>
 
       <h2>What Makes Dear Darling Different</h2>
       <p>
         Most Mayfair clubs fall into one of two categories: cocktail bars that try to be clubs, or
         clubs that treat drinks as an afterthought. Dear Darling actually bridges the gap. Early in
-        the evening, it operates as a genuinely good cocktail bar — the kind of place where the
+        the evening, it operates as a genuinely good cocktail bar, the kind of place where the
         bartenders know what they&apos;re doing and the menu goes beyond vodka-cranberry. As the night
         progresses, the lighting shifts, the DJ takes over, and it becomes a proper late-night club
         with real energy.
@@ -893,7 +893,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Tables at Dear Darling start from <strong>£1,000 minimum spend</strong>{" "}for floor tables.
         VIP tables start from <strong>£2,000</strong>. For a newer venue with this level of fit-out
-        and attention to detail, the pricing is competitive with — and arguably better value than —
+        and attention to detail, the pricing is competitive with, and arguably better value than,
         some established Mayfair clubs that are coasting on reputation.
       </p>
       <p>
@@ -905,7 +905,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Dear Darling attracts a fashion-conscious, generally late-twenties-to-thirties crowd.
         These are people who&apos;ve been to the bigger Mayfair clubs and decided they want something
-        more considered. You won&apos;t find the stag-party energy of some venues here — the vibe is
+        more considered. You won&apos;t find the stag-party energy of some venues here: the vibe is
         stylish and fun without being chaotic.
       </p>
       <p>
@@ -916,14 +916,14 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Music Policy</h2>
       <p>
-        The music at Dear Darling leans towards hip-hop, RnB, and Afrobeats — standard Mayfair
+        The music at Dear Darling leans towards hip-hop, RnB, and Afrobeats: standard Mayfair
         fare, but executed well. The DJs read the room rather than sticking to a rigid playlist,
         and the sound system is properly installed rather than an afterthought. If you&apos;re
         comparing it to other hip-hop-focused venues,{" "}
         <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>{" "}
         is more underground and{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
-        offers a two-floor split with house upstairs. Dear Darling sits in the middle — polished
+        offers a two-floor split with house upstairs. Dear Darling sits in the middle: polished
         and quality-focused.
       </p>
 
@@ -931,7 +931,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The design is a step above most clubs. Warm tones, textured surfaces, and lighting that
         actually creates atmosphere rather than just being dark. It&apos;s clear that someone spent
-        real money on the fit-out — and more importantly, spent it well. The space feels premium
+        real money on the fit-out, and more importantly, spent it well. The space feels premium
         without trying too hard, which is harder to pull off than most people realise.
       </p>
 
@@ -959,7 +959,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll confirm
         your table at Dear Darling directly, usually within minutes. Thursday through Sunday are
-        the operating nights — book early for Saturdays.
+        the operating nights. Book early for Saturdays.
       </p>
     </>
   ),
@@ -969,14 +969,14 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The Box is the most polarising club in London. People either love it or they&apos;re not
         ready for it. If you&apos;re considering booking a table, here&apos;s everything you need
-        to know — including whether it&apos;s actually right for you.
+        to know, including whether it&apos;s actually right for you.
       </p>
 
       <h2>What is The Box?</h2>
       <p>
         The Box Soho is a theatrical nightclub inspired by the famous New York original. The concept
-        combines avant-garde live performances — think burlesque, cabaret, and performance art that
-        deliberately pushes boundaries — with a proper late-night club. The venue is intimate,
+        combines avant-garde live performances (think burlesque, cabaret, and performance art that
+        deliberately pushes boundaries) with a proper late-night club. The venue is intimate,
         decadent, and designed to feel like you&apos;ve walked into a private members&apos; party
         from another era.
       </p>
@@ -1004,7 +1004,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Getting Past the Door</h2>
       <p>
-        The Box&apos;s door policy is legendary — and not in the way that benefits most people. The
+        The Box&apos;s door policy is legendary, and not in the way that benefits most people. The
         venue is fiercely selective. They&apos;re looking for a specific crowd: creative,
         fashion-forward, interesting. A group of guys in matching Ben Sherman shirts will not get in,
         regardless of how much they&apos;re willing to spend.
@@ -1012,35 +1012,35 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Booking a table through us guarantees entry for your group. Without a booking, your chances
         on a Friday or Saturday are slim. The door team isn&apos;t being difficult for the sake of
-        it — they&apos;re curating an atmosphere, and the result is a crowd that genuinely adds to
+        it: they&apos;re curating an atmosphere, and the result is a crowd that genuinely adds to
         the experience.
       </p>
 
       <h2>The Shows</h2>
       <p>
         The performances at The Box are unlike anything else in London nightlife. They span
-        burlesque, cabaret, acrobatics, and performance art. The production quality is high — these
+        burlesque, cabaret, acrobatics, and performance art. The production quality is high: these
         are professional performers, not amateurs. The content is deliberately provocative and
         sometimes shocking.
       </p>
       <p>
         If you&apos;re comparing it to{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,
-        the difference is tone. Cirque is theatrical and fun — circus performers, fire breathers,
-        stilt walkers. The Box is theatrical and edgy — performances that make you feel something,
+        the difference is tone. Cirque is theatrical and fun: circus performers, fire breathers,
+        stilt walkers. The Box is theatrical and edgy: performances that make you feel something,
         even if that something is discomfort. Both are excellent, but they&apos;re serving very
         different experiences.
       </p>
       <p>
         <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}
-        is the other show-format venue worth comparing — bigger, more polished, more Vegas. The Box
+        is the other show-format venue worth comparing: bigger, more polished, more Vegas. The Box
         is smaller, darker, and more provocative.
       </p>
 
       <h2>The Crowd</h2>
       <p>
         The Box attracts creatives, fashion industry people, celebrities, and anyone who actively
-        seeks out experiences that break the mould. The crowd is diverse in the best sense — united
+        seeks out experiences that break the mould. The crowd is diverse in the best sense, united
         by a willingness to be surprised and an appreciation for the unconventional.
       </p>
       <p>
@@ -1064,7 +1064,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>How to Book</h2>
       <p>
         Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll secure
-        your table at The Box and — crucially — ensure your group gets past the door without issues.
+        your table at The Box and, crucially, ensure your group gets past the door without issues.
         Open Wednesday through Saturday.
       </p>
     </>
@@ -1083,33 +1083,33 @@ export const blogContent: Record<string, ReactNode> = {
         are the closest alternatives.
       </p>
       <p>
-        Luna Club London doesn&apos;t shout about itself. There are no circus performers, no
-        bowling lanes, no provocative art installations. What there is: a sleek venue, good hip-hop,
-        a well-connected crowd, and the kind of consistent quality that turns first-time visitors
+        Luna Club London didn&apos;t shout about itself. There were no circus performers, no
+        bowling lanes, no provocative art installations. What there was: a sleek venue, good hip-hop,
+        a well-connected crowd, and the kind of consistent quality that turned first-time visitors
         into regulars. Sometimes that&apos;s exactly what you want.
       </p>
 
-      <h2>What Luna Does Well</h2>
+      <h2>What Luna Did Well</h2>
       <p>
-        Luna is a hip-hop and RnB focused club in the heart of Mayfair that executes the basics
-        brilliantly. The interior is sleek and modern — dark tones, metallic accents, proper lighting
-        design. The sound system handles hip-hop the way it should be handled. The DJs know the
+        Luna was a hip-hop and RnB focused club in the heart of Mayfair that executed the basics
+        brilliantly. The interior was sleek and modern: dark tones, metallic accents, proper lighting
+        design. The sound system handled hip-hop the way it should be handled. The DJs knew the
         difference between reading a room and just hitting shuffle on a Spotify playlist.
       </p>
       <p>
-        The result is a club where you don&apos;t have to think too hard about whether you&apos;re
-        going to have a good time. If you like hip-hop, RnB, and Afrobeats in an intimate Mayfair
-        setting with a well-dressed crowd, Luna delivers. Every time.
+        The result was a club where you didn&apos;t have to think too hard about whether you&apos;d
+        have a good time. If you like hip-hop, RnB, and Afrobeats in an intimate Mayfair
+        setting with a well-dressed crowd, Luna delivered. Every time.
       </p>
 
       <h2>Luna Table Prices</h2>
       <p>
-        Tables at Luna start from <strong>£1,000 minimum spend</strong>{" "}for floor tables. VIP tables
-        start from <strong>£2,000</strong>. Standard Mayfair pricing for a club of this quality —
+        Tables at Luna started from <strong>£1,000 minimum spend</strong>{" "}for floor tables. VIP tables
+        started from <strong>£2,000</strong>. Standard Mayfair pricing for a club of this quality,
         the same as most other Mayfair hip-hop venues.
       </p>
       <p>
-        Saturdays have the highest minimums. Thursday is a good bet for the same atmosphere at a
+        Saturdays had the highest minimums. Thursday was a good bet for the same atmosphere at a
         slightly lower entry point.
       </p>
 
@@ -1135,17 +1135,17 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Crowd</h2>
       <p>
-        Luna attracts well-connected Mayfair regulars and international visitors who know what
-        they&apos;re looking for. The crowd is one of Luna&apos;s strongest assets — it feels like
+        Luna attracted well-connected Mayfair regulars and international visitors who knew what
+        they were looking for. The crowd was one of Luna&apos;s strongest assets: it felt like
         everyone in the room chose to be there specifically, rather than ending up there because
         they couldn&apos;t get in somewhere else.
       </p>
       <p>
-        The door is selective (this is Mayfair) but not as fortress-like as{" "}
+        The door was selective (this is Mayfair) but not as fortress-like as{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
         or{" "}
         <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>.
-        If you&apos;re well-dressed and have a table booking, you&apos;re in.
+        If you were well-dressed and had a table booking, you were in.
       </p>
 
       <h2>Where to Go Now</h2>
@@ -1174,7 +1174,7 @@ export const blogContent: Record<string, ReactNode> = {
         bottle service. But not every club that claims to play hip-hop actually delivers. Some
         treat it as background noise between commercial pop sets. Others have built their entire
         identity around it. If you&apos;re booking a table specifically for hip-hop, RnB, or
-        Afrobeats, you need to know which venues take it seriously — and which sub-genre each
+        Afrobeats, you need to know which venues take it seriously, and which sub-genre each
         club actually caters to.
       </p>
       <p>
@@ -1183,18 +1183,18 @@ export const blogContent: Record<string, ReactNode> = {
         definitive guide.
       </p>
 
-      <h2>1. Rumour (formerly Tabu) — The Underground Hip-Hop Choice</h2>
+      <h2>1. Rumour (formerly Tabu): The Underground Hip-Hop Choice</h2>
       <p>
         <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>,
         open Wednesday to Saturday, is the most distinctive hip-hop club in Mayfair. The Japanese-inspired underground
-        aesthetic sets it apart immediately — dark interiors, striking design elements, and a
+        aesthetic sets it apart immediately: dark interiors, striking design elements, and a
         atmosphere that feels more Tokyo basement bar than typical London nightclub. The music
         policy is where Rumour truly differentiates itself: the DJs balance mainstream hip-hop
         with deeper cuts, UK rap, drill, and underground tracks that you won&apos;t hear at
         other Mayfair venues.
       </p>
       <p>
-        The crowd at Rumour reflects the music — well-connected, fashion-forward, and genuinely
+        The crowd at Rumour reflects the music: well-connected, fashion-forward, and genuinely
         into hip-hop culture rather than just wanting background beats while they drink. That
         reputation was built under the Tabu name, so ask us to confirm the current music policy
         and minimum spend under the new name when you enquire. For a{" "}
@@ -1207,7 +1207,7 @@ export const blogContent: Record<string, ReactNode> = {
         commercial chart rap, Rumour is your venue.
       </p>
 
-      <h2>2. 99 Regent Street (formerly Cuckoo Club) — The Two-Floor Advantage</h2>
+      <h2>2. 99 Regent Street (formerly Cuckoo Club): The Two-Floor Advantage</h2>
       <p>
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,
         open Wednesday to Saturday, has a unique advantage over every other club on this list: a
@@ -1217,7 +1217,7 @@ export const blogContent: Record<string, ReactNode> = {
         downstairs; your house music crowd stays upstairs. Everyone&apos;s happy.
       </p>
       <p>
-        The basement hip-hop room is properly done — dark, intimate, with a sound system that
+        The basement hip-hop room is properly done: dark, intimate, with a sound system that
         handles bass-heavy tracks without distortion. The DJs play a mix of mainstream hip-hop,
         RnB, UK rap, and Afrobeats. It&apos;s not as underground as Rumour, but the two-floor
         format is genuinely useful. That layout dates from the Cuckoo Club days, so ask us to
@@ -1228,16 +1228,16 @@ export const blogContent: Record<string, ReactNode> = {
         you need everyone to have a good time, regardless of genre preference.
       </p>
 
-      <h2>3. Cirque Le Soir — Hip-Hop with a Show</h2>
+      <h2>3. Cirque Le Soir: Hip-Hop with a Show</h2>
       <p>
         Cirque Le Soir isn&apos;t a hip-hop club in the traditional sense, but the music
-        policy is primarily hip-hop, RnB, and chart-leaning urban music — played while circus
+        policy is primarily hip-hop, RnB, and chart-leaning urban music, played while circus
         performers, fire breathers, and stilt walkers move through the venue. The result is a
         hip-hop soundtrack to one of London&apos;s most visually spectacular nights out.
       </p>
       <p>
         The music at Cirque serves the overall experience rather than being the main event.
-        You won&apos;t hear deep cuts or underground tracks — this is crowd-pleasing hip-hop
+        You won&apos;t hear deep cuts or underground tracks: this is crowd-pleasing hip-hop
         designed to keep the energy high while acrobats perform overhead. Tables start from{" "}
         <strong>£1,000 minimum spend</strong>.
       </p>
@@ -1280,7 +1280,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li><strong>Rumour:</strong>{" "}Fashion-conscious, younger (early-to-mid twenties), culturally connected. The Instagram-aware crowd.</li>
-        <li><strong>99 Regent Street:</strong>{" "}Diverse mix — the two-floor format attracts a broader range. Strong for birthdays and mixed groups.</li>
+        <li><strong>99 Regent Street:</strong>{" "}Diverse mix. The two-floor format attracts a broader range. Strong for birthdays and mixed groups.</li>
         <li><strong>Cirque:</strong>{" "}Tourists, celebrities, birthday groups, international visitors. The most diverse and party-focused crowd.</li>
       </ul>
 
@@ -1300,7 +1300,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Saturday night in Mayfair is a different animal. The prices are higher, the demand is
         fiercer, the doors are stricter, and the stakes for getting it wrong are steeper. It&apos;s
-        also the best night of the week — the crowds are at their most energetic, the venues
+        also the best night of the week: the crowds are at their most energetic, the venues
         are at full capacity, and the atmosphere reaches a level that weeknights simply
         can&apos;t match. If you&apos;re going to do Mayfair properly, Saturday is the night.
         But you need to plan it right.
@@ -1311,7 +1311,7 @@ export const blogContent: Record<string, ReactNode> = {
         Every serious clubgoer in London gravitates to Saturday. The demand creates a cascade
         of consequences: venues increase their minimum spends for premium table positions,
         door policies tighten significantly, and the best tables sell out weeks in advance.
-        This isn&apos;t the venues being greedy — it&apos;s simple supply and demand. When
+        This isn&apos;t the venues being greedy: it&apos;s simple supply and demand. When
         every table is spoken for by Wednesday, the pricing reflects the scarcity.
       </p>
       <p>
@@ -1325,12 +1325,12 @@ export const blogContent: Record<string, ReactNode> = {
         Saturday minimum spends at Mayfair clubs typically follow this pattern:
       </p>
       <ul>
-        <li><strong>Floor tables:</strong>{" "}£1,000–£1,500 (vs £1,000 on weeknights)</li>
-        <li><strong>VIP tables:</strong>{" "}£2,000–£3,500 (vs £1,500–£2,500 on weeknights)</li>
-        <li><strong>Premium VIP / Owner&apos;s tables:</strong>{" "}£3,000–£5,000+ at select venues</li>
+        <li><strong>Floor tables:</strong>{" "}£1,000 to £1,500 (vs £1,000 on weeknights)</li>
+        <li><strong>VIP tables:</strong>{" "}£2,000 to £3,500 (vs £1,500 to £2,500 on weeknights)</li>
+        <li><strong>Premium VIP / Owner&apos;s tables:</strong>{" "}£3,000 to £5,000+ at select venues</li>
       </ul>
       <p>
-        Not every venue increases pricing on Saturday — some maintain consistent minimums but
+        Not every venue increases pricing on Saturday: some maintain consistent minimums but
         reserve the right to place you at a less prominent table if you&apos;re at the lower
         end. The clubs that do increase pricing include{" "}
         <Link href="/cirque-le-soir-table-booking" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
@@ -1345,25 +1345,25 @@ export const blogContent: Record<string, ReactNode> = {
         don&apos;t on other nights:
       </p>
       <p>
-        <strong>Cirque Le Soir</strong>{" "}— Saturday is Cirque at its most spectacular. The full
+        <strong>Cirque Le Soir</strong>: Saturday is Cirque at its most spectacular. The full
         roster of performers is out, the crowd is at peak energy, and the intimate venue creates
-        an atmosphere that borders on overwhelming — in the best possible way. If you&apos;re
+        an atmosphere that borders on overwhelming, in the best possible way. If you&apos;re
         going to Cirque once, make it a Saturday.
       </p>
       <p>
-        <strong>London Reign</strong>{" "}— The Saturday show at Reign is the most produced
+        <strong>London Reign</strong>: The Saturday show at Reign is the most produced
         entertainment experience in Mayfair nightlife. Aerial acrobats, dancers, live
-        performances — the full Las Vegas treatment. The larger capacity means the atmosphere
+        performances, the full Las Vegas treatment. The larger capacity means the atmosphere
         builds differently to Cirque: big, bold, and cinematic.
       </p>
       <p>
-        <strong>Tape London</strong>{" "}— Saturday at Tape is the most exclusive night in Mayfair.
+        <strong>Tape London</strong>: Saturday at Tape is the most exclusive night in Mayfair.
         The members&apos; club keeps capacity under 200 and the door is at its most selective.
         If you can get a table, it&apos;s the most intimate, high-end Saturday experience
         available.
       </p>
       <p>
-        <strong>Rumour (formerly Tabu)</strong>{" "}— For hip-hop fans, Rumour on Saturday brings the best crowd
+        <strong>Rumour (formerly Tabu)</strong>: For hip-hop fans, Rumour on Saturday brings the best crowd
         of the week. The music goes harder, the energy is higher, and the Japanese-inspired
         underground setting makes it feel like you&apos;ve discovered somewhere nobody else
         knows about.
@@ -1374,11 +1374,11 @@ export const blogContent: Record<string, ReactNode> = {
         This is where most people underestimate Saturday:
       </p>
       <ul>
-        <li><strong>Cirque Le Soir:</strong>{" "}3–6 weeks ahead for good table positions</li>
-        <li><strong>Tape London:</strong>{" "}3–4 weeks ahead (limited capacity, very few tables)</li>
-        <li><strong>London Reign:</strong>{" "}2–3 weeks ahead</li>
-        <li><strong>Rumour (formerly Tabu):</strong>{" "}1–2 weeks ahead (newer venue, still building Saturday demand)</li>
-        <li><strong>99 Regent Street (formerly Cuckoo Club) / Maddox:</strong>{" "}1–2 weeks ahead</li>
+        <li><strong>Cirque Le Soir:</strong>{" "}3 to 6 weeks ahead for good table positions</li>
+        <li><strong>Tape London:</strong>{" "}3 to 4 weeks ahead (limited capacity, very few tables)</li>
+        <li><strong>London Reign:</strong>{" "}2 to 3 weeks ahead</li>
+        <li><strong>Rumour (formerly Tabu):</strong>{" "}1 to 2 weeks ahead (newer venue, still building Saturday demand)</li>
+        <li><strong>99 Regent Street (formerly Cuckoo Club) / Maddox:</strong>{" "}1 to 2 weeks ahead</li>
       </ul>
       <p>
         The earlier you book, the better your table position. Last-minute Saturday bookings
@@ -1393,23 +1393,23 @@ export const blogContent: Record<string, ReactNode> = {
         A properly planned Saturday in Mayfair follows a predictable rhythm:
       </p>
       <ul>
-        <li><strong>7:00–9:00 PM:</strong>{" "}Dinner. Mayfair has excellent restaurants within walking distance of every club. Maddox offers a dinner-to-club transition within the same venue.</li>
-        <li><strong>9:30–10:00 PM:</strong>{" "}Pre-drinks at a nearby bar or hotel lounge. Don&apos;t rush — the clubs don&apos;t peak until later.</li>
-        <li><strong>10:30–11:00 PM:</strong>{" "}Arrive at the club. Early enough to settle in, order your first bottles, and enjoy the space before it fills up.</li>
-        <li><strong>11:30 PM–1:00 AM:</strong>{" "}Peak atmosphere. This is when the venue is at its best — full but not overcrowded, energy building, DJs hitting their stride.</li>
-        <li><strong>1:00–3:00 AM:</strong>{" "}Late night. The crowd thins slightly but the atmosphere remains strong. Some venues close at 3 AM, others at 3:30 AM.</li>
+        <li><strong>7:00 to 9:00 PM:</strong>{" "}Dinner. Mayfair has excellent restaurants within walking distance of every club. Maddox offers a dinner-to-club transition within the same venue.</li>
+        <li><strong>9:30 to 10:00 PM:</strong>{" "}Pre-drinks at a nearby bar or hotel lounge. Don&apos;t rush: the clubs don&apos;t peak until later.</li>
+        <li><strong>10:30 to 11:00 PM:</strong>{" "}Arrive at the club. Early enough to settle in, order your first bottles, and enjoy the space before it fills up.</li>
+        <li><strong>11:30 PM to 1:00 AM:</strong>{" "}Peak atmosphere. This is when the venue is at its best: full but not overcrowded, energy building, DJs hitting their stride.</li>
+        <li><strong>1:00 to 3:00 AM:</strong>{" "}Late night. The crowd thins slightly but the atmosphere remains strong. Some venues close at 3 AM, others at 3:30 AM.</li>
       </ul>
 
       <h2>Common Saturday Night Mistakes</h2>
       <p>
-        These mistakes are avoidable but we see them every weekend:
+        These mistakes are avoidable, but they happen every weekend:
       </p>
       <ol>
         <li><strong>Booking too late.</strong>{" "}Two days before Saturday is too late for popular venues. Plan ahead.</li>
         <li><strong>Arriving too late.</strong>{" "}Showing up at midnight means you&apos;ve already missed the build-up. Arrive by 11 PM.</li>
         <li><strong>Underestimating the dress code.</strong>{" "}Saturday doors are stricter. The shirt-and-shoes combo that worked on Thursday might not cut it. Dress sharp.</li>
         <li><strong>Not having a plan B.</strong>{" "}If your first choice is sold out, have an alternative venue in mind. We can help with this.</li>
-        <li><strong>Splitting the group across venues.</strong>{" "}Trying to visit three clubs in one night rarely works on Saturday — queues and door policies eat into your time. Pick one venue and commit.</li>
+        <li><strong>Splitting the group across venues.</strong>{" "}Trying to visit three clubs in one night rarely works on Saturday: queues and door policies eat into your time. Pick one venue and commit.</li>
       </ol>
 
       <h2>How to Book Your Saturday Table</h2>
@@ -1428,7 +1428,7 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         A stag do at a Mayfair club can be one of the best nights of the groom&apos;s life.
-        It can also be a disaster — rejected at the door, out of pocket, and heading to a
+        It can also be a disaster: rejected at the door, out of pocket, and heading to a
         mediocre bar at midnight with twelve increasingly frustrated mates. The difference
         between these two outcomes is entirely down to planning. All-male groups face unique
         challenges at London&apos;s premium clubs, but every single one is solvable if you
@@ -1439,7 +1439,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Let&apos;s address this immediately because it&apos;s the single biggest issue with
         stag dos at Mayfair clubs. Most premium venues are cautious about large all-male
-        groups. This isn&apos;t arbitrary discrimination — it&apos;s based on years of
+        groups. This isn&apos;t arbitrary discrimination: it&apos;s based on years of
         experience with groups that drink excessively, become rowdy, and negatively affect the
         atmosphere for other guests. Fair or not, the reality is that a group of ten blokes
         approaching a Mayfair club door on a Saturday night is going to face serious scrutiny.
@@ -1458,28 +1458,28 @@ export const blogContent: Record<string, ReactNode> = {
         groups than others, and choosing the right one makes everything easier.
       </p>
       <p>
-        <strong>London Reign — Best Overall for Stags</strong>
+        <strong>London Reign: Best Overall for Stags</strong>
       </p>
       <p>
         London Reign is the top recommendation for stag parties. The Las Vegas-style shows
-        give the night a focal point beyond just drinking — aerial performers, dancers, and
+        give the night a focal point beyond just drinking: aerial performers, dancers, and
         live entertainment create moments the group will actually remember. The larger capacity
         means your group of 10-15 won&apos;t dominate the room in a way that makes the venue
         uncomfortable, and the staff are experienced in handling celebrations.
       </p>
       <p>
-        <strong>Cirque Le Soir — The Theatrical Option</strong>
+        <strong>Cirque Le Soir: The Theatrical Option</strong>
       </p>
       <p>
         Cirque&apos;s circus performers and immersive entertainment make every night feel like
-        an event. For a stag do, this is invaluable — there&apos;s always something happening
+        an event. For a stag do, this is invaluable: there&apos;s always something happening
         that keeps the energy high and gives people something to talk about beyond the usual
         &quot;remember when Dave fell over.&quot; The intimate venue works well for groups of
         6-10 but may feel cramped for larger parties. Book via our{" "}
         <Link href="/cirque-le-soir-table-booking" className="text-gold hover:underline">Cirque Le Soir booking page</Link>.
       </p>
       <p>
-        <strong><Link href="/selene-london-table-booking" className="text-gold hover:underline">Selene London</Link>{" "}— For Large Groups</strong>
+        <strong><Link href="/selene-london-table-booking" className="text-gold hover:underline">Selene London</Link>: For Large Groups</strong>
       </p>
       <p>
         If your stag party is 15+ people, Selene&apos;s multi-room layout accommodates
@@ -1504,16 +1504,16 @@ export const blogContent: Record<string, ReactNode> = {
         group sizes and minimum spends:
       </p>
       <ul>
-        <li><strong>Group of 8, £1,000 minimum:</strong>{" "}£125 per person — the sweet spot for value</li>
-        <li><strong>Group of 10, £1,500 minimum:</strong>{" "}£150 per person — mid-range, allows better table position</li>
-        <li><strong>Group of 12, £2,000 minimum:</strong>{" "}£167 per person — VIP table territory</li>
-        <li><strong>Group of 15, £2,500 minimum:</strong>{" "}£167 per person — large group, strong table or multiple tables</li>
+        <li><strong>Group of 8, £1,000 minimum:</strong>{" "}£125 per person, the sweet spot for value</li>
+        <li><strong>Group of 10, £1,500 minimum:</strong>{" "}£150 per person, mid-range, allows better table position</li>
+        <li><strong>Group of 12, £2,000 minimum:</strong>{" "}£167 per person, VIP table territory</li>
+        <li><strong>Group of 15, £2,500 minimum:</strong>{" "}£167 per person, large group, strong table or multiple tables</li>
       </ul>
       <p>
         Add £30-50 per person for dinner beforehand and £15-20 per person for taxis. A
         fully-loaded stag night in Mayfair runs £170-£240 per person, all-in. Compared to a
         bar crawl where everyone buys their own drinks at £15-20 per round, the value is
-        comparable — but the experience is leagues ahead.
+        comparable, but the experience is leagues ahead.
       </p>
 
       <h2>Door Policy: How to Make It Work</h2>
@@ -1521,17 +1521,17 @@ export const blogContent: Record<string, ReactNode> = {
         Even with a table booking, your group needs to meet basic standards:
       </p>
       <ol>
-        <li><strong>Dress code is non-negotiable.</strong>{" "}Every member of the group needs to be in smart attire — collared shirt, smart trousers, smart shoes. One person in trainers can hold up the entire group.</li>
+        <li><strong>Dress code is non-negotiable.</strong>{" "}Every member of the group needs to be in smart attire: collared shirt, smart trousers, smart shoes. One person in trainers can hold up the entire group.</li>
         <li><strong>Arrive sober enough.</strong>{" "}Pre-drinks are fine but don&apos;t arrive visibly drunk. Door staff will refuse entry to anyone they judge as too intoxicated, table booking or not.</li>
-        <li><strong>No fancy dress.</strong>{" "}Matching novelty outfits, L-plates, inflatable accessories — leave them at the hotel. A simple sash for the groom is acceptable at most venues.</li>
+        <li><strong>No fancy dress.</strong>{" "}Matching novelty outfits, L-plates, inflatable accessories: leave them at the hotel. A simple sash for the groom is acceptable at most venues.</li>
         <li><strong>Arrive together.</strong>{" "}Staggered arrivals mean multiple door negotiations. Get the full group to the venue at the same time.</li>
         <li><strong>Be courteous at the door.</strong>{" "}The door team has already been briefed that you&apos;re coming. A friendly, respectful approach makes everything smoother.</li>
       </ol>
 
       <h2>Combining Stag and Hen Parties</h2>
       <p>
-        If the stag and hen are happening on the same night — or the couple wants a joint
-        celebration — the door policy challenges largely disappear. A mixed-gender group with
+        If the stag and hen are happening on the same night, or the couple wants a joint
+        celebration, the door policy challenges largely disappear. A mixed-gender group with
         a table booking is exactly what Mayfair clubs want. For the hen party side, read our{" "}
         <Link href="/blog/hen-party-london-clubs-mayfair" className="text-gold hover:underline">hen party guide</Link>{" "}
         for venue-specific advice.
@@ -1550,7 +1550,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Message us on WhatsApp with your date, group size, and any preferences. We&apos;ll
         recommend the right venue for your group and handle the booking and door briefing. The
-        earlier you book, the better your options — especially for Saturdays. Check our{" "}
+        earlier you book, the better your options, especially for Saturdays. Check our{" "}
         <Link href="/best-clubs-bottle-service-london" className="text-gold hover:underline">full guide to London&apos;s best clubs</Link>{" "}
         or head straight to our{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">booking page</Link>.
@@ -1562,8 +1562,8 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         You&apos;ve booked your table, dressed the part, and made it past the door. Then
-        the bottle menu arrives — a leather-bound booklet with 40+ options ranging from £280
-        to £2,000+ — and you realise you have no idea what to order. Your waitress is standing
+        the bottle menu arrives (a leather-bound booklet with 40+ options ranging from £280
+        to £2,000+) and you realise you have no idea what to order. Your waitress is standing
         there, the group is looking at you, and you&apos;re trying to work out the difference
         between Grey Goose and Belvedere while doing mental maths on your minimum spend. This
         guide fixes that problem entirely.
@@ -1575,84 +1575,84 @@ export const blogContent: Record<string, ReactNode> = {
         spend is the total you need to spend on drinks at your table. If it&apos;s £1,000,
         you order £1,000 worth of bottles. Mixers (coke, tonic, Red Bull, cranberry juice,
         fresh lime) are included at no extra charge. Your waitress&apos;s job is to help you
-        hit your minimum efficiently — not to upsell you unnecessarily. A good waitress at a
+        hit your minimum efficiently, not to upsell you unnecessarily. A good waitress at a
         reputable club is on your side.
       </p>
 
       <h2>The Spirits: Your Main Options</h2>
-      <h3>Vodka — The Default Choice (£300–£500)</h3>
+      <h3>Vodka: The Default Choice (£300 to £500)</h3>
       <p>
         Vodka is the most popular spirit at London clubs for good reason: it&apos;s versatile,
         mixes with everything, and nearly everyone in your group will drink it. The standard
         premium options are:
       </p>
       <ul>
-        <li><strong>Grey Goose</strong>{" "}(£350–£450) — The most ordered bottle in Mayfair. Clean, smooth, works with any mixer. The safe, universally liked option.</li>
-        <li><strong>Belvedere</strong>{" "}(£350–£450) — Slightly more character than Grey Goose. Polish rye vodka with a subtle sweetness. A quality alternative.</li>
-        <li><strong>Ciroc</strong>{" "}(£350–£500) — Grape-based vodka, slightly sweeter profile. Popular with groups who want flavour over neutrality. Ciroc also offers flavoured varieties at some venues.</li>
+        <li><strong>Grey Goose</strong>{" "}(£350 to £450): The most ordered bottle in Mayfair. Clean, smooth, works with any mixer. The safe, universally liked option.</li>
+        <li><strong>Belvedere</strong>{" "}(£350 to £450): Slightly more character than Grey Goose. Polish rye vodka with a subtle sweetness. A quality alternative.</li>
+        <li><strong>Ciroc</strong>{" "}(£350 to £500): Grape-based vodka, slightly sweeter profile. Popular with groups who want flavour over neutrality. Ciroc also offers flavoured varieties at some venues.</li>
       </ul>
       <p>
         A single bottle of vodka yields roughly <strong>20 drinks</strong>{" "}(35ml measures with
         mixer). For a group of 6, that&apos;s over three drinks each from one bottle.
       </p>
 
-      <h3>Tequila — The Rising Star (£300–£500)</h3>
+      <h3>Tequila: The Rising Star (£300 to £500)</h3>
       <p>
         Tequila has become increasingly popular at London clubs, driven partly by celebrity
         brands and partly by people realising that good tequila is genuinely enjoyable sipped
         or mixed. The main options:
       </p>
       <ul>
-        <li><strong>Don Julio Blanco</strong>{" "}(£300–£400) — Clean, crisp, excellent with soda and lime. The best all-round tequila for a table.</li>
-        <li><strong>Don Julio 1942</strong>{" "}(£500–£800) — Aged, smooth, meant for sipping. A statement bottle that looks impressive on the table. The higher price eats into your minimum quickly.</li>
-        <li><strong>Casamigos</strong>{" "}(£350–£450) — Smooth and approachable. Good for groups where not everyone is a tequila fan.</li>
-        <li><strong>Patron Silver</strong>{" "}(£300–£400) — The classic choice. Familiar, reliable, well-known brand.</li>
+        <li><strong>Don Julio Blanco</strong>{" "}(£300 to £400): Clean, crisp, excellent with soda and lime. The best all-round tequila for a table.</li>
+        <li><strong>Don Julio 1942</strong>{" "}(£500 to £800): Aged, smooth, meant for sipping. A statement bottle that looks impressive on the table. The higher price eats into your minimum quickly.</li>
+        <li><strong>Casamigos</strong>{" "}(£350 to £450): Smooth and approachable. Good for groups where not everyone is a tequila fan.</li>
+        <li><strong>Patron Silver</strong>{" "}(£300 to £400): The classic choice. Familiar, reliable, well-known brand.</li>
       </ul>
 
-      <h3>Whisky &amp; Cognac — The Sophisticated Pick (£300–£600)</h3>
+      <h3>Whisky &amp; Cognac: The Sophisticated Pick (£300 to £600)</h3>
       <p>
         Whisky and cognac are less commonly ordered at Mayfair club tables but are excellent
         choices for groups who know what they like:
       </p>
       <ul>
-        <li><strong>Hennessy VS/VSOP</strong>{" "}(£300–£450) — The most popular cognac at London clubs. Mixes well with ginger ale or coke. A strong choice for hip-hop venues.</li>
-        <li><strong>Johnnie Walker Black Label</strong>{" "}(£300–£400) — Smooth blended Scotch. Works with soda or ginger ale.</li>
-        <li><strong>Jack Daniel&apos;s</strong>{" "}(£280–£350) — The accessible option. Everyone knows it, everyone can drink it.</li>
+        <li><strong>Hennessy VS/VSOP</strong>{" "}(£300 to £450): The most popular cognac at London clubs. Mixes well with ginger ale or coke. A strong choice for hip-hop venues.</li>
+        <li><strong>Johnnie Walker Black Label</strong>{" "}(£300 to £400): Smooth blended Scotch. Works with soda or ginger ale.</li>
+        <li><strong>Jack Daniel&apos;s</strong>{" "}(£280 to £350): The accessible option. Everyone knows it, everyone can drink it.</li>
       </ul>
 
-      <h3>Gin — The Underrated Option (£280–£400)</h3>
+      <h3>Gin: The Underrated Option (£280 to £400)</h3>
       <p>
         Gin is surprisingly good value at clubs and often has the lowest starting price on the
         spirits menu:
       </p>
       <ul>
-        <li><strong>Hendrick&apos;s</strong>{" "}(£300–£400) — Cucumber-and-rose flavour profile. Distinctive and sophisticated. Excellent with tonic and cucumber garnish.</li>
-        <li><strong>Tanqueray</strong>{" "}(£280–£350) — Classic juniper-forward gin. A solid, no-nonsense choice that mixes beautifully.</li>
+        <li><strong>Hendrick&apos;s</strong>{" "}(£300 to £400): Cucumber-and-rose flavour profile. Distinctive and sophisticated. Excellent with tonic and cucumber garnish.</li>
+        <li><strong>Tanqueray</strong>{" "}(£280 to £350): Classic juniper-forward gin. A solid, no-nonsense choice that mixes beautifully.</li>
       </ul>
 
       <h2>The Champagne Tiers</h2>
       <p>
         Champagne at a club serves two purposes: drinking and presentation. The LED sparkler
-        delivery, the ice bucket on the table, the visual impact — champagne is as much about
+        delivery, the ice bucket on the table, the visual impact: champagne is as much about
         the moment as the taste. For a deeper dive into champagne options, read our{" "}
         <Link href="/blog/best-champagne-bottle-service-london-clubs" className="text-gold hover:underline">complete champagne guide</Link>.
       </p>
-      <h3>Entry Level (£350–£500)</h3>
+      <h3>Entry Level (£350 to £500)</h3>
       <ul>
-        <li><strong>Mo&euml;t &amp; Chandon</strong>{" "}(£350–£450) — The standard. Universally recognised, reliable quality, won&apos;t embarrass you.</li>
-        <li><strong>Veuve Clicquot</strong>{" "}(£400–£500) — Slightly more premium positioning. The yellow label is iconic.</li>
+        <li><strong>Mo&euml;t &amp; Chandon</strong>{" "}(£350 to £450): The standard. Universally recognised, reliable quality, won&apos;t embarrass you.</li>
+        <li><strong>Veuve Clicquot</strong>{" "}(£400 to £500): Slightly more premium positioning. The yellow label is iconic.</li>
       </ul>
-      <h3>Mid-Range (£500–£900)</h3>
+      <h3>Mid-Range (£500 to £900)</h3>
       <ul>
-        <li><strong>Laurent-Perrier Ros&eacute;</strong>{" "}(£500–£650) — The most popular ros&eacute; champagne at London clubs. Looks beautiful, tastes excellent.</li>
-        <li><strong>Ruinart</strong>{" "}(£500–£600) — Underrated. Excellent quality without the Dom Perignon price tag.</li>
-        <li><strong>Dom Perignon</strong>{" "}(£600–£900) — The prestige choice. Everyone recognises it. The vintage quality is genuinely superior. A statement order.</li>
+        <li><strong>Laurent-Perrier Ros&eacute;</strong>{" "}(£500 to £650): The most popular ros&eacute; champagne at London clubs. Looks beautiful, tastes excellent.</li>
+        <li><strong>Ruinart</strong>{" "}(£500 to £600): Underrated. Excellent quality without the Dom Perignon price tag.</li>
+        <li><strong>Dom Perignon</strong>{" "}(£600 to £900): The prestige choice. Everyone recognises it. The vintage quality is genuinely superior. A statement order.</li>
       </ul>
-      <h3>Ultra-Premium (£800–£2,000+)</h3>
+      <h3>Ultra-Premium (£800 to £2,000+)</h3>
       <ul>
-        <li><strong>Armand de Brignac (Ace of Spades)</strong>{" "}(£800–£1,500) — The gold bottle that catches every eye in the venue. Maximum visual impact.</li>
-        <li><strong>Dom Perignon Ros&eacute;</strong>{" "}(£1,000–£1,500) — The ultimate champagne order. Rare, beautiful, and unmistakable.</li>
-        <li><strong>Cristal</strong>{" "}(£800–£1,200) — Louis Roederer&apos;s prestige cuvée. Elegant and understated compared to Ace of Spades.</li>
+        <li><strong>Armand de Brignac (Ace of Spades)</strong>{" "}(£800 to £1,500): The gold bottle that catches every eye in the venue. Maximum visual impact.</li>
+        <li><strong>Dom Perignon Ros&eacute;</strong>{" "}(£1,000 to £1,500): The ultimate champagne order. Rare, beautiful, and unmistakable.</li>
+        <li><strong>Cristal</strong>{" "}(£800 to £1,200): Louis Roederer&apos;s prestige cuvée. Elegant and understated compared to Ace of Spades.</li>
       </ul>
 
       <h2>How to Hit Your Minimum Spend Efficiently</h2>
@@ -1660,16 +1660,16 @@ export const blogContent: Record<string, ReactNode> = {
         This is the practical bit. Here are sample orders that hit common minimums:
       </p>
       <ul>
-        <li><strong>£1,000 minimum (efficient):</strong>{" "}2x Grey Goose (£700–£900) + 1x Mo&euml;t (£350–£450). Gives you ~40 spirit drinks plus 6–7 glasses of champagne.</li>
-        <li><strong>£1,000 minimum (mixed spirits):</strong>{" "}1x Grey Goose (£350–£450) + 1x Don Julio Blanco (£300–£400) + 1x Mo&euml;t (£350–£450). Variety for the group.</li>
-        <li><strong>£1,500 minimum:</strong>{" "}2x premium spirits (£700–£900) + 1x Dom Perignon (£600–£900). Spirits for drinking, Dom for the moment.</li>
-        <li><strong>£2,000 minimum:</strong>{" "}2x premium spirits (£700–£900) + 1x Ace of Spades (£800–£1,500). Maximum impact.</li>
+        <li><strong>£1,000 minimum (efficient):</strong>{" "}2x Grey Goose (£700 to £900) + 1x Mo&euml;t (£350 to £450). Gives you ~40 spirit drinks plus 6 to 7 glasses of champagne.</li>
+        <li><strong>£1,000 minimum (mixed spirits):</strong>{" "}1x Grey Goose (£350 to £450) + 1x Don Julio Blanco (£300 to £400) + 1x Mo&euml;t (£350 to £450). Variety for the group.</li>
+        <li><strong>£1,500 minimum:</strong>{" "}2x premium spirits (£700 to £900) + 1x Dom Perignon (£600 to £900). Spirits for drinking, Dom for the moment.</li>
+        <li><strong>£2,000 minimum:</strong>{" "}2x premium spirits (£700 to £900) + 1x Ace of Spades (£800 to £1,500). Maximum impact.</li>
       </ul>
 
       <h2>When Champagne Makes Sense vs Spirits</h2>
       <p>
         Spirits give you more drinks per pound. A £350 bottle of vodka yields ~20 drinks.
-        A £400 bottle of Mo&euml;t yields 6–7 glasses. Purely on efficiency, spirits win
+        A £400 bottle of Mo&euml;t yields 6 to 7 glasses. Purely on efficiency, spirits win
         every time.
       </p>
       <p>
@@ -1677,7 +1677,7 @@ export const blogContent: Record<string, ReactNode> = {
         presentation is worth it), you want a visual moment for your table, you genuinely
         prefer champagne over mixed drinks, or you&apos;re spending above your minimum and
         want to upgrade the experience. Most groups order primarily spirits with one bottle
-        of champagne — and that balance works perfectly.
+        of champagne, and that balance works perfectly.
       </p>
 
       <h2>What NOT to Order</h2>
@@ -1714,26 +1714,26 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         Finding proper house music with bottle service in London is harder than it should be.
-        Most Mayfair clubs default to hip-hop and RnB — which is fine if that&apos;s your
+        Most Mayfair clubs default to hip-hop and RnB, which is fine if that&apos;s your
         thing, but leaves house music fans with limited options if they also want a table, a
         waitress, and the VIP treatment. The good news is that several venues cater specifically
         to the house crowd, each with a different take on the genre. Here&apos;s how they
         compare.
       </p>
 
-      <h2>Maddox — The Sophisticated House Choice</h2>
+      <h2>Maddox: The Sophisticated House Choice</h2>
       <p>
         <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>{" "}
         is the most refined house music venue in Mayfair and the one we recommend most often
         to house fans. The music policy centres on deep house, melodic house, and sophisticated
-        tech house — the kind of music that rewards good speakers and attentive listening.
+        tech house, the kind of music that rewards good speakers and attentive listening.
         The DJs are genuinely talented and the booking policy favours quality over big names.
       </p>
       <p>
         What makes Maddox stand out is the dinner-to-club format. The ground floor houses an
         excellent Italian restaurant, and the transition downstairs to the club happens
         naturally as the evening progresses. This gives the night structure that most clubs
-        lack — you&apos;re not standing awkwardly at a table at 10:30 PM waiting for the venue
+        lack: you&apos;re not standing awkwardly at a table at 10:30 PM waiting for the venue
         to fill up. You&apos;re finishing dessert while the bass starts building downstairs.
       </p>
       <p>
@@ -1748,12 +1748,12 @@ export const blogContent: Record<string, ReactNode> = {
         it drowning the mids.
       </p>
 
-      <h2>99 Regent Street (formerly Cuckoo Club) Upstairs — The Two-Floor Advantage</h2>
+      <h2>99 Regent Street (formerly Cuckoo Club) Upstairs: The Two-Floor Advantage</h2>
       <p>
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>, open Wednesday to Saturday, has an upper floor dedicated to house and tech house, making it the
         only Mayfair club where house music fans have their own distinct space. While the
         basement pumps out hip-hop and RnB, upstairs operates as an entirely separate
-        experience — house-focused DJs, a crowd that&apos;s there for the music, and a sound
+        experience: house-focused DJs, a crowd that&apos;s there for the music, and a sound
         system that handles electronic music properly.
       </p>
       <p>
@@ -1774,25 +1774,25 @@ export const blogContent: Record<string, ReactNode> = {
         need to work too hard.
       </p>
 
-      <h2>BEAT London — The Purist&apos;s Choice</h2>
+      <h2>BEAT London: The Purist&apos;s Choice</h2>
       <p>
         <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>{" "}
         is the most electronic-focused venue on the Mayfair circuit and the closest thing to a
         dedicated music venue with bottle service. The music policy covers house, tech house,
         electronic, and occasionally deeper/darker sounds that you won&apos;t hear at any other
-        Mayfair club. The sound system is the best in the area — properly specified, properly
+        Mayfair club. The sound system is the best in the area: properly specified, properly
         installed, and treated like a priority rather than an afterthought.
       </p>
       <p>
         BEAT also runs significantly later than other Mayfair clubs, often until <strong>5-6
         AM</strong>. For the house crowd, this matters enormously. House music builds over
-        time — a DJ hitting their stride at 2 AM needs at least two more hours to take the
+        time: a DJ hitting their stride at 2 AM needs at least two more hours to take the
         room on a proper journey. Most Mayfair clubs close at 3 AM, cutting that journey short.
         BEAT gives you the full experience.
       </p>
       <p>
         Tables start from <strong>£1,000 minimum spend</strong>. The crowd at BEAT skews
-        younger and more music-focused than other Mayfair venues — these are people who chose
+        younger and more music-focused than other Mayfair venues: these are people who chose
         the club for the sound, not the status. Book via our{" "}
         <Link href="/beat-london-table-booking" className="text-gold hover:underline">BEAT London booking page</Link>.
       </p>
@@ -1802,13 +1802,13 @@ export const blogContent: Record<string, ReactNode> = {
         demands. If sound quality matters to you, BEAT is the answer.
       </p>
 
-      <h2>Dear Darling — The Transitional Experience</h2>
+      <h2>Dear Darling: The Transitional Experience</h2>
       <p>
         Dear Darling isn&apos;t a house music club in the traditional sense, but its music
         policy incorporates house-influenced sounds as the evening progresses. Early on, the
         music is atmospheric and lounge-friendly. As the cocktail bar transitions into a
         late-night club, the beats get heavier and house elements become more prominent. The
-        DJs are skilled at this gradual transition — you don&apos;t suddenly jump from jazz to
+        DJs are skilled at this gradual transition: you don&apos;t suddenly jump from jazz to
         tech house; it builds organically.
       </p>
       <p>
@@ -1861,7 +1861,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         If house music is your primary criterion: Maddox for sophistication, BEAT for sound
         quality and late hours, 99 Regent Street for flexibility with a mixed group, Dear Darling for
-        the full-evening experience. Any of these four will satisfy a house fan — the choice
+        the full-evening experience. Any of these four will satisfy a house fan. The choice
         comes down to what else matters to you beyond the music.
       </p>
       <p>
@@ -1879,7 +1879,7 @@ export const blogContent: Record<string, ReactNode> = {
         You&apos;ve booked a table. You&apos;ve sorted the dress code. You know which club
         you&apos;re going to. But here&apos;s something most people overlook entirely: where
         you sit inside the club matters enormously. The difference between a dance floor table
-        and an elevated VIP booth isn&apos;t just price — it&apos;s a completely different night.
+        and an elevated VIP booth isn&apos;t just price: it&apos;s a completely different night.
         Your table position determines the energy around you, how much interaction you have with
         the wider room, the level of privacy you get, and even how easily your waitress can
         reach you with bottles. Getting this right is one of the simplest ways to upgrade your
@@ -1890,44 +1890,44 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Most people booking bottle service focus on the venue and the minimum spend. They assume
         a table is a table. It isn&apos;t. At any given club, you might have a choice between
-        five or six distinct positions — each with a different atmosphere, a different price point,
+        five or six distinct positions, each with a different atmosphere, a different price point,
         and a different kind of night. A table next to the DJ booth at{" "}
         <Link href="/cirque-le-soir-table-booking" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         gives you front-row seats to one of London&apos;s most outrageous shows. A private booth
         at{" "}
         <Link href="/tape-london-table-booking" className="text-gold hover:underline">Tape London</Link>{" "}
         gives you an intimate cocoon away from the crowd. Same city, same night, completely
-        different experiences — determined entirely by where you sit.
+        different experiences, determined entirely by where you sit.
       </p>
 
       <h2>The Five Types of Table Position</h2>
 
       <h3>1. Dance Floor Adjacent</h3>
       <p>
-        These tables sit right on the edge of — or sometimes within — the dance floor area.
+        These tables sit right on the edge of, or sometimes within, the dance floor area.
         They&apos;re the most energetic positions in the house. You&apos;re surrounded by
         people, the music is loudest, and there&apos;s a constant flow of movement around you.
         Dance floor tables are perfect if your group wants to be in the thick of the action
-        rather than watching from above. The trade-off is less privacy and more noise — holding
+        rather than watching from above. The trade-off is less privacy and more noise: holding
         a conversation is genuinely difficult. For groups who are there to dance and party
         rather than talk, this is the position to request.
       </p>
       <p>
-        Pricing: Dance floor tables typically start at the base minimum spend — <strong>£1,000</strong>{" "}
+        Pricing: Dance floor tables typically start at the base minimum spend, <strong>£1,000</strong>{" "}
         at most Mayfair venues. They&apos;re the most accessible entry point to bottle service.
       </p>
 
       <h3>2. Elevated VIP</h3>
       <p>
         Elevated VIP tables are raised above the main floor, usually on a mezzanine or platform.
-        They give you a commanding view of the entire venue — you can see the dance floor, the
+        They give you a commanding view of the entire venue: you can see the dance floor, the
         DJ, and the crowd below. There&apos;s an undeniable status element to sitting above
         the room. These tables typically have more space, better seating, and a clearer line
         of sight for your waitress. The atmosphere is more exclusive and slightly more relaxed,
         though you still feel the energy from below.
       </p>
       <p>
-        Pricing: Elevated VIP tables start from <strong>£1,500–£2,500</strong>{" "}depending on
+        Pricing: Elevated VIP tables start from <strong>£1,500 to £2,500</strong>{" "}depending on
         the venue and the night. Saturday VIP positions at premium clubs can reach{" "}
         <strong>£3,000+</strong>. The premium is justified by the view, the space, and the
         exclusivity. Check our{" "}
@@ -1937,7 +1937,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h3>3. Booth Seating</h3>
       <p>
-        Booths are semi-enclosed seating areas — typically U-shaped or L-shaped banquettes
+        Booths are semi-enclosed seating areas, typically U-shaped or L-shaped banquettes
         with a table in the centre. They offer the most privacy of any standard table position.
         You&apos;re shielded on two or three sides, which creates an intimate setting even in
         a packed club. Booths are ideal for groups who want their own space, for dates where
@@ -1957,13 +1957,13 @@ export const blogContent: Record<string, ReactNode> = {
         and{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,
         stage-view tables put you directly in front of the performers. This is where the
-        entertainment experience is best — you see every detail of the aerial acts, the circus
+        entertainment experience is best: you see every detail of the aerial acts, the circus
         performers, the cabaret shows. If you&apos;re booking a show club specifically for the
         entertainment, a stage-view table is the only position that makes sense. Sitting at the
         back of Cirque and missing the performers defeats the purpose.
       </p>
       <p>
-        Pricing: Stage-view tables are typically mid-range to premium — <strong>£1,000–£2,000</strong>{" "}
+        Pricing: Stage-view tables are typically mid-range to premium, <strong>£1,000 to £2,000</strong>{" "}
         depending on the venue and exact position. Front-row stage seats at Reign can command
         higher minimums on busy nights.
       </p>
@@ -1971,7 +1971,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>5. Private Corners</h3>
       <p>
         Some venues have tucked-away corners or alcoves that offer maximum seclusion. These
-        positions are slightly removed from the main action — less energy but far more privacy.
+        positions are slightly removed from the main action: less energy but far more privacy.
         They&apos;re popular with celebrity guests, couples on special occasions, and anyone
         who wants bottle service without being on display. Not every club has true corner
         positions, but those that do often keep them as premium options.
@@ -1981,8 +1981,8 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The pricing hierarchy at most London clubs follows a clear pattern. Floor tables are
         the base (typically <strong>£1,000</strong>). Booths add a slight premium for privacy.
-        Elevated VIP adds a significant premium for status and views. The very best positions —
-        front-row stage, owner&apos;s booth, prime elevated VIP — can be <strong>two to three
+        Elevated VIP adds a significant premium for status and views. The very best positions
+        (front-row stage, owner&apos;s booth, prime elevated VIP) can be <strong>two to three
         times</strong>{" "}the base minimum. The premium reflects supply and demand: there are
         usually only two or three premium positions per venue, and they sell out first every
         weekend. For a full breakdown of pricing by venue, see our{" "}
@@ -1994,7 +1994,7 @@ export const blogContent: Record<string, ReactNode> = {
         When you{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">book through us</Link>,
         simply tell us what you&apos;re after. &quot;We want to be near the stage at Cirque&quot;
-        or &quot;private booth at Tape if possible&quot; — that&apos;s all we need. We&apos;ll
+        or &quot;private booth at Tape if possible&quot;: that&apos;s all we need. We&apos;ll
         communicate your preference to the venue and confirm what&apos;s available. The earlier
         you book, the better your chances. Saturday night VIP positions can sell out two to
         three weeks in advance at popular venues. If your preferred position isn&apos;t available,
@@ -2017,7 +2017,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Tape London: Choose the Intimate Booth</h3>
       <p>
         Tape is a members&apos; club with under 200 capacity. The whole venue feels exclusive,
-        but the booths are where Tape really excels. The booth seating is designed for privacy —
+        but the booths are where Tape really excels. The booth seating is designed for privacy:
         deep, comfortable, enclosed. This is where music industry insiders and celebrities
         tend to sit. If you&apos;re at Tape, you&apos;re paying a premium already (minimums
         from £1,500), so request a booth and get the experience the club was designed for.
@@ -2026,7 +2026,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>London Reign: Stage View for the Shows</h3>
       <p>
         Reign is a large venue with Las Vegas-style production. The aerial performers, the LED
-        shows, the dancers — it&apos;s all built around the central stage. Elevated VIP gives
+        shows, the dancers: it&apos;s all built around the central stage. Elevated VIP gives
         you a panoramic view of everything, while floor tables near the stage put you close
         to the action. For groups who want the show experience, stage-view is essential. For
         groups who want to overlook the spectacle from above, elevated VIP is worth the premium.
@@ -2035,10 +2035,10 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>99 Regent Street (formerly Cuckoo Club): Choose Your Floor</h3>
       <p>
         99 Regent Street is a two-floor venue, and the experience on each floor is genuinely different.
-        The ground floor is the main room — house music, more social, higher energy. The basement
+        The ground floor is the main room: house music, more social, higher energy. The basement
         (The Shack) plays hip-hop, RnB, and Afrobeats with a darker, more intimate atmosphere.
         Your choice of floor effectively determines your music and vibe for the night. If your
-        group has mixed tastes, this is actually an advantage — you can move between floors
+        group has mixed tastes, this is actually an advantage: you can move between floors
         while keeping your table on whichever one you prefer.
       </p>
 
@@ -2046,10 +2046,10 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Not every night needs VIP. If you&apos;re a group of four to six friends looking to
         have a good time and dance, a standard floor table at £1,000 is excellent value. The
-        experience is still premium — you have a table, a waitress, bottles, and guaranteed entry.
+        experience is still premium: you have a table, a waitress, bottles, and guaranteed entry.
         Upgrade to VIP when: it&apos;s a special occasion (birthday, anniversary, celebration),
         you&apos;re entertaining clients, you want maximum privacy, or you specifically want the
-        best views. The upgrade costs an extra £500–£1,500 depending on the venue, so weigh it
+        best views. The upgrade costs an extra £500 to £1,500 depending on the venue, so weigh it
         against what matters to your group.
       </p>
       <p>
@@ -2064,12 +2064,12 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         The best nights out in Mayfair don&apos;t start at the club door. They start hours
-        earlier — with a properly chosen dinner, a well-timed round of cocktails, and a smooth
+        earlier, with a properly chosen dinner, a well-timed round of cocktails, and a smooth
         transition into the club when the energy is building. The difference between a planned
         Mayfair evening and an improvised one is enormous. One flows effortlessly from course
         to cocktail to dance floor. The other involves standing on a pavement at 11 PM trying
-        to decide where to go. This guide gives you three complete itineraries — timed, priced,
-        and tested by people who do this every week.
+        to decide where to go. This guide gives you three complete itineraries, timed and
+        priced.
       </p>
 
       <h2>The Timeline: How a Perfect Mayfair Night Unfolds</h2>
@@ -2078,18 +2078,18 @@ export const blogContent: Record<string, ReactNode> = {
         which specific venues you choose:
       </p>
       <ul>
-        <li><strong>7:00 PM – 9:00 PM:</strong>{" "}Dinner. Choose a restaurant within walking distance of your club.</li>
-        <li><strong>9:00 PM – 10:30 PM:</strong>{" "}Pre-drinks. One or two cocktails at a nearby bar. This is the transition phase — you&apos;re shifting gears from dinner mode to going-out mode.</li>
-        <li><strong>10:30 PM – 11:00 PM:</strong>{" "}Arrive at the club. If you have a table booking, aim for 10:30–11:00. The venue is open but not yet packed — you get settled, order your first bottles, and the night builds around you.</li>
-        <li><strong>11:00 PM – 1:00 AM:</strong>{" "}Peak hours. The club fills up, the DJ hits their stride, and the energy peaks. This is the heart of the night.</li>
-        <li><strong>1:00 AM – 3:00 AM:</strong>{" "}Late night. The crowd thins slightly, the music deepens, and the atmosphere becomes more intimate. Many of the best moments happen after midnight.</li>
+        <li><strong>7:00 PM to 9:00 PM:</strong>{" "}Dinner. Choose a restaurant within walking distance of your club.</li>
+        <li><strong>9:00 PM to 10:30 PM:</strong>{" "}Pre-drinks. One or two cocktails at a nearby bar. This is the transition phase: you&apos;re shifting gears from dinner mode to going-out mode.</li>
+        <li><strong>10:30 PM to 11:00 PM:</strong>{" "}Arrive at the club. If you have a table booking, aim for 10:30 to 11:00. The venue is open but not yet packed: you get settled, order your first bottles, and the night builds around you.</li>
+        <li><strong>11:00 PM to 1:00 AM:</strong>{" "}Peak hours. The club fills up, the DJ hits their stride, and the energy peaks. This is the heart of the night.</li>
+        <li><strong>1:00 AM to 3:00 AM:</strong>{" "}Late night. The crowd thins slightly, the music deepens, and the atmosphere becomes more intimate. Many of the best moments happen after midnight.</li>
       </ul>
 
       <h2>Where to Eat Before Clubbing in Mayfair</h2>
       <p>
         The key to pre-club dining is choosing somewhere close to your venue, with a vibe that
         sets the right tone, and that won&apos;t leave you feeling sluggish. Heavy Italian or
-        steak dinners before clubbing are a mistake — you want something flavourful but not
+        steak dinners before clubbing are a mistake: you want something flavourful but not
         overwhelming.{" "}
         <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>{" "}
         is the standout option if you want dinner and club in one venue. Their upstairs Italian
@@ -2099,8 +2099,8 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         For standalone dining, Mayfair and Soho offer dozens of options. Japanese and sushi
-        restaurants work particularly well before a night out — light, flavourful, and they
-        don&apos;t leave you feeling heavy. Budget <strong>£50–£100 per person</strong>{" "}for a
+        restaurants work particularly well before a night out: light, flavourful, and they
+        don&apos;t leave you feeling heavy. Budget <strong>£50 to £100 per person</strong>{" "}for a
         proper pre-club dinner in the area, depending on the restaurant.
       </p>
 
@@ -2111,13 +2111,13 @@ export const blogContent: Record<string, ReactNode> = {
         somewhere with good cocktails, a lively atmosphere, and proximity to your club. Heddon
         Street and the streets around Regent Street have several cocktail bars that work perfectly.
         Shepherd Market in the heart of Mayfair has a village-pub-meets-cocktail-bar character
-        that&apos;s unique in London. Soho — a five-minute walk from most Mayfair clubs — offers
+        that&apos;s unique in London. Soho, a five-minute walk from most Mayfair clubs, offers
         everything from speakeasies to rooftop terraces.
       </p>
       <p>
         A word of caution: keep pre-drinks to <strong>two or three cocktails</strong>. Arriving
         at the club already three sheets to the wind is a fast track to being turned away at
-        the door. Door teams assess your state, and visibly drunk guests don&apos;t get in —
+        the door. Door teams assess your state, and visibly drunk guests don&apos;t get in,
         table booking or not. Pace yourself. The night is long.
       </p>
 
@@ -2145,7 +2145,7 @@ export const blogContent: Record<string, ReactNode> = {
         seamlessness over variety.
       </p>
       <p>
-        <strong>Budget:</strong>{" "}£200–£250 per person (dinner £60–£80pp + bottle service
+        <strong>Budget:</strong>{" "}£200 to £250 per person (dinner £60 to £80pp + bottle service
         from £1,000 split across your group).
       </p>
 
@@ -2156,15 +2156,15 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Start in Soho at 7:00 PM with Japanese or contemporary European cuisine. Soho&apos;s
         restaurant scene is one of London&apos;s best, and prices are slightly more accessible
-        than Mayfair proper. After dinner, walk to a cocktail bar — Soho has some of London&apos;s
-        finest — for two drinks before heading to{" "}
+        than Mayfair proper. After dinner, walk to a cocktail bar (Soho has some of London&apos;s
+        finest) for two drinks before heading to{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         at 10:30 PM. The contrast between Soho&apos;s buzzy, streetwise energy and Cirque&apos;s
         theatrical madness makes the transition feel like entering another world. This itinerary
         is perfect for groups who want variety and don&apos;t mind a short walk between venues.
       </p>
       <p>
-        <strong>Budget:</strong>{" "}£250–£350 per person (dinner £40–£60pp + cocktails £30–£40pp
+        <strong>Budget:</strong>{" "}£250 to £350 per person (dinner £40 to £60pp + cocktails £30 to £40pp
         + bottle service from £1,000 split across your group).
       </p>
 
@@ -2174,7 +2174,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         The quintessential Mayfair evening. Dine at one of Mayfair&apos;s renowned restaurants
-        at 7:30 PM — somewhere elegant that matches the calibre of where you&apos;re heading.
+        at 7:30 PM, somewhere elegant that matches the calibre of where you&apos;re heading.
         After dinner, stop at a cocktail bar near Berkeley Square for a nightcap. Then arrive
         at{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
@@ -2184,16 +2184,16 @@ export const blogContent: Record<string, ReactNode> = {
         to finish.
       </p>
       <p>
-        <strong>Budget:</strong>{" "}£300–£450 per person (dinner £80–£120pp + cocktails £30–£40pp
+        <strong>Budget:</strong>{" "}£300 to £450 per person (dinner £80 to £120pp + cocktails £30 to £40pp
         + bottle service from £1,500 split across your group).
       </p>
 
       <h2>How to Transition Smoothly Between Venues</h2>
       <p>
         The biggest mistake people make is poor timing between stops. Don&apos;t linger too long
-        at dinner — if you&apos;re still eating at 10 PM, you&apos;ll rush through pre-drinks
-        and arrive at the club flustered. Don&apos;t have too many pre-drinks — arriving at the
-        club visibly drunk is a genuine risk of being denied entry. And don&apos;t over-plan —
+        at dinner: if you&apos;re still eating at 10 PM, you&apos;ll rush through pre-drinks
+        and arrive at the club flustered. Don&apos;t have too many pre-drinks: arriving at the
+        club visibly drunk is a genuine risk of being denied entry. And don&apos;t over-plan:
         you need flexibility to let the evening breathe. The itineraries above are guides, not
         schedules. If dinner runs long and the conversation is flowing, skip pre-drinks and go
         straight to the club. Adapt to the moment.
@@ -2212,7 +2212,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Ready to Plan Your Mayfair Night?</h2>
       <p>
         Tell us your group size, preferred music, and budget, and we&apos;ll build a complete
-        evening for you — dinner recommendation, pre-drinks suggestion, and{" "}
+        evening for you: dinner recommendation, pre-drinks suggestion, and{" "}
         <Link href="/book-a-table" className="text-gold hover:underline">table booking</Link>{" "}
         at the right club. We do this every week for groups visiting London, and we know which
         combinations work best. Message us on WhatsApp and we&apos;ll have your evening sorted
@@ -2224,7 +2224,7 @@ export const blogContent: Record<string, ReactNode> = {
   "london-club-age-policy-id-guide": (
     <>
       <p>
-        It seems straightforward — you&apos;re over 18, you&apos;ve got ID, you should be
+        It seems straightforward: you&apos;re over 18, you&apos;ve got ID, you should be
         fine. But London club age policies have layers that catch people off guard. The legal
         minimum age, the practical minimum age, and the crowd age are three very different
         things. Understanding how they interact saves you from an embarrassing conversation
@@ -2237,7 +2237,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The vast majority of London nightclubs, including every Mayfair venue we work with,
         have a legal minimum age of <strong>18</strong>. This is the age at which you can
-        legally enter and purchase alcohol. There are no 21+ nightclubs in London — that&apos;s
+        legally enter and purchase alcohol. There are no 21+ nightclubs in London: that&apos;s
         an American concept that doesn&apos;t apply here. If you are 18 years old with valid
         ID, you have the legal right to enter any 18+ venue (assuming you meet the other entry
         criteria like dress code and sobriety).
@@ -2253,7 +2253,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         attract a mature, professional clientele. The minimum spend for bottle service
         (£1,000+) naturally filters the crowd towards people with disposable income. Door teams
-        are also curating a specific atmosphere — and while age alone isn&apos;t a criterion for
+        are also curating a specific atmosphere, and while age alone isn&apos;t a criterion for
         rejection, looking significantly younger than the room can work against you, particularly
         if you&apos;re in a large group of very young-looking guests.
       </p>
@@ -2262,7 +2262,7 @@ export const blogContent: Record<string, ReactNode> = {
         18 to 21, your dress code, group composition, and general presentation need to be
         impeccable. A well-dressed 19-year-old couple with a table booking will get into any
         Mayfair venue without issue. A group of ten 18-year-olds in fast-fashion outfits
-        trying to walk in on a Saturday night will struggle — not because of their age, but
+        trying to walk in on a Saturday night will struggle, not because of their age, but
         because of the overall impression.
       </p>
 
@@ -2271,9 +2271,9 @@ export const blogContent: Record<string, ReactNode> = {
         London clubs accept the following forms of identification:
       </p>
       <ul>
-        <li><strong>Valid passport</strong>{" "}— universally accepted, the gold standard. If in doubt, bring your passport.</li>
-        <li><strong>UK or EU driving licence</strong>{" "}— the most common form of ID used by UK residents. Must be in date.</li>
-        <li><strong>PASS-accredited proof of age card</strong>{" "}— accepted at all venues. Less commonly carried but fully valid.</li>
+        <li><strong>Valid passport</strong>: universally accepted, the gold standard. If in doubt, bring your passport.</li>
+        <li><strong>UK or EU driving licence</strong>: the most common form of ID used by UK residents. Must be in date.</li>
+        <li><strong>PASS-accredited proof of age card</strong>: accepted at all venues. Less commonly carried but fully valid.</li>
       </ul>
       <p>
         The following are <strong>NOT accepted</strong>{" "}at any Mayfair venue:
@@ -2283,14 +2283,14 @@ export const blogContent: Record<string, ReactNode> = {
         <li>Work or staff ID badges</li>
         <li>Photocopies or photos of ID on your phone</li>
         <li>Expired documents of any kind</li>
-        <li>National identity cards from non-EU countries (varies — check with us)</li>
+        <li>National identity cards from non-EU countries (varies: check with us)</li>
       </ul>
 
       <h2>International Visitors: Which IDs Work</h2>
       <p>
         If you&apos;re visiting London from abroad, your <strong>passport is the safest and
         most universally accepted</strong>{" "}form of ID. Carry it with you on your night out.
-        Foreign driving licences are accepted at some venues but not all — it depends on the
+        Foreign driving licences are accepted at some venues but not all: it depends on the
         country of issue and the door staff&apos;s familiarity with it. European driving licences
         are generally fine. American driving licences are usually accepted but not guaranteed.
         ID from less common countries may cause hesitation at the door, even if it&apos;s
@@ -2311,7 +2311,7 @@ export const blogContent: Record<string, ReactNode> = {
         a country the door staff can&apos;t verify, or digital-only ID. If your ID is rejected,
         your options are to return with a different form of ID (if you have one nearby) or to
         change plans for the evening. This is why we always recommend carrying a passport as
-        backup — if your driving licence is rejected for any reason, the passport settles it.
+        backup: if your driving licence is rejected for any reason, the passport settles it.
       </p>
 
       <h2>Digital ID: Not Yet Accepted</h2>
@@ -2326,12 +2326,12 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>The Under-25 Experience: What to Expect</h2>
       <p>
         If you&apos;re between 18 and 24, expect to be asked for ID at every venue, every time.
-        Most clubs operate a <strong>Challenge 25</strong>{" "}policy — if you look under 25,
+        Most clubs operate a <strong>Challenge 25</strong>{" "}policy: if you look under 25,
         you&apos;ll be checked. This isn&apos;t personal; it&apos;s standard practice across
         London&apos;s licensed venues. Beyond ID, younger guests may notice that door teams
         give their groups slightly more scrutiny. The assessment includes dress code compliance,
         group composition, sobriety, and general demeanour. Meeting all these criteria is
-        straightforward — our{" "}
+        straightforward: our{" "}
         <Link href="/blog/how-to-get-into-exclusive-london-clubs" className="text-gold hover:underline">guide to getting into exclusive clubs</Link>{" "}
         covers exactly what door teams look for.
       </p>
@@ -2380,7 +2380,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         For the purpose of this guide, we&apos;re talking about groups of <strong>10 to 30+
         people</strong>. Any standard Mayfair table seats 8 to 10 comfortably, so a group of
-        10 fits neatly onto one table. Once you exceed 10, you need multiple tables — and
+        10 fits neatly onto one table. Once you exceed 10, you need multiple tables, and
         that&apos;s where the logistics become important. At 15 people, you need two tables.
         At 20, you need two to three. At 30+, you need a venue that can genuinely handle that
         capacity in adjacent positions. Not every club can do this well.
@@ -2395,7 +2395,7 @@ export const blogContent: Record<string, ReactNode> = {
         area, bowling lanes, karaoke rooms, and multiple bar spaces. For groups of 20+, Selene
         is the standout recommendation. You can spread across different areas while still being
         in the same venue, and the variety of activities (bowling, karaoke, dancing) means
-        there&apos;s something for everyone in the group — even the people who wouldn&apos;t
+        there&apos;s something for everyone in the group, even the people who wouldn&apos;t
         normally choose a nightclub. Table minimums start from <strong>£1,000</strong>, and for
         larger bookings, the venue is flexible on configurations.
       </p>
@@ -2404,10 +2404,10 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         <Link href="/reign-london-table-booking" className="text-gold hover:underline">London Reign</Link>{" "}
         has one of the largest capacities on the Mayfair circuit, which makes it naturally suited
-        to big groups. The Las Vegas-style show format also works brilliantly for large parties —
+        to big groups. The Las Vegas-style show format also works brilliantly for large parties:
         it gives everyone a shared experience and a focal point, rather than 30 people standing
         around trying to make conversation over loud music. The venue can accommodate groups of
-        20+ across adjacent tables with stage views. Budget <strong>£1,000–£2,500 per table</strong>{" "}
+        20+ across adjacent tables with stage views. Budget <strong>£1,000 to £2,500 per table</strong>{" "}
         depending on position.
       </p>
 
@@ -2416,7 +2416,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         can accommodate groups of 15 to 20 across two or three tables, but the intimate venue
         means larger groups risk dominating the room. For groups of 10 to 15 who want the
-        theatrical experience, Cirque is excellent. For 20+, consider Selene or Reign instead —
+        theatrical experience, Cirque is excellent. For 20+, consider Selene or Reign instead:
         the space simply works better at scale. Cirque&apos;s charm is its intimacy, and
         overfilling it diminishes that.
       </p>
@@ -2424,7 +2424,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Multiple Table Configurations</h2>
       <p>
         When your group needs two or more tables, configuration matters. You want tables that
-        are <strong>adjacent</strong>{" "}— next to each other or facing each other — so your group
+        are <strong>adjacent</strong>: next to each other or facing each other, so your group
         stays connected. The worst outcome is having tables on opposite sides of the room,
         which effectively splits your party in two. When you book through us, we specifically
         request grouped table positions and confirm the layout with the venue before your night.
@@ -2445,8 +2445,8 @@ export const blogContent: Record<string, ReactNode> = {
       </ul>
       <p>
         The per-person cost stays remarkably consistent for larger groups because each additional
-        table brings additional capacity. At <strong>£100–£150 per person</strong>, your group
-        gets a reserved table, bottle service, personal waitress, and guaranteed entry — which
+        table brings additional capacity. At <strong>£100 to £150 per person</strong>, your group
+        gets a reserved table, bottle service, personal waitress, and guaranteed entry, which
         is comparable to what you&apos;d spend buying individual drinks at a bar, except with
         significantly better treatment. For full pricing details, see our{" "}
         <Link href="/club-table-prices-london" className="text-gold hover:underline">club table prices guide</Link>.
@@ -2459,7 +2459,7 @@ export const blogContent: Record<string, ReactNode> = {
         time, and your group needs to be reasonably coordinated. The best approach:
       </p>
       <ul>
-        <li>Set a <strong>meeting point</strong>{" "}near the club — a nearby bar or landmark — for 10:15 PM.</li>
+        <li>Set a <strong>meeting point</strong>{" "}near the club (a nearby bar or landmark) for 10:15 PM.</li>
         <li>Walk to the club together at <strong>10:30 PM</strong>. Arriving as a group makes entry smoother.</li>
         <li>Designate <strong>one or two people</strong>{" "}as contacts for the door team and the promoter.</li>
         <li>Have a <strong>group chat</strong>{" "}running for real-time coordination.</li>
@@ -2508,7 +2508,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Private Area Options</h2>
       <p>
         For groups of 20+ with a higher budget, some venues offer semi-private or fully private
-        areas. Selene&apos;s multi-room layout is ideal for this — you can effectively have a
+        areas. Selene&apos;s multi-room layout is ideal for this: you can effectively have a
         section of the venue to yourselves. Reign&apos;s elevated VIP area can accommodate
         large groups with a sense of exclusivity. Private hire of entire venues is possible
         for very large events (50+), though this requires significant minimum spends and
@@ -2521,12 +2521,12 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         It&apos;s the question we get asked more than almost any other: should I book Friday
-        or Saturday? The instinct is to say Saturday — it&apos;s the traditional &quot;big
+        or Saturday? The instinct is to say Saturday: it&apos;s the traditional &quot;big
         night out,&quot; it feels like the obvious choice, and there&apos;s a psychological
         comfort in going out on the night everyone else is going out. But the reality in London&apos;s
         Mayfair clubs is more nuanced than that. Friday and Saturday offer genuinely different
         experiences, and the right choice depends entirely on what kind of night you want. This
-        is a direct comparison — pricing, atmosphere, door policy, crowds, music, and club-by-club
+        is a direct comparison: pricing, atmosphere, door policy, crowds, music, and club-by-club
         recommendations.
       </p>
 
@@ -2535,16 +2535,16 @@ export const blogContent: Record<string, ReactNode> = {
         Let&apos;s start with the most tangible difference. Saturday minimum spends are{" "}
         <strong>10 to 30 percent higher</strong>{" "}than Friday at most Mayfair venues. A table
         that costs £1,000 on Friday might cost £1,200 to £1,300 on Saturday. VIP and premium
-        positions see even larger jumps — a Saturday VIP table can be £500 to £1,000 more
+        positions see even larger jumps: a Saturday VIP table can be £500 to £1,000 more
         than the same table on Friday. Bottle prices themselves don&apos;t change (a bottle
-        of Grey Goose is the same price regardless of the night), but the table minimum —
-        the amount you must spend to secure your reservation — increases because demand is
+        of Grey Goose is the same price regardless of the night), but the table minimum,
+        the amount you must spend to secure your reservation, increases because demand is
         higher. For a detailed breakdown, see our{" "}
         <Link href="/club-table-prices-london" className="text-gold hover:underline">club table prices guide</Link>.
       </p>
       <p>
         If you&apos;re budget-conscious or want maximum value from your evening, Friday
-        delivers more for less. The same table, the same bottles, the same service — at a
+        delivers more for less. The same table, the same bottles, the same service, at a
         lower entry point. For groups where the per-person cost matters (larger groups
         especially), Friday can save each person £20 to £50.
       </p>
@@ -2553,16 +2553,16 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Saturday nights are when London&apos;s clubs operate at maximum intensity. The rooms
         are fuller, the energy is higher, the DJs play bigger sets, and there&apos;s a palpable
-        sense of occasion. If you want the classic big-night-out experience — packed dance
-        floor, champagne sparklers, the full production — Saturday delivers it. The clubs
+        sense of occasion. If you want the classic big-night-out experience (packed dance
+        floor, champagne sparklers, the full production), Saturday delivers it. The clubs
         themselves invest more in Saturday nights: better DJs, more performers at show clubs,
         enhanced production.
       </p>
       <p>
         Friday&apos;s atmosphere is different but not worse. It&apos;s more relaxed, more
         conversational early in the evening, and the energy builds gradually rather than hitting
-        you the moment you walk in. By midnight, a good Friday night has excellent energy —
-        it just takes slightly longer to get there. Many Mayfair regulars actually prefer
+        you the moment you walk in. By midnight, a good Friday night has excellent energy.
+        It just takes slightly longer to get there. Many Mayfair regulars actually prefer
         Friday&apos;s atmosphere because it feels less pressured and more organic. The night
         develops at its own pace rather than being forced from the moment the doors open.
       </p>
@@ -2573,8 +2573,8 @@ export const blogContent: Record<string, ReactNode> = {
         are at peak capacity, guest lists are longer, and door teams have more people to
         assess. If you&apos;re relying on walk-in entry or guest list (rather than a table
         booking), Friday gives you significantly better odds. The dress code enforcement is
-        the same on both nights, but the overall selectivity — how critically the door team
-        assesses your group — is higher on Saturday.
+        the same on both nights, but the overall selectivity, how critically the door team
+        assesses your group, is higher on Saturday.
       </p>
       <p>
         With a{" "}
@@ -2590,7 +2590,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Saturday queues at popular venues can reach <strong>30 to 60 minutes</strong>{" "}for
         walk-in and guest list entry between 11 PM and midnight. Friday queues are typically
-        half that — <strong>15 to 30 minutes</strong>{" "}during the same window. Table booking
+        half that, <strong>15 to 30 minutes</strong>{" "}during the same window. Table booking
         holders skip the queue on both nights, which is another argument for securing a table,
         particularly on Saturdays. There is nothing glamorous about standing on a Mayfair
         pavement for an hour in January.
@@ -2602,13 +2602,13 @@ export const blogContent: Record<string, ReactNode> = {
         <strong> Friday crowds tend to be more local.</strong>{" "}You&apos;ll find London-based
         professionals unwinding after the work week, music industry people, Mayfair regulars,
         and people who live and work in the city. There&apos;s an insider quality to Friday
-        nights — the crowd knows the venues, knows the staff, and moves with a familiarity
+        nights: the crowd knows the venues, knows the staff, and moves with a familiarity
         that Saturday crowds often lack.
       </p>
       <p>
         <strong>Saturday crowds are more international and diverse.</strong>{" "}Visitors from
         across the UK, European tourists, international businesspeople, and people celebrating
-        special occasions. Saturday feels like the main event — bigger, louder, more varied.
+        special occasions. Saturday feels like the main event: bigger, louder, more varied.
         Whether you prefer the local Friday crowd or the international Saturday crowd is
         entirely personal. Some people love the insider feeling of Friday; others want the
         buzzing energy of Saturday.
@@ -2617,9 +2617,9 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Music Differences</h2>
       <p>
         DJs at most Mayfair clubs play similar genres on both nights, but the intensity and
-        track selection shift. Friday sets tend to be slightly more curated and underground —
+        track selection shift. Friday sets tend to be slightly more curated and underground:
         deeper house, more adventurous selections. Saturday sets lean more mainstream and
-        high-energy — bigger anthems, more crowd-pleasers, tracks designed to keep a packed
+        high-energy: bigger anthems, more crowd-pleasers, tracks designed to keep a packed
         room moving. At hip-hop venues, Friday might feature more RnB and slower grooves,
         while Saturday goes harder on the bangers. The difference is subtle but noticeable
         if you know what to listen for.
@@ -2636,7 +2636,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h3>Cirque Le Soir</h3>
       <p>
-        Saturday is Cirque&apos;s biggest night — the performers go all out, the crowd is
+        Saturday is Cirque&apos;s biggest night: the performers go all out, the crowd is
         at maximum energy, and the atmosphere is electric. Friday is still excellent but
         slightly less intense. <strong>Best night:</strong>{" "}Saturday for the full theatrical
         experience.
@@ -2644,7 +2644,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h3>99 Regent Street (formerly Cuckoo Club)</h3>
       <p>
-        99 Regent Street, open Wednesday to Saturday, has a strong Friday following — the local Mayfair crowd loves it as a Friday
+        99 Regent Street, open Wednesday to Saturday, has a strong Friday following: the local Mayfair crowd loves it as a Friday
         spot. Saturday is busier but can feel less cohesive. <strong>Best night:</strong>{" "}
         Friday for the loyal local crowd.
       </p>
@@ -2680,9 +2680,9 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Verdict</h2>
       <p>
-        There is no objectively better night. Friday is the insider&apos;s choice — better
+        There is no objectively better night. Friday is the insider&apos;s choice: better
         value, a more local crowd, and a relaxed energy that builds into something genuinely
-        good. Saturday is the headliner — more expensive, more intense, and more spectacular.
+        good. Saturday is the headliner: more expensive, more intense, and more spectacular.
         If you&apos;re visiting London once and want the definitive experience, book Saturday.
         If you live here and go out regularly, Friday often delivers a better night for less
         money. And if you can&apos;t decide, check our{" "}
@@ -2702,7 +2702,7 @@ export const blogContent: Record<string, ReactNode> = {
   "best-london-clubs-for-couples": (
     <>
       <p>
-        London&apos;s club scene is built for groups — birthdays, stag nights, corporate
+        London&apos;s club scene is built for groups: birthdays, stag nights, corporate
         blowouts. But what if it&apos;s just the two of you? Finding the best London clubs
         for couples means knowing which venues offer intimacy without sacrificing energy, and
         which bottle service setups actually work when you&apos;re not rolling in with fifteen
@@ -2714,12 +2714,12 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Why Bottle Service Works Better for Couples</h2>
       <p>
         Walking into a packed Mayfair club without a booking is stressful enough in a group.
-        As a couple, it can feel outright hostile — nowhere to sit, nowhere to put your things,
+        As a couple, it can feel outright hostile: nowhere to sit, nowhere to put your things,
         and no guarantee you&apos;ll get past the door. A{" "}
         <Link href="/bottle-service-guide" className="text-gold hover:underline">VIP table booking</Link>{" "}
         solves every one of these problems. You get guaranteed entry, a reserved booth or table,
         a dedicated waitress, and a space that&apos;s genuinely yours for the night. Minimum
-        spends start from around &pound;1,000, which sounds steep for two — but you&apos;re
+        spends start from around &pound;1,000, which sounds steep for two, but you&apos;re
         paying for the experience, not just the drinks. Think of it as the best date night in
         London, not just a bar tab.
       </p>
@@ -2741,7 +2741,7 @@ export const blogContent: Record<string, ReactNode> = {
         <li>
           <strong><Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>:</strong>{" "}
           The dinner-to-club transition makes Maddox ideal for a date. Start with Italian
-          dining upstairs, then move to the club below — no queuing, no coat check drama,
+          dining upstairs, then move to the club below: no queuing, no coat check drama,
           no stepping outside. The club itself is compact and stylish, with strong music
           programming and a well-dressed crowd. Tables from &pound;1,000.
         </li>
@@ -2773,14 +2773,14 @@ export const blogContent: Record<string, ReactNode> = {
         The honest truth is that bottle service for two costs more per person than splitting
         a table among eight. Most Mayfair clubs have minimum spends starting at &pound;1,000,
         which buys you a premium spirit (Grey Goose, Don Julio, Casamigos) and a selection
-        of mixers. That&apos;s more than enough for two people — you certainly won&apos;t go
+        of mixers. That&apos;s more than enough for two people: you certainly won&apos;t go
         thirsty. If you&apos;d rather toast with bubbles, a bottle of Mo&euml;t or Veuve
         Clicquot typically falls within the same minimum. Check our{" "}
         <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">bottle service pricing guide</Link>{" "}
         for a full breakdown.
       </p>
       <p>
-        Your table will typically be a booth or banquette rather than a large VIP platform —
+        Your table will typically be a booth or banquette rather than a large VIP platform,
         which is exactly what you want. Smaller tables in more intimate positions are far
         better suited to couples than the prominent centre-stage setups designed for big
         groups. When you{" "}
@@ -2791,8 +2791,8 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Best Nights for a Couples Night Out</h2>
       <p>
         Friday tends to work better for couples than Saturday. The atmosphere is buzzing
-        but not overwhelming, minimum spends are often 10&ndash;30% lower, and the door
-        policy is marginally more relaxed. Saturdays are peak energy — fantastic for a
+        but not overwhelming, minimum spends are often 10 to 30% lower, and the door
+        policy is marginally more relaxed. Saturdays are peak energy, fantastic for a
         group celebration, but sometimes too intense for a romantic evening. Read our{" "}
         <Link href="/blog/friday-night-vs-saturday-night-london-clubs" className="text-gold hover:underline">Friday vs Saturday comparison</Link>{" "}
         for the full breakdown.
@@ -2806,10 +2806,10 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>What to Wear on a Club Date Night</h2>
       <p>
         Mayfair dress codes are strict, and arriving as a couple doesn&apos;t earn you any
-        leniency. Men should wear tailored trousers, a smart shirt, and proper shoes —
-        absolutely no trainers, no jeans in most venues, and no sportswear. Women should
+        leniency. Men should wear tailored trousers, a smart shirt, and proper shoes.
+        Absolutely no trainers, no jeans in most venues, and no sportswear. Women should
         opt for a cocktail dress or polished separates with heels. Looking the part isn&apos;t
-        just about getting past the door — it sets the tone for the entire evening. For the
+        just about getting past the door: it sets the tone for the entire evening. For the
         full guide, read{" "}
         <Link href="/blog/mayfair-dress-code-what-to-wear" className="text-gold hover:underline">what to wear to Mayfair clubs</Link>.
       </p>
@@ -2817,8 +2817,8 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>Planning the Full Evening</h2>
       <p>
         The best couples nights don&apos;t start at the club door. Consider dinner in
-        Mayfair or Soho beforehand — Maddox makes this effortless with their in-house
-        restaurant, but there are dozens of excellent options within walking distance of
+        Mayfair or Soho beforehand (Maddox makes this effortless with their in-house
+        restaurant), but there are dozens of excellent options within walking distance of
         every club on this list. Pre-dinner cocktails at a quiet bar, dinner at 8:30,
         arrive at the club around 11 PM. That&apos;s the formula. Our{" "}
         <Link href="/blog/mayfair-night-out-dinner-drinks-club-itinerary" className="text-gold hover:underline">Mayfair night out itinerary</Link>{" "}
@@ -2832,7 +2832,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         with your preferred date, and we&apos;ll recommend the best venue, secure an intimate
         table position, and make sure everything is arranged before you arrive. No queues,
-        no stress — just a brilliant night for two.
+        no stress, just a brilliant night for two.
       </p>
     </>
   ),
@@ -2840,17 +2840,17 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         Most people assume London clubbing is a Friday-and-Saturday affair. That&apos;s
-        understandable &mdash; but it&apos;s also wrong. Some of the best nights in Mayfair
+        understandable, but it&apos;s also wrong. Some of the best nights in Mayfair
         happen midweek, when the crowds are smaller, the minimums are lower, and the
         people who turn up actually want to be there. If you&apos;ve only ever experienced
         London&apos;s best weeknight clubs on a packed Saturday, you&apos;re missing the other
-        side of the city&apos;s nightlife &mdash; and arguably the smarter side.
+        side of the city&apos;s nightlife, and arguably the smarter side.
       </p>
 
       <h2>Why Weeknight Clubbing in London Is the Insider Move</h2>
       <p>
         There are three reasons seasoned Mayfair regulars prefer midweek nights. First,{" "}
-        <strong>minimum spends drop significantly</strong>{" "}&mdash; typically 20&ndash;40% lower
+        <strong>minimum spends drop significantly</strong>: typically 20 to 40% lower
         than Saturday rates. A table that costs &pound;1,500 on a Saturday might start at
         &pound;1,000 on a Thursday. Second, the crowd is different. Weeknight regulars tend
         to be London locals, music industry insiders, and people who know the scene. You
@@ -2881,7 +2881,7 @@ export const blogContent: Record<string, ReactNode> = {
         <li>
           <strong><Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>:</strong>{" "}
           The circus-themed club on Ganton Street delivers the same outrageous performers
-          and production on Wednesday as it does on Saturday &mdash; but with a more
+          and production on Wednesday as it does on Saturday, but with a more
           intimate crowd. Tables from &pound;1,000.
         </li>
         <li>
@@ -2945,9 +2945,9 @@ export const blogContent: Record<string, ReactNode> = {
       <h2>What to Expect: Prices, Dress Code &amp; Entry</h2>
       <p>
         <strong>Minimum spends</strong>{" "}on weeknights typically start at &pound;1,000 per
-        table &mdash; the same base as some weekend rates, but premium positions (stage-side,
+        table, the same base as some weekend rates, but premium positions (stage-side,
         elevated booths) are significantly cheaper midweek. A table that commands &pound;3,000
-        on a Saturday might be &pound;1,500&ndash;&pound;2,000 on a Thursday. Bottle prices
+        on a Saturday might be &pound;1,500 to &pound;2,000 on a Thursday. Bottle prices
         remain the same regardless of the night. Check our{" "}
         <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">bottle service pricing guide</Link>{" "}
         for detailed numbers.
@@ -2962,7 +2962,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         <strong>Entry</strong>{" "}with a table booking is guaranteed on any night. The real
-        difference is for walk-ins and guest list &mdash; midweek queues are shorter,
+        difference is for walk-ins and guest list: midweek queues are shorter,
         ratios are less scrutinised, and the overall door experience is smoother.
       </p>
 
@@ -2974,7 +2974,7 @@ export const blogContent: Record<string, ReactNode> = {
         <strong>corporate groups</strong>{" "}entertaining clients without the Saturday chaos (see{" "}
         <Link href="/blog/corporate-event-london-clubs-entertaining-clients" className="text-gold hover:underline">our corporate guide</Link>),
         and <strong>locals</strong>{" "}who want a quality night out without planning weeks in
-        advance. Thursday is also excellent for birthday celebrations that fall midweek &mdash;
+        advance. Thursday is also excellent for birthday celebrations that fall midweek:
         the venues still pull out sparklers, cake service, and the full VIP treatment.
       </p>
 
@@ -2985,8 +2985,8 @@ export const blogContent: Record<string, ReactNode> = {
         a strong table position at the lowest available minimum. Message us on{" "}
         <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         or{" "}
-        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
-        &mdash; weeknight tables are easier to arrange and often available at shorter notice
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>.
+        Weeknight tables are easier to arrange and often available at shorter notice
         than weekends.
       </p>
     </>
@@ -2995,23 +2995,23 @@ export const blogContent: Record<string, ReactNode> = {
     <>
       <p>
         You&apos;ve booked the table, chosen the venue, and rallied the group. But bottle
-        service etiquette at London clubs isn&apos;t something anyone teaches you &mdash; you
+        service etiquette at London clubs isn&apos;t something anyone teaches you: you
         either pick it up by watching the regulars or you learn the hard way. Most first-time
         table bookers make at least one avoidable mistake that changes the tone of their night.
         This guide covers every unwritten rule so you walk in looking like you&apos;ve done
         this a hundred times.
       </p>
 
-      <h2>Arrive on Time &mdash; Or Close to It</h2>
+      <h2>Arrive on Time, or Close to It</h2>
       <p>
         Your table reservation holds for a window, not indefinitely. At most London clubs, if
-        you haven&apos;t arrived within <strong>60&ndash;90 minutes</strong>{" "}of your booking
+        you haven&apos;t arrived within <strong>60 to 90 minutes</strong>{" "}of your booking
         time, the venue may release your table to walk-ins. This is especially true on
         Saturdays at high-demand venues like{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
         and{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>.
-        If you&apos;re running late, message your booker or the venue directly &mdash; a quick
+        If you&apos;re running late, message your booker or the venue directly: a quick
         heads-up goes a long way. Aim to arrive between <strong>11pm and midnight</strong>{" "}on
         a Friday or Saturday. Turning up at 1:30am means you&apos;ve already missed the best
         part of the night and you&apos;ll still pay the full minimum spend.
@@ -3021,7 +3021,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Your table waitress is your single most important ally for the entire evening. She
         controls your drink flow, manages your ice and mixers, coordinates sparkler
-        presentations, and &mdash; crucially &mdash; has the ear of the venue&apos;s
+        presentations, and, crucially, has the ear of the venue&apos;s
         management. Treat her well and the night runs smoothly. Treat her poorly and service
         slows to a crawl.
       </p>
@@ -3037,8 +3037,8 @@ export const blogContent: Record<string, ReactNode> = {
           minimum and ensures you hit it without over-ordering.
         </li>
         <li>
-          <strong>Tip properly:</strong>{" "}A <strong>15&ndash;20% tip</strong>{" "}is the norm at
-          London clubs. Some venues add a discretionary service charge to the bill &mdash;
+          <strong>Tip properly:</strong>{" "}A <strong>15 to 20% tip</strong>{" "}is the norm at
+          London clubs. Some venues add a discretionary service charge to the bill:
           check before tipping twice. If there&apos;s no charge, tip in cash at the end of
           the night directly to your waitress. She will remember you next time.
         </li>
@@ -3051,14 +3051,14 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li>
-          <strong>Do not stand on furniture.</strong>{" "}Tables, sofas, booths &mdash; none of it.
+          <strong>Do not stand on furniture.</strong>{" "}Tables, sofas, booths: none of it.
           Standing on furniture gets you a warning the first time and removed the second.
           It damages the venue, creates safety risks, and immediately marks your group as
           inexperienced.
         </li>
         <li>
           <strong>Do not pour your own drinks.</strong>{" "}Your waitress handles all pouring. If
-          you need a top-up, catch her eye or wait &mdash; she&apos;ll be round regularly. At
+          you need a top-up, catch her eye or wait: she&apos;ll be round regularly. At
           venues like{" "}
           <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>{" "}
           and{" "}
@@ -3067,14 +3067,14 @@ export const blogContent: Record<string, ReactNode> = {
         </li>
         <li>
           <strong>Do not invite strangers to your table.</strong>{" "}Bringing random people from
-          the dancefloor back to your table creates headaches &mdash; security may question
+          the dancefloor back to your table creates headaches: security may question
           them, your minimum spend doesn&apos;t stretch further, and bottles disappear faster.
           If you want to expand your group, clear it with your waitress first.
         </li>
         <li>
           <strong>Do keep your table area tidy.</strong>{" "}Broken glass, spilt drinks, and
           rubbish on the table reflect poorly on your group. If something spills, flag your
-          waitress &mdash; she&apos;ll have it sorted in seconds.
+          waitress: she&apos;ll have it sorted in seconds.
         </li>
         <li>
           <strong>Do be mindful of noise.</strong>{" "}Every table has music blasting, but
@@ -3088,7 +3088,7 @@ export const blogContent: Record<string, ReactNode> = {
         The minimum spend is a commitment, not a target. If your minimum is{" "}
         <strong>&pound;1,000</strong>{" "}and you only order &pound;700 of drinks, you still pay
         &pound;1,000. The difference doesn&apos;t roll over or get refunded. This is standard
-        at every London club with table service &mdash; from{" "}
+        at every London club with table service, from{" "}
         <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         to{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>.
@@ -3097,25 +3097,25 @@ export const blogContent: Record<string, ReactNode> = {
         The smart approach is to plan your orders. Check our{" "}
         <Link href="/blog/what-to-order-london-club-bottle-menu-guide" className="text-gold hover:underline">bottle menu guide</Link>{" "}
         before the night. A standard bottle of Grey Goose or Belvedere typically runs{" "}
-        <strong>&pound;350&ndash;&pound;450</strong>. A bottle of Mo&euml;t starts around{" "}
-        <strong>&pound;250&ndash;&pound;300</strong>. Work backwards from your minimum to know
-        exactly what to order. Your waitress will also help you pace it &mdash; she knows the
+        <strong>&pound;350 to &pound;450</strong>. A bottle of Mo&euml;t starts around{" "}
+        <strong>&pound;250 to &pound;300</strong>. Work backwards from your minimum to know
+        exactly what to order. Your waitress will also help you pace it: she knows the
         prices by heart and can suggest combinations that hit your number without waste.
       </p>
 
       <h2>Phone and Photography Etiquette</h2>
       <p>
-        Taking photos and videos at your table is fine &mdash; it&apos;s part of the
+        Taking photos and videos at your table is fine: it&apos;s part of the
         experience. But there are boundaries. Do not film other guests without their consent,
         especially at more exclusive venues like{" "}
         <Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>{" "}
         where privacy is part of the appeal. Some clubs have strict no-photography policies
-        in certain areas. If a member of staff asks you to stop filming, stop immediately
-        &mdash; pushing back will not end well.
+        in certain areas. If a member of staff asks you to stop filming, stop immediately.
+        Pushing back will not end well.
       </p>
       <p>
         Flash photography on the dancefloor is generally frowned upon. And filming sparkler
-        presentations is expected &mdash; that&apos;s half the point. Just don&apos;t block
+        presentations is expected: that&apos;s half the point. Just don&apos;t block
         the walkway while doing it.
       </p>
 
@@ -3125,12 +3125,12 @@ export const blogContent: Record<string, ReactNode> = {
         policies vary. At some venues, your table wristband or stamp guarantees re-entry. At
         others, you&apos;ll need to check with the door team before leaving. The safest
         approach: ask your waitress about the re-entry policy when you arrive. Never assume
-        you can walk back in &mdash; especially on a busy Saturday when the queue has built
+        you can walk back in, especially on a busy Saturday when the queue has built
         up outside.
       </p>
       <p>
         When it&apos;s time to leave for good, settle your bill with your waitress before
-        heading to the door. Do not leave without paying &mdash; it sounds obvious, but in a
+        heading to the door. Do not leave without paying. It sounds obvious, but in a
         group setting with shared bills, confusion happens. Designate one person to handle
         the final bill and tip.
       </p>
@@ -3146,8 +3146,8 @@ export const blogContent: Record<string, ReactNode> = {
         Ready to book? Message us on{" "}
         <Link href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</Link>{" "}
         or{" "}
-        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>{" "}
-        &mdash; we&apos;ll handle the logistics so you can focus on the night.
+        <Link href="/book-a-table" className="text-gold hover:underline">book a table online</Link>.
+        We&apos;ll handle the logistics so you can focus on the night.
       </p>
     </>
   ),
@@ -3834,7 +3834,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>How to Get the Most from Your Minimum Spend</h2>
       <p>
-        In our experience, the groups that get the best value are the ones that plan
+        The groups that get the best value are the ones that plan
         loosely before they arrive. You do not need a rigid order sheet, but having
         a rough idea helps enormously.
       </p>
@@ -3957,9 +3957,8 @@ export const blogContent: Record<string, ReactNode> = {
         Every group at a London club table hits the same crossroads the moment
         the bottle menu arrives: champagne or spirits? It sounds simple, but the
         answer shapes your entire night, from how long your table lasts to how
-        much each person actually pays. Having helped plan orders for countless
-        bookings, we have a clear view on when each option makes sense, and when
-        it does not.
+        much each person actually pays. This guide sets out when each option
+        makes sense, and when it does not.
       </p>
 
       <h2>How London Bottle Menus Are Structured</h2>
@@ -4763,7 +4762,7 @@ export const blogContent: Record<string, ReactNode> = {
         explains what a magnum or jeroboam actually holds.
       </p>
       <p>
-        In our experience, the tables that enjoy the night most run
+        The tables that enjoy the night most run
         roughly two-thirds spirits to one-third champagne, and they time the
         champagne for the moment the whole group is together rather than
         opening everything in the first half hour. London&apos;s table culture
@@ -5064,7 +5063,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Three Ways Groups Actually Split a Table</h2>
       <p>
-        In our experience, every group lands on one of three methods, and all three
+        Most groups land on one of three methods, and all three
         work as long as everyone knows which one is in play before the night.
       </p>
       <ul>
@@ -5272,7 +5271,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Who Orders It, and Why It Works</h2>
       <p>
-        In our experience, the alcohol-free table order is almost never a whole
+        The alcohol-free table order is almost never a whole
         table; it is woven through a normal one. The designated driver, the
         friend mid-training-block, guests who do not drink for faith or health
         reasons, the mum-to-be at her own celebration. What the modern options
