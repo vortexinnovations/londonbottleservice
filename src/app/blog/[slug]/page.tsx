@@ -31,6 +31,14 @@ export async function generateStaticParams() {
 // number, like the site's own CTAs.
 const escapeHtml = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 marked.use({ renderer: { html: ({ text }) => escapeHtml(text) } });
+// Each table sits in a scroll box (styled in globals.css) so a wide table
+// scrolls sideways on mobile instead of widening the page.
+marked.use({
+  hooks: {
+    postprocess: (html) =>
+      html.replace(/<table>/g, '<div class="table-scroll"><table>').replace(/<\/table>/g, "</table></div>"),
+  },
+});
 const dbBodyHtml = (md: string) =>
   marked.parse(md.replace(/(wa\.me\/|api\.whatsapp\.com\/send\?phone=)\d+/g, `$1${WHATSAPP_NUMBER}`), { async: false });
 

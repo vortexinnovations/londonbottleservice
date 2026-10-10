@@ -364,23 +364,43 @@ h4 {
   text-decoration-color: var(--color-gold);
 }
 
-/* Tables in content-API (Markdown) posts */
-.prose-custom table {
-  display: block;
-  width: 100%;
+/* Tables in content-API (Markdown) posts. The renderer wraps each table in
+   .table-scroll so a wide table scrolls inside the column on mobile instead of
+   widening the page. */
+.prose-custom .table-scroll {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0 0 1.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+.prose-custom table {
+  width: 100%;
   border-collapse: collapse;
   font-size: 0.9375rem;
-  margin: 0 0 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.prose-custom th,
+.prose-custom td {
+  padding: 0.6rem 0.9rem;
+  text-align: left;
+  vertical-align: top;
 }
 .prose-custom th {
-  text-align: left;
-  font-weight: 500;
-  padding: 0.5rem 1rem 0.5rem 0;
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  font-weight: 600;
   border-bottom: 1px solid var(--color-gold-dark);
 }
 .prose-custom td {
-  padding: 0.5rem 1rem 0.5rem 0;
   border-bottom: 1px solid var(--color-border);
   color: var(--color-text-secondary);
+}
+.prose-custom tbody tr:last-child td {
+  border-bottom: none;
+}
+.prose-custom td:first-child {
+  color: var(--color-text-primary);
+  min-width: 8rem;
 }
