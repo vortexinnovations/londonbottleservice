@@ -20,7 +20,6 @@ export function OrganizationSchema() {
       "@type": "City",
       name: "London",
     },
-    sameAs: ["https://londonluxurynightlife.com"],
   };
 
   return (

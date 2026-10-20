@@ -11,14 +11,6 @@ export function LocalBusinessSchema() {
     telephone: WHATSAPP_TEL,
     image: "https://londonbottleservice.com/gallery/images/0.jpg",
     logo: "https://londonbottleservice.com/icon.svg",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "9 Swallow Street",
-      addressLocality: "London",
-      addressRegion: "Greater London",
-      postalCode: "W1B 4DF",
-      addressCountry: "GB",
-    },
     geo: {
       "@type": "GeoCoordinates",
       latitude: 51.5074,
@@ -49,7 +41,6 @@ export function LocalBusinessSchema() {
       opens: "22:00",
       closes: "03:00",
     },
-    sameAs: ["https://londonluxurynightlife.com"],
   };
 
   return (

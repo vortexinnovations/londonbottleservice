@@ -435,16 +435,6 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
                     London Clubs by Night of the Week &rarr;
                   </Link>
                 </li>
-                <li>
-                  <a
-                    href="https://londonluxurynightlife.com"
-                    target="_blank"
-                    rel="noopener"
-                    className="text-text-secondary hover:text-gold transition-colors"
-                  >
-                    London Luxury Nightlife Guide &rarr;
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
