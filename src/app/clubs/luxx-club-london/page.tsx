@@ -28,7 +28,7 @@ const faqs = [
   {
     question: "Is Funky Buddha still open?",
     answer:
-      "No. Funky Buddha, which replaced Luxx at 15 Berkeley Street, is permanently closed, and Itzel now operates at the address. For a similar Mayfair night with table service, Cirque Le Soir, Selene London and Dear Darling are the closest alternatives.",
+      "No. Funky Buddha, which replaced Luxx at 15 Berkeley Street, is permanently closed, and Itzel now operates at the address. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London and Dear Darling are the closest alternatives.",
   },
   {
     question: "Where was Luxx Club London?",
@@ -71,7 +71,7 @@ export default function LuxxPage() {
             its successor and now operates at the Berkeley Street address.
           </p>
           <p className="text-text-secondary leading-relaxed mb-8">
-            For a similar Mayfair night with table service, the closest open
+            For a similar night with table service close to Mayfair, the closest open
             alternatives are{" "}
             <Link href="/clubs/cirque-le-soir" className="text-gold hover:text-gold-light transition-colors">
               Cirque Le Soir

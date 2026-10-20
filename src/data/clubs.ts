@@ -433,17 +433,17 @@ export const clubs: Club[] = [
     bookingSlug: "reign-london-table-booking",
     name: "London Reign",
     shortName: "Reign",
-    tagline: "Mayfair's most extravagant showclub",
+    tagline: "Piccadilly's most extravagant showclub",
     description:
-      "London Reign on Piccadilly is a full-scale showclub: think aerial performers, dancers, live vocalists, and production values that rival a West End show. If Cirque Le Soir is theatrical, Reign is the full Broadway production. It's Mayfair's answer to the big Las Vegas nightclub experience.",
+      "London Reign on Piccadilly is a full-scale showclub: think aerial performers, dancers, live vocalists, and production values that rival a West End show. If Cirque Le Soir is theatrical, Reign is the full Broadway production. It's London's answer to the big Las Vegas nightclub experience.",
     longDescription:
       "London Reign doesn't do anything by halves. The venue on Piccadilly is designed from the ground up as a showclub: a space where live entertainment and nightclub culture merge into something that's closer to a Las Vegas residency than a standard London night out. Expect aerial acrobats performing above the dance floor, professional dancers, live vocalists, fire performers, and production values that most London clubs can't match. The venue itself is large by Mayfair standards, with a proper stage area, multiple table sections, and enough space for the performances to have real impact. The music crosses genres (commercial hits, house, hip-hop) because the entertainment is the headline act, not the DJ. The crowd is a mix of tourists who've heard about the spectacle, London regulars who want something bigger than a standard club night, and groups celebrating major occasions who want a venue that matches the size of the event. Tables start from £1,000 and the VIP sections offer excellent views of the performances.",
-    address: "12-14 Piccadilly, Mayfair, London W1J 0DD",
-    area: "Piccadilly / Mayfair",
+    address: "215-217 Piccadilly, London",
+    area: "Piccadilly",
     musicPolicy:
       "Mixed: commercial, house, hip-hop. The live entertainment is the main attraction.",
     dressCode:
-      "Smart. Similar standards to other Mayfair clubs. Men need smart shoes and a collared shirt. Women should dress up. The venue is high-production, so the crowd tends to make an effort.",
+      "Smart. Similar standards to the Mayfair clubs. Men need smart shoes and a collared shirt. Women should dress up. The venue is high-production, so the crowd tends to make an effort.",
     openingNights: ["Tuesday", "Thursday", "Friday", "Saturday"],
     openingHours: "10:00 PM to 3:00 AM",
     pricing: {
@@ -462,7 +462,7 @@ export const clubs: Club[] = [
       "Aerial performers and acrobatic acts",
       "Las Vegas-style production values",
       "Live vocalists and dancers",
-      "One of the biggest show-format venues in Mayfair",
+      "One of the biggest show-format venues near Mayfair",
     ],
     bestFor:
       "Groups who want a spectacle. Major birthdays, hen parties that want something upscale, tourists experiencing London nightlife, and anyone who's been to standard clubs and wants something bigger.",
@@ -488,7 +488,7 @@ export const clubs: Club[] = [
       {
         question: "Is London Reign good for hen parties?",
         answer:
-          "It's one of the best hen party venues in Mayfair. The show element makes it feel like a genuine event, and the venue can accommodate larger groups with multiple tables. Let us know you're celebrating and we'll help arrange something special.",
+          "It's one of the best hen party venues in and around Mayfair. The show element makes it feel like a genuine event, and the venue can accommodate larger groups with multiple tables. Let us know you're celebrating and we'll help arrange something special.",
       },
       {
         question: "How does London Reign compare to Cirque Le Soir?",
@@ -504,13 +504,13 @@ export const clubs: Club[] = [
     bookingSlug: "selene-london-table-booking",
     name: "Selene London",
     shortName: "Selene",
-    tagline: "Mayfair's newest multi-room club with bowling",
+    tagline: "Multi-room club with bowling near Oxford Circus",
     description:
-      "Selene London is one of Mayfair's newest additions: a multi-room venue that combines a proper nightclub with private bowling lanes and multiple distinct spaces. It's built for groups who want options, variety, and a night that goes beyond sitting at a table in one room.",
+      "Selene London, in Fitzrovia near Oxford Circus, is one of the West End's newest additions: a multi-room venue that combines a proper nightclub with private bowling lanes and multiple distinct spaces. It's built for groups who want options, variety, and a night that goes beyond sitting at a table in one room.",
     longDescription:
-      "Selene is the kind of venue that only exists because someone asked 'what if a Mayfair nightclub also had bowling?' The result is surprisingly good. The venue spans multiple rooms, each with its own identity: the main club room plays hip-hop and RnB with the standard Mayfair bottle service setup, but there are also private bowling lanes where you can book a table and bowl between drinks. A third room offers a different vibe again. This multi-room concept makes Selene one of the most versatile venues in Mayfair. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights: it adds an activity element that gives people something to do beyond drinking and dancing. The venue is well-designed, the sound systems are proper, and the fit-out is high-end Mayfair standard. It's still relatively new on the scene, which means it hasn't yet developed the queues and sky-high pricing of some established venues.",
+      "Selene is the kind of venue that only exists because someone asked 'what if a nightclub also had bowling?' The result is surprisingly good. The venue spans multiple rooms, each with its own identity: the main club room plays hip-hop and RnB with the standard Mayfair bottle service setup, but there are also private bowling lanes where you can book a table and bowl between drinks. A third room offers a different vibe again. This multi-room concept makes Selene one of the most versatile venues in the West End. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights: it adds an activity element that gives people something to do beyond drinking and dancing. The venue is well-designed, the sound systems are proper, and the fit-out is high-end Mayfair standard. It's still relatively new on the scene, which means it hasn't yet developed the queues and sky-high pricing of some established venues.",
     address: "4 Winsley Street, Fitzrovia, London W1W 8HF",
-    area: "Mayfair",
+    area: "Fitzrovia",
     musicPolicy: "Hip-Hop, RnB, Afrobeats across multiple rooms",
     dressCode:
       "Smart. Standard Mayfair dress code: collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
@@ -529,9 +529,9 @@ export const clubs: Club[] = [
       "Access to all rooms including bowling (depending on package)",
     ],
     knownFor: [
-      "Private bowling lanes within a Mayfair nightclub",
+      "Private bowling lanes within a nightclub",
       "Multiple distinct rooms with different vibes",
-      "One of the newest venues in Mayfair",
+      "One of the newest venues in the West End",
       "Group-friendly layout and activities",
     ],
     bestFor:
@@ -556,9 +556,9 @@ export const clubs: Club[] = [
           "Selene is open Thursday, Friday, Saturday and Sunday nights. As a newer venue, they occasionally add special event nights: check with us for the latest schedule.",
       },
       {
-        question: "How does Selene compare to other Mayfair clubs?",
+        question: "How does Selene compare to the Mayfair clubs?",
         answer:
-          "Selene is more activity-focused than most Mayfair clubs. If you want a straightforward bottle service night, any of the established venues will deliver. If you want bowling, multiple rooms, and variety throughout the night, Selene is unique in Mayfair.",
+          "Selene is more activity-focused than most Mayfair clubs. If you want a straightforward bottle service night, any of the established venues will deliver. If you want bowling, multiple rooms, and variety throughout the night, none of the Mayfair clubs offers the same.",
       },
       {
         question: "Is Selene good for large groups?",
@@ -643,16 +643,16 @@ export const clubs: Club[] = [
     bookingSlug: "dear-darling-table-booking",
     name: "Dear Darling",
     shortName: "Dear Darling",
-    tagline: "Mayfair's stylish newcomer with serious late-night energy",
+    tagline: "St James's stylish newcomer with serious late-night energy",
     description:
-      "Dear Darling is one of Mayfair's newer nightlife additions: a stylish, design-led venue that combines a strong cocktail bar with a proper late-night club atmosphere. It's attracted a well-dressed, savvy crowd since opening and has quickly established itself as a serious contender on the Mayfair circuit.",
+      "Dear Darling is one of St James's newer nightlife additions: a stylish, design-led venue that combines a strong cocktail bar with a proper late-night club atmosphere. It's attracted a well-dressed, savvy crowd since opening and has quickly established itself as a serious contender on the Mayfair and St James's circuit.",
     longDescription:
-      "Dear Darling arrived on the Mayfair scene with a clear vision: create a space that's beautiful enough for early-evening cocktails but has the sound system and energy to carry a serious late-night crowd. The interior is carefully designed with warm tones, textured surfaces, and lighting that shifts as the night progresses from cocktail bar to full nightclub mode. The music policy leans towards hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with deeper cuts. What sets Dear Darling apart from established Mayfair clubs is the attention to detail in the drinks programme: the cocktails are genuinely good, not an afterthought. The crowd is fashion-conscious, predominantly in their late twenties to thirties, and the atmosphere manages to be both stylish and genuinely fun. It's the kind of venue that appeals to people who've grown out of the bigger, louder Mayfair clubs but still want a proper night out. Tables are well-positioned and the venue's size keeps the energy concentrated without feeling cramped.",
+      "Dear Darling arrived on the St James's scene with a clear vision: create a space that's beautiful enough for early-evening cocktails but has the sound system and energy to carry a serious late-night crowd. The interior is carefully designed with warm tones, textured surfaces, and lighting that shifts as the night progresses from cocktail bar to full nightclub mode. The music policy leans towards hip-hop, RnB, and Afrobeats, with DJs who balance crowd-pleasers with deeper cuts. What sets Dear Darling apart from established Mayfair clubs is the attention to detail in the drinks programme: the cocktails are genuinely good, not an afterthought. The crowd is fashion-conscious, predominantly in their late twenties to thirties, and the atmosphere manages to be both stylish and genuinely fun. It's the kind of venue that appeals to people who've grown out of the bigger, louder Mayfair clubs but still want a proper night out. Tables are well-positioned and the venue's size keeps the energy concentrated without feeling cramped.",
     address: "91 Jermyn Street, St James's, London",
-    area: "Mayfair",
+    area: "St James's",
     musicPolicy: "Hip-Hop, RnB, Afrobeats, with quality cocktail bar earlier in the evening",
     dressCode:
-      "Smart and fashion-forward. Similar standards to other Mayfair clubs: collared shirts and smart shoes for men, dressed-up for women. The crowd here tends to be well put-together.",
+      "Smart and fashion-forward. Similar standards to the Mayfair clubs: collared shirts and smart shoes for men, dressed-up for women. The crowd here tends to be well put-together.",
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
     openingHours: "10:00 PM to 3:00 AM",
     pricing: {
@@ -665,18 +665,18 @@ export const clubs: Club[] = [
       "Personal table service",
       "Premium spirits or champagne",
       "Mixers, ice, and garnishes",
-      "Access to one of Mayfair's most design-conscious venues",
+      "Access to one of St James's most design-conscious venues",
     ],
     knownFor: [
       "Design-led interior with real attention to detail",
       "Strong cocktail programme alongside bottle service",
       "Fashion-conscious, discerning crowd",
-      "Fresh energy as one of Mayfair's newer venues",
+      "Fresh energy as one of St James's newer venues",
     ],
     bestFor:
       "Groups who want a stylish, well-designed night out with good music. People who've outgrown the bigger clubs but still want energy. Date nights that transition into a late night.",
     atmosphere:
-      "Stylish, warm, and energetic without being overwhelming. The design creates a premium feel that matches the Mayfair location.",
+      "Stylish, warm, and energetic without being overwhelming. The design creates a premium feel that matches the St James's location.",
     capacity: "Approximately 250",
     faqs: [
       {
@@ -702,7 +702,7 @@ export const clubs: Club[] = [
       {
         question: "Is Dear Darling good for a date night?",
         answer:
-          "It's one of the better Mayfair clubs for a date. The cocktail bar element early in the evening creates a more intimate, conversational atmosphere before transitioning into the club. The design and ambience are a cut above most nightclubs.",
+          "It's one of the better clubs in and around Mayfair for a date. The cocktail bar element early in the evening creates a more intimate, conversational atmosphere before transitioning into the club. The design and ambience are a cut above most nightclubs.",
       },
     ],
   },
@@ -717,8 +717,8 @@ export const clubs: Club[] = [
       "BEAT London brings a genuine electronic music focus to the London club scene. If you're into house, techno, and electronic music played on a proper sound system in a venue that cares about the music first, BEAT is built for you.",
     longDescription:
       "BEAT London exists for people who care about electronic music. While most Mayfair clubs treat their DJ bookings as background to the bottle service spectacle, BEAT puts the music front and centre. The sound system is serious: designed for electronic music rather than retrofitted into a space built for conversation. The music policy spans house, tech house, and techno, with guest DJs who are booked for their ability behind the decks rather than their Instagram following. The venue design reflects this music-first approach: the dance floor is the focal point, the lighting is reactive and immersive, and the layout is built to create the best possible clubbing experience. Table service is available for those who want it, positioned to give you both comfort and proximity to the action. The crowd is a mix of genuine electronic music fans and groups looking for a different kind of London club night. If you've been to the hip-hop and RnB clubs and want something different, or if you're coming from cities with strong electronic music cultures (Berlin, Amsterdam, Ibiza), BEAT will feel like home.",
-    address: "London",
-    area: "Central London",
+    address: "48 Margaret Street, Fitzrovia, London",
+    area: "Fitzrovia",
     musicPolicy: "House, Tech House, Techno, Electronic",
     dressCode:
       "Smart casual with a more relaxed approach than traditional Mayfair. Smart trainers may be accepted. No sportswear or very casual attire.",
@@ -859,7 +859,7 @@ export const closedClubs: Club[] = [
     description:
       "Funky Buddha was a Mayfair nightclub on Berkeley Street with an open-format music policy that moved between hip-hop, house, RnB and commercial anthems. Funky Buddha is now permanently closed, and Itzel now operates at its Berkeley Street address.",
     longDescription:
-      "Funky Buddha carried one of the best-known names in Mayfair nightlife, and its open-format music policy made it an easy choice for mixed groups who did not want to commit to one genre all night. The venue is now permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
+      "Funky Buddha carried one of the best-known names in Mayfair nightlife, and its open-format music policy made it an easy choice for mixed groups who did not want to commit to one genre all night. The venue is now permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
     address: "15 Berkeley Street, Mayfair, London W1J 8DY",
     area: "Mayfair",
     musicPolicy: "Open format: Hip-Hop, House, RnB, Afrobeats, Commercial",
@@ -873,13 +873,13 @@ export const closedClubs: Club[] = [
       "Open-format music policy",
       "Mixed crowd",
     ],
-    bestFor: "Funky Buddha is permanently closed. For a similar Mayfair night with table service, try Cirque Le Soir, Selene London or Dear Darling.",
+    bestFor: "Funky Buddha is permanently closed. For a similar night with table service close to Mayfair, try Cirque Le Soir, Selene London or Dear Darling.",
     atmosphere: "Classic Mayfair club energy with open-format music.",
     capacity: "Approximately 300",
     faqs: [
       {
         question: "Is Funky Buddha still open?",
-        answer: "No, Funky Buddha has permanently closed, and Itzel now operates at its Berkeley Street address. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
+        answer: "No, Funky Buddha has permanently closed, and Itzel now operates at its Berkeley Street address. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
         question: "Can I still book a table at Funky Buddha?",
@@ -895,7 +895,7 @@ export const closedClubs: Club[] = [
     description:
       "Luna Club London was an intimate Mayfair club with a hip-hop, RnB and Afrobeats music policy. Luna Club London is now permanently closed.",
     longDescription:
-      "Luna Club London was a compact Mayfair venue built around hip-hop, RnB, Afrobeats and UK rap, with tables close to the dancefloor. The venue is now permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
+      "Luna Club London was a compact Mayfair venue built around hip-hop, RnB, Afrobeats and UK rap, with tables close to the dancefloor. The venue is now permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
     address: "Mayfair, London W1",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, Afrobeats, UK Rap",
@@ -908,13 +908,13 @@ export const closedClubs: Club[] = [
       "Intimate Mayfair setting",
       "Hip-hop and RnB music policy",
     ],
-    bestFor: "Luna Club London is permanently closed. For a similar Mayfair night with table service, try Cirque Le Soir, Selene London or Dear Darling.",
+    bestFor: "Luna Club London is permanently closed. For a similar night with table service close to Mayfair, try Cirque Le Soir, Selene London or Dear Darling.",
     atmosphere: "Sleek and intimate, with a hip-hop focus.",
     capacity: "Approximately 250",
     faqs: [
       {
         question: "Is Luna Club London still open?",
-        answer: "No, Luna Club London has permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
+        answer: "No, Luna Club London has permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
         question: "Can I still book a table at Luna Club London?",
@@ -944,13 +944,13 @@ export const closedClubs: Club[] = [
       "Parisian-inspired interior",
       "Intimate room",
     ],
-    bestFor: "Maison Close is permanently closed. For a similar Mayfair night with table service, try Maddox or BEAT London for house music.",
+    bestFor: "Maison Close is permanently closed. For house music with table service, try Maddox or BEAT London.",
     atmosphere: "Intimate and Parisian-inspired, with a house music focus.",
     capacity: "Approximately 160",
     faqs: [
       {
         question: "Is Maison Close still open?",
-        answer: "No, Maison Close has permanently closed. For a similar Mayfair night with table service, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
+        answer: "No, Maison Close has permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
         question: "Can I still book a table at Maison Close?",
@@ -982,7 +982,7 @@ export const closedClubs: Club[] = [
       "Young, international crowd",
       "Regular celebrity appearances",
     ],
-    bestFor: "Libertine is permanently closed and Selene London now operates in its place. For a similar high-energy Mayfair experience, try Selene London or Cirque Le Soir.",
+    bestFor: "Libertine is permanently closed and Selene London now operates in its place. For a similar high-energy night, try Selene London or Cirque Le Soir.",
     atmosphere: "High-energy, hedonistic, loud. Libertine was the opposite of Mayfair's usual restraint.",
     capacity: "Approximately 300",
     faqs: [

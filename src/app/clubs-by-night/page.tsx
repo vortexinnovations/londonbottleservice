@@ -37,7 +37,7 @@ const nightFaqs = [
   {
     question: "Are London clubs open on Monday?",
     answer:
-      "Cirque Le Soir opens on Mondays, making it the only Mayfair club option at the start of the week. It's actually a great night to experience the circus performances in a more intimate setting with often lower minimum spends.",
+      "Cirque Le Soir opens on Mondays, making it the only option among the clubs we book at the start of the week. It's actually a great night to experience the circus performances in a more intimate setting with often lower minimum spends.",
   },
   {
     question: "Which clubs are open on Sunday in London?",
@@ -148,10 +148,10 @@ const nights: NightData[] = [
     night: "Sunday",
     status: "limited",
     description:
-      "Sunday offers a few options for those who aren't ready for the weekend to end. Tape London opens its doors with its intimate members' club atmosphere, Dear Darling keeps the party going in Mayfair, and Selene adds its multi-room experience. It's a more relaxed vibe than the peak nights, perfect for extending a long weekend.",
+      "Sunday offers a few options for those who aren't ready for the weekend to end. Tape London opens its doors with its intimate members' club atmosphere, Dear Darling keeps the party going in St James's, and Selene adds its multi-room experience. It's a more relaxed vibe than the peak nights, perfect for extending a long weekend.",
     clubs: ["tape-london", "dear-darling", "selene-london"],
     vibe: "Wind-down energy. A smaller, loyal crowd who want one more night before the week starts.",
-    tip: "Sunday at Dear Darling is a hidden gem: the crowd is relaxed, the atmosphere is stylish, and you get genuine Mayfair quality without the weekend intensity.",
+    tip: "Sunday at Dear Darling is a hidden gem: the crowd is relaxed, the atmosphere is stylish, and you get genuine St James's quality without the weekend intensity.",
   },
 ];
 

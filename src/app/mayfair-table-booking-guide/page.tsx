@@ -27,18 +27,18 @@ export const metadata: Metadata = {
   },
 };
 
+// Clubs in Mayfair, plus the three a short walk away that this guide has always
+// covered. Each card shows the club's real area.
+const nearMayfair = ["london-reign", "selene-london", "dear-darling"];
 const mayfairClubs = clubs.filter(
-  (c) =>
-    c.area === "Mayfair" ||
-    c.area === "Piccadilly / Mayfair" ||
-    c.area.includes("Mayfair")
+  (c) => c.area.includes("Mayfair") || nearMayfair.includes(c.slug)
 );
 
 const faqs = [
   {
     question: "How much does a table cost in Mayfair?",
     answer:
-      "Most Mayfair clubs start at £1,000 minimum spend for a standard floor table. This includes Maddox, Selene London, Dear Darling and Rumour (formerly Tabu), whose booths start from £1,000. 99 Regent Street (formerly Cuckoo Club) starts lower, with tables from £600. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
+      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox, Selene London, Dear Darling and Rumour (formerly Tabu), whose booths start from £1,000. 99 Regent Street (formerly Cuckoo Club) starts lower, with tables from £600. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
   },
   {
     question: "What is the dress code for Mayfair nightclubs?",
@@ -68,7 +68,7 @@ const faqs = [
   {
     question: "Which Mayfair club is best for a birthday celebration?",
     answer:
-      "For theatrical birthday celebrations, Cirque Le Soir's circus performers and Soho location make it the most memorable option. Within Mayfair proper, Selene London's bowling lanes add an activity element that works brilliantly for birthday groups. Most clubs can arrange cakes, sparklers, and birthday announcements: let us know when you book and we coordinate everything.",
+      "For theatrical birthday celebrations, Cirque Le Soir's circus performers and Soho location make it the most memorable option. Near Oxford Circus, Selene London's bowling lanes add an activity element that works brilliantly for birthday groups. Most clubs can arrange cakes, sparklers, and birthday announcements: let us know when you book and we coordinate everything.",
   },
 ];
 
@@ -355,7 +355,7 @@ export default function MayfairTableBookingGuidePage() {
             Every Mayfair Club: Quick Guide
           </h2>
           <p className="text-text-muted mb-8">
-            Here is every Mayfair club we work with, what makes each one
+            Here is every club in and around Mayfair we work with, what makes each one
             different, and who each venue is best suited for.
           </p>
           <div className="space-y-6">

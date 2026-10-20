@@ -65,7 +65,7 @@ export const clubImages: Record<string, ClubImageSet> = {
   "selene-london": {
     hero: `${G}/fe4414_5e23eeafd6314264963165b315a2d5f7.jpg`,
     card: `${G}/fe4414_1016cb8f2f854fcba503d8b29d4ebf9d.jpg`,
-    alt: "Selene London nightclub VIP bottle service Mayfair",
+    alt: "Selene London nightclub VIP bottle service, Fitzrovia",
     extra: [`${G}/fe4414_85b9fc90bd9d4311919bf108aa1b75f0.jpg`, `${G}/fe4414_4a9e8d6a5af24e05a5817d8d20c43909.jpg`, `${G}/fe4414_1462f563979d4a04a8a2991d56c3b384.jpg`],
   },
   "funky-buddha": {
@@ -83,7 +83,7 @@ export const clubImages: Record<string, ClubImageSet> = {
   "dear-darling": {
     hero: `${G}/fe4414_b3ddf2c48c9d49dfbd53bd0710bcf757.jpg`,
     card: `${G}/fe4414_b4633e7c60fa491e8c26bea776d3e98c.jpg`,
-    alt: "Dear Darling Mayfair VIP tables bottle service",
+    alt: "Dear Darling VIP tables bottle service, St James's",
     extra: [`${G}/fe4414_9584be9cd3af42b28799afa2a52a64ec.jpg`, `${G}/fe4414_344fbd63598246e7aa317196b7721a0c.jpg`, `${G}/fe4414_141a8e5a0dc0400caa5217cf2d206ba5.jpg`],
   },
   "beat-london": {
@@ -182,7 +182,7 @@ export const blogImages: Record<
   },
   "dear-darling-mayfair-guide": {
     featured: `${G}/fe4414_af41f902101148d3866c12c28816d0d0.jpg`,
-    alt: "Inside Dear Darling Mayfair nightclub",
+    alt: "Inside Dear Darling nightclub, St James's",
     inline: [`${G}/fe4414_cb890a122c024a4ab9ebfd0340633155.jpg`, `${G}/fe4414_d06e7bf2872e4c60853096d8aa8afe24.jpg`],
   },
   "the-box-soho-bottle-service-guide": {

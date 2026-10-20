@@ -69,8 +69,8 @@ export async function generateMetadata({
       canonical: `https://londonbottleservice.com/clubs/${slug}`,
     },
     openGraph: {
-      title: renamed ? title : `${displayName} Table Prices & VIP Bottle Service`,
-      description: renamed
+      title: renamed || closed ? title : `${displayName} Table Prices & VIP Bottle Service`,
+      description: renamed || closed
         ? description
         : `Book a VIP table at ${displayName}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
       url: `https://londonbottleservice.com/clubs/${slug}`,
@@ -202,7 +202,9 @@ export default async function ClubPage({ params }: ClubPageProps) {
           {club.area} {club.openingNights.length > 0 && <>&middot; {formatNights(club, ", ")}</>}
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">
-          {renamed ? (
+          {closed ? (
+            <>{club.name}: Permanently Closed</>
+          ) : renamed ? (
             <>{club.formerName} Is Now {club.shortName}</>
           ) : (
             <>{club.name}{" "}Table Prices &amp; VIP Bottle Service</>
@@ -224,6 +226,9 @@ export default async function ClubPage({ params }: ClubPageProps) {
         )}
       </HeroImage>
 
+      {/* Pricing and what is included: open clubs only (a closed club has no prices or tables) */}
+      {!closed && (
+      <>
       {/* Pricing Section */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">
@@ -290,6 +295,8 @@ export default async function ClubPage({ params }: ClubPageProps) {
         </div>
       </section>
 
+      </>
+      )}
       {/* Full Description */}
       <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
         <div className="max-w-4xl mx-auto">

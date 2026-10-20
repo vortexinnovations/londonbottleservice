@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Which London club has the cheapest bottle service?",
     answer:
-      "99 Regent Street (formerly Cuckoo Club) has the lowest starting minimum here, with tables from £600 covering entry for the whole group. Most other Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Maddox, Selene, Dear Darling, Scotch of St James and Rumour (formerly Tabu). VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
+      "99 Regent Street (formerly Cuckoo Club) has the lowest starting minimum here, with tables from £600 covering entry for the whole group. Most of the other clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Maddox, Selene, Dear Darling, Scotch of St James and Rumour (formerly Tabu). VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
   },
   {
     question: "Which Mayfair clubs play hip-hop?",
@@ -161,7 +161,7 @@ const reviews: ClubReview[] = [
     rank: 6,
     headline: "The Multi-Activity Club That Actually Works",
     review:
-      "Selene took a risk by adding bowling lanes to a Mayfair nightclub, and it paid off. The multi-room layout means you're not stuck in one space all night. Bowl between drinks, move between rooms, find the vibe that suits your group at that moment. It's particularly good for birthdays and corporate events where you need an icebreaker beyond 'sit at a table and drink.' The fit-out is high-end Mayfair standard and the music across all rooms is strong. As a newer venue, it doesn't yet have Saturday-night scarcity, which works in your favour.",
+      "Selene took a risk by adding bowling lanes to a nightclub, and it paid off. The multi-room layout means you're not stuck in one space all night. Bowl between drinks, move between rooms, find the vibe that suits your group at that moment. It's particularly good for birthdays and corporate events where you need an icebreaker beyond 'sit at a table and drink.' The fit-out is high-end Mayfair standard and the music across all rooms is strong. As a newer venue, it doesn't yet have Saturday-night scarcity, which works in your favour.",
     bestFor: "Birthday groups, corporate nights, people who get restless at single-room clubs",
     prosText: [
       "Bowling lanes add a unique activity element",
@@ -199,7 +199,7 @@ const reviews: ClubReview[] = [
     rank: 8,
     headline: "The Stylish Newcomer Punching Above Its Weight",
     review:
-      "Dear Darling arrived on the Mayfair scene with a clear design vision and has quickly built a loyal following. The venue transitions from a sophisticated cocktail bar to a proper nightclub as the night progresses, and the attention to design detail is evident everywhere. The cocktails are better than they need to be, the music is well-curated, and the crowd is fashion-conscious without being pretentious. It's the kind of venue that will continue to rise as word spreads.",
+      "Dear Darling arrived on the St James's scene with a clear design vision and has quickly built a loyal following. The venue transitions from a sophisticated cocktail bar to a proper nightclub as the night progresses, and the attention to design detail is evident everywhere. The cocktails are better than they need to be, the music is well-curated, and the crowd is fashion-conscious without being pretentious. It's the kind of venue that will continue to rise as word spreads.",
     bestFor: "Design-conscious groups, date nights that go late, people who want style and substance",
     prosText: [
       "Beautiful interior design with real attention to detail",
