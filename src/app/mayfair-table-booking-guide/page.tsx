@@ -12,7 +12,7 @@ import { pageImages } from "@/data/images";
 import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: fitTitle("Mayfair Table Booking Guide 2026 | Prices, Tips & How to Book"),
+  title: fitTitle("Mayfair Table Booking Guide 2026: Club Prices and Tips"),
   description:
     "Complete Mayfair table booking guide. Every club's pricing, dress code, best nights, and how to book. Instant WhatsApp confirmation.",
   alternates: {

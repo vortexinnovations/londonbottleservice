@@ -9,9 +9,9 @@ import { pageImages } from "@/data/images";
 import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: fitTitle("London Clubs by Night of the Week | Which Mayfair Clubs Are Open Tonight?"),
+  title: fitTitle("London Clubs Open Tonight: Mayfair Clubs Night by Night"),
   description:
-    "Find out which London nightclubs are open each night of the week. Monday to Saturday guide to Mayfair's best clubs, including opening nights, vibes, and bottle service prices.",
+    "Monday is Cirque Le Soir, Tuesday is Tape and Reign, and Thursday has nine clubs open. Which London clubs are open tonight, with table prices by night.",
   alternates: {
     canonical: "https://londonbottleservice.com/clubs-by-night",
   },

@@ -51,16 +51,16 @@ export async function generateMetadata({
       : club.pricing.vipTable === null
       ? `Tables from £${club.pricing.floorTable.toLocaleString()}, VIP on request.`
       : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`;
-  const title = closed
+  const title = club.metaTitle ?? (closed
     ? `${club.name}: Permanently Closed`
     : renamed
     ? `${club.formerName} Is Now ${club.shortName}: Tables & Prices`
-    : `${displayName} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
-  const description = closed
+    : `${displayName} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`);
+  const description = club.metaDescription ?? (closed
     ? `${club.name} has permanently closed.${club.successorNote ? ` ${club.successorNote}` : ""} Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
     : renamed
     ? `${club.formerName} in ${club.area} now trades as ${club.shortName}. Table minimums under the new name are confirmed on enquiry.${alternatives.length > 0 ? ` Open alternatives: ${joinNames(alternatives.map((c) => c.shortName))}.` : ""}`
-    : `Book a VIP table at ${displayName} in ${club.area}. ${priceLine}${club.openingNights.length > 0 ? `${club.musicPolicy === "Confirmed on enquiry" ? "" : ` ${club.musicPolicy}.`} Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
+    : `Book a VIP table at ${displayName} in ${club.area}. ${priceLine}${club.openingNights.length > 0 ? `${club.musicPolicy === "Confirmed on enquiry" ? "" : ` ${club.musicPolicy}.`} Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`);
 
   return {
     title: fitTitle(title),

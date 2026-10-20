@@ -22,7 +22,7 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "cirque-le-soir-table-booking",
     clubSlug: "cirque-le-soir",
-    metaTitle: "Cirque Le Soir Table Booking | Circus Shows & VIP from £1,000",
+    metaTitle: "Cirque Le Soir Table Booking: Circus Shows, from £1,000",
     metaDescription:
       "Book a VIP table at Cirque Le Soir from £1,000 minimum spend. Skip the queue, get personal service & front-row circus acts. Message us on WhatsApp now.",
     h1: "Book a Table at Cirque Le Soir",
@@ -385,9 +385,9 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "99-regent-street-table-booking",
     clubSlug: "99-regent-street",
-    metaTitle: "99 Regent Street (formerly Cuckoo Club) Table Booking | From £600",
+    metaTitle: "99 Regent Street (formerly Cuckoo Club) Table Booking",
     metaDescription:
-      "Book a table at 99 Regent Street (formerly Cuckoo Club) from £600 minimum spend, with entry for your whole group. Two floors, Wednesday to Saturday. WhatsApp us.",
+      "Book a table at 99 Regent Street (formerly Cuckoo Club) from £600 minimum spend, with entry for your whole group. Two floors, Wednesday to Saturday.",
     h1: "Book a Table at 99 Regent Street",
     heroSubheading:
       "99 Regent Street (formerly Cuckoo Club) is a two-floor club entered on Swallow Street: open-format hip-hop and RnB upstairs, house downstairs. Tables start from £600 minimum spend, with entry for your whole group included.",
@@ -478,7 +478,7 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "scotch-of-st-james-table-booking",
     clubSlug: "scotch-of-st-james",
-    metaTitle: "Scotch of St James Table Booking | Legendary Music Venue from £1,000",
+    metaTitle: "Scotch of St James Table Booking: Tables from £1,000",
     metaDescription:
       "Book a VIP table at Scotch of St James from £1,000. Historic music venue, eclectic DJs & craft cocktails in St James's. WhatsApp us for availability.",
     h1: "Book a Table at Scotch of St James",
@@ -567,7 +567,7 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "dear-darling-table-booking",
     clubSlug: "dear-darling",
-    metaTitle: "Dear Darling Table Booking | Mayfair's Newest Club from £1,000",
+    metaTitle: "Dear Darling Table Booking: Cocktails and Club from £1,000",
     metaDescription:
       "Book a VIP table at Dear Darling Mayfair from £1,000. Design-led cocktail bar meets late-night club. Fashion-forward crowd. WhatsApp us for instant booking.",
     h1: "Book a Table at Dear Darling",
@@ -827,7 +827,7 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "selene-london-table-booking",
     clubSlug: "selene-london",
-    metaTitle: "Selene London Table Booking | Multi-Room & Bowling from £1,000",
+    metaTitle: "Selene London Table Booking: Bowling Lanes, from £1,000",
     metaDescription:
       "Book a VIP table at Selene London from £1,000. Multi-room Mayfair club with private bowling lanes. Perfect for groups. WhatsApp us for availability.",
     h1: "Book a Table at Selene London",

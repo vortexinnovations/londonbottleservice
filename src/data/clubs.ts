@@ -21,6 +21,10 @@ export interface Club {
   previousName?: string;
   /** Closed venues only: one sentence naming the owner-confirmed successor, shown after "has closed". */
   successorNote?: string;
+  /** Meta title body when the generated one runs past 60 characters (no site name). */
+  metaTitle?: string;
+  /** Meta description (120 to 155 characters) in place of the generated one. */
+  metaDescription?: string;
   /** Open clubs to suggest alongside a renamed venue (slugs from `clubs`). */
   alternativeSlugs?: string[];
   tagline: string;
@@ -44,6 +48,8 @@ export interface Club {
 export const clubs: Club[] = [
   {
     slug: "cirque-le-soir",
+    metaTitle: "Cirque Le Soir London: VIP Table Prices from £1,000",
+    metaDescription: "Floor tables at Cirque Le Soir from £1,000, VIP from £2,000. Circus performers, hip-hop and RnB in Soho, open Mon, Wed, Fri and Sat. Book on WhatsApp.",
     bookingSlug: "cirque-le-soir-table-booking",
     name: "Cirque Le Soir",
     shortName: "Cirque",
@@ -112,6 +118,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "tape-london",
+    metaDescription: "Floor tables at Tape London from £1,000, VIP from £2,000. Hip-hop and RnB on Hanover Square, Mayfair, open Tue, Fri, Sat and Sun. Book a table on WhatsApp.",
     bookingSlug: "tape-london-table-booking",
     name: "Tape London",
     shortName: "Tape",
@@ -180,6 +187,8 @@ export const clubs: Club[] = [
   },
   {
     slug: "99-regent-street",
+    metaTitle: "99 Regent Street (formerly Cuckoo Club): Tables from £600",
+    metaDescription: "Tables at 99 Regent Street (formerly Cuckoo Club) from £600. Hip-hop and RnB upstairs, house downstairs, Wednesday to Saturday. Book a table on WhatsApp.",
     bookingSlug: "99-regent-street-table-booking",
     name: "99 Regent Street",
     shortName: "99 Regent Street",
@@ -264,6 +273,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "maddox",
+    metaDescription: "Floor tables at Maddox Mayfair from £1,000, VIP from £2,000. Dinner from 7pm, then house music until 3am, Thursday to Saturday. Book a table on WhatsApp.",
     bookingSlug: "maddox-club-table-booking",
     name: "Maddox",
     shortName: "Maddox",
@@ -333,6 +343,8 @@ export const clubs: Club[] = [
   },
   {
     slug: "rumour-london",
+    metaTitle: "Rumour London (formerly Tabu): Table Prices from £1,000",
+    metaDescription: "Tables at Rumour (formerly Tabu) on Dover Street, Mayfair, from £1,000. Open format hip-hop, RnB and house, Wednesday to Saturday. Book on WhatsApp.",
     bookingSlug: "rumour-london-table-booking",
     name: "Rumour",
     shortName: "Rumour",
@@ -417,6 +429,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "london-reign",
+    metaDescription: "Floor tables at London Reign from £1,000, VIP from £2,000. A Piccadilly showclub built around live shows, open Tue, Thu, Fri and Sat. Book on WhatsApp.",
     bookingSlug: "reign-london-table-booking",
     name: "London Reign",
     shortName: "Reign",
@@ -486,6 +499,8 @@ export const clubs: Club[] = [
   },
   {
     slug: "selene-london",
+    metaTitle: "Selene Club London: VIP Table Prices from £1,000",
+    metaDescription: "Floor tables at Selene London from £1,000, VIP from £2,000. Hip-hop, RnB and Afrobeats across several rooms, Thursday to Sunday. Book a table on WhatsApp.",
     bookingSlug: "selene-london-table-booking",
     name: "Selene London",
     shortName: "Selene",
@@ -554,6 +569,8 @@ export const clubs: Club[] = [
   },
   {
     slug: "scotch-of-st-james",
+    metaTitle: "Scotch of St James: VIP Table Prices from £1,000",
+    metaDescription: "Floor tables at Scotch of St James from £1,000, VIP from £2,000. Soul, funk, disco and hip-hop in Mason's Yard, Thursday to Saturday. Book on WhatsApp.",
     bookingSlug: "scotch-of-st-james-table-booking",
     name: "Scotch of St James",
     shortName: "Scotch",
@@ -622,6 +639,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "dear-darling",
+    metaDescription: "Floor tables at Dear Darling from £1,000, VIP from £2,000. Cocktails, then hip-hop, RnB and Afrobeats on Jermyn Street, Thu to Sun. Book on WhatsApp.",
     bookingSlug: "dear-darling-table-booking",
     name: "Dear Darling",
     shortName: "Dear Darling",
@@ -690,6 +708,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "beat-london",
+    metaDescription: "Floor tables at BEAT London from £1,000, VIP from £2,000. House, tech house and techno from Thursday to Saturday, open until 4am. Book a table on WhatsApp.",
     bookingSlug: "beat-london-table-booking",
     name: "BEAT London",
     shortName: "BEAT",
@@ -758,6 +777,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "the-box",
+    metaDescription: "Floor tables at The Box from £1,000, VIP from £3,000. Shows on Walker's Court, Soho, Wednesday to Saturday, and a famously selective door. WhatsApp us.",
     bookingSlug: "the-box-london-table-booking",
     name: "The Box",
     shortName: "The Box",
@@ -831,6 +851,7 @@ export const clubs: Club[] = [
 export const closedClubs: Club[] = [
   {
     slug: "funky-buddha",
+    metaDescription: "Funky Buddha on Berkeley Street has closed, and Itzel now operates at its address. Cirque Le Soir, Selene London and Dear Darling are open alternatives.",
     name: "Funky Buddha",
     shortName: "Funky Buddha",
     tagline: "Open-format Mayfair club on Berkeley Street (permanently closed)",
@@ -939,6 +960,7 @@ export const closedClubs: Club[] = [
   },
   {
     slug: "libertine",
+    metaDescription: "Libertine on Winsley Street has closed, and Selene now operates in its place. Selene London, Cirque Le Soir and Dear Darling are open alternatives.",
     name: "Libertine",
     shortName: "Libertine",
     tagline: "Mayfair's high-energy party headquarters (permanently closed)",

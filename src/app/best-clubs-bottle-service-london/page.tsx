@@ -12,7 +12,7 @@ import { pageImages } from "@/data/images";
 import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: fitTitle("Best Clubs for Bottle Service in London 2026 | Mayfair VIP Guide"),
+  title: fitTitle("Best Bottle Service Clubs in London 2026: Mayfair Ranked"),
   description:
     "Honest rankings of London's best bottle service clubs. Every Mayfair venue reviewed with real prices and insider recommendations.",
   alternates: {

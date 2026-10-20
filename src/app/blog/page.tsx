@@ -8,10 +8,10 @@ import { pageImages, postImages } from "@/data/images";
 import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: fitTitle("London Nightlife Blog | Bottle Service Tips, Club Guides & Pricing"),
+  title: fitTitle("Bottle Service Blog: London Club Prices, Guides and Tips"),
   metadataBase: new URL("https://londonbottleservice.com"),
   description:
-    "Expert guides to London's nightlife scene. Bottle service pricing, club reviews, dress code guides, birthday planning, and insider tips for Mayfair's best clubs.",
+    "Guides to London nightlife: bottle service prices, club reviews, dress codes, birthday planning and tips for booking a table at Mayfair's best clubs.",
   alternates: {
     canonical: "https://londonbottleservice.com/blog",
   },
