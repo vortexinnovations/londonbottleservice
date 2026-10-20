@@ -40,7 +40,7 @@ export const blogPosts: BlogPost[] = [
       "bottle service prices UK",
       "minimum spend London clubs",
     ],
-    relatedClubs: ["cirque-le-soir", "tape-london", "maddox", "cuckoo-club"],
+    relatedClubs: ["cirque-le-soir", "tape-london", "maddox", "99-regent-street"],
     faqs: [
       {
         question: "How much does bottle service cost in London on average?",
@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
       "dress code Cirque Le Soir",
       "can you wear trainers Mayfair clubs",
     ],
-    relatedClubs: ["tape-london", "cirque-le-soir", "maddox", "tabu-london"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "maddox", "rumour-london", "99-regent-street"],
     faqs: [
       {
         question: "What is the dress code for Mayfair clubs?",
@@ -259,7 +259,7 @@ export const blogPosts: BlogPost[] = [
       "London nightclub tips",
       "visiting London nightlife",
     ],
-    relatedClubs: ["cuckoo-club", "cirque-le-soir", "funky-buddha", "maddox"],
+    relatedClubs: ["99-regent-street", "cirque-le-soir", "funky-buddha", "maddox", "rumour-london"],
     faqs: [
       {
         question: "What is London nightlife like?",
@@ -349,7 +349,7 @@ export const blogPosts: BlogPost[] = [
       "best hen night venues London",
       "London hen party ideas",
     ],
-    relatedClubs: ["london-reign", "cirque-le-soir", "the-box", "cuckoo-club"],
+    relatedClubs: ["london-reign", "cirque-le-soir", "the-box", "99-regent-street"],
     faqs: [
       {
         question: "Which London club is best for a hen party?",
@@ -394,7 +394,7 @@ export const blogPosts: BlogPost[] = [
       "where to go out London",
       "Mayfair or Shoreditch clubbing",
     ],
-    relatedClubs: ["tape-london", "cuckoo-club", "tabu-london", "beat-london"],
+    relatedClubs: ["tape-london", "99-regent-street", "rumour-london", "beat-london"],
     faqs: [
       {
         question: "Is Mayfair or Shoreditch better for nightlife?",
@@ -478,7 +478,7 @@ export const blogPosts: BlogPost[] = [
       "Dear Darling club review",
       "new clubs Mayfair",
     ],
-    relatedClubs: ["dear-darling", "cuckoo-club", "maddox", "tabu-london"],
+    relatedClubs: ["dear-darling", "99-regent-street", "maddox", "rumour-london"],
     faqs: [
       {
         question: "How much is a table at Dear Darling Mayfair?",
@@ -567,7 +567,7 @@ export const blogPosts: BlogPost[] = [
       "hip-hop clubs Mayfair",
       "Luna London review",
     ],
-    relatedClubs: ["luna-club-london", "tabu-london", "funky-buddha", "cuckoo-club"],
+    relatedClubs: ["luna-club-london", "rumour-london", "funky-buddha", "99-regent-street"],
     faqs: [
       {
         question: "Is Luna Club London still open?",
@@ -587,7 +587,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is Tabu still open?",
         answer:
-          "Tabu now trades as Rumour, open Wednesday to Saturday. Minimums and music under the new name are confirmed on enquiry.",
+          "Tabu now trades as Rumour, a full rebrand at 1 Dover Street, open Wednesday to Saturday from 11pm to 4am. Booths start from £1,000 minimum spend, covering entry for the whole group, and the music is open format: hip-hop, RnB and house.",
       },
     ],
   },
@@ -598,7 +598,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "The definitive ranking of Mayfair's best hip-hop clubs for bottle service. Compare Rumour (formerly Tabu), 99 Regent Street (formerly Cuckoo Club) and Cirque Le Soir: music policies, crowds, pricing, and which club suits your sub-genre.",
     excerpt:
-      "Not all hip-hop clubs in Mayfair are the same. From underground Japanese-inspired venues to circus-themed clubs, here's how every hip-hop option actually compares.",
+      "Not all hip-hop clubs in Mayfair are the same. From a red velvet booth room on Dover Street to circus-themed clubs, here's how every hip-hop option actually compares.",
     publishedAt: "2026-03-25",
     updatedAt: "2026-03-25",
     category: "Guides",
@@ -609,32 +609,32 @@ export const blogPosts: BlogPost[] = [
       "RnB clubs Mayfair",
       "Afrobeats clubs London",
     ],
-    relatedClubs: ["tabu-london", "luna-club-london", "cuckoo-club", "funky-buddha"],
+    relatedClubs: ["rumour-london", "luna-club-london", "99-regent-street", "funky-buddha"],
     faqs: [
       {
         question: "Which Mayfair club is best for hip-hop?",
         answer:
-          "Rumour (formerly Tabu), open Wednesday to Saturday, built its name as Mayfair's most dedicated hip-hop club, with a music policy that balanced mainstream hits with deeper cuts; confirm the current music policy under the new name when you enquire. Cirque Le Soir is the strongest alternative for hip-hop with a show.",
+          "Rumour (formerly Tabu), open Wednesday to Saturday, is the most intimate option: one booth room of around 200, playing open format across hip-hop, RnB and house. For a dedicated hip-hop and RnB room, the upstairs main room at 99 Regent Street (formerly Cuckoo Club) is the pick. Cirque Le Soir is the strongest alternative for hip-hop with a show.",
       },
       {
         question: "Do any Mayfair clubs play Afrobeats?",
         answer:
-          "Yes. Rumour (formerly Tabu) weaves Afrobeats into its hip-hop and RnB rotation, and Dear Darling's music leans towards hip-hop, RnB and Afrobeats. Confirm the current music policy for your night when you enquire.",
+          "Yes. Dear Darling's music leans towards hip-hop, RnB and Afrobeats. Rumour (formerly Tabu) and the upstairs room at 99 Regent Street (formerly Cuckoo Club) are open format, so ask about Afrobeats for your night when you enquire.",
       },
       {
         question: "How much is bottle service at a hip-hop club in Mayfair?",
         answer:
-          "Most hip-hop clubs in Mayfair start from £1,000 minimum spend for a floor table and £2,000 for VIP. Cirque Le Soir is £1,000 for floor tables. Minimums at Rumour (formerly Tabu) and 99 Regent Street (formerly Cuckoo Club) are confirmed on enquiry under their new names.",
+          "Most hip-hop clubs in Mayfair start from £1,000 minimum spend for a floor table and £2,000 for VIP. Cirque Le Soir is £1,000 for floor tables. Booths at Rumour (formerly Tabu) start from £1,000, and tables at 99 Regent Street (formerly Cuckoo Club) start lower, from £600, both covering entry for the whole group.",
       },
       {
         question: "Which Mayfair club plays UK rap?",
         answer:
-          "Rumour (formerly Tabu) has the strongest UK rap presence in its rotation, with UK drill, grime, and UK rap alongside US hip-hop and RnB. The basement at 99 Regent Street (formerly Cuckoo Club) also features UK rap. Confirm the current music policy under the new names when you enquire.",
+          "UK rap is not a published music policy at any club on this site, so ask about it for your date when you enquire. The upstairs room at 99 Regent Street (formerly Cuckoo Club) plays open-format hip-hop and RnB, and Rumour (formerly Tabu) plays open format across hip-hop, RnB and house.",
       },
       {
         question: "Can I hear house music at a hip-hop club in Mayfair?",
         answer:
-          "99 Regent Street (formerly Cuckoo Club), open Wednesday to Saturday, is the best option: the basement plays hip-hop while the upstairs floor plays house and tech house. This makes it ideal for mixed groups. If you want pure house music, try Maddox or BEAT London instead.",
+          "99 Regent Street (formerly Cuckoo Club), open Wednesday to Saturday, is the best option: the upstairs main room plays open-format hip-hop and RnB while downstairs plays house, with both floors running on Friday and Saturday. This makes it ideal for mixed groups. Rumour (formerly Tabu) also moves between hip-hop, RnB and house in one room. If you want pure house music, try Maddox or BEAT London instead.",
       },
     ],
   },
@@ -656,7 +656,7 @@ export const blogPosts: BlogPost[] = [
       "Saturday table booking",
       "Mayfair Saturday night out",
     ],
-    relatedClubs: ["cirque-le-soir", "tape-london", "london-reign", "tabu-london"],
+    relatedClubs: ["cirque-le-soir", "tape-london", "london-reign", "rumour-london", "99-regent-street"],
     faqs: [
       {
         question: "How much more expensive is Saturday night in Mayfair?",
@@ -671,7 +671,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which Mayfair club is best on Saturday night?",
         answer:
-          "Cirque Le Soir offers the most theatrical Saturday experience. London Reign has the biggest production with Las Vegas-style shows. Tape London is the most exclusive. Rumour (formerly Tabu) offers a strong hip-hop Saturday without the highest price tag. The best choice depends on your group's preferences.",
+          "Cirque Le Soir offers the most theatrical Saturday experience. London Reign has the biggest production with Las Vegas-style shows. Tape London is the most exclusive. Rumour (formerly Tabu) offers an intimate, open-format Saturday in a room of around 200, with booths from £1,000. The best choice depends on your group's preferences.",
       },
       {
         question: "What time should I arrive on Saturday?",
@@ -797,12 +797,12 @@ export const blogPosts: BlogPost[] = [
       "tech house clubs London",
       "deep house Mayfair",
     ],
-    relatedClubs: ["maddox", "cuckoo-club", "beat-london", "dear-darling"],
+    relatedClubs: ["maddox", "99-regent-street", "beat-london", "dear-darling"],
     faqs: [
       {
         question: "Which Mayfair club is best for house music?",
         answer:
-          "Maddox is the best Mayfair club for house music. The music policy is sophisticated deep house and tech house, the dinner-to-club format gives the evening structure, and the sound system does the music justice. The upstairs floor at 99 Regent Street (formerly Cuckoo Club) is the strongest alternative within Mayfair.",
+          "Maddox is the best Mayfair club for house music. The music policy is sophisticated deep house and tech house, the dinner-to-club format gives the evening structure, and the sound system does the music justice. The downstairs house floor at 99 Regent Street (formerly Cuckoo Club), darker and more dance-focused, is the strongest alternative within Mayfair.",
       },
       {
         question: "Does BEAT London play house music?",
@@ -812,12 +812,12 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How much is bottle service at a house music club in London?",
         answer:
-          "Tables at Maddox and Dear Darling start from £1,000 minimum spend, and minimums at 99 Regent Street (formerly Cuckoo Club) are confirmed on enquiry. BEAT London starts from £1,000 as well. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
+          "Tables at Maddox and Dear Darling start from £1,000 minimum spend, and tables at 99 Regent Street (formerly Cuckoo Club), whose downstairs floor plays house, start from £600. BEAT London starts from £1,000 as well. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
       },
       {
         question: "What is the difference between deep house and tech house?",
         answer:
-          "Deep house is smoother and more melodic: warm basslines, soulful vocals, a relaxed groove. Tech house is more driving and percussive: heavier beats, more energy, designed for peak-time dancing. Maddox leans towards deep house, BEAT London is more tech house, and the upstairs floor at 99 Regent Street mixes both.",
+          "Deep house is smoother and more melodic: warm basslines, soulful vocals, a relaxed groove. Tech house is more driving and percussive: heavier beats, more energy, designed for peak-time dancing. Maddox leans towards deep house, BEAT London is more tech house, and the downstairs floor at 99 Regent Street plays house on the darker, more dance-focused side.",
       },
       {
         question: "Are there any late-night house music clubs in London with bottle service?",
@@ -845,7 +845,7 @@ export const blogPosts: BlogPost[] = [
       "floor vs VIP table",
       "table location",
     ],
-    relatedClubs: ["tape-london", "cirque-le-soir", "london-reign", "cuckoo-club"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "london-reign", "99-regent-street"],
     faqs: [
       {
         question: "Does table position affect the price at London clubs?",
@@ -870,7 +870,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which London clubs have the best VIP sections?",
         answer:
-          "Tape London's intimate booths offer genuine privacy. Cirque Le Soir's stage-side VIP puts you next to the performers. London Reign's elevated VIP gives a panoramic view of the show. The upstairs VIP at 99 Regent Street (formerly Cuckoo Club) feels like a separate venue entirely. Each offers a distinct experience.",
+          "Tape London's intimate booths offer genuine privacy. Cirque Le Soir's stage-side VIP puts you next to the performers. London Reign's elevated VIP gives a panoramic view of the show. At 99 Regent Street (formerly Cuckoo Club), most tables sit in the upstairs main room, among banquette seating and warm, low lighting. Each offers a distinct experience.",
       },
     ],
   },
@@ -893,7 +893,7 @@ export const blogPosts: BlogPost[] = [
       "London evening itinerary",
       "night out plan Mayfair",
     ],
-    relatedClubs: ["maddox", "tape-london", "cuckoo-club", "dear-darling"],
+    relatedClubs: ["maddox", "tape-london", "99-regent-street", "dear-darling"],
     faqs: [
       {
         question: "What time should I arrive at a Mayfair club?",
@@ -941,7 +941,7 @@ export const blogPosts: BlogPost[] = [
       "club entry requirements London",
       "what ID do I need",
     ],
-    relatedClubs: ["cirque-le-soir", "tape-london", "cuckoo-club", "tabu-london"],
+    relatedClubs: ["cirque-le-soir", "tape-london", "99-regent-street", "rumour-london"],
     faqs: [
       {
         question: "What is the age limit for London clubs?",
@@ -1036,7 +1036,7 @@ export const blogPosts: BlogPost[] = [
       "Friday night Mayfair",
       "Saturday or Friday clubbing",
     ],
-    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club", "maddox"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "99-regent-street", "maddox"],
     faqs: [
       {
         question: "Is Friday or Saturday better for London clubs?",
@@ -1061,7 +1061,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Which clubs are better on Friday than Saturday?",
         answer:
-          "Maddox and 99 Regent Street (formerly Cuckoo Club) are excellent on Fridays: strong local crowds and great atmosphere without Saturday's intensity. Tape London's Friday is popular with music industry insiders. Cirque Le Soir is arguably best on Saturday when the energy peaks. It depends on the venue's character and your preferences.",
+          "Maddox is excellent on Fridays: strong local crowds and great atmosphere without Saturday's intensity. At 99 Regent Street (formerly Cuckoo Club), Friday matches Saturday, with both floors running. Tape London's Friday is popular with music industry insiders. Cirque Le Soir is arguably best on Saturday when the energy peaks. It depends on the venue's character and your preferences.",
       },
     ],
   },
@@ -1084,7 +1084,7 @@ export const blogPosts: BlogPost[] = [
       "romantic nightclub London",
       "VIP table for two London",
     ],
-    relatedClubs: ["tape-london", "maddox", "cuckoo-club", "dear-darling", "scotch-of-st-james"],
+    relatedClubs: ["tape-london", "maddox", "99-regent-street", "dear-darling", "scotch-of-st-james"],
     faqs: [
       {
         question: "Can you book a VIP table for just two people in London?",
@@ -1127,7 +1127,7 @@ export const blogPosts: BlogPost[] = [
       "Wednesday night out London",
       "weeknight bottle service London",
     ],
-    relatedClubs: ["cuckoo-club", "tape-london", "scotch-of-st-james", "the-box", "maddox"],
+    relatedClubs: ["99-regent-street", "rumour-london", "tape-london", "scotch-of-st-james", "the-box", "maddox"],
     faqs: [
       {
         question: "Which London clubs are open on weeknights?",
@@ -1142,7 +1142,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "Is the atmosphere good at London clubs on a weeknight?",
         answer:
-          "Absolutely. Thursday nights at venues like Scotch of St James and 99 Regent Street (formerly Cuckoo Club) are genuinely buzzing: you&apos;ll find a more local, industry-heavy crowd rather than tourists. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
+          "Absolutely. Thursday nights at venues like Scotch of St James are genuinely buzzing: you'll find a more local, industry-heavy crowd rather than tourists. 99 Regent Street (formerly Cuckoo Club) opens one of its two floors on Thursdays, and Rumour (formerly Tabu) runs one of its more relaxed nights. Wednesday is quieter but still has a strong atmosphere at places like Cirque Le Soir and The Box. The smaller crowds actually make for a more sociable, less frantic experience.",
       },
       {
         question: "Is the dress code more relaxed on weeknights?",
@@ -1170,7 +1170,7 @@ export const blogPosts: BlogPost[] = [
       "VIP table behaviour london nightclub",
       "how to behave bottle service",
     ],
-    relatedClubs: ["tape-london", "maddox", "cirque-le-soir", "scotch-of-st-james", "cuckoo-club"],
+    relatedClubs: ["tape-london", "maddox", "cirque-le-soir", "scotch-of-st-james", "99-regent-street"],
     faqs: [
       {
         question: "How much should you tip for bottle service in London?",
@@ -1256,7 +1256,7 @@ export const blogPosts: BlogPost[] = [
       "london club table booking worth it",
       "bottle service pros cons london",
     ],
-    relatedClubs: ["tape-london", "cirque-le-soir", "maddox", "cuckoo-club", "scotch-of-st-james"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "maddox", "99-regent-street", "scotch-of-st-james"],
     faqs: [
       {
         question: "Is bottle service worth it for a group of 4?",
@@ -1303,7 +1303,7 @@ export const blogPosts: BlogPost[] = [
       "cirque-le-soir",
       "tape-london",
       "maddox",
-      "cuckoo-club",
+      "99-regent-street",
       "selene-london",
     ],
     faqs: [
@@ -1348,7 +1348,7 @@ export const blogPosts: BlogPost[] = [
       "how to pay for bottle service london",
       "splitting bottle service bill london",
     ],
-    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club", "selene-london", "maddox"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "99-regent-street", "selene-london", "maddox"],
     faqs: [
       {
         question: "How much is the deposit for bottle service in London?",
@@ -1391,7 +1391,7 @@ export const blogPosts: BlogPost[] = [
       "champagne or vodka london club",
       "london bottle service order guide",
     ],
-    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club", "selene-london", "funky-buddha"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "99-regent-street", "selene-london", "funky-buddha"],
     faqs: [
       {
         question: "Is champagne or spirits better value at London clubs?",
@@ -1434,7 +1434,7 @@ export const blogPosts: BlogPost[] = [
       "last minute bottle service london",
       "advance booking london clubs",
     ],
-    relatedClubs: ["cuckoo-club", "tape-london", "cirque-le-soir", "selene-london", "maddox"],
+    relatedClubs: ["99-regent-street", "tape-london", "cirque-le-soir", "selene-london", "maddox"],
     faqs: [
       {
         question: "How far in advance should you book bottle service in London?",
@@ -1698,7 +1698,7 @@ export const blogPosts: BlogPost[] = [
     category: "Pricing",
     readingTime: "6 min read",
     keywords: ["service charge bottle service london", "london club service charge", "does bottle service include service charge", "club bill service charge uk", "bottle service final bill london"],
-    relatedClubs: ["tape-london", "cirque-le-soir", "cuckoo-club"],
+    relatedClubs: ["tape-london", "cirque-le-soir", "99-regent-street"],
     faqs: [
       { question: "Do London clubs add a service charge to bottle service?", answer: "Most do. It is applied as a percentage on the final tab in the same way restaurants apply one, and reputable venues state it in the booking confirmation. The percentage varies between rooms, so confirm it for your specific booking rather than assuming a standard figure." },
       { question: "Does the service charge count toward the minimum spend?", answer: "Generally no. The minimum spend is the target your table has to reach in drinks, and the service charge is then calculated on top of what you spent. Budgeting as though the two are the same number leaves you short by exactly that percentage." },

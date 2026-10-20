@@ -34,7 +34,7 @@ const faqs = [
   {
     question: "How much do VIP tables cost in London?",
     answer:
-      "VIP table prices in London vary by venue. At Cirque Le Soir, VIP tables start from £2,000. Tape London and The Box VIP tables start from £3,000. London Reign VIP tables start from £2,500. Most other clubs, including Maddox, Selene, Dear Darling, and Scotch of St James, offer VIP tables from £2,000. For 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu), VIP minimums under the new names are confirmed on enquiry. Standard floor tables at all venues start from £1,000.",
+      "VIP table prices in London vary by venue. At Cirque Le Soir, VIP tables start from £2,000. Tape London and The Box VIP tables start from £3,000. London Reign VIP tables start from £2,500. Most other clubs, including Maddox, Selene, Dear Darling, and Scotch of St James, offer VIP tables from £2,000. At 99 Regent Street (formerly Cuckoo Club), VIP and larger tables are priced on request, and at Rumour (formerly Tabu) anything beyond the starting booth is on request. Standard tables start from £1,000 at most venues, including Rumour's booths, and from £600 at 99 Regent Street.",
   },
   {
     question: "What is the difference between a floor table and a VIP table?",

@@ -36,12 +36,12 @@ const faqs = [
   {
     question: "Which London club has the cheapest bottle service?",
     answer:
-      "Most Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Maddox, Selene, Dear Darling, and Scotch of St James. VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
+      "99 Regent Street (formerly Cuckoo Club) has the lowest starting minimum here, with tables from £600 covering entry for the whole group. Most other Mayfair clubs start at £1,000 minimum spend for a floor table, including Cirque Le Soir, Tape London, Maddox, Selene, Dear Darling, Scotch of St James and Rumour (formerly Tabu). VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
   },
   {
     question: "Which Mayfair clubs play hip-hop?",
     answer:
-      "Cirque Le Soir and Tape London lean heavily hip-hop and RnB, and Selene London and Dear Darling both play hip-hop, RnB and Afrobeats. Maddox is the outlier: it focuses on house music.",
+      "Cirque Le Soir and Tape London lean heavily hip-hop and RnB, and Selene London and Dear Darling both play hip-hop, RnB and Afrobeats. The upstairs main room at 99 Regent Street plays open-format hip-hop and RnB, and Rumour moves between hip-hop, RnB and house. Maddox is the outlier: it focuses on house music.",
   },
   {
     question: "Which London club is best for a birthday?",
@@ -233,33 +233,41 @@ const reviews: ClubReview[] = [
     ],
   },
   {
-    slug: "cuckoo-club",
+    slug: "99-regent-street",
     rank: 10,
-    headline: "99 Regent Street, Formerly Cuckoo Club",
+    headline: "Formerly Cuckoo Club: Two Floors, Two Sounds, Tables From £600",
     review:
-      "Cuckoo Club now trades as 99 Regent Street, still in Mayfair. Because the venue has changed its name, the music policy, opening nights and minimum spends published for Cuckoo Club no longer apply automatically, so this guide does not rank it on old details. Message us with your date and group size for the current table options and minimum spend before you book.",
-    bestFor: "Groups who knew Cuckoo Club and want to book the venue under its new name",
+      "99 Regent Street (formerly Cuckoo Club) reopened in October 2026 on the same floor, with the Cuckoo founders behind a new concept, and it has the lowest starting minimum on this list: tables from £600, covering entry for the whole group. The club runs over two floors of around 200 each. Upstairs is the main room, where most tables sit, with open-format hip-hop and RnB; downstairs plays house, darker and more dance-focused, so a mixed group does not have to agree on one sound. Dark panelling, warm low lighting and banquette seating set the tone, and the door is 19+ with physical photo ID. Both floors run on Friday and Saturday, and one floor opens on Wednesday and Thursday.",
+    bestFor: "Mixed groups who want two sounds under one roof, birthdays, and the lowest starting minimum on this list",
     prosText: [
-      "Mayfair location",
-      "Current details confirmed on enquiry",
+      "Tables from £600, the lowest starting minimum on this list",
+      "Two floors: hip-hop and RnB upstairs, house downstairs",
+      "Entry for the whole group included with the table",
+      "Two minutes from Piccadilly Circus, entered on Swallow Street",
     ],
     consText: [
-      "Minimum spend under the new name is on request",
+      "19+ door: bring physical photo ID for everyone",
+      "Only one floor opens on Wednesday and Thursday",
+      "VIP and larger tables are priced on request",
     ],
   },
   {
-    slug: "tabu-london",
+    slug: "rumour-london",
     rank: 11,
-    headline: "Rumour, Formerly Tabu",
+    headline: "Formerly Tabu: Red Velvet Booths, No Cameras on the Floor",
     review:
-      "Tabu now trades as Rumour, still in Mayfair. Because the venue has changed its name, the music policy, opening nights and minimum spends published for Tabu no longer apply automatically, so this guide does not rank it on old details. Message us with your date and group size for the current table options and minimum spend before you book.",
-    bestFor: "Groups who knew Tabu and want to book the venue under its new name",
+      "Rumour (formerly Tabu) is a full rebrand under the same ownership, with a new design and concept, opened in October 2026. It is one intimate room of around 200 on Dover Street, built around deep red velvet booths with dark panelling, a chandelier and low, warm lighting, and it fills early by design. The music is open format, moving between hip-hop, RnB and house. What sets it apart is the no-photography policy: no photos or video in the main room or on the dance floor, enforced by the floor team. Booths start from £1,000 minimum spend, covering entry for the whole group, roughly £125 each across eight people.",
+    bestFor: "Dressed-up groups who want an intimate room where nobody is filming, and men or mixed groups who need a booth to get in",
     prosText: [
-      "Mayfair location",
-      "Current details confirmed on enquiry",
+      "No photos or video on the dance floor: the clearest difference from the rooms around it",
+      "Red velvet booths in a single intimate room",
+      "Booths from £1,000 with entry for the whole group",
+      "Open-format music that moves between hip-hop, RnB and house",
     ],
     consText: [
-      "Minimum spend under the new name is on request",
+      "Men are not added to the guestlist: a booth is the route in",
+      "The room holds around 200 and fills early, so arrange Friday and Saturday in advance",
+      "Prices beyond the starting booth are on request",
     ],
   },
 ];

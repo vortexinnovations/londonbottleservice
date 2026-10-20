@@ -28,6 +28,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
     "@context": "https://schema.org",
     "@type": "NightClub",
     name: club.name,
+    alternateName: club.previousName,
     description: data.metaDescription,
     address: {
       "@type": "PostalAddress",
@@ -115,6 +116,11 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
           {club.area} &middot; <span className="price"><Price value={club.pricing.floorTable} prefix="Tables from " onRequest="Price on request" /></span>
         </p>
         <h1 className="font-display font-light text-4xl md:text-[3.4rem] leading-[1.08] tracking-[-0.015em] mb-4 animate-fade-up-1">{data.h1}</h1>
+        {club.previousName && (
+          <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold-light/90 [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up-1">
+            Formerly {club.previousName}
+          </p>
+        )}
         <p className="text-text-secondary text-lg leading-relaxed mb-8 max-w-3xl animate-fade-up-2">
           {data.heroSubheading}
         </p>

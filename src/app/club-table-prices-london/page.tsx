@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { clubs, formatPrice, priceSortValue, formatNights } from "@/data/clubs";
+import type { Club } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
@@ -35,7 +36,8 @@ const nameList = (names: string[]) =>
     : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
 const pricedClubs = clubs.filter((c) => c.pricing.floorTable !== null);
 const onRequestClubs = clubs.filter((c) => c.pricing.floorTable === null);
-const floorValues = pricedClubs.map((c) => c.pricing.floorTable as number);
+const floorOf = (c: Club) => c.pricing.floorTable as number;
+const floorValues = pricedClubs.map(floorOf);
 const vipValues = clubs
   .map((c) => c.pricing.vipTable)
   .filter((v): v is number => v !== null);
@@ -43,13 +45,29 @@ const minFloor = Math.min(...floorValues);
 const maxFloor = Math.max(...floorValues);
 const minVip = Math.min(...vipValues);
 const maxVip = Math.max(...vipValues);
-const atMinFloor = nameList(
-  pricedClubs.filter((c) => c.pricing.floorTable === minFloor).map((c) => c.name)
-);
-const atMaxFloor = nameList(
-  pricedClubs.filter((c) => c.pricing.floorTable === maxFloor).map((c) => c.name)
-);
+// The floor price most clubs share is the standard one. Venues below or above
+// it are named on their own, so one cheaper club never reads as "most clubs".
+const floorCounts = new Map<number, number>();
+for (const v of floorValues) floorCounts.set(v, (floorCounts.get(v) ?? 0) + 1);
+const standardFloor = [...floorCounts.entries()].sort((a, b) => b[1] - a[1] || a[0] - b[0])[0][0];
+const belowStandard = pricedClubs.filter((c) => floorOf(c) < standardFloor);
+const aboveStandard = pricedClubs.filter((c) => floorOf(c) > standardFloor);
+const names = (list: Club[]) => nameList(list.map((c) => c.name));
+const startVerb = (list: Club[]) => (list.length === 1 ? "starts" : "start");
+const hasVerb = (list: Club[]) => (list.length === 1 ? "has" : "have");
+const priceSpan = (list: Club[]) => {
+  const lo = Math.min(...list.map(floorOf));
+  const hi = Math.max(...list.map(floorOf));
+  return lo === hi ? gbp(lo) : `${gbp(lo)} to ${gbp(hi)}`;
+};
+const atStandardFloor = names(pricedClubs.filter((c) => floorOf(c) === standardFloor));
+const atMinFloor = pricedClubs.filter((c) => floorOf(c) === minFloor);
+const atMaxFloor = pricedClubs.filter((c) => floorOf(c) === maxFloor);
 const atMaxVip = clubs.filter((c) => c.pricing.vipTable === maxVip).map((c) => c.name);
+const offStandardNote = `${belowStandard.length > 0 ? ` ${names(belowStandard)} ${startVerb(belowStandard)} lower, at ${priceSpan(belowStandard)}.` : ""}${aboveStandard.length > 0 ? ` ${names(aboveStandard)} ${startVerb(aboveStandard)} higher, at ${priceSpan(aboveStandard)}.` : ""}`;
+const vipOnRequest = pricedClubs.filter((c) => c.pricing.vipTable === null);
+const vipOnRequestNote =
+  vipOnRequest.length > 0 ? ` VIP tables at ${names(vipOnRequest)} are priced on request.` : "";
 const onRequestNote =
   onRequestClubs.length > 0
     ? ` Minimum spends at ${nameList(onRequestClubs.map((c) => c.name))} are confirmed on enquiry${onRequestClubs.every((c) => c.formerName) ? ", because the venues trade under new names" : ""}.`
@@ -59,7 +77,7 @@ const faqs = [
   {
     question: "How much is a table at a London nightclub?",
     answer:
-      `Most London nightclubs start at ${gbp(minFloor)} minimum spend for a standard floor table. On this site that includes ${atMinFloor}.${maxFloor > minFloor ? ` ${atMaxFloor} start higher, at ${gbp(maxFloor)}.` : ""} VIP tables range from ${gbp(minVip)} to ${gbp(maxVip)} across the clubs with published prices.${onRequestNote}`,
+      `Most London nightclubs start at ${gbp(standardFloor)} minimum spend for a standard floor table. On this site that includes ${atStandardFloor}.${offStandardNote} VIP tables range from ${gbp(minVip)} to ${gbp(maxVip)} across the clubs with published prices.${vipOnRequestNote}${onRequestNote}`,
   },
   {
     question: "What does the minimum spend include?",
@@ -79,12 +97,12 @@ const faqs = [
   {
     question: "Which is the cheapest club for a table in London?",
     answer:
-      `Most clubs start at the same ${gbp(minFloor)} floor table minimum, including ${atMinFloor}. The cheapest overall option is booking on a weeknight: Tuesday tables at Tape London or Thursday tables at Scotch of St James can have reduced minimums. Message us and we will find the best value for your budget.`,
+      `${belowStandard.length > 0 ? `${names(atMinFloor)} ${hasVerb(atMinFloor)} the lowest starting minimum on this site, at ${gbp(minFloor)} for a table. Most other clubs` : "Most clubs"} start at the same ${gbp(standardFloor)} floor table minimum, including ${atStandardFloor}. The cheapest overall option is booking on a weeknight: Tuesday tables at Tape London or Thursday tables at Scotch of St James can have reduced minimums. Message us and we will find the best value for your budget.`,
   },
   {
     question: "Which London club has the most expensive tables?",
     answer:
-      `${maxFloor > minFloor ? `${atMaxFloor} have the highest starting price for a floor table, at ${gbp(maxFloor)}.` : `Floor tables start at ${gbp(minFloor)} at every club here with a published price, so the difference shows at VIP level.`} ${nameList(atMaxVip)} ${atMaxVip.length === 1 ? "has" : "have"} the highest VIP starting price, at ${gbp(maxVip)}; VIP tables at the other clubs with published prices start from ${gbp(minVip)}. Premium prices reflect exclusivity, capacity and the kind of night each venue puts on. For most groups, a standard floor table offers the best value: Cirque Le Soir at a standard floor minimum delivers one of the most memorable nights in London.`,
+      `${aboveStandard.length > 0 ? `${names(atMaxFloor)} ${hasVerb(atMaxFloor)} the highest starting price for a floor table, at ${gbp(maxFloor)}.` : `Floor tables start at ${gbp(standardFloor)} at every club here with a published price${belowStandard.length > 0 ? ` except ${names(belowStandard)}, which ${startVerb(belowStandard)} lower` : ""}, so the difference shows at VIP level.`} ${nameList(atMaxVip)} ${atMaxVip.length === 1 ? "has" : "have"} the highest VIP starting price, at ${gbp(maxVip)}; VIP tables at the other clubs with published prices start from ${gbp(minVip)}. Premium prices reflect exclusivity, capacity and the kind of night each venue puts on. For most groups, a standard floor table offers the best value: Cirque Le Soir at a standard floor minimum delivers one of the most memorable nights in London.`,
   },
   {
     question: "Do table prices include entry to the club?",
@@ -157,9 +175,9 @@ export default function ClubTablePricesPage() {
           </h2>
           <p className="text-text-muted mb-8">
             Every club, every price tier, every detail in one table. Prices
-            shown are standard starting minimum spends. Venues marked
-            &ldquo;On request&rdquo; have recently changed their name, so
-            their current minimums are confirmed when you enquire.
+            shown are standard starting minimum spends. Prices marked
+            &ldquo;On request&rdquo; are not published, so they are
+            confirmed when you enquire.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">

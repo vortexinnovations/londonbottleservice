@@ -103,7 +103,7 @@ export const bookingPages: BookingPageData[] = [
       "the-box-london-table-booking",
       "reign-london-table-booking",
       "tape-london-table-booking",
-      "tabu-london-table-booking",
+      "rumour-london-table-booking",
     ],
     relatedBlogSlugs: [
       "best-clubs-for-birthday-london",
@@ -288,141 +288,189 @@ export const bookingPages: BookingPageData[] = [
     ],
   },
 
-  // 4. Tabu London (now Rumour)
+  // 4. Rumour (formerly Tabu)
   {
-    bookingSlug: "tabu-london-table-booking",
-    clubSlug: "tabu-london",
-    metaTitle: "Tabu London Is Now Rumour: Table Booking",
+    bookingSlug: "rumour-london-table-booking",
+    clubSlug: "rumour-london",
+    metaTitle: "Rumour (formerly Tabu) Table Booking | Booths from £1,000",
     metaDescription:
-      "Tabu London in Mayfair now trades as Rumour. Table minimums under the new name are confirmed on enquiry, or compare open clubs such as Tape and Selene.",
-    h1: "Tabu London Is Now Rumour",
+      "Book a booth at Rumour (formerly Tabu) on Dover Street, Mayfair, from £1,000 minimum spend with entry for the whole group. Wednesday to Saturday. WhatsApp us.",
+    h1: "Book a Table at Rumour",
     heroSubheading:
-      "Tabu now trades as Rumour. Tables can be booked under the new name, with the current minimum spend confirmed before you commit.",
+      "Rumour (formerly Tabu) is an intimate Mayfair room on Dover Street, built around red velvet booths, with no photos or video allowed on the dance floor. Booths start from £1,000 minimum spend, with entry for the whole group included.",
     pricingIntro:
-      "Tabu's old minimum spends do not carry over automatically to Rumour, so no figure is shown here until one is confirmed for the new name. Send your date and group size on WhatsApp and the current floor and VIP minimum spend will be confirmed before you book. For a published price today, compare Tape London, Selene London and Dear Darling, each listed below with its current starting minimum.",
+      "Booths at Rumour start from £1,000 minimum spend, covering entry for the whole group. The minimum is spent on drinks at your booth, not added as a fee on top: across eight people, the starting minimum works out at roughly £125 each. No other price is published, so anything beyond the starting booth is confirmed on request before you commit.",
     vipUpsellPitch:
-      "VIP positions under the new name, and what they include, are confirmed on enquiry. Ask about the table layout and the VIP minimum spend when you message.",
+      "Larger booths and prime positions are priced on request. The room holds around 200 and fills early by design, so tell us your group size early and the options for your night are confirmed before you book.",
     weekdayDeal:
-      "Rumour opens Wednesday to Saturday. If your date is flexible, say so when you message, so that more than one night can be checked.",
+      "Wednesday and Thursday are the more relaxed nights at Rumour and the easiest for guestlist entry. Friday and Saturday fill out and are worth arranging in advance, especially for a booth.",
     arrivalGuide:
-      "Arrival time, door policy and dress code are confirmed with your booking. Smart Mayfair dress is the safe default: no sportswear and no casual wear. Arrive at the time given with your confirmation and give the booking name at the door.",
+      "Rumour is at 1 Dover Street, Mayfair, London W1S 4LD, on the stretch of Dover Street between Piccadilly and Grafton Street. Green Park is a few minutes' walk, and Piccadilly Circus and Bond Street are both within walking distance. The club opens from 11pm to 4am. Bring photo ID, because the door is 18+, give the booking name at the door, and leave the camera off once you are inside: no photos or video in the main room or on the dance floor.",
+    guestlistComparison:
+      "Rumour runs a ladies' guestlist, with entry from free to £20 on the door depending on the night and how busy it is. Men are not added to the guestlist, so for men and mixed groups a booth is the route in.\n\nA booth covers entry for the whole group from £1,000 minimum spend, roughly £125 each across eight people. That buys a reserved booth in a room built around them, table service through the night and bottles with mixers, rather than a place at the bar.",
+    entryGuide:
+      "The door is 18+ with photo ID. The dress code is smart and dressed up: heels for ladies and a considered look for men. No sportswear and no fancy dress, and trainers are at the door's discretion.\n\nRumour presents itself as a members' club. You do not need a membership to book: we arrange booths and guestlist for non-members, and confirm your names with the door before you go.",
     sections: [
       {
-        heading: "What Changed: Tabu to Rumour",
+        heading: "Inside Rumour",
         content:
-          "Tabu, the Mayfair club, now trades as Rumour. Many people still search for it by its old name, which is why this page keeps both. The details that described Tabu, such as its Japanese-inspired interior, its hip-hop and RnB music policy, its Thursday to Saturday schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for Rumour. Rumour opens Wednesday to Saturday: ask for the current music and minimum spend before you book.",
+          "One intimate room of around 200, built around booths: deep red velvet, dark panelling, a chandelier and low, warm lighting. The music is open format, moving between hip-hop, RnB and house, read to the room on the night. The room fills early by design, which is why booths on Friday and Saturday are worth arranging in advance.",
       },
       {
-        heading: "Open Mayfair Clubs to Compare",
+        heading: "The No-Photography Policy",
         content:
-          "Tabu was known for hip-hop, RnB and Afrobeats. For that sound at an open club with a published price and known nights, Tape London, Selene London and Dear Darling are the closest matches on this site. Each has its own booking page below, with its current starting minimum.",
+          "Rumour does not allow photos or video in the main room or on the dance floor, and the floor team enforces it. It is the single clearest difference from the rooms around it, and it suits groups who want a night that stays in the room.",
+      },
+      {
+        heading: "From Tabu to Rumour",
+        content:
+          "Rumour is the full rebrand of Tabu: the same ownership, with a new design and a new concept, opened in October 2026. Many people still search for Tabu, which is why the old name appears on this page.",
+      },
+      {
+        heading: "Private Hire, Halloween and New Year's Eve",
+        content:
+          "The 200-capacity room suits takeovers: private hire and corporate enquiries are arranged through us, with terms on request. Halloween 2026 falls on Saturday 31 October and New Year's Eve on Thursday 31 December, both within Rumour's Wednesday to Saturday schedule. No events have been announced for either night, so book booths early.",
       },
     ],
     faqs: [
       {
-        question: "Is Tabu London still open?",
+        question: "How much is a booth at Rumour?",
         answer:
-          "Tabu now trades as Rumour, in Mayfair. Tables can be booked under the new name: send your date and group size on WhatsApp for current availability.",
+          "Booths start from £1,000 minimum spend, covering entry for the whole group: roughly £125 each across eight people. Anything beyond the starting booth is priced on request.",
       },
       {
-        question: "How much is a table at Rumour?",
+        question: "What does a booth at Rumour include?",
         answer:
-          "Minimum spends under the new name are confirmed on enquiry. Tabu's old prices are not a guide to the new venue, so ask for the current floor and VIP minimum before you book.",
+          "Entry for everyone in your group, a reserved booth in the main room, table service through the night, and premium spirits or champagne with mixers, all counted towards the minimum spend. Booking through us costs you nothing extra.",
       },
       {
-        question: "What music does Rumour play, and which nights is it open?",
+        question: "Can men get on the guestlist at Rumour?",
         answer:
-          "Rumour is open Wednesday to Saturday. Music under the new name is confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
+          "No. The guestlist is for ladies, at free to £20 on the door depending on the night. Men and mixed groups come in on a booth, which covers entry for the whole group.",
       },
       {
-        question: "What are the alternatives to Tabu London in Mayfair?",
+        question: "Is Tabu still open?",
         answer:
-          "For hip-hop, RnB and Afrobeats with table service, Tape London, Selene London and Dear Darling are open and bookable through this site, each with a published starting minimum.",
+          "Tabu now trades as Rumour: a full rebrand under the same ownership, with a new design and concept, opened in October 2026 at 1 Dover Street. Booths are booked under the new name.",
       },
       {
-        question: "How do I book a table at Rumour?",
+        question: "Which nights is Rumour open?",
         answer:
-          "Message on WhatsApp with your date, group size and any occasion. Availability and the current minimum spend are confirmed before you commit.",
+          "Wednesday to Saturday, 11pm to 4am. Wednesday and Thursday are the more relaxed nights; Friday and Saturday fill out and are worth arranging in advance.",
+      },
+      {
+        question: "Can you take photos inside Rumour?",
+        answer:
+          "No. Photos and video are not allowed in the main room or on the dance floor, and the floor team enforces the policy.",
+      },
+      {
+        question: "Is Rumour open on Halloween and New Year's Eve?",
+        answer:
+          "Yes. Halloween 2026 is Saturday 31 October and New Year's Eve is Thursday 31 December, both within the Wednesday to Saturday schedule. No events have been announced, so book booths early.",
       },
     ],
     relatedBookingPages: [
+      "99-regent-street-table-booking",
       "tape-london-table-booking",
-      "selene-london-table-booking",
       "dear-darling-table-booking",
     ],
     relatedBlogSlugs: [
+      "best-hip-hop-clubs-mayfair-bottle-service",
       "mayfair-dress-code-what-to-wear",
-      "how-much-does-bottle-service-cost-london",
-      "mayfair-vs-shoreditch-nightlife",
+      "how-london-club-minimum-spend-works",
     ],
   },
 
-  // 6. Cuckoo Club (now 99 Regent Street)
+  // 6. 99 Regent Street (formerly Cuckoo Club)
   {
-    bookingSlug: "cuckoo-club-table-booking",
-    clubSlug: "cuckoo-club",
-    metaTitle: "Cuckoo Club Is Now 99 Regent Street: Table Booking",
+    bookingSlug: "99-regent-street-table-booking",
+    clubSlug: "99-regent-street",
+    metaTitle: "99 Regent Street (formerly Cuckoo Club) Table Booking | From £600",
     metaDescription:
-      "Cuckoo Club in Mayfair now trades as 99 Regent Street. Table minimums under the new name are confirmed on enquiry, or compare Maddox and Tape instead.",
-    h1: "Cuckoo Club Is Now 99 Regent Street",
+      "Book a table at 99 Regent Street (formerly Cuckoo Club) from £600 minimum spend, with entry for your whole group. Two floors, Wednesday to Saturday. WhatsApp us.",
+    h1: "Book a Table at 99 Regent Street",
     heroSubheading:
-      "Cuckoo Club now trades as 99 Regent Street. Tables can be booked under the new name, with the current minimum spend confirmed before you commit.",
+      "99 Regent Street (formerly Cuckoo Club) is a two-floor club entered on Swallow Street: open-format hip-hop and RnB upstairs, house downstairs. Tables start from £600 minimum spend, with entry for your whole group included.",
     pricingIntro:
-      "Cuckoo Club's old minimum spends do not carry over automatically to 99 Regent Street, so no figure is shown here until one is confirmed for the new name. Send your date and group size on WhatsApp and the current floor and VIP minimum spend will be confirmed before you book. For a published price today, compare Maddox, Tape London and Selene London, each listed below with its current starting minimum.",
+      "Tables at 99 Regent Street start from £600 minimum spend. The minimum is spent on drinks at your table, not added as a fee on top, and it covers entry for your whole group. It rises with the night, the size of your group and the position of the table, so a Saturday usually sits above a Wednesday. VIP and larger tables are priced on request: send your date and group size and the figure is confirmed before you commit.",
     vipUpsellPitch:
-      "VIP positions under the new name, and what they include, are confirmed on enquiry. Ask about the table layout and the VIP minimum spend when you message.",
+      "VIP and larger tables are priced on request. Most tables sit in the upstairs main room, so tell us your group size and the occasion, and the VIP options and minimum for your night are confirmed before you book.",
     weekdayDeal:
-      "99 Regent Street opens Wednesday to Saturday. If your date is flexible, say so when you message, so that more than one night can be checked.",
+      "One floor opens on Wednesday and Thursday, and both floors run on Friday and Saturday. Because the minimum rises with the night, a Wednesday or Thursday table is the lower-cost way in, while Friday and Saturday have both floors running.",
     arrivalGuide:
-      "Arrival time, door policy and dress code are confirmed with your booking. Smart Mayfair dress is the safe default: a collared shirt and smart shoes for men, no sportswear. Arrive at the time given with your confirmation and give the booking name at the door.",
+      "99 Regent Street is at 99 Regent Street, London W1B 4EZ, with the entrance on Swallow Street, the old Cuckoo Club entrance. Piccadilly Circus is a two-minute walk, and Oxford Circus and Green Park are both within walking distance. The club opens from 11pm to 4am. Bring physical photo ID for everyone in the group, because the door is 19+, then give the booking name at the door.",
+    guestlistComparison:
+      "Guestlist at 99 Regent Street is by request, and mixed groups are welcome: it is not a ladies-only list. Entry runs from free to about £50 depending on the night and your arrival time, and we confirm names and the night's terms before you go.\n\nA table changes the night, not just the entry. From £600 minimum spend it covers entry for the whole group, a reserved table (most of them in the upstairs main room) and table service with bottles and mixers all night. Split six ways, the starting minimum is £100 a head, spent on drinks rather than on the door.",
+    entryGuide:
+      "The door at 99 Regent Street is 19+ with physical photo ID, a year older than most London doors, so bring a passport or driving licence for everyone. The dress code is elegant and enforced: no sportswear, running trainers, shorts, caps or fancy dress. Clean, minimal trainers are at the door's discretion, and black is the safe choice.\n\nWith a table booked through us, your names and the night's terms are confirmed before you go. Arrive together, dressed for the door, and give the booking name at the Swallow Street entrance.",
     sections: [
       {
-        heading: "What Changed: Cuckoo Club to 99 Regent Street",
+        heading: "Two Floors, Two Sounds",
         content:
-          "Cuckoo Club, the Mayfair club, now trades as 99 Regent Street. Many people still search for it by its old name, which is why this page keeps both. The details that described Cuckoo Club, such as its two-room split between house and hip-hop, its weeknight schedule and its minimum spends, belonged to the old club. None of them is repeated here as current, because none has been confirmed for 99 Regent Street. 99 Regent Street opens Wednesday to Saturday: ask for the current music and minimum spend before you book.",
+          "Upstairs is the main room, where most tables sit: open-format hip-hop and RnB, with banquette seating, warm low lighting and a long bar. Downstairs plays house, darker and more dance-focused, down the staircase between the floors. Each floor holds around 200. Both floors run on Friday and Saturday; on Wednesday and Thursday one floor opens, so ask which one when you book a midweek table.",
       },
       {
-        heading: "Open Mayfair Clubs to Compare",
+        heading: "From the Stork Club to 99 Regent Street",
         content:
-          "If you would rather book a venue with a published price and known nights, three open clubs cover the same ground. Maddox suits groups who liked Cuckoo Club's house music room, with dinner and clubbing under one roof. Tape London and Selene London suit groups who preferred the hip-hop and RnB side. Each has its own booking page below, with its current starting minimum.",
+          "This has been a nightlife address since 1954, when it was the Stork Club, whose guests ran from Harold Macmillan to Frank Sinatra and Elizabeth Taylor. It then spent the best part of two decades as the Cuckoo Club. In October 2026 the Cuckoo founders reopened the same floor as 99 Regent Street, with a new concept, and the Cuckoo Club name is no longer used. Many people still search for the old name, which is why it appears on this page.",
+      },
+      {
+        heading: "Birthdays, Private Hire and Corporate Nights",
+        content:
+          "For a birthday or celebration, tell us the occasion when you book. Private events, corporate nights and hire enquiries are arranged through us, with capacities, minimums and terms on request. The venue has a membership whose details are not published; you do not need one, because we book tables and guestlist for non-members.",
+      },
+      {
+        heading: "Halloween and New Year's Eve",
+        content:
+          "Halloween 2026 falls on Saturday 31 October and New Year's Eve on Thursday 31 December. Both nights sit inside 99 Regent Street's Wednesday to Saturday schedule, so the club is open on both. No events have been announced for either date, so book tables early: the minimum and the night's terms are confirmed before you commit.",
       },
     ],
     faqs: [
       {
-        question: "Is Cuckoo Club still open?",
-        answer:
-          "Cuckoo Club now trades as 99 Regent Street, in Mayfair. Tables can be booked under the new name: send your date and group size on WhatsApp for current availability.",
-      },
-      {
         question: "How much is a table at 99 Regent Street?",
         answer:
-          "Minimum spends under the new name are confirmed on enquiry. Cuckoo Club's old prices are not a guide to the new venue, so ask for the current floor and VIP minimum before you book.",
+          "Tables start from £600 minimum spend, covering entry for your whole group. The minimum rises with the night, group size and table position, and VIP and larger tables are priced on request. Send your date and group size for the exact figure.",
       },
       {
-        question: "What music does 99 Regent Street play, and which nights is it open?",
+        question: "What does the minimum spend cover?",
         answer:
-          "99 Regent Street is open Wednesday to Saturday. Music under the new name is confirmed on enquiry. Send your preferred date and the current details will be checked for you.",
+          "Your drinks: premium spirits or champagne with mixers, served at your table. It is not a fee on top, and the table also covers entry for everyone in your group. Booking through us costs you nothing extra.",
       },
       {
-        question: "What are the alternatives to Cuckoo Club in Mayfair?",
+        question: "How do you book a table at 99 Regent Street?",
         answer:
-          "For house music with dinner beforehand, Maddox. For hip-hop and RnB, Tape London or Selene London. All three are open and bookable through this site, each with a published starting minimum.",
+          "Message us on WhatsApp with your date, group size and any occasion. We confirm the table, the minimum spend and the night's terms before you commit.",
       },
       {
-        question: "How do I book a table at 99 Regent Street?",
+        question: "Is the Cuckoo Club still open?",
         answer:
-          "Message on WhatsApp with your date, group size and any occasion. Availability and the current minimum spend are confirmed before you commit.",
+          "The Cuckoo Club name is no longer used. The Cuckoo founders reopened the same floor as 99 Regent Street in October 2026, with a new concept, and the entrance is still on Swallow Street. Tables are booked under the new name.",
+      },
+      {
+        question: "Which nights is 99 Regent Street open?",
+        answer:
+          "Wednesday to Saturday, 11pm to 4am. Both floors run on Friday and Saturday; one floor opens on Wednesday and Thursday.",
+      },
+      {
+        question: "What are the age limit and dress code?",
+        answer:
+          "19+ with physical photo ID. The dress code is elegant and enforced: no sportswear, running trainers, shorts, caps or fancy dress, with clean, minimal trainers at the door's discretion. Black is the safe choice.",
+      },
+      {
+        question: "Is 99 Regent Street open on Halloween and New Year's Eve?",
+        answer:
+          "Yes. Halloween 2026 is Saturday 31 October and New Year's Eve is Thursday 31 December, both within the Wednesday to Saturday schedule. No events have been announced, so book tables early.",
       },
     ],
     relatedBookingPages: [
+      "rumour-london-table-booking",
       "maddox-club-table-booking",
       "tape-london-table-booking",
-      "selene-london-table-booking",
     ],
     relatedBlogSlugs: [
-      "mayfair-vs-shoreditch-nightlife",
-      "how-much-does-bottle-service-cost-london",
-      "london-nightlife-first-timers",
+      "best-hip-hop-clubs-mayfair-bottle-service",
+      "best-house-music-clubs-london-bottle-service",
+      "how-london-club-minimum-spend-works",
     ],
   },
 
@@ -534,7 +582,7 @@ export const bookingPages: BookingPageData[] = [
     arrivalGuide:
       "Dear Darling is in Mayfair. With a table booking, you'll have priority entry for your group. The venue transitions from cocktail bar to club as the night progresses, so arriving earlier (around 10:00-10:30 PM) lets you enjoy the cocktail bar phase before the energy shifts into full club mode around 11:30 PM. Dress code is smart and fashion-forward: the crowd here puts effort in, so match the energy. Green Park tube is nearby.",
     guestlistComparison:
-      "Dear Darling, as a newer addition to the Mayfair circuit, does offer guestlist on some nights, particularly Thursdays when the venue is still building its regular crowd. Getting on a guestlist can get you through the door with a cover charge around £15-20, and during the earlier cocktail bar phase (before 11:00 PM) general admission is usually straightforward. The venue is still establishing itself, so the door isn't as battle-hardened as somewhere like Cuckoo or Cirque that have been turning people away for years.\n\nThe problem with guestlist at Dear Darling is that you miss the venue's best feature. The cocktail-to-club transition is designed as a journey. You start in a beautifully designed space with genuinely excellent cocktails, the lighting shifts, the music builds, and by midnight you're in a proper hip-hop and RnB club. Experiencing this from a table, with craft cocktails flowing into bottle service as the night evolves, is the way Dear Darling was designed to be enjoyed. Standing at the bar, you get fragments of this experience rather than the full arc.\n\nFor couples on a date, guestlist during the cocktail bar phase can work. It's a beautiful space to have a drink in, and if you arrive before 10:30 PM the atmosphere is relaxed and conversational. But for groups of four or more, a table booking makes dramatically more sense. The £1,000 minimum lets you start with rounds of craft cocktails (which count towards your spend) before moving to bottles as the club energy kicks in. You're experiencing the full Dear Darling concept rather than standing on the edges of it. And because the venue's design is genuinely one of its strongest selling points, you want to be positioned to appreciate it properly.",
+      "Dear Darling, as a newer addition to the Mayfair circuit, does offer guestlist on some nights, particularly Thursdays when the venue is still building its regular crowd. Getting on a guestlist can get you through the door with a cover charge around £15-20, and during the earlier cocktail bar phase (before 11:00 PM) general admission is usually straightforward. The venue is still establishing itself, so the door isn't as battle-hardened as somewhere like Cirque, which has been turning people away for years.\n\nThe problem with guestlist at Dear Darling is that you miss the venue's best feature. The cocktail-to-club transition is designed as a journey. You start in a beautifully designed space with genuinely excellent cocktails, the lighting shifts, the music builds, and by midnight you're in a proper hip-hop and RnB club. Experiencing this from a table, with craft cocktails flowing into bottle service as the night evolves, is the way Dear Darling was designed to be enjoyed. Standing at the bar, you get fragments of this experience rather than the full arc.\n\nFor couples on a date, guestlist during the cocktail bar phase can work. It's a beautiful space to have a drink in, and if you arrive before 10:30 PM the atmosphere is relaxed and conversational. But for groups of four or more, a table booking makes dramatically more sense. The £1,000 minimum lets you start with rounds of craft cocktails (which count towards your spend) before moving to bottles as the club energy kicks in. You're experiencing the full Dear Darling concept rather than standing on the edges of it. And because the venue's design is genuinely one of its strongest selling points, you want to be positioned to appreciate it properly.",
     entryGuide:
       "Dear Darling's door reflects its identity as a design-conscious, fashion-forward venue. The dress code is smart with an emphasis on considered style: the crowd here tends to be late twenties to thirties, creative-adjacent, and dressed like they thought about their outfit rather than just grabbing the nearest smart shirt. Men should aim for smart with a point of interest: a well-cut jacket, interesting shoes, or a look that shows personality beyond the basic Mayfair uniform. Women dress elegantly with a fashion edge. Smart trainers can work if the outfit around them is polished, but this isn't a given: it depends on the overall look.\n\nThe dual personality of the venue affects when and how the door operates. During the earlier cocktail bar hours (before 11:00 PM), the atmosphere is more relaxed and the door is correspondingly accessible. As the venue transitions to club mode, the door tightens: the team is looking to maintain the quality of crowd that Dear Darling has cultivated since opening. Fashion industry regulars, creative professionals, and couples who chose the venue for its design and atmosphere set the tone, and the door team filters for people who add to that energy.\n\nWith a table booking, you get the best of both phases. Priority entry means you can arrive during the cocktail bar phase, around 10:00-10:30 PM, settle into your table with a round of craft cocktails, and experience the full transition into club mode without ever worrying about the door. This early arrival is actually a genuine advantage at Dear Darling, not just a logistical detail: the cocktail bar phase is a highlight in its own right, and most general admission guests who arrive after 11:30 PM miss it entirely. Green Park tube is the nearest station.",
     sections: [
@@ -592,9 +640,9 @@ export const bookingPages: BookingPageData[] = [
       },
     ],
     relatedBookingPages: [
-      "tabu-london-table-booking",
+      "rumour-london-table-booking",
       "scotch-of-st-james-table-booking",
-      "cuckoo-club-table-booking",
+      "99-regent-street-table-booking",
     ],
     relatedBlogSlugs: [
       "dear-darling-mayfair-guide",
@@ -656,7 +704,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "What type of music does Maddox play?",
         answer:
-          "House music: deep house, tech house, and commercial house. The music is sophisticated and fits the dining-to-clubbing concept. If you're specifically looking for hip-hop, Rumour (formerly Tabu) or the basement at 99 Regent Street (formerly Cuckoo Club) would be better fits.",
+          "House music: deep house, tech house, and commercial house. The music is sophisticated and fits the dining-to-clubbing concept. If you're specifically looking for hip-hop, Rumour (formerly Tabu) or the upstairs main room at 99 Regent Street (formerly Cuckoo Club) would be better fits.",
       },
       {
         question: "What's the dress code at Maddox?",
@@ -675,7 +723,7 @@ export const bookingPages: BookingPageData[] = [
       },
     ],
     relatedBookingPages: [
-      "cuckoo-club-table-booking",
+      "99-regent-street-table-booking",
       "beat-london-table-booking",
       "scotch-of-st-james-table-booking",
     ],
@@ -853,7 +901,7 @@ export const bookingPages: BookingPageData[] = [
     ],
     relatedBookingPages: [
       "reign-london-table-booking",
-      "cuckoo-club-table-booking",
+      "99-regent-street-table-booking",
     ],
     relatedBlogSlugs: [
       "best-clubs-for-birthday-london",
@@ -940,7 +988,7 @@ export const bookingPages: BookingPageData[] = [
     ],
     relatedBookingPages: [
       "maddox-club-table-booking",
-      "cuckoo-club-table-booking",
+      "99-regent-street-table-booking",
       "scotch-of-st-james-table-booking",
       "the-box-london-table-booking",
     ],

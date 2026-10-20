@@ -273,7 +273,7 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>Standard Mayfair</h3>
       <p>
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,{" "}
         <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>{" "}and{" "}
         <Link href="/clubs/selene-london" className="text-gold hover:underline">Selene</Link>:
         smart dress code enforced firmly but fairly. Follow the guidelines and you&apos;re in.
@@ -281,9 +281,9 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h3>Slightly More Relaxed</h3>
       <p>
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>: still smart,
-        but fashion-forward styling can bend the rules. Designer trainers <em>might</em>{" "}work
-        if the overall outfit is sharp. Don&apos;t bank on it.
+        <Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>: smart
+        and dressed up, with heels for ladies and a considered look for men, but trainers are
+        at the door&apos;s discretion if the overall outfit is sharp. Don&apos;t bank on it.
       </p>
       <p>
         <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>:
@@ -500,15 +500,15 @@ export const blogContent: Record<string, ReactNode> = {
         <li><strong>9:00 to 10:30 PM:</strong>{" "}Pre-drinks at a Soho or Mayfair bar while you wait for clubs to open.</li>
         <li><strong>10:30 to 11:30 PM:</strong>{" "}Clubs open. Arrive in this window for the best experience. Skip the late rush.</li>
         <li><strong>11:30 PM to 1:00 AM:</strong>{" "}Peak atmosphere. The clubs are full, the energy is high, and the night is in full swing.</li>
-        <li><strong>1:00 to 3:00 AM:</strong>{" "}Late night. Energy starts to wind down at some venues. Clubs close between 3:00 and 3:30 AM (BEAT London runs later than most Mayfair clubs).</li>
+        <li><strong>1:00 to 3:00 AM:</strong>{" "}Late night. Energy starts to wind down at some venues. Most clubs close between 3:00 and 3:30 AM (BEAT London runs later than most Mayfair clubs, and 99 Regent Street and Rumour stay open until 4:00 AM).</li>
       </ul>
 
       <h2>How to Choose Your First Club</h2>
       <p>Ask yourself these questions:</p>
       <ul>
-        <li><strong>What music do you like?</strong>{" "}Hip-hop → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>, <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque</Link>. House → <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT</Link>. Mixed → <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>.</li>
+        <li><strong>What music do you like?</strong>{" "}Hip-hop → <Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>, <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque</Link>. House → <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>, <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT</Link>. Mixed → <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>.</li>
         <li><strong>Do you want entertainment?</strong>{" "}Performers → <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>. Shows → <Link href="/clubs/london-reign" className="text-gold hover:underline">London Reign</Link>. Theatrical → <Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>.</li>
-        <li><strong>How exclusive do you want?</strong>{" "}Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour</Link>.</li>
+        <li><strong>How exclusive do you want?</strong>{" "}Maximum exclusivity → <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape</Link>. Fun without pretension → <Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour</Link>.</li>
         <li><strong>What&apos;s your budget?</strong>{" "}Most venues start at £1,000 minimum. For premium experiences, budget £1,500 to £3,000.</li>
       </ul>
 
@@ -626,10 +626,11 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h3>99 Regent Street (formerly Cuckoo Club): Best for Mixed Music Tastes</h3>
       <p>
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street</Link>&apos;s
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street</Link>&apos;s
         two-floor layout is perfect for hen groups with mixed music preferences.
-        House music upstairs, hip-hop in the basement. The bride&apos;s squad can
-        split between floors and regroup whenever they want.
+        Open-format hip-hop and RnB upstairs, house downstairs. On Fridays and
+        Saturdays, when both floors run, the bride&apos;s squad can split between
+        floors and regroup whenever they want.
       </p>
       <p><strong>Best for:</strong>{" "}Hen groups with diverse music tastes, groups who want options.</p>
 
@@ -706,7 +707,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox</Link>{" "}and{" "}
         <Link href="/clubs/beat-london" className="text-gold hover:underline">BEAT London</Link>.
         Open-format venues like{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         mix genres. The music is good but the DJ is rarely the main attraction.
         The overall experience is.
       </p>
@@ -920,10 +921,10 @@ export const blogContent: Record<string, ReactNode> = {
         fare, but executed well. The DJs read the room rather than sticking to a rigid playlist,
         and the sound system is properly installed rather than an afterthought. If you&apos;re
         comparing it to other hip-hop-focused venues,{" "}
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>{" "}
-        is more underground and{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
-        offers a two-floor split with house upstairs. Dear Darling sits in the middle: polished
+        <Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>{" "}
+        is a more intimate, open-format booth room and{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
+        offers a two-floor split, with hip-hop and RnB upstairs and house downstairs. Dear Darling sits in the middle: polished
         and quality-focused.
       </p>
 
@@ -1119,14 +1120,14 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li>
-          <strong><Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link></strong>:{" "}
-          open Wednesday to Saturday. The venue now trades as Rumour; confirm the current
-          music policy when you enquire.
+          <strong><Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link></strong>:{" "}
+          open Wednesday to Saturday on Dover Street, an intimate booth room playing open
+          format across hip-hop, RnB and house. Booths from £1,000.
         </li>
         <li>
-          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link></strong>:{" "}
-          open Wednesday to Saturday, and a good fit for mixed groups with different music
-          tastes.
+          <strong><Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link></strong>:{" "}
+          open Wednesday to Saturday, with open-format hip-hop and RnB upstairs and house
+          downstairs: a good fit for mixed groups with different music tastes. Tables from £600.
         </li>
       </ul>
       <p>
@@ -1183,45 +1184,46 @@ export const blogContent: Record<string, ReactNode> = {
         definitive guide.
       </p>
 
-      <h2>1. Rumour (formerly Tabu): The Underground Hip-Hop Choice</h2>
+      <h2>1. Rumour (formerly Tabu): The Intimate Booth Room</h2>
       <p>
-        <Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>,
-        open Wednesday to Saturday, is the most distinctive hip-hop club in Mayfair. The Japanese-inspired underground
-        aesthetic sets it apart immediately: dark interiors, striking design elements, and a
-        atmosphere that feels more Tokyo basement bar than typical London nightclub. The music
-        policy is where Rumour truly differentiates itself: the DJs balance mainstream hip-hop
-        with deeper cuts, UK rap, drill, and underground tracks that you won&apos;t hear at
-        other Mayfair venues.
+        <Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>,
+        open Wednesday to Saturday from 11pm to 4am, is the most distinctive room on this list.
+        It is the full rebrand of Tabu, with a new design and concept since October 2026: one
+        intimate room of around 200 on Dover Street, built around deep red velvet booths, with
+        dark panelling, a chandelier and low, warm lighting. The music is open format, moving
+        between hip-hop, RnB and house, read to the room on the night.
       </p>
       <p>
-        The crowd at Rumour reflects the music: well-connected, fashion-forward, and genuinely
-        into hip-hop culture rather than just wanting background beats while they drink. That
-        reputation was built under the Tabu name, so ask us to confirm the current music policy
-        and minimum spend under the new name when you enquire. For a{" "}
-        <Link href="/tabu-london-table-booking" className="text-gold hover:underline">Rumour table booking</Link>,
+        What truly sets Rumour apart is its no-photography policy: no photos or video in the
+        main room or on the dance floor, enforced by the floor team. Booths start from{" "}
+        <strong>£1,000 minimum spend</strong>, covering entry for the whole group, roughly £125
+        each across eight people. Men are not added to the guestlist, so a booth is the route
+        in for men and mixed groups. For a{" "}
+        <Link href="/rumour-london-table-booking" className="text-gold hover:underline">Rumour table booking</Link>,
         message us on WhatsApp.
       </p>
       <p>
-        <strong>Best for:</strong>{" "}UK rap fans, underground hip-hop heads, groups who want
-        something with genuine character. If you know the difference between Central Cee and
-        commercial chart rap, Rumour is your venue.
+        <strong>Best for:</strong>{" "}Dressed-up groups who want hip-hop and RnB in the mix
+        without committing to one genre all night, in a small room where nobody is filming.
       </p>
 
       <h2>2. 99 Regent Street (formerly Cuckoo Club): The Two-Floor Advantage</h2>
       <p>
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,
-        open Wednesday to Saturday, has a unique advantage over every other club on this list: a
-        dedicated hip-hop floor in the basement and a separate house music floor upstairs. This
-        makes 99 Regent Street the obvious
-        choice for mixed groups where not everyone agrees on genre. Your hip-hop fans head
-        downstairs; your house music crowd stays upstairs. Everyone&apos;s happy.
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,
+        open Wednesday to Saturday from 11pm to 4am, has a unique advantage over every other club
+        on this list: two floors with two music policies. Upstairs is the main room, where most
+        tables sit, playing open-format hip-hop and RnB; downstairs plays house, darker and more
+        dance-focused. This makes 99 Regent Street the obvious choice for mixed groups where not
+        everyone agrees on genre. Your hip-hop fans stay upstairs; your house music crowd heads
+        downstairs. Everyone&apos;s happy.
       </p>
       <p>
-        The basement hip-hop room is properly done: dark, intimate, with a sound system that
-        handles bass-heavy tracks without distortion. The DJs play a mix of mainstream hip-hop,
-        RnB, UK rap, and Afrobeats. It&apos;s not as underground as Rumour, but the two-floor
-        format is genuinely useful. That layout dates from the Cuckoo Club days, so ask us to
-        confirm the current music policy and minimum spend under the new name when you enquire.
+        Both floors run on Friday and Saturday, and one floor opens on Wednesday and Thursday.
+        Tables start from <strong>£600 minimum spend</strong>, the lowest on this list, covering
+        entry for the whole group. The door is 19+ with physical photo ID, a year older than most
+        London doors, so bring it for everyone. For a{" "}
+        <Link href="/99-regent-street-table-booking" className="text-gold hover:underline">99 Regent Street table booking</Link>,
+        message us on WhatsApp.
       </p>
       <p>
         <strong>Best for:</strong>{" "}Mixed groups with varied music tastes. Birthday parties where
@@ -1253,19 +1255,19 @@ export const blogContent: Record<string, ReactNode> = {
         hip-hop, here&apos;s where to go:
       </p>
       <ul>
-        <li><strong>US Hip-Hop (Drake, Travis Scott, Future):</strong>{" "}Cirque Le Soir: crowd-pleasing mainstream hip-hop alongside the show.</li>
-        <li><strong>UK Rap &amp; Drill (Central Cee, Dave, Headie One):</strong>{" "}Rumour (formerly Tabu): the strongest UK rap presence of any Mayfair club.</li>
-        <li><strong>Afrobeats (Burna Boy, Wizkid, Rema):</strong>{" "}Rumour incorporates Afrobeats heavily, and the basement at 99 Regent Street features it too.</li>
-        <li><strong>RnB (SZA, The Weeknd, Chris Brown):</strong>{" "}<Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling</Link>, open Thursday to Sunday, leans towards hip-hop, RnB and Afrobeats.</li>
+        <li><strong>US Hip-Hop (Drake, Travis Scott, Future):</strong>{" "}Cirque Le Soir: crowd-pleasing mainstream hip-hop alongside the show. The upstairs main room at 99 Regent Street plays open-format hip-hop and RnB.</li>
+        <li><strong>UK Rap &amp; Drill (Central Cee, Dave, Headie One):</strong>{" "}no club here publishes a UK rap night, so ask us about your date. The open-format rooms upstairs at 99 Regent Street and at Rumour play hip-hop alongside RnB.</li>
+        <li><strong>Afrobeats (Burna Boy, Wizkid, Rema):</strong>{" "}Dear Darling&apos;s music leans towards hip-hop, RnB and Afrobeats. At 99 Regent Street and Rumour, which are open format, ask about Afrobeats for your night.</li>
+        <li><strong>RnB (SZA, The Weeknd, Chris Brown):</strong>{" "}<Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling</Link>, open Thursday to Sunday, leans towards hip-hop, RnB and Afrobeats. RnB also runs through the upstairs room at 99 Regent Street and the open-format mix at Rumour.</li>
       </ul>
 
       <h2>Pricing Comparison</h2>
       <p>
-        The good news for hip-hop fans: pricing is remarkably consistent across these venues.
+        The good news for hip-hop fans: pricing sits in a narrow band across these venues.
       </p>
       <ul>
-        <li><strong>Rumour (formerly Tabu):</strong>{" "}Confirmed on enquiry under the new name</li>
-        <li><strong>99 Regent Street (formerly Cuckoo Club):</strong>{" "}Confirmed on enquiry under the new name</li>
+        <li><strong>Rumour:</strong>{" "}Booths from £1,000, covering entry for the whole group</li>
+        <li><strong>99 Regent Street:</strong>{" "}Tables from £600, covering entry for the whole group; VIP on request</li>
         <li><strong>Cirque Le Soir:</strong>{" "}From £1,000 (floor) / £2,500 (VIP)</li>
       </ul>
       <p>
@@ -1279,8 +1281,8 @@ export const blogContent: Record<string, ReactNode> = {
         demographic:
       </p>
       <ul>
-        <li><strong>Rumour:</strong>{" "}Fashion-conscious, younger (early-to-mid twenties), culturally connected. The Instagram-aware crowd.</li>
-        <li><strong>99 Regent Street:</strong>{" "}Diverse mix. The two-floor format attracts a broader range. Strong for birthdays and mixed groups.</li>
+        <li><strong>Rumour:</strong>{" "}Dressed up and 18+, in a room where photos and video are off limits on the dance floor: a crowd there for the night, not the camera.</li>
+        <li><strong>99 Regent Street:</strong>{" "}19+ with physical photo ID, with mixed groups welcome on the guestlist. The two-floor format suits groups with more than one taste in music. Strong for birthdays and mixed groups.</li>
         <li><strong>Cirque:</strong>{" "}Tourists, celebrities, birthday groups, international visitors. The most diverse and party-focused crowd.</li>
       </ul>
 
@@ -1363,10 +1365,10 @@ export const blogContent: Record<string, ReactNode> = {
         available.
       </p>
       <p>
-        <strong>Rumour (formerly Tabu)</strong>: For hip-hop fans, Rumour on Saturday brings the best crowd
-        of the week. The music goes harder, the energy is higher, and the Japanese-inspired
-        underground setting makes it feel like you&apos;ve discovered somewhere nobody else
-        knows about.
+        <strong>Rumour (formerly Tabu)</strong>: Saturday is one of Rumour&apos;s two fullest
+        nights, and the room of around 200 fills early by design. Red velvet booths, open-format
+        hip-hop, RnB and house, and no photos or video on the dance floor make it an intimate
+        alternative to the bigger rooms. Booths start from £1,000 minimum spend.
       </p>
 
       <h2>How Far in Advance to Book</h2>
@@ -1377,8 +1379,9 @@ export const blogContent: Record<string, ReactNode> = {
         <li><strong>Cirque Le Soir:</strong>{" "}3 to 6 weeks ahead for good table positions</li>
         <li><strong>Tape London:</strong>{" "}3 to 4 weeks ahead (limited capacity, very few tables)</li>
         <li><strong>London Reign:</strong>{" "}2 to 3 weeks ahead</li>
-        <li><strong>Rumour (formerly Tabu):</strong>{" "}1 to 2 weeks ahead (newer venue, still building Saturday demand)</li>
-        <li><strong>99 Regent Street (formerly Cuckoo Club) / Maddox:</strong>{" "}1 to 2 weeks ahead</li>
+        <li><strong>Rumour:</strong>{" "}as early as you can: the room holds around 200 and Saturday fills out</li>
+        <li><strong>99 Regent Street (formerly Cuckoo Club):</strong>{" "}as early as you can for a larger group; both floors run on Saturday</li>
+        <li><strong>Maddox:</strong>{" "}1 to 2 weeks ahead</li>
       </ul>
       <p>
         The earlier you book, the better your table position. Last-minute Saturday bookings
@@ -1748,30 +1751,29 @@ export const blogContent: Record<string, ReactNode> = {
         it drowning the mids.
       </p>
 
-      <h2>99 Regent Street (formerly Cuckoo Club) Upstairs: The Two-Floor Advantage</h2>
+      <h2>99 Regent Street (formerly Cuckoo Club) Downstairs: The Two-Floor Advantage</h2>
       <p>
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>, open Wednesday to Saturday, has an upper floor dedicated to house and tech house, making it the
-        only Mayfair club where house music fans have their own distinct space. While the
-        basement pumps out hip-hop and RnB, upstairs operates as an entirely separate
-        experience: house-focused DJs, a crowd that&apos;s there for the music, and a sound
-        system that handles electronic music properly.
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>, open Wednesday to Saturday from 11pm to 4am, gives house fans a floor of their own.
+        Downstairs plays house, darker and more dance-focused, while the upstairs main room,
+        where most tables sit, plays open-format hip-hop and RnB. A staircase joins the two,
+        and each floor holds around 200.
       </p>
       <p>
         The two-floor format is 99 Regent Street&apos;s genuine unique selling point. If your group is
-        split between house and hip-hop fans, this is the only venue where both sides get what
-        they want under one roof. Your table booking gives you access to both floors, so you
-        can drift between them as the mood takes you.
+        split between house and hip-hop fans, this is the venue where both sides get what they
+        want under one roof. Both floors run on Friday and Saturday; on Wednesday and Thursday
+        one floor opens, so check which one with us before booking a midweek house night.
       </p>
       <p>
-        The upstairs house floor leans towards deep house and groovy tech house rather than
-        harder, peak-time techno. Think warm basslines, textured synths, and the kind of music
-        that makes you nod rather than jump. That floor plan dates from the Cuckoo Club days, so ask
-        us to confirm the current music policy and minimum spend under the new name when you enquire.
+        Tables start from <strong>£600 minimum spend</strong>, covering entry for the whole
+        group, with VIP and larger tables on request. The door is 19+ with physical photo ID,
+        and the dress code is elegant and enforced. For a{" "}
+        <Link href="/99-regent-street-table-booking" className="text-gold hover:underline">99 Regent Street table booking</Link>,
+        message us on WhatsApp.
       </p>
       <p>
-        <strong>Sound system verdict:</strong>{" "}Good. Not audiophile-grade but more than adequate
-        for the space. The intimate size of the upstairs room means the speakers don&apos;t
-        need to work too hard.
+        <strong>Room verdict:</strong>{" "}Dark panelling, warm low lighting, banquette seating
+        and a long bar. Downstairs is the darker, more dance-focused of the two floors.
       </p>
 
       <h2>BEAT London: The Purist&apos;s Choice</h2>
@@ -1828,9 +1830,10 @@ export const blogContent: Record<string, ReactNode> = {
         the breakdown:
       </p>
       <ul>
-        <li><strong>Deep House</strong>{" "}(warm, melodic, soulful): Maddox is the strongest choice. The sophisticated setting matches the music perfectly. The upstairs floor at 99 Regent Street also leans this direction.</li>
+        <li><strong>Deep House</strong>{" "}(warm, melodic, soulful): Maddox is the strongest choice. The sophisticated setting matches the music perfectly.</li>
         <li><strong>Tech House</strong>{" "}(driving, percussive, energetic): BEAT London is the clear winner. The later hours and better sound system give tech house the space it needs.</li>
-        <li><strong>Commercial House / Dance</strong>{" "}(accessible, vocal-driven, radio-friendly): The upstairs floor at 99 Regent Street or Maddox on busier nights. Neither venue plays purely commercial, but the DJs incorporate it when the crowd energy demands it.</li>
+        <li><strong>Commercial House / Dance</strong>{" "}(accessible, vocal-driven, radio-friendly): Maddox on busier nights. It doesn&apos;t play purely commercial, but the DJs incorporate it when the crowd energy demands it.</li>
+        <li><strong>Darker, Dance-Focused House</strong>: the downstairs floor at 99 Regent Street, with the hip-hop and RnB room upstairs for anyone in the group who wants a change of sound.</li>
         <li><strong>Minimal / Deeper Electronic</strong>: BEAT London, particularly in the later hours (2-5 AM) when the DJs have room to go deeper.</li>
         <li><strong>House-Influenced / Eclectic</strong>: Dear Darling. The transitional format means the music pulls from multiple influences rather than committing to a single sub-genre.</li>
       </ul>
@@ -1841,7 +1844,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li><strong>Maddox:</strong>{" "}Resident DJs who understand the dinner-to-club transition. The music starts ambient and builds to proper house by midnight. Consistent quality, no surprises.</li>
-        <li><strong>99 Regent Street:</strong>{" "}Separate DJs for each floor. The upstairs house DJ operates independently from the basement hip-hop DJ. Quality varies slightly night to night but is generally strong.</li>
+        <li><strong>99 Regent Street:</strong>{" "}Two floors, two music policies: open-format hip-hop and RnB upstairs in the main room, house downstairs. Ask us which floors are running on your night.</li>
         <li><strong>BEAT London:</strong>{" "}The strongest DJ booking policy of any Mayfair venue for electronic music. Guest DJs from the wider London electronic scene appear regularly alongside skilled residents.</li>
         <li><strong>Dear Darling:</strong>{" "}Resident DJs who are skilled at the early-evening-to-late-night transition. The emphasis is on reading the room rather than sticking to a genre rigidly.</li>
       </ul>
@@ -1852,7 +1855,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <ul>
         <li><strong>Maddox:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Dinner available separately.</li>
-        <li><strong>99 Regent Street:</strong>{" "}Confirmed on enquiry under the new name.</li>
+        <li><strong>99 Regent Street:</strong>{" "}From £600, covering entry for the whole group. VIP and larger tables on request.</li>
         <li><strong>BEAT London:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Best value per hour given the later closing time.</li>
         <li><strong>Dear Darling:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Cocktail bar access included.</li>
       </ul>
@@ -2035,11 +2038,12 @@ export const blogContent: Record<string, ReactNode> = {
       <h3>99 Regent Street (formerly Cuckoo Club): Choose Your Floor</h3>
       <p>
         99 Regent Street is a two-floor venue, and the experience on each floor is genuinely different.
-        The ground floor is the main room: house music, more social, higher energy. The basement
-        (The Shack) plays hip-hop, RnB, and Afrobeats with a darker, more intimate atmosphere.
-        Your choice of floor effectively determines your music and vibe for the night. If your
-        group has mixed tastes, this is actually an advantage: you can move between floors
-        while keeping your table on whichever one you prefer.
+        Upstairs is the main room, where most tables sit: open-format hip-hop and RnB, with
+        banquette seating and warm, low lighting. Downstairs plays house and is darker and more
+        dance-focused. Your choice of floor effectively determines your music and vibe for the
+        night. Both floors run on Friday and Saturday, so a group with mixed tastes can use the
+        staircase between them; on Wednesday and Thursday one floor opens. Tables start from
+        £600, and VIP positions are priced on request.
       </p>
 
       <h2>When to Upgrade vs When Floor Is Fine</h2>
@@ -2235,12 +2239,20 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>The Legal Age: 18+ at Most Venues</h2>
       <p>
-        The vast majority of London nightclubs, including every Mayfair venue we work with,
-        have a legal minimum age of <strong>18</strong>. This is the age at which you can
+        The vast majority of London nightclubs, including almost every Mayfair venue we work
+        with, have a legal minimum age of <strong>18</strong>. This is the age at which you can
         legally enter and purchase alcohol. There are no 21+ nightclubs in London: that&apos;s
         an American concept that doesn&apos;t apply here. If you are 18 years old with valid
         ID, you have the legal right to enter any 18+ venue (assuming you meet the other entry
         criteria like dress code and sobriety).
+      </p>
+      <p>
+        The exception is{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>,
+        which admits <strong>19+</strong>{" "}with physical photo ID, a year older than most London
+        doors. If anyone in your group is 18, book somewhere 18+ instead, such as{" "}
+        <Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>,
+        which admits 18+ with photo ID.
       </p>
 
       <h2>The Practical Age: Why It Feels Like 25+</h2>
@@ -2250,9 +2262,10 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>,{" "}
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>,
         and{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street</Link>{" "}
         attract a mature, professional clientele. The minimum spend for bottle service
-        (£1,000+) naturally filters the crowd towards people with disposable income. Door teams
+        (from £600, and £1,000 at most venues) naturally filters the crowd towards people with
+        disposable income. Door teams
         are also curating a specific atmosphere, and while age alone isn&apos;t a criterion for
         rejection, looking significantly younger than the room can work against you, particularly
         if you&apos;re in a large group of very young-looking guests.
@@ -2644,9 +2657,10 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h3>99 Regent Street (formerly Cuckoo Club)</h3>
       <p>
-        99 Regent Street, open Wednesday to Saturday, has a strong Friday following: the local Mayfair crowd loves it as a Friday
-        spot. Saturday is busier but can feel less cohesive. <strong>Best night:</strong>{" "}
-        Friday for the loyal local crowd.
+        99 Regent Street, open Wednesday to Saturday, runs both of its floors on Friday and
+        Saturday: open-format hip-hop and RnB upstairs, house downstairs. On Wednesday and
+        Thursday only one floor opens. <strong>Best night:</strong>{" "}
+        Friday or Saturday, when both floors are running.
       </p>
 
       <h3>Maddox</h3>
@@ -2746,12 +2760,12 @@ export const blogContent: Record<string, ReactNode> = {
           programming and a well-dressed crowd. Tables from &pound;1,000.
         </li>
         <li>
-          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>:</strong>{" "}
-          Two distinct floors give you options. The upstairs lounge is perfect for early
-          evening cocktails and conversation, while the basement club delivers a proper
-          dance floor later on. It&apos;s a versatile choice when one of you wants to talk
-          and the other wants to dance. Open Wednesday to Saturday; minimums under the new
-          name are confirmed on enquiry.
+          <strong><Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>:</strong>{" "}
+          Two distinct floors give you options. The upstairs main room has banquette seating,
+          warm, low lighting and open-format hip-hop and RnB, while downstairs plays house and
+          is darker and more dance-focused. It&apos;s a versatile choice when you want two
+          moods in one night. Open Wednesday to Saturday, 11pm to 4am, with tables from
+          &pound;600.
         </li>
         <li>
           <strong><Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>:</strong>{" "}
@@ -2885,14 +2899,18 @@ export const blogContent: Record<string, ReactNode> = {
           intimate crowd. Tables from &pound;1,000.
         </li>
         <li>
-          <strong><Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>:</strong>{" "}
-          Open Wednesday to Saturday, the venue has a loyal midweek following. You can{" "}
-          <Link href="/cuckoo-club-table-booking" className="text-gold hover:underline">book a 99 Regent Street table here</Link>.
+          <strong><Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>:</strong>{" "}
+          Open Wednesday to Saturday, 11pm to 4am. One of its two floors opens on Wednesdays
+          and Thursdays, and both run at the weekend. Tables from &pound;600, covering entry
+          for the whole group. You can{" "}
+          <Link href="/99-regent-street-table-booking" className="text-gold hover:underline">book a 99 Regent Street table here</Link>.
         </li>
         <li>
-          <strong><Link href="/clubs/tabu-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>:</strong>{" "}
-          Open Wednesday to Saturday. Minimums and music under the new name are confirmed
-          when you enquire.
+          <strong><Link href="/clubs/rumour-london" className="text-gold hover:underline">Rumour (formerly Tabu)</Link>:</strong>{" "}
+          Open Wednesday to Saturday, 11pm to 4am. Wednesday and Thursday are its more relaxed
+          nights and the easiest for guestlist entry. Booths from &pound;1,000, covering entry
+          for the whole group. You can{" "}
+          <Link href="/rumour-london-table-booking" className="text-gold hover:underline">book a Rumour booth here</Link>.
         </li>
         <li>
           <strong><Link href="/clubs/the-box" className="text-gold hover:underline">The Box</Link>:</strong>{" "}
@@ -3089,7 +3107,7 @@ export const blogContent: Record<string, ReactNode> = {
         <strong>&pound;1,000</strong>{" "}and you only order &pound;700 of drinks, you still pay
         &pound;1,000. The difference doesn&apos;t roll over or get refunded. This is standard
         at every London club with table service, from{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
         to{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>.
       </p>
@@ -3399,7 +3417,7 @@ export const blogContent: Record<string, ReactNode> = {
         <li>
           <strong>Choose your night wisely:</strong>{" "}Midweek minimums can drop 20-40% compared
           to Saturday. A Thursday at{" "}
-          <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
+          <Link href="/clubs/99-regent-street" className="text-gold hover:underline">99 Regent Street (formerly Cuckoo Club)</Link>{" "}
           or{" "}
           <Link href="/clubs/maddox" className="text-gold hover:underline">Maddox Club</Link>{" "}
           delivers a strong atmosphere at a lower price point.
@@ -3564,7 +3582,7 @@ export const blogContent: Record<string, ReactNode> = {
         night that you want to split. She will make a note. At the end, she
         divides the remaining balance (after deposit) equally or by whatever
         split you agree on, and processes each card separately. At{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">
           99 Regent Street (formerly Cuckoo Club)
         </Link>{" "}
         and{" "}
@@ -3821,15 +3839,15 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         At{" "}
         <Link
-          href="/clubs/cuckoo-club"
+          href="/clubs/99-regent-street"
           className="text-gold hover:underline"
         >
           99 Regent Street (formerly Cuckoo Club)
         </Link>
-        , open Wednesday to Saturday, a Wednesday floor table typically carries a
-        noticeably lower minimum than the Saturday rate, because pricing follows
-        expected demand. That midweek flexibility is consistent across most Mayfair
-        venues.
+        , open Wednesday to Saturday, tables start lower, from &pound;600, and the
+        minimum rises with the night, the size of your group and the position of the
+        table, so a Wednesday table typically carries a lower minimum than a Saturday
+        one. That midweek flexibility is consistent across most Mayfair venues.
       </p>
 
       <h2>How to Get the Most from Your Minimum Spend</h2>
@@ -4041,7 +4059,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Guests we book at venues like{" "}
         <Link
-          href="/clubs/cuckoo-club"
+          href="/clubs/99-regent-street"
           className="text-gold hover:underline"
         >
           99 Regent Street (formerly Cuckoo Club)
@@ -4286,17 +4304,15 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Weeknights vs Weekends: How Lead Time Changes</h2>
       <p>
-        Our bookings team sees a clear pattern. On a typical Wednesday at{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
+        Our bookings team sees a clear pattern. On a Wednesday at{" "}
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">
           99 Regent Street (formerly Cuckoo Club)
         </Link>
-        , open Wednesday to Saturday, walking in a group on the same evening will often work if you message
-        us by 6 PM. The minimum spend is lower as of May 2026, the table list
-        is shorter, and the door has flexibility. Move that same group to
-        Saturday at the same venue and the picture changes completely. By
-        Tuesday afternoon, the Saturday list is usually around 70 percent
-        confirmed. By Thursday it is effectively closed for new bookings unless
-        someone cancels.
+        , where one of the two floors opens midweek, a same-evening table will often
+        work if you message us by 6 PM: the minimum rises with the night, so
+        Wednesday sits below Saturday, and the table list is shorter. Move that same
+        group to Saturday at the same venue, when both floors run, and the picture
+        changes completely, so book as far ahead as you can.
       </p>
       <p>
         The calendar has tightened over the past year. As{" "}
@@ -4448,7 +4464,7 @@ export const blogContent: Record<string, ReactNode> = {
         front of the booking window. If you only decide on Wednesday for
         Saturday, do not give up, but expect fewer options. And on a Tuesday
         for a Wednesday at{" "}
-        <Link href="/clubs/cuckoo-club" className="text-gold hover:underline">
+        <Link href="/clubs/99-regent-street" className="text-gold hover:underline">
           99 Regent Street
         </Link>{" "}
         or a similar non-peak venue, you can essentially still pick your night

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { BookingPageTemplate } from "@/components/BookingPageTemplate";
 import { getBookingPageBySlug } from "@/data/bookingPages";
 
-const BOOKING_SLUG = "tabu-london-table-booking";
+const BOOKING_SLUG = "rumour-london-table-booking";
 
 export function generateMetadata(): Metadata {
   const data = getBookingPageBySlug(BOOKING_SLUG);
@@ -21,6 +21,6 @@ export function generateMetadata(): Metadata {
   };
 }
 
-export default function TabuLondonTableBooking() {
+export default function RumourLondonTableBooking() {
   return <BookingPageTemplate bookingSlug={BOOKING_SLUG} />;
 }

@@ -44,6 +44,27 @@ const nextConfig: NextConfig = {
         destination: "/clubs/maison-close",
         permanent: true,
       },
+      // Renamed venues: the old club and booking URLs point to the new names.
+      {
+        source: "/clubs/cuckoo-club",
+        destination: "/clubs/99-regent-street",
+        permanent: true,
+      },
+      {
+        source: "/clubs/tabu-london",
+        destination: "/clubs/rumour-london",
+        permanent: true,
+      },
+      {
+        source: "/cuckoo-club-table-booking",
+        destination: "/99-regent-street-table-booking",
+        permanent: true,
+      },
+      {
+        source: "/tabu-london-table-booking",
+        destination: "/rumour-london-table-booking",
+        permanent: true,
+      },
     ];
   },
 };

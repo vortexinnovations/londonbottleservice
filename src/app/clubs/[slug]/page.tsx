@@ -42,16 +42,24 @@ export async function generateMetadata({
   const closed = isClosedClub(slug);
   const renamed = !closed && Boolean(club.formerName);
   const alternatives = alternativesFor(club);
+  // An open club listed under a new name carries its former name in the title.
+  const displayName = club.previousName ? `${club.name} (formerly ${club.previousName})` : club.name;
+  const priceLine =
+    club.pricing.floorTable === null
+      ? "Table prices on request."
+      : club.pricing.vipTable === null
+      ? `Tables from £${club.pricing.floorTable.toLocaleString()}, VIP on request.`
+      : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`;
   const title = closed
     ? `${club.name}: Permanently Closed`
     : renamed
     ? `${club.formerName} Is Now ${club.shortName}: Tables & Prices`
-    : `${club.name} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
+    : `${displayName} Table Prices & VIP Bottle Service | ${fromPrice(club.pricing.floorTable)}`;
   const description = closed
     ? `${club.name} has permanently closed.${club.successorNote ? ` ${club.successorNote}` : ""} Find similar clubs and book VIP tables at London's best nightclubs. Alternatives available via WhatsApp.`
     : renamed
     ? `${club.formerName} in ${club.area} now trades as ${club.shortName}. Table minimums under the new name are confirmed on enquiry.${alternatives.length > 0 ? ` Open alternatives: ${joinNames(alternatives.map((c) => c.shortName))}.` : ""}`
-    : `Book a VIP table at ${club.name} in ${club.area}. ${club.pricing.floorTable === null || club.pricing.vipTable === null ? "Table prices on request." : `Floor tables from £${club.pricing.floorTable.toLocaleString()}, VIP from £${club.pricing.vipTable.toLocaleString()}.`}${club.openingNights.length > 0 ? `${club.musicPolicy === "Confirmed on enquiry" ? "" : ` ${club.musicPolicy}.`} Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
+    : `Book a VIP table at ${displayName} in ${club.area}. ${priceLine}${club.openingNights.length > 0 ? `${club.musicPolicy === "Confirmed on enquiry" ? "" : ` ${club.musicPolicy}.`} Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
 
   return {
     title,
@@ -60,10 +68,10 @@ export async function generateMetadata({
       canonical: `https://londonbottleservice.com/clubs/${slug}`,
     },
     openGraph: {
-      title: renamed ? title : `${club.name} Table Prices & VIP Bottle Service`,
+      title: renamed ? title : `${displayName} Table Prices & VIP Bottle Service`,
       description: renamed
         ? description
-        : `Book a VIP table at ${club.name}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
+        : `Book a VIP table at ${displayName}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
       url: `https://londonbottleservice.com/clubs/${slug}`,
     },
   };
@@ -84,6 +92,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
     "@context": "https://schema.org",
     "@type": "NightClub",
     name: club.name,
+    alternateName: club.previousName,
     description: club.description,
     address: {
       "@type": "PostalAddress",
@@ -198,6 +207,11 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <>{club.name}{" "}Table Prices &amp; VIP Bottle Service</>
           )}
         </h1>
+        {club.previousName && (
+          <p className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold-light/90 [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up-1">
+            Formerly {club.previousName}
+          </p>
+        )}
         <p className="text-gold-light/90 text-lg font-display italic font-light [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-6 animate-fade-up-2">{club.tagline}</p>
         <p className="text-text-secondary leading-relaxed mb-8 max-w-3xl animate-fade-up-2">
           {club.description}
@@ -318,7 +332,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
                 <div key={i} className="relative aspect-[3/2] overflow-hidden group">
                   <Image
                     src={src}
-                    alt={`${club.name} interior and VIP area ${i + 1}`}
+                    alt={images.extraAlt?.[i] ?? `${club.name} interior and VIP area ${i + 1}`}
                     fill
                     className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
                     sizes="(max-width: 768px) 50vw, 33vw"

@@ -4,10 +4,16 @@
 const G = "/gallery/images";
 
 // ---------- Club hero & card images ----------
-export const clubImages: Record<
-  string,
-  { hero: string; card: string; alt: string; extra: string[] }
-> = {
+/** `alt` describes the hero and card; `extraAlt` (optional) names the room in each gallery image. */
+export type ClubImageSet = {
+  hero: string;
+  card: string;
+  alt: string;
+  extra: string[];
+  extraAlt?: string[];
+};
+
+export const clubImages: Record<string, ClubImageSet> = {
   "cirque-le-soir": {
     hero: `${G}/fe4414_8d1b76fde5204b9d845400d8d6d40739.jpg`,
     card: `${G}/fe4414_e8d36bbc2efc4a019f285b39fa00b28f.jpg`,
@@ -20,11 +26,22 @@ export const clubImages: Record<
     alt: "Tape London VIP table booking Mayfair",
     extra: [`${G}/fe4414_dc822275ef5e4630a7ba77292a4b39c4.jpg`, `${G}/fe4414_92f7d4129dfa48ec911e2595a2317aac.jpg`, `${G}/fe4414_1726ac3dd44f4c1387da5f489b5cab86.jpg`],
   },
-  "cuckoo-club": {
-    hero: `${G}/fe4414_423495393edf437d9425d453f03729f1.jpg`,
-    card: `${G}/fe4414_f06a962e34d74d8d88f62e3607c5dab0.jpg`,
-    alt: "99 Regent Street (formerly Cuckoo Club) Mayfair VIP bottle service",
-    extra: [`${G}/fe4414_243e282bb43f4d2cb03320ddb0cf5549.jpg`, `${G}/fe4414_abfb3ef6a9794a8ab2e27779ebfab3f5.jpg`, `${G}/fe4414_938458d67f614f5cb736ac0e2e4fe1f9.jpg`],
+  "99-regent-street": {
+    hero: `${G}/99-regent-street-main-room.jpg`,
+    card: `${G}/99-regent-street-main-room.jpg`,
+    alt: "The upstairs main room at 99 Regent Street (formerly Cuckoo Club), Mayfair",
+    extra: [
+      `${G}/99-regent-street-staircase.jpg`,
+      `${G}/99-regent-street-bar.jpg`,
+      `${G}/99-regent-street-downstairs.jpg`,
+      `${G}/99-regent-street-entrance.jpg`,
+    ],
+    extraAlt: [
+      "The staircase between the two floors at 99 Regent Street",
+      "The long bar at 99 Regent Street",
+      "The downstairs house room at 99 Regent Street",
+      "The Swallow Street entrance to 99 Regent Street",
+    ],
   },
   "maddox": {
     hero: `${G}/fe4414_16a4f9f6906b41aa8f20b18ac3899475.jpg`,
@@ -32,11 +49,12 @@ export const clubImages: Record<
     alt: "Maddox Club VIP table booking Mayfair nightclub",
     extra: [`${G}/fe4414_9bf346cb801649ea839f8fe1bab5182f.jpg`, `${G}/fe4414_c5d71df402634f1bb95e48817e645371.jpg`, `${G}/fe4414_301f1e2620f043329538b41abec3c184.jpg`],
   },
-  "tabu-london": {
-    hero: `${G}/fe4414_2927b7810b9c4b14a8358df996c0408e.jpg`,
-    card: `${G}/fe4414_48ae7b23f1e04f0a94a53da7e6a08ea9.jpg`,
-    alt: "Rumour (formerly Tabu) VIP bottle service Mayfair",
-    extra: [`${G}/fe4414_d03ed6fb1e754a34a815beebf6a14835.jpg`, `${G}/fe4414_c1cdde8590474c1fa5509122636f79d1.jpg`, `${G}/fe4414_4d46bfda41374b7b9f1779d9757bc871.jpg`],
+  "rumour-london": {
+    hero: `${G}/rumour-london.jpg`,
+    card: `${G}/rumour-london.jpg`,
+    alt: "Red velvet booths in the main room at Rumour (formerly Tabu), Mayfair",
+    extra: [`${G}/rumour-london.jpg`],
+    extraAlt: ["Red velvet booths inside Rumour on Dover Street"],
   },
   "london-reign": {
     hero: `${G}/DSC_6945.jpg`,
@@ -370,7 +388,7 @@ export const sectionImages = {
 };
 
 // Helper: get club images with fallback
-export function getClubImages(slug: string) {
+export function getClubImages(slug: string): ClubImageSet {
   return (
     clubImages[slug] ?? {
       hero: pageImages.home.hero,

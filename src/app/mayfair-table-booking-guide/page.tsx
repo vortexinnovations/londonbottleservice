@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "How much does a table cost in Mayfair?",
     answer:
-      "Most Mayfair clubs start at £1,000 minimum spend for a standard floor table. This includes Maddox, Selene London, and Dear Darling. For 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu), minimums under the new names are confirmed on enquiry. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
+      "Most Mayfair clubs start at £1,000 minimum spend for a standard floor table. This includes Maddox, Selene London, Dear Darling and Rumour (formerly Tabu), whose booths start from £1,000. 99 Regent Street (formerly Cuckoo Club) starts lower, with tables from £600. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
   },
   {
     question: "What is the dress code for Mayfair nightclubs?",
@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "What is the best night to go to a Mayfair club?",
     answer:
-      "Saturday is the biggest night at every Mayfair club: the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling. Wednesday is available at Cirque Le Soir and The Box with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
+      "Saturday is the biggest night at every Mayfair club: the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling. Wednesday is available at Cirque Le Soir, The Box, 99 Regent Street and Rumour, with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
   },
   {
     question: "How do I book a table in Mayfair?",
@@ -321,8 +321,8 @@ export default function MayfairTableBookingGuidePage() {
                 Thursday: The Insider Night
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                Available at Selene, Dear Darling, Maddox, and
-                Scotch of St James. Thursdays
+                Available at Selene, Dear Darling, Maddox,
+                Scotch of St James, 99 Regent Street and Rumour. Thursdays
                 attract a local, regular crowd and the atmosphere at the
                 best venues is genuinely excellent. Minimum spends are the
                 lowest of the weekend stretch and VIP availability is
@@ -335,7 +335,8 @@ export default function MayfairTableBookingGuidePage() {
                 Wednesday: Early Week Option
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
-                Available at Cirque Le Soir and The Box. Midweek nights offer the
+                Available at Cirque Le Soir, The Box, 99 Regent Street (one
+                floor midweek) and Rumour. Midweek nights offer the
                 lowest prices and a more intimate atmosphere. These are
                 excellent for smaller groups or couples who want a quieter
                 Mayfair experience.
