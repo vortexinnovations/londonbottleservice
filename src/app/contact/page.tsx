@@ -1,9 +1,10 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Book a VIP Table | Contact London Bottle Service",
+  title: fitTitle("Book a VIP Table | Contact London Bottle Service"),
   description:
     "Book a VIP table at any Mayfair nightclub in under 2 minutes. No forms, no waiting: just message us on WhatsApp and we'll confirm your booking.",
   alternates: {

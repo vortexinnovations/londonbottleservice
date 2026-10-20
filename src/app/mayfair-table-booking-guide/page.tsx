@@ -9,9 +9,10 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Mayfair Table Booking Guide 2026 | Prices, Tips & How to Book",
+  title: fitTitle("Mayfair Table Booking Guide 2026 | Prices, Tips & How to Book"),
   description:
     "Complete Mayfair table booking guide. Every club's pricing, dress code, best nights, and how to book. Instant WhatsApp confirmation.",
   alternates: {

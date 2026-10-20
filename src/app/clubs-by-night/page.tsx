@@ -6,10 +6,10 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title:
-    "London Clubs by Night of the Week | Which Mayfair Clubs Are Open Tonight?",
+  title: fitTitle("London Clubs by Night of the Week | Which Mayfair Clubs Are Open Tonight?"),
   description:
     "Find out which London nightclubs are open each night of the week. Monday to Saturday guide to Mayfair's best clubs, including opening nights, vibes, and bottle service prices.",
   alternates: {

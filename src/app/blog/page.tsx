@@ -5,9 +5,10 @@ import { getMergedPosts } from "@/lib/posts";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages, postImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "London Nightlife Blog | Bottle Service Tips, Club Guides & Pricing",
+  title: fitTitle("London Nightlife Blog | Bottle Service Tips, Club Guides & Pricing"),
   metadataBase: new URL("https://londonbottleservice.com"),
   description:
     "Expert guides to London's nightlife scene. Bottle service pricing, club reviews, dress code guides, birthday planning, and insider tips for Mayfair's best clubs.",

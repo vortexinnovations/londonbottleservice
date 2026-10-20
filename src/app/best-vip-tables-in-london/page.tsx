@@ -9,9 +9,10 @@ import { ItemListSchema } from "@/components/ItemListSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Best VIP Tables in London 2026 | Top Clubs Ranked",
+  title: fitTitle("Best VIP Tables in London 2026 | Top Clubs Ranked"),
   description:
     "Best VIP tables in London ranked. Pricing, positioning, and what makes each club's VIP experience different. Book via WhatsApp.",
   alternates: {

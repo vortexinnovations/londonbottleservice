@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { clubs, allClubs, getClubBySlug, getOpenClubBySlug, isClosedClub, fromPrice, formatNights } from "@/data/clubs";
 import type { Club } from "@/data/clubs";
+import { fitTitle } from "@/lib/seo";
 
 /** Open alternatives listed on a renamed venue's page. */
 function alternativesFor(club: Club): Club[] {
@@ -62,7 +63,7 @@ export async function generateMetadata({
     : `Book a VIP table at ${displayName} in ${club.area}. ${priceLine}${club.openingNights.length > 0 ? `${club.musicPolicy === "Confirmed on enquiry" ? "" : ` ${club.musicPolicy}.`} Open ${formatNights(club, ", ")}.` : ""} Instant WhatsApp booking.`;
 
   return {
-    title,
+    title: fitTitle(title),
     description,
     alternates: {
       canonical: `https://londonbottleservice.com/clubs/${slug}`,

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { BookingPageTemplate } from "@/components/BookingPageTemplate";
 import { getBookingPageBySlug } from "@/data/bookingPages";
+import { fitTitle } from "@/lib/seo";
 
 const BOOKING_SLUG = "beat-london-table-booking";
 
@@ -8,7 +9,7 @@ export function generateMetadata(): Metadata {
   const data = getBookingPageBySlug(BOOKING_SLUG);
   if (!data) return {};
   return {
-    title: data.metaTitle,
+    title: fitTitle(data.metaTitle),
     description: data.metaDescription,
     alternates: {
       canonical: `https://londonbottleservice.com/${BOOKING_SLUG}`,

@@ -2,9 +2,10 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { FAQSchema } from "@/components/FAQSchema";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Luxx Club London: Closed | Mayfair Alternatives & Table Booking",
+  title: fitTitle("Luxx Club London: Closed | Mayfair Alternatives & Table Booking"),
   description:
     "Luxx Club London closed and the venue reopened as Funky Buddha, which has also closed. Find open Mayfair alternatives and book a table via WhatsApp.",
   alternates: {

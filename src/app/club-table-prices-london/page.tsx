@@ -10,9 +10,10 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "London Club Table Prices 2026 | Complete Price Guide",
+  title: fitTitle("London Club Table Prices 2026 | Complete Price Guide"),
   description:
     `Complete guide to London club table prices in 2026. Floor and VIP prices for all ${clubs.length} clubs, per-person breakdowns, and tips on getting the best value.`,
   alternates: {

@@ -13,6 +13,7 @@ import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { HeroImage } from "@/components/HeroImage";
 import { postImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -50,7 +51,7 @@ export async function generateMetadata({
   if (!post) return {};
 
   return {
-    title: post.metaTitle,
+    title: fitTitle(post.metaTitle),
     description: post.metaDescription,
     keywords: post.keywords,
     alternates: {

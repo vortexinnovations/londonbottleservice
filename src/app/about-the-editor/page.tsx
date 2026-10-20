@@ -1,8 +1,9 @@
 import { Metadata } from "next";
 import Link from "next/link";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "About the Editor: Ethan Reid",
+  title: fitTitle("About the Editor: Ethan Reid"),
   description:
     "Meet Ethan Reid, Bottle Service & Hospitality Pro. Eight years in London hospitality, including senior service at central London nightclubs.",
   alternates: {

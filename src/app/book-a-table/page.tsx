@@ -8,9 +8,10 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Book a VIP Table in London | Instant WhatsApp Booking",
+  title: fitTitle("Book a VIP Table in London | Instant WhatsApp Booking"),
   description:
     "Book VIP tables at London's best nightclubs. Tape London, Cirque Le Soir, Maddox and more. Real prices from £1,000. Instant WhatsApp confirmation.",
   alternates: {

@@ -9,10 +9,10 @@ import { ItemListSchema } from "@/components/ItemListSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title:
-    "Best Clubs for Bottle Service in London 2026 | Mayfair VIP Guide",
+  title: fitTitle("Best Clubs for Bottle Service in London 2026 | Mayfair VIP Guide"),
   description:
     "Honest rankings of London's best bottle service clubs. Every Mayfair venue reviewed with real prices and insider recommendations.",
   alternates: {

@@ -8,10 +8,10 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { fitTitle } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title:
-    "Guestlist vs Table Booking London: Which Should You Choose?",
+  title: fitTitle("Guestlist vs Table Booking London: Which Should You Choose?"),
   description:
     "Guestlist vs table booking at London clubs: real cost comparison, what each gets you, and which is right for your group.",
   alternates: {
