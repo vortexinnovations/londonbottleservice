@@ -2,7 +2,7 @@
  * Single source of truth for the WhatsApp booking number.
  *
  * Set NEXT_PUBLIC_WHATSAPP_NUMBER in Vercel using international format with no
- * "+", spaces or dashes — e.g. 447880662708.
+ * "+", spaces or dashes — e.g. 447348644054.
  *
  * The NEXT_PUBLIC_ prefix is required: this value is read inside client
  * components, so it has to be inlined into the browser bundle. That inlining
@@ -13,7 +13,7 @@
  * misspelled, rather than shipping a broken booking link.
  */
 export const WHATSAPP_NUMBER =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "447880662708";
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "447348644054";
 
 /** E.164 form, for schema.org `telephone` and `tel:` links. */
 export const WHATSAPP_TEL = `+${WHATSAPP_NUMBER}`;
@@ -22,7 +22,7 @@ export const WHATSAPP_TEL = `+${WHATSAPP_NUMBER}`;
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 /**
- * Human-readable display form, e.g. "+44 7880 662708".
+ * Human-readable display form, e.g. "+44 7348 644054".
  * A printed, readable phone number is a deliberate trust device —
  * it appears in the header and footer like an office letterhead.
  */
