@@ -127,7 +127,7 @@ export const clubs: Club[] = [
       "Tape London on Hanover Square is one of Mayfair's most exclusive late-night venues: a members' club with a recording-studio-inspired interior that attracts music industry heavyweights, celebrities, and serious nightlife connoisseurs. This isn't a high-volume superclub. It's intimate, dark, and deliberately hard to get into.",
     longDescription:
       "Tape London was designed for people who have been everywhere else and want something more private. The interior is inspired by recording studios: think sound-panelled walls, low lighting, and an atmosphere that feels like a private party rather than a public nightclub. The music policy is hip-hop focused with a strong lean towards US rap and RnB, though DJs will cross genres when the room calls for it. The crowd is small, curated, and well-connected. You're as likely to bump into a Premier League footballer as a music producer. The venue holds under 200 people and they are very selective about who gets in. If you're booking a table through us, you'll get guaranteed entry for your group, but the venue expects a certain standard in terms of dress and conduct.",
-    address: "17 Hanover Square, Mayfair, London W1S 1BN",
+    address: "17 Hanover Square, Mayfair, London W1S 1HU",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, US Rap, occasional Afrobeats",
     dressCode:
