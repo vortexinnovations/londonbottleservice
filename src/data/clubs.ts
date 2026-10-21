@@ -793,7 +793,7 @@ export const clubs: Club[] = [
     dressCode:
       "Creative and fashionable. The Box rewards effort and individuality. Smart is the baseline but fashion-forward is encouraged. No sportswear or casual wear. The door is famously selective.",
     openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:30 PM to 4:00 AM",
+    openingHours: "11:00 PM to 4:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 3000,
