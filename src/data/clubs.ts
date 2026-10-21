@@ -48,8 +48,8 @@ export interface Club {
 export const clubs: Club[] = [
   {
     slug: "cirque-le-soir",
-    metaTitle: "Cirque Le Soir London: VIP Table Prices from £1,000",
-    metaDescription: "Floor tables at Cirque Le Soir from £1,000, VIP from £2,000. Circus performers, hip-hop and RnB in Soho, open Mon, Wed, Fri and Sat. Book on WhatsApp.",
+    metaTitle: "Cirque Le Soir London: VIP Table Prices from £800",
+    metaDescription: "Floor tables at Cirque Le Soir from £800, VIP from £2,000. Circus performers, hip-hop and RnB in Soho, open Mon, Wed, Fri and Sat. Book on WhatsApp.",
     bookingSlug: "cirque-le-soir-table-booking",
     name: "Cirque Le Soir",
     shortName: "Cirque",
@@ -66,7 +66,7 @@ export const clubs: Club[] = [
     openingNights: ["Monday", "Wednesday", "Friday", "Saturday"],
     openingHours: "10:30 PM to 3:45 AM",
     pricing: {
-      floorTable: 1000,
+      floorTable: 800,
       vipTable: 2000,
     },
     whatsIncluded: [
@@ -92,12 +92,12 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at Cirque Le Soir?",
         answer:
-          "Floor tables at Cirque Le Soir start from £1,000 minimum spend. VIP tables closer to the stage and in prime positions start from £2,000. Prices can vary depending on the night and any special events. The minimum spend covers your drinks: premium spirits, champagne, or a mix of both.",
+          "Floor tables at Cirque Le Soir start from £800 minimum spend. VIP tables closer to the stage and in prime positions start from £2,000. Prices can vary depending on the night and any special events. The minimum spend covers your drinks: premium spirits, champagne, or a mix of both.",
       },
       {
         question: "What is the minimum spend at Cirque Le Soir?",
         answer:
-          "The minimum spend starts at £1,000 for a standard floor table. This isn't an entry fee. It's the amount you spend on drinks at your table. Your personal waitress will help you choose bottles within your budget.",
+          "The minimum spend starts at £800 for a standard floor table. This isn't an entry fee. It's the amount you spend on drinks at your table. Your personal waitress will help you choose bottles within your budget.",
       },
       {
         question: "What nights is Cirque Le Soir open?",
@@ -118,7 +118,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "tape-london",
-    metaDescription: "Floor tables at Tape London from £1,000, VIP from £2,000. Hip-hop and RnB on Hanover Square, Mayfair, open Tue, Fri, Sat and Sun. Book a table on WhatsApp.",
+    metaDescription: "Tables at Tape London from £750 minimum spend, VIP on request. Hip-hop and RnB on Hanover Square, Mayfair, open Tue, Fri, Sat and Sun. Book on WhatsApp.",
     bookingSlug: "tape-london-table-booking",
     name: "Tape London",
     shortName: "Tape",
@@ -126,7 +126,7 @@ export const clubs: Club[] = [
     description:
       "Tape London on Hanover Square is one of Mayfair's most exclusive late-night venues: a members' club with a recording-studio-inspired interior that attracts music industry heavyweights, celebrities, and serious nightlife connoisseurs. This isn't a high-volume superclub. It's intimate, dark, and deliberately hard to get into.",
     longDescription:
-      "Tape London was designed for people who have been everywhere else and want something more private. The interior is inspired by recording studios: think sound-panelled walls, low lighting, and an atmosphere that feels like a private party rather than a public nightclub. The music policy is hip-hop focused with a strong lean towards US rap and RnB, though DJs will cross genres when the room calls for it. The crowd is small, curated, and well-connected. You're as likely to bump into a Premier League footballer as a music producer. Tables here start higher than most Mayfair clubs because you're paying for exclusivity. The venue holds under 200 people and they are very selective about who gets in. If you're booking a table through us, you'll get guaranteed entry for your group, but the venue expects a certain standard in terms of dress and conduct.",
+      "Tape London was designed for people who have been everywhere else and want something more private. The interior is inspired by recording studios: think sound-panelled walls, low lighting, and an atmosphere that feels like a private party rather than a public nightclub. The music policy is hip-hop focused with a strong lean towards US rap and RnB, though DJs will cross genres when the room calls for it. The crowd is small, curated, and well-connected. You're as likely to bump into a Premier League footballer as a music producer. The venue holds under 200 people and they are very selective about who gets in. If you're booking a table through us, you'll get guaranteed entry for your group, but the venue expects a certain standard in terms of dress and conduct.",
     address: "17 Hanover Square, Mayfair, London W1S 1BN",
     area: "Mayfair",
     musicPolicy: "Hip-Hop, RnB, US Rap, occasional Afrobeats",
@@ -135,8 +135,8 @@ export const clubs: Club[] = [
     openingNights: ["Tuesday", "Friday", "Saturday", "Sunday"],
     openingHours: "10:30 PM to 3:45 AM",
     pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
+      floorTable: 750,
+      vipTable: null,
     },
     whatsIncluded: [
       "Guaranteed entry to a private members' club (normally inaccessible to the public)",
@@ -161,7 +161,7 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at Tape London?",
         answer:
-          "Tables at Tape London start from £1,500 minimum spend for a standard table. Premium and VIP positions start from £3,000. Tape is one of the more exclusive (and expensive) venues in Mayfair, but you're paying for an experience most people can't access.",
+          "Tables at Tape London start from £750 minimum spend for a standard table. Premium and VIP positions cost more and are priced on request. Tape is one of the more exclusive venues in Mayfair, and you're paying for an experience most people can't access.",
       },
       {
         question: "Is Tape London a members' club?",
@@ -273,7 +273,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "maddox",
-    metaDescription: "Floor tables at Maddox Mayfair from £1,000, VIP from £2,000. Dinner from 7pm, then house music until 3am, Thursday to Saturday. Book a table on WhatsApp.",
+    metaDescription: "Floor tables at Maddox Mayfair from £1,000, VIP from £2,000. Dinner from 7pm, then house music until 6am, Thursday to Saturday. Book a table on WhatsApp.",
     bookingSlug: "maddox-club-table-booking",
     name: "Maddox",
     shortName: "Maddox",
@@ -289,7 +289,7 @@ export const clubs: Club[] = [
       "Smart. This is Mayfair fine dining meets nightclub: dress accordingly. Jackets encouraged for men, smart shoes essential. Women should dress elegantly. No casual wear.",
     openingNights: ["Thursday", "Friday", "Saturday"],
     openingHours:
-      "Restaurant from 7:00 PM, club from 10:30 PM to 3:00 AM",
+      "Restaurant from 7:00 PM, club from 10:30 PM to 6:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -429,7 +429,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "london-reign",
-    metaDescription: "Floor tables at London Reign from £1,000, VIP from £2,000. A Piccadilly showclub built around live shows, open Tue, Thu, Fri and Sat. Book on WhatsApp.",
+    metaDescription: "Tables at London Reign from £800, VIP on request. A Piccadilly showclub built around live shows, open Tue, Thu, Fri and Sat. Book on WhatsApp.",
     bookingSlug: "reign-london-table-booking",
     name: "London Reign",
     shortName: "Reign",
@@ -437,7 +437,7 @@ export const clubs: Club[] = [
     description:
       "London Reign on Piccadilly is a full-scale showclub: think aerial performers, dancers, live vocalists, and production values that rival a West End show. If Cirque Le Soir is theatrical, Reign is the full Broadway production. It's London's answer to the big Las Vegas nightclub experience.",
     longDescription:
-      "London Reign doesn't do anything by halves. The venue on Piccadilly is designed from the ground up as a showclub: a space where live entertainment and nightclub culture merge into something that's closer to a Las Vegas residency than a standard London night out. Expect aerial acrobats performing above the dance floor, professional dancers, live vocalists, fire performers, and production values that most London clubs can't match. The venue itself is large by Mayfair standards, with a proper stage area, multiple table sections, and enough space for the performances to have real impact. The music crosses genres (commercial hits, house, hip-hop) because the entertainment is the headline act, not the DJ. The crowd is a mix of tourists who've heard about the spectacle, London regulars who want something bigger than a standard club night, and groups celebrating major occasions who want a venue that matches the size of the event. Tables start from £1,000 and the VIP sections offer excellent views of the performances.",
+      "London Reign doesn't do anything by halves. The venue on Piccadilly is designed from the ground up as a showclub: a space where live entertainment and nightclub culture merge into something that's closer to a Las Vegas residency than a standard London night out. Expect aerial acrobats performing above the dance floor, professional dancers, live vocalists, fire performers, and production values that most London clubs can't match. The venue itself is large by Mayfair standards, with a proper stage area, multiple table sections, and enough space for the performances to have real impact. The music crosses genres (commercial hits, house, hip-hop) because the entertainment is the headline act, not the DJ. The crowd is a mix of tourists who've heard about the spectacle, London regulars who want something bigger than a standard club night, and groups celebrating major occasions who want a venue that matches the size of the event. Tables start from £800 and the VIP sections offer excellent views of the performances.",
     address: "215-217 Piccadilly, London",
     area: "Piccadilly",
     musicPolicy:
@@ -445,10 +445,10 @@ export const clubs: Club[] = [
     dressCode:
       "Smart. Similar standards to the Mayfair clubs. Men need smart shoes and a collared shirt. Women should dress up. The venue is high-production, so the crowd tends to make an effort.",
     openingNights: ["Tuesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM to 3:00 AM",
+    openingHours: "10:00 PM to 4:00 AM",
     pricing: {
-      floorTable: 1000,
-      vipTable: 2000,
+      floorTable: 800,
+      vipTable: null,
     },
     whatsIncluded: [
       "Priority entry for your group",
@@ -473,7 +473,7 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at London Reign?",
         answer:
-          "Tables at London Reign start from £1,000 minimum spend for floor tables. VIP tables with premium stage views start from £2,500. The production quality justifies the spend. You're getting a show and a club night in one.",
+          "Tables at London Reign start from £800 minimum spend for floor tables. VIP tables with premium stage views cost more and are priced on request. The production quality justifies the spend. You're getting a show and a club night in one.",
       },
       {
         question: "What kind of shows does London Reign have?",
@@ -499,8 +499,8 @@ export const clubs: Club[] = [
   },
   {
     slug: "selene-london",
-    metaTitle: "Selene Club London: VIP Table Prices from £1,000",
-    metaDescription: "Floor tables at Selene London from £1,000, VIP from £2,000. Hip-hop, RnB and Afrobeats across several rooms, Thursday to Sunday. Book a table on WhatsApp.",
+    metaTitle: "Selene Club London: VIP Table Prices from £800",
+    metaDescription: "Floor tables at Selene London from £800, VIP from £2,000. Hip-hop, RnB and Afrobeats across several rooms, Thursday to Sunday. Book a table on WhatsApp.",
     bookingSlug: "selene-london-table-booking",
     name: "Selene London",
     shortName: "Selene",
@@ -515,9 +515,9 @@ export const clubs: Club[] = [
     dressCode:
       "Smart. Standard Mayfair dress code: collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
-    openingHours: "10:00 PM to 3:00 AM",
+    openingHours: "11:00 PM to 4:00 AM",
     pricing: {
-      floorTable: 1000,
+      floorTable: 800,
       vipTable: 2000,
     },
     whatsIncluded: [
@@ -543,7 +543,7 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at Selene London?",
         answer:
-          "Tables at Selene London start from £1,000 minimum spend. VIP tables start from £2,000. Bowling lane packages may have different pricing structures. Contact us for the latest availability.",
+          "Tables at Selene London start from £800 minimum spend. VIP tables start from £2,000. Bowling lane packages may have different pricing structures. Contact us for the latest availability.",
       },
       {
         question: "Can you go bowling at Selene London?",
@@ -576,7 +576,7 @@ export const clubs: Club[] = [
     shortName: "Scotch",
     tagline: "London's most iconic underground music venue reborn",
     description:
-      "Scotch of St James on Mason's Yard has a legendary history. This is the venue where Jimi Hendrix, The Beatles, and The Rolling Stones used to party. Today it operates as an intimate, music-focused members' club with a strong cocktail programme and a crowd that genuinely cares about what's playing.",
+      "Scotch of St James on Mason's Yard has a legendary history. This is the venue where Jimi Hendrix, The Beatles, and The Rolling Stones used to party. Today it operates as an intimate, music-focused club with a strong cocktail programme and a crowd that genuinely cares about what's playing.",
     longDescription:
       "Few venues in London carry as much musical history as Scotch of St James. The original club on Mason's Yard was the epicentre of 1960s rock and roll culture: a tiny basement where the biggest names in music would drink, jam, and party into the early hours. The modern incarnation respects that heritage while updating it for a contemporary audience. The venue remains deliberately intimate with a capacity well under 200, creating an atmosphere that feels more like a private party than a public nightclub. The music policy is eclectic and quality-driven: expect everything from soul and funk to hip-hop and disco, curated by DJs who are selected for taste rather than name recognition. The crowd is older and more discerning than most Mayfair clubs: musicians, creatives, industry people, and anyone who values a great soundtrack over bottle parades. The cocktail programme is taken seriously, which sets it apart from clubs where the drinks list is just a vehicle for minimum spend. If you care about music and atmosphere more than spectacle, Scotch is in a league of its own.",
     address: "13 Mason's Yard, St James's, London SW1Y 6BU",
@@ -585,7 +585,7 @@ export const clubs: Club[] = [
     dressCode:
       "Smart but with personality. Scotch appreciates style over formality. Smart-casual is the baseline but they value individual expression. No sportswear or very casual attire.",
     openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM to 3:00 AM",
+    openingHours: "10:00 PM to 5:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -618,7 +618,7 @@ export const clubs: Club[] = [
       {
         question: "Is Scotch of St James a members' club?",
         answer:
-          "Scotch operates as a members' club, but we can arrange guest access for table bookings. You get the members' club experience and atmosphere without needing your own membership.",
+          "You do not need a membership. Entry is walk-in at the door; there is no guestlist. Tables can be booked: tell us your date and group size and we arrange the table for you.",
       },
       {
         question: "What music does Scotch of St James play?",
@@ -639,9 +639,10 @@ export const clubs: Club[] = [
   },
   {
     slug: "dear-darling",
-    metaDescription: "Floor tables at Dear Darling from £1,000, VIP from £2,000. Cocktails, then hip-hop, RnB and Afrobeats on Jermyn Street, Thu to Sun. Book on WhatsApp.",
+    metaTitle: "Dear Darling Mayfair: Table Prices and VIP Bottle Service",
+    metaDescription: "Floor tables at Dear Darling Mayfair from £1,000, VIP from £2,000. Cocktails, then hip-hop, RnB and Afrobeats on Jermyn Street, Thu to Sun. Book on WhatsApp.",
     bookingSlug: "dear-darling-table-booking",
-    name: "Dear Darling",
+    name: "Dear Darling Mayfair",
     shortName: "Dear Darling",
     tagline: "St James's stylish newcomer with serious late-night energy",
     description:
@@ -654,7 +655,7 @@ export const clubs: Club[] = [
     dressCode:
       "Smart and fashion-forward. Similar standards to the Mayfair clubs: collared shirts and smart shoes for men, dressed-up for women. The crowd here tends to be well put-together.",
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
-    openingHours: "10:00 PM to 3:00 AM",
+    openingHours: "10:00 PM to 6:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -708,7 +709,7 @@ export const clubs: Club[] = [
   },
   {
     slug: "beat-london",
-    metaDescription: "Floor tables at BEAT London from £1,000, VIP from £2,000. House, tech house and techno from Thursday to Saturday, open until 4am. Book a table on WhatsApp.",
+    metaDescription: "Floor tables at BEAT London from £1,000, VIP from £2,000. House, tech house and techno from Thursday to Saturday, open until 6am. Book a table on WhatsApp.",
     bookingSlug: "beat-london-table-booking",
     name: "BEAT London",
     shortName: "BEAT",
@@ -723,7 +724,7 @@ export const clubs: Club[] = [
     dressCode:
       "Smart casual with a more relaxed approach than traditional Mayfair. Smart trainers may be accepted. No sportswear or very casual attire.",
     openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM to 4:00 AM",
+    openingHours: "10:00 PM to 6:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -761,7 +762,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is BEAT London open?",
         answer:
-          "BEAT is open Friday and Saturday nights and on select Thursdays, typically running later than most Mayfair clubs: often until 4:00 AM.",
+          "BEAT is open Friday and Saturday nights and on select Thursdays, running later than most Mayfair clubs: until 6:00 AM.",
       },
       {
         question: "What's the dress code at BEAT?",
@@ -792,7 +793,7 @@ export const clubs: Club[] = [
     dressCode:
       "Creative and fashionable. The Box rewards effort and individuality. Smart is the baseline but fashion-forward is encouraged. No sportswear or casual wear. The door is famously selective.",
     openingNights: ["Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "10:30 PM to 3:00 AM",
+    openingHours: "10:30 PM to 4:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 3000,
@@ -821,7 +822,7 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at The Box?",
         answer:
-          "Tables at The Box start from £1,500 minimum spend. VIP and premium positions start from £3,000. The pricing reflects the exclusivity of the venue and the quality of the live entertainment.",
+          "Tables at The Box start from £1,000 minimum spend. VIP and premium positions start from £3,000. The pricing reflects the exclusivity of the venue and the quality of the live entertainment.",
       },
       {
         question: "What kind of shows does The Box have?",
@@ -975,7 +976,7 @@ export const closedClubs: Club[] = [
     dressCode: "Smart and stylish. No sportswear, trainers, or casual wear.",
     openingNights: [],
     openingHours: "Permanently Closed",
-    pricing: { floorTable: 1000, vipTable: 2000 },
+    pricing: { floorTable: null, vipTable: null },
     whatsIncluded: [],
     knownFor: [
       "High-energy, anything-goes party atmosphere",
@@ -1011,7 +1012,7 @@ export const closedClubs: Club[] = [
     dressCode: "Smart and glamorous. Jacket or blazer encouraged for men.",
     openingNights: [],
     openingHours: "Permanently Closed",
-    pricing: { floorTable: 1500, vipTable: 3000 },
+    pricing: { floorTable: null, vipTable: null },
     whatsIncluded: [],
     knownFor: [
       "Mediterranean cabaret performances",

@@ -41,12 +41,12 @@ const faqs = [
   {
     question: "Is guestlist entry guaranteed?",
     answer:
-      "Not always. Being on the guestlist means your name is at the door, but most London clubs reserve the right to refuse entry based on dress code, capacity, or the door team's discretion. Some venues are more strict than others: Tape London and The Box are extremely difficult to enter on guestlist alone. Table bookings guarantee entry for your entire group, making them the more reliable option if you need certainty.",
+      "Not always. Being on the guestlist means your name is at the door, but most London clubs reserve the right to refuse entry based on dress code, capacity, or the door team's discretion. Some venues are stricter than others: Tape London is extremely difficult to enter on guestlist alone, and The Box doesn't run a guestlist at all. Table bookings guarantee entry for your entire group, making them the more reliable option if you need certainty.",
   },
   {
     question: "Can I get on the guestlist at any London club?",
     answer:
-      "Most London clubs offer some form of guestlist, but the availability and benefit varies. Some clubs run active guestlists on certain nights. Others like Tape London rarely offer meaningful guestlist access: the venue is a members' club and getting in without a table booking is very difficult. The Box is similarly selective. We can advise on guestlist availability for any specific venue.",
+      "Most London clubs offer some form of guestlist, but the availability and benefit varies. Some clubs run active guestlists on certain nights. At Tape London, a members' club, guestlist entry varies from £0 to £20, usually by arrival time, but getting in without a table booking is still difficult. The Box doesn't run a guestlist: entry is by table booking, from £1,000. At The Scotch of St James, entry is walk-in at the door; there is no guestlist. Tables can be booked. We can advise on guestlist availability for any specific venue.",
   },
   {
     question: "When should I choose a table booking over guestlist?",
@@ -426,9 +426,16 @@ export default function GuestlistVsTableBookingPage() {
                 club.slug === "tape-london" ||
                 club.slug === "the-box" ||
                 club.slug === "scotch-of-st-james";
-              const tableEssential = isHardDoor
-                ? "Table booking strongly recommended: very difficult to enter on guestlist alone"
-                : "Guestlist available but table booking gives a significantly better experience";
+              const tableEssential =
+                club.slug === "the-box"
+                  ? "No guestlist: entry is by table booking, from £1,000"
+                  : club.slug === "scotch-of-st-james"
+                    ? "Entry is walk-in at the door; there is no guestlist. Tables can be booked."
+                    : club.slug === "tape-london"
+                      ? "Guestlist entry varies from £0 to £20, usually by arrival time. Table booking strongly recommended"
+                      : isHardDoor
+                        ? "Table booking strongly recommended: very difficult to enter on guestlist alone"
+                        : "Guestlist available but table booking gives a significantly better experience";
               return (
                 <div
                   key={club.slug}

@@ -3,8 +3,8 @@ import { clubs } from "@/data/clubs";
 import { WHATSAPP_URL, WHATSAPP_DISPLAY } from "@/lib/whatsapp";
 
 /*
- * The footer is a colophon: a printed number set large, the postal
- * address, then the index of pages under mono section labels.
+ * The footer is a colophon: a printed number set large, the service
+ * line, then the index of pages under mono section labels.
  * Offices print their numbers; scam promoters hide behind forms.
  */
 export function Footer() {
@@ -33,8 +33,8 @@ export function Footer() {
               London Bottle Service
             </p>
             <p className="font-mono text-[0.625rem] uppercase tracking-[0.22em] text-text-muted leading-relaxed">
-              9 Swallow Street<br />
-              London W1B 4DF
+              VIP table bookings<br />
+              across London
             </p>
           </div>
         </div>

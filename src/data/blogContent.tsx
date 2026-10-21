@@ -2749,7 +2749,7 @@ export const blogContent: Record<string, ReactNode> = {
           The top pick for couples. Tape&apos;s intimate layout, low lighting, and deep
           leather booths create a genuinely romantic atmosphere. The sound system is
           world-class, the crowd is refined, and the booth setup means you can have a
-          conversation without shouting. Tables start from &pound;1,500, and the smaller
+          conversation without shouting. Tables start from &pound;750, and the smaller
           capacity means it never feels overwhelmingly busy.
         </li>
         <li>
@@ -2776,7 +2776,7 @@ export const blogContent: Record<string, ReactNode> = {
         </li>
         <li>
           <strong><Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling Mayfair</Link>:</strong>{" "}
-          One of Mayfair&apos;s newer openings, Dear Darling brings a fresh energy to the
+          One of St James&apos;s newer openings, Dear Darling brings a fresh energy to the
           scene. The interiors are striking, the lighting is flattering, and the table
           layout offers plenty of semi-private spaces that suit couples perfectly. From &pound;1,000.
         </li>
@@ -3331,7 +3331,7 @@ export const blogContent: Record<string, ReactNode> = {
         one standard bottle of spirits (Grey Goose, Belvedere, Hennessy) with mixers, or a
         bottle of Mo&euml;t. Premium tables at clubs like{" "}
         <Link href="/clubs/tape-london" className="text-gold hover:underline">Tape London</Link>{" "}
-        start from <strong>&pound;1,500</strong>, reflecting better positioning and a more
+        cost more, reflecting better positioning and a more
         exclusive area. Check our{" "}
         <Link href="/blog/how-much-does-bottle-service-cost-london" className="text-gold hover:underline">full pricing guide</Link>{" "}
         for a detailed breakdown by venue.
@@ -3832,8 +3832,8 @@ export const blogContent: Record<string, ReactNode> = {
           >
             Tape London
           </Link>{" "}
-          starts at &pound;1,500 as of May 2026 because of its members&apos; club
-          status and limited capacity. Most other venues begin at &pound;1,000.
+          starts at &pound;750, 99 Regent Street at &pound;600, and many other
+          venues at &pound;1,000.
         </li>
       </ul>
       <p>

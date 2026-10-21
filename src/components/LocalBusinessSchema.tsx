@@ -11,11 +11,6 @@ export function LocalBusinessSchema() {
     telephone: WHATSAPP_TEL,
     image: "https://londonbottleservice.com/gallery/images/0.jpg",
     logo: "https://londonbottleservice.com/icon.svg",
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: 51.5074,
-      longitude: -0.1278,
-    },
     areaServed: {
       "@type": "City",
       name: "London",

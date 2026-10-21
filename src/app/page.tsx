@@ -27,7 +27,7 @@ const homeFAQs = [
   {
     question: "What is the minimum spend at London clubs?",
     answer:
-      "Minimum spend varies by club and night. Most Mayfair clubs start at £1,000 for a floor table. Premium venues like Tape London start from £1,500. VIP tables at any venue start from £2,000-£3,000. The minimum spend covers your drinks: premium spirits, champagne, or a combination.",
+      "Minimum spend varies by club and night. Most Mayfair clubs start at £1,000 for a floor table. Tape London starts from £750, and 99 Regent Street from £600. VIP tables start from £2,000 to £3,000 where a VIP price is published. The minimum spend covers your drinks: premium spirits, champagne, or a combination.",
   },
   {
     question: "Which London clubs are best for bottle service?",

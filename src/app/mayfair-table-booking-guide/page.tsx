@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How much does a table cost in Mayfair?",
     answer:
-      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox, Selene London, Dear Darling and Rumour (formerly Tabu), whose booths start from £1,000. 99 Regent Street (formerly Cuckoo Club) starts lower, with tables from £600. Tape London starts at £1,500 due to its members' club exclusivity. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
+      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox, Dear Darling and Rumour (formerly Tabu), whose booths start from £1,000. Some start lower: 99 Regent Street (formerly Cuckoo Club) from £600, Tape London from £750, and Selene London and London Reign from £800. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
   },
   {
     question: "What is the dress code for Mayfair nightclubs?",
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: "Can I get into a Mayfair club without a table booking?",
     answer:
-      "Some Mayfair clubs offer guestlist entry, but most do not guarantee walk-in access, especially on weekends. Tape London and The Box are extremely difficult to enter without a booking. Some other clubs occasionally accept walk-ins early in the evening, but there is no guarantee. A table booking gives you guaranteed entry, a reserved space, and a personal waitress. It is the reliable way to experience Mayfair nightlife.",
+      "Some Mayfair clubs offer guestlist entry, but most do not guarantee walk-in access, especially on weekends. Tape London is extremely difficult to enter without a booking, and The Box doesn't run a guestlist: entry is by table booking. Some other clubs occasionally accept walk-ins early in the evening, but there is no guarantee. A table booking gives you guaranteed entry, a reserved space, and a personal waitress. It is the reliable way to experience Mayfair nightlife.",
   },
   {
     question: "Which Mayfair club is best for a birthday celebration?",

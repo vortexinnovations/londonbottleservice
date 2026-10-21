@@ -1266,7 +1266,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "What is the minimum spend for bottle service in London?",
         answer:
-          "Most London clubs start at £1,000 minimum spend per table, which typically includes one bottle of spirits with mixers or champagne. Premium tables at venues like Tape London start from £1,500. The minimum spend is not the bottle price: it is the total you must spend at your table across the night.",
+          "Most London clubs start at £1,000 minimum spend per table, which typically includes one bottle of spirits with mixers or champagne. Premium tables at venues like Tape London cost more. The minimum spend is not the bottle price: it is the total you must spend at your table across the night.",
       },
       {
         question: "Can you share bottle service with another group?",

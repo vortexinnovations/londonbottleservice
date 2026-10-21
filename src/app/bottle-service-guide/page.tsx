@@ -43,7 +43,7 @@ const faqs = [
   {
     question: "How much does bottle service cost in London?",
     answer:
-      "Bottle service at Mayfair clubs starts from £1,000 minimum spend per table. VIP tables range from £1,500 to £3,000+. The cost varies by: which club (exclusive venues like Tape London start higher), which night (Saturdays are most expensive), table position (VIP and stage-front tables cost more), and group size. As a rough guide, budget £150-£250 per person for a standard table.",
+      "Bottle service at Mayfair clubs starts from £1,000 minimum spend per table. VIP tables range from £1,500 to £3,000+. The cost varies by: which club (starting minimums run from £600 at 99 Regent Street and £750 at Tape London to £1,000 at many venues), which night (Saturdays are most expensive), table position (VIP and stage-front tables cost more), and group size. As a rough guide, budget £150 to £250 per person for a standard table.",
   },
   {
     question: "What should I wear to a Mayfair nightclub?",

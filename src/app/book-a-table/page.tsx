@@ -13,14 +13,14 @@ import { fitTitle } from "@/lib/seo";
 export const metadata: Metadata = {
   title: fitTitle("Book a VIP Table in London | Instant WhatsApp Booking"),
   description:
-    "Book VIP tables at London's best nightclubs. Tape London, Cirque Le Soir, Maddox and more. Real prices from £1,000. Instant WhatsApp confirmation.",
+    "Book VIP tables at London's best nightclubs. Tape London, Cirque Le Soir, Maddox and more. Real prices from £600. Instant WhatsApp confirmation.",
   alternates: {
     canonical: "https://londonbottleservice.com/book-a-table",
   },
   openGraph: {
     title: "Book a VIP Table in London | Instant WhatsApp Booking",
     description:
-      "Book VIP tables at London's best nightclubs. Real prices from £1,000. Instant WhatsApp confirmation.",
+      "Book VIP tables at London's best nightclubs. Real prices from £600. Instant WhatsApp confirmation.",
     url: "https://londonbottleservice.com/book-a-table",
   },
 };
