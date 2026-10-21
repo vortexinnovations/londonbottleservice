@@ -640,7 +640,7 @@ export const clubs: Club[] = [
   {
     slug: "dear-darling",
     metaTitle: "Dear Darling Mayfair: Table Prices and VIP Bottle Service",
-    metaDescription: "Floor tables at Dear Darling Mayfair from £1,000, VIP from £2,000. Cocktails, then hip-hop, RnB and Afrobeats on Jermyn Street, Thu to Sun. Book on WhatsApp.",
+    metaDescription: "Tables at Dear Darling Mayfair from £800, VIP from £2,000. Cocktails, then hip-hop, RnB and Afrobeats on Jermyn Street, Thu to Sun. Book on WhatsApp.",
     bookingSlug: "dear-darling-table-booking",
     name: "Dear Darling Mayfair",
     shortName: "Dear Darling",
@@ -657,7 +657,7 @@ export const clubs: Club[] = [
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
     openingHours: "10:00 PM to 6:00 AM",
     pricing: {
-      floorTable: 1000,
+      floorTable: 800,
       vipTable: 2000,
     },
     whatsIncluded: [
@@ -683,7 +683,7 @@ export const clubs: Club[] = [
       {
         question: "How much is a table at Dear Darling?",
         answer:
-          "Tables at Dear Darling start from £1,000 minimum spend. VIP tables start from £2,000. As a newer venue, the pricing is competitive with established Mayfair clubs.",
+          "Tables at Dear Darling start from £800 minimum spend. VIP tables start from £2,000. As a newer venue, the pricing is competitive with established Mayfair clubs.",
       },
       {
         question: "What nights is Dear Darling open?",

@@ -36,7 +36,7 @@ const faqs = [
   {
     question: "Which London club has the cheapest bottle service?",
     answer:
-      "99 Regent Street (formerly Cuckoo Club) has the lowest starting minimum here, with tables from £600 covering entry for the whole group. Tape London starts from £750, and Cirque Le Soir, Selene and London Reign from £800. Most of the other clubs start at £1,000 minimum spend for a floor table, including Maddox, The Box, Dear Darling, Scotch of St James and Rumour (formerly Tabu). VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
+      "99 Regent Street (formerly Cuckoo Club) has the lowest starting minimum here, with tables from £600 covering entry for the whole group. Tape London starts from £750, and Cirque Le Soir, Selene, London Reign and Dear Darling Mayfair from £800. Most of the other clubs start at £1,000 minimum spend for a floor table, including Maddox, The Box, Scotch of St James and Rumour (formerly Tabu). VIP tables start from £2,000 at most venues, with The Box starting VIP from £3,000. Weekday tables at any venue tend to have lower minimum spends than weekends.",
   },
   {
     question: "Which Mayfair clubs play hip-hop?",

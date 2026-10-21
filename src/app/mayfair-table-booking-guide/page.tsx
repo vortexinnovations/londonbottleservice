@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How much does a table cost in Mayfair?",
     answer:
-      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox, Dear Darling and Rumour (formerly Tabu), whose booths start from £1,000. Some start lower: 99 Regent Street (formerly Cuckoo Club) from £600, Tape London from £750, and Selene London and London Reign from £800. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
+      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox and Rumour (formerly Tabu), whose booths start from £1,000. Some start lower: 99 Regent Street (formerly Cuckoo Club) from £600, Tape London from £750, and Selene London, London Reign and Dear Darling Mayfair from £800. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
   },
   {
     question: "What is the dress code for Mayfair nightclubs?",

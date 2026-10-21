@@ -567,14 +567,14 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "dear-darling-table-booking",
     clubSlug: "dear-darling",
-    metaTitle: "Dear Darling Mayfair Table Booking: Tables from £1,000",
+    metaTitle: "Dear Darling Mayfair Table Booking: Tables from £800",
     metaDescription:
-      "Book a VIP table at Dear Darling Mayfair, St James's, from £1,000. Design-led cocktail bar meets late-night club. Fashion-forward crowd. WhatsApp us to book.",
+      "Book a VIP table at Dear Darling Mayfair, St James's, from £800. Design-led cocktail bar meets late-night club. Fashion-forward crowd. WhatsApp us to book.",
     h1: "Book a Table at Dear Darling Mayfair",
     heroSubheading:
       "St James's most design-conscious newcomer. Craft cocktails early, hip-hop and RnB late, and a fashion-forward crowd that makes every night feel curated.",
     pricingIntro:
-      "Tables at Dear Darling start from £1,000 minimum spend. VIP positions start from £2,000. The spend covers premium spirits and champagne, but Dear Darling's cocktail programme is genuinely strong: worth working into your order rather than going straight to bottles. Your server will guide you through the options and help you make the most of your minimum spend.",
+      "Tables at Dear Darling start from £800 minimum spend. VIP positions start from £2,000. The spend covers premium spirits and champagne, but Dear Darling's cocktail programme is genuinely strong: worth working into your order rather than going straight to bottles. Your server will guide you through the options and help you make the most of your minimum spend.",
     vipUpsellPitch:
       "VIP tables from £2,000 give you the best positions in one of St James's most beautifully designed venues. Dear Darling's VIP setup matches the attention to detail in the rest of the space: premium positioning, extra space, and a level of service that feels personal rather than transactional. For groups who chose Dear Darling specifically for the design and atmosphere, VIP ensures you experience it at its best.",
     weekdayDeal:
@@ -582,7 +582,7 @@ export const bookingPages: BookingPageData[] = [
     arrivalGuide:
       "Dear Darling is at 91 Jermyn Street, St James's. With a table booking, you'll have priority entry for your group. The venue transitions from cocktail bar to club as the night progresses, so arriving earlier (around 10:00-10:30 PM) lets you enjoy the cocktail bar phase before the energy shifts into full club mode around 11:30 PM. Dress code is smart and fashion-forward: the crowd here puts effort in, so match the energy. Green Park tube is nearby.",
     guestlistComparison:
-      "Dear Darling, as a newer addition to the St James's circuit, does offer guestlist on some nights, particularly Thursdays when the venue is still building its regular crowd. Getting on a guestlist can get you through the door with a cover charge around £15-20, and during the earlier cocktail bar phase (before 11:00 PM) general admission is usually straightforward. The venue is still establishing itself, so the door isn't as battle-hardened as somewhere like Cirque, which has been turning people away for years.\n\nThe problem with guestlist at Dear Darling is that you miss the venue's best feature. The cocktail-to-club transition is designed as a journey. You start in a beautifully designed space with genuinely excellent cocktails, the lighting shifts, the music builds, and by midnight you're in a proper hip-hop and RnB club. Experiencing this from a table, with craft cocktails flowing into bottle service as the night evolves, is the way Dear Darling was designed to be enjoyed. Standing at the bar, you get fragments of this experience rather than the full arc.\n\nFor couples on a date, guestlist during the cocktail bar phase can work. It's a beautiful space to have a drink in, and if you arrive before 10:30 PM the atmosphere is relaxed and conversational. But for groups of four or more, a table booking makes dramatically more sense. The £1,000 minimum lets you start with rounds of craft cocktails (which count towards your spend) before moving to bottles as the club energy kicks in. You're experiencing the full Dear Darling concept rather than standing on the edges of it. And because the venue's design is genuinely one of its strongest selling points, you want to be positioned to appreciate it properly.",
+      "Dear Darling, as a newer addition to the St James's circuit, does offer guestlist on some nights, particularly Thursdays when the venue is still building its regular crowd. Getting on a guestlist can get you through the door with a cover charge around £15-20, and during the earlier cocktail bar phase (before 11:00 PM) general admission is usually straightforward. The venue is still establishing itself, so the door isn't as battle-hardened as somewhere like Cirque, which has been turning people away for years.\n\nThe problem with guestlist at Dear Darling is that you miss the venue's best feature. The cocktail-to-club transition is designed as a journey. You start in a beautifully designed space with genuinely excellent cocktails, the lighting shifts, the music builds, and by midnight you're in a proper hip-hop and RnB club. Experiencing this from a table, with craft cocktails flowing into bottle service as the night evolves, is the way Dear Darling was designed to be enjoyed. Standing at the bar, you get fragments of this experience rather than the full arc.\n\nFor couples on a date, guestlist during the cocktail bar phase can work. It's a beautiful space to have a drink in, and if you arrive before 10:30 PM the atmosphere is relaxed and conversational. But for groups of four or more, a table booking makes dramatically more sense. The £800 minimum lets you start with rounds of craft cocktails (which count towards your spend) before moving to bottles as the club energy kicks in. You're experiencing the full Dear Darling concept rather than standing on the edges of it. And because the venue's design is genuinely one of its strongest selling points, you want to be positioned to appreciate it properly.",
     entryGuide:
       "Dear Darling's door reflects its identity as a design-conscious, fashion-forward venue. The dress code is smart with an emphasis on considered style: the crowd here tends to be late twenties to thirties, creative-adjacent, and dressed like they thought about their outfit rather than just grabbing the nearest smart shirt. Men should aim for smart with a point of interest: a well-cut jacket, interesting shoes, or a look that shows personality beyond the basic Mayfair uniform. Women dress elegantly with a fashion edge. Smart trainers can work if the outfit around them is polished, but this isn't a given: it depends on the overall look.\n\nThe dual personality of the venue affects when and how the door operates. During the earlier cocktail bar hours (before 11:00 PM), the atmosphere is more relaxed and the door is correspondingly accessible. As the venue transitions to club mode, the door tightens: the team is looking to maintain the quality of crowd that Dear Darling has cultivated since opening. Fashion industry regulars, creative professionals, and couples who chose the venue for its design and atmosphere set the tone, and the door team filters for people who add to that energy.\n\nWith a table booking, you get the best of both phases. Priority entry means you can arrive during the cocktail bar phase, around 10:00-10:30 PM, settle into your table with a round of craft cocktails, and experience the full transition into club mode without ever worrying about the door. This early arrival is actually a genuine advantage at Dear Darling, not just a logistical detail: the cocktail bar phase is a highlight in its own right, and most general admission guests who arrive after 11:30 PM miss it entirely. Green Park tube is the nearest station.",
     sections: [
@@ -606,7 +606,7 @@ export const bookingPages: BookingPageData[] = [
       {
         question: "How much is a table at Dear Darling?",
         answer:
-          "Tables start from £1,000 minimum spend. VIP tables start from £2,000. The pricing is competitive for Mayfair and the cocktail programme means your spend goes further if you mix cocktails and bottles.",
+          "Tables start from £800 minimum spend. VIP tables start from £2,000. The pricing is competitive for Mayfair and the cocktail programme means your spend goes further if you mix cocktails and bottles.",
       },
       {
         question: "What's the vibe at Dear Darling?",
@@ -914,9 +914,9 @@ export const bookingPages: BookingPageData[] = [
   {
     bookingSlug: "beat-london-table-booking",
     clubSlug: "beat-london",
-    metaTitle: "BEAT London Table Booking | Electronic Music VIP from £1,000",
+    metaTitle: "BEAT London Table Booking: Tables from £1,000, VIP £2,000",
     metaDescription:
-      "Book a VIP table at BEAT London from £1,000. Serious sound system, house & techno, and a music-first approach. WhatsApp us for table availability tonight.",
+      "Book a table at BEAT London from £1,000, VIP from £2,000. Serious sound system, house & techno, and a music-first approach. WhatsApp us for availability.",
     h1: "Book a Table at BEAT London",
     heroSubheading:
       "The London club built for electronic music first. A serious sound system, quality DJ bookings, and an immersive experience that's closer to Ibiza than Mayfair. Table service without sacrificing the music.",

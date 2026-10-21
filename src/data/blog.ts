@@ -463,7 +463,7 @@ export const blogPosts: BlogPost[] = [
     title: "Dear Darling Mayfair: The Complete Guide to One of Mayfair's Best New Clubs",
     metaTitle: "Dear Darling Mayfair Guide: Table Prices, Vibe & What to Expect",
     metaDescription:
-      "Everything you need to know about Dear Darling in St James's. Table prices from £1,000, cocktail bar meets late-night club, dress code, music policy, and how to book.",
+      "Everything you need to know about Dear Darling in St James's. Table prices from £800, cocktail bar meets late-night club, dress code, music policy, and how to book.",
     excerpt:
       "Dear Darling has quickly become one of Mayfair's most talked-about venues. Here's why it deserves a spot on your shortlist, and what to expect when you get there.",
     publishedAt: "2025-06-10",
@@ -483,7 +483,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How much is a table at Dear Darling Mayfair?",
         answer:
-          "Tables at Dear Darling start from £1,000 minimum spend for floor tables. VIP tables start from £2,000. Pricing is competitive with established Mayfair clubs and represents good value for the quality of the venue.",
+          "Tables at Dear Darling start from £800 minimum spend for floor tables. VIP tables start from £2,000. Pricing is competitive with established Mayfair clubs and represents good value for the quality of the venue.",
       },
       {
         question: "What's the vibe at Dear Darling?",
@@ -812,7 +812,7 @@ export const blogPosts: BlogPost[] = [
       {
         question: "How much is bottle service at a house music club in London?",
         answer:
-          "Tables at Maddox and Dear Darling start from £1,000 minimum spend, and tables at 99 Regent Street (formerly Cuckoo Club), whose downstairs floor plays house, start from £600. BEAT London starts from £1,000 as well. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
+          "Tables at Maddox start from £1,000 minimum spend, Dear Darling from £800, and tables at 99 Regent Street (formerly Cuckoo Club), whose downstairs floor plays house, start from £600. BEAT London starts from £1,000, like Maddox. These are standard Mayfair prices regardless of music genre. VIP tables start from £2,000 at most venues.",
       },
       {
         question: "What is the difference between deep house and tech house?",

@@ -892,7 +892,7 @@ export const blogContent: Record<string, ReactNode> = {
 
       <h2>Dear Darling Table Prices</h2>
       <p>
-        Tables at Dear Darling start from <strong>£1,000 minimum spend</strong>{" "}for floor tables.
+        Tables at Dear Darling start from <strong>£800 minimum spend</strong>{" "}for floor tables.
         VIP tables start from <strong>£2,000</strong>. For a newer venue with this level of fit-out
         and attention to detail, the pricing is competitive with, and arguably better value than,
         some established Mayfair clubs that are coasting on reputation.
@@ -1816,7 +1816,7 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         Dear Darling is best for groups who enjoy house music but also want cocktail quality,
         a beautiful interior, and a venue that works for the full evening rather than just
-        the late-night portion. Tables start from <strong>£1,000 minimum spend</strong>.
+        the late-night portion. Tables start from <strong>£800 minimum spend</strong>.
       </p>
       <p>
         <strong>Sound system verdict:</strong>{" "}Well-installed and properly balanced for the
@@ -1857,7 +1857,7 @@ export const blogContent: Record<string, ReactNode> = {
         <li><strong>Maddox:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Dinner available separately.</li>
         <li><strong>99 Regent Street:</strong>{" "}From £600, covering entry for the whole group. VIP and larger tables on request.</li>
         <li><strong>BEAT London:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Best value per hour given the later closing time.</li>
-        <li><strong>Dear Darling:</strong>{" "}From £1,000 (floor) / £2,000 (VIP). Cocktail bar access included.</li>
+        <li><strong>Dear Darling:</strong>{" "}From £800 (floor) / £2,000 (VIP). Cocktail bar access included.</li>
       </ul>
 
       <h2>The Honest Summary</h2>
@@ -2778,7 +2778,7 @@ export const blogContent: Record<string, ReactNode> = {
           <strong><Link href="/clubs/dear-darling" className="text-gold hover:underline">Dear Darling Mayfair</Link>:</strong>{" "}
           One of St James&apos;s newer openings, Dear Darling brings a fresh energy to the
           scene. The interiors are striking, the lighting is flattering, and the table
-          layout offers plenty of semi-private spaces that suit couples perfectly. From &pound;1,000.
+          layout offers plenty of semi-private spaces that suit couples perfectly. From &pound;800.
         </li>
       </ul>
 
@@ -2951,7 +2951,7 @@ export const blogContent: Record<string, ReactNode> = {
           One of Mayfair&apos;s newest openings has quickly built a strong Thursday night.
           Read our{" "}
           <Link href="/blog/dear-darling-mayfair-guide" className="text-gold hover:underline">Dear Darling guide</Link>{" "}
-          for the full picture. Tables from &pound;1,000.
+          for the full picture. Tables from &pound;800.
         </li>
       </ul>
       <p>
