@@ -429,6 +429,8 @@ export default function GuestlistVsTableBookingPage() {
               const tableEssential =
                 club.slug === "the-box"
                   ? "No guestlist: entry is by table booking, from £1,000"
+                  : club.slug === "beat-london"
+                  ? "No guestlist: entry is by table booking"
                   : club.slug === "scotch-of-st-james"
                     ? "Entry is walk-in at the door; there is no guestlist. Tables can be booked."
                     : club.slug === "tape-london"
