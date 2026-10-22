@@ -101,7 +101,7 @@ export const clubImages: Record<string, ClubImageSet> = {
   "luna-club-london": {
     hero: `${G}/fe4414_de7fc0b8b7b04a1e956a7161623452b6.jpg`,
     card: `${G}/fe4414_d0f23381f8094125a6bf2ee0f93def16.jpg`,
-    alt: "Luna Club London nightclub (permanently closed)",
+    alt: "Maya, formerly Luna Club London, beneath Inca London on Argyll Street",
     extra: [`${G}/fe4414_4c672667e7a5457b9224ad73e3c5dda7.jpg`, `${G}/fe4414_e949276097ce47268f86b1b06b938c57.jpg`, `${G}/fe4414_c6667a69785e4fac823c8041211beae8.jpg`],
   },
   "maison-close": {

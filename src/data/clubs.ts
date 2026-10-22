@@ -846,6 +846,63 @@ export const clubs: Club[] = [
       },
     ],
   },
+  {
+    // Luna Club London rebranded as Maya (owner, 2026-10-22): the same club
+    // beneath Inca London, open and booked by us. Owner facts only; Luna's old
+    // prices and music are history, and table prices are confirmed at booking.
+    slug: "luna-club-london",
+    metaTitle: "Luna Club London Is Now Maya: Book a Table",
+    metaDescription: "Luna Club London now trades as Maya, beneath Inca London on Argyll Street. Open Friday and Saturday 11pm to 3am, 18+. Book a Maya table on WhatsApp.",
+    name: "Maya",
+    shortName: "Maya",
+    previousName: "Luna Club London",
+    tagline: "The lounge club beneath Inca London on Argyll Street, formerly Luna",
+    description:
+      "Maya (formerly Luna Club London) is the club beneath Inca London at 8-9 Argyll Street, next to the London Palladium. Luna rebranded as Maya: a luxury lounge and members'-style club inspired by ancient Mayan culture, open Friday and Saturday from 11pm to 3am. Table prices are confirmed when you book.",
+    longDescription:
+      "Luna Club London, also known as Luna London or Luna by INCA, now trades as Maya (also written MAYA). It is the same room beneath the Inca London restaurant at 8-9 Argyll Street, next to the London Palladium, with Oxford Circus the nearest tube. Maya is a luxury lounge and members'-style club inspired by ancient Mayan culture, open on Friday and Saturday nights from 11pm to 3am. Entry is 18+ with photo ID, and the door is smart: heels for ladies, smart shoes and shirts for men, and no sportswear. We book Maya tables and guestlist by request; table prices are confirmed when you book, depending on the night, the table and your group size. Luna's old prices and music no longer apply. Inca London upstairs, a South American (Nikkei) restaurant with a dinner show of dancers, acrobats and singers, is open too, so dinner and a table can share one address.",
+    address: "8-9 Argyll Street, London W1F 7TF",
+    area: "Soho",
+    musicPolicy: "Lounge club with DJs",
+    dressCode:
+      "Smart: heels for ladies, smart shoes and shirts for men. No sportswear. Entry is 18+ with photo ID.",
+    openingNights: ["Friday", "Saturday"],
+    openingHours: "11:00 PM to 3:00 AM",
+    pricing: { floorTable: null, vipTable: null },
+    whatsIncluded: [
+      "A reserved table for your group",
+      "Table service through the night",
+      "Table price confirmed for your night before you go",
+      "Guestlist by request through us",
+    ],
+    knownFor: [
+      "Luxury lounge and members'-style club inspired by ancient Mayan culture",
+      "Directly beneath Inca London on Argyll Street",
+      "The club that traded as Luna Club London",
+    ],
+    bestFor:
+      "Dressed-up Friday and Saturday nights, especially after dinner and the show at Inca London upstairs.",
+    atmosphere:
+      "A luxury lounge and members'-style club inspired by ancient Mayan culture, with a smart door.",
+    capacity: "Lounge club",
+    faqs: [
+      {
+        question: "Is Luna Club London still open?",
+        answer:
+          "Luna Club London now trades as Maya. It is the same club beneath Inca London at 8-9 Argyll Street, open on Friday and Saturday from 11pm to 3am, and we book Maya tables and guestlist.",
+      },
+      {
+        question: "How much is a table at Maya?",
+        answer:
+          "Table prices at Maya are confirmed when you book, depending on the night, the table and your group size. Send your date and group size on WhatsApp and we will come back with the options.",
+      },
+      {
+        question: "Is Inca London open?",
+        answer:
+          "Yes. Inca London, the South American restaurant with a dinner show upstairs at 8-9 Argyll Street, is open, and Maya is the club beneath it.",
+      },
+    ],
+  },
 ];
 
 // Permanently closed clubs — kept for SEO purposes only (people still search for these)
@@ -885,41 +942,6 @@ export const closedClubs: Club[] = [
       {
         question: "Can I still book a table at Funky Buddha?",
         answer: "No. Funky Buddha is closed, so tables can no longer be booked there. Tables at open Mayfair clubs can be arranged instead: send your date, group size and budget on WhatsApp.",
-      },
-    ],
-  },
-  {
-    slug: "luna-club-london",
-    name: "Luna Club London",
-    shortName: "Luna Club London",
-    tagline: "Intimate Mayfair hip-hop club (permanently closed)",
-    description:
-      "Luna Club London was an intimate Mayfair club with a hip-hop, RnB and Afrobeats music policy. Luna Club London is now permanently closed.",
-    longDescription:
-      "Luna Club London was a compact Mayfair venue built around hip-hop, RnB, Afrobeats and UK rap, with tables close to the dancefloor. The venue is now permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives: send your date and group size on WhatsApp for a recommendation.",
-    address: "Mayfair, London W1",
-    area: "Mayfair",
-    musicPolicy: "Hip-Hop, RnB, Afrobeats, UK Rap",
-    dressCode: "Not applicable: the venue has closed.",
-    openingNights: [],
-    openingHours: "Permanently Closed",
-    pricing: { floorTable: null, vipTable: null },
-    whatsIncluded: [],
-    knownFor: [
-      "Intimate Mayfair setting",
-      "Hip-hop and RnB music policy",
-    ],
-    bestFor: "Luna Club London is permanently closed. For a similar night with table service close to Mayfair, try Cirque Le Soir, Selene London or Dear Darling.",
-    atmosphere: "Sleek and intimate, with a hip-hop focus.",
-    capacity: "Approximately 250",
-    faqs: [
-      {
-        question: "Is Luna Club London still open?",
-        answer: "No, Luna Club London has permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
-      },
-      {
-        question: "Can I still book a table at Luna Club London?",
-        answer: "No. Luna Club London is closed, so tables can no longer be booked there. Tables at open Mayfair clubs can be arranged instead: send your date, group size and budget on WhatsApp.",
       },
     ],
   },
