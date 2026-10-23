@@ -256,7 +256,7 @@ const reviews: ClubReview[] = [
     rank: 11,
     headline: "Formerly Tabu: Red Velvet Booths, No Cameras on the Floor",
     review:
-      "Rumour (formerly Tabu) is a full rebrand under the same ownership, with a new design and concept, opened in October 2026. It is one intimate room of around 200 on Dover Street, built around deep red velvet booths with dark panelling, a chandelier and low, warm lighting, and it fills early by design. The music is open format, moving between hip-hop, RnB and house. What sets it apart is the no-photography policy: no photos or video in the main room or on the dance floor, enforced by the floor team. Booths start from £1,000 minimum spend, covering entry for the whole group, roughly £125 each across eight people.",
+      "Rumour (formerly Tabu) is a full rebrand under the same ownership, with a new design and concept, opened in October 2026. It is one intimate room of around 200 on Dover Street, built around red velvet booths beneath backlit gold disc walls, with red velvet curtains and low red lighting, and it fills early by design. The music is open format, moving between hip-hop, RnB and house. What sets it apart is the no-photography policy: no photos or video in the main room or on the dance floor, enforced by the floor team. Booths start from £1,000 minimum spend, covering entry for the whole group, roughly £125 each across eight people.",
     bestFor: "Dressed-up groups who want an intimate room where nobody is filming, and men or mixed groups who need a booth to get in",
     prosText: [
       "No photos or video on the dance floor: the clearest difference from the rooms around it",
