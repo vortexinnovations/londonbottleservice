@@ -353,7 +353,7 @@ export const clubs: Club[] = [
     description:
       "Rumour (formerly Tabu) is an intimate Mayfair club at 1 Dover Street: one room of around 200, built around deep red velvet booths, where no photos or video are allowed on the dance floor. Booths start from £1,000 minimum spend with entry for the whole group, and it opens Wednesday to Saturday, 11pm to 4am.",
     longDescription:
-      "Rumour is the full rebrand of the club that traded as Tabu: the same ownership, with a new design and a new concept, opened in October 2026. It is one room of around 200, built around booths, with deep red velvet, dark panelling, a chandelier and low, warm lighting, and it fills early by design. The music is open format, moving between hip-hop, RnB and house, read to the room on the night. The single clearest difference from the rooms around it is the no-photography policy: no photos or video in the main room or on the dance floor, enforced by the floor team. For bottle service, booths start from £1,000 minimum spend, covering entry for the whole group, which works out at roughly £125 each across eight people. A booth is the route in for men and mixed groups, because the guestlist is for ladies only, at free to £20 on the door depending on the night and how busy it is. Wednesday and Thursday are the more relaxed nights and the easiest for guestlist entry; Friday and Saturday fill out and are worth arranging in advance. The door is 18+ with photo ID. The venue presents itself as a members' club, and we book tables and guestlist for non-members. Dover Street runs between Piccadilly and Grafton Street, a few minutes' walk from Green Park, with Piccadilly Circus and Bond Street both within walking distance.",
+      "Rumour is the full rebrand of the club that traded as Tabu: the same ownership, with a new design and a new concept, opened in October 2026. It is one room of around 200, built around red velvet booths beneath walls of backlit gold discs, with dark timber beams and low red lighting, and it fills early by design. The music is open format, moving between hip-hop, RnB and house, read to the room on the night. The single clearest difference from the rooms around it is the no-photography policy: no photos or video in the main room or on the dance floor, enforced by the floor team. For bottle service, booths start from £1,000 minimum spend, covering entry for the whole group, which works out at roughly £125 each across eight people. A booth is the route in for men and mixed groups, because the guestlist is for ladies only, at free to £20 on the door depending on the night and how busy it is. Wednesday and Thursday are the more relaxed nights and the easiest for guestlist entry; Friday and Saturday fill out and are worth arranging in advance. The door is 18+ with photo ID. The venue presents itself as a members' club, and we book tables and guestlist for non-members. Dover Street runs between Piccadilly and Grafton Street, a few minutes' walk from Green Park, with Piccadilly Circus and Bond Street both within walking distance.",
     address: "1 Dover Street, Mayfair, London W1S 4LD",
     area: "Mayfair",
     musicPolicy: "Open format, moving between Hip-Hop, RnB and House",
@@ -375,14 +375,14 @@ export const clubs: Club[] = [
     ],
     knownFor: [
       "A no-photography policy in the main room and on the dance floor",
-      "Deep red velvet booths, dark panelling and a chandelier",
+      "Deep red velvet booths beneath walls of backlit gold discs",
       "One intimate room of around 200 that fills early by design",
       "Open-format music: hip-hop, RnB and house",
     ],
     bestFor:
       "Groups who want a dressed-up night in a small room where nobody is filming. Men and mixed groups book a booth, since the guestlist is for ladies only.",
     atmosphere:
-      "Intimate and dressed up: red velvet booths, dark panelling, a chandelier and low, warm lighting. With no photos or video on the dance floor, the night stays in the room.",
+      "Intimate and dressed up: red velvet booths, backlit gold disc walls, red velvet curtains and low red lighting. With no photos or video on the dance floor, the night stays in the room.",
     capacity: "Around 200",
     faqs: [
       {
@@ -413,7 +413,7 @@ export const clubs: Club[] = [
       {
         question: "Can you take photos inside Rumour?",
         answer:
-          "No. Rumour does not allow photos or video in the main room or on the dance floor, and the floor team enforces it. It is the single clearest difference from the rooms around it.",
+          "No. Rumour does not allow photos or video in the main room or on the dance floor, and the floor team enforces it. It is the single clearest difference from the rooms around it. The photos on this page are the venue's own.",
       },
       {
         question: "What are the dress code and age limit at Rumour?",

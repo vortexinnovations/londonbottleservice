@@ -314,12 +314,12 @@ export const bookingPages: BookingPageData[] = [
       {
         heading: "Inside Rumour",
         content:
-          "One intimate room of around 200, built around booths: deep red velvet, dark panelling, a chandelier and low, warm lighting. The music is open format, moving between hip-hop, RnB and house, read to the room on the night. The room fills early by design, which is why booths on Friday and Saturday are worth arranging in advance.",
+          "One intimate room of around 200, built around booths: deep red velvet beneath walls of backlit gold discs, dark timber beams and low red lighting. The music is open format, moving between hip-hop, RnB and house, read to the room on the night. The room fills early by design, which is why booths on Friday and Saturday are worth arranging in advance.",
       },
       {
         heading: "The No-Photography Policy",
         content:
-          "Rumour does not allow photos or video in the main room or on the dance floor, and the floor team enforces it. It is the single clearest difference from the rooms around it, and it suits groups who want a night that stays in the room.",
+          "Rumour does not allow photos or video in the main room or on the dance floor, and the floor team enforces it. It is the single clearest difference from the rooms around it, and it suits groups who want a night that stays in the room. The photo at the top of this page is the venue's own.",
       },
       {
         heading: "From Tabu to Rumour",

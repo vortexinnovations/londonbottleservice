@@ -49,12 +49,28 @@ export const clubImages: Record<string, ClubImageSet> = {
     alt: "Maddox Club VIP table booking Mayfair nightclub",
     extra: [`${G}/fe4414_9bf346cb801649ea839f8fe1bab5182f.jpg`, `${G}/fe4414_c5d71df402634f1bb95e48817e645371.jpg`, `${G}/fe4414_301f1e2620f043329538b41abec3c184.jpg`],
   },
+  // Rumour (formerly Tabu): the venue's own photos (supplied 2026-10-23).
+  // The hero is the table setting; the card is the booth with an ice bucket.
   "rumour-london": {
-    hero: `${G}/rumour-london.jpg`,
-    card: `${G}/rumour-london.jpg`,
-    alt: "Red velvet booths in the main room at Rumour (formerly Tabu), Mayfair",
-    extra: [`${G}/rumour-london.jpg`],
-    extraAlt: ["Red velvet booths inside Rumour on Dover Street"],
+    hero: `${G}/rumour-london-table-setting.jpg`,
+    card: `${G}/rumour-london-booth-ice-bucket.jpg`,
+    alt: "A table set with glassware and an ice bucket in front of a red velvet booth at Rumour (formerly Tabu), Mayfair",
+    extra: [
+      `${G}/rumour-london-booth-ice-bucket.jpg`,
+      `${G}/rumour-london-booths-wide.jpg`,
+      `${G}/rumour-london-booth-disc-wall.jpg`,
+      `${G}/rumour-london-dj-decks-booths.jpg`,
+      `${G}/rumour-london-bar.jpg`,
+      `${G}/rumour-london-arched-doorway.jpg`,
+    ],
+    extraAlt: [
+      "A red velvet booth beneath the disc wall at Rumour, Mayfair, with an ice bucket and glasses on the table",
+      "A row of red velvet booths beneath the backlit disc wall at Rumour, Mayfair",
+      "A curved red velvet booth with ice buckets beneath the backlit gold disc wall at Rumour, Mayfair",
+      "DJ decks in front of the red velvet booths at Rumour, Mayfair",
+      "The bar and its backlit bottle display at Rumour, Mayfair",
+      "The lit arched doorway and steps between two backlit disc walls at Rumour, Mayfair",
+    ],
   },
   "london-reign": {
     hero: `${G}/DSC_6945.jpg`,
