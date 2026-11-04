@@ -724,7 +724,6 @@ export const bookingPages: BookingPageData[] = [
     ],
     relatedBookingPages: [
       "99-regent-street-table-booking",
-      "beat-london-table-booking",
       "scotch-of-st-james-table-booking",
     ],
     relatedBlogSlugs: [
@@ -910,94 +909,6 @@ export const bookingPages: BookingPageData[] = [
     ],
   },
 
-  // 13. BEAT London
-  {
-    bookingSlug: "beat-london-table-booking",
-    clubSlug: "beat-london",
-    metaTitle: "BEAT London Table Booking: Tables from £1,000, VIP £2,000",
-    metaDescription:
-      "Book a table at BEAT London from £1,000, VIP from £2,000. Serious sound system, house & techno, and a music-first approach. WhatsApp us for availability.",
-    h1: "Book a Table at BEAT London",
-    heroSubheading:
-      "The London club built for electronic music first. A serious sound system, quality DJ bookings, and an immersive experience that's closer to Ibiza than Mayfair. Table service without sacrificing the music.",
-    pricingIntro:
-      "Tables at BEAT London start from £1,000 minimum spend. VIP tables start from £2,000. The pricing is competitive and reflects the investment in sound and production: the sound system alone sets BEAT apart from clubs where electronic music is an afterthought. Your spend covers premium spirits and champagne, and your table gives you a home base with dance floor views while the DJs do their thing.",
-    vipUpsellPitch:
-      "VIP tables from £2,000 put you in the optimal listening and viewing position: closest to the DJ booth, best bass response from the sound system, and front-row seats for the immersive lighting rig. At a venue built around the music, VIP positioning matters more than at clubs where the DJ is background noise. If you're here for the sound, VIP is where the sound is best.",
-    weekdayDeal:
-      "BEAT opens on Friday and Saturday, plus select Thursdays, so there's no regular midweek discount. Friday tends to attract a more local electronic music crowd with slightly lower minimum spends. The DJs on Friday often play longer, more exploratory sets compared to Saturday's higher-energy approach. If you prefer deeper, more progressive sets, Friday is your night. Saturday brings peak energy and the fullest dance floor.",
-    arrivalGuide:
-      "BEAT London is at 48 Margaret Street, Fitzrovia. Doors open at 10:00 PM and the club runs late, until 6:00 AM, later than most Mayfair venues. This later closing means the energy builds differently; don't feel rushed to arrive early. 11:00 PM to midnight is a good arrival window for table bookings. Priority entry with your booking means no queue. The dress code is more relaxed than traditional Mayfair: smart casual works, and smart trainers are generally accepted. The focus is on the music, not your collar.",
-    guestlistComparison:
-      "BEAT doesn't run a guestlist. Entry is by table booking. The culture is less hierarchical than at hip-hop bottle service clubs where table status is everything, and the music-first ethos shapes the room. The dance floor is the focal point and it's designed for everyone, not just table guests.\n\nThat said, there's still a meaningful difference between standing on the dance floor for four hours and having a table to retreat to. BEAT runs until 6:00 AM. That's a long night on your feet, especially once the bass hits and you've been dancing for two hours straight. A table gives you a home base with seating, drinks being served to you, and a place to decompress between sets without losing your spot. In the electronic music world, this isn't about status. It's about stamina and comfort during what is genuinely one of London's longer club nights.\n\nFor groups who are specifically here for the music, the table booking also makes practical sense. You can hear each other during breaks, share bottles without fighting through bar queues, and keep your group together in a 400-person room where people naturally drift toward different parts of the dance floor. A £1,000 minimum split across six to eight people is comparable to what you'd spend on entry plus bar drinks over a five-to-six-hour night. The table adds comfort without taking you away from the experience: BEAT's tables are positioned with dance floor views, not tucked into a roped-off section away from the action.",
-    entryGuide:
-      "BEAT's door policy is refreshingly different from the traditional Mayfair clubs. The dress code is smart casual with genuine flexibility: smart trainers are accepted, you don't need a collared shirt, and the overall vibe is closer to an Ibiza club or a Berlin venue than a Mayfair bottle service spot. This reflects the electronic music culture that BEAT is built around: the focus is on the music and the experience, not on how expensive your shoes are. No sportswear and no flip-flops are the main restrictions. Beyond that, if you look like you're ready for a night of house and techno, you're fine.\n\nThe crowd at BEAT draws from a different pool than the hip-hop Mayfair clubs. Expect electronic music fans, people who've done Ibiza and Berlin, groups of friends who specifically chose BEAT for the sound system, and DJs themselves who come to hear proper audio. The door team is looking for people who are there for the right reasons: the music. This makes the door simultaneously more relaxed (no outfit policing) and more discerning in its own way (groups who clearly wandered over from a hip-hop club and don't know what tech house is might find the experience underwhelming rather than being turned away).\n\nWith a table booking, priority entry bypasses any queue. This is particularly valuable at BEAT because the club runs until 6:00 AM and the energy peaks late: if you arrive at midnight and there's a queue, you could miss the sweet spot when the DJ drops the first big set. Priority entry means you walk in, get settled at your table, and you're ready when the night hits its stride. The later closing also means you can arrive later than at standard Mayfair clubs without missing the best part of the night. An 11:00 PM to midnight arrival puts you perfectly positioned for the hours of music that follow.",
-    sections: [
-      {
-        heading: "The Sound System: Why BEAT Is Built Different",
-        content:
-          "Most London nightclubs install a sound system as an afterthought: something loud enough to fill the room. BEAT was designed the other way around: the sound system came first, and the venue was built to serve it. The result is a club where you can feel the bass in your chest without the treble piercing your eardrums, where the DJ's mix is clear from every position in the room, and where the music is genuinely the main attraction. If you've been to Ibiza's best clubs or Berlin's legendary rooms and wondered why London doesn't have something equivalent, BEAT is the answer. The immersive lighting rig complements the audio, creating a full sensory experience that elevates house and techno from background to foreground.",
-      },
-      {
-        heading: "House & Techno Fans: Your Bottle Service Home",
-        content:
-          "Electronic music fans in London have always faced a trade-off: proper sound and music in warehouse-style venues with no comfort, or comfortable bottle service in clubs where the DJ is an afterthought. BEAT eliminates that compromise. You get table service, premium bottles, a reserved area, all the comfort of Mayfair bottle service, but the music and production are built for electronic fans. The DJs are booked for their talent behind the decks, not their social media following. If you've been to the hip-hop bottle service circuit and want something different, or if you normally avoid VIP sections because they're soulless, BEAT is designed specifically for you.",
-      },
-      {
-        heading: "Late-Night Energy: BEAT Runs Until 6 AM",
-        content:
-          "While many of the clubs we book close between 3:45 AM and 4:00 AM, BEAT runs until 6:00 AM. Those extra hours matter more than you'd think: in electronic music, the best sets often happen in the final stretch when the crowd has been building energy for hours and the DJ can take the music deeper. The late licence means BEAT attracts people who are genuinely there for the music rather than just ticking off a Saturday night obligation. The energy at 2:00 AM here is what most clubs aspire to at midnight.",
-      },
-    ],
-    faqs: [
-      {
-        question: "How much is a table at BEAT London?",
-        answer:
-          "Tables start from £1,000 minimum spend. VIP tables start from £2,000. The pricing reflects the quality of the sound system and production. You're getting a music experience that most London clubs can't match alongside your bottle service.",
-      },
-      {
-        question: "What music does BEAT play?",
-        answer:
-          "House, tech house, and techno. The music policy is strictly electronic. DJs are booked for talent and taste. If you want hip-hop or RnB, try Rumour (formerly Tabu), 99 Regent Street (formerly Cuckoo Club) or Dear Darling instead. BEAT is for electronic music fans.",
-      },
-      {
-        question: "What nights is BEAT open?",
-        answer:
-          "Friday and Saturday, plus select Thursdays, running until 6:00 AM: later than most London clubs. Friday tends towards deeper, more progressive sets. Saturday is peak energy and the fullest room.",
-      },
-      {
-        question: "What's the dress code at BEAT?",
-        answer:
-          "More relaxed than traditional Mayfair. Smart casual is the standard. Smart trainers are generally accepted. No sportswear or flip-flops, but you don't need a blazer. The focus is on the music, not the dress code.",
-      },
-      {
-        question: "How does BEAT compare to warehouse parties?",
-        answer:
-          "BEAT gives you the sound quality and music focus of a warehouse party with the comfort and service of a Mayfair club. Proper table service, premium bottles, reserved areas, but the DJ and sound system are the centrepiece rather than an afterthought.",
-      },
-      {
-        question: "Is BEAT good for a birthday?",
-        answer:
-          "If the birthday person loves electronic music, absolutely. The immersive production makes any night feel like an event. We can arrange sparklers and table setups. For birthdays where the group has mixed tastes (some want hip-hop), BEAT may not be the best fit; consider 99 Regent Street (formerly Cuckoo Club) or Cirque Le Soir instead.",
-      },
-      {
-        question: "How do I book a table at BEAT?",
-        answer:
-          "WhatsApp us with your date, group size, and any preferences. We'll confirm availability and pricing. Friday and Saturday both tend to sell well so booking at least a week ahead is recommended for the best table selection.",
-      },
-    ],
-    relatedBookingPages: [
-      "maddox-club-table-booking",
-      "99-regent-street-table-booking",
-      "scotch-of-st-james-table-booking",
-      "the-box-london-table-booking",
-    ],
-    relatedBlogSlugs: [
-      "how-much-does-bottle-service-cost-london",
-      "mayfair-vs-shoreditch-nightlife",
-      "london-nightlife-first-timers",
-    ],
-  },
   // Maison Close
 ];
 

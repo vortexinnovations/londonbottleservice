@@ -35,6 +35,8 @@ export interface Club {
   musicPolicy: string;
   dressCode: string;
   openingNights: string[];
+  /** Display text for the nights, when the regular nights in openingNights do not tell the whole story. */
+  nightsLabel?: string;
   openingHours: string;
   pricing: ClubPricing;
   whatsIncluded: string[];
@@ -43,6 +45,8 @@ export interface Club {
   atmosphere: string;
   capacity: string;
   faqs: { question: string; answer: string }[];
+  /** Extra guide sections on the club page; paragraphs are separated by a blank line. */
+  guideSections?: { heading: string; content: string }[];
 }
 
 export const clubs: Club[] = [
@@ -709,70 +713,119 @@ export const clubs: Club[] = [
   },
   {
     slug: "beat-london",
-    metaDescription: "Floor tables at BEAT London from £1,000, VIP from £2,000. House, tech house and techno from Thursday to Saturday, open until 6am. Book a table on WhatsApp.",
-    bookingSlug: "beat-london-table-booking",
+    metaDescription: "BEAT London tables from £1,000, VIP from £2,000, bottles from £750. House music, doors at 1am on Friday, Saturday and select Thursdays. Book on WhatsApp.",
+    // The old booking page was merged into the club page (redirect in next.config.ts), so
+    // every "/${club.bookingSlug}" link on the hub pages lands on the club page.
+    bookingSlug: "clubs/beat-london",
     name: "BEAT London",
     shortName: "BEAT",
-    tagline: "Underground-inspired electronic music in the heart of London",
+    tagline: "After-hours house music and VIP bottle service on Margaret Street",
     description:
-      "BEAT London brings a genuine electronic music focus to the London club scene. If you're into house, techno, and electronic music played on a proper sound system in a venue that cares about the music first, BEAT is built for you.",
+      "BEAT London, also known as BEAT Club, is an after-hours house music club at 48 Margaret Street, Fitzrovia. Tables start from £1,000 minimum spend, VIP tables from £2,000 and bottles from £750. Entry is by table booking only, with doors at 1am on Friday, Saturday and select Thursdays.",
     longDescription:
-      "BEAT London exists for people who care about electronic music. While most Mayfair clubs treat their DJ bookings as background to the bottle service spectacle, BEAT puts the music front and centre. The sound system is serious: designed for electronic music rather than retrofitted into a space built for conversation. The music policy spans house, tech house, and techno, with guest DJs who are booked for their ability behind the decks rather than their Instagram following. The venue design reflects this music-first approach: the dance floor is the focal point, the lighting is reactive and immersive, and the layout is built to create the best possible clubbing experience. Table service is available for those who want it, positioned to give you both comfort and proximity to the action. The crowd is a mix of genuine electronic music fans and groups looking for a different kind of London club night. If you've been to the hip-hop and RnB clubs and want something different, or if you're coming from cities with strong electronic music cultures (Berlin, Amsterdam, Ibiza), BEAT will feel like home.",
-    address: "48 Margaret Street, Fitzrovia, London",
+      "BEAT is an after-hours club in Fitzrovia, a short walk from Mayfair. It opens from 1am to 6am, the music is house, and the room holds about 250 people. The venue's own account is that it has one of London's finest sound systems. Its own history is that it opened in 1966 as The Speakeasy Club (\"The Speak\"), which hosted Jimi Hendrix, The Beatles, Bob Marley and David Bowie, and King Crimson's debut, and that it has since been extensively renovated. Because doors are at 1am, most groups plan dinner or a bar first and treat the table as the last part of the night.",
+    address: "48 Margaret Street, Fitzrovia, London W1W 8SE",
     area: "Fitzrovia",
-    musicPolicy: "House, Tech House, Techno, Electronic",
+    musicPolicy: "House",
     dressCode:
-      "Smart casual with a more relaxed approach than traditional Mayfair. Smart trainers may be accepted. No sportswear or very casual attire.",
-    openingNights: ["Thursday", "Friday", "Saturday"],
-    openingHours: "10:00 PM to 6:00 AM",
+      "Smart casual, no sportswear. Trainers only if clean and smart, at the door's discretion.",
+    openingNights: ["Friday", "Saturday"],
+    nightsLabel: "Friday, Saturday and select Thursdays",
+    openingHours: "1:00 AM to 6:00 AM",
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
     },
     whatsIncluded: [
-      "Priority entry for your group",
-      "Reserved table with dance floor views",
+      "Entry for your group with the table booking",
+      "A reserved table for the night",
       "Personal table service",
-      "Premium spirits or champagne",
+      "Your minimum spend put towards drinks, with bottles from £750",
       "Mixers, ice, and garnishes",
-      "A sound system and music experience built for electronic music",
     ],
     knownFor: [
-      "Serious sound system designed for electronic music",
-      "Quality DJ bookings focused on talent",
-      "Music-first approach to nightclub design",
-      "Immersive lighting and production",
+      "After-hours opening, from 1am to 6am",
+      "House music",
+      "One of London's finest sound systems, by the venue's own account",
+      "Its history as The Speakeasy Club, by the venue's own account",
     ],
     bestFor:
-      "Electronic music fans who want bottle service without sacrificing music quality. Groups who are bored of hip-hop clubs and want a different energy. Anyone who's been to Ibiza or Berlin and wants that feeling in London.",
+      "House music fans who want a table and bottle service for a late night, and groups looking for somewhere to go on to after dinner or a bar.",
     atmosphere:
-      "Immersive, music-driven, energetic. The sound system and lighting create an experience that's closer to Ibiza than Mayfair.",
-    capacity: "Approximately 400",
+      "An after-hours house music club, with a capacity of about 250.",
+    capacity: "About 250",
+    guideSections: [
+      {
+        heading: "BEAT London Bottle Service: How the Spend Works",
+        content:
+          "Tables at BEAT London start from £1,000 minimum spend and VIP tables from £2,000. Bottles start from £750, in line with other London clubs. These are November 2026 figures and they are starting points, so ask us for the exact quote on your night.\n\nThe minimum spend is not an entry fee or a charge on top. It is the amount you spend on drinks at your table, so a bottle counts towards it.",
+      },
+      {
+        heading: "Doors at 1am: Planning Your Night",
+        content:
+          "BEAT is at 48 Margaret Street in Fitzrovia, and the nearest tube is Oxford Circus. Doors open at 1am and the club closes at 6am, later than most of the clubs we book. There is nothing to arrive early for, so book dinner or a bar for earlier in the evening and come on to your table from 1am.\n\nThe door is 18+ with photo ID, so make sure everyone in the group has it with them. The dress code is smart casual with no sportswear, and trainers only work if they are clean and smart, at the door's discretion.",
+      },
+      {
+        heading: "No Guestlist: A Table Is the Way In",
+        content:
+          "BEAT does not run a guestlist and there are no tickets. Entry is by table booking. BEAT has members, and non-members can book a table, so you do not need a membership to book through us.\n\nA table also makes practical sense on a night this late. It gives your group seating, drinks brought to you and a place to come back to, and it keeps everyone together until 6am.",
+      },
+    ],
     faqs: [
       {
         question: "How much is a table at BEAT London?",
         answer:
-          "Tables at BEAT London start from £1,000 minimum spend. VIP tables start from £2,000. The pricing is competitive and you're getting a music experience that most London clubs can't match.",
+          "Tables at BEAT London start from £1,000 minimum spend, spent on drinks. VIP tables start from £2,000.",
+      },
+      {
+        question: "How much are bottles at BEAT London?",
+        answer:
+          "Bottles start from £750, in line with other London clubs, and they count towards your table's minimum spend. Message us for the options on your night.",
+      },
+      {
+        question: "Is there a guestlist or tickets for BEAT London?",
+        answer:
+          "No. BEAT does not run a guestlist and there are no tickets. Entry is by table booking.",
+      },
+      {
+        question: "Do you have to be a member to go to BEAT?",
+        answer:
+          "No. BEAT has members, and non-members can book a table.",
+      },
+      {
+        question: "What time does BEAT London open?",
+        answer:
+          "BEAT is open from 1am to 6am on Friday, Saturday and select Thursdays. Doors are at 1am, so most groups plan dinner or a bar first. Check Thursday dates with us before planning around one.",
       },
       {
         question: "What music does BEAT London play?",
         answer:
-          "BEAT focuses on house, tech house, and techno. The music policy is electronic-focused with guest DJs booked for their talent. If you're after hip-hop or RnB, this isn't the venue: try Rumour (formerly Tabu) or Cirque instead.",
-      },
-      {
-        question: "What nights is BEAT London open?",
-        answer:
-          "BEAT is open Friday and Saturday nights and on select Thursdays, running later than most Mayfair clubs: until 6:00 AM.",
+          "House. If your group wants a different sound, message us and we'll suggest another club.",
       },
       {
         question: "What's the dress code at BEAT?",
         answer:
-          "More relaxed than traditional Mayfair: smart casual is the standard. Smart trainers can work. No sportswear or flip-flops, but you don't need a suit either.",
+          "Smart casual, with no sportswear. Trainers only if they are clean and smart, at the door's discretion.",
       },
       {
-        question: "How does BEAT compare to other London clubs?",
+        question: "What is the age limit at BEAT London?",
         answer:
-          "BEAT is a venue built around the music first. If you care about sound quality and DJ talent over celebrity sightings, BEAT is the choice.",
+          "BEAT is 18+ with photo ID.",
+      },
+      {
+        question: "Where is BEAT London?",
+        answer:
+          "48 Margaret Street, Fitzrovia, London W1W 8SE. The nearest tube is Oxford Circus, and it is a short walk from Mayfair.",
+      },
+      {
+        question: "Can I book BEAT for a birthday?",
+        answer:
+          "Yes. Tables can be booked for birthdays, and celebration extras are on request. Tell us what you have in mind when you book.",
+      },
+      {
+        question: "How do I book a table at BEAT?",
+        answer:
+          "WhatsApp us with your date and group size. We'll confirm availability and pricing with you.",
       },
     ],
   },
@@ -1096,10 +1149,11 @@ export function fromPrice(
  * enquiry", "Permanently Closed") when no nights are listed.
  */
 export function formatNights(
-  club: Pick<Club, "openingNights" | "openingHours">,
+  club: Pick<Club, "openingNights" | "openingHours" | "nightsLabel">,
   separator = ", ",
   short = false
 ): string {
+  if (club.nightsLabel) return club.nightsLabel;
   if (club.openingNights.length === 0) return club.openingHours;
   return club.openingNights
     .map((n) => (short ? n.slice(0, 3) : n))

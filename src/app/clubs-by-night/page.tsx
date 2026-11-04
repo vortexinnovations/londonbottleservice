@@ -267,7 +267,7 @@ export default function ClubsByNightPage() {
                       className="flex items-baseline py-3 border-b border-border group hover:bg-bg-card/40 transition-colors"
                     >
                       <span className="font-display italic text-[0.9375rem] group-hover:text-gold-light transition-colors">
-                        {getClubName(slug)}
+                        {getClubName(slug)}{n.night === "Thursday" && slug === "beat-london" ? " (select Thursdays)" : ""}
                       </span>
                     </Link>
                   ))}

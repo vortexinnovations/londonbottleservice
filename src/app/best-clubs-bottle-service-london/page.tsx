@@ -216,20 +216,20 @@ const reviews: ClubReview[] = [
   {
     slug: "beat-london",
     rank: 9,
-    headline: "London's Electronic Music Answer to Bottle Service",
+    headline: "The After-Hours House Music Table",
     review:
-      "BEAT fills a gap in London's nightlife. If you love electronic music but also want bottle service, your options have traditionally been limited: most serious electronic venues don't do tables, and most table-service clubs don't take electronic music seriously. BEAT does both. The sound system is built for electronic music, the DJs are booked for talent, and the table service doesn't compromise the music experience. It's a niche proposition but for the right group, it's perfect.",
-    bestFor: "Electronic music fans who want VIP treatment, Ibiza/Berlin regulars visiting London, groups tired of hip-hop clubs",
+      "BEAT is the late option on this list: an after-hours house music club at 48 Margaret Street, Fitzrovia, with doors at 1am and a 6am close on Friday, Saturday and select Thursdays. Entry is by table booking only, with tables from £1,000 minimum spend, VIP tables from £2,000 and bottles from £750. There is no guestlist and no tickets, and non-members can book a table. The venue's own account is that it has one of London's finest sound systems. It's a niche proposition, but for a house music group planning dinner or a bar first, it's a strong way to finish the night.",
+    bestFor: "House music fans who want a table, and groups looking for somewhere to go on to after dinner or a bar",
     prosText: [
-      "Serious sound system built for electronic music",
-      "Quality DJ bookings based on talent",
-      "Fills a genuine gap in the London market",
-      "More relaxed dress code than Mayfair",
+      "House music from 1am to 6am",
+      "One of London's finest sound systems, by the venue's own account",
+      "Non-members can book a table",
+      "Smart casual dress code",
     ],
     consText: [
-      "Niche appeal: not for hip-hop or RnB fans",
-      "Only open Thursday, Friday and Saturday",
-      "Less exclusive atmosphere than Mayfair clubs",
+      "Niche appeal: house music only",
+      "Doors are not until 1am, so plan dinner or a bar first",
+      "Only open Friday, Saturday and select Thursdays",
     ],
   },
   {

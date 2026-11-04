@@ -329,6 +329,25 @@ export default async function ClubPage({ params }: ClubPageProps) {
         </div>
       </section>
 
+      {/* Guide sections */}
+      {club.guideSections && club.guideSections.length > 0 && (
+        <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
+          <div className="max-w-4xl mx-auto">
+            <p className="eyebrow mb-4">The guide</p>
+            {club.guideSections.map((section) => (
+              <div key={section.heading} className="mb-10 last:mb-0">
+                <h2 className="font-display text-2xl md:text-3xl font-normal mb-4">{section.heading}</h2>
+                {section.content.split("\n\n").map((paragraph, i) => (
+                  <p key={i} className="text-text-secondary leading-relaxed mb-4 last:mb-0">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Gallery */}
       {images.extra.length > 0 && (
         <section className="py-16 md:py-20 px-4 sm:px-6 border-t border-border">
@@ -385,7 +404,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <WhatsAppCTA clubName={club.name} />
-              {club.bookingSlug && (
+              {club.bookingSlug && club.bookingSlug !== `clubs/${club.slug}` && (
                 <Link href={`/${club.bookingSlug}`} className="btn-secondary">
                   View Booking Details &rarr;
                 </Link>

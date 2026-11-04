@@ -28,6 +28,12 @@ const nextConfig: NextConfig = {
         destination: "/best-clubs-bottle-service-london",
         permanent: true,
       },
+      // BEAT: the booking page was merged into the club page.
+      {
+        source: "/beat-london-table-booking",
+        destination: "/clubs/beat-london",
+        permanent: true,
+      },
       // Closed venues: booking pages point to the closed-venue page.
       {
         source: "/funky-buddha-table-booking",
