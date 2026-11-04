@@ -1,3 +1,4 @@
+import { safeLinks, safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -32,6 +33,7 @@ export async function generateStaticParams() {
 // number, like the site's own CTAs.
 const escapeHtml = (text: string) => text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 marked.use({ renderer: { html: ({ text }) => escapeHtml(text) } });
+marked.use(safeLinks);
 // Each table sits in a scroll box (styled in globals.css) so a wide table
 // scrolls sideways on mobile instead of widening the page.
 marked.use({
@@ -118,7 +120,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(articleSchema) }}
       />
 
       {/* Breadcrumb */}

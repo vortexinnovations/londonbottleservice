@@ -1,3 +1,4 @@
+import { safeJsonLd } from "@/lib/safe-output";
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -128,7 +129,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(nightclubSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(nightclubSchema) }}
       />
 
       {/* Breadcrumb */}

@@ -1,3 +1,4 @@
+import { safeJsonLd } from "@/lib/safe-output";
 import Link from "next/link";
 import { ReactNode } from "react";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
@@ -4231,7 +4232,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline:
@@ -4476,7 +4477,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline:
@@ -4648,7 +4649,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline:
@@ -4837,7 +4838,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline:
@@ -5012,7 +5013,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline: "How Long Do You Get a Club Table in London? Timings Explained",
@@ -5190,7 +5191,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline: "How to Split the Cost of a Club Table in London: Who Pays What",
@@ -5362,7 +5363,7 @@ export const blogContent: Record<string, ReactNode> = {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
+          __html: safeJsonLd({
             "@context": "https://schema.org",
             "@type": "Article",
             headline: "Non-Alcoholic Bottle Service in London: What Clubs Offer",
@@ -5447,7 +5448,7 @@ export const blogContent: Record<string, ReactNode> = {
         and we will advise on the night itself.
       </p>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd({
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Can You Take Unfinished Bottles Home from a London Club?",
@@ -5514,7 +5515,7 @@ export const blogContent: Record<string, ReactNode> = {
         and we will talk it through straight.
       </p>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd({
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Why Is Bottle Service So Expensive in London? The Real Economics",
@@ -5601,7 +5602,7 @@ export const blogContent: Record<string, ReactNode> = {
         and we will give you the full number, service charge included, before you agree to anything.
       </p>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd({
         "@context": "https://schema.org",
         "@type": "Article",
         headline: "Service Charge on Bottle Service in London: What You Pay",

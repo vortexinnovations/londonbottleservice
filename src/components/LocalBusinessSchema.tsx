@@ -1,3 +1,4 @@
+import { safeJsonLd } from "@/lib/safe-output";
 import { WHATSAPP_TEL } from "@/lib/whatsapp";
 
 export function LocalBusinessSchema() {
@@ -41,7 +42,7 @@ export function LocalBusinessSchema() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }

@@ -1,3 +1,4 @@
+import { safeJsonLd } from "@/lib/safe-output";
 import Link from "next/link";
 import Image from "next/image";
 import { getBookingPageBySlug } from "@/data/bookingPages";
@@ -87,7 +88,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(nightclubSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(nightclubSchema) }}
       />
 
       {/* Breadcrumb */}

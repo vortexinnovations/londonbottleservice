@@ -1,3 +1,4 @@
+import { safeJsonLd } from "@/lib/safe-output";
 interface BreadcrumbItem {
   name: string;
   url?: string;
@@ -18,7 +19,7 @@ export function BreadcrumbSchema({ items }: { items: BreadcrumbItem[] }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLd(schema) }}
     />
   );
 }
