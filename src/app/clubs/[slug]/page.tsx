@@ -101,7 +101,12 @@ export default async function ClubPage({ params }: ClubPageProps) {
       addressLocality: "London",
       addressCountry: "GB",
     },
-    openingHoursSpecification: !club.openingHours.includes(" to ") ? undefined : club.openingNights.map((night) => ({
+    openingHoursSpecification: club.schemaHours ? club.schemaHours.days.map((day) => ({
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: day,
+      opens: club.schemaHours?.opens,
+      closes: club.schemaHours?.closes,
+    })) : !club.openingHours.includes(" to ") ? undefined : club.openingNights.map((night) => ({
       "@type": "OpeningHoursSpecification",
       dayOfWeek: night,
       opens: club.openingHours.split(" to ")[0].trim(),

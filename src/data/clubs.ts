@@ -38,6 +38,8 @@ export interface Club {
   /** Display text for the nights, when the regular nights in openingNights do not tell the whole story. */
   nightsLabel?: string;
   openingHours: string;
+  /** Calendar days and 24-hour times for structured data, when the doors open on the morning after the night named. */
+  schemaHours?: { days: string[]; opens: string; closes: string };
   pricing: ClubPricing;
   whatsIncluded: string[];
   knownFor: string[];
@@ -732,6 +734,7 @@ export const clubs: Club[] = [
     openingNights: ["Friday", "Saturday"],
     nightsLabel: "Friday, Saturday and select Thursdays",
     openingHours: "1:00 AM to 6:00 AM",
+    schemaHours: { days: ["Saturday", "Sunday"], opens: "01:00", closes: "06:00" },
     pricing: {
       floorTable: 1000,
       vipTable: 2000,
@@ -763,7 +766,7 @@ export const clubs: Club[] = [
       {
         heading: "Doors at 1am: Planning Your Night",
         content:
-          "BEAT is at 48 Margaret Street in Fitzrovia, and the nearest tube is Oxford Circus. Doors open at 1am and the club closes at 6am, later than most of the clubs we book. There is nothing to arrive early for, so book dinner or a bar for earlier in the evening and come on to your table from 1am.\n\nThe door is 18+ with photo ID, so make sure everyone in the group has it with them. The dress code is smart casual with no sportswear, and trainers only work if they are clean and smart, at the door's discretion.",
+          "BEAT is at 48 Margaret Street in Fitzrovia, and the nearest tube is Oxford Circus. Doors open at 1am and the club closes at 6am, later than most of the clubs we book. Nights run into the next morning, so a Friday night at BEAT means doors at 1am on Saturday morning. There is nothing to arrive early for, so book dinner or a bar for earlier in the evening and come on to your table from 1am.\n\nThe door is 18+ with photo ID, so make sure everyone in the group has it with them. The dress code is smart casual with no sportswear, and trainers only work if they are clean and smart, at the door's discretion.",
       },
       {
         heading: "No Guestlist: A Table Is the Way In",
@@ -795,7 +798,7 @@ export const clubs: Club[] = [
       {
         question: "What time does BEAT London open?",
         answer:
-          "BEAT is open from 1am to 6am on Friday, Saturday and select Thursdays. Doors are at 1am, so most groups plan dinner or a bar first. Check Thursday dates with us before planning around one.",
+          "BEAT is open from 1am to 6am on Friday, Saturday and select Thursdays. Nights run into the next morning, so a Friday night means doors at 1am on Saturday morning. Most groups plan dinner or a bar first. Check Thursday dates with us before planning around one.",
       },
       {
         question: "What music does BEAT London play?",
