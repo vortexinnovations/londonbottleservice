@@ -20,6 +20,7 @@ const IMPLICIT_TAG_PREFIX = "_N_T_";
 const ROUTE_TAGS = [
   "/blog/[slug]/page",
   "/blog/page",
+  "/page", // the home page lists the six newest posts
 ].map((route) => IMPLICIT_TAG_PREFIX + route);
 const DATA_TAGS = ["site-posts"]; // lib/site-posts.ts
 

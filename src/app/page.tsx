@@ -7,6 +7,13 @@ import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
+import { getMergedPosts } from "@/lib/posts";
+
+// Prerendered; /api/revalidate marks it stale when the content API publishes,
+// so the latest guides below follow a new post with no redeploy.
+export const revalidate = 86400;
+
+const LATEST_GUIDES = 6;
 
 const homeFAQs = [
   {
@@ -36,7 +43,11 @@ const homeFAQs = [
   },
 ];
 
-export default function HomePage() {
+export default async function HomePage() {
+  // Same list and order as the blog index.
+  const latestPosts = [...(await getMergedPosts())]
+    .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime())
+    .slice(0, LATEST_GUIDES);
   return (
     <>
       <FAQSchema faqs={homeFAQs} />
@@ -244,6 +255,40 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Latest guides: the six newest blog posts */}
+      {latestPosts.length > 0 && (
+        <section className="py-20 px-4 sm:px-6 border-t border-border bg-bg-secondary">
+          <div className="max-w-4xl mx-auto">
+            <p className="eyebrow mb-4">No. 07: From the journal</p>
+            <h2 className="font-display text-2xl md:text-3xl font-normal mb-10">
+              Latest guides
+            </h2>
+            <ul className="border-t border-border">
+              {latestPosts.map((post, i) => (
+                <li
+                  key={post.slug}
+                  className="flex items-baseline gap-4 py-4 border-b border-border"
+                >
+                  <span className="font-mono text-[0.625rem] text-gold-dark w-6 shrink-0">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="font-display text-lg font-medium text-text-primary hover:text-gold-light transition-colors"
+                  >
+                    {post.title}
+                  </Link>
+                  <span className="dotted-leader hidden md:block" aria-hidden="true" />
+                  <span className="text-text-muted text-xs shrink-0 hidden md:block">
+                    {post.category}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* Sticky Mobile CTA */}
       <WhatsAppCTA variant="sticky" />
