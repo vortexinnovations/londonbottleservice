@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { clubs } from "@/data/clubs";
 import { getWhatsAppLink, WHATSAPP_URL, WHATSAPP_DISPLAY } from "@/lib/whatsapp";
+import { PreferredSourceButton } from "@/components/PreferredSourceButton";
 
 /*
  * A print masthead, not an app bar. Two tiers:
@@ -112,6 +113,10 @@ export function Header() {
               <Link href="/book-a-table" className="text-text-secondary hover:text-text-primary transition-colors">
                 Book a Table
               </Link>
+              {/* From xl only: below that the nav links need the width of the bar */}
+              <div className="hidden xl:block">
+                <PreferredSourceButton placement="header" />
+              </div>
               <a
                 href={getWhatsAppLink()}
                 target="_blank"
@@ -185,6 +190,13 @@ export function Header() {
             <p className="text-center font-mono text-[0.625rem] tracking-[0.2em] text-text-muted mt-6">
               {WHATSAPP_DISPLAY} &middot; London W1
             </p>
+
+            <div className="border-t border-border mt-8 pt-8 flex flex-col items-center gap-2.5">
+              <PreferredSourceButton placement="menu" />
+              <p className="text-xs text-text-muted">
+                See us first in Google Search &amp; AI Mode
+              </p>
+            </div>
           </nav>
         </div>
       )}

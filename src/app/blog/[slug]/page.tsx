@@ -10,6 +10,7 @@ import { blogContent } from "@/data/blogContent";
 import { clubs, formatNights } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
+import { ArticlePreferredSourcePrompt } from "@/components/PreferredSourceButton";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { HeroImage } from "@/components/HeroImage";
@@ -190,6 +191,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </p>
             <WhatsAppCTA />
           </div>
+
+          <ArticlePreferredSourcePrompt />
         </div>
       </article>
 

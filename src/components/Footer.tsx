@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WHATSAPP_URL, WHATSAPP_DISPLAY } from "@/lib/whatsapp";
+import { PreferredSourceButton } from "@/components/PreferredSourceButton";
 
 /*
  * The footer is a colophon: a printed number set large, the service
@@ -36,6 +37,12 @@ export function Footer() {
               VIP table bookings<br />
               across London
             </p>
+            <div className="mt-6 flex flex-col items-start md:items-end gap-2.5">
+              <PreferredSourceButton placement="footer" />
+              <p className="text-xs text-text-muted">
+                See us first in Google Search, Discover &amp; AI Mode.
+              </p>
+            </div>
           </div>
         </div>
       </div>
