@@ -60,7 +60,7 @@ const nights: NightData[] = [
     night: "Monday",
     status: "limited",
     description:
-      "Monday is the quietest night in Mayfair, but it's not completely dead. Cirque Le Soir opens its doors for those who want to start the week with a bang, and if you're going to go out on a Monday, a circus-themed nightclub is a strong way to do it. The Rex Rooms in Chelsea runs Industry Mondays, from 11:30pm to 3am. Expect a more intimate crowd and often more flexible pricing.",
+      "Monday is the quietest night in Mayfair, but it's not completely dead. Cirque Le Soir opens its doors for those who want to start the week with a bang, and if you're going to go out on a Monday, a circus-themed nightclub is a strong way to do it. The Rex Rooms in Chelsea runs Industry Mondays, from 11pm to 3am. Expect a more intimate crowd and often more flexible pricing.",
     clubs: ["cirque-le-soir", "rex-rooms-chelsea"],
     vibe: "Intimate and exclusive. A small, dedicated crowd who don't wait for the weekend.",
     tip: "Monday at Cirque Le Soir is the most intimate experience they offer. Smaller crowd, more performer attention, and often the best value of the week.",

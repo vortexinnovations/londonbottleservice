@@ -971,14 +971,14 @@ export const clubs: Club[] = [
     description:
       "The Rex Rooms, also known as Rex Rooms Chelsea, is a nightclub at 151 King's Road, Chelsea, and each of its two rooms has its own drinks menu. As of November 2026, the signature packages start from £1,100 in both rooms; champagne starts from £350 (Moët) in the Main Room and from £500 in the VIP King's Room. The minimum spend is confirmed when you book.",
     longDescription:
-      "The Rex Rooms opened in March 2025 at 151 King's Road, Chelsea, on the site of the former 151 Club, and the nearest tubes are Sloane Square and South Kensington. It has two rooms. The Main Room has the DJ and the bar, is open to everyone, and is where guests dance and mingle. The VIP King's Room is a more exclusive space where many VIP guests spend their time, with a private-party feel. The music is house, Latin and commercial: the resident DJ Tiempo usually plays house and Latin, and DJ Dan usually plays more commercial sets. It opens on Monday, Wednesday, Thursday, Friday and Saturday from 11:30pm to 3am, with last entry at 2am.",
+      "The Rex Rooms opened in March 2025 at 151 King's Road, Chelsea, on the site of the former 151 Club, and the nearest tubes are Sloane Square and South Kensington. It has two rooms. The Main Room has the DJ and the bar, is open to everyone, and is where guests dance and mingle. The VIP King's Room is a more exclusive space where many VIP guests spend their time, with a private-party feel. The music is house, Latin and commercial: the resident DJ Tiempo usually plays house and Latin, and DJ Dan usually plays more commercial sets. It opens on Monday, Wednesday, Thursday, Friday and Saturday from 11pm to 3am, with last entry at 2am.",
     address: "151 King's Road, Chelsea, London SW3 5TX",
     area: "Chelsea",
     musicPolicy: "House, Latin, Commercial",
     dressCode: "Smart and stylish. Avoid sportswear; the door has the final say.",
     openingNights: ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
-    openingHours: "11:30 PM to 3:00 AM",
-    schemaHours: { days: ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "23:30", closes: "03:00" },
+    openingHours: "11:00 PM to 3:00 AM",
+    schemaHours: { days: ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "23:00", closes: "03:00" },
     pricing: {
       floorTable: null,
       vipTable: null,
@@ -1013,7 +1013,7 @@ export const clubs: Club[] = [
       {
         heading: "Champagne in Both Rooms",
         content:
-          "These champagnes are on both menus at the same prices, as of November 2026 (75cl unless stated): Ruinart Brut £500; Ruinart Blanc de Blancs £550 (magnum £950); Krug Grande Cuvée £650; Dom Pérignon Luminous £650 (magnum £1,300); Armand de Brignac Brut Gold £890 (magnum £1,690, jeroboam £5,900, methuselah £24,900); Dom Pérignon P2 £1,290; Dom Pérignon Rosé Luminous £1,490 (magnum £3,500); Armand de Brignac Rosé £1,490 (magnum £3,500, jeroboam £6,900, methuselah £32,900).\n\nThe largest formats of Armand de Brignac are the Salmanazar (9L) at £34,900, the Salmanazar Rosé (9L) at £59,900, the Balthazar (12L) at £49,500 and the Midas (30L, special order) at £170,000.",
+          "These champagnes are on both menus at the same prices, as of November 2026 (75cl unless stated): Ruinart Brut £500; Ruinart Blanc de Blancs £550 (magnum £950); Krug Grande Cuvée £650; Dom Pérignon Luminous £650 (magnum £1,300); Armand de Brignac Brut Gold £890 (magnum £1,690, jeroboam £5,900, methuselah £24,900); Dom Pérignon P2 £1,290; Dom Pérignon Rosé Luminous £1,490 (magnum £3,500); Armand de Brignac Rosé £1,490 (magnum £3,500, jeroboam £6,900, methuselah £32,900).\n\nThe largest formats of Armand de Brignac are the Salmanazar (9L) at £34,900, the Salmanazar Rosé (9L) at £59,900, the Balthazar (12L) at £49,500, the Nebuchadnezzar (15L, Armand de Brignac Brut Gold) at £111,000 and the Midas (30L, special order) at £170,000, all the same in both rooms.",
       },
       {
         heading: "Main Room Menu: Moët and Spirits",
@@ -1033,7 +1033,7 @@ export const clubs: Club[] = [
       {
         heading: "Nights, Hours and the Door",
         content:
-          "The Rex Rooms opens on Monday (Industry Mondays), Wednesday (House Wednesday), Thursday, Friday (Scandi Fridays) and Saturday (Brazilian Saturdays), from 11:30pm to 3am with last entry at 2am, and is closed on Tuesday and Sunday. The door is 18+ with photo ID. Dress smart and stylish and avoid sportswear; the door has the final say.",
+          "The Rex Rooms opens on Monday (Industry Mondays), Wednesday (House Wednesday), Thursday, Friday (Scandi Fridays) and Saturday (Brazilian Saturdays), from 11pm to 3am with last entry at 2am, and is closed on Tuesday and Sunday. The door is 18+ with photo ID. Dress smart and stylish and avoid sportswear; the door has the final say.",
       },
     ],
     faqs: [
@@ -1070,7 +1070,7 @@ export const clubs: Club[] = [
       {
         question: "What are The Rex Rooms opening hours?",
         answer:
-          "Monday, Wednesday, Thursday, Friday and Saturday from 11:30pm to 3am, with last entry at 2am. It is closed on Tuesday and Sunday.",
+          "Monday, Wednesday, Thursday, Friday and Saturday from 11pm to 3am, with last entry at 2am. It is closed on Tuesday and Sunday.",
       },
       {
         question: "What is the dress code and age limit at The Rex Rooms?",
