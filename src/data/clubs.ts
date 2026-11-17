@@ -959,6 +959,121 @@ export const clubs: Club[] = [
       },
     ],
   },
+  {
+    slug: "rex-rooms-chelsea",
+    metaTitle: "The Rex Rooms Bottle Service: Champagne from £500",
+    metaDescription: "Bottle service at The Rex Rooms, Chelsea: champagne from £500 and packages from £1,100, with tables in the Main Room or the King's Room. WhatsApp us.",
+    // No separate booking page: like BEAT, hub links follow bookingSlug to the club page.
+    bookingSlug: "clubs/rex-rooms-chelsea",
+    name: "The Rex Rooms",
+    shortName: "Rex Rooms",
+    tagline: "Bottle service on the King's Road, in the Main Room or the VIP King's Room",
+    description:
+      "The Rex Rooms, also known as Rex Rooms Chelsea, is a nightclub at 151 King's Road, Chelsea. As of November 2026, champagne starts from £500 a bottle and the signature packages from £1,100, with tables in the Main Room and the VIP King's Room. The minimum spend is confirmed when you book.",
+    longDescription:
+      "The Rex Rooms opened in March 2025 at 151 King's Road, Chelsea, on the site of the former 151 Club, and the nearest tubes are Sloane Square and South Kensington. It has two rooms. The Main Room has the DJ and the bar, is open to everyone, and is where guests dance and mingle. The VIP King's Room is a more exclusive space where many VIP guests spend their time, with a private-party feel. The music is house, Latin and commercial: the resident DJ Tiempo usually plays house and Latin, and DJ Dan usually plays more commercial sets. It opens on Monday, Wednesday, Thursday, Friday and Saturday from 11:30pm to 3am, with last entry at 2am.",
+    address: "151 King's Road, Chelsea, London SW3 5TX",
+    area: "Chelsea",
+    musicPolicy: "House, Latin, Commercial",
+    dressCode: "Smart and stylish. Avoid sportswear; the door has the final say.",
+    openingNights: ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    openingHours: "11:30 PM to 3:00 AM",
+    schemaHours: { days: ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "23:30", closes: "03:00" },
+    pricing: {
+      floorTable: null,
+      vipTable: null,
+    },
+    whatsIncluded: [
+      "A reserved table in the Main Room or the VIP King's Room",
+      "Bottles from the drinks menu: champagne from £500 and signature packages from £1,100, as of November 2026",
+      "Your minimum spend put towards drinks, with the figure confirmed when you book",
+    ],
+    knownFor: [
+      "Two rooms: the Main Room and the VIP King's Room",
+      "Signature packages from £1,100, starting with the Rex Royal Duo",
+      "House, Latin and commercial music",
+      "151 King's Road, the site of the former 151 Club",
+    ],
+    bestFor:
+      "Groups who want bottle service in Chelsea, from a single bottle of champagne to a signature package, and VIP guests who want the private-party feel of the King's Room.",
+    atmosphere:
+      "Two rooms: the Main Room for dancing and mingling, and the VIP King's Room with a private-party feel.",
+    capacity: "",
+    guideSections: [
+      {
+        heading: "The Rex Rooms Bottle Service: Signature Packages",
+        content:
+          "As of November 2026, The Rex Rooms has three signature packages. The Rex Royal Duo is £1,100, with Belvedere 10 and Dom Pérignon Luminous. The Rex Rosé Affair is £1,900, with Belvedere 10 and Dom Pérignon Rosé. The Rex Rampage is £4,900, with six Dom Pérignon Luminous and a Belvedere 10 magnum.\n\nPrices can change, and we confirm them with you when you book.",
+      },
+      {
+        heading: "Champagne Prices at The Rex Rooms",
+        content:
+          "Champagne starts from £500 a bottle. As of November 2026, the 75cl bottles are Ruinart Brut £500, Ruinart Blanc de Blancs £550, Krug Grande Cuvée £650, Dom Pérignon Luminous £650, Armand de Brignac Brut Gold £890, Dom Pérignon P2 £1,290, Dom Pérignon Rosé Luminous £1,490 and Armand de Brignac Rosé £1,490.\n\nLarge formats: Ruinart Blanc de Blancs magnum £950, Dom Pérignon Luminous magnum £1,300, Armand de Brignac Brut Gold magnum £1,690, jeroboam £5,900 and methuselah £24,900, and Armand de Brignac Rosé magnum £3,500. Above those sit the Salmanazar (9L, Armand de Brignac Brut Gold) at £34,900, the Balthazar (12L) at £49,500 and the Midas (30L, special order) at £170,000.",
+      },
+      {
+        heading: "Spirits by the Bottle",
+        content:
+          "As of November 2026, spirits (70cl) are Belvedere 10 £650 (magnum £1,390), Volcán X.A. £750 (magnum £1,200), 71 Gin £700, Palmarae gin £650, Hennessy XO £850, Hennessy Paradis £3,500 and Clase Azul Ultra Añejo £10,995. Prices can change and are confirmed when you book.",
+      },
+      {
+        heading: "Tables in the Main Room and the King's Room",
+        content:
+          "Tables are bookable in both rooms. The VIP King's Room has tables K2 to K7 around a VIP bar, and the Main Room has tables numbered 1 to 14 around the main bar. The minimum spend is confirmed when you book: tell us the night, your group size and the room you want, and we will come back with it.",
+      },
+      {
+        heading: "Nights, Hours and the Door",
+        content:
+          "The Rex Rooms opens on Monday (Industry Mondays), Wednesday (House Wednesday), Thursday, Friday (Scandi Fridays) and Saturday (Brazilian Saturdays), from 11:30pm to 3am with last entry at 2am, and is closed on Tuesday and Sunday. The door is 18+ with photo ID. Dress smart and stylish and avoid sportswear; the door has the final say.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How much is bottle service at The Rex Rooms?",
+        answer:
+          "As of November 2026, champagne starts from £500 a bottle (Ruinart Brut) and the signature packages from £1,100 (the Rex Royal Duo). Prices can change and are confirmed when you book.",
+      },
+      {
+        question: "What packages does The Rex Rooms offer?",
+        answer:
+          "Three signature packages, as of November 2026: the Rex Royal Duo at £1,100 (Belvedere 10 and Dom Pérignon Luminous), the Rex Rosé Affair at £1,900 (Belvedere 10 and Dom Pérignon Rosé) and the Rex Rampage at £4,900 (six Dom Pérignon Luminous and a Belvedere 10 magnum).",
+      },
+      {
+        question: "How much is Dom Pérignon at The Rex Rooms?",
+        answer:
+          "As of November 2026, Dom Pérignon Luminous is £650 a bottle and £1,300 a magnum, Dom Pérignon P2 is £1,290 and Dom Pérignon Rosé Luminous is £1,490.",
+      },
+      {
+        question: "What is the minimum spend at The Rex Rooms?",
+        answer:
+          "The minimum spend is confirmed when you book. Tables are bookable in both the Main Room and the VIP King's Room, so tell us the night, your group size and the room you want.",
+      },
+      {
+        question: "What is the King's Room at The Rex Rooms?",
+        answer:
+          "The VIP King's Room is the more exclusive of the two rooms, where many VIP guests spend their time, with a private-party feel. Its tables, K2 to K7, sit around a VIP bar.",
+      },
+      {
+        question: "What are The Rex Rooms opening hours?",
+        answer:
+          "Monday, Wednesday, Thursday, Friday and Saturday from 11:30pm to 3am, with last entry at 2am. It is closed on Tuesday and Sunday.",
+      },
+      {
+        question: "What is the dress code and age limit at The Rex Rooms?",
+        answer:
+          "Smart and stylish, with no sportswear; the door has the final say. The Rex Rooms is 18+ with photo ID.",
+      },
+      {
+        question: "Where is The Rex Rooms?",
+        answer:
+          "151 King's Road, Chelsea, London SW3 5TX, on the site of the former 151 Club. The nearest tubes are Sloane Square and South Kensington.",
+      },
+      {
+        question: "How do I book bottle service at The Rex Rooms?",
+        answer:
+          "WhatsApp us with your date, group size and the room you want. We'll confirm the table, the minimum spend and the drinks with you.",
+      },
+    ],
+  },
 ];
 
 // Permanently closed clubs — kept for SEO purposes only (people still search for these)

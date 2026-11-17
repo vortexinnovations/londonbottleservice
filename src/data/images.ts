@@ -108,6 +108,16 @@ export const clubImages: Record<string, ClubImageSet> = {
     alt: "Beat London nightclub VIP bottle service",
     extra: [`${G}/fe4414_2b0b9405f5084a1bb087854db63c68ab.jpg`, `${G}/fe4414_9bca79c7758d42a48f33bfe38f57e6d0.jpg`, `${G}/fe4414_11a552e726fa49a4a469fe4ce46a7272.jpg`],
   },
+  "rex-rooms-chelsea": {
+    hero: `${G}/rex-rooms-chelsea-velvet-booths.jpg`,
+    card: `${G}/rex-rooms-chelsea-velvet-booths.jpg`,
+    alt: "Purple velvet booths with silver ice buckets at The Rex Rooms, Chelsea",
+    extra: [`${G}/rex-rooms-chelsea-bar.jpg`, `${G}/rex-rooms-chelsea-entrance.jpg`],
+    extraAlt: [
+      "The bar at The Rex Rooms, Chelsea, with its hand-carved wooden counter and black and white wave floor",
+      "The open doors of The Rex Rooms on the King's Road, Chelsea, lit in purple neon",
+    ],
+  },
   "the-box": {
     hero: `${G}/fe4414_97067774a6b844efbd5fe0c818358b30.jpg`,
     card: `${G}/fe4414_756101535dbf49548edff376706b2635.jpg`,

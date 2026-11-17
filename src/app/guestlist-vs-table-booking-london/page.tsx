@@ -431,6 +431,8 @@ export default function GuestlistVsTableBookingPage() {
                   ? "No guestlist: entry is by table booking, from £1,000"
                   : club.slug === "beat-london"
                   ? "No guestlist: entry is by table booking"
+                  : club.slug === "rex-rooms-chelsea"
+                  ? "Mixed groups get free entry before 11:30pm (as of November 2026); otherwise guestlist and entry are by request. Tables can be booked in the Main Room or the VIP King's Room"
                   : club.slug === "scotch-of-st-james"
                     ? "Entry is walk-in at the door; there is no guestlist. Tables can be booked."
                     : club.slug === "tape-london"

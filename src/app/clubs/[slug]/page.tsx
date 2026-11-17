@@ -391,7 +391,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <DetailCard title="Opening Hours" content={club.openingHours} />
             <DetailCard title="Location" content={`${club.address} (${club.area})`} />
             <DetailCard title="Atmosphere" content={club.atmosphere} />
-            <DetailCard title="Capacity" content={club.capacity} />
+            {club.capacity && <DetailCard title="Capacity" content={club.capacity} />}
           </div>
         </div>
       </section>
