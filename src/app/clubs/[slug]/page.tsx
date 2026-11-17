@@ -73,7 +73,7 @@ export async function generateMetadata({
       title: renamed || closed ? title : `${displayName} Table Prices & VIP Bottle Service`,
       description: renamed || closed
         ? description
-        : `Book a VIP table at ${displayName}. ${club.pricing.floorTable === null ? "Table prices on request" : `Floor tables from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
+        : `Book a VIP table at ${displayName}. ${club.pricing.floorTable === null ? "Table prices on request" : `${club.singleTableMinimum ? "Tables" : "Floor tables"} from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
       url: `https://londonbottleservice.com/clubs/${slug}`,
     },
   };
@@ -242,6 +242,19 @@ export default async function ClubPage({ params }: ClubPageProps) {
           <h2 className="font-display text-3xl md:text-4xl font-normal mb-8">
             {club.name}{" "}Minimum Spend &amp; Table Prices
           </h2>
+          {club.singleTableMinimum ? (
+          <div className="grid grid-cols-1 gap-6 mb-8">
+            <div className="bg-bg-card border border-border p-6">
+              <h3 className="font-display text-lg font-medium mb-2">Tables</h3>
+              <p className="price text-2xl md:text-3xl mb-2">
+                <Price value={club.pricing.floorTable} prefix="From " onRequest="Price on request" />
+              </p>
+              <p className="text-text-muted text-sm">
+                Minimum spend per table.
+              </p>
+            </div>
+          </div>
+          ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-bg-card border border-border p-6">
               <h3 className="font-display text-lg font-medium mb-2">Floor Table</h3>
@@ -262,6 +275,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
               </p>
             </div>
           </div>
+          )}
           <p className="text-text-muted text-sm">
             Prices are starting minimums and vary by night of the week, group size, and
             special events. The minimum spend is not an entry fee. It&apos;s the amount you

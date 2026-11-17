@@ -275,7 +275,7 @@ const reviews: ClubReview[] = [
     rank: 12,
     headline: "Chelsea Bottle Service: Packages from £1,100, Champagne from £350",
     review:
-      "The Rex Rooms is the Chelsea option on this list, at 151 King's Road on the site of the former 151 Club. Each room has its own menu: as of November 2026, champagne starts from £350 (Moët) in the Main Room and from £500 (Ruinart Brut) in the VIP King's Room, and the signature packages start from £1,100 in both, from the Rex Royal Duo with Belvedere 10 and Dom Pérignon Luminous to the Rex Rosé Affair at £1,900 and the Rex Rampage at £4,900. Tables are bookable in both rooms, the Main Room with the DJ and the bar, and the VIP King's Room, a more exclusive space with a private-party feel. The minimum spend is confirmed when you book. It opens Monday and Wednesday to Saturday, from 11pm to 3am, with house, Latin and commercial music.",
+      "The Rex Rooms is the Chelsea option on this list, at 151 King's Road on the site of the former 151 Club. Each room has its own menu: as of November 2026, champagne starts from £350 (Moët) in the Main Room and from £500 (Ruinart Brut) in the VIP King's Room, and the signature packages start from £1,100 in both, from the Rex Royal Duo with Belvedere 10 and Dom Pérignon Luminous to the Rex Rosé Affair at £1,900 and the Rex Rampage at £4,900. Tables are bookable in both rooms, the Main Room with the DJ and the bar, and the VIP King's Room, a more exclusive space with a private-party feel, with tables from £1,000 minimum spend. It opens Monday and Wednesday to Saturday, from 11pm to 3am, with house, Latin and commercial music.",
     bestFor: "Groups who want bottle service in Chelsea, and anyone who wants to see the bottle prices before they book",
     prosText: [
       "A published menu for each room: champagne from £350 in the Main Room, packages from £1,100",
@@ -285,7 +285,7 @@ const reviews: ClubReview[] = [
     ],
     consText: [
       "In Chelsea, away from the Mayfair and Soho clubs",
-      "The minimum spend is only confirmed when you book",
+      "Each room has its own menu, so check the prices for the room you book",
       "Closed on Tuesday and Sunday, with last entry at 2am",
     ],
   },

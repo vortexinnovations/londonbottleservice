@@ -47,6 +47,8 @@ export interface Club {
   atmosphere: string;
   capacity: string;
   faqs: { question: string; answer: string }[];
+  /** One starting minimum for every table: the club page shows a single table price card, no VIP card. */
+  singleTableMinimum?: boolean;
   /** Extra guide sections on the club page; paragraphs are separated by a blank line. */
   guideSections?: { heading: string; content: string }[];
 }
@@ -962,14 +964,14 @@ export const clubs: Club[] = [
   {
     slug: "rex-rooms-chelsea",
     metaTitle: "The Rex Rooms Bottle Service: Champagne from £350",
-    metaDescription: "Bottle service at The Rex Rooms, Chelsea: packages from £1,100 in both rooms, champagne from £350 in the Main Room and £500 in the King's Room.",
+    metaDescription: "The Rex Rooms, Chelsea: tables from £1,000 minimum spend, packages from £1,100, champagne from £350 in the Main Room and £500 in the King's Room.",
     // No separate booking page: like BEAT, hub links follow bookingSlug to the club page.
     bookingSlug: "clubs/rex-rooms-chelsea",
     name: "The Rex Rooms",
     shortName: "Rex Rooms",
     tagline: "Bottle service on the King's Road, in the Main Room or the VIP King's Room",
     description:
-      "The Rex Rooms, also known as Rex Rooms Chelsea, is a nightclub at 151 King's Road, Chelsea, and each of its two rooms has its own drinks menu. As of November 2026, the signature packages start from £1,100 in both rooms; champagne starts from £350 (Moët) in the Main Room and from £500 in the VIP King's Room. The minimum spend is confirmed when you book.",
+      "The Rex Rooms, also known as Rex Rooms Chelsea, is a nightclub at 151 King's Road, Chelsea, and each of its two rooms has its own drinks menu. As of November 2026, the signature packages start from £1,100 in both rooms; champagne starts from £350 (Moët) in the Main Room and from £500 in the VIP King's Room. Tables start from £1,000 minimum spend.",
     longDescription:
       "The Rex Rooms opened in March 2025 at 151 King's Road, Chelsea, on the site of the former 151 Club, and the nearest tubes are Sloane Square and South Kensington. It has two rooms. The Main Room has the DJ and the bar, is open to everyone, and is where guests dance and mingle. The VIP King's Room is a more exclusive space where many VIP guests spend their time, with a private-party feel. The music is house, Latin and commercial: the resident DJ Tiempo usually plays house and Latin, and DJ Dan usually plays more commercial sets. It opens on Monday, Wednesday, Thursday, Friday and Saturday from 11pm to 3am, with last entry at 2am.",
     address: "151 King's Road, Chelsea, London SW3 5TX",
@@ -980,13 +982,15 @@ export const clubs: Club[] = [
     openingHours: "11:00 PM to 3:00 AM",
     schemaHours: { days: ["Monday", "Wednesday", "Thursday", "Friday", "Saturday"], opens: "23:00", closes: "03:00" },
     pricing: {
-      floorTable: null,
+      floorTable: 1000,
       vipTable: null,
     },
+    // One table minimum is published (from £1,000): no separate VIP card.
+    singleTableMinimum: true,
     whatsIncluded: [
       "A reserved table in the Main Room or the VIP King's Room",
       "Bottles from your room's own menu, as of November 2026: signature packages from £1,100 in both rooms, champagne from £350 in the Main Room and from £500 in the King's Room",
-      "Your minimum spend put towards drinks, with the figure confirmed when you book",
+      "Tables from £1,000 minimum spend, in either room",
     ],
     knownFor: [
       "Two rooms, each with its own drinks menu: the Main Room and the VIP King's Room",
@@ -1028,7 +1032,7 @@ export const clubs: Club[] = [
       {
         heading: "Tables in the Main Room and the King's Room",
         content:
-          "Tables are bookable in both rooms. The VIP King's Room has tables K2 to K7 around a VIP bar, and the Main Room has tables numbered 1 to 14 around the main bar. The minimum spend is confirmed when you book: tell us the night, your group size and the room you want, and we will come back with it.",
+          "Tables are bookable in both rooms. The VIP King's Room has tables K2 to K7 around a VIP bar, and the Main Room has tables numbered 1 to 14 around the main bar. Tables start from £1,000 minimum spend: tell us the night, your group size and the room you want, and we will come back with what is available.",
       },
       {
         heading: "Nights, Hours and the Door",
@@ -1060,7 +1064,7 @@ export const clubs: Club[] = [
       {
         question: "What is the minimum spend at The Rex Rooms?",
         answer:
-          "The minimum spend is confirmed when you book. Tables are bookable in both the Main Room and the VIP King's Room, so tell us the night, your group size and the room you want.",
+          "Tables start from £1,000 minimum spend, in the Main Room or the VIP King's Room. Tell us the night, your group size and the room you want.",
       },
       {
         question: "What is the King's Room at The Rex Rooms?",
@@ -1085,7 +1089,7 @@ export const clubs: Club[] = [
       {
         question: "How do I book bottle service at The Rex Rooms?",
         answer:
-          "WhatsApp us with your date, group size and the room you want. We'll confirm the table, the minimum spend and the drinks with you.",
+          "WhatsApp us with your date, group size and the room you want. We'll confirm the table and the drinks with you.",
       },
     ],
   },
