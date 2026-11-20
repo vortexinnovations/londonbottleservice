@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, Hanken_Grotesk, Spline_Sans_Mono } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import LeadRefTracker from "@/components/LeadRefTracker";
 import { LocalBusinessSchema } from "@/components/LocalBusinessSchema";
 import "./globals.css";
 
@@ -82,6 +83,7 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <LeadRefTracker />
       </body>
     </html>
   );
