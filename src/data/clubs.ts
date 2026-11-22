@@ -518,16 +518,16 @@ export const clubs: Club[] = [
   },
   {
     slug: "selene-london",
-    metaTitle: "Selene Club London: VIP Table Prices from £800",
-    metaDescription: "Floor tables at Selene London from £800, VIP from £2,000. Hip-hop, RnB and Afrobeats across several rooms, Thursday to Sunday. Book a table on WhatsApp.",
+    metaTitle: "Selene London Bottle Service and Bowling: Tables from £800",
+    metaDescription: "Bottle service at Selene London: tables from £800 minimum spend, with private bowling lanes to book alongside. Thursday to Sunday, 11pm to 4am, in Fitzrovia.",
     bookingSlug: "selene-london-table-booking",
     name: "Selene London",
     shortName: "Selene",
     tagline: "Multi-room club with bowling near Oxford Circus",
     description:
-      "Selene London, in Fitzrovia near Oxford Circus, is one of the West End's newest additions: a multi-room venue that combines a proper nightclub with private bowling lanes and multiple distinct spaces. It's built for groups who want options, variety, and a night that goes beyond sitting at a table in one room.",
+      "Bottle service at Selene London starts from £800 minimum spend per table, and the whole figure goes on the bottles and drinks served at your table. Selene is a multi-room nightclub at 4 Winsley Street in Fitzrovia, just north of Oxford Circus, on the site of the former Libertine. It opens Thursday to Sunday from 11pm to 4am, and its private bowling lanes can be booked alongside a table.",
     longDescription:
-      "Selene is the kind of venue that only exists because someone asked 'what if a nightclub also had bowling?' The result is surprisingly good. The venue spans multiple rooms, each with its own identity: the main club room plays hip-hop and RnB with the standard Mayfair bottle service setup, but there are also private bowling lanes where you can book a table and bowl between drinks. A third room offers a different vibe again. This multi-room concept makes Selene one of the most versatile venues in the West End. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights: it adds an activity element that gives people something to do beyond drinking and dancing. The venue is well-designed, the sound systems are proper, and the fit-out is high-end Mayfair standard. It's still relatively new on the scene, which means it hasn't yet developed the queues and sky-high pricing of some established venues.",
+      "Selene is the kind of venue that only exists because someone asked 'what if a nightclub also had bowling?' The venue spans multiple rooms: the main club room is where the tables and bottle service are, and the private bowling lanes can be booked alongside your table so your group can bowl between drinks. Groups can move between spaces throughout the night, which keeps things interesting and avoids the fatigue that can set in at single-room venues. The bowling lanes are particularly popular for birthday groups and corporate nights: they add an activity that gives people something to do beyond drinking and dancing. Selene is in Fitzrovia rather than Mayfair, a short walk north of Oxford Circus, and it stays open until 4am.",
     address: "4 Winsley Street, Fitzrovia, London W1W 8HF",
     area: "Fitzrovia",
     musicPolicy: "Hip-Hop, RnB, Afrobeats across multiple rooms",
@@ -535,17 +535,20 @@ export const clubs: Club[] = [
       "Smart. Standard Mayfair dress code: collared shirts and smart shoes for men, dressed-up for women. No casual wear.",
     openingNights: ["Thursday", "Friday", "Saturday", "Sunday"],
     openingHours: "11:00 PM to 4:00 AM",
+    schemaHours: { days: ["Thursday", "Friday", "Saturday", "Sunday"], opens: "23:00", closes: "04:00" },
     pricing: {
       floorTable: 800,
-      vipTable: 2000,
+      vipTable: null,
     },
+    // One table minimum is confirmed (from £800, owner 2026-10-21): no separate VIP card.
+    singleTableMinimum: true,
     whatsIncluded: [
       "Priority entry for your group",
-      "Reserved table in your chosen room",
+      "Reserved table, from £800 minimum spend",
       "Personal table service",
       "Premium spirits or champagne",
       "Mixers, ice, and garnishes",
-      "Access to all rooms including bowling (depending on package)",
+      "A private bowling lane alongside your table, if you book one",
     ],
     knownFor: [
       "Private bowling lanes within a nightclub",
@@ -557,12 +560,13 @@ export const clubs: Club[] = [
       "Groups who want variety and options. Birthdays where you want an activity element, corporate groups who need an icebreaker, or anyone who gets bored sitting at one table all night.",
     atmosphere:
       "Modern, varied, and social. The multi-room layout creates natural movement and energy shifts throughout the night.",
-    capacity: "Approximately 400 across all rooms",
+    // No confirmed capacity figure: left empty so the page shows none.
+    capacity: "",
     faqs: [
       {
         question: "How much is a table at Selene London?",
         answer:
-          "Tables at Selene London start from £800 minimum spend. VIP tables start from £2,000. Bowling lane packages may have different pricing structures. Contact us for the latest availability.",
+          "Tables at Selene London start from £800 minimum spend, and the minimum goes on the bottles and drinks served at your table. A private bowling lane can be booked alongside a table: send us your date and group size on WhatsApp for the price on your night.",
       },
       {
         question: "Can you go bowling at Selene London?",
@@ -572,7 +576,7 @@ export const clubs: Club[] = [
       {
         question: "What nights is Selene open?",
         answer:
-          "Selene is open Thursday, Friday, Saturday and Sunday nights. As a newer venue, they occasionally add special event nights: check with us for the latest schedule.",
+          "Selene is open Thursday, Friday, Saturday and Sunday nights, from 11pm to 4am. The club is at 4 Winsley Street, Fitzrovia, a short walk north of Oxford Circus.",
       },
       {
         question: "How does Selene compare to the Mayfair clubs?",
