@@ -21,7 +21,7 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
   if (!club) return null;
 
   const bookingMessage = encodeURIComponent(
-    `Hi, I'd like to book a table at ${club.name}. Here are my details:\n\nDate:\nGroup size:\nOccasion:\nAny preferences:`
+    `Hi, I found you on londonbottleservice.com and I'd like to book a table at ${club.name}. Here are my details:\n\nDate:\nGroup size:\nOccasion:\nAny preferences:`
   );
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${bookingMessage}`;
 

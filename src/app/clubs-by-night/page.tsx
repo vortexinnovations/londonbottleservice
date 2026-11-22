@@ -11,7 +11,7 @@ import { fitTitle } from "@/lib/seo";
 export const metadata: Metadata = {
   title: fitTitle("London Clubs Open Tonight: Mayfair Clubs Night by Night"),
   description:
-    "Monday is Cirque Le Soir, Tuesday is Tape and Reign, and Thursday has nine clubs open. Which London clubs are open tonight, with table prices by night.",
+    "Monday is Cirque Le Soir, Tuesday is Tape and Reign, and Thursday has eleven clubs open. Which London clubs are open tonight, with table prices by night.",
   alternates: {
     canonical: "https://londonbottleservice.com/clubs-by-night",
   },
@@ -27,12 +27,12 @@ const nightFaqs = [
   {
     question: "Which London clubs are open on weekdays?",
     answer:
-      "Several Mayfair clubs operate on weekdays. Monday: Cirque Le Soir. Tuesday: Tape London, Reign London. Wednesday: Cirque Le Soir, The Box, 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu), which both open Wednesday to Saturday. Thursday is the biggest weekday with nine of the clubs listed here open. Weekday minimum spends are often lower than weekends.",
+      "Several Mayfair clubs operate on weekdays. Monday: Cirque Le Soir. Tuesday: Tape London, Reign London. Wednesday: Cirque Le Soir, The Box, 99 Regent Street (formerly Cuckoo Club) and Rumour (formerly Tabu), which both open Wednesday to Saturday. Thursday is the biggest weekday with eleven of the clubs listed here open. Weekday minimum spends are often lower than weekends.",
   },
   {
     question: "What is the best night to go clubbing in London?",
     answer:
-      "Saturday is the biggest night with twelve of the clubs listed here open and the strongest crowds. Friday is nearly as busy with a more local crowd. Thursday is excellent value: nine clubs open, strong atmosphere, but lower minimum spends. Each night has its own character.",
+      "Saturday is the biggest night with fourteen of the clubs listed here open and the strongest crowds. Friday is nearly as busy with a more local crowd. Thursday is excellent value: eleven clubs open, strong atmosphere, but lower minimum spends. Each night has its own character.",
   },
   {
     question: "Are London clubs open on Monday?",
@@ -87,7 +87,7 @@ const nights: NightData[] = [
     night: "Thursday",
     status: "active",
     description:
-      "Thursday is the sweet spot for many London regulars: strong atmosphere, real buzz, but without Saturday's premium pricing. Ten of the clubs listed here are open, giving you real choice across music genres and atmospheres. This is the night when Mayfair professionals come out, international visitors start their long weekends, and the energy is unmistakably 'big night' without the chaos.",
+      "Thursday is the sweet spot for many London regulars: strong atmosphere, real buzz, but without Saturday's premium pricing. Eleven of the clubs listed here are open, giving you real choice across music genres and atmospheres. Bisou, the house music club on Swallow Street, starts its week on Thursday, from 11pm. This is the night when Mayfair professionals come out, international visitors start their long weekends, and the energy is unmistakably 'big night' without the chaos.",
     clubs: [
       "london-reign",
       "scotch-of-st-james",
@@ -99,6 +99,7 @@ const nights: NightData[] = [
       "99-regent-street",
       "rumour-london",
       "rex-rooms-chelsea",
+      "bisou-mayfair",
     ],
     vibe: "Buzzing. The Mayfair crowd is out in force and the energy is high without being overwhelming.",
     tip: "Thursday is the insider's night. The crowds are strong, the atmosphere is excellent, and minimum spends are typically 10-20% lower than Saturday. If you want the Mayfair experience without the Saturday premium, this is your night.",
@@ -107,7 +108,7 @@ const nights: NightData[] = [
     night: "Friday",
     status: "peak",
     description:
-      "Friday brings out the weekend warriors. Thirteen of the clubs listed here are open and the streets of Mayfair buzz with groups heading from dinner to the clubs. The crowd skews more local on Fridays: Londoners who've finished the work week and are ready to go. It's the best night if you want a strong atmosphere without Saturday's international tourist influx.",
+      "Friday brings out the weekend warriors. Fourteen of the clubs listed here are open and the streets of Mayfair buzz with groups heading from dinner to the clubs. The crowd skews more local on Fridays: Londoners who've finished the work week and are ready to go. It's the best night if you want a strong atmosphere without Saturday's international tourist influx.",
     clubs: [
       "tape-london",
       "cirque-le-soir",
@@ -122,6 +123,7 @@ const nights: NightData[] = [
       "rumour-london",
       "luna-club-london",
       "rex-rooms-chelsea",
+      "bisou-mayfair",
     ],
     vibe: "High energy, more local than Saturday. The end-of-week buzz is real and the clubs feed off it.",
     tip: "Friday at Maddox is a strong choice if you want to combine dinner and clubbing. Book an early dinner slot and transition seamlessly into the club.",
@@ -130,7 +132,7 @@ const nights: NightData[] = [
     night: "Saturday",
     status: "peak",
     description:
-      "Saturday is the main event. Thirteen of the clubs listed here are open, every venue is at capacity, and the energy across London is at its peak. This is the night with the highest minimum spends but also the strongest atmosphere, biggest names on the DJ line-ups, and the most memorable experiences. If you're only going out once, make it Saturday.",
+      "Saturday is the main event. Fourteen of the clubs listed here are open, every venue is at capacity, and the energy across London is at its peak. This is the night with the highest minimum spends but also the strongest atmosphere, biggest names on the DJ line-ups, and the most memorable experiences. If you're only going out once, make it Saturday.",
     clubs: [
       "tape-london",
       "cirque-le-soir",
@@ -145,6 +147,7 @@ const nights: NightData[] = [
       "rumour-london",
       "luna-club-london",
       "rex-rooms-chelsea",
+      "bisou-mayfair",
     ],
     vibe: "Peak Mayfair. International crowd, maximum energy, highest production. This is the night London nightlife is famous for.",
     tip: "Book early for Saturday: premium tables sell out weeks in advance, especially at Cirque Le Soir and Tape London. The earlier you book, the better your table position.",

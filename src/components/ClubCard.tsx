@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { type Club, formatNights } from "@/data/clubs";
 import { Price } from "@/components/Price";
-import { getClubImages } from "@/data/images";
+import { getClubImages, hasClubPhotos } from "@/data/images";
+import { NoPhotoPlate } from "@/components/NoPhotoPlate";
 
 interface ClubCardProps {
   club: Club;
@@ -39,13 +40,17 @@ export function ClubCard({ club, index, total }: ClubCardProps) {
         />
         <div className="relative border border-border-light group-hover:border-gold-dark transition-colors duration-300 bg-bg-primary p-2.5">
           <div className="relative aspect-[3/2] overflow-hidden">
-            <Image
-              src={images.card}
-              alt={images.alt}
-              fill
-              className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
-              sizes="(max-width: 768px) 100vw, 50vw"
-            />
+            {hasClubPhotos(club.slug) ? (
+              <Image
+                src={images.card}
+                alt={images.alt}
+                fill
+                className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
+            ) : (
+              <NoPhotoPlate name={club.name} />
+            )}
           </div>
         </div>
       </div>

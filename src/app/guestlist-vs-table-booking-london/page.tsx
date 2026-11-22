@@ -433,6 +433,8 @@ export default function GuestlistVsTableBookingPage() {
                   ? "No guestlist: entry is by table booking"
                   : club.slug === "rex-rooms-chelsea"
                   ? "Doors open at 11pm, and mixed groups who arrive before 11:30pm get in free (as of November 2026); otherwise guestlist and entry are by request. Tables from £1,000 minimum spend in the Main Room or the VIP King's Room"
+                  : club.slug === "bisou-mayfair"
+                  ? "Guestlist is by request through us, and any entry charge is confirmed when you book. Tables from £1,000 minimum spend, Thursday to Saturday"
                   : club.slug === "scotch-of-st-james"
                     ? "Entry is walk-in at the door; there is no guestlist. Tables can be booked."
                     : club.slug === "tape-london"

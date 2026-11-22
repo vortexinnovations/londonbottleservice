@@ -413,6 +413,17 @@ export const sectionImages = {
   divider3: `${G}/23.jpg`,
 };
 
+/**
+ * Open clubs with no photographs of their own yet. Their hero and cards show a
+ * plain plate (NoPhotoPlate), never another venue's photo. Remove a slug from
+ * here once its photos are added to clubImages.
+ */
+export const clubsWithoutPhotos: ReadonlySet<string> = new Set(["bisou-mayfair"]);
+
+export function hasClubPhotos(slug: string): boolean {
+  return !clubsWithoutPhotos.has(slug);
+}
+
 // Helper: get club images with fallback
 export function getClubImages(slug: string): ClubImageSet {
   return (

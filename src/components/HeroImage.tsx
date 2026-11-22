@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 interface HeroImageProps {
-  src: string;
+  /** Leave out for a page with no photograph of its own: the hero is then plain ink. */
+  src?: string;
   alt: string;
   priority?: boolean;
   height?: string;
@@ -31,16 +32,18 @@ export function HeroImage({
   }[overlay];
 
   return (
-    <section className={`relative ${height} flex items-end`}>
-      <Image
-        src={src}
-        alt={alt}
-        fill
-        className="object-cover img-grade"
-        priority={priority}
-        sizes="100vw"
-      />
-      <div className={`absolute inset-0 ${overlayClass}`} />
+    <section className={`relative ${height} flex items-end${src ? "" : " bg-bg-secondary"}`}>
+      {src && (
+        <Image
+          src={src}
+          alt={alt}
+          fill
+          className="object-cover img-grade"
+          priority={priority}
+          sizes="100vw"
+        />
+      )}
+      {src && <div className={`absolute inset-0 ${overlayClass}`} />}
       {/* Soft vignette */}
       <div
         className="absolute inset-0"

@@ -34,7 +34,7 @@ export const WHATSAPP_DISPLAY =
 export function getWhatsAppLink(clubName?: string): string {
   let message: string;
   if (clubName) {
-    message = `Hi, I'd like to book a table at ${clubName}. Here are my details:\n\nDate:\nGroup size:\nOccasion:\nAny preferences:`;
+    message = `Hi, I found you on londonbottleservice.com and I'd like to book a table at ${clubName}. Here are my details:\n\nDate:\nGroup size:\nOccasion:\nAny preferences:`;
   } else {
     message = `Hi, I found you on londonbottleservice.com and I'd like to book a table. Here are my details:\n\nClub:\nDate:\nGroup size:\nOccasion:\nAny preferences:`;
   }

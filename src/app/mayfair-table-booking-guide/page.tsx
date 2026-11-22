@@ -38,7 +38,7 @@ const faqs = [
   {
     question: "How much does a table cost in Mayfair?",
     answer:
-      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox and Rumour (formerly Tabu), whose booths start from £1,000. Some start lower: 99 Regent Street (formerly Cuckoo Club) from £600, Tape London from £750, and Selene London, London Reign and Dear Darling Mayfair from £800. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
+      "Most clubs in and around Mayfair start at £1,000 minimum spend for a standard floor table. This includes Maddox, Bisou on Swallow Street, and Rumour (formerly Tabu), whose booths start from £1,000. Some start lower: 99 Regent Street (formerly Cuckoo Club) from £600, Tape London from £750, and Selene London, London Reign and Dear Darling Mayfair from £800. VIP tables across Mayfair range from £2,000 to £3,000. Prices can increase on peak nights, for special events, and during holiday periods.",
   },
   {
     question: "What is the dress code for Mayfair nightclubs?",
@@ -48,7 +48,7 @@ const faqs = [
   {
     question: "What is the best night to go to a Mayfair club?",
     answer:
-      "Saturday is the biggest night at every Mayfair club: the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling. Wednesday is available at Cirque Le Soir, The Box, 99 Regent Street and Rumour, with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
+      "Saturday is the biggest night at every Mayfair club: the fullest crowds, highest energy, and highest minimum spends. Friday is excellent across all venues with slightly lower prices. Thursday is a strong option at Selene and Dear Darling, and it is the first night of the week at Bisou. Wednesday is available at Cirque Le Soir, The Box, 99 Regent Street and Rumour, with the lowest minimum spends. For value, midweek nights offer a comparable experience at reduced minimums.",
   },
   {
     question: "How do I book a table in Mayfair?",
@@ -323,7 +323,7 @@ export default function MayfairTableBookingGuidePage() {
               </h3>
               <p className="text-text-muted text-sm leading-relaxed">
                 Available at Selene, Dear Darling, Maddox,
-                Scotch of St James, 99 Regent Street and Rumour. Thursdays
+                Scotch of St James, 99 Regent Street, Rumour and Bisou. Thursdays
                 attract a local, regular crowd and the atmosphere at the
                 best venues is genuinely excellent. Minimum spends are the
                 lowest of the weekend stretch and VIP availability is

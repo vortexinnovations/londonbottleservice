@@ -289,6 +289,25 @@ const reviews: ClubReview[] = [
       "Closed on Tuesday and Sunday, with last entry at 2am",
     ],
   },
+  {
+    slug: "bisou-mayfair",
+    rank: 13,
+    headline: "New in 2026: House Music on Swallow Street, Tables from £1,000",
+    review:
+      "Bisou is the newest club on this list: a bar and nightclub that opened in 2026 at 9 Swallow Street, the short lane between Regent Street and Piccadilly. The music is house, and Bisou describes itself as an audiophile space, with a Void Acoustics sound system tuned to the room. Tables start from £1,000 minimum spend, as of November 2026. The club publishes no bottle menu or bottle prices, so we confirm what your table covers when you book. It opens Thursday to Saturday from 11pm until late, and guestlist is by request.",
+    bestFor: "House music fans who want a table in Mayfair, and anyone who cares how a room sounds",
+    prosText: [
+      "House music on a Void Acoustics sound system tuned to the room",
+      "Tables from £1,000 minimum spend",
+      "On Swallow Street, with Piccadilly Circus the nearest tube",
+      "Guestlist by request as well as tables",
+    ],
+    consText: [
+      "No published bottle menu or bottle prices: ask us before you book",
+      "Open Thursday to Saturday only",
+      "No closing time, dress code or age limit is published, so bring photo ID and dress smart",
+    ],
+  },
 ];
 
 export default function BestClubsPage() {

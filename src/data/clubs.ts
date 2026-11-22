@@ -21,6 +21,13 @@ export interface Club {
   previousName?: string;
   /** Closed venues only: one sentence naming the owner-confirmed successor, shown after "has closed". */
   successorNote?: string;
+  /**
+   * Closed venues only: slug of an open club that has since opened at the same
+   * address. The closed banner links it and it leads the alternatives.
+   */
+  sameAddressSlug?: string;
+  /** Page heading in place of the generated "<name> Table Prices & VIP Bottle Service". */
+  h1?: string;
   /** Meta title body when the generated one runs past 60 characters (no site name). */
   metaTitle?: string;
   /** Meta description (120 to 155 characters) in place of the generated one. */
@@ -39,7 +46,8 @@ export interface Club {
   nightsLabel?: string;
   openingHours: string;
   /** Calendar days and 24-hour times for structured data, when the doors open on the morning after the night named. */
-  schemaHours?: { days: string[]; opens: string; closes: string };
+  /** Leave `closes` out when the club publishes no closing time: none is then emitted. */
+  schemaHours?: { days: string[]; opens: string; closes?: string };
   pricing: ClubPricing;
   whatsIncluded: string[];
   knownFor: string[];
@@ -49,7 +57,10 @@ export interface Club {
   faqs: { question: string; answer: string }[];
   /** One starting minimum for every table: the club page shows a single table price card, no VIP card. */
   singleTableMinimum?: boolean;
-  /** Extra guide sections on the club page; paragraphs are separated by a blank line. */
+  /**
+   * Extra guide sections on the club page; paragraphs are separated by a blank line.
+   * Here and in longDescription, [text](/path) is rendered as an internal link.
+   */
   guideSections?: { heading: string; content: string }[];
 }
 
@@ -205,7 +216,7 @@ export const clubs: Club[] = [
     description:
       "99 Regent Street (formerly Cuckoo Club) is a two-floor Mayfair club at the Piccadilly Circus end of Regent Street, entered on Swallow Street. The upstairs main room plays open-format hip-hop and RnB, downstairs plays house, and tables start from £600 minimum spend with entry for your whole group included. It opens Wednesday to Saturday, 11pm to 4am.",
     longDescription:
-      "This has been a nightlife address since 1954, when it was the Stork Club, whose guests ran from Harold Macmillan to Frank Sinatra and Elizabeth Taylor. It then spent the best part of two decades as the Cuckoo Club, and in October 2026 the Cuckoo founders reopened the same floor as 99 Regent Street, with a new concept. The club runs over two floors of around 200 each, joined by a staircase, with dark panelling, warm low lighting, banquette seating and a long bar. Upstairs is the main room, where most tables sit, playing open-format hip-hop and RnB; downstairs plays house, darker and more dance-focused. Both floors run on Friday and Saturday, and one floor opens on Wednesday and Thursday. For bottle service, tables start from £600 minimum spend. That figure is spent on drinks rather than charged as a fee on top, and it covers entry for your whole group. The minimum rises with the night, the size of your group and the position of the table, and VIP and larger tables are priced on request. The door is 19+ with physical photo ID, a year older than most London doors, and the dress code is elegant and enforced. The venue has a membership whose details are not published; we book tables and guestlist for non-members. Piccadilly Circus is a two-minute walk, and Oxford Circus and Green Park are both within walking distance.",
+      "This has been a nightlife address since 1954, when it was the Stork Club, whose guests ran from Harold Macmillan to Frank Sinatra and Elizabeth Taylor. It then spent the best part of two decades as the Cuckoo Club, and in October 2026 the Cuckoo founders reopened the same floor as 99 Regent Street, with a new concept. The club runs over two floors of around 200 each, joined by a staircase, with dark panelling, warm low lighting, banquette seating and a long bar. Upstairs is the main room, where most tables sit, playing open-format hip-hop and RnB; downstairs plays house, darker and more dance-focused. Both floors run on Friday and Saturday, and one floor opens on Wednesday and Thursday. For bottle service, tables start from £600 minimum spend. That figure is spent on drinks rather than charged as a fee on top, and it covers entry for your whole group. The minimum rises with the night, the size of your group and the position of the table, and VIP and larger tables are priced on request. The door is 19+ with physical photo ID, a year older than most London doors, and the dress code is elegant and enforced. The venue has a membership whose details are not published; we book tables and guestlist for non-members. Piccadilly Circus is a two-minute walk, and Oxford Circus and Green Park are both within walking distance. [Bisou](/clubs/bisou-mayfair), a house music bar and nightclub we also book, is on Swallow Street too.",
     address: "99 Regent Street, London W1B 4EZ",
     area: "Mayfair",
     musicPolicy: "Open-format Hip-Hop and RnB upstairs, House downstairs",
@@ -1093,6 +1104,144 @@ export const clubs: Club[] = [
       },
     ],
   },
+  {
+    // Bisou (owner and the club's own site, 2026-11-22). Published facts only: no
+    // closing time, age limit, capacity, bottle menu or bottle prices exist, so none
+    // is stated here. No photos yet: see clubsWithoutPhotos in images.ts.
+    slug: "bisou-mayfair",
+    metaTitle: "Bisou Mayfair Bottle Service: Tables from £1,000",
+    metaDescription: "Bottle service at Bisou, 9 Swallow Street, Mayfair: tables from £1,000 minimum spend, Thursday to Saturday from 11pm. No bottle prices are published.",
+    h1: "Bisou Mayfair Bottle Service and Tables",
+    // No separate booking page: like BEAT and The Rex Rooms, hub links follow bookingSlug to the club page.
+    bookingSlug: "clubs/bisou-mayfair",
+    name: "Bisou",
+    shortName: "Bisou",
+    tagline: "House music and tables from £1,000 on Swallow Street, Mayfair",
+    description:
+      "Bisou, also known as Bisou Mayfair, is a bar and nightclub at 9 Swallow Street, Mayfair, which opened in 2026 and opens Thursday to Saturday from 11pm until late. Bottle service is by table booking, with tables from £1,000 minimum spend. The club publishes no bottle menu and no bottle prices, so we confirm what your table covers when you book.",
+    longDescription:
+      "Bisou opened in 2026 at 9 Swallow Street, the short lane between Regent Street and Piccadilly, and Piccadilly Circus is the nearest tube. People also search for it as Bisou Club Mayfair and Bisou London. It calls itself a bar and nightclub and describes itself as an audiophile space: the music is house, played on a Void Acoustics sound system tuned to the room. It opens on Thursday, Friday and Saturday from 11pm until late, and is closed from Sunday to Wednesday. The club publishes no closing time, so none is given here. Most recently before Bisou the address was Maison Close, which has closed.",
+    address: "9 Swallow Street, Mayfair, London W1B 4DF",
+    area: "Mayfair",
+    musicPolicy: "House",
+    dressCode:
+      "The club publishes no dress code. Our booking guidance: dress smart, as for any Mayfair club, with no sportswear. The door has the final say.",
+    openingNights: ["Thursday", "Friday", "Saturday"],
+    openingHours: "11pm until late",
+    // No closing time is published, so the structured data gives the opening time only.
+    schemaHours: { days: ["Thursday", "Friday", "Saturday"], opens: "23:00" },
+    pricing: {
+      floorTable: 1000,
+      vipTable: null,
+    },
+    // One table minimum is published (from £1,000): no separate VIP card.
+    singleTableMinimum: true,
+    whatsIncluded: [
+      "A reserved table at Bisou, from £1,000 minimum spend",
+      "Your minimum spend goes on drinks at the table: it is not an entry fee",
+      "No bottle menu or bottle prices are published, so we confirm what your table covers when you book",
+    ],
+    knownFor: [
+      "House music, Thursday to Saturday from 11pm until late",
+      "An audiophile room with a Void Acoustics sound system",
+      "9 Swallow Street, between Regent Street and Piccadilly",
+      "Tables from £1,000 minimum spend",
+    ],
+    bestFor:
+      "Groups who want a table for a house music night in Mayfair from Thursday to Saturday, and anyone who cares how a room sounds.",
+    atmosphere:
+      "A bar and nightclub built around its sound: house music on a Void Acoustics system tuned to the room.",
+    capacity: "",
+    guideSections: [
+      {
+        heading: "Bisou Bottle Service: How a Table Works",
+        content:
+          "Bottle service at Bisou means booking a table. Tables start from £1,000 minimum spend, as of November 2026. A minimum spend is not an entry fee or a charge on top: it is the amount your group spends on drinks at the table.\n\nThe £1,000 is a starting figure. Send us your date and group size and we will confirm the minimum for your night before you commit.",
+      },
+      {
+        heading: "No Published Bottle Menu or Bottle Prices",
+        content:
+          "Bisou does not publish a bottle menu or bottle prices, so this page lists none, and nothing here is estimated from other clubs. If you want to know what a champagne or a spirit costs before you book, ask us and we will confirm what is available for your night.",
+      },
+      {
+        heading: "Nights and Hours",
+        content:
+          "Bisou opens on Thursday, Friday and Saturday, from 11pm until late, and is closed from Sunday to Wednesday. The club does not publish a closing time, so we do not state one.",
+      },
+      {
+        heading: "Table or Guestlist",
+        content:
+          "A table is one way in and the guestlist is the other. Guestlist at Bisou is by request through us, and any entry charge is confirmed when you book. Tell us which you want, with your date and group size.",
+      },
+      {
+        heading: "Dress, ID and the Door",
+        content:
+          "The club publishes no dress code. Our booking guidance is to dress smart, as for any Mayfair club, with no sportswear. No age limit is published either: bring valid photo ID, a passport or a driving licence, for everyone in the group. The door has the final say.",
+      },
+      {
+        heading: "Getting to 9 Swallow Street",
+        content:
+          "Bisou is at 9 Swallow Street, Mayfair, London W1B 4DF. Swallow Street is the short lane between Regent Street and Piccadilly, and the nearest tube is Piccadilly Circus. [99 Regent Street](/clubs/99-regent-street) (formerly Cuckoo Club), which we also book, has its entrance on Swallow Street too.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How much is bottle service at Bisou Mayfair?",
+        answer:
+          "Tables at Bisou start from £1,000 minimum spend, as of November 2026. The club publishes no bottle menu and no bottle prices, so we do not quote any: we confirm the minimum for your night and what it covers when you book.",
+      },
+      {
+        question: "What is the minimum spend at Bisou?",
+        answer:
+          "Tables start from £1,000 minimum spend. That is the amount your group spends on drinks at the table, not an entry fee. Send us your date and group size and we will confirm the figure for your night.",
+      },
+      {
+        question: "Does Bisou have a bottle menu?",
+        answer:
+          "Bisou does not publish a bottle menu or bottle prices. Ask us when you book and we will confirm what is available for your night.",
+      },
+      {
+        question: "What nights is Bisou open?",
+        answer:
+          "Thursday, Friday and Saturday, from 11pm until late. It is closed from Sunday to Wednesday. The club does not publish a closing time.",
+      },
+      {
+        question: "Is there a guestlist at Bisou?",
+        answer:
+          "Yes, by request through us. Any entry charge is confirmed when you book. A table, from £1,000 minimum spend, is the other way in.",
+      },
+      {
+        question: "What music does Bisou play?",
+        answer:
+          "House. Bisou describes itself as an audiophile space, and the room runs on a Void Acoustics sound system tuned to the room.",
+      },
+      {
+        question: "What is the dress code at Bisou Mayfair?",
+        answer:
+          "The club publishes no dress code. Our booking guidance is to dress smart, as for any Mayfair club, with no sportswear. The door has the final say.",
+      },
+      {
+        question: "How old do you have to be to get into Bisou?",
+        answer:
+          "The club publishes no age limit. Bring valid photo ID, a passport or a driving licence, for everyone in your group, and note that the door has the final say.",
+      },
+      {
+        question: "Where is Bisou Mayfair?",
+        answer:
+          "9 Swallow Street, Mayfair, London W1B 4DF, on the short lane between Regent Street and Piccadilly. The nearest tube is Piccadilly Circus.",
+      },
+      {
+        question: "What was at 9 Swallow Street before Bisou?",
+        answer:
+          "Most recently Maison Close, which has closed. Long before that the address was Sibylla's, the 1966 club part-owned by George Harrison. Bisou opened there in 2026.",
+      },
+      {
+        question: "How do I book a table at Bisou?",
+        answer:
+          "WhatsApp us with your date and group size. We will confirm availability and the minimum spend for your night.",
+      },
+    ],
+  },
 ];
 
 // Permanently closed clubs — kept for SEO purposes only (people still search for these)
@@ -1137,13 +1286,16 @@ export const closedClubs: Club[] = [
   },
   {
     slug: "maison-close",
+    metaDescription: "Maison Close on Swallow Street has closed. A new club, Bisou, has since opened at the same address. Bisou, Maddox and BEAT London are open alternatives.",
+    successorNote: "A new club, Bisou, has since opened at the same address, 9 Swallow Street.",
+    sameAddressSlug: "bisou-mayfair",
     name: "Maison Close",
     shortName: "Maison Close",
     tagline: "French-inspired house music club on Swallow Street (permanently closed)",
     description:
-      "Maison Close was an intimate, French-inspired Mayfair club on Swallow Street with a house music policy. Maison Close is now permanently closed.",
+      "Maison Close was an intimate, French-inspired Mayfair club on Swallow Street with a house music policy. Maison Close is now permanently closed. A new club, Bisou, has since opened at the same address, 9 Swallow Street.",
     longDescription:
-      "Maison Close stood out in a hip-hop-heavy Mayfair scene by committing to house music, in a small room with a Parisian-inspired interior. The venue is now permanently closed. For house music with table service, Maddox and BEAT London are the closest alternatives on this site; for a general Mayfair night, try Cirque Le Soir, Selene London or Dear Darling. Send your date and group size on WhatsApp for a recommendation.",
+      "Maison Close stood out in a hip-hop-heavy Mayfair scene by committing to house music, in a small room with a Parisian-inspired interior. The venue is now permanently closed. A new club, [Bisou](/clubs/bisou-mayfair), has since opened at the same address, 9 Swallow Street: a house music bar and nightclub, open Thursday to Saturday from 11pm, with tables from £1,000 minimum spend. For house music with table service, Bisou, Maddox and BEAT London are the closest alternatives on this site; for a general Mayfair night, try Cirque Le Soir, Selene London or Dear Darling. Send your date and group size on WhatsApp for a recommendation.",
     address: "9 Swallow Street, London W1B 4DF",
     area: "Mayfair",
     musicPolicy: "House music",
@@ -1157,17 +1309,21 @@ export const closedClubs: Club[] = [
       "Parisian-inspired interior",
       "Intimate room",
     ],
-    bestFor: "Maison Close is permanently closed. For house music with table service, try Maddox or BEAT London.",
+    bestFor: "Maison Close is permanently closed. For house music with table service, try Bisou, which has since opened at the same address, Maddox or BEAT London.",
     atmosphere: "Intimate and Parisian-inspired, with a house music focus.",
     capacity: "Approximately 160",
     faqs: [
       {
         question: "Is Maison Close still open?",
-        answer: "No, Maison Close has permanently closed. For a similar night with table service close to Mayfair, Cirque Le Soir, Selene London or Dear Darling are the closest alternatives. Message us on WhatsApp with your date and group size for a recommendation.",
+        answer: "No, Maison Close has permanently closed. A new club, Bisou, has since opened at the same address, 9 Swallow Street, and plays house music from Thursday to Saturday. Other alternatives with table service close to Mayfair are Maddox, BEAT London, Cirque Le Soir, Selene London and Dear Darling. Message us on WhatsApp with your date and group size for a recommendation.",
       },
       {
         question: "Can I still book a table at Maison Close?",
-        answer: "No. Maison Close is closed, so tables can no longer be booked there. Tables at open Mayfair clubs can be arranged instead: send your date, group size and budget on WhatsApp.",
+        answer: "No. Maison Close is closed, so tables can no longer be booked there. Tables can be booked at Bisou, the club that has since opened at 9 Swallow Street, from £1,000 minimum spend, and at other open Mayfair clubs: send your date, group size and budget on WhatsApp.",
+      },
+      {
+        question: "What is at 9 Swallow Street now?",
+        answer: "Bisou, a bar and nightclub that opened at 9 Swallow Street in 2026. It plays house music and opens on Thursday, Friday and Saturday from 11pm until late. We book tables there from £1,000 minimum spend, and guestlist by request.",
       },
     ],
   },

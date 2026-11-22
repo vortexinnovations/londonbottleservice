@@ -24,7 +24,22 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
 import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
-import { getClubImages } from "@/data/images";
+import { getClubImages, hasClubPhotos } from "@/data/images";
+import { NoPhotoPlate } from "@/components/NoPhotoPlate";
+
+/** Renders [text](/path) in club copy as an internal link; everything else stays plain text. */
+function withLinks(text: string): React.ReactNode[] {
+  return text.split(/(\[[^\]]+\]\(\/[^)\s]*\))/g).map((part, i) => {
+    const m = part.match(/^\[([^\]]+)\]\((\/[^)\s]*)\)$/);
+    return m ? (
+      <Link key={i} href={m[2]} className="text-gold hover:text-gold-light transition-colors">
+        {m[1]}
+      </Link>
+    ) : (
+      part
+    );
+  });
+}
 
 interface ClubPageProps {
   params: Promise<{ slug: string }>;
@@ -70,7 +85,7 @@ export async function generateMetadata({
       canonical: `https://londonbottleservice.com/clubs/${slug}`,
     },
     openGraph: {
-      title: renamed || closed ? title : `${displayName} Table Prices & VIP Bottle Service`,
+      title: renamed || closed ? title : club.h1 ?? `${displayName} Table Prices & VIP Bottle Service`,
       description: renamed || closed
         ? description
         : `Book a VIP table at ${displayName}. ${club.pricing.floorTable === null ? "Table prices on request" : `${club.singleTableMinimum ? "Tables" : "Floor tables"} from £${club.pricing.floorTable.toLocaleString()}`}. ${club.tagline}.`,
@@ -87,8 +102,14 @@ export default async function ClubPage({ params }: ClubPageProps) {
   const closed = isClosedClub(slug);
   const renamed = !closed && Boolean(club.formerName);
   const alternatives = alternativesFor(club);
-  const otherClubs = clubs.filter((c) => c.slug !== slug);
+  // A club that has since opened at a closed venue's address leads its alternatives.
+  const sameAddress = club.sameAddressSlug ? getOpenClubBySlug(club.sameAddressSlug) : undefined;
+  const otherClubs = [
+    ...(sameAddress ? [sameAddress] : []),
+    ...clubs.filter((c) => c.slug !== slug && c.slug !== sameAddress?.slug),
+  ];
   const images = getClubImages(slug);
+  const hasPhotos = hasClubPhotos(slug);
 
   const nightclubSchema = {
     "@context": "https://schema.org",
@@ -151,7 +172,15 @@ export default async function ClubPage({ params }: ClubPageProps) {
               {club.name} Has Permanently Closed
             </h2>
             <p className="text-text-secondary text-sm leading-relaxed mb-4">
-              {club.name} is no longer open.{club.successorNote ? ` ${club.successorNote}` : ""} This page is maintained for informational purposes.
+              {club.name} is no longer open.{sameAddress ? (
+                <>
+                  {" "}A new club,{" "}
+                  <Link href={`/clubs/${sameAddress.slug}`} className="text-gold hover:text-gold-light transition-colors">
+                    {sameAddress.name}
+                  </Link>
+                  , has since opened at the same address, {club.address.split(",")[0]}.
+                </>
+              ) : club.successorNote ? ` ${club.successorNote}` : ""} This page is maintained for informational purposes.
               Looking for a similar experience? Check out our open venues below or message us on
               WhatsApp and we&apos;ll recommend the perfect alternative.
             </p>
@@ -198,11 +227,11 @@ export default async function ClubPage({ params }: ClubPageProps) {
 
       {/* Hero */}
       <HeroImage
-        src={images.hero}
+        src={hasPhotos ? images.hero : undefined}
         alt={images.alt}
         height="h-[50vh] min-h-[400px]"
         overlay="strong"
-        caption={`Fig. ${club.name}, ${club.area}`}
+        caption={hasPhotos ? `Fig. ${club.name}, ${club.area}` : undefined}
       >
         <p className="eyebrow !text-gold [text-shadow:0_1px_10px_rgba(15,12,8,0.9)] mb-4 animate-fade-up">
           {club.area} {club.openingNights.length > 0 && <>&middot; {formatNights(club, ", ")}</>}
@@ -212,6 +241,8 @@ export default async function ClubPage({ params }: ClubPageProps) {
             <>{club.name}: Permanently Closed</>
           ) : renamed ? (
             <>{club.formerName} Is Now {club.shortName}</>
+          ) : club.h1 ? (
+            <>{club.h1}</>
           ) : (
             <>{club.name}{" "}Table Prices &amp; VIP Bottle Service</>
           )}
@@ -325,7 +356,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
             What to Expect at {club.name}
           </h2>
           <p className="text-text-secondary leading-relaxed mb-8">
-            {club.longDescription}
+            {withLinks(club.longDescription)}
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -359,7 +390,7 @@ export default async function ClubPage({ params }: ClubPageProps) {
                 <h2 className="font-display text-2xl md:text-3xl font-normal mb-4">{section.heading}</h2>
                 {section.content.split("\n\n").map((paragraph, i) => (
                   <p key={i} className="text-text-secondary leading-relaxed mb-4 last:mb-0">
-                    {paragraph}
+                    {withLinks(paragraph)}
                   </p>
                 ))}
               </div>
@@ -472,13 +503,17 @@ export default async function ClubPage({ params }: ClubPageProps) {
                 >
                   <div className="border-b border-border-light p-2 bg-bg-primary">
                     <div className="relative aspect-[3/2] overflow-hidden">
-                      <Image
-                        src={cImages.card}
-                        alt={cImages.alt}
-                        fill
-                        className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
-                        sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
-                      />
+                      {hasClubPhotos(c.slug) ? (
+                        <Image
+                          src={cImages.card}
+                          alt={cImages.alt}
+                          fill
+                          className="object-cover img-grade group-hover:scale-[1.02] transition-transform duration-700"
+                          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 33vw"
+                        />
+                      ) : (
+                        <NoPhotoPlate name={c.name} />
+                      )}
                     </div>
                   </div>
                   <div className="p-4">
