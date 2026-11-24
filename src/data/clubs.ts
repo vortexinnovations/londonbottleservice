@@ -1422,6 +1422,38 @@ export function isClosedClub(slug: string): boolean {
   return closedClubs.some((c) => c.slug === slug);
 }
 
+/** "10:30 PM" as "22:30" for structured data; undefined when it is not a plain clock time. */
+function to24h(text: string): string | undefined {
+  const m = text.trim().match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)$/i);
+  if (!m) return undefined;
+  const hour = (Number(m[1]) % 12) + (m[3].toUpperCase() === "PM" ? 12 : 0);
+  return `${String(hour).padStart(2, "0")}:${m[2] ?? "00"}`;
+}
+
+/**
+ * Opening hours for a club's structured data. Only entries with both an
+ * opening and a closing time are emitted: when the club publishes no closing
+ * time (we never invent one), or the hours are not plain clock times, there
+ * are none.
+ */
+export function schemaOpeningHours(club: Club) {
+  const hours = club.schemaHours
+    ? { days: club.schemaHours.days, opens: club.schemaHours.opens, closes: club.schemaHours.closes }
+    : (() => {
+        const [from, to, ...rest] = club.openingHours.split(" to ");
+        return rest.length === 0 && to
+          ? { days: club.openingNights, opens: to24h(from), closes: to24h(to) }
+          : undefined;
+      })();
+  if (!hours?.opens || !hours.closes || hours.days.length === 0) return undefined;
+  return hours.days.map((day) => ({
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: day,
+    opens: hours.opens,
+    closes: hours.closes,
+  }));
+}
+
 /** "£1,000", or "On request" when no confirmed figure exists. */
 export function formatPrice(value: number | null): string {
   return value === null ? "On request" : `£${value.toLocaleString()}`;

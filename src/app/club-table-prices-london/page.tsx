@@ -4,7 +4,6 @@ import { clubs, formatPrice, priceSortValue, formatNights } from "@/data/clubs";
 import type { Club } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
-import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
@@ -120,7 +119,6 @@ export default function ClubTablePricesPage() {
 
   return (
     <>
-      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },

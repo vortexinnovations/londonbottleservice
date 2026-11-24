@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
-import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { RelatedGuides } from "@/components/RelatedGuides";
@@ -80,7 +79,6 @@ const faqs = [
 export default function BottleServiceGuidePage() {
   return (
     <>
-      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },

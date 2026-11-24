@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { clubs, fromPrice, formatPrice, formatNights } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
-import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { ItemListSchema } from "@/components/ItemListSchema";
@@ -313,7 +312,6 @@ const reviews: ClubReview[] = [
 export default function BestClubsPage() {
   return (
     <>
-      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },

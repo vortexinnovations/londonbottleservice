@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { clubs, formatPrice } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
-import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
@@ -69,7 +68,6 @@ const faqs = [
 export default function GuestlistVsTableBookingPage() {
   return (
     <>
-      <FAQSchema faqs={faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },

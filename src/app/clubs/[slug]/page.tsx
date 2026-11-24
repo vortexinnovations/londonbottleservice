@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { clubs, allClubs, getClubBySlug, getOpenClubBySlug, isClosedClub, fromPrice, formatNights } from "@/data/clubs";
+import { clubs, allClubs, getClubBySlug, getOpenClubBySlug, isClosedClub, fromPrice, formatNights, schemaOpeningHours } from "@/data/clubs";
 import type { Club } from "@/data/clubs";
 import { fitTitle } from "@/lib/seo";
 
@@ -22,7 +22,6 @@ function joinNames(names: string[]): string {
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
-import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { getClubImages, hasClubPhotos } from "@/data/images";
 import { NoPhotoPlate } from "@/components/NoPhotoPlate";
@@ -111,40 +110,35 @@ export default async function ClubPage({ params }: ClubPageProps) {
   const images = getClubImages(slug);
   const hasPhotos = hasClubPhotos(slug);
 
+  // This page is about the club; it is not the club's own website, so the
+  // club is the page's subject and never takes this page's URL.
+  const pageUrl = `https://londonbottleservice.com/clubs/${slug}`;
   const nightclubSchema = {
     "@context": "https://schema.org",
-    "@type": "NightClub",
-    name: club.name,
-    alternateName: club.previousName,
-    description: club.description,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: club.address.split(",")[0],
-      addressLocality: "London",
-      addressCountry: "GB",
+    "@type": "WebPage",
+    "@id": pageUrl,
+    url: pageUrl,
+    about: {
+      "@type": "NightClub",
+      name: club.name,
+      alternateName: club.previousName,
+      description: club.description,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: club.address.split(",")[0],
+        addressLocality: "London",
+        addressCountry: "GB",
+      },
+      openingHoursSpecification: schemaOpeningHours(club),
+      priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
     },
-    openingHoursSpecification: club.schemaHours ? club.schemaHours.days.map((day) => ({
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: day,
-      opens: club.schemaHours?.opens,
-      closes: club.schemaHours?.closes,
-    })) : !club.openingHours.includes(" to ") ? undefined : club.openingNights.map((night) => ({
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: night,
-      opens: club.openingHours.split(" to ")[0].trim(),
-      closes: club.openingHours.split(" to ")[1]?.trim() || "03:00",
-    })),
-    priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
-    url: `https://londonbottleservice.com/clubs/${slug}`,
   };
 
   return (
     <>
-      <FAQSchema faqs={club.faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },
-          { name: "Clubs", url: "https://londonbottleservice.com/clubs" },
           { name: club.name },
         ]}
       />

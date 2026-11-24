@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { clubs } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
-import { FAQSchema } from "@/components/FAQSchema";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { HeroImage } from "@/components/HeroImage";
 import { pageImages } from "@/data/images";
@@ -170,7 +169,6 @@ function getClubName(slug: string): string {
 export default function ClubsByNightPage() {
   return (
     <>
-      <FAQSchema faqs={nightFaqs} />
 
       <div className="max-w-4xl mx-auto px-4 pt-6">
         <nav className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted">

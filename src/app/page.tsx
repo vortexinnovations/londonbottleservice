@@ -1,8 +1,8 @@
 import Link from "next/link";
+import { safeJsonLd } from "@/lib/safe-output";
 import { clubs } from "@/data/clubs";
 import { ClubCard } from "@/components/ClubCard";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
-import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { HeroImage } from "@/components/HeroImage";
@@ -50,8 +50,19 @@ export default async function HomePage() {
     .slice(0, LATEST_GUIDES);
   return (
     <>
-      <FAQSchema faqs={homeFAQs} />
       <BreadcrumbSchema items={[{ name: "Home" }]} />
+      {/* Site name for Google Search results. */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: safeJsonLd({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "London Bottle Service",
+            url: "https://londonbottleservice.com",
+          }),
+        }}
+      />
 
       {/* Hero */}
       <HeroImage

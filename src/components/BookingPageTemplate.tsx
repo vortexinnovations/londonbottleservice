@@ -2,13 +2,12 @@ import { safeJsonLd } from "@/lib/safe-output";
 import Link from "next/link";
 import Image from "next/image";
 import { getBookingPageBySlug } from "@/data/bookingPages";
-import { getOpenClubBySlug, clubs } from "@/data/clubs";
+import { getOpenClubBySlug, clubs, schemaOpeningHours } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WHATSAPP_NUMBER } from "@/lib/whatsapp";
 import { getBlogPostBySlug } from "@/data/blog";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { HeroImage } from "@/components/HeroImage";
-import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
 import { getClubImages, getBlogImages } from "@/data/images";
@@ -25,36 +24,38 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
   );
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${bookingMessage}`;
 
+  // This page is about booking the club; it is not the club's own website,
+  // so the club is the page's subject and never takes this page's URL.
+  const pageUrl = `https://londonbottleservice.com/${bookingSlug}`;
   const nightclubSchema = {
     "@context": "https://schema.org",
-    "@type": "NightClub",
-    name: club.name,
-    alternateName: club.previousName,
-    description: data.metaDescription,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: club.address.split(",")[0],
-      addressLocality: "London",
-      addressCountry: "GB",
-    },
-    openingHoursSpecification: !club.openingHours.includes(" to ") ? undefined : club.openingNights.map((night) => ({
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: night,
-      opens: club.openingHours.split(" to ")[0]?.trim(),
-      closes: club.openingHours.split(" to ")[1]?.trim() || "03:00",
-    })),
-    priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
-    url: `https://londonbottleservice.com/${bookingSlug}`,
-    potentialAction: {
-      "@type": "ReserveAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: whatsappUrl,
-        actionPlatform: "http://schema.org/MobileWebPlatform",
+    "@type": "WebPage",
+    "@id": pageUrl,
+    url: pageUrl,
+    about: {
+      "@type": "NightClub",
+      name: club.name,
+      alternateName: club.previousName,
+      description: club.description,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: club.address.split(",")[0],
+        addressLocality: "London",
+        addressCountry: "GB",
       },
-      result: {
-        "@type": "Reservation",
-        name: `Table Booking at ${club.name}`,
+      openingHoursSpecification: schemaOpeningHours(club),
+      priceRange: club.pricing.floorTable === null ? undefined : `From £${club.pricing.floorTable.toLocaleString()}`,
+      potentialAction: {
+        "@type": "ReserveAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: whatsappUrl,
+          actionPlatform: "http://schema.org/MobileWebPlatform",
+        },
+        result: {
+          "@type": "Reservation",
+          name: `Table Booking at ${club.name}`,
+        },
       },
     },
   };
@@ -78,7 +79,6 @@ export function BookingPageTemplate({ bookingSlug }: { bookingSlug: string }) {
   return (
     <>
       {/* Schema Markup */}
-      <FAQSchema faqs={data.faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },

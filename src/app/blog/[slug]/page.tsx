@@ -11,7 +11,6 @@ import { clubs, formatNights } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { ArticlePreferredSourcePrompt } from "@/components/PreferredSourceButton";
-import { FAQSchema } from "@/components/FAQSchema";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { HeroImage } from "@/components/HeroImage";
 import { postImages } from "@/data/images";
@@ -112,7 +111,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
   return (
     <>
-      <FAQSchema faqs={post.faqs} />
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://londonbottleservice.com" },
