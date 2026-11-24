@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { safeJsonLd } from "@/lib/safe-output";
-import { clubs } from "@/data/clubs";
+import { clubs, closedClubs } from "@/data/clubs";
 import { ClubCard } from "@/components/ClubCard";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
@@ -14,6 +14,13 @@ import { getMergedPosts } from "@/lib/posts";
 export const revalidate = 86400;
 
 const LATEST_GUIDES = 6;
+
+// Closed venues keep their pages (people still search for them); this line
+// keeps each one reachable from the club list.
+const CLOSED_VENUES = [
+  ...closedClubs.map((c) => ({ href: `/clubs/${c.slug}`, name: c.name })),
+  { href: "/clubs/luxx-club-london", name: "Luxx Club London" },
+];
 
 const homeFAQs = [
   {
@@ -159,6 +166,18 @@ export default async function HomePage() {
               </div>
             ))}
           </div>
+          <p className="text-text-muted text-[0.9375rem] leading-relaxed mt-20 md:mt-28 max-w-2xl">
+            Closed venues:{" "}
+            {CLOSED_VENUES.map((v, i) => (
+              <span key={v.href}>
+                {i > 0 && (i === CLOSED_VENUES.length - 1 ? " and " : ", ")}
+                <Link href={v.href} className="text-gold hover:text-gold-light transition-colors">
+                  {v.name}
+                </Link>
+              </span>
+            ))}
+            . Each page says what happened to the venue and lists open alternatives.
+          </p>
         </div>
       </section>
 

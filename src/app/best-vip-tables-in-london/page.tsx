@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs, fromPrice, formatPrice, formatNights } from "@/data/clubs";
+import { clubs, fromPrice, formatPrice, formatNights, bookingPath } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 import { TrustBadges } from "@/components/TrustBadges";
@@ -207,7 +207,7 @@ export default function BestVipTablesPage() {
                   >
                     <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                       <Link
-                        href={`/${club.bookingSlug}`}
+                        href={bookingPath(club)}
                         className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
@@ -318,7 +318,7 @@ export default function BestVipTablesPage() {
               </p>
               <h2 className="font-display italic text-3xl md:text-4xl font-normal mb-3">
                 <Link
-                  href={`/${club.bookingSlug}`}
+                  href={bookingPath(club)}
                   className="hover:text-gold transition-colors"
                 >
                   {club.name}
@@ -350,7 +350,7 @@ export default function BestVipTablesPage() {
 
               <div className="flex flex-wrap items-baseline gap-3">
                 <Link
-                  href={`/${club.bookingSlug}`}
+                  href={bookingPath(club)}
                   className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                 >
                   Book a VIP table at {club.name} &rarr;
@@ -394,7 +394,7 @@ export default function BestVipTablesPage() {
                 >
                   <h3 className="font-display italic text-lg mb-2">
                     <Link
-                      href={`/${club.bookingSlug}`}
+                      href={bookingPath(club)}
                       className="text-gold hover:text-gold-light transition-colors"
                     >
                       {club.name}

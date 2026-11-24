@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs, formatPrice, priceSortValue, formatNights } from "@/data/clubs";
+import { clubs, formatPrice, priceSortValue, formatNights, bookingPath } from "@/data/clubs";
 import type { Club } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
@@ -210,7 +210,7 @@ export default function ClubTablePricesPage() {
                   >
                     <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                       <Link
-                        href={`/${club.bookingSlug}`}
+                        href={bookingPath(club)}
                         className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
@@ -458,7 +458,7 @@ export default function ClubTablePricesPage() {
               >
                 <h3 className="font-display italic text-xl mb-4">
                   <Link
-                    href={`/${club.bookingSlug}`}
+                    href={bookingPath(club)}
                     className="text-gold hover:text-gold-light transition-colors"
                   >
                     {club.name}
@@ -507,7 +507,7 @@ export default function ClubTablePricesPage() {
                   </Link>
                   <span className="font-mono text-[0.6875rem] text-text-muted">&middot;</span>
                   <Link
-                    href={`/${club.bookingSlug}`}
+                    href={bookingPath(club)}
                     className="text-text-secondary hover:text-gold transition-colors"
                   >
                     Book a table

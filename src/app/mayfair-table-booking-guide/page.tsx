@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs, formatPrice, formatNights } from "@/data/clubs";
+import { clubs, formatPrice, formatNights, bookingPath } from "@/data/clubs";
 import { Price } from "@/components/Price";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { RelatedGuides } from "@/components/RelatedGuides";
@@ -180,7 +180,7 @@ export default function MayfairTableBookingGuidePage() {
                   >
                     <td className="py-3 pr-4 font-display italic text-[0.9375rem]">
                       <Link
-                        href={`/${club.bookingSlug}`}
+                        href={bookingPath(club)}
                         className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
@@ -366,7 +366,7 @@ export default function MayfairTableBookingGuidePage() {
                   <div>
                     <h3 className="font-display italic text-xl font-medium">
                       <Link
-                        href={`/${club.bookingSlug}`}
+                        href={bookingPath(club)}
                         className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
@@ -395,7 +395,7 @@ export default function MayfairTableBookingGuidePage() {
                 </p>
                 <div className="flex flex-wrap gap-3 items-baseline">
                   <Link
-                    href={`/${club.bookingSlug}`}
+                    href={bookingPath(club)}
                     className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                   >
                     Book a table &rarr;

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { clubs, formatPrice } from "@/data/clubs";
+import { clubs, formatPrice, bookingPath } from "@/data/clubs";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 import { RelatedGuides } from "@/components/RelatedGuides";
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
@@ -448,7 +448,7 @@ export default function GuestlistVsTableBookingPage() {
                   <div className="flex flex-col md:flex-row md:items-baseline md:justify-between gap-3 mb-2">
                     <h3 className="font-display italic text-lg font-normal">
                       <Link
-                        href={`/${club.bookingSlug}`}
+                        href={bookingPath(club)}
                         className="text-gold hover:text-gold-light transition-colors"
                       >
                         {club.name}
@@ -471,7 +471,7 @@ export default function GuestlistVsTableBookingPage() {
                   </p>
                   <div className="flex flex-wrap items-baseline gap-3">
                     <Link
-                      href={`/${club.bookingSlug}`}
+                      href={bookingPath(club)}
                       className="font-mono text-[0.6875rem] uppercase tracking-[0.2em] text-gold hover:text-gold-light transition-colors"
                     >
                       Book a table at {club.shortName} &rarr;

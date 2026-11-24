@@ -29,8 +29,8 @@ export const blogPosts: BlogPost[] = [
       "Actual bottle service prices at London's top clubs. Floor tables from £1,000, VIP from £1,500-£3,000+. We break down costs per person, bottle menu prices, and hidden fees to watch for.",
     excerpt:
       "The real cost of bottle service at every major London club, broken down by venue, night of the week, and group size. No vague 'contact us for pricing': actual numbers.",
-    publishedAt: "2025-01-15",
-    updatedAt: "2025-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Pricing",
     readingTime: "8 min read",
     keywords: [
@@ -72,8 +72,8 @@ export const blogPosts: BlogPost[] = [
       "Planning a birthday night out in London? Our insider guide to the best clubs for birthday celebrations, from theatrical experiences to exclusive members' clubs. Pricing, packages, and booking tips.",
     excerpt:
       "Your birthday deserves better than a generic bar. Here are the London clubs that actually make birthdays special, with real pricing and what each venue offers for celebrations.",
-    publishedAt: "2025-01-22",
-    updatedAt: "2025-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Guides",
     readingTime: "10 min read",
     keywords: [
@@ -117,8 +117,8 @@ export const blogPosts: BlogPost[] = [
       "Don't get turned away at the door. Our complete guide to Mayfair club dress codes: what to wear, what to avoid, and how strict each venue actually is. Men's and women's guides included.",
     excerpt:
       "Getting turned away at the door is embarrassing and completely avoidable. Here's exactly what to wear to every Mayfair club, from a booking team that deals with door policy every week.",
-    publishedAt: "2025-02-01",
-    updatedAt: "2025-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Tips",
     readingTime: "7 min read",
     keywords: [
@@ -162,8 +162,8 @@ export const blogPosts: BlogPost[] = [
       "Getting past the door at London's most exclusive clubs isn't about knowing a secret handshake. Our insider guide covers what actually works, from booking tables to guest list strategies.",
     excerpt:
       "The door policies at London's top clubs are genuinely selective. Here's what actually works to get in, and what's a complete waste of time.",
-    publishedAt: "2025-02-10",
-    updatedAt: "2025-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Tips",
     readingTime: "9 min read",
     keywords: [
@@ -207,8 +207,8 @@ export const blogPosts: BlogPost[] = [
       "Which London clubs do celebrities actually go to? An honest guide to celebrity hotspots in Mayfair: not gossip, but genuine insight into where you're most likely to spot someone famous.",
     excerpt:
       "Everyone wants to know where celebrities party in London. Here's the honest answer: which clubs genuinely attract famous faces and which ones just claim to.",
-    publishedAt: "2025-02-18",
-    updatedAt: "2025-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Guides",
     readingTime: "8 min read",
     keywords: [
@@ -246,8 +246,8 @@ export const blogPosts: BlogPost[] = [
       "First time experiencing London nightlife? Our complete guide covers everything, from which area to go out in, to how clubs work, what to expect, and how to have the best possible night.",
     excerpt:
       "Whether you're visiting London or hitting Mayfair for the first time, this guide covers everything you need to know to have a great night, without the trial and error.",
-    publishedAt: "2025-02-25",
-    updatedAt: "2025-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Guides",
     readingTime: "12 min read",
     keywords: [
@@ -291,8 +291,8 @@ export const blogPosts: BlogPost[] = [
       "What champagne should you order at a London club? Our guide covers every major brand, what they cost at Mayfair clubs, and which ones are actually worth the markup.",
     excerpt:
       "Dom Perignon or Moët? Ace of Spades or Veuve? Here's what every major champagne costs at London clubs and which ones are actually worth ordering.",
-    publishedAt: "2025-03-05",
-    updatedAt: "2025-03-10",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Guides",
     readingTime: "7 min read",
     keywords: [
@@ -336,8 +336,8 @@ export const blogPosts: BlogPost[] = [
       "Planning a hen party in London? Our guide to the best Mayfair clubs for hen nights, from showclubs with performers to exclusive members' clubs. Real prices and booking advice.",
     excerpt:
       "A Mayfair hen night beats a bar crawl in a sash. Here are the London clubs that actually make hen parties special, not just tolerate them.",
-    publishedAt: "2025-03-12",
-    updatedAt: "2025-03-15",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Events",
     readingTime: "9 min read",
     keywords: [
@@ -381,8 +381,8 @@ export const blogPosts: BlogPost[] = [
       "Mayfair or Shoreditch? Two completely different London nights out. We compare dress codes, prices, music, vibes, and who each area is best for.",
     excerpt:
       "Two of London's biggest nightlife areas couldn't be more different. Here's an honest comparison so you pick the right scene for your group.",
-    publishedAt: "2025-03-18",
-    updatedAt: "2025-03-20",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Guides",
     readingTime: "8 min read",
     keywords: [
@@ -421,8 +421,8 @@ export const blogPosts: BlogPost[] = [
       "Need to entertain clients in London? Our guide to the best clubs for corporate entertaining, from dinner-and-club venues to exclusive members' clubs. Impress without the cringe.",
     excerpt:
       "Client entertaining at a nightclub sounds risky. Done right, it's the most memorable night you can offer. Here's how to pick the right venue and avoid the pitfalls.",
-    publishedAt: "2025-03-22",
-    updatedAt: "2025-03-25",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Events",
     readingTime: "8 min read",
     keywords: [
@@ -466,8 +466,8 @@ export const blogPosts: BlogPost[] = [
       "Everything you need to know about Dear Darling in St James's. Table prices from £800, cocktail bar meets late-night club, dress code, music policy, and how to book.",
     excerpt:
       "Dear Darling has quickly become one of Mayfair's most talked-about venues. Here's why it deserves a spot on your shortlist, and what to expect when you get there.",
-    publishedAt: "2025-06-10",
-    updatedAt: "2026-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Club Guides",
     readingTime: "6 min read",
     keywords: [
@@ -510,8 +510,8 @@ export const blogPosts: BlogPost[] = [
       "The Box Soho is London's most daring nightclub. Tables from £1,500, avant-garde performances, extremely selective door. Here's the complete insider guide to getting in and making the most of it.",
     excerpt:
       "The Box isn't like any other club in London. Provocative performances, a fiercely selective door, and an atmosphere you won't find anywhere else. Here's what you need to know before you go.",
-    publishedAt: "2025-07-05",
-    updatedAt: "2026-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Club Guides",
     readingTime: "7 min read",
     keywords: [
@@ -555,8 +555,8 @@ export const blogPosts: BlogPost[] = [
       "Luna Club London, the Mayfair hip-hop club, has permanently closed. Here is what it was like and where to book a similar table instead.",
     excerpt:
       "Luna Club London has permanently closed. Here is what it offered and the open Mayfair clubs that come closest for a hip-hop night with table service.",
-    publishedAt: "2025-08-15",
-    updatedAt: "2026-03-01",
+    publishedAt: "2026-03-25",
+    updatedAt: "2026-03-25",
     category: "Club Guides",
     readingTime: "5 min read",
     keywords: [

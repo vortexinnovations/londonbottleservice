@@ -1422,6 +1422,14 @@ export function isClosedClub(slug: string): boolean {
   return closedClubs.some((c) => c.slug === slug);
 }
 
+/**
+ * Path of a club's booking page, or of its club page when it has none, so a
+ * club without a bookingSlug never produces a "/undefined" link.
+ */
+export function bookingPath(club: Pick<Club, "slug" | "bookingSlug">): string {
+  return `/${club.bookingSlug ?? `clubs/${club.slug}`}`;
+}
+
 /** "10:30 PM" as "22:30" for structured data; undefined when it is not a plain clock time. */
 function to24h(text: string): string | undefined {
   const m = text.trim().match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)$/i);

@@ -6,6 +6,10 @@ import { bookingPages } from "@/data/bookingPages";
 
 // Rendered per request from a cached post list (marked stale on every
 // content-API publish): on Vercel a prerendered sitemap is never refreshed.
+//
+// lastmod is only ever a real date: a post's own modified date, and for the
+// blog index the newest of those. Code pages carry none (never the request
+// time).
 export const dynamic = "force-dynamic";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -14,17 +18,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const clubPageUrls = allClubs.map((club) => ({
     url: `${baseUrl}/clubs/${club.slug}`,
-    lastModified: new Date(),
     changeFrequency: isClosedClub(club.slug) ? ("monthly" as const) : ("weekly" as const),
     priority: isClosedClub(club.slug) ? 0.4 : 0.9,
   }));
 
   const bookingPageUrls = bookingPages.map((page) => ({
     url: `${baseUrl}/${page.bookingSlug}`,
-    lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: 0.95,
   }));
+
+  const latestPostDate = blogPosts.map((p) => p.updatedAt).sort().at(-1);
 
   const blogPageUrls = blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
@@ -40,7 +44,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     "guestlist-vs-table-booking-london",
   ].map((slug) => ({
     url: `${baseUrl}/${slug}`,
-    lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.9,
   }));
@@ -48,13 +51,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     {
       url: baseUrl,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1,
     },
     {
       url: `${baseUrl}/book-a-table`,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
@@ -63,13 +64,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...clubPageUrls,
     {
       url: `${baseUrl}/clubs/luxx-club-london`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.5,
     },
     {
       url: `${baseUrl}/bottle-service-guide`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
@@ -80,19 +79,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
     {
       url: `${baseUrl}/clubs-by-night`,
-      lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/best-clubs-bottle-service-london`,
-      lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
+      ...(latestPostDate ? { lastModified: new Date(latestPostDate) } : {}),
       changeFrequency: "weekly",
       priority: 0.8,
     },
