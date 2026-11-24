@@ -7,7 +7,7 @@ const badges = [
   { figure: "Direct", label: "Venue Relationships", detail: "We work directly with every club" },
   { figure: "Instant", label: "Confirmation", detail: "WhatsApp response within minutes" },
   { figure: "No", label: "Hidden Fees", detail: "Transparent pricing, always" },
-  { figure: "500+", label: "Tables Booked", detail: "Trusted by London nightlife regulars" },
+  { figure: "Free", label: "Booking Service", detail: "No booking fee: you pay the venue's minimum spend" },
 ];
 
 export function TrustBadges() {

@@ -208,7 +208,7 @@ export default async function HomePage() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-12 border-t border-border md:border-t-0">
             {[
-              { href: "/best-clubs-bottle-service-london", label: "Best Clubs Ranked", desc: "Our honest reviews" },
+              { href: "/best-clubs-bottle-service-london", label: "Best Clubs Ranked", desc: "Our club rankings" },
               { href: "/club-table-prices-london", label: "Table Prices", desc: "Full price comparison" },
               { href: "/best-vip-tables-in-london", label: "Best VIP Tables", desc: "Premium positions ranked" },
               { href: "/guestlist-vs-table-booking-london", label: "Guestlist vs Table", desc: "Which should you choose?" },

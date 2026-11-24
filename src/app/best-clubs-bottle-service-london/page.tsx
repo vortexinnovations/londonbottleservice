@@ -14,7 +14,7 @@ import { fitTitle } from "@/lib/seo";
 export const metadata: Metadata = {
   title: fitTitle("Best Bottle Service Clubs in London 2026: Mayfair Ranked"),
   description:
-    "Honest rankings of London's best bottle service clubs. Every Mayfair venue reviewed with real prices and insider recommendations.",
+    "Rankings of London's best bottle service clubs. Every Mayfair venue compared, with real prices and recommendations from a London table booking team.",
   alternates: {
     canonical:
       "https://londonbottleservice.com/best-clubs-bottle-service-london",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best Clubs for Bottle Service in London",
     description:
-      "Honest reviews and rankings of London's best bottle service clubs. Prices, vibes, and recommendations from someone who books tables every week.",
+      "Rankings of London's best bottle service clubs. Prices, vibes, and recommendations from a London table booking team.",
     url: "https://londonbottleservice.com/best-clubs-bottle-service-london",
   },
 };
@@ -343,9 +343,9 @@ export default function BestClubsPage() {
           Best Clubs for Bottle Service in London
         </h1>
         <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
-          An honest, opinionated guide to every club we work with. We book tables at
-          all of these venues every week, so this isn&apos;t based on one visit or a press
-          release. It&apos;s based on consistent, real experience.
+          An opinionated guide to every club we work with. It is based on what the
+          venues announce and on the prices and door policies our booking desk works
+          with.
         </p>
       </HeroImage>
 

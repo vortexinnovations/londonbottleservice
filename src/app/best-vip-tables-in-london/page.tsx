@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Best VIP Tables in London 2026 | Top Clubs Ranked",
     description:
-      "Our definitive ranking of London's best VIP tables. Prices, atmosphere, and honest reviews from a team that books tables every week.",
+      "Our definitive ranking of London's best VIP tables. Prices, atmosphere, and booking advice from a London table booking team.",
     url: "https://londonbottleservice.com/best-vip-tables-in-london",
   },
 };

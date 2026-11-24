@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "London Club Table Prices 2026 | Complete Price Guide",
     description:
-      "Every London club table price in one place. Floor tables, VIP tables, per-person costs, and insider tips on value from a team that books hundreds of tables.",
+      "Every London club table price in one place. Floor tables, VIP tables, per-person costs, and tips on value from a London table booking team.",
     url: "https://londonbottleservice.com/club-table-prices-london",
   },
 };

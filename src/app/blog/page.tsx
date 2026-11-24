@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "London Nightlife Blog | Bottle Service Tips, Club Guides & Pricing",
     description:
-      "Expert guides to London's nightlife scene. Insider tips for Mayfair's best clubs.",
+      "Guides to London's nightlife scene and tips for booking a table at Mayfair's best clubs.",
     url: "https://londonbottleservice.com/blog",
   },
 };
@@ -53,9 +53,12 @@ export default async function BlogIndexPage() {
           London Nightlife Blog
         </h1>
         <p className="text-text-secondary text-lg leading-relaxed max-w-3xl animate-fade-up-2">
-          Insider guides, honest pricing breakdowns, and practical advice for
-          London&apos;s club scene. Written by people who book tables at these
-          venues every week, not SEO content farms.
+          Guides, pricing breakdowns, and practical advice for London&apos;s club
+          scene from a London table booking team.{" "}
+          <Link href="/about#how-we-write" className="text-gold hover:text-gold-light transition-colors">
+            How we write our guides
+          </Link>
+          .
         </p>
       </HeroImage>
 

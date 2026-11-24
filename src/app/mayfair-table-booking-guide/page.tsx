@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mayfair Table Booking Guide 2026 | Prices, Tips & How to Book",
     description:
-      "Everything you need to know about booking tables at Mayfair clubs. Prices, dress codes, best nights, and insider tips from a team that books every week.",
+      "Everything you need to know about booking tables at Mayfair clubs. Prices, dress codes, best nights, and booking tips from a London table booking team.",
     url: "https://londonbottleservice.com/mayfair-table-booking-guide",
   },
 };

@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const allGuides = [
-  { href: "/best-clubs-bottle-service-london", label: "Best Clubs Ranked", desc: "Honest reviews of every club" },
+  { href: "/best-clubs-bottle-service-london", label: "Best Clubs Ranked", desc: "Every club ranked" },
   { href: "/club-table-prices-london", label: "Table Prices", desc: "Full price comparison" },
   { href: "/best-vip-tables-in-london", label: "Best VIP Tables", desc: "Premium positions ranked" },
   { href: "/guestlist-vs-table-booking-london", label: "Guestlist vs Table", desc: "Which is right for you?" },

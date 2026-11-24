@@ -12,7 +12,7 @@ import { fitTitle } from "@/lib/seo";
 export const metadata: Metadata = {
   title: fitTitle("What Is Bottle Service? London Prices, Rules and Tips"),
   description:
-    "How bottle service works in London. Minimum spend explained, what's included, dress code, and how to book at Mayfair clubs. Real insider guide.",
+    "How bottle service works in London. Minimum spend explained, what's included, dress code, and how to book at Mayfair clubs. A practical guide.",
   alternates: {
     canonical: "https://londonbottleservice.com/bottle-service-guide",
   },
