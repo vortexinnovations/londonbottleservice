@@ -1,4 +1,3 @@
-import { safeJsonLd } from "@/lib/safe-output";
 import Link from "next/link";
 import { ReactNode } from "react";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
@@ -3468,10 +3467,6 @@ export const blogContent: Record<string, ReactNode> = {
   "bottle-service-deposits-payments-london": (
     <>
       <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
-
-      <p>
         <em>Last updated: 5 May 2026</em>
       </p>
 
@@ -3704,10 +3699,6 @@ export const blogContent: Record<string, ReactNode> = {
   ),
   "how-london-club-minimum-spend-works": (
     <>
-      <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
-
       <p>
         <em>Last updated: 2 May 2026</em>
       </p>
@@ -3967,9 +3958,6 @@ export const blogContent: Record<string, ReactNode> = {
   "champagne-vs-spirits-london-bottle-menu": (
     <>
       <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
-      <p>
         <em>Last updated: 9 May 2026</em>
       </p>
       <p>
@@ -4228,45 +4216,10 @@ export const blogContent: Record<string, ReactNode> = {
         </Link>{" "}
         directly and we will confirm pricing and availability before your night.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "Champagne vs Spirits: How to Order from a London Bottle Menu",
-            datePublished: "2026-05-09",
-            dateModified: "2026-05-09",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image:
-              "https://londonbottleservice.com/gallery/images/maison-close-069.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonbottleservice.com/blog/champagne-vs-spirits-london-bottle-menu",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "how-far-in-advance-to-book-bottle-service-london": (
     <>
-      <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
       <p>
         <em>Last updated: 16 May 2026</em>
       </p>
@@ -4473,45 +4426,10 @@ export const blogContent: Record<string, ReactNode> = {
         locked in, message us on WhatsApp and we will walk you through it for
         your specific venue.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "How Far in Advance Should You Book Bottle Service in London?",
-            datePublished: "2026-05-16",
-            dateModified: "2026-05-16",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image:
-              "https://londonbottleservice.com/gallery/images/12-DSC03270.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonbottleservice.com/blog/how-far-in-advance-to-book-bottle-service-london",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "champagne-bottle-sizes-explained": (
     <>
-      <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
       <p>
         <em>Last updated: 9 June 2026</em>
       </p>
@@ -4645,45 +4563,10 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will sort the details before you walk in.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "Champagne Bottle Sizes Explained: Magnum to Methuselah",
-            datePublished: "2026-06-09",
-            dateModified: "2026-06-09",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image:
-              "https://londonbottleservice.com/gallery/images/maison-close-001.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonbottleservice.com/blog/champagne-bottle-sizes-explained",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "how-many-bottles-for-a-club-table": (
     <>
-      <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
       <p>
         <em>Last updated: 10 June 2026</em>
       </p>
@@ -4834,45 +4717,10 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will confirm the venue&apos;s minimum and menu before your night.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline:
-              "How Many Bottles Do You Need for a Club Table? A Group-Size Guide",
-            datePublished: "2026-06-10",
-            dateModified: "2026-06-10",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image:
-              "https://londonbottleservice.com/gallery/images/maison-close-310.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id":
-                "https://londonbottleservice.com/blog/how-many-bottles-for-a-club-table",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "how-long-do-you-get-a-club-table-london": (
     <>
-      <p>
-        <em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em>
-      </p>
       <p>
         <em>Last updated: 11 June 2026</em>
       </p>
@@ -5009,41 +4857,10 @@ export const blogContent: Record<string, ReactNode> = {
         and we will confirm arrival windows, sittings and close times before
         you commit.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "How Long Do You Get a Club Table in London? Timings Explained",
-            datePublished: "2026-06-11",
-            dateModified: "2026-06-11",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image: "https://londonbottleservice.com/gallery/images/maison-close-1033.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonbottleservice.com/blog/how-long-do-you-get-a-club-table-london",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "how-to-split-club-table-cost-london": (
     <>
-      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
-
       <p><em>Last updated: 6 July 2026</em></p>
 
       <p>
@@ -5187,41 +5004,10 @@ export const blogContent: Record<string, ReactNode> = {
         <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         and we will give you the real numbers before anyone transfers a penny.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "How to Split the Cost of a Club Table in London: Who Pays What",
-            datePublished: "2026-07-06",
-            dateModified: "2026-07-06",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image: "https://londonbottleservice.com/gallery/images/maison-close-199.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonbottleservice.com/blog/how-to-split-club-table-cost-london",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "non-alcoholic-bottle-service-london": (
     <>
-      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
-
       <p><em>Last updated: 7 July 2026</em></p>
 
       <p>
@@ -5359,40 +5145,10 @@ export const blogContent: Record<string, ReactNode> = {
         <a href={WHATSAPP_URL} className="text-gold hover:underline">WhatsApp</a>{" "}
         and we will sort the details before anyone arrives.
       </p>
-
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: safeJsonLd({
-            "@context": "https://schema.org",
-            "@type": "Article",
-            headline: "Non-Alcoholic Bottle Service in London: What Clubs Offer",
-            datePublished: "2026-07-07",
-            dateModified: "2026-07-07",
-            author: {
-              "@type": "Person",
-              name: "Ethan Reid",
-              url: "https://londonbottleservice.com/about-the-editor/",
-              jobTitle: "Bottle Service & Hospitality Pro",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "London Bottle Service",
-              url: "https://londonbottleservice.com",
-            },
-            image: "https://londonbottleservice.com/gallery/images/maison-close-023.jpg",
-            mainEntityOfPage: {
-              "@type": "WebPage",
-              "@id": "https://londonbottleservice.com/blog/non-alcoholic-bottle-service-london",
-            },
-          }),
-        }}
-      />
     </>
   ),
   "can-you-take-bottles-home-from-a-london-club": (
     <>
-      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
       <p><em>Last updated: 13 July 2026</em></p>
       <p>
         It is quarter to three, the lights are threatening to come up, and there is a third of a bottle of vodka sitting in the ice bucket. Someone at the table says what everyone is thinking: we paid for that, surely we can take it home. It is one of the questions guests we book ask most often, and the answer almost never changes. Here is the honest, complete answer to whether you can take bottles home from a London club, what actually happens to the leftovers, and how to stop paying for spirits you never drink, as of July 2026.
@@ -5447,23 +5203,10 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will advise on the night itself.
       </p>
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd({
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "Can You Take Unfinished Bottles Home from a London Club?",
-        datePublished: "2026-07-13",
-        dateModified: "2026-07-13",
-        author: { "@type": "Person", name: "Ethan Reid", url: "https://londonbottleservice.com/about-the-editor/", jobTitle: "Bottle Service & Hospitality Pro" },
-        publisher: { "@type": "Organization", name: "London Bottle Service", url: "https://londonbottleservice.com" },
-        image: "https://londonbottleservice.com/gallery/images/maison-close-609.jpg",
-        mainEntityOfPage: { "@type": "WebPage", "@id": "https://londonbottleservice.com/blog/can-you-take-bottles-home-from-a-london-club" }
-      }) }} />
     </>
   ),
   "why-is-bottle-service-so-expensive-london": (
     <>
-      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
       <p><em>Last updated: 13 July 2026</em></p>
       <p>
         Every table has the moment. Someone picks up the menu, finds the bottle they bought last week in a supermarket, sees a number several times larger, and says the line every server in London has heard ten thousand times: you know how much this actually costs, right? This guide answers that question properly for once, from the venue side, without spin. The price is real, the reasons are structural, and once you see the maths you will read every bottle menu in London differently, as of July 2026.
@@ -5514,23 +5257,10 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will talk it through straight.
       </p>
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd({
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "Why Is Bottle Service So Expensive in London? The Real Economics",
-        datePublished: "2026-07-13",
-        dateModified: "2026-07-13",
-        author: { "@type": "Person", name: "Ethan Reid", url: "https://londonbottleservice.com/about-the-editor/", jobTitle: "Bottle Service & Hospitality Pro" },
-        publisher: { "@type": "Organization", name: "London Bottle Service", url: "https://londonbottleservice.com" },
-        image: "https://londonbottleservice.com/gallery/images/maison-close-946.jpg",
-        mainEntityOfPage: { "@type": "WebPage", "@id": "https://londonbottleservice.com/blog/why-is-bottle-service-so-expensive-london" }
-      }) }} />
     </>
   ),
   "service-charge-bottle-service-london": (
     <>
-      <p><em>By <Link href="/about-the-editor" className="text-gold hover:underline">Ethan Reid</Link>, Bottle Service &amp; Hospitality Pro</em></p>
       <p><em>Last updated: 7 September 2026</em></p>
       <p>
         Almost every guide to booking a table in London explains the minimum spend and then goes quiet about the last line on the bill. That line is the service charge, and it is the single most common source of a raised eyebrow at 3am, because it arrives after everyone has already agreed what they were spending. It is one of the questions we get asked after the night rather than before it, and this line is nearly always what prompted it. So here is the honest version, as of September 2026: what the charge is, whether it sits inside or on top of your minimum, and what changed in UK law recently that most guests still do not know about.
@@ -5601,18 +5331,6 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/book-a-table" className="text-gold hover:underline">book a table</Link>{" "}
         and we will give you the full number, service charge included, before you agree to anything.
       </p>
-
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: safeJsonLd({
-        "@context": "https://schema.org",
-        "@type": "Article",
-        headline: "Service Charge on Bottle Service in London: What You Pay",
-        datePublished: "2026-09-07",
-        dateModified: "2026-09-07",
-        author: { "@type": "Person", name: "Ethan Reid", url: "https://londonbottleservice.com/about-the-editor/", jobTitle: "Bottle Service & Hospitality Pro" },
-        publisher: { "@type": "Organization", name: "London Bottle Service", url: "https://londonbottleservice.com" },
-        image: "https://londonbottleservice.com/gallery/images/maison-close-517.jpg",
-        mainEntityOfPage: { "@type": "WebPage", "@id": "https://londonbottleservice.com/blog/service-charge-bottle-service-london" }
-      }) }} />
     </>
   ),
 };

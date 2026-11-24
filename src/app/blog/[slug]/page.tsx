@@ -93,10 +93,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     description: post.metaDescription,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
+    // Pages are credited to the team, never to a named writer (About page).
     author: {
       "@type": "Organization",
       name: "London Bottle Service",
-      url: "https://londonbottleservice.com",
+      url: "https://londonbottleservice.com/about",
     },
     publisher: {
       "@type": "Organization",
@@ -165,9 +166,15 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
             </span>
           </p>
 
-          <h1 className="font-display font-light text-3xl md:text-[2.75rem] leading-[1.1] mb-6">
+          <h1 className="font-display font-light text-3xl md:text-[2.75rem] leading-[1.1] mb-4">
             {post.title}
           </h1>
+          <p className="font-mono text-[0.625rem] uppercase tracking-[0.18em] text-text-muted mb-6">
+            By{" "}
+            <Link href="/about#how-we-write" className="text-gold hover:text-gold-light transition-colors">
+              the London Bottle Service team
+            </Link>
+          </p>
           <p className="font-display italic font-light text-text-secondary text-lg leading-relaxed mb-8 border-l-2 border-gold pl-4">
             {post.excerpt}
           </p>

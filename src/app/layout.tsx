@@ -3,7 +3,7 @@ import { Fraunces, Hanken_Grotesk, Spline_Sans_Mono } from "next/font/google";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import LeadRefTracker from "@/components/LeadRefTracker";
-import { LocalBusinessSchema } from "@/components/LocalBusinessSchema";
+import { OrganizationSchema } from "@/components/OrganizationSchema";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -79,7 +79,7 @@ export default function RootLayout({
       className={`${fraunces.variable} ${hanken.variable} ${splineMono.variable}`}
     >
       <body>
-        <LocalBusinessSchema />
+        <OrganizationSchema />
         <Header />
         <main>{children}</main>
         <Footer />

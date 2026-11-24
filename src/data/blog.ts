@@ -1548,8 +1548,8 @@ export const blogPosts: BlogPost[] = [
     slug: "how-long-do-you-get-a-club-table-london",
     title: "How Long Do You Get a Club Table in London? Timings Explained",
     metaTitle: "How Long Do You Get a Club Table?",
-    metaDescription: "How long a club table is yours in London: arrival windows, second sittings, when the bottles arrive and last orders, from a former senior club server.",
-    excerpt: "Your table is usually yours until close, but the exceptions catch people out. Arrival holds, second sittings and last orders, explained from the server side.",
+    metaDescription: "How long a club table is yours in London: arrival windows, second sittings, when the bottles arrive and last orders, explained.",
+    excerpt: "Your table is usually yours until close, but the exceptions catch people out. Arrival holds, second sittings and last orders, explained.",
     publishedAt: "2026-06-11",
     updatedAt: "2026-06-11",
     category: "Guides",
@@ -1570,7 +1570,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "How to split the cost of a club table in London: what you are actually splitting, the per-head maths, collecting money early, and handling dropouts.",
     excerpt:
-      "The table is booked and now comes the awkward part: the money. A former server's guide to splitting a London club table without anyone falling out.",
+      "The table is booked and now comes the awkward part: the money. Our guide to splitting a London club table without anyone falling out.",
     publishedAt: "2026-07-06",
     updatedAt: "2026-07-06",
     category: "Pricing",
@@ -1613,7 +1613,7 @@ export const blogPosts: BlogPost[] = [
     metaDescription:
       "Non-alcoholic bottle service at London clubs: the alcohol-free sparkling, zero-proof spirits and soft options on menus, and how they work with your table.",
     excerpt:
-      "You can run a full table without touching alcohol. What London bottle menus actually offer the non-drinkers, and how it works, from a former server.",
+      "You can run a full table without touching alcohol. What London bottle menus actually offer the non-drinkers, and how it works.",
     publishedAt: "2026-07-07",
     updatedAt: "2026-07-07",
     category: "Guides",
