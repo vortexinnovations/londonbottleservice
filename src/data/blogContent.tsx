@@ -3348,7 +3348,7 @@ export const blogContent: Record<string, ReactNode> = {
       </p>
       <p>
         For <strong>special occasions</strong>, the value goes beyond the maths. A birthday,
-        a promotion, a stag night, a reunion - these are nights where the experience matters
+        a promotion, a stag night, a reunion: these are nights where the experience matters
         more than the per-drink cost. Having your own space, personalised service, and
         the ability to celebrate without being squashed on the main floor is what makes the
         night memorable.
@@ -3396,7 +3396,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/cirque-le-soir" className="text-gold hover:underline">Cirque Le Soir</Link>{" "}
         puts you in the centre of the entertainment. A corner table at{" "}
         <Link href="/clubs/scotch-of-st-james" className="text-gold hover:underline">Scotch of St James</Link>{" "}
-        gives you a private vantage point over the room. The table is not just where you sit -
+        gives you a private vantage point over the room. The table is not just where you sit:
         it is how you experience the venue.
       </p>
       <p>
@@ -4317,7 +4317,7 @@ export const blogContent: Record<string, ReactNode> = {
         <Link href="/clubs/selene-london" className="text-gold hover:underline">
           Selene London
         </Link>{" "}
-        typically land near the back wall, away from the DJ booth - the best
+        typically land near the back wall, away from the DJ booth, because the best
         central tables go first. The minimum spend tends to creep up too: as
         Friday afternoon arrives, venues quietly close out the &pound;1,000
         entry tier and only offer &pound;1,500-plus tables on the night. From
@@ -4328,8 +4328,8 @@ export const blogContent: Record<string, ReactNode> = {
       <p>
         The other quiet cost is the bottle list. Premium and rare bottles run
         out, particularly limited stock of vintage champagne and Ace of Spades
-        magnums. If you have planned a specific bottle for a moment - an
-        engagement, a milestone, a toast - book early enough that the venue
+        magnums. If you have planned a specific bottle for a moment (an
+        engagement, a milestone, a toast), book early enough that the venue
         can confirm stock. Our{" "}
         <Link
           href="/bottle-service-guide"
